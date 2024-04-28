@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Code Server on Site Bay Guides &amp; Tutorials</title>
+    <link>https://www.sitebay.org/docs/products/code-server/</link>
+    <description>Recent content in Code Server on Site Bay Guides &amp; Tutorials</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 04 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.sitebay.org/docs/products/code-server/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Get Started</title>
+      <link>https://www.sitebay.org/docs/products/code-server/get-started/</link>
+      <pubDate>Thu, 04 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/products/code-server/get-started/</guid>
+      <description>Using Code Server (VSCode) on My Site Bay: A Simple GuideEver thought about using your favorite editor, VSCode, directly on your website?</description>
+    </item>
+    
+  </channel>
+</rss>

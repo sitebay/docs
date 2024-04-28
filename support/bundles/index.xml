@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bundles on Site Bay Guides &amp; Tutorials</title>
+    <link>https://www.sitebay.org/docs/bundles/</link>
+    <description>Recent content in Bundles on Site Bay Guides &amp; Tutorials</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 17 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.sitebay.org/docs/bundles/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>sitebay-management</title>
+      <link>https://www.sitebay.org/docs/bundles/sitebay-management/</link>
+      <pubDate>Sun, 17 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/bundles/sitebay-management/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

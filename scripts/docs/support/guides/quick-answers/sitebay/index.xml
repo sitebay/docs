@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Site Bay on Site Bay Guides &amp; Tutorials</title>
+    <link>https://www.sitebay.org/docs/guides/quick-answers/sitebay/</link>
+    <description>Recent content in Site Bay on Site Bay Guides &amp; Tutorials</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 04 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.sitebay.org/docs/guides/quick-answers/sitebay/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mastering Process Monitoring in Site Bay with the ps aux Command</title>
+      <link>https://www.sitebay.org/docs/guides/use-the-ps-aux-command-in-sitebay/</link>
+      <pubDate>Thu, 25 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/use-the-ps-aux-command-in-sitebay/</guid>
+      <description>Within the ecosystem of Site Bay&amp;rsquo;s WordPress hosting on Kubernetes, understanding the underlying Linux system processes is crucial for managing and troubleshooting your WordPress site.</description>
+    </item>
+    
+    <item>
+      <title>Embracing the Advantages of Open Source Software with Site Bay</title>
+      <link>https://www.sitebay.org/docs/guides/open-source-software-benefits/</link>
+      <pubDate>Wed, 24 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/open-source-software-benefits/</guid>
+      <description>Open-source software (OSS) is a cornerstone of innovation and flexibility in technology, powering enterprises and personal projects alike.</description>
+    </item>
+    
+    <item>
+      <title>Navigating Your WordPress Code Server with Linux Commands</title>
+      <link>https://www.sitebay.org/docs/guides/how-to-use-basic-commands-for-wordpress-linux/</link>
+      <pubDate>Mon, 22 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/how-to-use-basic-commands-for-wordpress-linux/</guid>
+      <description>Understanding the cd CommandOn Linux systems, cd stands as a fundamental command that alters your current directory within the terminal.</description>
+    </item>
+    
+    <item>
+      <title>Using the cd Command to Navigate the Terminal</title>
+      <link>https://www.sitebay.org/docs/guides/how-to-use-cd/</link>
+      <pubDate>Mon, 22 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/how-to-use-cd/</guid>
+      <description>What is cd?
+On Linux systems, cd is a command that changes the directory you are in when working in the terminal.</description>
+    </item>
+    
+    <item>
+      <title>Open Source vs. Closed Source in WordPress: What’s the Difference?</title>
+      <link>https://www.sitebay.org/docs/guides/gpl-in-wordpress/</link>
+      <pubDate>Sun, 21 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/gpl-in-wordpress/</guid>
+      <description>What is Open Source?
+In the early days of computing, all software was open source, meaning its source code was freely shared and could be modified by anyone.</description>
+    </item>
+    
+    <item>
+      <title>How to Migrate your WordPress site</title>
+      <link>https://www.sitebay.org/docs/guides/how-to-compress-wordpress-site-to-zip/</link>
+      <pubDate>Sat, 20 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/how-to-compress-wordpress-site-to-zip/</guid>
+      <description>aliases: [&amp;rsquo;/quick-answers/platform/how-to-compress-wordpress-site-to-zip&amp;rsquo;] Zipping your site&amp;rsquo;s wp-content folder
+Alright, so you wanna move your WordPress site to Site Bay?</description>
+    </item>
+    
+    <item>
+      <title>How to Migrate your WordPress site</title>
+      <link>https://www.sitebay.org/docs/guides/how-to-migrate-your-site/</link>
+      <pubDate>Sat, 20 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/how-to-migrate-your-site/</guid>
+      <description>aliases: [&amp;rsquo;/quick-answers/platform/how-to-migrate-your-site&amp;rsquo;] Migrating your site
+Ready to move your site to Site Bay? Don&amp;rsquo;t sweat it.</description>
+    </item>
+    
+    <item>
+      <title>Harnessing Git for Site Bay: A Comprehensive Guide</title>
+      <link>https://www.sitebay.org/docs/guides/how-to-use-git/</link>
+      <pubDate>Fri, 19 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/how-to-use-git/</guid>
+      <description>For our bi-directional Git Sync, you don&amp;rsquo;t actually need to manage and a git repo on your computer.</description>
+    </item>
+    
+    <item>
+      <title>How to Use Git Sync on Site Bay</title>
+      <link>https://www.sitebay.org/docs/guides/how-to-use-git-sync/</link>
+      <pubDate>Fri, 19 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/how-to-use-git-sync/</guid>
+      <description>Keeping your Site Bay WordPress site synchronized with your Git repository ensures that updates and changes are seamlessly applied.</description>
+    </item>
+    
+    <item>
+      <title>What is Open Source Software?</title>
+      <link>https://www.sitebay.org/docs/guides/what-is-open-source-software/</link>
+      <pubDate>Fri, 19 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/what-is-open-source-software/</guid>
+      <description>Every application you use starts as an idea. No matter the platform it’s installed on or its purpose, every piece of software begins in the planning phase.</description>
+    </item>
+    
+    <item>
+      <title>What is PostHog</title>
+      <link>https://www.sitebay.org/docs/guides/what-is-posthog/</link>
+      <pubDate>Thu, 18 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/what-is-posthog/</guid>
+      <description>Discover how to use PostHog Analytics with Site Bay for powerful insights into your WordPress site&amp;rsquo;s audience behavior.</description>
+    </item>
+    
+    <item>
+      <title>Link Shopify to WordPress and get PostHog Analytics</title>
+      <link>https://www.sitebay.org/docs/guides/shopify-link-wordpress/</link>
+      <pubDate>Wed, 17 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/shopify-link-wordpress/</guid>
+      <description>Got a Site Bay WordPress site and thinking about adding a Shopify store to it? Smart move for selling your stuff with the SEO of a WordPress blog.</description>
+    </item>
+    
+    <item>
+      <title>Mastering Shortcuts with the Linux alias Command on Site Bay</title>
+      <link>https://www.sitebay.org/docs/guides/how-to-use-the-sitebay-alias-command/</link>
+      <pubDate>Wed, 17 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/how-to-use-the-sitebay-alias-command/</guid>
+      <description>Navigating your Site Bay WordPress hosting environment efficiently is crucial for managing your websites effectively. One powerful yet underutilized feature within Linux, which forms the backbone of Site Bay&amp;rsquo;s hosting, is the alias command.</description>
+    </item>
+    
+    <item>
+      <title>Mastering the xargs Command on Site Bay WordPress Hosting</title>
+      <link>https://www.sitebay.org/docs/guides/using-xargs-with-examples/</link>
+      <pubDate>Wed, 17 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/using-xargs-with-examples/</guid>
+      <description>The xargs command is a powerful utility in the Linux arsenal, essential for WordPress developers hosting on Site Bay’s Kubernetes-based environment.</description>
+    </item>
+    
+    <item>
+      <title>Navigating Your Site&#39;s History with Site Bay Dashboard</title>
+      <link>https://www.sitebay.org/docs/guides/sitebay-dashboard-history/</link>
+      <pubDate>Wed, 17 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/sitebay-dashboard-history/</guid>
+      <description>Managing your WordPress site involves keeping track of changes and being able to revert to previous states when necessary.</description>
+    </item>
+    
+    <item>
+      <title>Command Line Mastery in VS Code Server</title>
+      <link>https://www.sitebay.org/docs/guides/wordpress-command-line-tips/</link>
+      <pubDate>Sat, 13 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/wordpress-command-line-tips/</guid>
+      <description>Managing WordPress via CLI on Code Server Essential Terminal Commands for Navigating WordPress on Site Bay Navigating Command History: Simply use the Up arrow on your keyboard to cycle through previously used commands.</description>
+    </item>
+    
+    <item>
+      <title>Alias Frequently Used Commands in Site Bay</title>
+      <link>https://www.sitebay.org/docs/guides/alias-frequently-used-commands/</link>
+      <pubDate>Thu, 04 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/alias-frequently-used-commands/</guid>
+      <description>What is an Alias?
+An alias in Site Bay simplifies your WordPress management by creating shortcuts for the commands you use most.</description>
+    </item>
+    
+    <item>
+      <title>Efficient File Management on Site Bay Hosting with Command Line Tools</title>
+      <link>https://www.sitebay.org/docs/guides/compress-files-using-the-command-line/</link>
+      <pubDate>Thu, 04 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/compress-files-using-the-command-line/</guid>
+      <description>Utilizing tar and gzip commands, you can streamline file management within your Site Bay WordPress hosting environment.</description>
+    </item>
+    
+    <item>
+      <title>Efficiently Find Text in Your WordPress Files with grep</title>
+      <link>https://www.sitebay.org/docs/guides/how-to-use-grep/</link>
+      <pubDate>Thu, 04 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/how-to-use-grep/</guid>
+      <description>Dive into the world of grep on Site Bay to streamline your search for specific text within your WordPress files.</description>
+    </item>
+    
+    <item>
+      <title>Effortless WordPress Recovery with Site Bay&#39;s Point-in-Time Machine</title>
+      <link>https://www.sitebay.org/docs/guides/point-in-time-machine-wordpress/</link>
+      <pubDate>Thu, 04 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/point-in-time-machine-wordpress/</guid>
+      <description>Embrace the Safety Net of Point-in-Time Recovery for WordPress
+In the dynamic world of WordPress hosting, ensuring your site&amp;rsquo;s integrity and continuity is paramount.</description>
+    </item>
+    
+    <item>
+      <title>Effortlessly Edit WordPress Files with Site Bay’s code-server</title>
+      <link>https://www.sitebay.org/docs/guides/use-code-server-to-edit-files-in-sitebay/</link>
+      <pubDate>Thu, 04 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/use-code-server-to-edit-files-in-sitebay/</guid>
+      <description>Site Bay gives you the power of code-server for free, a browser-based Integrated Development Environment (IDE), to offer a pro WordPress development experience.</description>
+    </item>
+    
+    <item>
+      <title>External Sites on a Subpath on WordPress</title>
+      <link>https://www.sitebay.org/docs/guides/connect-an-external-site-to-wordpress/</link>
+      <pubDate>Thu, 04 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/connect-an-external-site-to-wordpress/</guid>
+      <description>Connect your External Site to WordPress using Site BayIf you are looking for a way to optimize your website&amp;rsquo;s SEO by integrating your external support website under your main WordPress site, Site Bay can empower you to do just that.</description>
+    </item>
+    
+    <item>
+      <title>Leveraging Grafana for WordPress Insights at Site Bay</title>
+      <link>https://www.sitebay.org/docs/guides/grafana-for-wordpress/</link>
+      <pubDate>Thu, 04 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/grafana-for-wordpress/</guid>
+      <description>Site Bay&amp;rsquo;s WordPress hosting is powered by Kubernetes, providing a robust platform for running WordPress sites at scale.</description>
+    </item>
+    
+    <item>
+      <title>Mastering Data Management with PostHog on Site Bay</title>
+      <link>https://www.sitebay.org/docs/guides/posthog-data-management/</link>
+      <pubDate>Thu, 04 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/posthog-data-management/</guid>
+      <description>Welcome to the guide on leveraging PostHog for optimal data management on Site Bay. Whether you&amp;rsquo;re a developer, marketer, or a team leader, understanding how to organize, analyze, and act on your site&amp;rsquo;s data is crucial.</description>
+    </item>
+    
+    <item>
+      <title>Maximizing Efficiency with Site Bay&#39;s Dashboard Tools</title>
+      <link>https://www.sitebay.org/docs/guides/sitebay-dashboard-tools/</link>
+      <pubDate>Thu, 04 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/sitebay-dashboard-tools/</guid>
+      <description>Site Bay&amp;rsquo;s Dashboard is packed with powerful tools designed to give you full control over your WordPress hosting environment.</description>
+    </item>
+    
+    <item>
+      <title>Maximizing WordPress Hosting with Site Bay&#39;s Advanced Tools</title>
+      <link>https://www.sitebay.org/docs/guides/sitebay-template-sites/</link>
+      <pubDate>Thu, 04 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/sitebay-template-sites/</guid>
+      <description>Introduction to Site Bay&amp;rsquo;s WordPress Hosting
+Site Bay revolutionizes WordPress hosting by harnessing the power of Kubernetes, paired with cutting-edge tools like PostHog for analytics and Grafana for dashboard visualization.</description>
+    </item>
+    
+    <item>
+      <title>Quick Guide to Site Bay’s Backup and Restoration Commands</title>
+      <link>https://www.sitebay.org/docs/guides/sitebay-dump-and-restore-commands/</link>
+      <pubDate>Thu, 04 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/sitebay-dump-and-restore-commands/</guid>
+      <description>external_resources:
+&amp;lsquo;Backup and Restore WordPress Site in Site Bay&amp;rsquo; &amp;lsquo;Managing WordPress Backups in Site Bay&amp;rsquo;</description>
+    </item>
+    
+    <item>
+      <title>Shell Tricks for WordPress Hosting on Site Bay</title>
+      <link>https://www.sitebay.org/docs/guides/shell-tricks-for-wordpress/</link>
+      <pubDate>Thu, 04 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/shell-tricks-for-wordpress/</guid>
+      <description>Shell Tricks for WordPress CLI: Enhancing Your Workflow on Site BayIn the world of WordPress development, efficiency and effectiveness are key.</description>
+    </item>
+    
+    <item>
+      <title>Streamline Your WordPress Development with Site Bay&#39;s Code Server</title>
+      <link>https://www.sitebay.org/docs/guides/sitebay-code-server/</link>
+      <pubDate>Thu, 04 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/sitebay-code-server/</guid>
+      <description>Introduction to Code Server on Site Bay
+Code Server transforms your development experience by allowing you to manage WordPress files and develop directly in your browser.</description>
+    </item>
+    
+    <item>
+      <title>File Management from the linux command line in Code Server: </title>
+      <link>https://www.sitebay.org/docs/guides/delete-file-command-line/</link>
+      <pubDate>Wed, 03 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/delete-file-command-line/</guid>
+      <description>Beginner File Removal in WordPress tips NoteFor safety, our examples utilize filename.txt variations. Tailor these commands to your needs, replacing filename.</description>
+    </item>
+    
+  </channel>
+</rss>

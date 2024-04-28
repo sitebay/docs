@@ -1,0 +1,182 @@
+[
+  {
+    "excerpt": "Shortguide that shows you how to create and manage API keys in Site Bay.",
+    "href": "",
+    "lastModified": "2024-04-28T02:51:59-06:00",
+    "linkTitle": "How to Create and Manage API Keys in Site Bay",
+    "publishDate": "2020-07-22T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/guides/cloud-api-keys-shortguide/classic-to-cloud-add-a-personal-access-token-panel_hu3b8c7c004df0489d0c9a0d8cad06483a_48796_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
+    "title": "How to Create and Manage API Keys in Site Bay"
+  },
+  {
+    "excerpt": "Information about Site Bay support, including the scope of support and how to get help.",
+    "href": "https://www.sitebay.org/docs/products/platform/get-started/guides/support/",
+    "lastModified": "2024-04-28T02:51:59-06:00",
+    "linkTitle": "Help \u0026 Support",
+    "publishDate": "2024-03-14T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/products/platform/get-started/guides/support/support-tickets_hu6ad7a2fcea287d47e058f5daea0d3abb_27658_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
+    "title": "Help \u0026 Support"
+  },
+  {
+    "excerpt": "How to use Git Sync to develop your WordPress site from anywhere.",
+    "href": "https://www.sitebay.org/docs/platform/git-sync/how-to-use-sitebay-git-sync/",
+    "lastModified": "2024-04-28T02:51:59-06:00",
+    "linkTitle": "How to Use Site Bay's Git Sync",
+    "publishDate": "2024-03-26T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/platform/git-sync/how-to-use-sitebay-git-sync/how-to-use-sitebay-git-sync_hu07522c31dae92a147b5fe819d5549fc3_244885_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
+    "title": "How to Use Site Bay's Git Sync"
+  },
+  {
+    "excerpt": "Learn how Site Bay's Point-in-Time Machine interacts with Git Sync",
+    "href": "https://www.sitebay.org/docs/platform/shopify/how-git-sync-works-with-point-in-time-machine/",
+    "lastModified": "2024-04-28T02:51:59-06:00",
+    "linkTitle": "How Git Sync Works With PIT Machine",
+    "publishDate": "2024-03-26T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/platform/shopify/how-git-sync-works-with-point-in-time-machine/how-git-sync-works-with-point-in-time-machine_hu07522c31dae92a147b5fe819d5549fc3_244885_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
+    "title": "How Git Sync Works With PIT Machine"
+  },
+  {
+    "excerpt": "Learn how Site Bay's Point-in-Time Machine interacts with Git Sync",
+    "href": "https://www.sitebay.org/docs/platform/git-sync/how-git-sync-works-with-point-in-time-machine/",
+    "lastModified": "2024-04-28T02:51:59-06:00",
+    "linkTitle": "How Git Sync Works With PIT Machine",
+    "publishDate": "2024-03-26T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/platform/git-sync/how-git-sync-works-with-point-in-time-machine/how-git-sync-works-with-point-in-time-machine_hu07522c31dae92a147b5fe819d5549fc3_244885_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
+    "title": "How Git Sync Works With PIT Machine"
+  },
+  {
+    "excerpt": "Our tutorial to managing accounts and passwords.",
+    "href": "https://www.sitebay.org/docs/platform/get-started/accounts-and-passwords/",
+    "lastModified": "2024-04-28T02:51:59-06:00",
+    "linkTitle": "Accounts and Passwords",
+    "publishDate": "2024-04-03T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
+    "title": "Accounts and Passwords"
+  },
+  {
+    "excerpt": "Learn which taxes are collected by Site Bay and how to add a tax identification number to your account.",
+    "href": "https://www.sitebay.org/docs/products/platform/billing/guides/tax-information/",
+    "lastModified": "2024-04-28T02:51:59-06:00",
+    "linkTitle": "Tax Information",
+    "publishDate": "2024-04-04T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
+    "title": "Tax Information"
+  },
+  {
+    "excerpt": "Describes which taxes Site Bay collects and how to add a tax identification number to your account.",
+    "href": "https://www.sitebay.org/docs/platform/billing-and-support/tax-information/",
+    "lastModified": "2024-04-28T02:51:59-06:00",
+    "linkTitle": "Tax Information",
+    "publishDate": "2024-04-04T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
+    "title": "Tax Information"
+  },
+  {
+    "excerpt": "Shows how to export posts from a WordPress.com website and import them to WordPress on a Site Bay.",
+    "href": "https://www.sitebay.org/docs/platform/migrate-to-sitebay/migrate-a-wordpressdotcom-site-to-sitebay/",
+    "lastModified": "2024-04-28T02:51:59-06:00",
+    "linkTitle": "How to Migrate a WordPress.com Website to Site Bay",
+    "publishDate": "2024-04-04T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/platform/migrate-to-sitebay/migrate-a-wordpressdotcom-site-to-sitebay/tools-import-wordpress_hu5292a67d7f65d1b7a8e7da95d9dbe8ec_198033_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
+    "title": "How to Migrate a WordPress.com Website to Site Bay"
+  },
+  {
+    "excerpt": "Decide which Site Bay WordPress hosting plan is right for you.",
+    "href": "https://www.sitebay.org/docs/platform/get-started/how-to-choose-a-sitebay-plan/",
+    "lastModified": "2024-04-28T02:51:59-06:00",
+    "linkTitle": "How to Choose a Site Bay Plan",
+    "publishDate": "2024-04-04T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
+    "title": "How to Choose a Site Bay Plan"
+  },
+  {
+    "excerpt": "Manage and Develop your Wordpress in your browser on Site Bay.",
+    "href": "https://www.sitebay.org/docs/products/code-server/get-started/",
+    "lastModified": "2024-04-28T02:51:59-06:00",
+    "linkTitle": "Get Started",
+    "publishDate": "2024-04-04T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/products/code-server/get-started/CodeServer_hu0a27bd8048c009d64e65307320d468cf_694098_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
+    "title": "Get Started"
+  },
+  {
+    "excerpt": "These guides include introductory projects that utilize the foundational services of the Cloudflare and Site Bay platforms.",
+    "href": "https://www.sitebay.org/docs/guides/cloudflare/get-started/",
+    "lastModified": "2024-04-28T02:51:59-06:00",
+    "linkTitle": "Get Started",
+    "publishDate": "2024-04-04T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/guides/cloudflare/get-started/feature_hu86cac9d93655fcbc80423342c33d265b_8388_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
+    "title": "Get Started"
+  },
+  {
+    "excerpt": "Combine the capabilities of the Cloudflare and Site Bay platforms.",
+    "href": "https://www.sitebay.org/docs/guides/understanding-cloudflares-cdn/",
+    "lastModified": "2024-04-28T02:51:59-06:00",
+    "linkTitle": "Understanding Cloudflare's CDN",
+    "publishDate": "2024-04-13T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
+    "title": "Understanding Cloudflare's CDN"
+  },
+  {
+    "excerpt": "Learn how to subscribe to Site Bay system status and maintenance updates.",
+    "href": "https://www.sitebay.org/docs/products/platform/get-started/guides/status-page/",
+    "lastModified": "2024-04-28T02:51:59-06:00",
+    "linkTitle": "Subscribe to Site Bay Status Updates",
+    "publishDate": "2024-04-20T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/products/platform/get-started/guides/status-page/status-page-subscribe_hu39ab47b6e1ce2d9e3f253f077bb7bd84_37811_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
+    "title": "Subscribe to Site Bay Status Updates"
+  },
+  {
+    "excerpt": "Learn about Site Bay's status page.",
+    "href": "https://www.sitebay.org/docs/platform/monitoring/sitebay-status-page/",
+    "lastModified": "2024-04-28T02:51:59-06:00",
+    "linkTitle": "Subscribe to Site Bay Status Updates",
+    "publishDate": "2024-04-20T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/platform/monitoring/sitebay-status-page/status-subscribe_hua59d4388dd4c8bcb2f7c264ee992cfc4_148504_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
+    "title": "Subscribe to Site Bay Status Updates"
+  },
+  {
+    "excerpt": "Learn about Site Bay's recordings page.",
+    "href": "https://www.sitebay.org/docs/platform/recording/sitebay-recordings-page/",
+    "lastModified": "2024-04-28T02:51:59-06:00",
+    "linkTitle": "Site Bay Recordings",
+    "publishDate": "2024-04-20T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/platform/recording/sitebay-recordings-page/status-subscribe_hua59d4388dd4c8bcb2f7c264ee992cfc4_148504_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
+    "title": "Site Bay Recordings"
+  },
+  {
+    "excerpt": "These tutorials describe important first steps for any new Site Bay user, and they answer common questions you might have when getting started.",
+    "href": "https://www.sitebay.org/docs/platform/get-started/",
+    "lastModified": "2024-04-28T02:51:59-06:00",
+    "linkTitle": "Get Started",
+    "publishDate": "2024-04-20T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/platform/get-started/feature.svg",
+    "title": "Get Started"
+  },
+  {
+    "excerpt": "an-overview-of-mysitebay",
+    "href": "https://www.sitebay.org/docs/guides/an-overview-of-mysitebay/",
+    "lastModified": "2024-04-28T02:51:59-06:00",
+    "linkTitle": "An Overview of the Site Bay Dashboard",
+    "publishDate": "2024-04-20T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/guides/an-overview-of-mysitebay/AnOverviewofMySiteBay_hu5a78a0a71d9405e8b4c5f950d9420367_389888_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
+    "title": "An Overview of the Site Bay Dashboard"
+  },
+  {
+    "excerpt": "Our tutorial to creating support tickets and getting technical support.",
+    "href": "https://www.sitebay.org/docs/platform/billing-and-support/support/",
+    "lastModified": "2024-04-28T02:51:59-06:00",
+    "linkTitle": "Site Bay Support",
+    "publishDate": "2024-04-21T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/platform/billing-and-support/support/help_hu880231b8a3a004c3ac6022ebb6902fc5_441106_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
+    "title": "Site Bay Support"
+  },
+  {
+    "excerpt": "Learn how to change your user's password on a Site Bay account.",
+    "href": "https://www.sitebay.org/docs/products/platform/accounts/guides/reset-user-password/",
+    "lastModified": "2024-04-28T02:51:59-06:00",
+    "linkTitle": "Reset Your User Password",
+    "publishDate": "2024-04-21T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/products/platform/accounts/guides/reset-user-password/L_ChangeYourPassword_hubde79b8492307ea1b2fe0f0d4da36a6c_196809_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
+    "title": "Reset Your User Password"
+  }
+]

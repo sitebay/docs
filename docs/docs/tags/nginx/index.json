@@ -1,0 +1,29 @@
+[
+  {
+    "excerpt": "How to set up a subdomain or subdirectory and integrate it with your WordPress site.",
+    "href": "https://www.sitebay.org/docs/guides/set-up-subdomain-or-subdirectory-wordpress/",
+    "lastModified": "2024-04-28T02:51:59-06:00",
+    "linkTitle": "Set up a Subdomain or Path for your WordPress Site",
+    "publishDate": "2024-04-13T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
+    "title": "Set up a Subdomain or Path for your WordPress Site"
+  },
+  {
+    "excerpt": "Is your site enabled with NGINX or Apache? This guide explains how to quickly disable a website running on Apache/NGINX, \u0026 what's involved in re-enabling it.",
+    "href": "https://www.sitebay.org/docs/guides/how-to-enable-disable-website/",
+    "lastModified": "2024-04-28T02:51:59-06:00",
+    "linkTitle": "Sites Enabled with NGINX or Apache",
+    "publishDate": "2024-04-17T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
+    "title": "Sites Enabled with NGINX or Apache"
+  },
+  {
+    "excerpt": "This guide discusses guidelines for quickly transferring a site",
+    "href": "https://www.sitebay.org/docs/guides/transferring-a-wordpress-site-to-a-new-server/",
+    "lastModified": "2024-04-28T02:51:59-06:00",
+    "linkTitle": "Transfer a WordPress Site to Site Bay's WordPress Hosting",
+    "publishDate": "2024-04-25T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
+    "title": "Transfer a WordPress Site to Site Bay's WordPress Hosting"
+  }
+]

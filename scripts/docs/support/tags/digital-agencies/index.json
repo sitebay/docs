@@ -1,0 +1,11 @@
+[
+  {
+    "excerpt": "This guide shows how to install all three Elastic Stack components to explore Apache web server logs in Kibana.",
+    "href": "https://www.sitebay.org/docs/guides/visualize-apache-web-server-logs-using-elastic-stack-on-ubuntu-18-04/",
+    "lastModified": "2024-03-18T08:57:13-06:00",
+    "linkTitle": "Visualize Apache Logs With Elastic Stack on Ubuntu 18.04",
+    "publishDate": "2024-03-26T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/guides/visualize-apache-web-server-logs-using-elastic-stack-on-ubuntu-18-04/VisApacheWSL_ES_Ubuntu1804_hud10becd63efc27d0778f95673e0f31bf_122344_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
+    "title": "Visualize Apache Logs With Elastic Stack on Ubuntu 18.04"
+  }
+]

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jack Wallen on Site Bay Guides &amp; Tutorials</title>
+    <link>https://www.sitebay.org/docs/authors/jack-wallen/</link>
+    <description>Recent content in Jack Wallen on Site Bay Guides &amp; Tutorials</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 24 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.sitebay.org/docs/authors/jack-wallen/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Embracing the Advantages of Open Source Software with Site Bay</title>
+      <link>https://www.sitebay.org/docs/guides/open-source-software-benefits/</link>
+      <pubDate>Wed, 24 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/open-source-software-benefits/</guid>
+      <description>Open-source software (OSS) is a cornerstone of innovation and flexibility in technology, powering enterprises and personal projects alike.</description>
+    </item>
+    
+    <item>
+      <title>What is Open Source Software?</title>
+      <link>https://www.sitebay.org/docs/guides/what-is-open-source-software/</link>
+      <pubDate>Fri, 19 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/what-is-open-source-software/</guid>
+      <description>Every application you use starts as an idea. No matter the platform it’s installed on or its purpose, every piece of software begins in the planning phase.</description>
+    </item>
+    
+  </channel>
+</rss>

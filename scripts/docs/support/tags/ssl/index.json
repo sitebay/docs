@@ -1,0 +1,20 @@
+[
+  {
+    "excerpt": "Self-signed TLS certificates are perfect for personal use or inside your organization. This guide walks you through creating one with OpenSSL on CentOS 8 for your Site Bay WordPress hosting environment.",
+    "href": "https://www.sitebay.org/docs/guides/create-a-self-signed-tls-certificate-centos-8/",
+    "lastModified": "2024-04-24T01:49:33-06:00",
+    "linkTitle": "Creating a Self-Signed TLS Certificate for Site Bay WordPress Hosting on CentOS 8",
+    "publishDate": "2024-03-26T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
+    "title": "Creating a Self-Signed TLS Certificate for Site Bay WordPress Hosting on CentOS 8"
+  },
+  {
+    "excerpt": "Discover how to craft a self-signed TLS certificate using OpenSSL on Debian 10 for secure WordPress hosting on Site Bay. Ideal for internal and personal use.",
+    "href": "https://www.sitebay.org/docs/guides/create-a-self-signed-tls-certificate-debian-04/",
+    "lastModified": "2024-04-24T01:49:33-06:00",
+    "linkTitle": "Crafting a Self-Signed TLS Certificate on Debian 10 for Site Bay",
+    "publishDate": "2024-03-26T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
+    "title": "Crafting a Self-Signed TLS Certificate on Debian 10 for Site Bay"
+  }
+]

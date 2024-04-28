@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tom Henderson on Site Bay Guides &amp; Tutorials</title>
+    <link>https://www.sitebay.org/docs/authors/tom-henderson/</link>
+    <description>Recent content in Tom Henderson on Site Bay Guides &amp; Tutorials</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 04 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.sitebay.org/docs/authors/tom-henderson/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Linux vs. Windows in WordPress Hosting: What’s the Difference?</title>
+      <link>https://www.sitebay.org/docs/guides/linux-vs-windows-wordpress/</link>
+      <pubDate>Thu, 04 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/linux-vs-windows-wordpress/</guid>
+      <description>Choosing the right operating system for WordPress hosting is crucial for the performance, security, and reliability of your website.</description>
+    </item>
+    
+    <item>
+      <title>Shell Tricks for WordPress Hosting on Site Bay</title>
+      <link>https://www.sitebay.org/docs/guides/shell-tricks-for-wordpress/</link>
+      <pubDate>Thu, 04 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/shell-tricks-for-wordpress/</guid>
+      <description>Shell Tricks for WordPress CLI: Enhancing Your Workflow on Site BayIn the world of WordPress development, efficiency and effectiveness are key.</description>
+    </item>
+    
+    <item>
+      <title>Understanding HTTP Requests: Structure, Methods &amp; Examples</title>
+      <link>https://www.sitebay.org/docs/guides/http-get-request/</link>
+      <pubDate>Thu, 04 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/http-get-request/</guid>
+      <description>HTTP requests are the backbone of web communication, enabling the exchange of data between clients (like your browser) and servers.</description>
+    </item>
+    
+  </channel>
+</rss>

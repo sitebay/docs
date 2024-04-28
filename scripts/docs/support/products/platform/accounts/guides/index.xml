@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Guides on Site Bay Guides &amp; Tutorials</title>
+    <link>https://www.sitebay.org/docs/products/platform/accounts/guides/</link>
+    <description>Recent content in Guides on Site Bay Guides &amp; Tutorials</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 21 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.sitebay.org/docs/products/platform/accounts/guides/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cancel Your Account</title>
+      <link>https://www.sitebay.org/docs/products/platform/accounts/guides/cancel-account/</link>
+      <pubDate>Thu, 25 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/products/platform/accounts/guides/cancel-account/</guid>
+      <description>A Site Bay account enables you to deploy and use services on the Site Bay Platform.</description>
+    </item>
+    
+    <item>
+      <title>Security Controls for User Accounts</title>
+      <link>https://www.sitebay.org/docs/products/platform/accounts/guides/user-security-controls/</link>
+      <pubDate>Wed, 24 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/products/platform/accounts/guides/user-security-controls/</guid>
+      <description>To protect your Site Bay user account against unauthorized access, there are several security controls you can implement.</description>
+    </item>
+    
+    <item>
+      <title>Change Your Email Address</title>
+      <link>https://www.sitebay.org/docs/products/platform/accounts/guides/change-user-email/</link>
+      <pubDate>Sun, 21 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/products/platform/accounts/guides/change-user-email/</guid>
+      <description>Site Bay uses the contact information on file in your account to notify and bill you.</description>
+    </item>
+    
+    <item>
+      <title>Manage User Permissions</title>
+      <link>https://www.sitebay.org/docs/products/platform/accounts/guides/user-permissions/</link>
+      <pubDate>Sun, 21 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/products/platform/accounts/guides/user-permissions/</guid>
+      <description>Each user on an account can be given individualized permissions that provides unrestricted access to an account or limits their access to specific information or services.</description>
+    </item>
+    
+    <item>
+      <title>Manage Users on a Site Bay Account</title>
+      <link>https://www.sitebay.org/docs/products/platform/accounts/guides/manage-users/</link>
+      <pubDate>Sun, 21 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/products/platform/accounts/guides/manage-users/</guid>
+      <description>You can grant other people access to your My Site Bay account by creating users and assigning permissions to restrict access to certain areas of the control panel.</description>
+    </item>
+    
+    <item>
+      <title>Reset Your User Password</title>
+      <link>https://www.sitebay.org/docs/products/platform/accounts/guides/reset-user-password/</link>
+      <pubDate>Sun, 21 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/products/platform/accounts/guides/reset-user-password/</guid>
+      <description>Creating strong passwords is essential to protecting your Site Bay and your Site Bay My Site Bay account.</description>
+    </item>
+    
+  </channel>
+</rss>

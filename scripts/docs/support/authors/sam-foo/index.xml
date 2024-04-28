@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sam Foo on Site Bay Guides &amp; Tutorials</title>
+    <link>https://www.sitebay.org/docs/authors/sam-foo/</link>
+    <description>Recent content in Sam Foo on Site Bay Guides &amp; Tutorials</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 20 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.sitebay.org/docs/authors/sam-foo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Integrating Posthog Surveys on Your WordPress Site</title>
+      <link>https://www.sitebay.org/docs/products/posthog/posthog-surveys/</link>
+      <pubDate>Sat, 20 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/products/posthog/posthog-surveys/</guid>
+      <description>Want to get real feedback directly from your users? Adding Posthog surveys to your WordPress site hosted on Site Bay can give you valuable insights into what your audience thinks and wants.</description>
+    </item>
+    
+  </channel>
+</rss>

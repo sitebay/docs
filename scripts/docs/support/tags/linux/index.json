@@ -1,0 +1,65 @@
+[
+  {
+    "excerpt": "This guide discusses guidelines for quickly transferring a site",
+    "href": "https://www.sitebay.org/docs/guides/transferring-a-wordpress-site-to-a-new-server/",
+    "lastModified": "2024-04-25T00:00:00Z",
+    "linkTitle": "Transfer a WordPress Site to Site Bay's WordPress Hosting",
+    "publishDate": "2024-04-25T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
+    "title": "Transfer a WordPress Site to Site Bay's WordPress Hosting"
+  },
+  {
+    "excerpt": "Master the basics of navigating your WordPress site's server with these essential Linux commands.",
+    "href": "https://www.sitebay.org/docs/guides/how-to-use-basic-commands-for-wordpress-linux/",
+    "lastModified": "2024-04-23T00:00:00Z",
+    "linkTitle": "Navigating Your WordPress Code Server with Linux Commands",
+    "publishDate": "2024-04-22T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/guides/how-to-use-basic-commands-for-wordpress-linux/UseTheCDCommand_hu5547ec92b743b7c5968037b422f42ae9_1126149_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
+    "title": "Navigating Your WordPress Code Server with Linux Commands"
+  },
+  {
+    "excerpt": "Is your site enabled with NGINX or Apache? This guide explains how to quickly disable a website running on Apache/NGINX, \u0026 what's involved in re-enabling it.",
+    "href": "https://www.sitebay.org/docs/guides/how-to-enable-disable-website/",
+    "lastModified": "2024-04-17T00:00:00Z",
+    "linkTitle": "Sites Enabled with NGINX or Apache",
+    "publishDate": "2024-04-17T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
+    "title": "Sites Enabled with NGINX or Apache"
+  },
+  {
+    "excerpt": "",
+    "href": "https://www.sitebay.org/docs/guides/ls-command-in-sitebay/",
+    "lastModified": "2024-04-04T00:00:00Z",
+    "linkTitle": "ls-command-in-sitebay",
+    "publishDate": "2024-03-04T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
+    "title": "ls-command-in-sitebay"
+  },
+  {
+    "excerpt": "Let\u0026rsquo;s remake the article for Site Bay Powerful WordPress hosting, making it relatable and straightforward. We\u0026rsquo;ll focus on setting and using environment variables in the context of Site Bay, ensuring it\u0026rsquo;s clear and accessible for everyone, especially those new to WordPress hosting on Kubernetes platforms.",
+    "href": "https://www.sitebay.org/docs/guides/how-to-set-sitebay-environment-variables/",
+    "lastModified": "2024-04-04T00:00:00Z",
+    "linkTitle": "how-to-set-sitebay-environment-variables",
+    "publishDate": "2024-03-04T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
+    "title": "how-to-set-sitebay-environment-variables"
+  },
+  {
+    "excerpt": "Copy files and folders in linux or code-server",
+    "href": "https://www.sitebay.org/docs/guides/how-to-copy-files-and-directories/",
+    "lastModified": "2024-04-04T00:00:00Z",
+    "linkTitle": "How to Copy Files and Directories",
+    "publishDate": "2024-03-04T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
+    "title": "How to Copy Files and Directories"
+  },
+  {
+    "excerpt": "Mastering Code Server: Command Your WordPress Like a Pro",
+    "href": "https://www.sitebay.org/docs/guides/code-server-linux-commands/",
+    "lastModified": "2024-04-04T00:00:00Z",
+    "linkTitle": "Code Server Linux Commands",
+    "publishDate": "2024-03-04T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
+    "title": "Code Server Linux Commands"
+  }
+]

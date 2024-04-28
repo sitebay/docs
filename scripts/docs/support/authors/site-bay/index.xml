@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Site Bay on Site Bay Guides &amp; Tutorials</title>
+    <link>https://www.sitebay.org/docs/authors/site-bay/</link>
+    <description>Recent content in Site Bay on Site Bay Guides &amp; Tutorials</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 28 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.sitebay.org/docs/authors/site-bay/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Getting Started on the Site Bay Platform</title>
+      <link>https://www.sitebay.org/docs/products/platform/get-started/</link>
+      <pubDate>Thu, 04 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/products/platform/get-started/</guid>
+      <description>Sign Up for an AccountFirst, you need to create a Site Bay account to start using our services.</description>
+    </item>
+    
+    <item>
+      <title>Quick Answers</title>
+      <link>https://www.sitebay.org/docs/guides/quick-answers/</link>
+      <pubDate>Sun, 14 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/quick-answers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Web Server Guides for WordPress on Kubernetes</title>
+      <link>https://www.sitebay.org/docs/guides/web-servers/</link>
+      <pubDate>Sat, 13 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/web-servers/</guid>
+      <description>Hey! Ready to level up your WordPress game with Site Bay? Our web server guides got you.</description>
+    </item>
+    
+    <item>
+      <title>Databases</title>
+      <link>https://www.sitebay.org/docs/guides/databases/</link>
+      <pubDate>Tue, 16 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/databases/</guid>
+      <description>Databases are crucial in the world of web development and hosting, especially when it comes to managing dynamic content and user data.</description>
+    </item>
+    
+    <item>
+      <title>Generative AI for WordPress</title>
+      <link>https://www.sitebay.org/docs/guides/generative-ai/</link>
+      <pubDate>Tue, 16 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/generative-ai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cloudflare &#43; Site Bay</title>
+      <link>https://www.sitebay.org/docs/guides/cloudflare/</link>
+      <pubDate>Thu, 04 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/cloudflare/</guid>
+      <description>Utilizing Cloudflare in conjunction with Site Bay can dramatically improve the performance, security, and scalability of your WordPress sites.</description>
+    </item>
+    
+    <item>
+      <title>Clearing Cache and Cookies in a Browser</title>
+      <link>https://www.sitebay.org/docs/guides/clear-cache-shortguide/</link>
+      <pubDate>Sun, 28 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/clear-cache-shortguide/</guid>
+      <description>A browser&amp;rsquo;s cache improves website loading performance by reducing the data processing and fetching. When a sizable amount of cached content is stored, it slows down the system and reduces the performance of the application.</description>
+    </item>
+    
+    <item>
+      <title>Team Collaboration on Site Bay: Enhance Your WordPress Management</title>
+      <link>https://www.sitebay.org/docs/guides/sitebay-team-members/</link>
+      <pubDate>Sun, 28 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/sitebay-team-members/</guid>
+      <description>NoteAll team members have equal privileges and can create or modify any resources including sites on the team.</description>
+    </item>
+    
+    <item>
+      <title>Leveraging Feature Flags for A/B Testing on Site Bay</title>
+      <link>https://www.sitebay.org/docs/products/posthog/posthog-feature-flags/</link>
+      <pubDate>Sat, 27 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/products/posthog/posthog-feature-flags/</guid>
+      <description>Feature flags, also known as feature toggles, are a powerful technique for controlling the roll-out of features on your website.</description>
+    </item>
+    
+    <item>
+      <title>Grant a Developer Access a WordPress Site or Site Bay Account</title>
+      <link>https://www.sitebay.org/docs/products/platform/get-started/guides/developer-access/</link>
+      <pubDate>Fri, 26 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/products/platform/get-started/guides/developer-access/</guid>
+      <description>One of the most powerful features of Site Bay&amp;rsquo;s unmanaged service is the amount of control Site Bay users have over their account and the software installed on their systems.</description>
+    </item>
+    
+    <item>
+      <title>Comparing WordPress Databases: The 3 Most Popular Database Types</title>
+      <link>https://www.sitebay.org/docs/guides/list-of-databases/</link>
+      <pubDate>Thu, 25 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/list-of-databases/</guid>
+      <description>Databases are the powerhouse behind nearly every website, app, and online platform you interact with daily.</description>
+    </item>
+    
+    <item>
+      <title>Mastering Process Monitoring in Site Bay with the ps aux Command</title>
+      <link>https://www.sitebay.org/docs/guides/use-the-ps-aux-command-in-sitebay/</link>
+      <pubDate>Thu, 25 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/use-the-ps-aux-command-in-sitebay/</guid>
+      <description>Within the ecosystem of Site Bay&amp;rsquo;s WordPress hosting on Kubernetes, understanding the underlying Linux system processes is crucial for managing and troubleshooting your WordPress site.</description>
+    </item>
+    
+    <item>
+      <title>Transfer a WordPress Site to Site Bay&#39;s WordPress Hosting</title>
+      <link>https://www.sitebay.org/docs/guides/transferring-a-wordpress-site-to-a-new-server/</link>
+      <pubDate>Thu, 25 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/transferring-a-wordpress-site-to-a-new-server/</guid>
+      <description>Transferring your WordPress site to Site Bay&amp;rsquo;s robust WordPress hosting environment, optimized with Kubernetes, Posthog analytics, and Grafana dashboards, ensures your website&amp;rsquo;s seamless performance and enhanced security.</description>
+    </item>
+    
+    <item>
+      <title>Email Port Blocking Alert</title>
+      <link></link>
+      <pubDate>Wed, 24 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid></guid>
+      <description>Email restrictions on Site Bay WordPress HostingTo combat spam from our network, outbound connections on ports 25, 465, and 587 are restricted by default for some new accounts.</description>
+    </item>
+    
+    <item>
+      <title>Embracing the Advantages of Open Source Software with Site Bay</title>
+      <link>https://www.sitebay.org/docs/guides/open-source-software-benefits/</link>
+      <pubDate>Wed, 24 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/open-source-software-benefits/</guid>
+      <description>Open-source software (OSS) is a cornerstone of innovation and flexibility in technology, powering enterprises and personal projects alike.</description>
+    </item>
+    
+    <item>
+      <title>How to Choose a Data Center</title>
+      <link>https://www.sitebay.org/docs/products/platform/get-started/guides/choose-a-data-center/</link>
+      <pubDate>Wed, 24 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/products/platform/get-started/guides/choose-a-data-center/</guid>
+      <description>If your visitors are in North America choose Washington (state), otherwise choose EU (hosted in Frankfurt)</description>
+    </item>
+    
+    <item>
+      <title>Introduction to Site Bay Regions</title>
+      <link>https://www.sitebay.org/docs/guides/introduction-to-sitebay-regions/</link>
+      <pubDate>Wed, 24 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/introduction-to-sitebay-regions/</guid>
+      <description>Site Bay provides a robust and adaptable WordPress hosting environment on Kubernetes, featuring key integrations like Posthog for analytics and Grafana for insights.</description>
+    </item>
+    
+    <item>
+      <title>Resell Site Bay Services</title>
+      <link>https://www.sitebay.org/docs/products/platform/get-started/guides/resell-services/</link>
+      <pubDate>Wed, 24 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/products/platform/get-started/guides/resell-services/</guid>
+      <description>Referral ProgramAs an alternative to reselling our services, you can participate in our referral program.</description>
+    </item>
+    
+    <item>
+      <title>Security Controls for User Accounts</title>
+      <link>https://www.sitebay.org/docs/products/platform/accounts/guides/user-security-controls/</link>
+      <pubDate>Wed, 24 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/products/platform/accounts/guides/user-security-controls/</guid>
+      <description>To protect your Site Bay user account against unauthorized access, there are several security controls you can implement.</description>
+    </item>
+    
+    <item>
+      <title>WP-CLI and Linux Shell Basics</title>
+      <link>https://www.sitebay.org/docs/guides/tools-reference/basics/</link>
+      <pubDate>Wed, 24 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/tools-reference/basics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Access Account Management and Billing in Site Bay</title>
+      <link></link>
+      <pubDate>Mon, 22 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid></guid>
+      <description>The My Account section in Site Bay Dashboard allows you to manage your WordPress hosting account&amp;rsquo;s billing details, user access, and configure various settings specific to your hosting experience.</description>
+    </item>
+    
+    <item>
+      <title>An Overview of the Site Bay App Center</title>
+      <link></link>
+      <pubDate>Mon, 22 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid></guid>
+      <description>The App Center in Site Bay Dashboard provides access to a curated collection of tools and services designed to enhance your WordPress hosting experience.</description>
+    </item>
+    
+    <item>
+      <title>Exploring the Kubernetes Features in Site Bay Manager</title>
+      <link></link>
+      <pubDate>Mon, 22 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid></guid>
+      <description>The Kubernetes section within the Site Bay Manager offers insights into our Kubernetes services, tailored for WordPress hosting environments.</description>
+    </item>
+    
+    <item>
+      <title>How to Manage Your WordPress Hosting Credits on Site Bay</title>
+      <link></link>
+      <pubDate>Mon, 22 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid></guid>
+      <description>Managing your WordPress hosting credits on Site Bay is straightforward and ensures you have complete control over your hosting budget and resources.</description>
+    </item>
+    
+    <item>
+      <title>Navigating Your WordPress Code Server with Linux Commands</title>
+      <link>https://www.sitebay.org/docs/guides/how-to-use-basic-commands-for-wordpress-linux/</link>
+      <pubDate>Mon, 22 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/how-to-use-basic-commands-for-wordpress-linux/</guid>
+      <description>Understanding the cd CommandOn Linux systems, cd stands as a fundamental command that alters your current directory within the terminal.</description>
+    </item>
+    
+    <item>
+      <title>Using the cd Command to Navigate the Terminal</title>
+      <link>https://www.sitebay.org/docs/guides/how-to-use-cd/</link>
+      <pubDate>Mon, 22 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/how-to-use-cd/</guid>
+      <description>What is cd?
+On Linux systems, cd is a command that changes the directory you are in when working in the terminal.</description>
+    </item>
+    
+    <item>
+      <title>WordPress Hosting Essentials on Site Bay</title>
+      <link>https://www.sitebay.org/docs/guides/quick-answers/sitebay-essentials/</link>
+      <pubDate>Mon, 22 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/quick-answers/sitebay-essentials/</guid>
+      <description>Welcome to the WordPress Hosting Essentials on Site Bay! This guide is your starting point for managing and scaling your WordPress sites efficiently.</description>
+    </item>
+    
+    <item>
+      <title>Change Your Email Address</title>
+      <link>https://www.sitebay.org/docs/products/platform/accounts/guides/change-user-email/</link>
+      <pubDate>Sun, 21 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/products/platform/accounts/guides/change-user-email/</guid>
+      <description>Site Bay uses the contact information on file in your account to notify and bill you.</description>
+    </item>
+    
+    <item>
+      <title>Change Your Email Address on Your Site Bay Account</title>
+      <link></link>
+      <pubDate>Sun, 21 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid></guid>
+      <description>Changing the email address associated with your Site Bay account is straightforward and essential for maintaining access to your account, receiving notifications, and ensuring your account&amp;rsquo;s security.</description>
+    </item>
+    
+    <item>
+      <title>Managing Your Sites with Site Bot AI</title>
+      <link>https://www.sitebay.org/docs/guides/managing-your-sites-with-site-bot-ai/</link>
+      <pubDate>Sun, 21 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/managing-your-sites-with-site-bot-ai/</guid>
+      <description>Creating and Managing Your Website with Site Bot: A User-Friendly GuideHave you ever wished for a more straightforward way to deploy and manage your website without delving into complex coding or navigating through endless dashboard settings?</description>
+    </item>
+    
+  </channel>
+</rss>

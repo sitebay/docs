@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PostHog on Site Bay Guides &amp; Tutorials</title>
+    <link>https://www.sitebay.org/docs/products/posthog/</link>
+    <description>Recent content in PostHog on Site Bay Guides &amp; Tutorials</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 27 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.sitebay.org/docs/products/posthog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Leveraging Feature Flags for A/B Testing on Site Bay</title>
+      <link>https://www.sitebay.org/docs/products/posthog/posthog-feature-flags/</link>
+      <pubDate>Sat, 27 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/products/posthog/posthog-feature-flags/</guid>
+      <description>Feature flags, also known as feature toggles, are a powerful technique for controlling the roll-out of features on your website.</description>
+    </item>
+    
+    <item>
+      <title>Integrating Posthog Surveys on Your WordPress Site</title>
+      <link>https://www.sitebay.org/docs/products/posthog/posthog-surveys/</link>
+      <pubDate>Sat, 20 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/products/posthog/posthog-surveys/</guid>
+      <description>Want to get real feedback directly from your users? Adding Posthog surveys to your WordPress site hosted on Site Bay can give you valuable insights into what your audience thinks and wants.</description>
+    </item>
+    
+    <item>
+      <title>Unlocking User Insights with Posthog on Site Bay</title>
+      <link>https://www.sitebay.org/docs/products/posthog/posthog-activity/</link>
+      <pubDate>Fri, 19 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/products/posthog/posthog-activity/</guid>
+      <description>If you haven&amp;rsquo;t already, set up your Site Bay WordPress hosting environment. Check out our guides on Getting Started with Site Bay and Deploying Your First WordPress Site.</description>
+    </item>
+    
+    <item>
+      <title>Understanding &#34;People&#34; in PostHog Analytics</title>
+      <link>https://www.sitebay.org/docs/products/posthog/posthog-people/</link>
+      <pubDate>Thu, 18 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/products/posthog/posthog-people/</guid>
+      <description>What is &amp;ldquo;People&amp;rdquo; in PostHog?In PostHog, the &amp;ldquo;People&amp;rdquo; feature refers to the users who interact with your product or website.</description>
+    </item>
+    
+    <item>
+      <title>Mastering Data Management with PostHog on Site Bay</title>
+      <link>https://www.sitebay.org/docs/products/posthog/posthog-data-management/</link>
+      <pubDate>Thu, 04 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/products/posthog/posthog-data-management/</guid>
+      <description>Mastering Data Management with PostHog on Site Bay
+Welcome to the guide on leveraging PostHog for optimal data management on Site Bay.</description>
+    </item>
+    
+    <item>
+      <title>PostHog Insights</title>
+      <link>https://www.sitebay.org/docs/products/posthog/posthog-insights/</link>
+      <pubDate>Thu, 04 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/products/posthog/posthog-insights/</guid>
+      <description>PostHog insights are the core components of dashboards
+OverviewInsights in PostHog display your data through various information visualization components.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,38 @@
+[
+  {
+    "excerpt": "Get to know Site Bay, the ultimate platform for WordPress hosting on Kubernetes, complete with analytics, performance monitoring, and more.",
+    "href": "https://www.sitebay.org/docs/guides/what-is-sitebay/",
+    "lastModified": "2024-04-28T02:51:59-06:00",
+    "linkTitle": "What is Site Bay?",
+    "publishDate": "2024-03-13T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
+    "title": "What is Site Bay?"
+  },
+  {
+    "excerpt": "A video introduction Site Bay",
+    "href": "https://www.sitebay.org/docs/content/intro-video/",
+    "lastModified": "2024-04-28T02:51:59-06:00",
+    "linkTitle": "Site Bay Trailer",
+    "publishDate": "2024-03-29T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
+    "title": "Site Bay Trailer"
+  },
+  {
+    "excerpt": "An introduction to setting up OhMyForm, an open-source software for creating, customizing, and hosting forms in containers using Portainer for easy data gathering.",
+    "href": "https://www.sitebay.org/docs/templates/test-matketplace/",
+    "lastModified": "2024-04-28T02:51:59-06:00",
+    "linkTitle": "Portainer and OhMyForm | Simple Open Source Forms in Containers for Easy Data Gathering",
+    "publishDate": "2024-03-29T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
+    "title": "Portainer and OhMyForm | Simple Open Source Forms in Containers for Easy Data Gathering"
+  },
+  {
+    "excerpt": "Manage and Develop your Wordpress in your browser on Site Bay.",
+    "href": "https://www.sitebay.org/docs/products/code-server/get-started/",
+    "lastModified": "2024-04-28T02:51:59-06:00",
+    "linkTitle": "Get Started",
+    "publishDate": "2024-04-04T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/products/code-server/get-started/CodeServer_hu0a27bd8048c009d64e65307320d468cf_694098_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
+    "title": "Get Started"
+  }
+]

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jeff Novotny on Site Bay Guides &amp; Tutorials</title>
+    <link>https://www.sitebay.org/docs/authors/jeff-novotny/</link>
+    <description>Recent content in Jeff Novotny on Site Bay Guides &amp; Tutorials</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 17 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.sitebay.org/docs/authors/jeff-novotny/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mastering the xargs Command on Site Bay WordPress Hosting</title>
+      <link>https://www.sitebay.org/docs/guides/using-xargs-with-examples/</link>
+      <pubDate>Wed, 17 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/using-xargs-with-examples/</guid>
+      <description>The xargs command is a powerful utility in the Linux arsenal, essential for WordPress developers hosting on Site Bay’s Kubernetes-based environment.</description>
+    </item>
+    
+    <item>
+      <title>Sites Enabled with NGINX or Apache</title>
+      <link>https://www.sitebay.org/docs/guides/how-to-enable-disable-website/</link>
+      <pubDate>Wed, 17 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/how-to-enable-disable-website/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Introduction to Relational Databases and RDBMSs</title>
+      <link>https://www.sitebay.org/docs/guides/relational-database-overview/</link>
+      <pubDate>Thu, 04 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/relational-database-overview/</guid>
+      <description>In the tech world, data is everything. Apps, websites, and even your favorite video games need somewhere to store and access their data.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,20 @@
+[
+  {
+    "excerpt": "Get started with the Site Bay Tools. Learn to clear your cache, turn on development mode, change your domain and create external paths.",
+    "href": "https://www.sitebay.org/docs/products/tools/get-started/",
+    "lastModified": "2024-04-28T02:51:59-06:00",
+    "linkTitle": "Get Started",
+    "publishDate": "2024-04-23T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/products/tools/get-started/ToolsPage_hu4378f152c3faec8ffb6968cbd1c6cedc_486680_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
+    "title": "Get Started"
+  },
+  {
+    "excerpt": "Get started with the Site Bay api. Learn to get an access token and learn about OpenAPI and swagger.",
+    "href": "https://www.sitebay.org/docs/platform/api/getting-started-with-the-sitebay-api/",
+    "lastModified": "2024-04-28T02:51:59-06:00",
+    "linkTitle": "Get Started",
+    "publishDate": "2024-04-23T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/platform/api/getting-started-with-the-sitebay-api/00251-1715236896_hue754cf0a6f9889bf98a40bfb980b6834_401940_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
+    "title": "Get Started"
+  }
+]

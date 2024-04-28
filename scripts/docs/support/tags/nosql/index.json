@@ -1,0 +1,20 @@
+[
+  {
+    "excerpt": "An explanation of what SQLite is, and how it works with WordPress",
+    "href": "https://www.sitebay.org/docs/guides/what-is-sqlite/",
+    "lastModified": "2024-04-04T00:00:00Z",
+    "linkTitle": "What is SQLite?",
+    "publishDate": "2024-04-04T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
+    "title": "What is SQLite?"
+  },
+  {
+    "excerpt": "An explanation of what MySQL is, and how it works with WordPress",
+    "href": "https://www.sitebay.org/docs/guides/what-is-mysql/",
+    "lastModified": "2024-04-04T00:00:00Z",
+    "linkTitle": "What is MySQL?",
+    "publishDate": "2024-04-04T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
+    "title": "What is MySQL?"
+  }
+]

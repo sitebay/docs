@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Edward Angert on Site Bay Guides &amp; Tutorials</title>
+    <link>https://www.sitebay.org/docs/authors/edward-angert/</link>
+    <description>Recent content in Edward Angert on Site Bay Guides &amp; Tutorials</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 04 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.sitebay.org/docs/authors/edward-angert/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Alias Frequently Used Commands in Site Bay</title>
+      <link>https://www.sitebay.org/docs/guides/alias-frequently-used-commands/</link>
+      <pubDate>Thu, 04 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/alias-frequently-used-commands/</guid>
+      <description>What is an Alias?
+An alias in Site Bay simplifies your WordPress management by creating shortcuts for the commands you use most.</description>
+    </item>
+    
+    <item>
+      <title>Effortlessly Edit WordPress Files with Site Bay’s code-server</title>
+      <link>https://www.sitebay.org/docs/guides/use-code-server-to-edit-files-in-sitebay/</link>
+      <pubDate>Thu, 04 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/use-code-server-to-edit-files-in-sitebay/</guid>
+      <description>Site Bay harnesses the power of code-server, a browser-based Integrated Development Environment (IDE), to offer an unparalleled WordPress development experience.</description>
+    </item>
+    
+    <item>
+      <title>Master File Management: Deleting Files and Directories on Site Bay</title>
+      <link>https://www.sitebay.org/docs/guides/delete-file-sitebay-command-line/</link>
+      <pubDate>Wed, 03 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/delete-file-sitebay-command-line/</guid>
+      <description>Navigating file management on your Site Bay WordPress hosting environment is a breeze with the right tools.</description>
+    </item>
+    
+  </channel>
+</rss>

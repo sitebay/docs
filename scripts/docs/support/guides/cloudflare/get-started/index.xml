@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Get Started on Site Bay Guides &amp; Tutorials</title>
+    <link>https://www.sitebay.org/docs/guides/cloudflare/get-started/</link>
+    <description>Recent content in Get Started on Site Bay Guides &amp; Tutorials</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 04 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.sitebay.org/docs/guides/cloudflare/get-started/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Understanding Cloudflare&#39;s CDN</title>
+      <link>https://www.sitebay.org/docs/guides/understanding-cloudflares-cdn/</link>
+      <pubDate>Sat, 13 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/understanding-cloudflares-cdn/</guid>
+      <description>This document provides a simple guide to understanding Cloudflare&amp;rsquo;s Content Delivery Network (CDN) with WordPress.</description>
+    </item>
+    
+    <item>
+      <title>Using a Custom Domain Email in iMail or Gmail</title>
+      <link>https://www.sitebay.org/docs/guides/setting-up-a-custom-email-with-cloudflare/</link>
+      <pubDate>Sat, 13 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/setting-up-a-custom-email-with-cloudflare/</guid>
+      <description>Cloudflare offers custom domain email setup with Gmail or iMail for custom emails. This guide on how to leverage Site Bay’s powerful hosting solutions alongside Cloudflare&amp;rsquo;s DNS and security features to have a professional email using your own domain.</description>
+    </item>
+    
+  </channel>
+</rss>

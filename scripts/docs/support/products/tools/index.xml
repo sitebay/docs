@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tools on Site Bay Guides &amp; Tutorials</title>
+    <link>https://www.sitebay.org/docs/products/tools/</link>
+    <description>Recent content in Tools on Site Bay Guides &amp; Tutorials</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 23 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.sitebay.org/docs/products/tools/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Get Started</title>
+      <link>https://www.sitebay.org/docs/products/tools/get-started/</link>
+      <pubDate>Tue, 23 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/products/tools/get-started/</guid>
+      <description>My Site Bay WordPress Hosting Site Tools Optimize Your Site with External PathsSite Bay Tools offer an impressive feature known as &amp;ldquo;External Paths.</description>
+    </item>
+    
+  </channel>
+</rss>

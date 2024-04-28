@@ -1,0 +1,65 @@
+[
+  {
+    "excerpt": "Let\u0026rsquo;s reshape the provided content to fit the context of Site Bay, focusing on powerful WordPress hosting on Kubernetes, incorporating elements like Posthog, recordings, Grafana, and the vibrant spirit of Site Bay\u0026rsquo;s community.",
+    "href": "https://www.sitebay.org/docs/guides/sitebay-navigation-commands/",
+    "lastModified": "2024-04-24T01:49:33-06:00",
+    "linkTitle": "sitebay-navigation-commands",
+    "publishDate": "2024-03-04T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
+    "title": "sitebay-navigation-commands"
+  },
+  {
+    "excerpt": "",
+    "href": "https://www.sitebay.org/docs/guides/ls-command-in-sitebay/",
+    "lastModified": "2024-04-24T01:49:33-06:00",
+    "linkTitle": "ls-command-in-sitebay",
+    "publishDate": "2024-03-04T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
+    "title": "ls-command-in-sitebay"
+  },
+  {
+    "excerpt": "Let\u0026rsquo;s remake the article for Site Bay Powerful WordPress hosting, making it relatable and straightforward. We\u0026rsquo;ll focus on setting and using environment variables in the context of Site Bay, ensuring it\u0026rsquo;s clear and accessible for everyone, especially those new to WordPress hosting on Kubernetes platforms.",
+    "href": "https://www.sitebay.org/docs/guides/how-to-set-sitebay-environment-variables/",
+    "lastModified": "2024-04-24T01:49:33-06:00",
+    "linkTitle": "how-to-set-sitebay-environment-variables",
+    "publishDate": "2024-03-04T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
+    "title": "how-to-set-sitebay-environment-variables"
+  },
+  {
+    "excerpt": "Copying Files and Directories in Site Bay\nWhether you\u0026rsquo;re new to managing a WordPress site on Site Bay or you\u0026rsquo;ve been at it for a while, knowing how to handle files is crucial.",
+    "href": "https://www.sitebay.org/docs/guides/how-to-copy-files-and-directories/",
+    "lastModified": "2024-04-24T01:49:33-06:00",
+    "linkTitle": "how-to-copy-files-and-directories",
+    "publishDate": "2024-03-04T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
+    "title": "how-to-copy-files-and-directories"
+  },
+  {
+    "excerpt": "This guide shows how to install four components of Elastic Stack - Filebeat, Metricbeat, Elasticsearch, and Kibana - to monitor a typical NGINX webserver.",
+    "href": "https://www.sitebay.org/docs/guides/monitor-nginx-web-server-logs-using-filebeat-elastic-stack-centos-7/",
+    "lastModified": "2024-04-24T01:49:33-06:00",
+    "linkTitle": "Monitoring NGINX Using the Elastic Stack on Centos 7",
+    "publishDate": "2024-04-13T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
+    "title": "Monitoring NGINX Using the Elastic Stack on Centos 7"
+  },
+  {
+    "excerpt": "Is your site enabled with NGINX or Apache? This guide explains how to quickly disable a website running on Apache/NGINX, \u0026 what's involved in re-enabling it.",
+    "href": "https://www.sitebay.org/docs/guides/how-to-enable-disable-website/",
+    "lastModified": "2024-04-24T01:49:33-06:00",
+    "linkTitle": "Sites Enabled with NGINX or Apache",
+    "publishDate": "2024-04-17T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
+    "title": "Sites Enabled with NGINX or Apache"
+  },
+  {
+    "excerpt": "This guide discusses guidelines for quickly transferring a site",
+    "href": "https://www.sitebay.org/docs/guides/transferring-a-wordpress-site-to-a-new-server/",
+    "lastModified": "2024-04-24T01:49:33-06:00",
+    "linkTitle": "Transfer a WordPress Site to Site Bay's WordPress Hosting",
+    "publishDate": "2024-04-25T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
+    "title": "Transfer a WordPress Site to Site Bay's WordPress Hosting"
+  }
+]

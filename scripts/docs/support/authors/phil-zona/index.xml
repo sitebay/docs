@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Phil Zona on Site Bay Guides &amp; Tutorials</title>
+    <link>https://www.sitebay.org/docs/authors/phil-zona/</link>
+    <description>Recent content in Phil Zona on Site Bay Guides &amp; Tutorials</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 04 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.sitebay.org/docs/authors/phil-zona/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Efficiently Find Text in Your WordPress Files with grep</title>
+      <link>https://www.sitebay.org/docs/guides/how-to-use-grep/</link>
+      <pubDate>Thu, 04 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/how-to-use-grep/</guid>
+      <description>Dive into the world of grep on Site Bay to streamline your search for specific text within your WordPress files.</description>
+    </item>
+    
+    <item>
+      <title>Mastering Data Management with PostHog on Site Bay</title>
+      <link>https://www.sitebay.org/docs/products/posthog/posthog-data-management/</link>
+      <pubDate>Thu, 04 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/products/posthog/posthog-data-management/</guid>
+      <description>Mastering Data Management with PostHog on Site Bay
+Welcome to the guide on leveraging PostHog for optimal data management on Site Bay.</description>
+    </item>
+    
+    <item>
+      <title>Maximizing Efficiency with Site Bay&#39;s Dashboard Tools</title>
+      <link>https://www.sitebay.org/docs/guides/sitebay-dashboard-tools/</link>
+      <pubDate>Thu, 04 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/sitebay-dashboard-tools/</guid>
+      <description>Site Bay&amp;rsquo;s Dashboard is packed with powerful tools designed to give you full control over your WordPress hosting environment.</description>
+    </item>
+    
+  </channel>
+</rss>

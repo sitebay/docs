@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Site Bay Guides &amp; Tutorials</title>
+    <link>https://www.sitebay.org/docs/platform/api/</link>
+    <description>Recent content on Site Bay Guides &amp; Tutorials</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 23 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.sitebay.org/docs/platform/api/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Get Started</title>
+      <link>https://www.sitebay.org/docs/platform/api/getting-started-with-the-sitebay-api/</link>
+      <pubDate>Tue, 23 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/platform/api/getting-started-with-the-sitebay-api/</guid>
+      <description>Getting Started with the Site Bay API: A Comprehensive GuideThe Site Bay API offers a wealth of options for developers looking to automate aspects of web hosting, site management, and integration of various online services.</description>
+    </item>
+    
+  </channel>
+</rss>

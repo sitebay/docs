@@ -1,0 +1,20 @@
+[
+  {
+    "excerpt": "Discover the power of open source software with Site Bay’s WordPress hosting, leveraging PostHog, recordings, and Grafana for optimal performance and flexibility.",
+    "href": "https://www.sitebay.org/docs/guides/open-source-software-benefits/",
+    "lastModified": "2024-04-24T00:00:00Z",
+    "linkTitle": "Embracing the Advantages of Open Source Software with Site Bay",
+    "publishDate": "2024-04-24T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/guides/open-source-software-benefits/OpenSource_hu2fb2b37a86777ea2736f2234144098ee_200739_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
+    "title": "Embracing the Advantages of Open Source Software with Site Bay"
+  },
+  {
+    "excerpt": "Discover how Site Bay utilizes Grafana for in-depth WordPress visitor insights on our Kubernetes-based hosting platform, featuring seamless integration with PostHog analytics.",
+    "href": "https://www.sitebay.org/docs/guides/grafana-for-wordpress/",
+    "lastModified": "2024-04-04T00:00:00Z",
+    "linkTitle": "Leveraging Grafana for WordPress Insights at Site Bay",
+    "publishDate": "2024-04-04T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/guides/grafana-for-wordpress/container-sitebay-login-lish_hu5fa61dd950d60f5fcf5277b9bfa6ea93_20242_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
+    "title": "Leveraging Grafana for WordPress Insights at Site Bay"
+  }
+]

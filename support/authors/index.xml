@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Authors on Site Bay Guides &amp; Tutorials</title>
+    <link>https://www.sitebay.org/docs/authors/</link>
+    <description>Recent content in Authors on Site Bay Guides &amp; Tutorials</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 28 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.sitebay.org/docs/authors/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Site Bay</title>
+      <link>https://www.sitebay.org/docs/authors/site-bay/</link>
+      <pubDate>Sun, 28 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/authors/site-bay/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Steven J. Vaughan-Nichols</title>
+      <link>https://www.sitebay.org/docs/authors/steven-j.-vaughan-nichols/</link>
+      <pubDate>Sun, 21 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/authors/steven-j.-vaughan-nichols/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rajakavitha Kodhandapani</title>
+      <link>https://www.sitebay.org/docs/authors/rajakavitha-kodhandapani/</link>
+      <pubDate>Mon, 04 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/authors/rajakavitha-kodhandapani/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pavel Petrov</title>
+      <link>https://www.sitebay.org/docs/authors/pavel-petrov/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/authors/pavel-petrov/</guid>
+      <description>Pavel Petrov is Id laborum magna proident voluptate sint anim. Labore qui enim aute Lorem non fugiat reprehenderit dolore sit.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Site Bot on Site Bay Guides &amp; Tutorials</title>
+    <link>https://www.sitebay.org/docs/products/site-bot/</link>
+    <description>Recent content in Site Bot on Site Bay Guides &amp; Tutorials</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://www.sitebay.org/docs/products/site-bot/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Get Started</title>
+      <link>https://www.sitebay.org/docs/products/site-bot/get-started/</link>
+      <pubDate>Wed, 24 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/products/site-bot/get-started/</guid>
+      <description>This guide walks you through using Site Bot on my.sitebay.org, an intuitive tool for efficient website management and deployment, with unlimited use for ChatGPT Plus subscribers.</description>
+    </item>
+    
+  </channel>
+</rss>

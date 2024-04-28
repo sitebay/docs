@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Steven J. Vaughan-Nichols on Site Bay Guides &amp; Tutorials</title>
+    <link>https://www.sitebay.org/docs/authors/steven-j.-vaughan-nichols/</link>
+    <description>Recent content in Steven J. Vaughan-Nichols on Site Bay Guides &amp; Tutorials</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 21 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.sitebay.org/docs/authors/steven-j.-vaughan-nichols/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Open Source vs. Closed Source in WordPress: What’s the Difference?</title>
+      <link>https://www.sitebay.org/docs/guides/gpl-in-wordpress/</link>
+      <pubDate>Sun, 21 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/gpl-in-wordpress/</guid>
+      <description>What is Open Source?
+In the early days of computing, all software was open source, meaning its source code was freely shared and could be modified by anyone.</description>
+    </item>
+    
+  </channel>
+</rss>

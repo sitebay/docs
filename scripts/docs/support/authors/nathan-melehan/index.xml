@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nathan Melehan on Site Bay Guides &amp; Tutorials</title>
+    <link>https://www.sitebay.org/docs/authors/nathan-melehan/</link>
+    <description>Recent content in Nathan Melehan on Site Bay Guides &amp; Tutorials</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 04 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.sitebay.org/docs/authors/nathan-melehan/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Harnessing the WebSSH Feature in Site Bay Dashboard</title>
+      <link></link>
+      <pubDate>Thu, 04 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid></guid>
+      <description>Dive into your WordPress site&amp;rsquo;s backend with ease using Site Bay&amp;rsquo;s WebSSH feature directly from your browser.</description>
+    </item>
+    
+    <item>
+      <title>Streamline Your WordPress Development with Site Bay&#39;s Code Server</title>
+      <link>https://www.sitebay.org/docs/guides/sitebay-code-server/</link>
+      <pubDate>Thu, 04 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/sitebay-code-server/</guid>
+      <description>Introduction to Code Server on Site Bay
+Code Server transforms your development experience by allowing you to manage WordPress files and develop directly in your browser.</description>
+    </item>
+    
+  </channel>
+</rss>

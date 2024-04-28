@@ -1,0 +1,20 @@
+[
+  {
+    "excerpt": "This guide discusses guidelines for quickly transferring a site",
+    "href": "https://www.sitebay.org/docs/guides/transferring-a-wordpress-site-to-a-new-server/",
+    "lastModified": "2024-04-25T00:00:00Z",
+    "linkTitle": "Transfer a WordPress Site to Site Bay's WordPress Hosting",
+    "publishDate": "2024-04-25T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
+    "title": "Transfer a WordPress Site to Site Bay's WordPress Hosting"
+  },
+  {
+    "excerpt": "Is your site enabled with NGINX or Apache? This guide explains how to quickly disable a website running on Apache/NGINX, \u0026 what's involved in re-enabling it.",
+    "href": "https://www.sitebay.org/docs/guides/how-to-enable-disable-website/",
+    "lastModified": "2024-04-17T00:00:00Z",
+    "linkTitle": "Sites Enabled with NGINX or Apache",
+    "publishDate": "2024-04-17T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
+    "title": "Sites Enabled with NGINX or Apache"
+  }
+]

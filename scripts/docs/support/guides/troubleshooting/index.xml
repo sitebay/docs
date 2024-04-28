@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Site Bay Guides &amp; Tutorials</title>
+    <link>https://www.sitebay.org/docs/guides/troubleshooting/</link>
+    <description>Recent content on Site Bay Guides &amp; Tutorials</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 27 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.sitebay.org/docs/guides/troubleshooting/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fix WordPress site problems after updating</title>
+      <link>https://www.sitebay.org/docs/guides/disaster-recovery-tutorial/</link>
+      <pubDate>Sat, 27 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/disaster-recovery-tutorial/</guid>
+      <description>If you are having issues accessing your Site after the WordPress core has been updated, here are a few troubleshooting steps to follow.</description>
+    </item>
+    
+    <item>
+      <title>Mastering WP-CLI on Site Bay</title>
+      <link>https://www.sitebay.org/docs/guides/wp-cli-tutorial/</link>
+      <pubDate>Sat, 27 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/wp-cli-tutorial/</guid>
+      <description>Hey! Wanna level up how you manage your WordPress site? Let&amp;rsquo;s dive into WP-CLI, the superhero command-line tool that lets you boss around your WordPress site straight from the terminal.</description>
+    </item>
+    
+  </channel>
+</rss>

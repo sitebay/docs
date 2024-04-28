@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MySQL Database on Site Bay Guides &amp; Tutorials</title>
+    <link>https://www.sitebay.org/docs/guides/databases/mysql/</link>
+    <description>Recent content in MySQL Database on Site Bay Guides &amp; Tutorials</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 25 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.sitebay.org/docs/guides/databases/mysql/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Comparing WordPress Databases: The 3 Most Popular Database Types</title>
+      <link>https://www.sitebay.org/docs/guides/list-of-databases/</link>
+      <pubDate>Thu, 25 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/list-of-databases/</guid>
+      <description>Databases are the powerhouse behind nearly every website, app, and online platform you interact with daily.</description>
+    </item>
+    
+    <item>
+      <title>What is MariaDB?</title>
+      <link>https://www.sitebay.org/docs/guides/what-is-mariadb/</link>
+      <pubDate>Thu, 04 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/what-is-mariadb/</guid>
+      <description>What Makes MariaDB Different From MySQL?Understanding the difference between MariaDB and MySQL: We will break it down for you as simply as possible.</description>
+    </item>
+    
+    <item>
+      <title>What is MySQL?</title>
+      <link>https://www.sitebay.org/docs/guides/what-is-mysql/</link>
+      <pubDate>Thu, 04 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/what-is-mysql/</guid>
+      <description>What Makes NoSQL Different From SQL?The term &amp;ldquo;NoSQL&amp;rdquo; or &amp;ldquo;non-SQL&amp;rdquo; describes a database management system with a non-relational data model, in contrast to the Structured Query Language (SQL).</description>
+    </item>
+    
+    <item>
+      <title>What is SQLite?</title>
+      <link>https://www.sitebay.org/docs/guides/what-is-sqlite/</link>
+      <pubDate>Thu, 04 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/what-is-sqlite/</guid>
+      <description>WordPress Embracing SQLite: A Game Changer for Site ManagementWordPress&amp;rsquo;s recent decision to integrate SQLite support through a new plugin option is stirring up the web development community.</description>
+    </item>
+    
+  </channel>
+</rss>

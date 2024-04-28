@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Angel Guarisma on Site Bay Guides &amp; Tutorials</title>
+    <link>https://www.sitebay.org/docs/authors/angel-guarisma/</link>
+    <description>Recent content in Angel Guarisma on Site Bay Guides &amp; Tutorials</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 22 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.sitebay.org/docs/authors/angel-guarisma/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Changing Security-Enhanced WordPress (SEWP) Modes</title>
+      <link>https://www.sitebay.org/docs/guides/how-to-change-sesitebay-modes/</link>
+      <pubDate>Mon, 22 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/how-to-change-sesitebay-modes/</guid>
+      <description>Security-Enhanced WordPress (SEWP) is a security framework for WordPress hosting on Site Bay, designed to provide role-based access control.</description>
+    </item>
+    
+    <item>
+      <title>Harnessing Git for Site Bay: A Comprehensive Guide</title>
+      <link>https://www.sitebay.org/docs/guides/how-to-use-git/</link>
+      <pubDate>Fri, 19 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/how-to-use-git/</guid>
+      <description>Git is a cornerstone for managing software projects, offering powerful version control capabilities. Whether you&amp;rsquo;re launching your first WordPress site on Site Bay or managing a complex project, understanding Git is key.</description>
+    </item>
+    
+    <item>
+      <title>How to Use Git Sync on Site Bay</title>
+      <link>https://www.sitebay.org/docs/guides/how-to-use-git-sync/</link>
+      <pubDate>Fri, 19 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/how-to-use-git-sync/</guid>
+      <description>Keeping your Site Bay WordPress site synchronized with your Git repository ensures that updates and changes are seamlessly applied.</description>
+    </item>
+    
+    <item>
+      <title>Efficient File Management on Site Bay Hosting with Command Line Tools</title>
+      <link>https://www.sitebay.org/docs/guides/compress-files-using-the-command-line/</link>
+      <pubDate>Thu, 04 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/compress-files-using-the-command-line/</guid>
+      <description>Utilizing tar and gzip commands, you can streamline file management within your Site Bay WordPress hosting environment.</description>
+    </item>
+    
+  </channel>
+</rss>

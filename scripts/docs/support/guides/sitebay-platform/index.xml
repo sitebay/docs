@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Site Bay Platform on Site Bay Guides &amp; Tutorials</title>
+    <link>https://www.sitebay.org/docs/guides/sitebay-platform/</link>
+    <description>Recent content in Site Bay Platform on Site Bay Guides &amp; Tutorials</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://www.sitebay.org/docs/guides/sitebay-platform/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Find Your Site Bay&#39;s IP Address</title>
+      <link>https://www.sitebay.org/docs/guides/find-your-site-bay-ip-address/</link>
+      <pubDate>Sun, 21 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/find-your-site-bay-ip-address/</guid>
+      <description>Creating and Managing Your Website with Site Bot: A User-Friendly Guide
+Have you ever wished for a more straightforward way to deploy and manage your website without delving into complex coding or navigating through endless dashboard settings?</description>
+    </item>
+    
+    <item>
+      <title>Managing Your Sites with Site Bot AI</title>
+      <link>https://www.sitebay.org/docs/guides/managing-your-sites-with-site-bot-ai/</link>
+      <pubDate>Sun, 21 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/managing-your-sites-with-site-bot-ai/</guid>
+      <description>Creating and Managing Your Website with Site Bot: A User-Friendly GuideHave you ever wished for a more straightforward way to deploy and manage your website without delving into complex coding or navigating through endless dashboard settings?</description>
+    </item>
+    
+    <item>
+      <title>DHCP IP Address Reference for Site Bay</title>
+      <link>https://www.sitebay.org/docs/guides/dhcp-ip-address-reference/</link>
+      <pubDate>Thu, 04 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/dhcp-ip-address-reference/</guid>
+      <description>When you&amp;rsquo;re setting up something like a firewall for your Site Bay site, knowing the DHCP IP addresses can be super handy.</description>
+    </item>
+    
+  </channel>
+</rss>

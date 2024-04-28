@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>John Mueller on Site Bay Guides &amp; Tutorials</title>
+    <link>https://www.sitebay.org/docs/authors/john-mueller/</link>
+    <description>Recent content in John Mueller on Site Bay Guides &amp; Tutorials</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 04 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.sitebay.org/docs/authors/john-mueller/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Effortless WordPress Recovery with Site Bay&#39;s Point-in-Time Machine</title>
+      <link>https://www.sitebay.org/docs/guides/point-in-time-machine-wordpress/</link>
+      <pubDate>Thu, 04 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/point-in-time-machine-wordpress/</guid>
+      <description>Embrace the Safety Net of Point-in-Time Recovery for WordPress
+In the dynamic world of WordPress hosting, ensuring your site&amp;rsquo;s integrity and continuity is paramount.</description>
+    </item>
+    
+    <item>
+      <title>Quick Guide to Site Bay’s Backup and Restoration Commands</title>
+      <link>https://www.sitebay.org/docs/guides/sitebay-dump-and-restore-commands/</link>
+      <pubDate>Thu, 04 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/sitebay-dump-and-restore-commands/</guid>
+      <description>external_resources:
+&amp;lsquo;Backup and Restore WordPress Site in Site Bay&amp;rsquo; &amp;lsquo;Managing WordPress Backups in Site Bay&amp;rsquo;</description>
+    </item>
+    
+    <item>
+      <title>Top Benefits of Site Bay for WordPress Hosting</title>
+      <link>https://www.sitebay.org/docs/guides/benefits-of-sitebay/</link>
+      <pubDate>Mon, 04 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/benefits-of-sitebay/</guid>
+      <description>Choosing the right platform for WordPress hosting is crucial for the success and growth of any online presence.</description>
+    </item>
+    
+  </channel>
+</rss>

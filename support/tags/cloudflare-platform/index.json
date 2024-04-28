@@ -1,0 +1,20 @@
+[
+  {
+    "excerpt": "These guides include introductory projects that utilize the foundational services of the Cloudflare and Site Bay platforms.",
+    "href": "https://www.sitebay.org/docs/guides/cloudflare/get-started/",
+    "lastModified": "2024-04-28T02:51:59-06:00",
+    "linkTitle": "Get Started",
+    "publishDate": "2024-04-04T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/guides/cloudflare/get-started/feature_hu86cac9d93655fcbc80423342c33d265b_8388_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
+    "title": "Get Started"
+  },
+  {
+    "excerpt": "Combine the capabilities of the Cloudflare and Site Bay platforms.",
+    "href": "https://www.sitebay.org/docs/guides/understanding-cloudflares-cdn/",
+    "lastModified": "2024-04-28T02:51:59-06:00",
+    "linkTitle": "Understanding Cloudflare's CDN",
+    "publishDate": "2024-04-13T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
+    "title": "Understanding Cloudflare's CDN"
+  }
+]

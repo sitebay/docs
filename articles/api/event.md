@@ -1,0 +1,5 @@
+---
+title: Event
+slug: event
+---
+

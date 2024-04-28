@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Site Bay Encryption Squad on Site Bay Guides &amp; Tutorials</title>
+    <link>https://www.sitebay.org/docs/authors/site-bay-encryption-squad/</link>
+    <description>Recent content in Site Bay Encryption Squad on Site Bay Guides &amp; Tutorials</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 04 Apr 2013 00:00:00 +0000</lastBuildDate><atom:link href="https://www.sitebay.org/docs/authors/site-bay-encryption-squad/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Secure Your WordPress Hosting with Full Disk Encryption on Debian</title>
+      <link>https://www.sitebay.org/docs/guides/full-disk-encryption-xen/</link>
+      <pubDate>Thu, 04 Apr 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/full-disk-encryption-xen/</guid>
+      <description>Full disk encryption is your digital armor, turning data stored on your Site Bay&amp;rsquo;s disks into unreadable code that only the right key can unlock.</description>
+    </item>
+    
+  </channel>
+</rss>

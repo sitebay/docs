@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Encryption on Site Bay Guides &amp; Tutorials</title>
+    <link>https://www.sitebay.org/docs/guides/security/encryption/</link>
+    <description>Recent content in Encryption on Site Bay Guides &amp; Tutorials</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://www.sitebay.org/docs/guides/security/encryption/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Encrypt Your WordPress Hosting Data with dm-crypt</title>
+      <link>https://www.sitebay.org/docs/guides/encrypt-data-disk-with-dm-crypt/</link>
+      <pubDate>Thu, 18 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/encrypt-data-disk-with-dm-crypt/</guid>
+      <description>dm-crypt turns your data into Fort Knox, encrypting disks, partitions, and even turning files into secure vaults.</description>
+    </item>
+    
+    <item>
+      <title>How to Use LUKS for Full Disk Encryption on Your WordPress Hosting Environment</title>
+      <link>https://www.sitebay.org/docs/guides/use-luks-for-full-disk-encryption/</link>
+      <pubDate>Thu, 04 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/use-luks-for-full-disk-encryption/</guid>
+      <description>Securing Your WordPress Site with LUKS Full Disk Encryption on Debian
+Full disk encryption is a robust method of securing data on your Site Bay&amp;rsquo;s WordPress hosting environment.</description>
+    </item>
+    
+  </channel>
+</rss>

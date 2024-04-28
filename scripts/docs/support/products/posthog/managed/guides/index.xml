@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Guides on Site Bay Guides &amp; Tutorials</title>
+    <link>https://www.sitebay.org/docs/products/posthog/managed/guides/</link>
+    <description>Recent content in Guides on Site Bay Guides &amp; Tutorials</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 04 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.sitebay.org/docs/products/posthog/managed/guides/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cancel Managed PostHog</title>
+      <link>https://www.sitebay.org/docs/products/posthog/managed/guides/cancel/</link>
+      <pubDate>Thu, 04 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/products/posthog/managed/guides/cancel/</guid>
+      <description>If you no longer need Site Bay&amp;rsquo;s Managed PostHog offering, you can cancel it by contacting the Support team.</description>
+    </item>
+    
+    <item>
+      <title>Configure Credentials for Managed PostHog</title>
+      <link>https://www.sitebay.org/docs/products/posthog/managed/guides/credentials/</link>
+      <pubDate>Thu, 04 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/products/posthog/managed/guides/credentials/</guid>
+      <description>Many of the applications running on your servers can only be accessed with the appropriate username and password combination.</description>
+    </item>
+    
+    <item>
+      <title>Configure Firewall Rules to Allow Access from Site Bay Infrastructure (for Managed PostHog Customers)</title>
+      <link>https://www.sitebay.org/docs/products/posthog/managed/guides/allow-access-from-linode-infrastructure/</link>
+      <pubDate>Thu, 04 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/products/posthog/managed/guides/allow-access-from-linode-infrastructure/</guid>
+      <description>As a Managed PostHog customer, you may need to add or modify your firewall rules to allow access from our infrastructure.</description>
+    </item>
+    
+    <item>
+      <title>Configure SSH Access for Managed PostHog</title>
+      <link>https://www.sitebay.org/docs/products/posthog/managed/guides/ssh-access/</link>
+      <pubDate>Thu, 04 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/products/posthog/managed/guides/ssh-access/</guid>
+      <description>To troubleshoot an issue with a failed monitor check, the Support Team needs access to your system.</description>
+    </item>
+    
+    <item>
+      <title>Manage Contacts for Managed PostHog</title>
+      <link>https://www.sitebay.org/docs/products/posthog/managed/guides/contacts/</link>
+      <pubDate>Thu, 04 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/products/posthog/managed/guides/contacts/</guid>
+      <description>Service Monitors can be configured to email your team members in the event of an issue with your system.</description>
+    </item>
+    
+    <item>
+      <title>Create and Edit Service Monitors for Managed PostHog</title>
+      <link>https://www.sitebay.org/docs/products/posthog/managed/guides/service-monitors/</link>
+      <pubDate>Thu, 04 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/products/posthog/managed/guides/service-monitors/</guid>
+      <description>Managed PostHog monitors the posthog running on your WordPress Sites. Setting up posthog is an essential step in the configuration process.</description>
+    </item>
+    
+  </channel>
+</rss>

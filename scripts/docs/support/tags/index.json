@@ -1,0 +1,322 @@
+[
+  {
+    "href": "https://www.sitebay.org/docs/tags/a/b-testing/index.json",
+    "term": "a/b-testing"
+  },
+  {
+    "href": "https://www.sitebay.org/docs/tags/account-management/index.json",
+    "term": "account-management"
+  },
+  {
+    "href": "https://www.sitebay.org/docs/tags/ai/index.json",
+    "term": "ai"
+  },
+  {
+    "href": "https://www.sitebay.org/docs/tags/analytics/index.json",
+    "term": "analytics"
+  },
+  {
+    "href": "https://www.sitebay.org/docs/tags/android/index.json",
+    "term": "android"
+  },
+  {
+    "href": "https://www.sitebay.org/docs/tags/apache/index.json",
+    "term": "apache"
+  },
+  {
+    "href": "https://www.sitebay.org/docs/tags/app-center/index.json",
+    "term": "app-center"
+  },
+  {
+    "href": "https://www.sitebay.org/docs/tags/authentication/index.json",
+    "term": "authentication"
+  },
+  {
+    "href": "https://www.sitebay.org/docs/tags/backup/index.json",
+    "term": "backup"
+  },
+  {
+    "href": "https://www.sitebay.org/docs/tags/backups/index.json",
+    "term": "backups"
+  },
+  {
+    "href": "https://www.sitebay.org/docs/tags/cdn/index.json",
+    "term": "cdn"
+  },
+  {
+    "href": "https://www.sitebay.org/docs/tags/cloudflare-platform/index.json",
+    "term": "cloudflare-platform"
+  },
+  {
+    "href": "https://www.sitebay.org/docs/tags/code-server/index.json",
+    "term": "code-server"
+  },
+  {
+    "href": "https://www.sitebay.org/docs/tags/command-line/index.json",
+    "term": "command-line"
+  },
+  {
+    "href": "https://www.sitebay.org/docs/tags/containers/index.json",
+    "term": "containers"
+  },
+  {
+    "href": "https://www.sitebay.org/docs/tags/custom/index.json",
+    "term": "custom"
+  },
+  {
+    "href": "https://www.sitebay.org/docs/tags/dashboard/index.json",
+    "term": "dashboard"
+  },
+  {
+    "href": "https://www.sitebay.org/docs/tags/data-gathering/index.json",
+    "term": "data-gathering"
+  },
+  {
+    "href": "https://www.sitebay.org/docs/tags/data-management/index.json",
+    "term": "data-management"
+  },
+  {
+    "href": "https://www.sitebay.org/docs/tags/data-recovery/index.json",
+    "term": "data-recovery"
+  },
+  {
+    "href": "https://www.sitebay.org/docs/tags/development/index.json",
+    "term": "development"
+  },
+  {
+    "href": "https://www.sitebay.org/docs/tags/development-tools/index.json",
+    "term": "development-tools"
+  },
+  {
+    "href": "https://www.sitebay.org/docs/tags/docker/index.json",
+    "term": "docker"
+  },
+  {
+    "href": "https://www.sitebay.org/docs/tags/drupal/index.json",
+    "term": "drupal"
+  },
+  {
+    "href": "https://www.sitebay.org/docs/tags/echo/index.json",
+    "term": "echo"
+  },
+  {
+    "href": "https://www.sitebay.org/docs/tags/email/index.json",
+    "term": "email"
+  },
+  {
+    "href": "https://www.sitebay.org/docs/tags/feature-flags/index.json",
+    "term": "feature-flags"
+  },
+  {
+    "href": "https://www.sitebay.org/docs/tags/form-creation/index.json",
+    "term": "form-creation"
+  },
+  {
+    "href": "https://www.sitebay.org/docs/tags/git/index.json",
+    "term": "git"
+  },
+  {
+    "href": "https://www.sitebay.org/docs/tags/git-sync/index.json",
+    "term": "git-sync"
+  },
+  {
+    "href": "https://www.sitebay.org/docs/tags/gmail/index.json",
+    "term": "gmail"
+  },
+  {
+    "href": "https://www.sitebay.org/docs/tags/grafana/index.json",
+    "term": "grafana"
+  },
+  {
+    "href": "https://www.sitebay.org/docs/tags/hosting/index.json",
+    "term": "hosting"
+  },
+  {
+    "href": "https://www.sitebay.org/docs/tags/hosting-plans/index.json",
+    "term": "hosting-plans"
+  },
+  {
+    "href": "https://www.sitebay.org/docs/tags/ide/index.json",
+    "term": "ide"
+  },
+  {
+    "href": "https://www.sitebay.org/docs/tags/imail/index.json",
+    "term": "imail"
+  },
+  {
+    "href": "https://www.sitebay.org/docs/tags/img2img/index.json",
+    "term": "img2img"
+  },
+  {
+    "href": "https://www.sitebay.org/docs/tags/inpainting/index.json",
+    "term": "inpainting"
+  },
+  {
+    "href": "https://www.sitebay.org/docs/tags/kubernetes/index.json",
+    "term": "kubernetes"
+  },
+  {
+    "href": "https://www.sitebay.org/docs/tags/linux/index.json",
+    "term": "linux"
+  },
+  {
+    "href": "https://www.sitebay.org/docs/tags/managed-hosting/index.json",
+    "term": "managed-hosting"
+  },
+  {
+    "href": "https://www.sitebay.org/docs/tags/mariadb/index.json",
+    "term": "mariadb"
+  },
+  {
+    "href": "https://www.sitebay.org/docs/tags/migrate/index.json",
+    "term": "migrate"
+  },
+  {
+    "href": "https://www.sitebay.org/docs/tags/mobile-app/index.json",
+    "term": "mobile-app"
+  },
+  {
+    "href": "https://www.sitebay.org/docs/tags/monitoring/index.json",
+    "term": "monitoring"
+  },
+  {
+    "href": "https://www.sitebay.org/docs/tags/my-site-bay/index.json",
+    "term": "my-site-bay"
+  },
+  {
+    "href": "https://www.sitebay.org/docs/tags/mysql/index.json",
+    "term": "mysql"
+  },
+  {
+    "href": "https://www.sitebay.org/docs/tags/nginx/index.json",
+    "term": "nginx"
+  },
+  {
+    "href": "https://www.sitebay.org/docs/tags/nosql/index.json",
+    "term": "nosql"
+  },
+  {
+    "href": "https://www.sitebay.org/docs/tags/open-source/index.json",
+    "term": "open-source"
+  },
+  {
+    "href": "https://www.sitebay.org/docs/tags/phpstorm/index.json",
+    "term": "phpstorm"
+  },
+  {
+    "href": "https://www.sitebay.org/docs/tags/pit-machine/index.json",
+    "term": "pit-machine"
+  },
+  {
+    "href": "https://www.sitebay.org/docs/tags/posthog/index.json",
+    "term": "posthog"
+  },
+  {
+    "href": "https://www.sitebay.org/docs/tags/quickstart/index.json",
+    "term": "quickstart"
+  },
+  {
+    "href": "https://www.sitebay.org/docs/tags/resolving/index.json",
+    "term": "resolving"
+  },
+  {
+    "href": "https://www.sitebay.org/docs/tags/restore/index.json",
+    "term": "restore"
+  },
+  {
+    "href": "https://www.sitebay.org/docs/tags/security/index.json",
+    "term": "security"
+  },
+  {
+    "href": "https://www.sitebay.org/docs/tags/server-error/index.json",
+    "term": "server-error"
+  },
+  {
+    "href": "https://www.sitebay.org/docs/tags/session-replay/index.json",
+    "term": "session-replay"
+  },
+  {
+    "href": "https://www.sitebay.org/docs/tags/site-bay/index.json",
+    "term": "site-bay"
+  },
+  {
+    "href": "https://www.sitebay.org/docs/tags/site-bay-platform/index.json",
+    "term": "site-bay-platform"
+  },
+  {
+    "href": "https://www.sitebay.org/docs/tags/site-bot/index.json",
+    "term": "site-bot"
+  },
+  {
+    "href": "https://www.sitebay.org/docs/tags/site-syncing/index.json",
+    "term": "site-syncing"
+  },
+  {
+    "href": "https://www.sitebay.org/docs/tags/sitebay/index.json",
+    "term": "sitebay"
+  },
+  {
+    "href": "https://www.sitebay.org/docs/tags/sitebay-platform/index.json",
+    "term": "sitebay-platform"
+  },
+  {
+    "href": "https://www.sitebay.org/docs/tags/ssh/index.json",
+    "term": "ssh"
+  },
+  {
+    "href": "https://www.sitebay.org/docs/tags/stable-diffusion/index.json",
+    "term": "stable-diffusion"
+  },
+  {
+    "href": "https://www.sitebay.org/docs/tags/static-site/index.json",
+    "term": "static-site"
+  },
+  {
+    "href": "https://www.sitebay.org/docs/tags/templates/index.json",
+    "term": "templates"
+  },
+  {
+    "href": "https://www.sitebay.org/docs/tags/ubuntu/index.json",
+    "term": "ubuntu"
+  },
+  {
+    "href": "https://www.sitebay.org/docs/tags/user-permissions/index.json",
+    "term": "user-permissions"
+  },
+  {
+    "href": "https://www.sitebay.org/docs/tags/users/index.json",
+    "term": "users"
+  },
+  {
+    "href": "https://www.sitebay.org/docs/tags/version-control-system/index.json",
+    "term": "version-control-system"
+  },
+  {
+    "href": "https://www.sitebay.org/docs/tags/vscode/index.json",
+    "term": "vscode"
+  },
+  {
+    "href": "https://www.sitebay.org/docs/tags/web-server/index.json",
+    "term": "web-server"
+  },
+  {
+    "href": "https://www.sitebay.org/docs/tags/webssh/index.json",
+    "term": "webssh"
+  },
+  {
+    "href": "https://www.sitebay.org/docs/tags/wordpress/index.json",
+    "term": "wordpress"
+  },
+  {
+    "href": "https://www.sitebay.org/docs/tags/wordpress-development/index.json",
+    "term": "wordpress-development"
+  },
+  {
+    "href": "https://www.sitebay.org/docs/tags/wordpress-hosting/index.json",
+    "term": "wordpress-hosting"
+  },
+  {
+    "href": "https://www.sitebay.org/docs/tags/wp-cli/index.json",
+    "term": "wp-cli"
+  }
+]

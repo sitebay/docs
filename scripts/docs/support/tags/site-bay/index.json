@@ -1,0 +1,56 @@
+[
+  {
+    "excerpt": "Master text searching within your WordPress files using grep on Site Bay's code-server.",
+    "href": "https://www.sitebay.org/docs/guides/how-to-use-grep/",
+    "lastModified": "2024-04-27T00:00:00Z",
+    "linkTitle": "Efficiently Find Text in Your WordPress Files with grep",
+    "publishDate": "2024-04-04T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
+    "title": "Efficiently Find Text in Your WordPress Files with grep"
+  },
+  {
+    "excerpt": "Shortguide that shows you how to reset the root password for a Site Bay account.",
+    "href": "",
+    "lastModified": "2024-04-21T00:00:00Z",
+    "linkTitle": "Reset the Root Password for Your Site Bay Account",
+    "publishDate": "2024-04-21T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
+    "title": "Reset the Root Password for Your Site Bay Account"
+  },
+  {
+    "excerpt": "Leverage Code Server on Site Bay to streamline your WordPress development directly in your browser.",
+    "href": "https://www.sitebay.org/docs/guides/sitebay-code-server/",
+    "lastModified": "2024-04-04T00:00:00Z",
+    "linkTitle": "Streamline Your WordPress Development with Site Bay's Code Server",
+    "publishDate": "2024-04-04T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
+    "title": "Streamline Your WordPress Development with Site Bay's Code Server"
+  },
+  {
+    "excerpt": "Discover how to efficiently manage file sizes on your Site Bay WordPress hosting environment by using tar and gzip for archiving and compression.",
+    "href": "https://www.sitebay.org/docs/guides/compress-files-using-the-command-line/",
+    "lastModified": "2024-04-04T00:00:00Z",
+    "linkTitle": "Efficient File Management on Site Bay Hosting with Command Line Tools",
+    "publishDate": "2024-04-04T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
+    "title": "Efficient File Management on Site Bay Hosting with Command Line Tools"
+  },
+  {
+    "excerpt": "Introducing the new Site Bay Android app, your mobile solution for managing your WordPress sites on the go.",
+    "href": "https://www.sitebay.org/docs/guides/site-bay-android-app-introduction/",
+    "lastModified": "2024-04-04T00:00:00Z",
+    "linkTitle": "Early Access: Site Bay Android App",
+    "publishDate": "2024-04-04T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
+    "title": "Early Access: Site Bay Android App"
+  },
+  {
+    "excerpt": "A video introduction Site Bay",
+    "href": "https://www.sitebay.org/docs/content/intro-video/",
+    "lastModified": "2024-03-29T00:00:00Z",
+    "linkTitle": "Site Bay Trailer",
+    "publishDate": "2024-03-29T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
+    "title": "Site Bay Trailer"
+  }
+]

@@ -1,0 +1,76 @@
+{{ $schemaCommonParts := partialCached "partials/sections/head-structured-data-parts" . }}
+{{ $img := (partial "funcs/get-social-image.html" .).img }}
+
+{{ $p := .Params }}
+{{ $author :=  $p.author }}
+{{ $contributor :=  $p.contributor }}
+{{ $authorName := $author.name }}
+{{ if and (strings.Contains $authorName "Site Bay") $contributor }}
+  {{ with $contributor.name }}
+    {{ $authorName = . }}
+  {{ end }}
+{{ end }}
+
+{{ $author := dict }}
+{{ if or (not $authorName) (strings.Contains $authorName "Site Bay") }}
+  {{ $author = $schemaCommonParts.publisher }}
+{{ else }}
+  {{ $author = dict "@type" "Person" "name" $authorName }}
+{{ end }}
+
+{{ $mainEntityOfPage := dict "@type" "WebPage" "@id" .Permalink }}
+
+{{ $schema := dict
+  "@context" "https://schema.org"
+  "@type" "NewsArticle"
+  "mainEntityOfPage" $mainEntityOfPage
+  "headline" .Title
+  "datePublished" .PublishDate
+  "dateModified" .Lastmod
+  "author" $author
+  "publisher"  $schemaCommonParts.publisher
+}}
+
+{{/* Check if $img is set and is not a string */}}
+{{ if and $img (ne (printf "%T" $img) "string") }}
+  {{/* Assuming $img is a complex type with a .Permalink, merge it into the schema */}}
+  {{ with $img.Permalink }}
+    {{ $schema = merge $schema (dict "image" .) }}
+  {{ else }}
+    {{/* If $img is set but .Permalink is not accessible, use a default image or exclude the image property */}}
+    {{/* $schema = merge $schema (dict "image" "URL_TO_DEFAULT_IMAGE") */}}
+  {{ end }}
+{{ else }}
+  {{/* $img is not set or is a string, optionally merge a default image or exclude the image property */}}
+  {{/* $schema = merge $schema (dict "image" "URL_TO_DEFAULT_IMAGE") */}}
+{{ end }}
+
+
+{{ $script := printf `<script type="application/ld+json">%s%s%s</script>` "\n\t" ($schema | jsonify ) "\n" }}
+{{ $script | safeHTML }}
+{{/* We also look for structured data in a file called structured-data.json in the same folder as the content file (index.md/_index.md) */}}
+{{ $schemaFile := .Resources.GetMatch "structured-data.json" }}
+{{ with $schemaFile }}
+  {{ with .Content }}
+    {{ $schema := . | transform.Unmarshal }}
+    {{ $script := printf `<script type="application/ld+json">%s%s%s</script>` "\n\t" ($schema | jsonify ) "\n" }}
+    {{ $script | safeHTML }}
+  {{ else }}
+  {{ end }}
+{{ end }}
+
+{{ define "partials/sections/head-structured-data-parts" }}
+  {{ $logo := "media/images/sitebay-logo-black.png" | absURL }}
+  {{ $publisher := printf `{
+    "@type": "Organization",
+    "name": "Site Bay",
+    "logo": {
+    "@type": "ImageObject",
+    "url": %q
+    }
+    }` $logo | transform.Unmarshal
+  }}
+
+  {{ $parts := dict "publisher" $publisher }}
+  {{ return $parts }}
+{{ end }}

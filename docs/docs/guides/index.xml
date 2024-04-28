@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Site Bay Guides &amp; Tutorials</title>
+    <link>https://www.sitebay.org/docs/guides/</link>
+    <description>Recent content on Site Bay Guides &amp; Tutorials</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://www.sitebay.org/docs/guides/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Get Started with Site Bay</title>
+      <link>https://www.sitebay.org/docs/guides/getting-started/</link>
+      <pubDate>Thu, 04 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/getting-started/</guid>
+      <description>Welcome to Site Bay!
+Glad you&amp;rsquo;re here! Site Bay is your new favorite spot for WordPress hosting, now with the scalability of Kubernetes.</description>
+    </item>
+    
+    <item>
+      <title>Managing Your Staging Site on Code Server</title>
+      <link>https://www.sitebay.org/docs/guides/managing-your-staging-site-on-code-server/</link>
+      <pubDate>Thu, 04 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/managing-your-staging-site-on-code-server/</guid>
+      <description>Code Server: Editing Your WordPress Staging Site in the Browser
+Welcome to the future of website development on Site Bay, where managing your WordPress staging site becomes a breeze with our Code Server tool.</description>
+    </item>
+    
+    <item>
+      <title>Site Bay Code Server</title>
+      <link>https://www.sitebay.org/docs/guides/site-bay-code-server-introduction/</link>
+      <pubDate>Thu, 04 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/site-bay-code-server-introduction/</guid>
+      <description>Code Server: Editing Your WordPress Site in the BrowserAre you ready to revolutionize the way you work on your WordPress site?</description>
+    </item>
+    
+    <item>
+      <title>Site Bay Writer&#39;s Formatting Tutorial</title>
+      <link>https://www.sitebay.org/docs/guides/sitebay-writers-formatting-tutorial/</link>
+      <pubDate>Mon, 15 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/sitebay-writers-formatting-tutorial/</guid>
+      <description>external_resources:
+&amp;lsquo;GitHub Beginners Tutorial&amp;rsquo; &amp;lsquo;Red Hat Writing Style Tutorial&amp;rsquo; Write Tutorials for Site Bay
+Yo! Ready to drop some knowledge and write for Site Bay?</description>
+    </item>
+    
+    <item>
+      <title>Search Site Bay support</title>
+      <link>https://www.sitebay.org/docs/guides/search/</link>
+      <pubDate>Sun, 14 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/search/</guid>
+      <description>Yo, welcome to the Site Bay support search page! Here&amp;rsquo;s the deal: whenever you&amp;rsquo;re feeling stuck or just curious about how to do something on Site Bay, this is where you wanna be.</description>
+    </item>
+    
+    <item>
+      <title>Early Access: Site Bay Android App</title>
+      <link>https://www.sitebay.org/docs/guides/site-bay-android-app-introduction/</link>
+      <pubDate>Thu, 04 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/site-bay-android-app-introduction/</guid>
+      <description>Early Access: Site Bay Android App
+We&amp;rsquo;re thrilled to announce the early access release of the Site Bay Android App!</description>
+    </item>
+    
+    <item>
+      <title>Restoring Your WordPress Site on Site Bay with All-in-One WP Migration</title>
+      <link>https://www.sitebay.org/docs/guides/all-in-one-wp-migration-with-import/</link>
+      <pubDate>Mon, 04 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/all-in-one-wp-migration-with-import/</guid>
+      <description>Restoring your WordPress site on Site Bay can be smooth and straightforward, especially when you&amp;rsquo;re using the All-in-One WP Migration plugin.</description>
+    </item>
+    
+  </channel>
+</rss>

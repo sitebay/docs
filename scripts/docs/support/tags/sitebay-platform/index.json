@@ -1,0 +1,182 @@
+[
+  {
+    "excerpt": "Learn how your Site Bay account's network transfer pool is calculated and billed.",
+    "href": "https://www.sitebay.org/docs/products/platform/get-started/guides/network-transfer/",
+    "lastModified": "2024-04-25T00:00:00Z",
+    "linkTitle": "Network Transfer Usage and Costs",
+    "publishDate": "2024-04-21T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/products/platform/get-started/guides/network-transfer/cloud-manage-compute-network-transfer-usage_hua90f368fb3be03dbb1ab83b7ae8b7281_27485_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
+    "title": "Network Transfer Usage and Costs"
+  },
+  {
+    "excerpt": "Learn how to manage permissions and restrict user access on a Site Bay account.",
+    "href": "https://www.sitebay.org/docs/products/platform/accounts/guides/user-permissions/",
+    "lastModified": "2024-04-24T00:00:00Z",
+    "linkTitle": "Manage User Permissions",
+    "publishDate": "2024-04-21T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/products/platform/accounts/guides/user-permissions/list-of-users_hud3cd7e93d8c0b090b8534eac2f1deb99_79722_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
+    "title": "Manage User Permissions"
+  },
+  {
+    "excerpt": "How to resell Site Bay services using the Site Bay API, and how to get started with the Site Bay referral program.",
+    "href": "https://www.sitebay.org/docs/products/platform/get-started/guides/resell-services/",
+    "lastModified": "2024-04-24T00:00:00Z",
+    "linkTitle": "Resell Site Bay Services",
+    "publishDate": "2024-04-24T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/products/platform/get-started/guides/resell-services/how-to-resell-linode-services_hu6d16408b1121814378911b505dbbd1ff_25011_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
+    "title": "Resell Site Bay Services"
+  },
+  {
+    "excerpt": "How to start your own website design agency using Site Bay's hosting services",
+    "href": "https://www.sitebay.org/docs/platform/get-started/how-to-start-a-web-design-agency/",
+    "lastModified": "2024-04-24T00:00:00Z",
+    "linkTitle": "How to Start a Web Design Agency",
+    "publishDate": "2024-04-24T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/platform/get-started/how-to-start-a-web-design-agency/how-to-resell-sitebay-services_hu575d3b6cc6506d43fb1c0bee5c00ca8f_26816_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
+    "title": "How to Start a Web Design Agency"
+  },
+  {
+    "excerpt": "Our tutorial to managing accounts and passwords.",
+    "href": "https://www.sitebay.org/docs/platform/get-started/accounts-and-passwords/",
+    "lastModified": "2024-04-23T00:00:00Z",
+    "linkTitle": "Accounts and Passwords",
+    "publishDate": "2024-04-03T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
+    "title": "Accounts and Passwords"
+  },
+  {
+    "excerpt": "Learn how to subscribe to Site Bay system status and maintenance updates.",
+    "href": "https://www.sitebay.org/docs/products/platform/get-started/guides/status-page/",
+    "lastModified": "2024-04-23T00:00:00Z",
+    "linkTitle": "Subscribe to Site Bay Status Updates",
+    "publishDate": "2024-04-20T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/products/platform/get-started/guides/status-page/status-page-subscribe_hu39ab47b6e1ce2d9e3f253f077bb7bd84_37811_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
+    "title": "Subscribe to Site Bay Status Updates"
+  },
+  {
+    "excerpt": "Shortguide that shows you how to manage your Site Bay WordPress hosting credits.",
+    "href": "",
+    "lastModified": "2024-04-22T00:00:00Z",
+    "linkTitle": "How to Manage Your WordPress Hosting Credits on Site Bay",
+    "publishDate": "2024-04-22T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
+    "title": "How to Manage Your WordPress Hosting Credits on Site Bay"
+  },
+  {
+    "excerpt": "Shortguide to the Kubernetes features within Site Bay Manager.",
+    "href": "",
+    "lastModified": "2024-04-22T00:00:00Z",
+    "linkTitle": "Exploring the Kubernetes Features in Site Bay Manager",
+    "publishDate": "2024-04-22T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
+    "title": "Exploring the Kubernetes Features in Site Bay Manager"
+  },
+  {
+    "excerpt": "Shortguide that gives you an overview of the Site Bay App Center.",
+    "href": "",
+    "lastModified": "2024-04-22T00:00:00Z",
+    "linkTitle": "An Overview of the Site Bay App Center",
+    "publishDate": "2024-04-22T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
+    "title": "An Overview of the Site Bay App Center"
+  },
+  {
+    "excerpt": "Shortguide that shows you how to access account management and billing in Site Bay.",
+    "href": "",
+    "lastModified": "2024-04-22T00:00:00Z",
+    "linkTitle": "Access Account Management and Billing in Site Bay",
+    "publishDate": "2024-04-22T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
+    "title": "Access Account Management and Billing in Site Bay"
+  },
+  {
+    "excerpt": "Our tutorial to creating support tickets and getting technical support.",
+    "href": "https://www.sitebay.org/docs/platform/billing-and-support/support/",
+    "lastModified": "2024-04-21T00:00:00Z",
+    "linkTitle": "Site Bay Support",
+    "publishDate": "2024-04-21T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/platform/billing-and-support/support/help_hu880231b8a3a004c3ac6022ebb6902fc5_441106_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
+    "title": "Site Bay Support"
+  },
+  {
+    "excerpt": "Shortguide that shows you how to reset the root password for a Site Bay account.",
+    "href": "",
+    "lastModified": "2024-04-21T00:00:00Z",
+    "linkTitle": "Reset the Root Password for Your Site Bay Account",
+    "publishDate": "2024-04-21T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
+    "title": "Reset the Root Password for Your Site Bay Account"
+  },
+  {
+    "excerpt": "Shortguide that shows you how to change the email address on your account.",
+    "href": "",
+    "lastModified": "2024-04-21T00:00:00Z",
+    "linkTitle": "Change Your Email Address on Your Site Bay Account",
+    "publishDate": "2024-04-21T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/guides/accounts-change-email-shortguide/accounts-my-profile-change-email_hu5eaf06db2869c9285fb047a1e9f7338f_31156_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
+    "title": "Change Your Email Address on Your Site Bay Account"
+  },
+  {
+    "excerpt": "Instructions on updating the email address on an account so that you can receive email notifications.",
+    "href": "https://www.sitebay.org/docs/products/platform/accounts/guides/change-user-email/",
+    "lastModified": "2024-04-21T00:00:00Z",
+    "linkTitle": "Change Your Email Address",
+    "publishDate": "2024-04-21T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/products/platform/accounts/guides/change-user-email/ChangingYourEmailAddress_hue6f4587fa686ffa9756b25444bf3b7af_224524_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
+    "title": "Change Your Email Address"
+  },
+  {
+    "excerpt": "Learn which taxes are collected by Site Bay and how to add a tax identification number to your account.",
+    "href": "https://www.sitebay.org/docs/products/platform/billing/guides/tax-information/",
+    "lastModified": "2024-04-20T00:00:00Z",
+    "linkTitle": "Tax Information",
+    "publishDate": "2024-04-04T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
+    "title": "Tax Information"
+  },
+  {
+    "excerpt": "Decide which Site Bay WordPress hosting plan is right for you.",
+    "href": "https://www.sitebay.org/docs/platform/get-started/how-to-choose-a-sitebay-plan/",
+    "lastModified": "2024-04-20T00:00:00Z",
+    "linkTitle": "How to Choose a Site Bay Plan",
+    "publishDate": "2024-04-04T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
+    "title": "How to Choose a Site Bay Plan"
+  },
+  {
+    "excerpt": "Learn about Site Bay's status page.",
+    "href": "https://www.sitebay.org/docs/platform/monitoring/sitebay-status-page/",
+    "lastModified": "2024-04-20T00:00:00Z",
+    "linkTitle": "Subscribe to Site Bay Status Updates",
+    "publishDate": "2024-04-20T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/platform/monitoring/sitebay-status-page/status-subscribe_hua59d4388dd4c8bcb2f7c264ee992cfc4_148504_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
+    "title": "Subscribe to Site Bay Status Updates"
+  },
+  {
+    "excerpt": "Learn about Site Bay's recordings page.",
+    "href": "https://www.sitebay.org/docs/platform/recording/sitebay-recordings-page/",
+    "lastModified": "2024-04-20T00:00:00Z",
+    "linkTitle": "Site Bay Recordings",
+    "publishDate": "2024-04-20T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/platform/recording/sitebay-recordings-page/status-subscribe_hua59d4388dd4c8bcb2f7c264ee992cfc4_148504_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
+    "title": "Site Bay Recordings"
+  },
+  {
+    "excerpt": "These tutorials describe important first steps for any new Site Bay user, and they answer common questions you might have when getting started.",
+    "href": "https://www.sitebay.org/docs/platform/get-started/",
+    "lastModified": "2024-04-20T00:00:00Z",
+    "linkTitle": "Get Started",
+    "publishDate": "2024-04-20T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/platform/get-started/feature.svg",
+    "title": "Get Started"
+  },
+  {
+    "excerpt": "an-overview-of-mysitebay",
+    "href": "https://www.sitebay.org/docs/guides/an-overview-of-mysitebay/",
+    "lastModified": "2024-04-20T00:00:00Z",
+    "linkTitle": "An Overview of the Site Bay Dashboard",
+    "publishDate": "2024-04-20T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/guides/an-overview-of-mysitebay/AnOverviewofMySiteBay_hu5a78a0a71d9405e8b4c5f950d9420367_389888_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
+    "title": "An Overview of the Site Bay Dashboard"
+  }
+]

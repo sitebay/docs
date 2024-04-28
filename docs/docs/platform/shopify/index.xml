@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Site Bay Guides &amp; Tutorials</title>
+    <link>https://www.sitebay.org/docs/platform/shopify/</link>
+    <description>Recent content on Site Bay Guides &amp; Tutorials</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://www.sitebay.org/docs/platform/shopify/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Site Bay Platform</title>
+      <link>https://www.sitebay.org/docs/platform/shopify/how-to-use-git-sync/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/platform/shopify/how-to-use-git-sync/</guid>
+      <description>&amp;quot;</description>
+    </item>
+    
+    <item>
+      <title>How Git Sync Works With PIT Machine</title>
+      <link>https://www.sitebay.org/docs/platform/shopify/how-git-sync-works-with-point-in-time-machine/</link>
+      <pubDate>Tue, 26 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/platform/shopify/how-git-sync-works-with-point-in-time-machine/</guid>
+      <description>Do you have a WordPress site set up with our Bi-Directional Git Sync? It also works with our Point-in-Time machine to restore your database and files to any point, down to the minute.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.sitebay.org/docs/platform/shopify/best-ide-wordpress/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/platform/shopify/best-ide-wordpress/</guid>
+      <description>&amp;ldquo;To be written&amp;rdquo;</description>
+    </item>
+    
+  </channel>
+</rss>

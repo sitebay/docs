@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cameron Laird on Site Bay Guides &amp; Tutorials</title>
+    <link>https://www.sitebay.org/docs/authors/cameron-laird/</link>
+    <description>Recent content in Cameron Laird on Site Bay Guides &amp; Tutorials</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 19 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.sitebay.org/docs/authors/cameron-laird/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Unlocking User Insights with Posthog on Site Bay</title>
+      <link>https://www.sitebay.org/docs/guides/posthog-activity/</link>
+      <pubDate>Fri, 19 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/posthog-activity/</guid>
+      <description>In the digital realm of Site Bay&amp;rsquo;s WordPress hosting, understanding your audience&amp;rsquo;s behavior is paramount. Enter Posthog: an analytics tool that lets you peek into how users interact with your site, from page views to specific events.</description>
+    </item>
+    
+  </channel>
+</rss>

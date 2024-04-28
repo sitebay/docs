@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Elle Krout on Site Bay Guides &amp; Tutorials</title>
+    <link>https://www.sitebay.org/docs/authors/elle-krout/</link>
+    <description>Recent content in Elle Krout on Site Bay Guides &amp; Tutorials</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 04 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.sitebay.org/docs/authors/elle-krout/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Restoring Your WordPress Site on Site Bay with All-in-One WP Migration</title>
+      <link>https://www.sitebay.org/docs/guides/all-in-one-wp-migration-with-import/</link>
+      <pubDate>Mon, 04 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/all-in-one-wp-migration-with-import/</guid>
+      <description>Restoring your WordPress site on Site Bay can be smooth and straightforward, especially when you&amp;rsquo;re using the All-in-One WP Migration plugin.</description>
+    </item>
+    
+  </channel>
+</rss>
