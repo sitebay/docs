@@ -6,5 +6,14 @@
     <description>Recent content in Vulnerability Detection on Site Bay Guides &amp; Tutorials</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://www.sitebay.org/docs/guides/security/vulnerabilities/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>scanning-your-wordpress-site-for-malware</title>
+      <link>https://www.sitebay.org/docs/guides/scanning-your-wordpress-site-for-malware/</link>
+      <pubDate>Mon, 29 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/scanning-your-wordpress-site-for-malware/</guid>
+      <description>Yo! Noticed your site&amp;rsquo;s lagging or just curious about who&amp;rsquo;s dropping by? Site Bay hooks you up with all the essentials for monitoring and logging your site&amp;rsquo;s traffic.</description>
+    </item>
+    
   </channel>
 </rss>

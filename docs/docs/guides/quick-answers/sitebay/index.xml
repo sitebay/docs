@@ -8,6 +8,25 @@
     <language>en-us</language>
     <lastBuildDate>Thu, 04 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.sitebay.org/docs/guides/quick-answers/sitebay/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Install WordPress with Docker on Site Bay</title>
+      <link>https://www.sitebay.org/docs/guides/sitebay-create-a-site/</link>
+      <pubDate>Mon, 29 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/sitebay-create-a-site/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Launch WordPress with Docker Compose on Site Bay</title>
+      <link>https://www.sitebay.org/docs/guides/wordpress-with-docker-compose/</link>
+      <pubDate>Mon, 29 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/wordpress-with-docker-compose/</guid>
+      <description>Introduction to Docker and Docker Compose
+Docker provides a way to run applications securely isolated in a container, packaged with all its dependencies and libraries.</description>
+    </item>
+    
+    <item>
       <title>Mastering Process Monitoring in Site Bay with the ps aux Command</title>
       <link>https://www.sitebay.org/docs/guides/use-the-ps-aux-command-in-sitebay/</link>
       <pubDate>Thu, 25 Apr 2024 00:00:00 +0000</pubDate>
@@ -265,25 +284,6 @@ Site Bay revolutionizes WordPress hosting by harnessing the power of Kubernetes,
       
       <guid>https://www.sitebay.org/docs/guides/shell-tricks-for-wordpress/</guid>
       <description>Shell Tricks for WordPress CLI: Enhancing Your Workflow on Site BayIn the world of WordPress development, efficiency and effectiveness are key.</description>
-    </item>
-    
-    <item>
-      <title>Streamline Your WordPress Development with Site Bay&#39;s Code Server</title>
-      <link>https://www.sitebay.org/docs/guides/sitebay-code-server/</link>
-      <pubDate>Thu, 04 Apr 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.sitebay.org/docs/guides/sitebay-code-server/</guid>
-      <description>Introduction to Code Server on Site Bay
-Code Server transforms your development experience by allowing you to manage WordPress files and develop directly in your browser.</description>
-    </item>
-    
-    <item>
-      <title>File Management from the linux command line in Code Server: </title>
-      <link>https://www.sitebay.org/docs/guides/delete-file-command-line/</link>
-      <pubDate>Wed, 03 Apr 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.sitebay.org/docs/guides/delete-file-command-line/</guid>
-      <description>Beginner File Removal in WordPress tips NoteFor safety, our examples utilize filename.txt variations. Tailor these commands to your needs, replacing filename.</description>
     </item>
     
   </channel>

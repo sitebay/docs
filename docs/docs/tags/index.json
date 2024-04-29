@@ -56,6 +56,10 @@
     "term": "command-line"
   },
   {
+    "href": "https://www.sitebay.org/docs/tags/container/index.json",
+    "term": "container"
+  },
+  {
     "href": "https://www.sitebay.org/docs/tags/containers/index.json",
     "term": "containers"
   },
@@ -78,6 +82,10 @@
   {
     "href": "https://www.sitebay.org/docs/tags/data-recovery/index.json",
     "term": "data-recovery"
+  },
+  {
+    "href": "https://www.sitebay.org/docs/tags/deployment/index.json",
+    "term": "deployment"
   },
   {
     "href": "https://www.sitebay.org/docs/tags/development/index.json",
@@ -160,6 +168,10 @@
     "term": "linux"
   },
   {
+    "href": "https://www.sitebay.org/docs/tags/logging/index.json",
+    "term": "logging"
+  },
+  {
     "href": "https://www.sitebay.org/docs/tags/managed-hosting/index.json",
     "term": "managed-hosting"
   },
@@ -228,12 +240,20 @@
     "term": "security"
   },
   {
+    "href": "https://www.sitebay.org/docs/tags/seo/index.json",
+    "term": "seo"
+  },
+  {
     "href": "https://www.sitebay.org/docs/tags/server-error/index.json",
     "term": "server-error"
   },
   {
     "href": "https://www.sitebay.org/docs/tags/session-replay/index.json",
     "term": "session-replay"
+  },
+  {
+    "href": "https://www.sitebay.org/docs/tags/shopify/index.json",
+    "term": "shopify"
   },
   {
     "href": "https://www.sitebay.org/docs/tags/site-bay/index.json",

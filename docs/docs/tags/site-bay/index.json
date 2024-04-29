@@ -2,7 +2,7 @@
   {
     "excerpt": "A video introduction Site Bay",
     "href": "https://www.sitebay.org/docs/content/intro-video/",
-    "lastModified": "2024-04-28T02:51:59-06:00",
+    "lastModified": "2024-04-28T03:12:12-06:00",
     "linkTitle": "Site Bay Trailer",
     "publishDate": "2024-03-29T00:00:00Z",
     "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
@@ -11,7 +11,7 @@
   {
     "excerpt": "Leverage Code Server on Site Bay to streamline your WordPress development directly in your browser.",
     "href": "https://www.sitebay.org/docs/guides/sitebay-code-server/",
-    "lastModified": "2024-04-28T02:51:59-06:00",
+    "lastModified": "2024-04-28T03:12:12-06:00",
     "linkTitle": "Streamline Your WordPress Development with Site Bay's Code Server",
     "publishDate": "2024-04-04T00:00:00Z",
     "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
@@ -20,7 +20,7 @@
   {
     "excerpt": "Master text searching within your WordPress files using grep on Site Bay's code-server.",
     "href": "https://www.sitebay.org/docs/guides/how-to-use-grep/",
-    "lastModified": "2024-04-28T02:51:59-06:00",
+    "lastModified": "2024-04-28T03:12:12-06:00",
     "linkTitle": "Efficiently Find Text in Your WordPress Files with grep",
     "publishDate": "2024-04-04T00:00:00Z",
     "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
@@ -29,7 +29,7 @@
   {
     "excerpt": "Discover how to efficiently manage file sizes on your Site Bay WordPress hosting environment by using tar and gzip for archiving and compression.",
     "href": "https://www.sitebay.org/docs/guides/compress-files-using-the-command-line/",
-    "lastModified": "2024-04-28T02:51:59-06:00",
+    "lastModified": "2024-04-28T03:12:12-06:00",
     "linkTitle": "Efficient File Management on Site Bay Hosting with Command Line Tools",
     "publishDate": "2024-04-04T00:00:00Z",
     "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
@@ -38,7 +38,7 @@
   {
     "excerpt": "Introducing the new Site Bay Android app, your mobile solution for managing your WordPress sites on the go.",
     "href": "https://www.sitebay.org/docs/guides/site-bay-android-app-introduction/",
-    "lastModified": "2024-04-28T02:51:59-06:00",
+    "lastModified": "2024-04-28T03:12:12-06:00",
     "linkTitle": "Early Access: Site Bay Android App",
     "publishDate": "2024-04-04T00:00:00Z",
     "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
@@ -47,10 +47,28 @@
   {
     "excerpt": "Shortguide that shows you how to reset the root password for a Site Bay account.",
     "href": "",
-    "lastModified": "2024-04-28T02:51:59-06:00",
+    "lastModified": "2024-04-28T03:12:12-06:00",
     "linkTitle": "Reset the Root Password for Your Site Bay Account",
     "publishDate": "2024-04-21T00:00:00Z",
     "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
     "title": "Reset the Root Password for Your Site Bay Account"
+  },
+  {
+    "excerpt": "This guide will show you the seamless integration of WordPress with NGINX on a Kubernetes cluster, providing scalability, high availability, and enhanced performance for your website.",
+    "href": "https://www.sitebay.org/docs/guides/troubleshooting-wordpress-on-kubernetes/",
+    "lastModified": "2024-04-28T03:12:12-06:00",
+    "linkTitle": "Elevating WordPress Performance with Kubernetes and NGINX on Site Bay",
+    "publishDate": "2024-04-27T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/guides/troubleshooting-wordpress-on-kubernetes/DeployNGINX_Linode_hu3984f387b80f3f5229d75e3cf41e581e_232713_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
+    "title": "Elevating WordPress Performance with Kubernetes and NGINX on Site Bay"
+  },
+  {
+    "excerpt": "Discover the fastest route to deploying NGINX on a Kubernetes cluster with Site Bay, designed for quick setup and easy management.",
+    "href": "https://www.sitebay.org/docs/guides/kubernetes-fast-as-possible/",
+    "lastModified": "2024-04-28T03:12:12-06:00",
+    "linkTitle": "Deploy NGINX on Kubernetes: Quick and Easy Setup with Site Bay",
+    "publishDate": "2024-04-27T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
+    "title": "Deploy NGINX on Kubernetes: Quick and Easy Setup with Site Bay"
   }
 ]

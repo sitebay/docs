@@ -226,7 +226,7 @@
             <div class="space-y-8">
               <template x-for="(item, i) in data.result.hits">
                 <a
-                  class="a--block bg-white block rounded-md md:flex md:items-center"
+                  class="a--block bg-white block rounded-md md:flex md:items-center shadow-sm"
                   :target="item.isExternalLink ? '_blank' : ''"
                   :href="item.href"
                   :class="{ 'shadow-sm': i === 0 }">

@@ -2,7 +2,7 @@
   {
     "excerpt": "Get to know Site Bay, the ultimate platform for WordPress hosting on Kubernetes, complete with analytics, performance monitoring, and more.",
     "href": "https://www.sitebay.org/docs/guides/what-is-sitebay/",
-    "lastModified": "2024-04-28T02:51:59-06:00",
+    "lastModified": "2024-04-28T03:12:12-06:00",
     "linkTitle": "What is Site Bay?",
     "publishDate": "2024-03-13T00:00:00Z",
     "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
@@ -11,7 +11,7 @@
   {
     "excerpt": "A video introduction Site Bay",
     "href": "https://www.sitebay.org/docs/content/intro-video/",
-    "lastModified": "2024-04-28T02:51:59-06:00",
+    "lastModified": "2024-04-28T03:12:12-06:00",
     "linkTitle": "Site Bay Trailer",
     "publishDate": "2024-03-29T00:00:00Z",
     "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
@@ -20,7 +20,7 @@
   {
     "excerpt": "An introduction to setting up OhMyForm, an open-source software for creating, customizing, and hosting forms in containers using Portainer for easy data gathering.",
     "href": "https://www.sitebay.org/docs/templates/test-matketplace/",
-    "lastModified": "2024-04-28T02:51:59-06:00",
+    "lastModified": "2024-04-28T03:12:12-06:00",
     "linkTitle": "Portainer and OhMyForm | Simple Open Source Forms in Containers for Easy Data Gathering",
     "publishDate": "2024-03-29T00:00:00Z",
     "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
@@ -29,10 +29,37 @@
   {
     "excerpt": "Manage and Develop your Wordpress in your browser on Site Bay.",
     "href": "https://www.sitebay.org/docs/products/code-server/get-started/",
-    "lastModified": "2024-04-28T02:51:59-06:00",
+    "lastModified": "2024-04-28T03:12:12-06:00",
     "linkTitle": "Get Started",
     "publishDate": "2024-04-04T00:00:00Z",
     "thumbnail": "https://www.sitebay.org/docs/products/code-server/get-started/CodeServer_hu0a27bd8048c009d64e65307320d468cf_694098_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
     "title": "Get Started"
+  },
+  {
+    "excerpt": "This guide will show you the seamless integration of WordPress with NGINX on a Kubernetes cluster, providing scalability, high availability, and enhanced performance for your website.",
+    "href": "https://www.sitebay.org/docs/guides/troubleshooting-wordpress-on-kubernetes/",
+    "lastModified": "2024-04-28T03:12:12-06:00",
+    "linkTitle": "Elevating WordPress Performance with Kubernetes and NGINX on Site Bay",
+    "publishDate": "2024-04-27T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/guides/troubleshooting-wordpress-on-kubernetes/DeployNGINX_Linode_hu3984f387b80f3f5229d75e3cf41e581e_232713_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
+    "title": "Elevating WordPress Performance with Kubernetes and NGINX on Site Bay"
+  },
+  {
+    "excerpt": "This guide will show you how to harness the power of Kubernetes for your WordPress site on Site Bay, offering scalable, efficient, and automated deployment solutions.",
+    "href": "https://www.sitebay.org/docs/guides/benefits-of-wordpress-on-kubernetes/",
+    "lastModified": "2024-04-28T03:12:12-06:00",
+    "linkTitle": "Elevate Your WordPress Site with Kubernetes on Site Bay",
+    "publishDate": "2024-04-27T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/guides/benefits-of-wordpress-on-kubernetes/DeployNGINX_Linode_hu3984f387b80f3f5229d75e3cf41e581e_232713_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
+    "title": "Elevate Your WordPress Site with Kubernetes on Site Bay"
+  },
+  {
+    "excerpt": "Discover the fastest route to deploying NGINX on a Kubernetes cluster with Site Bay, designed for quick setup and easy management.",
+    "href": "https://www.sitebay.org/docs/guides/kubernetes-fast-as-possible/",
+    "lastModified": "2024-04-28T03:12:12-06:00",
+    "linkTitle": "Deploy NGINX on Kubernetes: Quick and Easy Setup with Site Bay",
+    "publishDate": "2024-04-27T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
+    "title": "Deploy NGINX on Kubernetes: Quick and Easy Setup with Site Bay"
   }
 ]

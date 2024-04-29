@@ -3,7 +3,7 @@
   {
     "excerpt": "Learn how to create an account and use the Site Bay WordPress Hosting Platform.",
     "firstPublishedTime": 1712188800,
-    "lastUpdatedTime": 1714294319,
+    "lastUpdatedTime": 1714295532,
     "linkTitle": "Get Started",
     "objectID": "products \u003e platform \u003e get-started",
     "ordinal": 10,
@@ -14,7 +14,7 @@
   {
     "excerpt": "These guides offer simple, quick answers to common questions.",
     "firstPublishedTime": 1713052800,
-    "lastUpdatedTime": 1714294319,
+    "lastUpdatedTime": 1714295532,
     "linkTitle": "Quick Answers",
     "objectID": "guides \u003e quick-answers",
     "ordinal": 0,
@@ -25,7 +25,7 @@
   {
     "excerpt": "Dive into the world of Site Bay for WordPress hosting mastery!",
     "firstPublishedTime": -62135596800,
-    "lastUpdatedTime": 1714294319,
+    "lastUpdatedTime": 1714295532,
     "linkTitle": "Site Bay Platform",
     "objectID": "guides \u003e platform",
     "ordinal": 0,
@@ -36,7 +36,7 @@
   {
     "excerpt": "Learn about everything Site Bay!",
     "firstPublishedTime": -62135596800,
-    "lastUpdatedTime": 1714294319,
+    "lastUpdatedTime": 1714295532,
     "linkTitle": "Site Bay Platform",
     "objectID": "platform",
     "ordinal": 0,
@@ -47,7 +47,7 @@
   {
     "excerpt": "Learn about everything Billing on Site Bay!",
     "firstPublishedTime": -62135596800,
-    "lastUpdatedTime": 1714294319,
+    "lastUpdatedTime": 1714295532,
     "linkTitle": "Site Bay Platform",
     "objectID": "platform \u003e billing-and-support",
     "ordinal": 0,
@@ -58,7 +58,7 @@
   {
     "excerpt": "Learn about everything templates on Site Bay!",
     "firstPublishedTime": -62135596800,
-    "lastUpdatedTime": 1714294319,
+    "lastUpdatedTime": 1714295532,
     "linkTitle": "Site Bay Platform",
     "objectID": "platform \u003e templates",
     "ordinal": 0,
@@ -69,7 +69,7 @@
   {
     "excerpt": "These tutorials cover simple web page hosting and many popular web applications.",
     "firstPublishedTime": 1713225600,
-    "lastUpdatedTime": 1714294319,
+    "lastUpdatedTime": 1714295532,
     "linkTitle": "Website Tutorials",
     "objectID": "guides \u003e websites",
     "ordinal": 0,
@@ -80,7 +80,7 @@
   {
     "excerpt": "Dive into the world of web hosting with Site Bay: your go-to for everything WordPress on Kubernetes, complete with Posthog analytics, recordings, and Grafana dashboards.",
     "firstPublishedTime": 1712966400,
-    "lastUpdatedTime": 1714294319,
+    "lastUpdatedTime": 1714295532,
     "linkTitle": "Web Server Guides for WordPress on Kubernetes",
     "objectID": "guides \u003e web-servers",
     "ordinal": 0,
@@ -91,7 +91,7 @@
   {
     "excerpt": "Security tips to keep your site safe",
     "firstPublishedTime": -62135596800,
-    "lastUpdatedTime": 1714294319,
+    "lastUpdatedTime": 1714295532,
     "linkTitle": "WordPress Security",
     "objectID": "guides \u003e security",
     "ordinal": 0,
@@ -102,7 +102,7 @@
   {
     "excerpt": "Databases provide the capability to store data in a structured and easily accessible manner, serving as the foundation for hundreds of popular web and server apps.",
     "firstPublishedTime": 1713225600,
-    "lastUpdatedTime": 1714294319,
+    "lastUpdatedTime": 1714295532,
     "linkTitle": "Databases",
     "objectID": "guides \u003e databases",
     "ordinal": 0,
@@ -113,7 +113,7 @@
   {
     "excerpt": "Combine Images with Inpainting in Stable Diffusion",
     "firstPublishedTime": 1713225600,
-    "lastUpdatedTime": 1714294319,
+    "lastUpdatedTime": 1714295532,
     "linkTitle": "Generative AI for WordPress",
     "objectID": "guides \u003e generative-ai",
     "ordinal": 0,
@@ -122,9 +122,31 @@
     "title": "Generative AI for WordPress"
   },
   {
+    "excerpt": "Kubernetes, often referred to as k8s, is an open source container orchestration system that helps deploy and manage containerized applications.",
+    "firstPublishedTime": 1714348800,
+    "lastUpdatedTime": 1714295532,
+    "linkTitle": "Kubernetes",
+    "objectID": "guides \u003e kubernetes",
+    "ordinal": 0,
+    "section": "guides",
+    "thumbnail": "/docs/guides/kubernetes/feature.svg",
+    "title": "Kubernetes"
+  },
+  {
+    "excerpt": "WordPress is a popular CMS platform",
+    "firstPublishedTime": 1714348800,
+    "lastUpdatedTime": 1714295532,
+    "linkTitle": "WordPress",
+    "objectID": "guides \u003e wordpress",
+    "ordinal": 0,
+    "section": "guides",
+    "thumbnail": "/docs/guides/wordpress/feature.svg",
+    "title": "WordPress"
+  },
+  {
     "excerpt": "Dive into the world of WordPress development with Site Bay. This collection of tutorials is designed to help you master the use of essential development tools like git, VSCode, and Site Bay’s Git Sync for your WordPress projects.",
     "firstPublishedTime": 1713052800,
-    "lastUpdatedTime": 1714294319,
+    "lastUpdatedTime": 1714295532,
     "linkTitle": "WordPress Development",
     "objectID": "guides \u003e development",
     "ordinal": 0,
@@ -135,7 +157,7 @@
   {
     "excerpt": "Learn how to utilize the Cloudflare and Site Bay platforms together to build global, scalable solutions.",
     "firstPublishedTime": 1712188800,
-    "lastUpdatedTime": 1714294319,
+    "lastUpdatedTime": 1714295532,
     "linkTitle": "Cloudflare + Site Bay",
     "objectID": "guides \u003e cloudflare",
     "ordinal": 0,
@@ -146,7 +168,7 @@
   {
     "excerpt": "Welcome to Site Bay, where we take your WordPress hosting experience to another level. We\u0026rsquo;ve got everything you need to make your site pop, from seamless migrations to powerful analytics with PostHog, and dashboards that keep you informed.",
     "firstPublishedTime": -62135596800,
-    "lastUpdatedTime": 1714294319,
+    "lastUpdatedTime": 1714295532,
     "linkTitle": "Tools \u0026 Reference",
     "objectID": "guides \u003e tools-reference",
     "ordinal": 0,
@@ -155,9 +177,31 @@
     "title": "Tools \u0026 Reference"
   },
   {
+    "excerpt": "Explore the world of PHP development within WordPress hosting on Site Bay. This section is designed to empower both beginners and seasoned developers with the knowledge to utilize PHP effectively in their WordPress projects.",
+    "firstPublishedTime": 1714348800,
+    "lastUpdatedTime": 1714295532,
+    "linkTitle": "Mastering PHP on Site Bay",
+    "objectID": "guides \u003e development \u003e php",
+    "ordinal": 0,
+    "section": "guides",
+    "thumbnail": "/docs/guides/development/php/feature_hu7502b10060d38ae689d73836eb8dfefe_5098_640x400_fill_catmullrom_smart1_3.png",
+    "title": "Mastering PHP on Site Bay"
+  },
+  {
+    "excerpt": "A go-to guide for troubleshooting common WordPress problems on Site Bay, designed to get your site running smoothly again in no time.",
+    "firstPublishedTime": 1714348800,
+    "lastUpdatedTime": 1714295532,
+    "linkTitle": "Troubleshooting WordPress on Site Bay",
+    "objectID": "guides \u003e common-problems",
+    "ordinal": 0,
+    "section": "guides",
+    "thumbnail": "/docs/guides/common-problems/feature.svg",
+    "title": "Troubleshooting WordPress on Site Bay"
+  },
+  {
     "excerpt": "Find quick answers to some of the most commonly asked billing questions.",
     "firstPublishedTime": 1714262400,
-    "lastUpdatedTime": 1714294319,
+    "lastUpdatedTime": 1714295532,
     "linkTitle": "FAQs",
     "objectID": "products \u003e platform \u003e billing \u003e faqs",
     "ordinal": 60,
@@ -168,7 +212,7 @@
   {
     "excerpt": "Learn how Site Bay makes billing simple",
     "firstPublishedTime": 1714003200,
-    "lastUpdatedTime": 1714294319,
+    "lastUpdatedTime": 1714295532,
     "linkTitle": "Billing",
     "objectID": "products \u003e platform \u003e billing",
     "ordinal": 10,
@@ -179,7 +223,7 @@
   {
     "excerpt": "Keep your WordPress site on lock. Dive into tutorials on installing top security plugins and understanding why monitoring your site is a game-changer.",
     "firstPublishedTime": 1713916800,
-    "lastUpdatedTime": 1714294319,
+    "lastUpdatedTime": 1714295532,
     "linkTitle": "Monitoring",
     "objectID": "guides \u003e security \u003e monitoring",
     "ordinal": 0,
@@ -190,7 +234,7 @@
   {
     "excerpt": "Dive into the essentials of system recovery with Site Bay, guiding you through planning and bouncing back from system compromises with ease.",
     "firstPublishedTime": 1713916800,
-    "lastUpdatedTime": 1714294319,
+    "lastUpdatedTime": 1714295532,
     "linkTitle": "System Recovery",
     "objectID": "guides \u003e security \u003e recovery",
     "ordinal": 0,
@@ -201,7 +245,7 @@
   {
     "excerpt": "Dive into software development practices that streamline your coding process, making development on WordPress sites hosted on Site Bay not just efficient but enjoyable.",
     "firstPublishedTime": 1713916800,
-    "lastUpdatedTime": 1714294319,
+    "lastUpdatedTime": 1714295532,
     "linkTitle": "Tips and Tricks for WordPress Development on Site Bay",
     "objectID": "guides \u003e development \u003e tips-and-tricks",
     "ordinal": 0,
@@ -212,7 +256,7 @@
   {
     "excerpt": "Dive into the fundamentals of WordPress security with practical advice every site admin should follow to safeguard their website.",
     "firstPublishedTime": 1713916800,
-    "lastUpdatedTime": 1714294319,
+    "lastUpdatedTime": 1714295532,
     "linkTitle": "WordPress Security Basics",
     "objectID": "guides \u003e security \u003e basics",
     "ordinal": 0,
@@ -223,7 +267,7 @@
   {
     "excerpt": "This section explores the basics of wp-cli and code-server shell commands.",
     "firstPublishedTime": 1713916800,
-    "lastUpdatedTime": 1714294319,
+    "lastUpdatedTime": 1714295532,
     "linkTitle": "WP-CLI and Linux Shell Basics",
     "objectID": "guides \u003e tools-reference \u003e basics",
     "ordinal": 0,
@@ -234,7 +278,7 @@
   {
     "excerpt": "Learn about Site Bay\u0026rsquo;s Managed Site Bot service, which provides fully managed cloud database clusters built on top of Site Bay’s trusted and reliable platform.",
     "firstPublishedTime": 1713830400,
-    "lastUpdatedTime": 1714294319,
+    "lastUpdatedTime": 1714295532,
     "linkTitle": "Prompt Engineering",
     "objectID": "products \u003e site-bot \u003e prompt-engineering",
     "ordinal": 10,
@@ -245,7 +289,7 @@
   {
     "excerpt": "This section contains basic information about WordPress hosting on Kubernetes, utilizing tools like Posthog for analytics, and Grafana for monitoring, essential for managing your Site Bay WordPress hosting.",
     "firstPublishedTime": 1713744000,
-    "lastUpdatedTime": 1714294319,
+    "lastUpdatedTime": 1714295532,
     "linkTitle": "WordPress Hosting Essentials on Site Bay",
     "objectID": "guides \u003e quick-answers \u003e sitebay-essentials",
     "ordinal": 0,
@@ -256,7 +300,7 @@
   {
     "excerpt": "Learn how to manage your Site Bay user account, including adding multiple users and adjusting their permissions",
     "firstPublishedTime": 1713657600,
-    "lastUpdatedTime": 1714294319,
+    "lastUpdatedTime": 1714295532,
     "linkTitle": "Accounts",
     "objectID": "products \u003e platform \u003e accounts",
     "ordinal": 10,
@@ -267,7 +311,7 @@
   {
     "excerpt": "A collection of documentation related to managing Site Bay accounts and users",
     "firstPublishedTime": 1713657600,
-    "lastUpdatedTime": 1714294319,
+    "lastUpdatedTime": 1714295532,
     "linkTitle": "Guides",
     "objectID": "products \u003e platform \u003e accounts \u003e guides",
     "ordinal": 30,
@@ -278,7 +322,7 @@
   {
     "excerpt": "These tutorials describe important first steps for any new Site Bay user, and they answer common questions you might have when getting started.",
     "firstPublishedTime": 1713571200,
-    "lastUpdatedTime": 1714294319,
+    "lastUpdatedTime": 1714295532,
     "linkTitle": "Get Started",
     "objectID": "platform \u003e get-started",
     "ordinal": 0,
@@ -289,7 +333,7 @@
   {
     "excerpt": "Guidance on IaaS primitives, open source software, and architecture design to implement a highly available and production ready Cloud-based document management system.",
     "firstPublishedTime": 1711756800,
-    "lastUpdatedTime": 1714294319,
+    "lastUpdatedTime": 1714295532,
     "linkTitle": "Autoscaling on Site Bay using Prometheus",
     "objectID": "reference-architecture \u003e auto-scaling-prometheus",
     "ordinal": 10,
@@ -300,7 +344,7 @@
   {
     "excerpt": "A collection of documentation related to managing billing, payments, and other related topics on the Site Bay platform.",
     "firstPublishedTime": 1713312000,
-    "lastUpdatedTime": 1714294319,
+    "lastUpdatedTime": 1714295532,
     "linkTitle": "Guides",
     "objectID": "products \u003e platform \u003e billing \u003e guides",
     "ordinal": 30,
@@ -311,7 +355,7 @@
   {
     "excerpt": "Reference architectures from Site Bay show how to arrange cloud infrastructure and services for a range of applications, through diagrams, abstracts, and tutorials. Learn how to architect high-availability applications, document management systems, CI/CD pipelines, and more.",
     "firstPublishedTime": 1713312000,
-    "lastUpdatedTime": 1714294319,
+    "lastUpdatedTime": 1714295532,
     "linkTitle": "Reference Architecture",
     "objectID": "reference-architecture",
     "ordinal": 0,
@@ -322,7 +366,7 @@
   {
     "excerpt": "Dive into the essentials of the Site Bay Manager.",
     "firstPublishedTime": 1713225600,
-    "lastUpdatedTime": 1714294319,
+    "lastUpdatedTime": 1714295532,
     "linkTitle": "Site Bay Manager",
     "objectID": "guides \u003e platform \u003e manager",
     "ordinal": 0,
@@ -333,7 +377,7 @@
   {
     "excerpt": "Find quick answers to some of the most commonly asked questions for Site Bay\u0026rsquo;s PIT Machine.",
     "firstPublishedTime": 1712188800,
-    "lastUpdatedTime": 1714294319,
+    "lastUpdatedTime": 1714295532,
     "linkTitle": "FAQs",
     "objectID": "products \u003e git-sync \u003e faqs",
     "ordinal": 60,
@@ -344,7 +388,7 @@
   {
     "excerpt": "These guides include introductory projects that utilize the foundational services of the Cloudflare and Site Bay platforms.",
     "firstPublishedTime": 1712188800,
-    "lastUpdatedTime": 1714294319,
+    "lastUpdatedTime": 1714295532,
     "linkTitle": "Get Started",
     "objectID": "guides \u003e cloudflare \u003e get-started",
     "ordinal": 0,
@@ -355,7 +399,7 @@
   {
     "excerpt": "Site Bay\u0026rsquo;s Point-in-time (PIT) Machine allows you to recover your site or individual files from against accidental deletions or misconfigurations.",
     "firstPublishedTime": 1712188800,
-    "lastUpdatedTime": 1714294319,
+    "lastUpdatedTime": 1714295532,
     "linkTitle": "Point-in-Time Machine",
     "objectID": "products \u003e time-machine",
     "ordinal": 0,
@@ -366,7 +410,7 @@
   {
     "excerpt": "Welcome to Site Bay: Your New Home for WordPress Hosting What\u0026rsquo;s Site Bay All About?",
     "firstPublishedTime": 1712188800,
-    "lastUpdatedTime": 1714294319,
+    "lastUpdatedTime": 1714295532,
     "linkTitle": "Site Bay",
     "objectID": "guides \u003e quick-answers \u003e sitebay",
     "ordinal": 0,
@@ -377,7 +421,7 @@
   {
     "excerpt": "",
     "firstPublishedTime": 1712188800,
-    "lastUpdatedTime": 1714294319,
+    "lastUpdatedTime": 1714295532,
     "linkTitle": "Site Bay Platform",
     "objectID": "guides \u003e quick-answers \u003e sitebay-platform",
     "ordinal": 0,
@@ -388,7 +432,7 @@
   {
     "excerpt": "Fast as possible tutorials of a modern website.",
     "firstPublishedTime": 1712188800,
-    "lastUpdatedTime": 1714294319,
+    "lastUpdatedTime": 1714295532,
     "linkTitle": "Website Quickie Guides",
     "objectID": "guides \u003e websites \u003e quickies",
     "ordinal": 0,
@@ -399,7 +443,7 @@
   {
     "excerpt": "",
     "firstPublishedTime": -62135596800,
-    "lastUpdatedTime": 1714294319,
+    "lastUpdatedTime": 1714295532,
     "linkTitle": "Templates",
     "objectID": "templates",
     "ordinal": 0,
@@ -410,7 +454,7 @@
   {
     "excerpt": "Use Site Bay\u0026rsquo;s Bi-directional Git Sync to develop locally.",
     "firstPublishedTime": 1711411200,
-    "lastUpdatedTime": 1714294319,
+    "lastUpdatedTime": 1714295532,
     "linkTitle": "Git Sync",
     "objectID": "platform \u003e git-sync",
     "ordinal": 0,
@@ -421,7 +465,7 @@
   {
     "excerpt": "A collection of guides to help get you started on the Site Bay Platform",
     "firstPublishedTime": 1710374400,
-    "lastUpdatedTime": 1714294319,
+    "lastUpdatedTime": 1714295532,
     "linkTitle": "Guides",
     "objectID": "products \u003e platform \u003e get-started \u003e guides",
     "ordinal": 20,
@@ -432,7 +476,7 @@
   {
     "excerpt": "Find quick answers to some of the most commonly asked account and login questions.",
     "firstPublishedTime": 1709510400,
-    "lastUpdatedTime": 1714294319,
+    "lastUpdatedTime": 1714295532,
     "linkTitle": "FAQs",
     "objectID": "products \u003e platform \u003e accounts \u003e faqs",
     "ordinal": 60,
@@ -443,7 +487,7 @@
   {
     "excerpt": "Learn how to use, install, configure and perform tasks on database management platform Elasticsearch in these tutorials.",
     "firstPublishedTime": 1396569600,
-    "lastUpdatedTime": 1714294319,
+    "lastUpdatedTime": 1714295532,
     "linkTitle": "Algolia Guides, Tutorials, and Resources – Site Bay",
     "objectID": "guides \u003e databases \u003e algolia",
     "ordinal": 0,
@@ -454,7 +498,7 @@
   {
     "excerpt": "WordPress is constantly evolving. Bugs are fixed, new features are added, and packages are updated.",
     "firstPublishedTime": 1333497600,
-    "lastUpdatedTime": 1714294319,
+    "lastUpdatedTime": 1714295532,
     "linkTitle": "Upgrading",
     "objectID": "guides \u003e security \u003e upgrading",
     "ordinal": 0,
@@ -465,7 +509,7 @@
   {
     "excerpt": "Welcome to Site Bay\u0026rsquo;s Language Universe\nYo, when you\u0026rsquo;re diving into the world of web development with Site Bay, you\u0026rsquo;re stepping into a universe where language isn\u0026rsquo;t just about speaking—it\u0026rsquo;s about coding.",
     "firstPublishedTime": -62135596800,
-    "lastUpdatedTime": 1714294319,
+    "lastUpdatedTime": 1714295532,
     "linkTitle": "",
     "objectID": "guides \u003e languages",
     "ordinal": 0,
@@ -476,7 +520,7 @@
   {
     "excerpt": "Go: Speed and Simplicity for Your Site Bay Projects\nYo, welcome to the world of Go!",
     "firstPublishedTime": -62135596800,
-    "lastUpdatedTime": 1714294319,
+    "lastUpdatedTime": 1714295532,
     "linkTitle": "",
     "objectID": "guides \u003e languages \u003e go",
     "ordinal": 0,
@@ -487,7 +531,7 @@
   {
     "excerpt": "PHP: The Heart of Your Site Bay WordPress Site\nAlright, let\u0026rsquo;s break it down with PHP, the backbone of WordPress and a whole lot of the web.",
     "firstPublishedTime": -62135596800,
-    "lastUpdatedTime": 1714294319,
+    "lastUpdatedTime": 1714295532,
     "linkTitle": "",
     "objectID": "guides \u003e languages \u003e php",
     "ordinal": 0,
@@ -498,7 +542,7 @@
   {
     "excerpt": "Site Bay provides powerful WordPress hosting solutions tailored for businesses and individuals alike, offering a range of plans to fit various needs.",
     "firstPublishedTime": -62135596800,
-    "lastUpdatedTime": 1714294319,
+    "lastUpdatedTime": 1714295532,
     "linkTitle": "",
     "objectID": "guides \u003e tools-reference \u003e tools",
     "ordinal": 0,
@@ -509,7 +553,7 @@
   {
     "excerpt": "Diving into the digital world of Site Bay, especially when it comes to WordPress hosting on Kubernetes, equipped with Posthog analytics, recordings, and Grafana dashboards, can sometimes feel like navigating a vast and mysterious ocean.",
     "firstPublishedTime": -62135596800,
-    "lastUpdatedTime": 1714294319,
+    "lastUpdatedTime": 1714295532,
     "linkTitle": "",
     "objectID": "guides \u003e troubleshooting",
     "ordinal": 0,
@@ -520,7 +564,7 @@
   {
     "excerpt": "\u0026ldquo;To be written3\u0026rdquo;",
     "firstPublishedTime": -62135596800,
-    "lastUpdatedTime": 1714294319,
+    "lastUpdatedTime": 1714295532,
     "linkTitle": "",
     "objectID": "platform \u003e api",
     "ordinal": 0,
@@ -531,7 +575,7 @@
   {
     "excerpt": "\u0026ldquo;To be written\u0026rdquo;",
     "firstPublishedTime": -62135596800,
-    "lastUpdatedTime": 1714294319,
+    "lastUpdatedTime": 1714295532,
     "linkTitle": "",
     "objectID": "platform \u003e migrate-to-sitebay",
     "ordinal": 0,
@@ -542,7 +586,7 @@
   {
     "excerpt": "\u0026ldquo;To be written\u0026rdquo;",
     "firstPublishedTime": -62135596800,
-    "lastUpdatedTime": 1714294319,
+    "lastUpdatedTime": 1714295532,
     "linkTitle": "",
     "objectID": "platform \u003e shopify",
     "ordinal": 0,
@@ -553,7 +597,7 @@
   {
     "excerpt": "",
     "firstPublishedTime": -62135596800,
-    "lastUpdatedTime": 1714294319,
+    "lastUpdatedTime": 1714295532,
     "linkTitle": "All Release Notes",
     "objectID": "release-notes",
     "ordinal": 0,
@@ -564,7 +608,7 @@
   {
     "excerpt": "",
     "firstPublishedTime": -62135596800,
-    "lastUpdatedTime": 1714294319,
+    "lastUpdatedTime": 1714295532,
     "linkTitle": "API Documentation",
     "objectID": "api",
     "ordinal": 0,
@@ -575,7 +619,7 @@
   {
     "excerpt": "View tutorials based on the reader\u0026rsquo;s experience level.",
     "firstPublishedTime": -62135596800,
-    "lastUpdatedTime": 1714294319,
+    "lastUpdatedTime": 1714295532,
     "linkTitle": "Audiences",
     "objectID": "guides \u003e audiences",
     "ordinal": 0,
@@ -586,7 +630,7 @@
   {
     "excerpt": "All Site Bay hosted WordPress sites include a code-server instance, allow you to design and develop your site faster.",
     "firstPublishedTime": -62135596800,
-    "lastUpdatedTime": 1714294319,
+    "lastUpdatedTime": 1714295532,
     "linkTitle": "Code Server",
     "objectID": "products \u003e code-server",
     "ordinal": 0,
@@ -597,7 +641,7 @@
   {
     "excerpt": "Choose your focus in WordPress development to explore all related guides.",
     "firstPublishedTime": -62135596800,
-    "lastUpdatedTime": 1714294319,
+    "lastUpdatedTime": 1714295532,
     "linkTitle": "Concentrations",
     "objectID": "guides \u003e concentrations",
     "ordinal": 0,
@@ -608,7 +652,7 @@
   {
     "excerpt": "Welcome to Site Bay\u0026rsquo;s foundational guide, where we simplify the world of powerful WordPress hosting on Kubernetes, analytics with Posthog, and insights via Grafana.",
     "firstPublishedTime": -62135596800,
-    "lastUpdatedTime": 1714294319,
+    "lastUpdatedTime": 1714295532,
     "linkTitle": "Foundational",
     "objectID": "guides \u003e audiences \u003e beginner",
     "ordinal": 0,
@@ -619,7 +663,7 @@
   {
     "excerpt": "Welcome to the foundational corner of Site Bay, where we demystify the basics of WordPress hosting on Kubernetes, complete with insights from Posthog and Grafana.",
     "firstPublishedTime": -62135596800,
-    "lastUpdatedTime": 1714294319,
+    "lastUpdatedTime": 1714295532,
     "linkTitle": "Foundational",
     "objectID": "guides \u003e audiences \u003e foundational",
     "ordinal": 0,
@@ -630,7 +674,7 @@
   {
     "excerpt": "Site Bay offers a free bi-directional Git Sync for WordPress sites",
     "firstPublishedTime": -62135596800,
-    "lastUpdatedTime": 1714294319,
+    "lastUpdatedTime": 1714295532,
     "linkTitle": "Git-Sync",
     "objectID": "products \u003e git-sync",
     "ordinal": 0,
@@ -641,7 +685,7 @@
   {
     "excerpt": "Explore our extensive library of WordPress and Web guides and tutorials with new content published regularly.",
     "firstPublishedTime": -62135596800,
-    "lastUpdatedTime": 1714294319,
+    "lastUpdatedTime": 1714295532,
     "linkTitle": "Guides",
     "objectID": "guides",
     "ordinal": 0,
@@ -652,7 +696,7 @@
   {
     "excerpt": "Hey there! If you\u0026rsquo;ve got the basics down and you\u0026rsquo;re ready to level up, you\u0026rsquo;ve hit the right spot.",
     "firstPublishedTime": -62135596800,
-    "lastUpdatedTime": 1714294319,
+    "lastUpdatedTime": 1714295532,
     "linkTitle": "Intermediate",
     "objectID": "guides \u003e audiences \u003e intermediate",
     "ordinal": 0,
@@ -663,7 +707,7 @@
   {
     "excerpt": "Hey there! Want to keep an eye on how your website is doing? Monitoring is key, and we\u0026rsquo;ve got you covered at Site Bay.",
     "firstPublishedTime": -62135596800,
-    "lastUpdatedTime": 1714294319,
+    "lastUpdatedTime": 1714295532,
     "linkTitle": "Monitoring",
     "objectID": "platform \u003e monitoring",
     "ordinal": 0,
@@ -674,7 +718,7 @@
   {
     "excerpt": "MySQL on WordPress",
     "firstPublishedTime": -62135596800,
-    "lastUpdatedTime": 1714294319,
+    "lastUpdatedTime": 1714295532,
     "linkTitle": "MySQL Database",
     "objectID": "guides \u003e databases \u003e mysql",
     "ordinal": 0,
@@ -685,7 +729,7 @@
   {
     "excerpt": "A collection of product documentation for topics related to the Site Bay Platform.",
     "firstPublishedTime": -62135596800,
-    "lastUpdatedTime": 1714294319,
+    "lastUpdatedTime": 1714295532,
     "linkTitle": "Platform",
     "objectID": "products \u003e platform",
     "ordinal": 0,
@@ -696,7 +740,7 @@
   {
     "excerpt": "We offer the amazing PostHog on for free for WordPress hosted sites. Check our their cloud offering at posthog.com",
     "firstPublishedTime": -62135596800,
-    "lastUpdatedTime": 1714294319,
+    "lastUpdatedTime": 1714295532,
     "linkTitle": "PostHog",
     "objectID": "products \u003e posthog",
     "ordinal": 0,
@@ -707,7 +751,7 @@
   {
     "excerpt": "Get started using the My Site Bay, CLI, and API to deploy Site Bay services and manage your account.",
     "firstPublishedTime": -62135596800,
-    "lastUpdatedTime": 1714294319,
+    "lastUpdatedTime": 1714295532,
     "linkTitle": "Products",
     "objectID": "products",
     "ordinal": 0,
@@ -718,7 +762,7 @@
   {
     "excerpt": "Have you ever wished you could go back in time and see exactly what happened on your website?",
     "firstPublishedTime": -62135596800,
-    "lastUpdatedTime": 1714294319,
+    "lastUpdatedTime": 1714295532,
     "linkTitle": "Recording",
     "objectID": "platform \u003e recording",
     "ordinal": 0,
@@ -729,7 +773,7 @@
   {
     "excerpt": "Step into the realm of efficiency and power with Site Bay\u0026rsquo;s Scripting, Automation, and Build Tools!",
     "firstPublishedTime": -62135596800,
-    "lastUpdatedTime": 1714294319,
+    "lastUpdatedTime": 1714295532,
     "linkTitle": "Scripting, Automation, and Build Tools",
     "objectID": "guides \u003e concentrations \u003e scripting-automation-and-build-tools",
     "ordinal": 0,
@@ -740,7 +784,7 @@
   {
     "excerpt": "Site Bay offers an app to integrate your blog posts and use session recordings on your Shopify shop",
     "firstPublishedTime": -62135596800,
-    "lastUpdatedTime": 1714294319,
+    "lastUpdatedTime": 1714295532,
     "linkTitle": "Shopify Link",
     "objectID": "products \u003e shopify-link",
     "ordinal": 0,
@@ -751,7 +795,7 @@
   {
     "excerpt": "A fully managed database service with high availability.",
     "firstPublishedTime": -62135596800,
-    "lastUpdatedTime": 1714294319,
+    "lastUpdatedTime": 1714295532,
     "linkTitle": "Site Bot",
     "objectID": "products \u003e site-bot",
     "ordinal": 0,
@@ -762,7 +806,7 @@
   {
     "excerpt": "Allow you to create a beautiful site in a click",
     "firstPublishedTime": -62135596800,
-    "lastUpdatedTime": 1714294319,
+    "lastUpdatedTime": 1714295532,
     "linkTitle": "Templates",
     "objectID": "products \u003e templates",
     "ordinal": 0,
@@ -773,7 +817,7 @@
   {
     "excerpt": "Site Bay offers robust developer tools to make it easy to manage your infrastructure.",
     "firstPublishedTime": -62135596800,
-    "lastUpdatedTime": 1714294319,
+    "lastUpdatedTime": 1714295532,
     "linkTitle": "Tools",
     "objectID": "products \u003e tools",
     "ordinal": 0,
@@ -784,7 +828,7 @@
   {
     "excerpt": "Learn how to get your pre-made site running quick.",
     "firstPublishedTime": -62135596800,
-    "lastUpdatedTime": 1714294319,
+    "lastUpdatedTime": 1714295532,
     "linkTitle": "Tutorials",
     "objectID": "products \u003e templates \u003e tutorials",
     "ordinal": 30,
@@ -795,7 +839,7 @@
   {
     "excerpt": "Scan your WordPress for viruses or vulnerabilities.",
     "firstPublishedTime": -62135596800,
-    "lastUpdatedTime": 1714294319,
+    "lastUpdatedTime": 1714295532,
     "linkTitle": "Vulnerability Detection",
     "objectID": "guides \u003e security \u003e vulnerabilities",
     "ordinal": 0,
@@ -806,7 +850,7 @@
   {
     "excerpt": "Welcome to the Web Applications guide, tailored specifically for the movers and shakers using Site Bay for Powerful WordPress Hosting.",
     "firstPublishedTime": -62135596800,
-    "lastUpdatedTime": 1714294319,
+    "lastUpdatedTime": 1714295532,
     "linkTitle": "Web Applications",
     "objectID": "guides \u003e concentrations \u003e web-applications",
     "ordinal": 0,
@@ -817,7 +861,7 @@
   {
     "excerpt": "Welcome to the Websites section of our support articles! Here, you\u0026rsquo;ll dive into the world of Site Bay, the ultimate spot for WordPress hosting on Kubernetes, enriched with Posthog for analytics, Grafana for monitoring, and much more.",
     "firstPublishedTime": -62135596800,
-    "lastUpdatedTime": 1714294319,
+    "lastUpdatedTime": 1714295532,
     "linkTitle": "Websites",
     "objectID": "guides \u003e quick-answers \u003e websites",
     "ordinal": 0,
@@ -828,7 +872,7 @@
   {
     "excerpt": "Welcome to the world of WordPress Development on Site Bay! Here, we dive deep into the heart of creating, managing, and optimizing WordPress sites, all hosted on our robust Kubernetes infrastructure.",
     "firstPublishedTime": -62135596800,
-    "lastUpdatedTime": 1714294319,
+    "lastUpdatedTime": 1714295532,
     "linkTitle": "WordPress Development",
     "objectID": "guides \u003e concentrations \u003e wordpress-development",
     "ordinal": 0,

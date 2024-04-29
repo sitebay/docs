@@ -45,6 +45,61 @@ Welcome to the future of website development on Site Bay, where managing your Wo
     </item>
     
     <item>
+      <title>Enhancing SEO with Site Bays Shopify Link for WordPress Blogs</title>
+      <link>https://www.sitebay.org/docs/guides/what-is-shopify-link/</link>
+      <pubDate>Mon, 29 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/what-is-shopify-link/</guid>
+      <description>Integrating your WordPress blog with your Shopify store can enhance your online presence and SEO. Site Bay&amp;rsquo;s Shopify Link makes this process seamless, allowing your WordPress content to be accessible directly from your Shopify store at a /a/blog path.</description>
+    </item>
+    
+    <item>
+      <title>Install WordPress with Docker on Site Bay</title>
+      <link>https://www.sitebay.org/docs/guides/sitebay-create-a-site/</link>
+      <pubDate>Mon, 29 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/sitebay-create-a-site/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Launch WordPress with Docker Compose on Site Bay</title>
+      <link>https://www.sitebay.org/docs/guides/wordpress-with-docker-compose/</link>
+      <pubDate>Mon, 29 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/wordpress-with-docker-compose/</guid>
+      <description>Introduction to Docker and Docker Compose
+Docker provides a way to run applications securely isolated in a container, packaged with all its dependencies and libraries.</description>
+    </item>
+    
+    <item>
+      <title>scanning-your-wordpress-site-for-malware</title>
+      <link>https://www.sitebay.org/docs/guides/scanning-your-wordpress-site-for-malware/</link>
+      <pubDate>Mon, 29 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/scanning-your-wordpress-site-for-malware/</guid>
+      <description>Yo! Noticed your site&amp;rsquo;s lagging or just curious about who&amp;rsquo;s dropping by? Site Bay hooks you up with all the essentials for monitoring and logging your site&amp;rsquo;s traffic.</description>
+    </item>
+    
+    <item>
+      <title>Troubleshooting WordPress on Site Bay</title>
+      <link>https://www.sitebay.org/docs/guides/troubleshooting-wordpress-on-site-bay/</link>
+      <pubDate>Mon, 29 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/troubleshooting-wordpress-on-site-bay/</guid>
+      <description>Welcome to the WordPress troubleshooting guide by Site Bay! If you&amp;rsquo;ve hit a snag with your WordPress site, don&amp;rsquo;t sweat it.</description>
+    </item>
+    
+    <item>
+      <title>WordPress Logging and Monitoring</title>
+      <link>https://www.sitebay.org/docs/guides/wordpress-logging-and-monitoring/</link>
+      <pubDate>Mon, 29 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/wordpress-logging-and-monitoring/</guid>
+      <description>Yo! Noticed your site&amp;rsquo;s lagging or just curious about who&amp;rsquo;s dropping by? Site Bay hooks you up with all the essentials for monitoring and logging your site&amp;rsquo;s traffic.</description>
+    </item>
+    
+    <item>
       <title>Billing Manager</title>
       <link>https://www.sitebay.org/docs/platform/billing-and-support/billing-and-payments/</link>
       <pubDate>Sun, 28 Apr 2024 00:00:00 +0000</pubDate>
@@ -73,6 +128,35 @@ Going over your plan&amp;rsquo;s visits limit can result in a Visits overage cha
     </item>
     
     <item>
+      <title>Deploy NGINX on Kubernetes: Quick and Easy Setup with Site Bay</title>
+      <link>https://www.sitebay.org/docs/guides/kubernetes-fast-as-possible/</link>
+      <pubDate>Sat, 27 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/kubernetes-fast-as-possible/</guid>
+      <description>Introduction to Kubernetes
+Kubernetes is a powerful open-source system for managing containerized applications across a cluster of machines.</description>
+    </item>
+    
+    <item>
+      <title>Elevate Your WordPress Site with Kubernetes on Site Bay</title>
+      <link>https://www.sitebay.org/docs/guides/benefits-of-wordpress-on-kubernetes/</link>
+      <pubDate>Sat, 27 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/benefits-of-wordpress-on-kubernetes/</guid>
+      <description>What is Kubernetes?
+Kubernetes is a cutting-edge tool that automates deploying, scaling, and operating application containers.</description>
+    </item>
+    
+    <item>
+      <title>Elevating WordPress Performance with Kubernetes and NGINX on Site Bay</title>
+      <link>https://www.sitebay.org/docs/guides/troubleshooting-wordpress-on-kubernetes/</link>
+      <pubDate>Sat, 27 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/troubleshooting-wordpress-on-kubernetes/</guid>
+      <description>Kubernetes, an open-source container orchestration platform, enables the management of containerized applications in a clustered environment.</description>
+    </item>
+    
+    <item>
       <title>Fix WordPress site problems after updating</title>
       <link>https://www.sitebay.org/docs/guides/disaster-recovery-tutorial/</link>
       <pubDate>Sat, 27 Apr 2024 00:00:00 +0000</pubDate>
@@ -83,10 +167,10 @@ Going over your plan&amp;rsquo;s visits limit can result in a Visits overage cha
     
     <item>
       <title>Leveraging Feature Flags for A/B Testing on Site Bay</title>
-      <link>https://www.sitebay.org/docs/products/posthog/posthog-feature-flags/</link>
+      <link>https://www.sitebay.org/docs/products/posthog/feature-flags/</link>
       <pubDate>Sat, 27 Apr 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://www.sitebay.org/docs/products/posthog/posthog-feature-flags/</guid>
+      <guid>https://www.sitebay.org/docs/products/posthog/feature-flags/</guid>
       <description>Feature flags, also known as feature toggles, are a powerful technique for controlling the roll-out of features on your website.</description>
     </item>
     
@@ -197,89 +281,6 @@ Going over your plan&amp;rsquo;s visits limit can result in a Visits overage cha
       <guid>https://www.sitebay.org/docs/platform/get-started/how-to-start-a-web-design-agency/</guid>
       <description>White Label Agency
 Dreaming of starting your own thing in the web world? If you&amp;rsquo;ve got skills in design and SEO, you can launch your own web design business with Site Bay backing you up.</description>
-    </item>
-    
-    <item>
-      <title>Introduction to Site Bay Regions</title>
-      <link>https://www.sitebay.org/docs/guides/introduction-to-sitebay-regions/</link>
-      <pubDate>Wed, 24 Apr 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.sitebay.org/docs/guides/introduction-to-sitebay-regions/</guid>
-      <description>Site Bay provides a robust and adaptable WordPress hosting environment on Kubernetes, featuring key integrations like Posthog for analytics and Grafana for insights.</description>
-    </item>
-    
-    <item>
-      <title>Resell Site Bay Services</title>
-      <link>https://www.sitebay.org/docs/products/platform/get-started/guides/resell-services/</link>
-      <pubDate>Wed, 24 Apr 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.sitebay.org/docs/products/platform/get-started/guides/resell-services/</guid>
-      <description>Referral ProgramAs an alternative to reselling our services, you can participate in our referral program.</description>
-    </item>
-    
-    <item>
-      <title>Security Controls for User Accounts</title>
-      <link>https://www.sitebay.org/docs/products/platform/accounts/guides/user-security-controls/</link>
-      <pubDate>Wed, 24 Apr 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.sitebay.org/docs/products/platform/accounts/guides/user-security-controls/</guid>
-      <description>To protect your Site Bay user account against unauthorized access, there are several security controls you can implement.</description>
-    </item>
-    
-    <item>
-      <title>Best IDE Software for WordPress Development</title>
-      <link>https://www.sitebay.org/docs/platform/git-sync/best-ide-wordpress/</link>
-      <pubDate>Tue, 23 Apr 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.sitebay.org/docs/platform/git-sync/best-ide-wordpress/</guid>
-      <description>Choosing the right Integrated Development Environment (IDE) can impact your productivity and efficiency when developing WordPress sites.</description>
-    </item>
-    
-    <item>
-      <title>Get Started</title>
-      <link>https://www.sitebay.org/docs/platform/api/getting-started-with-the-sitebay-api/</link>
-      <pubDate>Tue, 23 Apr 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.sitebay.org/docs/platform/api/getting-started-with-the-sitebay-api/</guid>
-      <description>Getting Started with the Site Bay API: A Comprehensive GuideThe Site Bay API offers a wealth of options for developers looking to automate aspects of web hosting, site management, and integration of various online services.</description>
-    </item>
-    
-    <item>
-      <title>Get Started</title>
-      <link>https://www.sitebay.org/docs/products/tools/get-started/</link>
-      <pubDate>Tue, 23 Apr 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.sitebay.org/docs/products/tools/get-started/</guid>
-      <description>My Site Bay WordPress Hosting Site Tools Optimize Your Site with External PathsSite Bay Tools offer an impressive feature known as &amp;ldquo;External Paths.</description>
-    </item>
-    
-    <item>
-      <title>How to Get Started with our Photography Portfolio Template</title>
-      <link>https://www.sitebay.org/docs/platform/templates/template-quickstart-photography-portfolio/</link>
-      <pubDate>Tue, 23 Apr 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.sitebay.org/docs/platform/templates/template-quickstart-photography-portfolio/</guid>
-      <description>external_resources:
-&amp;lsquo;Getting Started&amp;rsquo;
-Are you a photographer looking to start your own blog to showcase your work?</description>
-    </item>
-    
-    <item>
-      <title>How to use the new soft-inpainting feature in AUTOMATIC1111 WebUI</title>
-      <link>https://www.sitebay.org/docs/guides/how-to-use-soft-inpainting/</link>
-      <pubDate>Tue, 23 Apr 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.sitebay.org/docs/guides/how-to-use-soft-inpainting/</guid>
-      <description>Soft Inpainting Guide: How we make our Tutorial Images Before After If there&amp;rsquo;s a visible division between the inpainted area and the rest of your image using normal inpainting, we can fix this with the new Soft inpainting feature.</description>
-    </item>
-    
-    <item>
-      <title>Navigating Your WordPress Code Server with Linux Commands</title>
-      <link>https://www.sitebay.org/docs/guides/how-to-use-basic-commands-for-wordpress-linux/</link>
-      <pubDate>Mon, 22 Apr 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.sitebay.org/docs/guides/how-to-use-basic-commands-for-wordpress-linux/</guid>
-      <description>Understanding the cd CommandOn Linux systems, cd stands as a fundamental command that alters your current directory within the terminal.</description>
     </item>
     
   </channel>

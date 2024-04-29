@@ -6,7 +6,7 @@
     <description>Recent content in Site Bay on Site Bay Guides &amp; Tutorials</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 28 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.sitebay.org/docs/authors/site-bay/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 29 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.sitebay.org/docs/authors/site-bay/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Getting Started on the Site Bay Platform</title>
       <link>https://www.sitebay.org/docs/products/platform/get-started/</link>
@@ -53,12 +53,49 @@
     </item>
     
     <item>
+      <title>WordPress</title>
+      <link>https://www.sitebay.org/docs/guides/wordpress/</link>
+      <pubDate>Mon, 29 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/wordpress/</guid>
+      <description>Yo, welcome to the WordPress section, where we break down everything about this awesome CMS platform that&amp;rsquo;s powering millions of websites across the globe.</description>
+    </item>
+    
+    <item>
       <title>Cloudflare &#43; Site Bay</title>
       <link>https://www.sitebay.org/docs/guides/cloudflare/</link>
       <pubDate>Thu, 04 Apr 2024 00:00:00 +0000</pubDate>
       
       <guid>https://www.sitebay.org/docs/guides/cloudflare/</guid>
       <description>Utilizing Cloudflare in conjunction with Site Bay can dramatically improve the performance, security, and scalability of your WordPress sites.</description>
+    </item>
+    
+    <item>
+      <title>Enhancing SEO with Site Bays Shopify Link for WordPress Blogs</title>
+      <link>https://www.sitebay.org/docs/guides/what-is-shopify-link/</link>
+      <pubDate>Mon, 29 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/what-is-shopify-link/</guid>
+      <description>Integrating your WordPress blog with your Shopify store can enhance your online presence and SEO. Site Bay&amp;rsquo;s Shopify Link makes this process seamless, allowing your WordPress content to be accessible directly from your Shopify store at a /a/blog path.</description>
+    </item>
+    
+    <item>
+      <title>Install WordPress with Docker on Site Bay</title>
+      <link>https://www.sitebay.org/docs/guides/sitebay-create-a-site/</link>
+      <pubDate>Mon, 29 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/sitebay-create-a-site/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Launch WordPress with Docker Compose on Site Bay</title>
+      <link>https://www.sitebay.org/docs/guides/wordpress-with-docker-compose/</link>
+      <pubDate>Mon, 29 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/wordpress-with-docker-compose/</guid>
+      <description>Introduction to Docker and Docker Compose
+Docker provides a way to run applications securely isolated in a container, packaged with all its dependencies and libraries.</description>
     </item>
     
     <item>
@@ -80,11 +117,40 @@
     </item>
     
     <item>
-      <title>Leveraging Feature Flags for A/B Testing on Site Bay</title>
-      <link>https://www.sitebay.org/docs/products/posthog/posthog-feature-flags/</link>
+      <title>Deploy NGINX on Kubernetes: Quick and Easy Setup with Site Bay</title>
+      <link>https://www.sitebay.org/docs/guides/kubernetes-fast-as-possible/</link>
       <pubDate>Sat, 27 Apr 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://www.sitebay.org/docs/products/posthog/posthog-feature-flags/</guid>
+      <guid>https://www.sitebay.org/docs/guides/kubernetes-fast-as-possible/</guid>
+      <description>Introduction to Kubernetes
+Kubernetes is a powerful open-source system for managing containerized applications across a cluster of machines.</description>
+    </item>
+    
+    <item>
+      <title>Elevate Your WordPress Site with Kubernetes on Site Bay</title>
+      <link>https://www.sitebay.org/docs/guides/benefits-of-wordpress-on-kubernetes/</link>
+      <pubDate>Sat, 27 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/benefits-of-wordpress-on-kubernetes/</guid>
+      <description>What is Kubernetes?
+Kubernetes is a cutting-edge tool that automates deploying, scaling, and operating application containers.</description>
+    </item>
+    
+    <item>
+      <title>Elevating WordPress Performance with Kubernetes and NGINX on Site Bay</title>
+      <link>https://www.sitebay.org/docs/guides/troubleshooting-wordpress-on-kubernetes/</link>
+      <pubDate>Sat, 27 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/troubleshooting-wordpress-on-kubernetes/</guid>
+      <description>Kubernetes, an open-source container orchestration platform, enables the management of containerized applications in a clustered environment.</description>
+    </item>
+    
+    <item>
+      <title>Leveraging Feature Flags for A/B Testing on Site Bay</title>
+      <link>https://www.sitebay.org/docs/products/posthog/feature-flags/</link>
+      <pubDate>Sat, 27 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/products/posthog/feature-flags/</guid>
       <description>Feature flags, also known as feature toggles, are a powerful technique for controlling the roll-out of features on your website.</description>
     </item>
     
@@ -212,70 +278,6 @@
       
       <guid></guid>
       <description>The Kubernetes section within the Site Bay Manager offers insights into our Kubernetes services, tailored for WordPress hosting environments.</description>
-    </item>
-    
-    <item>
-      <title>How to Manage Your WordPress Hosting Credits on Site Bay</title>
-      <link></link>
-      <pubDate>Mon, 22 Apr 2024 00:00:00 +0000</pubDate>
-      
-      <guid></guid>
-      <description>Managing your WordPress hosting credits on Site Bay is straightforward and ensures you have complete control over your hosting budget and resources.</description>
-    </item>
-    
-    <item>
-      <title>Navigating Your WordPress Code Server with Linux Commands</title>
-      <link>https://www.sitebay.org/docs/guides/how-to-use-basic-commands-for-wordpress-linux/</link>
-      <pubDate>Mon, 22 Apr 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.sitebay.org/docs/guides/how-to-use-basic-commands-for-wordpress-linux/</guid>
-      <description>Understanding the cd CommandOn Linux systems, cd stands as a fundamental command that alters your current directory within the terminal.</description>
-    </item>
-    
-    <item>
-      <title>Using the cd Command to Navigate the Terminal</title>
-      <link>https://www.sitebay.org/docs/guides/how-to-use-cd/</link>
-      <pubDate>Mon, 22 Apr 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.sitebay.org/docs/guides/how-to-use-cd/</guid>
-      <description>What is cd?
-On Linux systems, cd is a command that changes the directory you are in when working in the terminal.</description>
-    </item>
-    
-    <item>
-      <title>WordPress Hosting Essentials on Site Bay</title>
-      <link>https://www.sitebay.org/docs/guides/quick-answers/sitebay-essentials/</link>
-      <pubDate>Mon, 22 Apr 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.sitebay.org/docs/guides/quick-answers/sitebay-essentials/</guid>
-      <description>Welcome to the WordPress Hosting Essentials on Site Bay! This guide is your starting point for managing and scaling your WordPress sites efficiently.</description>
-    </item>
-    
-    <item>
-      <title>Change Your Email Address</title>
-      <link>https://www.sitebay.org/docs/products/platform/accounts/guides/change-user-email/</link>
-      <pubDate>Sun, 21 Apr 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.sitebay.org/docs/products/platform/accounts/guides/change-user-email/</guid>
-      <description>Site Bay uses the contact information on file in your account to notify and bill you.</description>
-    </item>
-    
-    <item>
-      <title>Change Your Email Address on Your Site Bay Account</title>
-      <link></link>
-      <pubDate>Sun, 21 Apr 2024 00:00:00 +0000</pubDate>
-      
-      <guid></guid>
-      <description>Changing the email address associated with your Site Bay account is straightforward and essential for maintaining access to your account, receiving notifications, and ensuring your account&amp;rsquo;s security.</description>
-    </item>
-    
-    <item>
-      <title>Managing Your Sites with Site Bot AI</title>
-      <link>https://www.sitebay.org/docs/guides/managing-your-sites-with-site-bot-ai/</link>
-      <pubDate>Sun, 21 Apr 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.sitebay.org/docs/guides/managing-your-sites-with-site-bot-ai/</guid>
-      <description>Creating and Managing Your Website with Site Bot: A User-Friendly GuideHave you ever wished for a more straightforward way to deploy and manage your website without delving into complex coding or navigating through endless dashboard settings?</description>
     </item>
     
   </channel>

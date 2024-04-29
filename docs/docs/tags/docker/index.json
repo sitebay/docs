@@ -2,10 +2,28 @@
   {
     "excerpt": "An introduction to setting up OhMyForm, an open-source software for creating, customizing, and hosting forms in containers using Portainer for easy data gathering.",
     "href": "https://www.sitebay.org/docs/templates/test-matketplace/",
-    "lastModified": "2024-04-28T02:51:59-06:00",
+    "lastModified": "2024-04-28T03:12:12-06:00",
     "linkTitle": "Portainer and OhMyForm | Simple Open Source Forms in Containers for Easy Data Gathering",
     "publishDate": "2024-03-29T00:00:00Z",
     "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
     "title": "Portainer and OhMyForm | Simple Open Source Forms in Containers for Easy Data Gathering"
+  },
+  {
+    "excerpt": "This guide explains how to deploy a WordPress site using Docker and Docker Compose on Site Bay, utilizing a LAMP stack within Docker containers.",
+    "href": "https://www.sitebay.org/docs/guides/wordpress-with-docker-compose/",
+    "lastModified": "2024-04-28T03:12:12-06:00",
+    "linkTitle": "Launch WordPress with Docker Compose on Site Bay",
+    "publishDate": "2024-04-29T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/guides/wordpress-with-docker-compose/docker-compose-wordpress-settings-screen_hufe56d727348747d8ba0bbb4285409d64_139050_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
+    "title": "Launch WordPress with Docker Compose on Site Bay"
+  },
+  {
+    "excerpt": "This guide walks you through setting up a WordPress site using Docker on Site Bay, offering a straightforward approach to launching your own website.",
+    "href": "https://www.sitebay.org/docs/guides/sitebay-create-a-site/",
+    "lastModified": "2024-04-28T03:12:12-06:00",
+    "linkTitle": "Install WordPress with Docker on Site Bay",
+    "publishDate": "2024-04-29T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/guides/sitebay-create-a-site/drupal_setup_choose_language_hub30e4c1b166dfeeea8f09a574ac9c231_742140_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
+    "title": "Install WordPress with Docker on Site Bay"
   }
 ]

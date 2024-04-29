@@ -2,7 +2,7 @@
   {
     "excerpt": "Manage and Develop your Wordpress in your browser on Site Bay.",
     "href": "https://www.sitebay.org/docs/products/code-server/get-started/",
-    "lastModified": "2024-04-28T02:51:59-06:00",
+    "lastModified": "2024-04-28T03:12:12-06:00",
     "linkTitle": "Get Started",
     "publishDate": "2024-04-04T00:00:00Z",
     "thumbnail": "https://www.sitebay.org/docs/products/code-server/get-started/CodeServer_hu0a27bd8048c009d64e65307320d468cf_694098_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
@@ -11,7 +11,7 @@
   {
     "excerpt": "This quickstart tutorial shows you how to migrate from your current host to Site Bay.",
     "href": "https://www.sitebay.org/docs/guides/how-to-migrate-your-site/",
-    "lastModified": "2024-04-28T02:51:59-06:00",
+    "lastModified": "2024-04-28T03:12:12-06:00",
     "linkTitle": "How to Migrate your WordPress site",
     "publishDate": "2024-04-20T00:00:00Z",
     "thumbnail": "https://www.sitebay.org/docs/guides/how-to-migrate-your-site/migrate-wordpress_hu53e2014d08ee1d8f24b9e57e74e32736_19671_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
@@ -20,7 +20,7 @@
   {
     "excerpt": "This quickstart tutorial shows you how to migrate from your current host to Site Bay.",
     "href": "https://www.sitebay.org/docs/guides/how-to-compress-wordpress-site-to-zip/",
-    "lastModified": "2024-04-28T02:51:59-06:00",
+    "lastModified": "2024-04-28T03:12:12-06:00",
     "linkTitle": "How to Migrate your WordPress site",
     "publishDate": "2024-04-20T00:00:00Z",
     "thumbnail": "https://www.sitebay.org/docs/guides/how-to-compress-wordpress-site-to-zip/migrate-wordpress_hu53e2014d08ee1d8f24b9e57e74e32736_19671_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
@@ -29,7 +29,7 @@
   {
     "excerpt": "an-overview-of-mysitebay",
     "href": "https://www.sitebay.org/docs/guides/an-overview-of-mysitebay/",
-    "lastModified": "2024-04-28T02:51:59-06:00",
+    "lastModified": "2024-04-28T03:12:12-06:00",
     "linkTitle": "An Overview of the Site Bay Dashboard",
     "publishDate": "2024-04-20T00:00:00Z",
     "thumbnail": "https://www.sitebay.org/docs/guides/an-overview-of-mysitebay/AnOverviewofMySiteBay_hu5a78a0a71d9405e8b4c5f950d9420367_389888_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
@@ -38,7 +38,7 @@
   {
     "excerpt": "Learn how to change your user's password on a Site Bay account.",
     "href": "https://www.sitebay.org/docs/products/platform/accounts/guides/reset-user-password/",
-    "lastModified": "2024-04-28T02:51:59-06:00",
+    "lastModified": "2024-04-28T03:12:12-06:00",
     "linkTitle": "Reset Your User Password",
     "publishDate": "2024-04-21T00:00:00Z",
     "thumbnail": "https://www.sitebay.org/docs/products/platform/accounts/guides/reset-user-password/L_ChangeYourPassword_hubde79b8492307ea1b2fe0f0d4da36a6c_196809_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
@@ -47,7 +47,7 @@
   {
     "excerpt": "Instructions on updating the email address on an account so that you can receive email notifications.",
     "href": "https://www.sitebay.org/docs/products/platform/accounts/guides/change-user-email/",
-    "lastModified": "2024-04-28T02:51:59-06:00",
+    "lastModified": "2024-04-28T03:12:12-06:00",
     "linkTitle": "Change Your Email Address",
     "publishDate": "2024-04-21T00:00:00Z",
     "thumbnail": "https://www.sitebay.org/docs/products/platform/accounts/guides/change-user-email/ChangingYourEmailAddress_hue6f4587fa686ffa9756b25444bf3b7af_224524_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
@@ -56,7 +56,7 @@
   {
     "excerpt": "Shortguide to the Kubernetes features within Site Bay Manager.",
     "href": "",
-    "lastModified": "2024-04-28T02:51:59-06:00",
+    "lastModified": "2024-04-28T03:12:12-06:00",
     "linkTitle": "Exploring the Kubernetes Features in Site Bay Manager",
     "publishDate": "2024-04-22T00:00:00Z",
     "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
@@ -65,7 +65,7 @@
   {
     "excerpt": "Shortguide that shows you how to access account management and billing in Site Bay.",
     "href": "",
-    "lastModified": "2024-04-28T02:51:59-06:00",
+    "lastModified": "2024-04-28T03:12:12-06:00",
     "linkTitle": "Access Account Management and Billing in Site Bay",
     "publishDate": "2024-04-22T00:00:00Z",
     "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
@@ -74,7 +74,7 @@
   {
     "excerpt": "Learn how to protect your Site Bay account using security measures and controls built-in to the Site Bay platform.",
     "href": "https://www.sitebay.org/docs/products/platform/accounts/guides/user-security-controls/",
-    "lastModified": "2024-04-28T02:51:59-06:00",
+    "lastModified": "2024-04-28T03:12:12-06:00",
     "linkTitle": "Security Controls for User Accounts",
     "publishDate": "2024-04-24T00:00:00Z",
     "thumbnail": "https://www.sitebay.org/docs/products/platform/accounts/guides/user-security-controls/2fa_hu8dc54aba2d35cd06d8b0378159539389_47015_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
@@ -83,7 +83,7 @@
   {
     "excerpt": "Learn how to cancel a Site Bay account through the My Site Bay.",
     "href": "https://www.sitebay.org/docs/products/platform/accounts/guides/cancel-account/",
-    "lastModified": "2024-04-28T02:51:59-06:00",
+    "lastModified": "2024-04-28T03:12:12-06:00",
     "linkTitle": "Cancel Your Account",
     "publishDate": "2024-04-25T00:00:00Z",
     "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
@@ -92,7 +92,7 @@
   {
     "excerpt": "Navigate through the recovery process with ease, leveraging Site Bays tools to protect your data and recover your WordPress site from hacks.",
     "href": "https://www.sitebay.org/docs/guides/recovering-from-a-wordpress-hack/",
-    "lastModified": "2024-04-28T02:51:59-06:00",
+    "lastModified": "2024-04-28T03:12:12-06:00",
     "linkTitle": "Recovering from a WordPress Hack",
     "publishDate": "2024-04-26T00:00:00Z",
     "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",

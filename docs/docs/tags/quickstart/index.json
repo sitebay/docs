@@ -1,17 +1,44 @@
 [
   {
+    "excerpt": "A beginner’s guide to getting started with WordPress on Site Bay, with everything you need to know to launch your first website.",
+    "href": "https://www.sitebay.org/docs/guides/wordpress-beginner-tips/",
+    "lastModified": "2024-04-28T03:12:12-06:00",
+    "linkTitle": "WordPress Beginner's Guide",
+    "publishDate": "2024-03-29T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/guides/wordpress-beginner-tips/beginners-guide-to-wordpress-2_hu2e5baf9caf909fab8a6b27e2c4d613d4_547477_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
+    "title": "WordPress Beginner's Guide"
+  },
+  {
     "excerpt": "Modern Photoshop for free in Stable Diffusion (AUTOMATIC1111 tutorial)",
     "href": "https://www.sitebay.org/docs/guides/how-to-use-inpainting/",
-    "lastModified": "2024-04-28T02:51:59-06:00",
+    "lastModified": "2024-04-28T03:12:12-06:00",
     "linkTitle": "Basic inpainting guide",
     "publishDate": "2024-03-29T00:00:00Z",
     "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
     "title": "Basic inpainting guide"
   },
   {
+    "excerpt": "An introduction to WordPress plugins and themes.",
+    "href": "https://www.sitebay.org/docs/guides/beginners-guide-to-wordpress-2/",
+    "lastModified": "2024-04-28T03:12:12-06:00",
+    "linkTitle": "A Beginner's Tutorial to WordPress Part 2",
+    "publishDate": "2024-03-29T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/guides/beginners-guide-to-wordpress-2/beginners-guide-to-wordpress-2_hu2e5baf9caf909fab8a6b27e2c4d613d4_547477_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
+    "title": "A Beginner's Tutorial to WordPress Part 2"
+  },
+  {
+    "excerpt": "An introduction to WordPress posts and components.",
+    "href": "https://www.sitebay.org/docs/guides/beginners-guide-to-wordpress/",
+    "lastModified": "2024-04-28T03:12:12-06:00",
+    "linkTitle": "A Beginner's Tutorial to WordPress",
+    "publishDate": "2024-03-29T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/guides/beginners-guide-to-wordpress/beginners-guide-to-wordpress_hu2e5baf9caf909fab8a6b27e2c4d613d4_547477_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
+    "title": "A Beginner's Tutorial to WordPress"
+  },
+  {
     "excerpt": "Start your own photography blog",
     "href": "https://www.sitebay.org/docs/platform/templates/template-quickstart-photography-portfolio/",
-    "lastModified": "2024-04-28T02:51:59-06:00",
+    "lastModified": "2024-04-28T03:12:12-06:00",
     "linkTitle": "How to Get Started with our Photography Portfolio Template",
     "publishDate": "2024-04-23T00:00:00Z",
     "thumbnail": "https://www.sitebay.org/docs/platform/templates/template-quickstart-photography-portfolio/photography-portfolio_hu547171a359ec90558ed0761b88c78327_33033_640x0_resize_q75_catmullrom.jpg",

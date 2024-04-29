@@ -7,5 +7,14 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 24 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.sitebay.org/docs/guides/security/monitoring/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>WordPress Logging and Monitoring</title>
+      <link>https://www.sitebay.org/docs/guides/wordpress-logging-and-monitoring/</link>
+      <pubDate>Mon, 29 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/wordpress-logging-and-monitoring/</guid>
+      <description>Yo! Noticed your site&amp;rsquo;s lagging or just curious about who&amp;rsquo;s dropping by? Site Bay hooks you up with all the essentials for monitoring and logging your site&amp;rsquo;s traffic.</description>
+    </item>
+    
   </channel>
 </rss>
