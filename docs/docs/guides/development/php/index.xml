@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mastering PHP on Site Bay on Site Bay Guides &amp; Tutorials</title>
+    <link>https://www.sitebay.org/docs/guides/development/php/</link>
+    <description>Recent content in Mastering PHP on Site Bay on Site Bay Guides &amp; Tutorials</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 29 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.sitebay.org/docs/guides/development/php/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A Beginner&#39;s Tutorial to PHP for WordPress Development on Site Bay</title>
+      <link>https://www.sitebay.org/docs/guides/beginners-tutorial-to-php-wordpress-developers/</link>
+      <pubDate>Thu, 04 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/beginners-tutorial-to-php-wordpress-developers/</guid>
+      <description>external_resources:
+&amp;lsquo;The WordPress Codex&amp;rsquo; aliases: [&amp;rsquo;/development/php/beginners-tutorial-to-php/&amp;rsquo;] Introduction
+PHP isn&amp;rsquo;t just any programming language; it&amp;rsquo;s the engine behind WordPress, powering all those dynamic features on your Site Bay hosted site.</description>
+    </item>
+    
+    <item>
+      <title>The Pros and Cons of Site Bay</title>
+      <link>https://www.sitebay.org/docs/guides/pros-and-cons-of-site-bay/</link>
+      <pubDate>Thu, 04 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/pros-and-cons-of-site-bay/</guid>
+      <description>Site Bay has emerged as a key player in the realm of WordPress hosting, especially for those seeking the power of Kubernetes combined with the insights of Posthog analytics and the visual prowess of Grafana dashboards.</description>
+    </item>
+    
+  </channel>
+</rss>

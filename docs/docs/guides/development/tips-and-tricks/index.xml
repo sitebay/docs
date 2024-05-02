@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tips and Tricks for WordPress Development on Site Bay on Site Bay Guides &amp; Tutorials</title>
+    <link>https://www.sitebay.org/docs/guides/development/tips-and-tricks/</link>
+    <description>Recent content in Tips and Tricks for WordPress Development on Site Bay on Site Bay Guides &amp; Tutorials</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 24 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.sitebay.org/docs/guides/development/tips-and-tricks/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Advanced WordPress Development Techniques on Remote Devices with Site Bay</title>
+      <link>https://www.sitebay.org/docs/guides/advanced-wordpress-development-techniques/</link>
+      <pubDate>Sun, 14 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/advanced-wordpress-development-techniques/</guid>
+      <description>This guide dives deep into configuring Site Bay as your go-to remote development environment. Beyond the basics, we&amp;rsquo;re tackling advanced WordPress development techniques to enhance your skills and enable you to create more dynamic and feature-rich WordPress sites.</description>
+    </item>
+    
+    <item>
+      <title>Mastering WordPress Development on Remote Devices with Site Bay</title>
+      <link>https://www.sitebay.org/docs/guides/wordpress-development-on-remote-devices/</link>
+      <pubDate>Sun, 14 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/wordpress-development-on-remote-devices/</guid>
+      <description>This tutorial will walk you through the necessary steps to configure your Site Bay to be an efficient remote development environment.</description>
+    </item>
+    
+  </channel>
+</rss>
