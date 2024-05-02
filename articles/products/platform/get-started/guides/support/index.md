@@ -28,7 +28,7 @@ To better understand how our billing works, what payment methods we accept, tax 
 
 ### Account Access and Login Issues
 
-For issues logging in to your account and other common account-related questions, see [Accounts > FAQs](/docs/products/platform/accounts/faqs/). For other login-related issues, please use the [Can't sign in to your account?](https://www.sitebay.org/support/contact/) form.
+For issues logging in to your account and other common account-related questions, see [Accounts > FAQs](/docs/products/platform/accounts/faqs/). For other login-related issues, please use the [Can't sign in to your account?](https://www.sitebay.org/docs/contact/) form.
 
 ### Site Bay Platform
 
@@ -58,9 +58,8 @@ For general questions and issues that are [outside the Scope of Support](#scope-
 - [**Site Bay Documentation**](/docs/): The Site Bay Docs Site contains documentation for all of our products as well as a wide variety of other topics, like using Linux, developing a web application, managing databases, and working with configuration management tools. This is a great resource for learning how to use our products and finding tutorials for installing and configuring third-party software on the Site Bay platform.
     - [Product Docs](/docs/products/): Detailed information and guides for each of our products, features, and services.
     - [Troubleshooting Overview](/docs/guides/troubleshooting-overview/): A quick start guide that provides answers for common server connectivity and management issues.
-    - [FAQs for WordPress Sites](/docs/products/compute/wordpress-sites/faqs/): A curated list of the most frequently asked questions regarding WordPress Sites.
 
-- [**Site Bay Community Site**](https://www.sitebay.org/community/questions/): The Community Site enables you to ask questions and get help from other community members. There are thousands of posts that can provide you with in-depth information, but if you can't find what you need, post your own question and let the community help. This is an excellent place to post questions that are [outside the Scope of Support](#scope-of-support).
+- [**Site Bay Community Site**](https://community.sitebay.org/): The Community Site enables you to ask questions and get help from other community members. There are thousands of posts that can provide you with in-depth information, but if you can't find what you need, post your own question and let the community help. This is an excellent place to post questions that are [outside the Scope of Support](#scope-of-support).
 
 
 {{< note type="warning" >}}
@@ -82,9 +81,9 @@ Live support from our dedicated Customer Support Team is available 24 hours a da
 When contacting the Customer Support Team through a support ticket, you are automatically authenticated to your user account. If you instead send an inquiry through an email or call the dedicated support line, you will need to authenticate to an account before the support representative is able to disclose any account-specific information.
 {{< /note >}}
 
-- **Support ticket:** Support tickets are the primary method for contacting the Customer Support Team. Tickets can be created, viewed, and managed through the My Site Bay, though you can also use the [Site Bay CLI](/docs/products/tools/cli/guides/support-tickets/) and [Site Bay API](/docs/api/support/) if preferred. For help creating a ticket, see the [Create and Manage Support Tickets](#create-and-manage-support-tickets) section below.
+- **Support ticket:** Support tickets are the primary method for contacting the Customer Support Team. Tickets can be created, viewed, and managed through the My Site Bay. For help creating a ticket, see the [Create and Manage Support Tickets](#create-and-manage-support-tickets) section below.
 
-- **E-mail:** Whenever possible, it is recommended to create a support ticket. However, general questions that are *not account-specific* can be sent to *support@sitebay.org*. If your inquiry is account-specific and you are not able to log in to the My Site Bay, fill out the [can't log in form](https://www.sitebay.org/support/contact/).
+- **E-mail:** Whenever possible, it is recommended to create a support ticket. However, general questions that are *not account-specific* can be sent to *support@sitebay.org*. If your inquiry is account-specific and you are not able to log in to the My Site Bay, fill out the [can't log in form](https://www.sitebay.org/contact/).
 
 To help us give you the best possible answer when contacting the Support Team, consider the following advice.
 
@@ -93,7 +92,7 @@ To help us give you the best possible answer when contacting the Support Team, c
 
 ## Create and Manage Support Tickets
 
-All Tickets can be created, viewed, and managed on the [Support Tickets](https://my.sitebay.org/support/tickets) page in My Site Bay.
+All Tickets can be created, viewed, and managed on the [Support Tickets](https://my.sitebay.org/support) page in My Site Bay.
 
 1. Log in to the [My Site Bay](https://my.sitebay.org) and select **Help & Support** from the sidebar menu.
 
@@ -108,6 +107,6 @@ To open a new support ticket, click the **Open New Ticket** button. Enter a summ
 When creating a ticket or replying to a ticket, keep in mind that you can attach files and use Markdown formatting.
 
 - **File attachmets:** Up to 5 files can be attached to each ticket. Accepted file types and extensions include:
-    - Images: `.gif`, `.jpg`, `.jpeg`, `.pjpg`, `.pjpeg`, `.tif`, `.tiff`
+    - Images: `.gif`, `.jpg`, `.jpeg`
 
 - **Markdown Formatting.** Proper formatting and structure can make your questions or issues easier to identify and understand. Use inline code to wrap commands, code blocks for output (or logs), and headings to create separate sections. You can also bold or italicize text, format items or steps as lists, and add block quotes. For help with Markdown formatting, use this [cheat sheet](http://demo.showdownjs.com/).

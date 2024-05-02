@@ -16,7 +16,7 @@ authors: ["Site Bay"]
 ---
 # Connect your External Site to WordPress using Site Bay
 
-If you are looking for a way to optimize your website's SEO by integrating your external support website under your main WordPress site, **Site Bay** can empower you to do just that. For instance, if you have a separate support or documentation site, you can make it accessible under your main domain as "www.sitebay.org/support". This simple action not only strengthens the authority of your primary website but also improves user navigation. 
+If you are looking for a way to optimize your website's SEO by integrating your external docs website under your main WordPress site, **Site Bay** can empower you to do just that. For instance, if you have a separate support or documentation site, you can make it accessible under your main domain as "www.sitebay.org/docs". This simple action not only strengthens the authority of your primary website but also improves user navigation. 
 
 Now, let's dive into the step-by-step process of using Site Bay to connect your external site to your WordPress website.
 
@@ -26,23 +26,23 @@ The first step begins with identifying your external site you wish to connect to
 
 ## Determine Your Path
 
-Once you have your external site, you need to decide the path under which it will be accessed. In this guide, we consider an example where our external site is a documentation site and we want it accessible on "www.sitebay.org/support". Hence, our path is "/support".
+Once you have your external site, you need to decide the path under which it will be accessed. In this guide, we consider an example where our external site is a documentation site and we want it accessible on "www.sitebay.org/docs". Hence, our path is "/docs".
 
 ## Navigate to the Site Bay Tools Tab
 
-Go to the backend of your WordPress site and navigate to the Site Bay tools tab. It's super user-friendly, but should you happen to encounter any issues, just reach out to Site Bay's customer support.
+Go to the backend of your WordPress site and navigate to the Site Bay tools tab. It's super user-friendly, but should you happen to encounter any issues, just reach out to Site Bay's customer docs.
 
 ## Enter Your Details
 
-Inside the Tools Tab, locate the fields for External Name and Path. Fill these in with the desired details. Under 'External Name', enter your external site URL. For example, this would be "support.sitebay.org". In the 'Path' field, enter the previously decided path e.g., "/support". 
+Inside the Tools Tab, locate the fields for External Name and Path. Fill these in with the desired details. Under 'External Name', enter your external site URL. For example, this would be "docs.sitebay.org". In the 'Path' field, enter the previously decided path e.g., "/docs". 
 
 Once you've confirmed the details, go ahead and submit. 
 
 ## Validate and Test
 
-After adding all the necessary details, it's time to validate and test them. Go to your WordPress site and append the path to your main URL. If you've followed these steps correctly, your external site should load properly at "www.sitebay.org/support".
+After adding all the necessary details, it's time to validate and test them. Go to your WordPress site and append the path to your main URL. If you've followed these steps correctly, your external site should load properly at www.sitebay.org/docs.
 
-By following these steps, you enable your external site to be hosted at your chosen path on your website. This process is one that Site Bay itself used to connect their Hugo documentation site to "sitebay.org/support". 
+By following these steps, you enable your external site to be hosted at your chosen path on your website. This process is one that Site Bay itself used to connect their Hugo documentation site to sitebay.org/docs. 
 
 Connecting an external site to your WordPress website has several advantages such as boosting your site's SEO, improving customer experiences through seamless navigation, and enhancing your domain authority. The good news is, this complicated-sounding setup is made simple with Site Bay. 
 

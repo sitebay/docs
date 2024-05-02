@@ -1,6 +1,33 @@
 [
   {
     "excerpt": "Use data management to organize events that come into Site Bay. Reduce noise, clarify usage, and help collaborators get the most value from your data. Events Actions Properties Annotations History Database",
+    "href": "https://www.sitebay.org/docs/products/posthog/data-management/",
+    "lastModified": "2024-04-29T05:25:35-06:00",
+    "linkTitle": "Mastering Data Management with PostHog on Site Bay",
+    "publishDate": "2024-04-04T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
+    "title": "Mastering Data Management with PostHog on Site Bay"
+  },
+  {
+    "excerpt": "Understanding \"People\" in PostHog Analytics",
+    "href": "https://www.sitebay.org/docs/products/posthog/persons/",
+    "lastModified": "2024-04-29T05:25:35-06:00",
+    "linkTitle": "Understanding \"People\" in PostHog Analytics",
+    "publishDate": "2024-04-18T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
+    "title": "Understanding \"People\" in PostHog Analytics"
+  },
+  {
+    "excerpt": "Discover how to harness PostHog dashboards for comprehensive insights into your WordPress site visitors on Site Bay, optimizing your content strategy with data-driven decisions.",
+    "href": "https://www.sitebay.org/docs/products/posthog/dashboards/",
+    "lastModified": "2024-04-29T05:25:35-06:00",
+    "linkTitle": "Maximizing WordPress Insights with PostHog Dashboards on Site Bay",
+    "publishDate": "2024-04-30T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
+    "title": "Maximizing WordPress Insights with PostHog Dashboards on Site Bay"
+  },
+  {
+    "excerpt": "Use data management to organize events that come into Site Bay. Reduce noise, clarify usage, and help collaborators get the most value from your data. Events Actions Properties Annotations History Database",
     "href": "https://www.sitebay.org/docs/guides/posthog-data-management/",
     "lastModified": "2024-04-28T03:12:12-06:00",
     "linkTitle": "Mastering Data Management with PostHog on Site Bay",
@@ -27,21 +54,12 @@
     "title": "Embracing the Advantages of Open Source Software with Site Bay"
   },
   {
-    "excerpt": "Understanding \"People\" in PostHog Analytics",
-    "href": "https://www.sitebay.org/docs/products/posthog/persons/",
-    "lastModified": "2024-04-18T00:00:00Z",
-    "linkTitle": "Understanding \"People\" in PostHog Analytics",
-    "publishDate": "2024-04-18T00:00:00Z",
-    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
-    "title": "Understanding \"People\" in PostHog Analytics"
-  },
-  {
-    "excerpt": "Use data management to organize events that come into Site Bay. Reduce noise, clarify usage, and help collaborators get the most value from your data. Events Actions Properties Annotations History Database",
-    "href": "https://www.sitebay.org/docs/products/posthog/data-management/",
-    "lastModified": "2024-04-04T00:00:00Z",
-    "linkTitle": "Mastering Data Management with PostHog on Site Bay",
-    "publishDate": "2024-04-04T00:00:00Z",
-    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
-    "title": "Mastering Data Management with PostHog on Site Bay"
+    "excerpt": "Learn how to create and manage a staging site for testing WordPress changes with Site Bay’s powerful WordPress hosting on Kubernetes, featuring PostHog analytics and Grafana dashboards.",
+    "href": "https://www.sitebay.org/docs/guides/sitebay-dashboard-staging-site/",
+    "lastModified": "2024-04-28T03:12:12-06:00",
+    "linkTitle": "Mastering Staging Sites on Site Bay’s WordPress Hosting",
+    "publishDate": "2024-04-30T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/guides/sitebay-dashboard-staging-site/GNUMakeTutorial-LearntoAutomateTasks_hu0ad3ca52d053c9ccc7a76319a7fae5a5_67113_640x0_resize_q75_catmullrom.jpg",
+    "title": "Mastering Staging Sites on Site Bay’s WordPress Hosting"
   }
 ]

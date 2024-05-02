@@ -6,7 +6,7 @@
     <description>Recent content in Site Bay on Site Bay Guides &amp; Tutorials</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 29 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.sitebay.org/docs/authors/site-bay/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 30 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.sitebay.org/docs/authors/site-bay/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Getting Started on the Site Bay Platform</title>
       <link>https://www.sitebay.org/docs/products/platform/get-started/</link>
@@ -68,6 +68,25 @@
       
       <guid>https://www.sitebay.org/docs/guides/cloudflare/</guid>
       <description>Utilizing Cloudflare in conjunction with Site Bay can dramatically improve the performance, security, and scalability of your WordPress sites.</description>
+    </item>
+    
+    <item>
+      <title>Collaborate with PostHog Notebooks on Site Bay</title>
+      <link>https://www.sitebay.org/docs/products/posthog/notebooks/</link>
+      <pubDate>Tue, 30 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/products/posthog/notebooks/</guid>
+      <description>Site Bay integrates PostHog analytics, offering powerful insights into your WordPress site&amp;rsquo;s user interactions. One of the standout features is PostHog Notebooks, which enables collaborative data analysis directly within your Site Bay environment.</description>
+    </item>
+    
+    <item>
+      <title>Maximizing WordPress Insights with PostHog Dashboards on Site Bay</title>
+      <link>https://www.sitebay.org/docs/products/posthog/dashboards/</link>
+      <pubDate>Tue, 30 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/products/posthog/dashboards/</guid>
+      <description>Introduction to PostHog Dashboards
+PostHog dashboards are powerful tools for WordPress site owners on Site Bay, offering deep insights into visitor behavior and site performance.</description>
     </item>
     
     <item>
@@ -260,24 +279,6 @@ Kubernetes is a cutting-edge tool that automates deploying, scaling, and operati
       
       <guid></guid>
       <description>The My Account section in Site Bay Dashboard allows you to manage your WordPress hosting account&amp;rsquo;s billing details, user access, and configure various settings specific to your hosting experience.</description>
-    </item>
-    
-    <item>
-      <title>An Overview of the Site Bay App Center</title>
-      <link></link>
-      <pubDate>Mon, 22 Apr 2024 00:00:00 +0000</pubDate>
-      
-      <guid></guid>
-      <description>The App Center in Site Bay Dashboard provides access to a curated collection of tools and services designed to enhance your WordPress hosting experience.</description>
-    </item>
-    
-    <item>
-      <title>Exploring the Kubernetes Features in Site Bay Manager</title>
-      <link></link>
-      <pubDate>Mon, 22 Apr 2024 00:00:00 +0000</pubDate>
-      
-      <guid></guid>
-      <description>The Kubernetes section within the Site Bay Manager offers insights into our Kubernetes services, tailored for WordPress hosting environments.</description>
     </item>
     
   </channel>

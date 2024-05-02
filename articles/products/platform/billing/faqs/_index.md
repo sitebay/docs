@@ -25,7 +25,7 @@ Any credits on your account, including affiliate, promotional credits and other 
 
 ## Can I change my billing date?
 
-Invoices are automatically generated when you buy a plan. While this cannot be changed, you may contact [Support](https://www.sitebay.org/support/) if you would like to be billed more frequently or in smaller increments.
+Invoices are automatically generated when you buy a plan. While this cannot be changed, you may contact [Support](https://www.sitebay.org/docs/) if you would like to be billed more frequently or in smaller increments.
 
 ## What are Site Bay’s currently accepted payment methods?
 

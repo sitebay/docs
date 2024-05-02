@@ -8,6 +8,15 @@
     <language>en-us</language>
     <lastBuildDate>Thu, 04 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.sitebay.org/docs/guides/quick-answers/sitebay/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Mastering Staging Sites on Site Bay’s WordPress Hosting</title>
+      <link>https://www.sitebay.org/docs/guides/sitebay-dashboard-staging-site/</link>
+      <pubDate>Tue, 30 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/sitebay-dashboard-staging-site/</guid>
+      <description>Creating a staging site on Site Bay&amp;rsquo;s WordPress hosting platform is a breeze, thanks to Kubernetes’ robust architecture and the integrated analytics and monitoring tools like PostHog and Grafana.</description>
+    </item>
+    
+    <item>
       <title>Install WordPress with Docker on Site Bay</title>
       <link>https://www.sitebay.org/docs/guides/sitebay-create-a-site/</link>
       <pubDate>Mon, 29 Apr 2024 00:00:00 +0000</pubDate>
@@ -227,7 +236,7 @@ In the dynamic world of WordPress hosting, ensuring your site&amp;rsquo;s integr
       <pubDate>Thu, 04 Apr 2024 00:00:00 +0000</pubDate>
       
       <guid>https://www.sitebay.org/docs/guides/connect-an-external-site-to-wordpress/</guid>
-      <description>Connect your External Site to WordPress using Site BayIf you are looking for a way to optimize your website&amp;rsquo;s SEO by integrating your external support website under your main WordPress site, Site Bay can empower you to do just that.</description>
+      <description>Connect your External Site to WordPress using Site BayIf you are looking for a way to optimize your website&amp;rsquo;s SEO by integrating your external docs website under your main WordPress site, Site Bay can empower you to do just that.</description>
     </item>
     
     <item>
@@ -275,15 +284,6 @@ Site Bay revolutionizes WordPress hosting by harnessing the power of Kubernetes,
       <guid>https://www.sitebay.org/docs/guides/sitebay-dump-and-restore-commands/</guid>
       <description>external_resources:
 &amp;lsquo;Backup and Restore WordPress Site in Site Bay&amp;rsquo; &amp;lsquo;Managing WordPress Backups in Site Bay&amp;rsquo;</description>
-    </item>
-    
-    <item>
-      <title>Shell Tricks for WordPress Hosting on Site Bay</title>
-      <link>https://www.sitebay.org/docs/guides/shell-tricks-for-wordpress/</link>
-      <pubDate>Thu, 04 Apr 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.sitebay.org/docs/guides/shell-tricks-for-wordpress/</guid>
-      <description>Shell Tricks for WordPress CLI: Enhancing Your Workflow on Site BayIn the world of WordPress development, efficiency and effectiveness are key.</description>
     </item>
     
   </channel>

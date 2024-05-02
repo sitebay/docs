@@ -18,10 +18,6 @@ When writing content, please reference the [Site Bay Writer's Formatting Guide](
 
 ## Before You Begin
 
-1.  If you have not already done so, create a Site Bay account and WordPress Site. See our [Getting Started on the Site Bay Platform](/docs/products/platform/get-started/) and [Create a WordPress Site](/docs/products/compute/wordpress-sites/guides/create/) guides.
+1.  If you have not already done so, create a Site Bay account and WordPress Site. See our [Getting Started on the Site Bay Platform](/docs/products/platform/get-started/) and Create a WordPress Site.
 
 1.  Follow our [Setting Up and Securing a WordPress Site](/docs/products/compute/wordpress-sites/guides/set-up-and-secure/) guide to update your system. You may also wish to set the timezone, configure your hostname, create a limited user account, and harden SSH access.
-
-{{< note >}}
-The steps in this guide require root privileges. Be sure to run the steps below as `root` or with the `sudo` prefix. For more information on privileges, see our [Linux Users and Groups](/docs/guides/linux-users-and-groups/) guide.
-{{< /note >}}

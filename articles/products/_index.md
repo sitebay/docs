@@ -2,7 +2,7 @@
 title = "All Products"
 linkTitle = "Products"
 title_meta = "Site Bay Product Documentation"
-description = "Get started using the My Site Bay, CLI, and API to deploy Site Bay services and manage your account."
+description = "Get started using My Site Bay to create Site Bay WordPress sites and manage your account."
 
 [[cascade]]
 weightAge = 0

@@ -1,5 +1,14 @@
 [
   {
+    "excerpt": "Understanding \"People\" in PostHog Analytics",
+    "href": "https://www.sitebay.org/docs/products/posthog/persons/",
+    "lastModified": "2024-04-29T05:25:35-06:00",
+    "linkTitle": "Understanding \"People\" in PostHog Analytics",
+    "publishDate": "2024-04-18T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
+    "title": "Understanding \"People\" in PostHog Analytics"
+  },
+  {
     "excerpt": "How to restore your Site Bay site with unlimited size",
     "href": "https://www.sitebay.org/docs/guides/all-in-one-wp-migration-with-import/",
     "lastModified": "2024-04-28T03:12:12-06:00",
@@ -169,14 +178,5 @@
     "publishDate": "2024-04-26T00:00:00Z",
     "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
     "title": "Grant a Developer Access a WordPress Site or Site Bay Account"
-  },
-  {
-    "excerpt": "Learn how to use WP-CLI, the command-line interface for WordPress, to manage your Site Bay WordPress sites more efficiently.",
-    "href": "https://www.sitebay.org/docs/guides/wp-cli-tutorial/",
-    "lastModified": "2024-04-28T03:12:12-06:00",
-    "linkTitle": "Mastering WP-CLI on Site Bay",
-    "publishDate": "2024-04-27T00:00:00Z",
-    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
-    "title": "Mastering WP-CLI on Site Bay"
   }
 ]

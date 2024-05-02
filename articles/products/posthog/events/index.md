@@ -9,19 +9,12 @@ modified_by:
   name: Site Bay
 title: "Events with Posthog on Site Bay"
 title_meta: "Leverage Posthog Analytics for Enhanced User Engagement on Site Bay"
-relations:
-platform:
-key: integrating-posthog-with-sitebay
 authors: ["Site Bay"]
 ---
 
-If you haven't already, set up your Site Bay WordPress hosting environment. Check out our guides on Getting Started with Site Bay and Deploying Your First WordPress Site.
+If you haven't already, set up your Site Bay WordPress site. Check out our guides on Getting Started with Site Bay and Deploying Your First WordPress Site.
 
 Ensure your site is up-to-date and secured. While Posthog focuses on analytics, maintaining a secure and updated environment is crucial for accurate data collection.
-
-{{< note >}}
-This tutorial assumes you have root or sudo access to your Site Bay WordPress hosting environment.
-{{< /note >}}
 
 Integrating Posthog with Site Bay
 

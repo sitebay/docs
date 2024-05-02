@@ -312,6 +312,10 @@
     "term": "version-control-system"
   },
   {
+    "href": "https://www.sitebay.org/docs/tags/visitor-analytics/index.json",
+    "term": "visitor-analytics"
+  },
+  {
     "href": "https://www.sitebay.org/docs/tags/vscode/index.json",
     "term": "vscode"
   },

@@ -9,7 +9,7 @@ modified_by:
 published: 2024-04-04
 title: PostHog Insights
 tags: ["sitebay"]
-aliases: ['/quick-answers/sitebay/insights/']
+aliases: ['/quick-answers/sitebay/insights/', '/products/posthog/product-analytics/']
 authors: ["Site Bay"]
 ---
 

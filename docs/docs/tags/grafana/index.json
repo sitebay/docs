@@ -16,5 +16,14 @@
     "publishDate": "2024-04-24T00:00:00Z",
     "thumbnail": "https://www.sitebay.org/docs/guides/open-source-software-benefits/OpenSource_hu2fb2b37a86777ea2736f2234144098ee_200739_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
     "title": "Embracing the Advantages of Open Source Software with Site Bay"
+  },
+  {
+    "excerpt": "Learn how to create and manage a staging site for testing WordPress changes with Site Bay’s powerful WordPress hosting on Kubernetes, featuring PostHog analytics and Grafana dashboards.",
+    "href": "https://www.sitebay.org/docs/guides/sitebay-dashboard-staging-site/",
+    "lastModified": "2024-04-28T03:12:12-06:00",
+    "linkTitle": "Mastering Staging Sites on Site Bay’s WordPress Hosting",
+    "publishDate": "2024-04-30T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/guides/sitebay-dashboard-staging-site/GNUMakeTutorial-LearntoAutomateTasks_hu0ad3ca52d053c9ccc7a76319a7fae5a5_67113_640x0_resize_q75_catmullrom.jpg",
+    "title": "Mastering Staging Sites on Site Bay’s WordPress Hosting"
   }
 ]

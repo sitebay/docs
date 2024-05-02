@@ -7,6 +7,25 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://www.sitebay.org/docs/products/posthog/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Collaborate with PostHog Notebooks on Site Bay</title>
+      <link>https://www.sitebay.org/docs/products/posthog/notebooks/</link>
+      <pubDate>Tue, 30 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/products/posthog/notebooks/</guid>
+      <description>Site Bay integrates PostHog analytics, offering powerful insights into your WordPress site&amp;rsquo;s user interactions. One of the standout features is PostHog Notebooks, which enables collaborative data analysis directly within your Site Bay environment.</description>
+    </item>
+    
+    <item>
+      <title>Maximizing WordPress Insights with PostHog Dashboards on Site Bay</title>
+      <link>https://www.sitebay.org/docs/products/posthog/dashboards/</link>
+      <pubDate>Tue, 30 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/products/posthog/dashboards/</guid>
+      <description>Introduction to PostHog Dashboards
+PostHog dashboards are powerful tools for WordPress site owners on Site Bay, offering deep insights into visitor behavior and site performance.</description>
+    </item>
+    
+    <item>
       <title>Leveraging Feature Flags for A/B Testing on Site Bay</title>
       <link>https://www.sitebay.org/docs/products/posthog/feature-flags/</link>
       <pubDate>Sat, 27 Apr 2024 00:00:00 +0000</pubDate>
@@ -30,7 +49,7 @@
       <pubDate>Fri, 19 Apr 2024 00:00:00 +0000</pubDate>
       
       <guid>https://www.sitebay.org/docs/products/posthog/events/</guid>
-      <description>If you haven&amp;rsquo;t already, set up your Site Bay WordPress hosting environment. Check out our guides on Getting Started with Site Bay and Deploying Your First WordPress Site.</description>
+      <description>If you haven&amp;rsquo;t already, set up your Site Bay WordPress site. Check out our guides on Getting Started with Site Bay and Deploying Your First WordPress Site.</description>
     </item>
     
     <item>
@@ -40,6 +59,16 @@
       
       <guid>https://www.sitebay.org/docs/products/posthog/persons/</guid>
       <description>What is &amp;ldquo;People&amp;rdquo; in PostHog?In PostHog, the &amp;ldquo;People&amp;rdquo; feature refers to the users who interact with your product or website.</description>
+    </item>
+    
+    <item>
+      <title>Grafana on Site Bay WordPress Hosting</title>
+      <link>https://www.sitebay.org/docs/products/posthog/web-analytics/</link>
+      <pubDate>Thu, 04 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/products/posthog/web-analytics/</guid>
+      <description>Grafana insights are the core components of dashboards
+OverviewInsights in Grafana display your data through various information visualization components.</description>
     </item>
     
     <item>
@@ -60,6 +89,15 @@ Welcome to the guide on leveraging PostHog for optimal data management on Site B
       <guid>https://www.sitebay.org/docs/products/posthog/insights/</guid>
       <description>PostHog insights are the core components of dashboards
 OverviewInsights in PostHog display your data through various information visualization components.</description>
+    </item>
+    
+    <item>
+      <title>PostHog Recordings on Site Bay WordPress Hosting</title>
+      <link>https://www.sitebay.org/docs/products/posthog/session-replay/</link>
+      <pubDate>Thu, 04 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/products/posthog/session-replay/</guid>
+      <description>OverviewSession replay in PostHog displays your user&amp;rsquo;s visit video data.</description>
     </item>
     
   </channel>

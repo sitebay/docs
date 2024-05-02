@@ -1,5 +1,68 @@
 [
   {
+    "excerpt": "Explaining insights in PostHog: dashboard components",
+    "href": "https://www.sitebay.org/docs/products/posthog/insights/",
+    "lastModified": "2024-04-29T05:25:35-06:00",
+    "linkTitle": "PostHog Insights",
+    "publishDate": "2024-04-04T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
+    "title": "PostHog Insights"
+  },
+  {
+    "excerpt": "Use data management to organize events that come into Site Bay. Reduce noise, clarify usage, and help collaborators get the most value from your data. Events Actions Properties Annotations History Database",
+    "href": "https://www.sitebay.org/docs/products/posthog/data-management/",
+    "lastModified": "2024-04-29T05:25:35-06:00",
+    "linkTitle": "Mastering Data Management with PostHog on Site Bay",
+    "publishDate": "2024-04-04T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
+    "title": "Mastering Data Management with PostHog on Site Bay"
+  },
+  {
+    "excerpt": "Understanding \"People\" in PostHog Analytics",
+    "href": "https://www.sitebay.org/docs/products/posthog/persons/",
+    "lastModified": "2024-04-29T05:25:35-06:00",
+    "linkTitle": "Understanding \"People\" in PostHog Analytics",
+    "publishDate": "2024-04-18T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
+    "title": "Understanding \"People\" in PostHog Analytics"
+  },
+  {
+    "excerpt": "This guide shows you how to integrate Posthog surveys into your WordPress site hosted on Site Bay.",
+    "href": "https://www.sitebay.org/docs/products/posthog/surveys/",
+    "lastModified": "2024-04-29T05:25:35-06:00",
+    "linkTitle": "Integrating Posthog Surveys on Your WordPress Site",
+    "publishDate": "2024-04-20T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
+    "title": "Integrating Posthog Surveys on Your WordPress Site"
+  },
+  {
+    "excerpt": "Learn to enable and manage your feature flags for A/B Testing",
+    "href": "https://www.sitebay.org/docs/products/posthog/feature-flags/",
+    "lastModified": "2024-04-29T05:25:35-06:00",
+    "linkTitle": "Leveraging Feature Flags for A/B Testing on Site Bay",
+    "publishDate": "2024-04-27T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
+    "title": "Leveraging Feature Flags for A/B Testing on Site Bay"
+  },
+  {
+    "excerpt": "Discover how to harness PostHog dashboards for comprehensive insights into your WordPress site visitors on Site Bay, optimizing your content strategy with data-driven decisions.",
+    "href": "https://www.sitebay.org/docs/products/posthog/dashboards/",
+    "lastModified": "2024-04-29T05:25:35-06:00",
+    "linkTitle": "Maximizing WordPress Insights with PostHog Dashboards on Site Bay",
+    "publishDate": "2024-04-30T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
+    "title": "Maximizing WordPress Insights with PostHog Dashboards on Site Bay"
+  },
+  {
+    "excerpt": "This guide shows you how to create notebooks to collaborate with friends.",
+    "href": "https://www.sitebay.org/docs/products/posthog/notebooks/",
+    "lastModified": "2024-04-29T05:25:35-06:00",
+    "linkTitle": "Collaborate with PostHog Notebooks on Site Bay",
+    "publishDate": "2024-04-30T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
+    "title": "Collaborate with PostHog Notebooks on Site Bay"
+  },
+  {
     "excerpt": "Unlock the power of session replays to understand your visitors' interactions",
     "href": "https://www.sitebay.org/docs/guides/what-is-session-replay/",
     "lastModified": "2024-04-28T03:12:12-06:00",
@@ -115,68 +178,5 @@
     "publishDate": "2024-04-04T00:00:00Z",
     "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
     "title": "Mastering Data Management with PostHog on Site Bay"
-  },
-  {
-    "excerpt": "Discover how Site Bay utilizes Grafana for in-depth WordPress visitor insights on our Kubernetes-based hosting platform, featuring seamless integration with PostHog analytics.",
-    "href": "https://www.sitebay.org/docs/guides/grafana-for-wordpress/",
-    "lastModified": "2024-04-28T03:12:12-06:00",
-    "linkTitle": "Leveraging Grafana for WordPress Insights at Site Bay",
-    "publishDate": "2024-04-04T00:00:00Z",
-    "thumbnail": "https://www.sitebay.org/docs/guides/grafana-for-wordpress/container-sitebay-login-lish_hu5fa61dd950d60f5fcf5277b9bfa6ea93_20242_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
-    "title": "Leveraging Grafana for WordPress Insights at Site Bay"
-  },
-  {
-    "excerpt": "Unlock the power of Site Bay with browser-based shell access for your WordPress site.",
-    "href": "",
-    "lastModified": "2024-04-28T03:12:12-06:00",
-    "linkTitle": "Harnessing the WebSSH Feature in Site Bay Dashboard",
-    "publishDate": "2024-04-04T00:00:00Z",
-    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
-    "title": "Harnessing the WebSSH Feature in Site Bay Dashboard"
-  },
-  {
-    "excerpt": "Connect an external site to your WordPress on a Subpath",
-    "href": "https://www.sitebay.org/docs/guides/connect-an-external-site-to-wordpress/",
-    "lastModified": "2024-04-28T03:12:12-06:00",
-    "linkTitle": "External Sites on a Subpath on WordPress",
-    "publishDate": "2024-04-04T00:00:00Z",
-    "thumbnail": "https://www.sitebay.org/docs/guides/connect-an-external-site-to-wordpress/ExternalPaths_hu4378f152c3faec8ffb6968cbd1c6cedc_486680_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
-    "title": "External Sites on a Subpath on WordPress"
-  },
-  {
-    "excerpt": "Learn how to use code-server, Site Bay’s integrated development environment (IDE), for editing WordPress files directly within your browser.",
-    "href": "https://www.sitebay.org/docs/guides/use-code-server-to-edit-files-in-sitebay/",
-    "lastModified": "2024-04-28T03:12:12-06:00",
-    "linkTitle": "Effortlessly Edit WordPress Files with Site Bay’s code-server",
-    "publishDate": "2024-04-04T00:00:00Z",
-    "thumbnail": "https://www.sitebay.org/docs/guides/use-code-server-to-edit-files-in-sitebay/CodeServer_hu0a27bd8048c009d64e65307320d468cf_694098_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
-    "title": "Effortlessly Edit WordPress Files with Site Bay’s code-server"
-  },
-  {
-    "excerpt": "Explore how Site Bay utilizes point-in-time recovery for WordPress sites, enabling easy rollback and data restoration to specific moments.",
-    "href": "https://www.sitebay.org/docs/guides/point-in-time-machine-wordpress/",
-    "lastModified": "2024-04-28T03:12:12-06:00",
-    "linkTitle": "Effortless WordPress Recovery with Site Bay's Point-in-Time Machine",
-    "publishDate": "2024-04-04T00:00:00Z",
-    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
-    "title": "Effortless WordPress Recovery with Site Bay's Point-in-Time Machine"
-  },
-  {
-    "excerpt": "Learn how to streamline your WordPress management tasks in Site Bay using aliases for frequently used commands. This guide explains creating and removing aliases for efficiency.",
-    "href": "https://www.sitebay.org/docs/guides/alias-frequently-used-commands/",
-    "lastModified": "2024-04-28T03:12:12-06:00",
-    "linkTitle": "Alias Frequently Used Commands in Site Bay",
-    "publishDate": "2024-04-04T00:00:00Z",
-    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
-    "title": "Alias Frequently Used Commands in Site Bay"
-  },
-  {
-    "excerpt": "Unleash the power of the WP CLI: Your ultimate guide to mastering WordPress management from the command line with Site Bay hosting.",
-    "href": "https://www.sitebay.org/docs/guides/wordpress-command-line-tips/",
-    "lastModified": "2024-04-28T03:12:12-06:00",
-    "linkTitle": "Command Line Mastery in VS Code Server",
-    "publishDate": "2024-04-13T00:00:00Z",
-    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
-    "title": "Command Line Mastery in VS Code Server"
   }
 ]

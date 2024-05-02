@@ -1,5 +1,23 @@
 [
   {
+    "excerpt": "Understanding \"People\" in PostHog Analytics",
+    "href": "https://www.sitebay.org/docs/products/posthog/persons/",
+    "lastModified": "2024-04-29T05:25:35-06:00",
+    "linkTitle": "Understanding \"People\" in PostHog Analytics",
+    "publishDate": "2024-04-18T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
+    "title": "Understanding \"People\" in PostHog Analytics"
+  },
+  {
+    "excerpt": "This guide shows you how to create notebooks to collaborate with friends.",
+    "href": "https://www.sitebay.org/docs/products/posthog/notebooks/",
+    "lastModified": "2024-04-29T05:25:35-06:00",
+    "linkTitle": "Collaborate with PostHog Notebooks on Site Bay",
+    "publishDate": "2024-04-30T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
+    "title": "Collaborate with PostHog Notebooks on Site Bay"
+  },
+  {
     "excerpt": "Unlock the power of session replays to understand your visitors' interactions",
     "href": "https://www.sitebay.org/docs/guides/what-is-session-replay/",
     "lastModified": "2024-04-28T03:12:12-06:00",
@@ -34,14 +52,5 @@
     "publishDate": "2024-04-18T00:00:00Z",
     "thumbnail": "https://www.sitebay.org/docs/guides/what-is-posthog/PostHog_hu463b65dd375bd709fc7443820fbfcda2_214106_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
     "title": "What is PostHog"
-  },
-  {
-    "excerpt": "Understanding \"People\" in PostHog Analytics",
-    "href": "https://www.sitebay.org/docs/products/posthog/persons/",
-    "lastModified": "2024-04-18T00:00:00Z",
-    "linkTitle": "Understanding \"People\" in PostHog Analytics",
-    "publishDate": "2024-04-18T00:00:00Z",
-    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
-    "title": "Understanding \"People\" in PostHog Analytics"
   }
 ]

@@ -276,17 +276,6 @@
     "title": "WP-CLI and Linux Shell Basics"
   },
   {
-    "excerpt": "Learn about Site Bay\u0026rsquo;s Managed Site Bot service, which provides fully managed cloud database clusters built on top of Site Bay’s trusted and reliable platform.",
-    "firstPublishedTime": 1713830400,
-    "lastUpdatedTime": 1714295532,
-    "linkTitle": "Prompt Engineering",
-    "objectID": "products \u003e site-bot \u003e prompt-engineering",
-    "ordinal": 10,
-    "section": "products",
-    "thumbnail": "/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x400_fill_q75_catmullrom_smart1.jpg",
-    "title": "Prompt Engineering"
-  },
-  {
     "excerpt": "This section contains basic information about WordPress hosting on Kubernetes, utilizing tools like Posthog for analytics, and Grafana for monitoring, essential for managing your Site Bay WordPress hosting.",
     "firstPublishedTime": 1713744000,
     "lastUpdatedTime": 1714295532,
@@ -749,7 +738,7 @@
     "title": "PostHog"
   },
   {
-    "excerpt": "Get started using the My Site Bay, CLI, and API to deploy Site Bay services and manage your account.",
+    "excerpt": "Get started using My Site Bay to create Site Bay WordPress sites and manage your account.",
     "firstPublishedTime": -62135596800,
     "lastUpdatedTime": 1714295532,
     "linkTitle": "Products",

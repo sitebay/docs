@@ -15,7 +15,7 @@ modified_by:
 tags: ["sitebay platform"]
 ---
 
-Site Bay strives to provide transparent and uncomplicated pricing structures and billing policies. As a supplement to our [Pricing](https://www.sitebay.org/pricing/) page, read through this guide to understand how we bill for services and how you can pay for these services. For instructions on how to manage your billing in the My Site Bay, see the [Manage Billing in My Site Bay](/docs/products/platform/billing/guides/) guide. If you have a question that isn't answered in either of these guides, don't hesitate to [contact Support](https://www.sitebay.org/support/).
+Site Bay strives to provide transparent and uncomplicated pricing structures and billing policies. As a supplement to our [Pricing](https://www.sitebay.org/pricing/) page, read through this guide to understand how we bill for services and how you can pay for these services. For instructions on how to manage your billing in the My Site Bay, see the [Manage Billing in My Site Bay](/docs/products/platform/billing/guides/) guide. If you have a question that isn't answered in either of these guides, don't hesitate to [contact Support](https://www.sitebay.org/docs/).
 
 ## Understand How Billing Works
 
@@ -97,4 +97,4 @@ When an invoice is generated on the cycle reset date, Site Bay automatically att
 
 A refund can be requested for any *positive account balance* (excluding promotion credits). You can also receive a full refund as part of our cancellation policy if you cancel within the first 7 days. To learn more about this cancellation policy, see the [Cancel Your Account](/docs/products/platform/accounts/guides/cancel-account/) guide.
 
-To request a refund, contact the [Support](https://www.sitebay.org/support/) team with the reason for your request. Refunds can only be considered for payments made within the last 180 days. Once the request is approved, the refund is issued to the original payment method. A $5 processing fee is deducted from all refunds, with the exception of cancelling an account within the first 7 days.
+To request a refund, contact the [Support](https://www.sitebay.org/docs/) team with the reason for your request. Refunds can only be considered for payments made within the last 180 days. Once the request is approved, the refund is issued to the original payment method. A $5 processing fee is deducted from all refunds, with the exception of cancelling an account within the first 7 days.

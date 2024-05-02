@@ -15,7 +15,7 @@ tags: ["managed hosting"]
 
 Site Bay Tools offer an impressive feature known as "External Paths." This function, primarily used to optimize search engine operations, lets users connect their external websites to a particular pathway or URL. 
 
-The support site you're on now is hosted on GitHub for free and then linked to our dogfooded site www.sitebay.org at /support using this method. this feature enables website owners to link their support site to their main website. Simply input the URL of your external site (like support.sitebay.org), and identify a path (like /support). Now, your support site is accessible via www.sitebay.org/support.
+The docs site you're on now is hosted on GitHub for free and then linked to our dogfooded site www.sitebay.org at /docs using this method. this feature enables website owners to link their docs site to their main website. Simply input the URL of your external site (like docs.sitebay.org), and identify a path (like /docs). Now, your docs site is accessible via www.sitebay.org/docs.
 
 This feature enhances your SEO strategy, making your content more accessible to search engines so it improves your websites visibility.
 
