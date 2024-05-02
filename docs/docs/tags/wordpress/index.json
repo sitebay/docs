@@ -1,5 +1,14 @@
 [
   {
+    "excerpt": "Learn how to create and manage a staging site for testing WordPress changes with Site Bay’s powerful WordPress hosting on Kubernetes, featuring PostHog analytics and Grafana dashboards.",
+    "href": "https://www.sitebay.org/docs/guides/sitebay-dashboard-staging-site/",
+    "lastModified": "2024-05-02T01:22:50-06:00",
+    "linkTitle": "Mastering Staging Sites on Site Bay’s WordPress Hosting",
+    "publishDate": "2024-04-30T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/guides/sitebay-dashboard-staging-site/GNUMakeTutorial-LearntoAutomateTasks_hu0ad3ca52d053c9ccc7a76319a7fae5a5_67113_640x0_resize_q75_catmullrom.jpg",
+    "title": "Mastering Staging Sites on Site Bay’s WordPress Hosting"
+  },
+  {
     "excerpt": "Understanding \"People\" in PostHog Analytics",
     "href": "https://www.sitebay.org/docs/products/posthog/persons/",
     "lastModified": "2024-04-29T05:25:35-06:00",
@@ -169,14 +178,5 @@
     "publishDate": "2024-04-24T00:00:00Z",
     "thumbnail": "https://www.sitebay.org/docs/guides/open-source-software-benefits/OpenSource_hu2fb2b37a86777ea2736f2234144098ee_200739_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
     "title": "Embracing the Advantages of Open Source Software with Site Bay"
-  },
-  {
-    "excerpt": "Shows how to create an account with access restrictions for developers and maintainers.",
-    "href": "https://www.sitebay.org/docs/products/platform/get-started/guides/developer-access/",
-    "lastModified": "2024-04-28T03:12:12-06:00",
-    "linkTitle": "Grant a Developer Access a WordPress Site or Site Bay Account",
-    "publishDate": "2024-04-26T00:00:00Z",
-    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
-    "title": "Grant a Developer Access a WordPress Site or Site Bay Account"
   }
 ]

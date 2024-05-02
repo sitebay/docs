@@ -80,6 +80,15 @@
     </item>
     
     <item>
+      <title>Mastering Staging Sites on Site Bay’s WordPress Hosting</title>
+      <link>https://www.sitebay.org/docs/guides/sitebay-dashboard-staging-site/</link>
+      <pubDate>Tue, 30 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/sitebay-dashboard-staging-site/</guid>
+      <description>Creating a staging site on Site Bay&amp;rsquo;s WordPress hosting platform is a breeze, thanks to Kubernetes’ robust architecture and the integrated analytics and monitoring tools like PostHog and Grafana.</description>
+    </item>
+    
+    <item>
       <title>Maximizing WordPress Insights with PostHog Dashboards on Site Bay</title>
       <link>https://www.sitebay.org/docs/products/posthog/dashboards/</link>
       <pubDate>Tue, 30 Apr 2024 00:00:00 +0000</pubDate>
@@ -270,15 +279,6 @@ Kubernetes is a cutting-edge tool that automates deploying, scaling, and operati
       
       <guid>https://www.sitebay.org/docs/guides/tools-reference/basics/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Access Account Management and Billing in Site Bay</title>
-      <link></link>
-      <pubDate>Mon, 22 Apr 2024 00:00:00 +0000</pubDate>
-      
-      <guid></guid>
-      <description>The My Account section in Site Bay Dashboard allows you to manage your WordPress hosting account&amp;rsquo;s billing details, user access, and configure various settings specific to your hosting experience.</description>
     </item>
     
   </channel>

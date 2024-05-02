@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kubernetes on Site Bay Guides &amp; Tutorials</title>
+    <link>https://www.sitebay.org/docs/guides/kubernetes/</link>
+    <description>Recent content in Kubernetes on Site Bay Guides &amp; Tutorials</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 29 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.sitebay.org/docs/guides/kubernetes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Deploy NGINX on Kubernetes: Quick and Easy Setup with Site Bay</title>
+      <link>https://www.sitebay.org/docs/guides/kubernetes-fast-as-possible/</link>
+      <pubDate>Sat, 27 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/kubernetes-fast-as-possible/</guid>
+      <description>Introduction to Kubernetes
+Kubernetes is a powerful open-source system for managing containerized applications across a cluster of machines.</description>
+    </item>
+    
+    <item>
+      <title>Elevate Your WordPress Site with Kubernetes on Site Bay</title>
+      <link>https://www.sitebay.org/docs/guides/benefits-of-wordpress-on-kubernetes/</link>
+      <pubDate>Sat, 27 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/benefits-of-wordpress-on-kubernetes/</guid>
+      <description>What is Kubernetes?
+Kubernetes is a cutting-edge tool that automates deploying, scaling, and operating application containers.</description>
+    </item>
+    
+    <item>
+      <title>Elevating WordPress Performance with Kubernetes and NGINX on Site Bay</title>
+      <link>https://www.sitebay.org/docs/guides/troubleshooting-wordpress-on-kubernetes/</link>
+      <pubDate>Sat, 27 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/troubleshooting-wordpress-on-kubernetes/</guid>
+      <description>Kubernetes, an open-source container orchestration platform, enables the management of containerized applications in a clustered environment.</description>
+    </item>
+    
+  </channel>
+</rss>

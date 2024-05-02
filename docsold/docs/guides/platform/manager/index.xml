@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Site Bay Manager on Site Bay Guides &amp; Tutorials</title>
+    <link>https://www.sitebay.org/docs/guides/platform/manager/</link>
+    <description>Recent content in Site Bay Manager on Site Bay Guides &amp; Tutorials</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 16 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.sitebay.org/docs/guides/platform/manager/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Managing Your Sites with Site Bot AI</title>
+      <link>https://www.sitebay.org/docs/guides/managing-your-sites-with-site-bot-ai/</link>
+      <pubDate>Sun, 21 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/managing-your-sites-with-site-bot-ai/</guid>
+      <description>Creating and Managing Your Website with Site Bot: A User-Friendly GuideHave you ever wished for a more straightforward way to deploy and manage your website without delving into complex coding or navigating through endless dashboard settings?</description>
+    </item>
+    
+    <item>
+      <title>An Overview of the Site Bay Dashboard</title>
+      <link>https://www.sitebay.org/docs/guides/an-overview-of-mysitebay/</link>
+      <pubDate>Sat, 20 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/an-overview-of-mysitebay/</guid>
+      <description>Welcome to Site Bay&amp;rsquo;s Dashboard
+The Site Bay Dashboard is your central hub for managing powerful WordPress hosting.</description>
+    </item>
+    
+    <item>
+      <title>Fast Analytics with PostHog on Site Bay</title>
+      <link>https://www.sitebay.org/docs/guides/posthog-analytics-fast-as-possible/</link>
+      <pubDate>Sat, 13 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/posthog-analytics-fast-as-possible/</guid>
+      <description>PostHog, a powerful, open-source analytics platform, is available free to all our Site Bay WordPress users.</description>
+    </item>
+    
+    <item>
+      <title>Supercharge Your WordPress Site with Grafana Analytics</title>
+      <link>https://www.sitebay.org/docs/guides/grafana-analytics-fast-as-possible/</link>
+      <pubDate>Sat, 13 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/grafana-analytics-fast-as-possible/</guid>
+      <description>Site Bay introduces Grafana, an open-source platform for monitoring and observability, integrated with our powerful WordPress hosting.</description>
+    </item>
+    
+  </channel>
+</rss>

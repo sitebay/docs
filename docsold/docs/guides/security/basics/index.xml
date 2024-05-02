@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>WordPress Security Basics on Site Bay Guides &amp; Tutorials</title>
+    <link>https://www.sitebay.org/docs/guides/security/basics/</link>
+    <description>Recent content in WordPress Security Basics on Site Bay Guides &amp; Tutorials</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 24 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.sitebay.org/docs/guides/security/basics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Secure Your WordPress</title>
+      <link>https://www.sitebay.org/docs/guides/securing-your-wordpress/</link>
+      <pubDate>Wed, 17 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/securing-your-wordpress/</guid>
+      <description>Secure your site against those no-good, unauthorized accesses.
+HTTP Password AuthenticationWe have tools to help lock down your WordPress site on Site Bay: HTTP Password Auth.</description>
+    </item>
+    
+  </channel>
+</rss>

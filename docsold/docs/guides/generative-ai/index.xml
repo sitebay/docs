@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Generative AI for WordPress on Site Bay Guides &amp; Tutorials</title>
+    <link>https://www.sitebay.org/docs/guides/generative-ai/</link>
+    <description>Recent content in Generative AI for WordPress on Site Bay Guides &amp; Tutorials</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 16 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.sitebay.org/docs/guides/generative-ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to use the new soft-inpainting feature in AUTOMATIC1111 WebUI</title>
+      <link>https://www.sitebay.org/docs/guides/how-to-use-soft-inpainting/</link>
+      <pubDate>Tue, 23 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/how-to-use-soft-inpainting/</guid>
+      <description>Soft Inpainting Guide: How we make our Tutorial Images Before After If there&amp;rsquo;s a visible division between the inpainted area and the rest of your image using normal inpainting, we can fix this with the new Soft inpainting feature.</description>
+    </item>
+    
+    <item>
+      <title>Basic inpainting guide</title>
+      <link>https://www.sitebay.org/docs/guides/how-to-use-inpainting/</link>
+      <pubDate>Fri, 29 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/how-to-use-inpainting/</guid>
+      <description>What Is Inpainting?Inpainting is the process of modifying parts of an image with AI. You can alter images as subtly or as drastically as you like, correct mistakes, and take your pictures to a new level.</description>
+    </item>
+    
+    <item>
+      <title>Guide to use Inpainting in AUTOMATIC1111 WebUI by RoiD1kan</title>
+      <link>https://www.sitebay.org/docs/guides/how-to-use-inpainting-roid1kan/</link>
+      <pubDate>Fri, 29 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/how-to-use-inpainting-roid1kan/</guid>
+      <description>DISCLAIMERThis guide only details the methods I have been using for inpainting over the months and what is working for me.</description>
+    </item>
+    
+  </channel>
+</rss>

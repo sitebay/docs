@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Guides on Site Bay Guides &amp; Tutorials</title>
+    <link>https://www.sitebay.org/docs/products/platform/get-started/guides/</link>
+    <description>Recent content in Guides on Site Bay Guides &amp; Tutorials</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 14 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.sitebay.org/docs/products/platform/get-started/guides/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Grant a Developer Access a WordPress Site or Site Bay Account</title>
+      <link>https://www.sitebay.org/docs/products/platform/get-started/guides/developer-access/</link>
+      <pubDate>Fri, 26 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/products/platform/get-started/guides/developer-access/</guid>
+      <description>One of the most powerful features of Site Bay&amp;rsquo;s unmanaged service is the amount of control Site Bay users have over their account and the software installed on their systems.</description>
+    </item>
+    
+    <item>
+      <title>How to Choose a Data Center</title>
+      <link>https://www.sitebay.org/docs/products/platform/get-started/guides/choose-a-data-center/</link>
+      <pubDate>Wed, 24 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/products/platform/get-started/guides/choose-a-data-center/</guid>
+      <description>If your visitors are in North America choose Washington (state), otherwise choose EU (hosted in Frankfurt)</description>
+    </item>
+    
+    <item>
+      <title>Resell Site Bay Services</title>
+      <link>https://www.sitebay.org/docs/products/platform/get-started/guides/resell-services/</link>
+      <pubDate>Wed, 24 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/products/platform/get-started/guides/resell-services/</guid>
+      <description>Referral ProgramAs an alternative to reselling our services, you can participate in our referral program.</description>
+    </item>
+    
+    <item>
+      <title>Network Transfer Usage and Costs</title>
+      <link>https://www.sitebay.org/docs/products/platform/get-started/guides/network-transfer/</link>
+      <pubDate>Sun, 21 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/products/platform/get-started/guides/network-transfer/</guid>
+      <description>OverviewNetwork transfer is the exchange of data between two computers over the public internet or a private network.</description>
+    </item>
+    
+    <item>
+      <title>Subscribe to Site Bay Status Updates</title>
+      <link>https://www.sitebay.org/docs/products/platform/get-started/guides/status-page/</link>
+      <pubDate>Sat, 20 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/products/platform/get-started/guides/status-page/</guid>
+      <description>The Status Page provides real-time system status and maintenance updates via email. All customers are encouraged to subscribe to status notifications to stay up-to-date with any events that may impact our services.</description>
+    </item>
+    
+    <item>
+      <title>Custom Domain Email on iMail Gmail for Free</title>
+      <link>https://www.sitebay.org/docs/products/platform/get-started/guides/custom-email/</link>
+      <pubDate>Thu, 04 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/products/platform/get-started/guides/custom-email/</guid>
+      <description>Custom Domain Email on Gmail or iMailIn today&amp;rsquo;s digital world, having a custom email address with your own domain can boost your personal or business brand.</description>
+    </item>
+    
+    <item>
+      <title>Help &amp; Support</title>
+      <link>https://www.sitebay.org/docs/products/platform/get-started/guides/support/</link>
+      <pubDate>Thu, 14 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/products/platform/get-started/guides/support/</guid>
+      <description>Site Bay provides a variety of support options so that you get the answers you need, in the timeframe you need them, and in the way that works best for you &amp;ndash; all at no cost.</description>
+    </item>
+    
+  </channel>
+</rss>

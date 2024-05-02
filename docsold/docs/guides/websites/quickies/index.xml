@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Website Quickie Guides on Site Bay Guides &amp; Tutorials</title>
+    <link>https://www.sitebay.org/docs/guides/websites/quickies/</link>
+    <description>Recent content in Website Quickie Guides on Site Bay Guides &amp; Tutorials</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 04 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.sitebay.org/docs/guides/websites/quickies/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Set up a Subdomain or Path for your WordPress Site</title>
+      <link>https://www.sitebay.org/docs/guides/set-up-subdomain-or-subdirectory-wordpress/</link>
+      <pubDate>Sat, 13 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/set-up-subdomain-or-subdirectory-wordpress/</guid>
+      <description>Got a WordPress site and looking to jazz it up with a special section like a blog or an e-shop?</description>
+    </item>
+    
+    <item>
+      <title>Fix DNS_PROBE_FINISHED_NXDOMAIN in Chrome</title>
+      <link>https://www.sitebay.org/docs/guides/fix-dns-probe-finished-nxdomain/</link>
+      <pubDate>Thu, 04 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/fix-dns-probe-finished-nxdomain/</guid>
+      <description>What does DNS_PROBE_FINISHED_NXDOMAIN mean?Ever tried to hit up a website and got hit back with a &amp;ldquo;DNS_PROBE_FINISHED_NXDOMAIN&amp;rdquo; error in Chrome?</description>
+    </item>
+    
+    <item>
+      <title>What is High Availability?</title>
+      <link>https://www.sitebay.org/docs/guides/what-is-high-availability/</link>
+      <pubDate>Thu, 04 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/what-is-high-availability/</guid>
+      <description>What is High Availability?Ever wonder why some websites are almost always up, no matter what?</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -201,7 +201,7 @@
   {
     "excerpt": "Find quick answers to some of the most commonly asked billing questions.",
     "firstPublishedTime": 1714262400,
-    "lastUpdatedTime": 1714295532,
+    "lastUpdatedTime": 1714634515,
     "linkTitle": "FAQs",
     "objectID": "products \u003e platform \u003e billing \u003e faqs",
     "ordinal": 60,
@@ -212,7 +212,7 @@
   {
     "excerpt": "Learn how Site Bay makes billing simple",
     "firstPublishedTime": 1714003200,
-    "lastUpdatedTime": 1714295532,
+    "lastUpdatedTime": 1714634515,
     "linkTitle": "Billing",
     "objectID": "products \u003e platform \u003e billing",
     "ordinal": 10,
@@ -465,7 +465,7 @@
   {
     "excerpt": "Find quick answers to some of the most commonly asked account and login questions.",
     "firstPublishedTime": 1709510400,
-    "lastUpdatedTime": 1714295532,
+    "lastUpdatedTime": 1714634515,
     "linkTitle": "FAQs",
     "objectID": "products \u003e platform \u003e accounts \u003e faqs",
     "ordinal": 60,
@@ -740,7 +740,7 @@
   {
     "excerpt": "Get started using My Site Bay to create Site Bay WordPress sites and manage your account.",
     "firstPublishedTime": -62135596800,
-    "lastUpdatedTime": 1714295532,
+    "lastUpdatedTime": 1714634515,
     "linkTitle": "Products",
     "objectID": "products",
     "ordinal": 0,

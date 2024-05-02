@@ -1,5 +1,23 @@
 [
   {
+    "excerpt": "Information about Site Bay support, including the scope of support and how to get help.",
+    "href": "https://www.sitebay.org/docs/products/platform/get-started/guides/support/",
+    "lastModified": "2024-05-02T01:21:55-06:00",
+    "linkTitle": "Help \u0026 Support",
+    "publishDate": "2024-03-14T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/products/platform/get-started/guides/support/support-tickets_hu6ad7a2fcea287d47e058f5daea0d3abb_27658_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
+    "title": "Help \u0026 Support"
+  },
+  {
+    "excerpt": "Learn how Site Bay makes billing simple",
+    "href": "https://www.sitebay.org/docs/products/platform/billing/",
+    "lastModified": "2024-05-02T01:21:55-06:00",
+    "linkTitle": "Billing",
+    "publishDate": "2024-04-25T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/products/platform/billing/feature.svg",
+    "title": "Billing"
+  },
+  {
     "excerpt": "Shortguide that shows you how to create and manage API keys in Site Bay.",
     "href": "",
     "lastModified": "2024-04-28T03:12:12-06:00",
@@ -7,15 +25,6 @@
     "publishDate": "2020-07-22T00:00:00Z",
     "thumbnail": "https://www.sitebay.org/docs/guides/cloud-api-keys-shortguide/classic-to-cloud-add-a-personal-access-token-panel_hu3b8c7c004df0489d0c9a0d8cad06483a_48796_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
     "title": "How to Create and Manage API Keys in Site Bay"
-  },
-  {
-    "excerpt": "Information about Site Bay support, including the scope of support and how to get help.",
-    "href": "https://www.sitebay.org/docs/products/platform/get-started/guides/support/",
-    "lastModified": "2024-04-28T03:12:12-06:00",
-    "linkTitle": "Help \u0026 Support",
-    "publishDate": "2024-03-14T00:00:00Z",
-    "thumbnail": "https://www.sitebay.org/docs/products/platform/get-started/guides/support/support-tickets_hu6ad7a2fcea287d47e058f5daea0d3abb_27658_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
-    "title": "Help \u0026 Support"
   },
   {
     "excerpt": "How to use Git Sync to develop your WordPress site from anywhere.",
@@ -169,14 +178,5 @@
     "publishDate": "2024-04-21T00:00:00Z",
     "thumbnail": "https://www.sitebay.org/docs/platform/billing-and-support/support/help_hu880231b8a3a004c3ac6022ebb6902fc5_441106_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
     "title": "Site Bay Support"
-  },
-  {
-    "excerpt": "Learn how to change your user's password on a Site Bay account.",
-    "href": "https://www.sitebay.org/docs/products/platform/accounts/guides/reset-user-password/",
-    "lastModified": "2024-04-28T03:12:12-06:00",
-    "linkTitle": "Reset Your User Password",
-    "publishDate": "2024-04-21T00:00:00Z",
-    "thumbnail": "https://www.sitebay.org/docs/products/platform/accounts/guides/reset-user-password/L_ChangeYourPassword_hubde79b8492307ea1b2fe0f0d4da36a6c_196809_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
-    "title": "Reset Your User Password"
   }
 ]

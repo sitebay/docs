@@ -1,0 +1,2605 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[
+  {
+    "content": "",
+    "excerpt": "Get your credit balances from affiliate payments or promos",
+    "href": "/docs/api/account/#get-your-balances-notes",
+    "httpMethod": "Get",
+    "objectID": "Get: /f/api/v1/account/get_balance_transactions",
+    "ordinal": 1,
+    "section": "api \u003e account",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e account",
+    "title": "Get your balances notes"
+  },
+  {
+    "content": "",
+    "excerpt": "Get your default card\u0026rsquo;s sales tax percentage",
+    "href": "/docs/api/account/#get-tax",
+    "httpMethod": "Get",
+    "objectID": "Get: /f/api/v1/account/get_tax",
+    "ordinal": 2,
+    "section": "api \u003e account",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e account",
+    "title": "Get tax"
+  },
+  {
+    "content": "",
+    "excerpt": "Get the data for your linked GitHub/GitLab/Bitbucket repositories",
+    "href": "/docs/api/account/#get-linked-git-repositories",
+    "httpMethod": "Get",
+    "objectID": "Get: /f/api/v1/account/git_repos",
+    "ordinal": 3,
+    "section": "api \u003e account",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e account",
+    "title": "Get linked git repositories"
+  },
+  {
+    "content": "",
+    "excerpt": "",
+    "href": "/docs/api//#userscurrent-user",
+    "httpMethod": "Get",
+    "objectID": "Get: /f/api/v1/account/me",
+    "ordinal": 4,
+    "section": "api \u003e ",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e ",
+    "title": "Users:Current User"
+  },
+  {
+    "content": "Request Body:  active_coupon_id:  address:  address2:  bitbucket_token:  bitbucket_user:  bitbucket_workspace:  city:  country:  default_region_id:  email:  full_name:  is_active:  is_superuser:  is_verified:  password:  phone_number:  post_code:  state:  tfa:  tfa_code:",
+    "excerpt": "",
+    "href": "/docs/api//#userspatch-current-user",
+    "httpMethod": "Patch",
+    "objectID": "Patch: /f/api/v1/account/me",
+    "ordinal": 5,
+    "section": "api \u003e ",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e ",
+    "title": "Users:Patch Current User"
+  },
+  {
+    "content": "",
+    "excerpt": "Retrieve data about users who have signed up using your links. Site Bot Enabled.",
+    "href": "/docs/api/account/#get-affiliate-referrals",
+    "httpMethod": "Get",
+    "objectID": "Get: /f/api/v1/account/referred_user",
+    "ordinal": 6,
+    "section": "api \u003e account",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e account",
+    "title": "Get affiliate referrals"
+  },
+  {
+    "content": "",
+    "excerpt": "Get stores you have connected to your user account from Shopify Link.",
+    "href": "/docs/api/account/#get-shopify-stores",
+    "httpMethod": "Get",
+    "objectID": "Get: /f/api/v1/account/shopify_store",
+    "ordinal": 7,
+    "section": "api \u003e account",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e account",
+    "title": "Get Shopify Stores"
+  },
+  {
+    "content": "",
+    "excerpt": "Get Linked Shopify Store",
+    "href": "/docs/api/account/#get-shopify-store",
+    "httpMethod": "Get",
+    "objectID": "Get: /f/api/v1/account/shopify_store/{id}",
+    "ordinal": 8,
+    "section": "api \u003e account",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e account",
+    "title": "Get Shopify Store"
+  },
+  {
+    "content": "Request Body:  blog_url:  site_live_id:",
+    "excerpt": "Update a store\u0026rsquo;s details",
+    "href": "/docs/api/account/#update-a-shopify-store",
+    "httpMethod": "Patch",
+    "objectID": "Patch: /f/api/v1/account/shopify_store/{id}",
+    "ordinal": 9,
+    "section": "api \u003e account",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e account",
+    "title": "Update a shopify store"
+  },
+  {
+    "content": "",
+    "excerpt": "",
+    "href": "/docs/api//#usersdelete-user",
+    "httpMethod": "Delete",
+    "objectID": "Delete: /f/api/v1/account/{id}",
+    "ordinal": 10,
+    "section": "api \u003e ",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e ",
+    "title": "Users:Delete User"
+  },
+  {
+    "content": "",
+    "excerpt": "",
+    "href": "/docs/api//#usersuser",
+    "httpMethod": "Get",
+    "objectID": "Get: /f/api/v1/account/{id}",
+    "ordinal": 11,
+    "section": "api \u003e ",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e ",
+    "title": "Users:User"
+  },
+  {
+    "content": "Request Body:  active_coupon_id:  address:  address2:  bitbucket_token:  bitbucket_user:  bitbucket_workspace:  city:  country:  default_region_id:  email:  full_name:  is_active:  is_superuser:  is_verified:  password:  phone_number:  post_code:  state:  tfa:  tfa_code:",
+    "excerpt": "",
+    "href": "/docs/api//#userspatch-user",
+    "httpMethod": "Patch",
+    "objectID": "Patch: /f/api/v1/account/{id}",
+    "ordinal": 12,
+    "section": "api \u003e ",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e ",
+    "title": "Users:Patch User"
+  },
+  {
+    "content": "",
+    "excerpt": "",
+    "href": "/docs/api/utils/#add-affiliate",
+    "httpMethod": "Get",
+    "objectID": "Get: /f/api/v1/affiliate",
+    "ordinal": 13,
+    "section": "api \u003e utils",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e utils",
+    "title": "Add Affiliate"
+  },
+  {
+    "content": "Request Body:  fqdn:  password:  team_id:  username:",
+    "excerpt": "Users can add a non Site Bay hosted WordPress site.",
+    "href": "/docs/api/application_password/#create-application-password",
+    "httpMethod": "Post",
+    "objectID": "Post: /f/api/v1/application_password",
+    "ordinal": 14,
+    "section": "api \u003e application_password",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e application_password",
+    "title": "Create Application Password"
+  },
+  {
+    "content": "",
+    "excerpt": "Users can delete their application password/username for non Site Bay hosted WordPress site.",
+    "href": "/docs/api/application_password/#delete-application-password",
+    "httpMethod": "Delete",
+    "objectID": "Delete: /f/api/v1/application_password/{fqdn}",
+    "ordinal": 15,
+    "section": "api \u003e application_password",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e application_password",
+    "title": "Delete Application Password"
+  },
+  {
+    "content": "Request Body:  fqdn:  password:  username:",
+    "excerpt": "Users can update their application password/username for non Site Bay hosted WordPress site. Can proxy through the WordPress REST API for various functionalities. Do not use for sites already on Site Bay.",
+    "href": "/docs/api/application_password/#update-application-password",
+    "httpMethod": "Put",
+    "objectID": "Put: /f/api/v1/application_password/{fqdn}",
+    "ordinal": 16,
+    "section": "api \u003e application_password",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e application_password",
+    "title": "Update Application Password"
+  },
+  {
+    "content": "",
+    "excerpt": "",
+    "href": "/docs/api/utils/#check-sites",
+    "httpMethod": "Get",
+    "objectID": "Get: /f/api/v1/check-sites",
+    "ordinal": 17,
+    "section": "api \u003e utils",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e utils",
+    "title": "Check Sites"
+  },
+  {
+    "content": "",
+    "excerpt": "",
+    "href": "/docs/api/utils/#get-country-code",
+    "httpMethod": "Get",
+    "objectID": "Get: /f/api/v1/country-code",
+    "ordinal": 18,
+    "section": "api \u003e utils",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e utils",
+    "title": "Get Country Code"
+  },
+  {
+    "content": "Request Body:  for_team_id: Your existing Team ID on the free plan for which the plan is being upgraded interval: Billing interval, e.g., 'month' or 'year' new_team_name: Name of the new team. Must be specified if for_team_id is null. plan_name: Name of the plan type",
+    "excerpt": "Generate a stripe checkout URL. Site Bot Enabled.",
+    "href": "/docs/api/utils/#buy-a-team-through-stripe-checkout",
+    "httpMethod": "Post",
+    "objectID": "Post: /f/api/v1/create_checkout_session",
+    "ordinal": 19,
+    "section": "api \u003e utils",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e utils",
+    "title": "Buy a team through stripe checkout"
+  },
+  {
+    "content": "",
+    "excerpt": "",
+    "href": "/docs/api/utils/#customer-portal",
+    "httpMethod": "Post",
+    "objectID": "Post: /f/api/v1/create_portal_session",
+    "ordinal": 20,
+    "section": "api \u003e utils",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e utils",
+    "title": "Customer Portal"
+  },
+  {
+    "content": "",
+    "excerpt": "Get events, such as restores, updates, stage creations, etc.",
+    "href": "/docs/api/event/#get-user-events",
+    "httpMethod": "Get",
+    "objectID": "Get: /f/api/v1/event",
+    "ordinal": 21,
+    "section": "api \u003e event",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e event",
+    "title": "Get User Events"
+  },
+  {
+    "content": "",
+    "excerpt": "Returns your account\u0026rsquo;s linked Git Repos",
+    "href": "/docs/api/utils/#verify-git-sync-directories",
+    "httpMethod": "Get",
+    "objectID": "Get: /f/api/v1/get_git_sync_repos",
+    "ordinal": 22,
+    "section": "api \u003e utils",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e utils",
+    "title": "Verify Git Sync Directories"
+  },
+  {
+    "content": "",
+    "excerpt": "",
+    "href": "/docs/api/utils/#read-root",
+    "httpMethod": "Get",
+    "objectID": "Get: /f/api/v1/health",
+    "ordinal": 23,
+    "section": "api \u003e utils",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e utils",
+    "title": "Read Root"
+  },
+  {
+    "content": "",
+    "excerpt": "",
+    "href": "/docs/api/mobile/#send-login-email",
+    "httpMethod": "Post",
+    "objectID": "Post: /f/api/v1/mobile/auth/send-login-email/",
+    "ordinal": 24,
+    "section": "api \u003e mobile",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e mobile",
+    "title": "Send Login Email"
+  },
+  {
+    "content": "Request Body:  client_id:  client_secret:  email:  scheme:  signup_flow_name:",
+    "excerpt": "Create an account, Send email, then prompt user for password and name { \u0026ldquo;scheme\u0026rdquo;:\u0026ldquo;wordpress\u0026rdquo;, \u0026ldquo;signup_flow_name\u0026rdquo;:\u0026ldquo;mobile-android\u0026rdquo;, \u0026ldquo;client_secret\u0026rdquo;:\u0026ldquo;wordpress\u0026rdquo;, \u0026ldquo;email\u0026rdquo;:\u0026ldquo;tim@siatebay.org\u0026rdquo;, \u0026ldquo;client_id\u0026rdquo;:\u0026ldquo;wordpress\u0026rdquo; }",
+    "href": "/docs/api/mobile/#send-signup-email-mobile",
+    "httpMethod": "Post",
+    "objectID": "Post: /f/api/v1/mobile/auth/send-signup-email/",
+    "ordinal": 25,
+    "section": "api \u003e mobile",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e mobile",
+    "title": "Send Signup Email Mobile"
+  },
+  {
+    "content": "",
+    "excerpt": "",
+    "href": "/docs/api/mobile/#get-templates-mobile",
+    "httpMethod": "Get",
+    "objectID": "Get: /f/api/v1/mobile/common-starter-site-designs/",
+    "ordinal": 26,
+    "section": "api \u003e mobile",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e mobile",
+    "title": "Get Templates Mobile"
+  },
+  {
+    "content": "",
+    "excerpt": "Does nothing, from JetpackServiceRemote.swift\npublic class JetpackServiceRemote: ServiceRemoteWordPressComREST { public enum ResponseError: Error { case decodingFailed }\n",
+    "href": "/docs/api/mobile/#site-info",
+    "httpMethod": "Get",
+    "objectID": "Get: /f/api/v1/mobile/connect/site-info/",
+    "ordinal": 27,
+    "section": "api \u003e mobile",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e mobile",
+    "title": "Site Info"
+  },
+  {
+    "content": "",
+    "excerpt": "",
+    "href": "/docs/api/mobile/#get-device",
+    "httpMethod": "Post",
+    "objectID": "Post: /f/api/v1/mobile/devices/new",
+    "ordinal": 28,
+    "section": "api \u003e mobile",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e mobile",
+    "title": "Get Device"
+  },
+  {
+    "content": "",
+    "excerpt": "Shown when user starts typing a domain in the app\nIf domain does not exist,\nshow registration option\nelIf is real domain,\ncheck if cname is pointed to us\nIf not pointed\ndo not allow user to select, show refresh btn to check again\nshow option to use $domain.sitebay.ca",
+    "href": "/docs/api/mobile/#get-suggestions",
+    "httpMethod": "Get",
+    "objectID": "Get: /f/api/v1/mobile/domains/suggestions/",
+    "ordinal": 29,
+    "section": "api \u003e mobile",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e mobile",
+    "title": "Get Suggestions"
+  },
+  {
+    "content": "",
+    "excerpt": "",
+    "href": "/docs/api/mobile/#get-supported-states",
+    "httpMethod": "Get",
+    "objectID": "Get: /f/api/v1/mobile/domains/supported-states/{country_code}/",
+    "ordinal": 30,
+    "section": "api \u003e mobile",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e mobile",
+    "title": "Get Supported States"
+  },
+  {
+    "content": "",
+    "excerpt": "Does nothing,",
+    "href": "/docs/api/mobile/#review-prompt",
+    "httpMethod": "Get",
+    "objectID": "Get: /f/api/v1/mobile/iphoneapp/review-prompt-check",
+    "ordinal": 31,
+    "section": "api \u003e mobile",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e mobile",
+    "title": "Review Prompt"
+  },
+  {
+    "content": "",
+    "excerpt": "",
+    "href": "/docs/api/mobile/#main-contact",
+    "httpMethod": "Post",
+    "objectID": "Post: /f/api/v1/mobile/main-contact",
+    "ordinal": 32,
+    "section": "api \u003e mobile",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e mobile",
+    "title": "Main Contact"
+  },
+  {
+    "content": "",
+    "excerpt": "",
+    "href": "/docs/api/mobile/#get-me",
+    "httpMethod": "Get",
+    "objectID": "Get: /f/api/v1/mobile/me/",
+    "ordinal": 33,
+    "section": "api \u003e mobile",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e mobile",
+    "title": "Get Me"
+  },
+  {
+    "content": "",
+    "excerpt": "For web views in mobile app\nAndroid app passes token through post body for some silly reason",
+    "href": "/docs/api/mobile/#get-me-cookie",
+    "httpMethod": "Post",
+    "objectID": "Post: /f/api/v1/mobile/me/cookie",
+    "ordinal": 34,
+    "section": "api \u003e mobile",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e mobile",
+    "title": "Get Me Cookie"
+  },
+  {
+    "content": "",
+    "excerpt": "",
+    "href": "/docs/api/mobile/#get-contact-info",
+    "httpMethod": "Get",
+    "objectID": "Get: /f/api/v1/mobile/me/domain-contact-information/",
+    "ordinal": 35,
+    "section": "api \u003e mobile",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e mobile",
+    "title": "Get Contact Info"
+  },
+  {
+    "content": "",
+    "excerpt": "",
+    "href": "/docs/api/mobile/#get-me-plans",
+    "httpMethod": "Get",
+    "objectID": "Get: /f/api/v1/mobile/me/plans/",
+    "ordinal": 36,
+    "section": "api \u003e mobile",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e mobile",
+    "title": "Get Me Plans"
+  },
+  {
+    "content": "",
+    "excerpt": "",
+    "href": "/docs/api/mobile/#get-me-settings",
+    "httpMethod": "Get",
+    "objectID": "Get: /f/api/v1/mobile/me/settings/",
+    "ordinal": 37,
+    "section": "api \u003e mobile",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e mobile",
+    "title": "Get Me Settings"
+  },
+  {
+    "content": "",
+    "excerpt": "",
+    "href": "/docs/api/mobile/#post-me-settings",
+    "httpMethod": "Post",
+    "objectID": "Post: /f/api/v1/mobile/me/settings/",
+    "ordinal": 38,
+    "section": "api \u003e mobile",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e mobile",
+    "title": "Post Me Settings"
+  },
+  {
+    "content": "",
+    "excerpt": "Buy domain endpoint\nRequest example:\n{\u0026ldquo;temporary\u0026rdquo;:true,\u0026ldquo;products\u0026rdquo;:[{\u0026ldquo;product_id\u0026rdquo;:0,\u0026ldquo;meta\u0026rdquo;:\u0026ldquo;test.com\u0026rdquo;,\u0026ldquo;extra\u0026rdquo;:{\u0026ldquo;privacy\u0026rdquo;:true}}]}",
+    "href": "/docs/api/mobile/#buy-domain-mobile",
+    "httpMethod": "Get",
+    "objectID": "Get: /f/api/v1/mobile/me/shopping-cart/{wp_app_id}/",
+    "ordinal": 39,
+    "section": "api \u003e mobile",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e mobile",
+    "title": "Buy Domain Mobile"
+  },
+  {
+    "content": "",
+    "excerpt": "",
+    "href": "/docs/api/mobile/#get-me-sites",
+    "httpMethod": "Get",
+    "objectID": "Get: /f/api/v1/mobile/me/sites/",
+    "ordinal": 40,
+    "section": "api \u003e mobile",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e mobile",
+    "title": "Get Me Sites"
+  },
+  {
+    "content": "",
+    "excerpt": "Buy domain endpoint\nRequest example:\n{\u0026ldquo;temporary\u0026rdquo;:true,\u0026ldquo;products\u0026rdquo;:[{\u0026ldquo;product_id\u0026rdquo;:0,\u0026ldquo;meta\u0026rdquo;:\u0026ldquo;test.com\u0026rdquo;,\u0026ldquo;extra\u0026rdquo;:{\u0026ldquo;privacy\u0026rdquo;:true}}]}",
+    "href": "/docs/api/mobile/#get-tax-rate",
+    "httpMethod": "Get",
+    "objectID": "Get: /f/api/v1/mobile/me/tax-rate/",
+    "ordinal": 41,
+    "section": "api \u003e mobile",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e mobile",
+    "title": "Get Tax Rate"
+  },
+  {
+    "content": "",
+    "excerpt": "Used to buy domain TODO rate limit 1 a day comes from app in this format \u0026ldquo;domain_details\u0026rdquo;:{\u0026ldquo;address_1\u0026rdquo;:\u0026ldquo;a\u0026rdquo;, \u0026ldquo;address_2\u0026rdquo;:\u0026quot;\u0026quot;, \u0026ldquo;city\u0026rdquo;:\u0026ldquo;miami\u0026rdquo;, \u0026ldquo;country_code\u0026rdquo;:\u0026ldquo;CA\u0026rdquo;,\u0026ldquo;email\u0026rdquo;:\u0026ldquo;tim@sitebay.org\u0026rdquo;, \u0026ldquo;first_name\u0026rdquo;:\u0026ldquo;Tim\u0026rdquo;,\u0026ldquo;last_name\u0026rdquo;:\u0026ldquo;Goz\u0026rdquo;, \u0026ldquo;organization\u0026rdquo;:\u0026quot;\u0026quot;,\u0026ldquo;phone\u0026rdquo;:\u0026quot;+1.5555555555\u0026quot;, \u0026ldquo;postal_code\u0026rdquo;:\u0026ldquo;90210\u0026rdquo;,\u0026ldquo;state\u0026rdquo;:\u0026ldquo;AB\u0026rdquo;}, Namesilo needs this fn: First Name (32) ln: Last Name (32) ad: Mailing Address (128) cy: Mailing City (64) st: Mailing State/Province/Territory (64) If country is US or CA, you must use the correct abbreviation zp: Mailing Zip/Postal Code (16) ct: Mailing Country (4) Country must use the correct abbreviation em: Email Address (128) ph: Phone Number (32) If country is US or CA, the phone number should be exactly 10 numbers Country dialing code SHOULD NOT be passed for any countries\nCARTKEY = DOMAIN\n",
+    "href": "/docs/api/mobile/#get-transactions",
+    "httpMethod": "Get",
+    "objectID": "Get: /f/api/v1/mobile/me/transactions/",
+    "ordinal": 42,
+    "section": "api \u003e mobile",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e mobile",
+    "title": "Get Transactions"
+  },
+  {
+    "content": "",
+    "excerpt": "",
+    "href": "/docs/api/mobile/#get-supported-countries",
+    "httpMethod": "Get",
+    "objectID": "Get: /f/api/v1/mobile/me/transactions/supported-countries/",
+    "ordinal": 43,
+    "section": "api \u003e mobile",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e mobile",
+    "title": "Get Supported Countries"
+  },
+  {
+    "content": "",
+    "excerpt": "",
+    "href": "/docs/api/mobile/#feature-announcements",
+    "httpMethod": "Get",
+    "objectID": "Get: /f/api/v1/mobile/mobile/feature-announcements/",
+    "ordinal": 44,
+    "section": "api \u003e mobile",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e mobile",
+    "title": "Feature Announcements"
+  },
+  {
+    "content": "",
+    "excerpt": "pydig:\nNS only works with root\nCNAME only works with subdomain\nA doesn\u0026rsquo;t matter",
+    "href": "/docs/api/mobile/#api-notifications",
+    "httpMethod": "Get",
+    "objectID": "Get: /f/api/v1/mobile/notifications",
+    "ordinal": 45,
+    "section": "api \u003e mobile",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e mobile",
+    "title": "Api Notifications"
+  },
+  {
+    "content": "",
+    "excerpt": "",
+    "href": "/docs/api/mobile/#mobile-delete-token",
+    "httpMethod": "Delete",
+    "objectID": "Delete: /f/api/v1/mobile/oauth2",
+    "ordinal": 46,
+    "section": "api \u003e mobile",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e mobile",
+    "title": "Mobile Delete Token"
+  },
+  {
+    "content": "",
+    "excerpt": "",
+    "href": "/docs/api/mobile/#mobile-get-token",
+    "httpMethod": "Post",
+    "objectID": "Post: /f/api/v1/mobile/oauth2/token",
+    "ordinal": 47,
+    "section": "api \u003e mobile",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e mobile",
+    "title": "Mobile Get Token"
+  },
+  {
+    "content": "",
+    "excerpt": "",
+    "href": "/docs/api/mobile/#pinghub",
+    "httpMethod": "Get",
+    "objectID": "Get: /f/api/v1/mobile/pinghub/wpcom/me/newest-note-data",
+    "ordinal": 48,
+    "section": "api \u003e mobile",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e mobile",
+    "title": "Pinghub"
+  },
+  {
+    "content": "",
+    "excerpt": "",
+    "href": "/docs/api/mobile/#read-follwing",
+    "httpMethod": "Get",
+    "objectID": "Get: /f/api/v1/mobile/read/following/mine/",
+    "ordinal": 49,
+    "section": "api \u003e mobile",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e mobile",
+    "title": "Read Follwing"
+  },
+  {
+    "content": "",
+    "excerpt": "This is called before site delete from the app\nOriginally checked for active premium things before cancel",
+    "href": "/docs/api/mobile/#get-site-purchase",
+    "httpMethod": "Get",
+    "objectID": "Get: /f/api/v1/mobile/sites/\u003cwp_app_id\u003e/purchases",
+    "ordinal": 50,
+    "section": "api \u003e mobile",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e mobile",
+    "title": "Get Site Purchase"
+  },
+  {
+    "content": "",
+    "excerpt": "",
+    "href": "/docs/api/mobile/#mobile-create-site",
+    "httpMethod": "Post",
+    "objectID": "Post: /f/api/v1/mobile/sites/new/",
+    "ordinal": 51,
+    "section": "api \u003e mobile",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e mobile",
+    "title": "Mobile Create Site"
+  },
+  {
+    "content": "",
+    "excerpt": "\u0026ldquo;response\u0026rdquo;: { \u0026ldquo;status\u0026rdquo;: 200, \u0026ldquo;jsonBody\u0026rdquo;: { \u0026ldquo;ID\u0026rdquo;: 181851495, \u0026ldquo;name\u0026rdquo;: \u0026ldquo;Four Paws Dog Grooming\u0026rdquo;, \u0026ldquo;description\u0026rdquo;: \u0026ldquo;\u0026rdquo;, \u0026ldquo;URL\u0026rdquo;: \u0026ldquo;https://{site.fqdn}\u0026rdquo;, \u0026ldquo;user_can_manage\u0026rdquo;: True, \u0026ldquo;capabilities\u0026rdquo;: { \u0026ldquo;edit_pages\u0026rdquo;: True, \u0026ldquo;edit_posts\u0026rdquo;: True, \u0026ldquo;edit_others_posts\u0026rdquo;: True, \u0026ldquo;edit_others_pages\u0026rdquo;: True, \u0026ldquo;delete_posts\u0026rdquo;: True, \u0026ldquo;delete_others_posts\u0026rdquo;: True, \u0026ldquo;edit_theme_options\u0026rdquo;: True, \u0026ldquo;edit_users\u0026rdquo;: False, \u0026ldquo;list_users\u0026rdquo;: True, \u0026ldquo;manage_categories\u0026rdquo;: True, \u0026ldquo;manage_options\u0026rdquo;: True, \u0026ldquo;moderate_comments\u0026rdquo;: True, \u0026ldquo;activate_wordads\u0026rdquo;: False, \u0026ldquo;promote_users\u0026rdquo;: True, \u0026ldquo;publish_posts\u0026rdquo;: True, \u0026ldquo;upload_files\u0026rdquo;: True, \u0026ldquo;delete_users\u0026rdquo;: False, \u0026ldquo;remove_users\u0026rdquo;: True, \u0026ldquo;own_site\u0026rdquo;: False, \u0026ldquo;view_hosting\u0026rdquo;: True, \u0026ldquo;view_stats\u0026rdquo;: True }, \u0026ldquo;jetpack\u0026rdquo;: False, \u0026ldquo;jetpack_connection\u0026rdquo;: False, \u0026ldquo;is_multisite\u0026rdquo;: True, \u0026ldquo;post_count\u0026rdquo;: 3, \u0026ldquo;subscribers_count\u0026rdquo;: 0, \u0026ldquo;lang\u0026rdquo;: \u0026ldquo;en\u0026rdquo;, \u0026ldquo;icon\u0026rdquo;: { \u0026ldquo;img\u0026rdquo;: site.favicon_url, \u0026ldquo;ico\u0026rdquo;: \u0026ldquo;https://fourpawsdoggrooming.files.wordpress.com/2020/08/cropped-fourpaws-logo-2-1.png?w=96\", \u0026ldquo;media_id\u0026rdquo;: 39 }, \u0026ldquo;logo\u0026rdquo;: { \u0026ldquo;id\u0026rdquo;: 0, \u0026ldquo;sizes\u0026rdquo;: [], \u0026ldquo;url\u0026rdquo;: \u0026quot;\u0026rdquo; }, \u0026ldquo;visible\u0026rdquo;: True, \u0026ldquo;is_private\u0026rdquo;: True, \u0026ldquo;is_coming_soon\u0026rdquo;: True, \u0026ldquo;single_user_site\u0026rdquo;: False, \u0026ldquo;is_vip\u0026rdquo;: False, \u0026ldquo;is_following\u0026rdquo;: False, \u0026ldquo;options\u0026rdquo;: { \u0026ldquo;timezone\u0026rdquo;: \u0026ldquo;America/Los_Angeles\u0026rdquo;, \u0026ldquo;gmt_offset\u0026rdquo;: -7, \u0026ldquo;blog_public\u0026rdquo;: -1, \u0026ldquo;videopress_enabled\u0026rdquo;: False, \u0026ldquo;upgraded_filetypes_enabled\u0026rdquo;: False, \u0026ldquo;login_url\u0026rdquo;: f\u0026quot;https://{site.fqdn}/wp-login.php\u0026quot;, \u0026ldquo;admin_url\u0026rdquo;: f\u0026quot;https://{site.fqdn}/wp-admin/\u0026quot;, \u0026ldquo;is_mapped_domain\u0026rdquo;: False, \u0026ldquo;is_redirect\u0026rdquo;: False, \u0026ldquo;unmapped_url\u0026rdquo;: \u0026ldquo;https://{site.fqdn}\u0026rdquo;,\n}, \u0026quot;plan\u0026quot;: { \u0026quot;product_id\u0026quot;: 1, \u0026quot;product_slug\u0026quot;: \u0026quot;free_plan\u0026quot;, \u0026quot;product_name\u0026quot;: \u0026quot;WordPress.com Free\u0026quot;, \u0026quot;product_name_short\u0026quot;: \u0026quot;Free\u0026quot;, \u0026quot;expired\u0026quot;: False, \u0026quot;user_is_owner\u0026quot;: False, \u0026quot;is_free\u0026quot;: True, \u0026quot;features\u0026quot;: { \u0026quot;active\u0026quot;: [], \u0026quot;available\u0026quot;: { } } }, \u0026quot;products\u0026quot;: [], \u0026quot;jetpack_modules\u0026quot;: null, \u0026quot;meta\u0026quot;: { \u0026quot;links\u0026quot;: { \u0026quot;self\u0026quot;: \u0026quot;{{request.requestLine.baseUrl}}/rest/v1.1/sites/181851495\u0026quot;, \u0026quot;help\u0026quot;: \u0026quot;{{request.requestLine.baseUrl}}/rest/v1.1/sites/181851495/help\u0026quot;, \u0026quot;posts\u0026quot;: \u0026quot;{{request.requestLine.baseUrl}}/rest/v1.1/sites/181851495/posts/\u0026quot;, \u0026quot;comments\u0026quot;: \u0026quot;{{request.requestLine.baseUrl}}/rest/v1.1/sites/181851495/comments/\u0026quot;, \u0026quot;xmlrpc\u0026quot;: \u0026quot;https://{site.fqdn}/xmlrpc.php\u0026quot;, \u0026quot;site_icon\u0026quot;: \u0026quot;{{request.requestLine.baseUrl}}/rest/v1.1/sites/181851495/media/39\u0026quot; } }, \u0026quot;quota\u0026quot;: { \u0026quot;space_allowed\u0026quot;: 3221225472, \u0026quot;space_used\u0026quot;: 449533200, \u0026quot;percent_used\u0026quot;: 13.95534723997116, \u0026quot;space_available\u0026quot;: 321673014000 }, \u0026quot;launch_status\u0026quot;: \u0026quot;unlaunched\u0026quot;, \u0026quot;site_migration\u0026quot;: null, \u0026quot;is_fse_active\u0026quot;: False, \u0026quot;is_fse_eligible\u0026quot;: False, \u0026quot;is_core_site_editor_enabled\u0026quot;: False } }\nTHIS ONLY GETS CALLED AFTER USER MAKES A SITE ON THE APP ONCE, SUBSEQUENT CALLS ARE XMLRPC\n",
+    "href": "/docs/api/mobile/#api-get-site",
+    "httpMethod": "Get",
+    "objectID": "Get: /f/api/v1/mobile/sites/{wp_app_id}",
+    "ordinal": 52,
+    "section": "api \u003e mobile",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e mobile",
+    "title": "Api Get Site"
+  },
+  {
+    "content": "",
+    "excerpt": "Gets site activity for the app\nHTTP/2 200 OK Server: nginx Date: Fri, 04 Jun 2021 03:12:37 GMT Content-Type: application/json; charset=UTF-8 Vary: Accept-Encoding Host-Header: WordPress.com X-Hacker: Oh, Awesome: I/Opossum X-Robots-Tag: noindex Link: https://{settings.SERVER_NAME}/; rel=\u0026ldquo;https://api.w.org/\" X-Content-Type-Options: nosniff Access-Control-Expose-Headers: X-WP-Total, X-WP-TotalPages, Link Expires: Wed, 11 Jan 1984 05:00:00 GMT Cache-Control: no-cache, must-revalidate, max-age=0 Allow: GET Access-Control-Allow-Headers: Authorization, Content-Type X-Ac: 2.sea _bur Strict-Transport-Security: max-age=15552000\n{\u0026quot;@context\u0026rdquo;:\u0026ldquo;https://www.w3.org/ns/activitystreams\",\"summary\":\"Activity log\u0026rdquo;,\u0026ldquo;type\u0026rdquo;:\u0026ldquo;OrderedCollection\u0026rdquo;,\u0026ldquo;totalItems\u0026rdquo;:4,\u0026ldquo;page\u0026rdquo;:1,\u0026ldquo;totalPages\u0026rdquo;:1,\u0026ldquo;itemsPerPage\u0026rdquo;:20,\u0026ldquo;id\u0026rdquo;:\u0026ldquo;https://{settings.SERVER_NAME}/wpcom/v2/sites/193996949/activity?number=20\u0026amp;page=1\u0026rdquo;,\u0026ldquo;oldestItemTs\u0026rdquo;:1622776115907,\u0026ldquo;first\u0026rdquo;:\u0026ldquo;https://{settings.SERVER_NAME}/wpcom/v2/sites/193996949/activity?number=20\u0026amp;page=1\u0026rdquo;,\u0026ldquo;last\u0026rdquo;:\u0026ldquo;https://{settings.SERVER_NAME}/wpcom/v2/sites/193996949/activity?number=20\u0026amp;page=1\u0026rdquo;,\u0026ldquo;current\u0026rdquo;:{\u0026ldquo;type\u0026rdquo;:\u0026ldquo;OrderedCollectionPage\u0026rdquo;,\u0026ldquo;id\u0026rdquo;:\u0026ldquo;https://{settings.SERVER_NAME}/wpcom/v2/sites/193996949/activity?number=20\u0026amp;page=1\u0026rdquo;,\u0026ldquo;prev\u0026rdquo;:\u0026ldquo;https://{settings.SERVER_NAME}/wpcom/v2/sites/193996949/activity?number=20\u0026amp;page=0\u0026rdquo;,\u0026ldquo;totalItems\u0026rdquo;:4,\u0026ldquo;orderedItems\u0026rdquo;:[{\u0026ldquo;summary\u0026rdquo;:\u0026ldquo;Theme activated\u0026rdquo;,\u0026ldquo;content\u0026rdquo;:{\u0026ldquo;text\u0026rdquo;:\u0026ldquo;Switched Karuna to Spearhead\u0026rdquo;,\u0026ldquo;ranges\u0026rdquo;:[{\u0026ldquo;type\u0026rdquo;:\u0026ldquo;theme\u0026rdquo;,\u0026ldquo;indices\u0026rdquo;:[19,28],\u0026ldquo;id\u0026rdquo;:\u0026ldquo;5\u0026rdquo;,\u0026ldquo;parent\u0026rdquo;:null,\u0026ldquo;slug\u0026rdquo;:\u0026ldquo;spearhead\u0026rdquo;,\u0026ldquo;version\u0026rdquo;:\u0026ldquo;1.3.3\u0026rdquo;,\u0026ldquo;site_slug\u0026rdquo;:\u0026ldquo;tomasmraczek.wordpress.com\u0026rdquo;,\u0026ldquo;uri\u0026rdquo;:\u0026ldquo;https://wordpress.com/theme/spearhead\u0026rdquo;},{\u0026ldquo;type\u0026rdquo;:\u0026ldquo;theme\u0026rdquo;,\u0026ldquo;indices\u0026rdquo;:[9,15],\u0026ldquo;id\u0026rdquo;:\u0026ldquo;2\u0026rdquo;,\u0026ldquo;parent\u0026rdquo;:null,\u0026ldquo;slug\u0026rdquo;:\u0026ldquo;karuna\u0026rdquo;,\u0026ldquo;version\u0026rdquo;:\u0026ldquo;1.2.11-wpcom\u0026rdquo;,\u0026ldquo;site_slug\u0026rdquo;:\u0026ldquo;tomasmraczek.wordpress.com\u0026rdquo;,\u0026ldquo;uri\u0026rdquo;:\u0026ldquo;http://wordpress.com/themes/karuna/\u0026rdquo;}]},\u0026ldquo;name\u0026rdquo;:\u0026ldquo;theme__switched\u0026rdquo;,\u0026ldquo;actor\u0026rdquo;:{\u0026ldquo;type\u0026rdquo;:\u0026ldquo;Person\u0026rdquo;,\u0026ldquo;name\u0026rdquo;:\u0026ldquo;tom g\u0026rdquo;,\u0026ldquo;external_user_id\u0026rdquo;:0,\u0026ldquo;wpcom_user_id\u0026rdquo;:207074265,\u0026ldquo;icon\u0026rdquo;:{\u0026ldquo;type\u0026rdquo;:\u0026ldquo;Image\u0026rdquo;,\u0026ldquo;url\u0026rdquo;:\u0026ldquo;https://secure.gravatar.com/avatar/bb8e93de19bbf15a0cd884492f745151?s=96\u0026amp;d=identicon\u0026amp;r=g\u0026rdquo;,\u0026ldquo;width\u0026rdquo;:96,\u0026ldquo;height\u0026rdquo;:96},\u0026ldquo;role\u0026rdquo;:\u0026ldquo;administrator\u0026rdquo;},\u0026ldquo;type\u0026rdquo;:\u0026ldquo;Update\u0026rdquo;,\u0026ldquo;published\u0026rdquo;:\u0026ldquo;2021-06-04T03:08:36.433+00:00\u0026rdquo;,\u0026ldquo;generator\u0026rdquo;:{\u0026ldquo;jetpack_version\u0026rdquo;:0,\u0026ldquo;blog_id\u0026rdquo;:193996949},\u0026ldquo;is_rewindable\u0026rdquo;:False,\u0026ldquo;rewind_id\u0026rdquo;:\u0026ldquo;1622776116.4331\u0026rdquo;,\u0026ldquo;gridicon\u0026rdquo;:\u0026ldquo;themes\u0026rdquo;,\u0026ldquo;status\u0026rdquo;:null,\u0026ldquo;activity_id\u0026rdquo;:\u0026ldquo;AXnU_omKEdwdUqNpkVeF\u0026rdquo;,\u0026ldquo;object\u0026rdquo;:{\u0026ldquo;type\u0026rdquo;:\u0026ldquo;Theme\u0026rdquo;,\u0026ldquo;name\u0026rdquo;:\u0026ldquo;Spearhead\u0026rdquo;,\u0026ldquo;object_version\u0026rdquo;:\u0026ldquo;1.3.3\u0026rdquo;,\u0026ldquo;id\u0026rdquo;:\u0026ldquo;https://wordpress.com/theme/spearhead\u0026rdquo;,\u0026ldquo;object_slug\u0026rdquo;:\u0026ldquo;pub/spearhead\u0026rdquo;},\u0026ldquo;is_discarded\u0026rdquo;:false},{\u0026ldquo;summary\u0026rdquo;:\u0026ldquo;User added\u0026rdquo;,\u0026ldquo;content\u0026rdquo;:{\u0026ldquo;text\u0026rdquo;:\u0026ldquo;tom g\u0026rdquo;,\u0026ldquo;ranges\u0026rdquo;:[{\u0026ldquo;url\u0026rdquo;:\u0026ldquo;https://wordpress.com/people/edit/193996949/tgoodmanlol\u0026rdquo;,\u0026ldquo;indices\u0026rdquo;:[0,5],\u0026ldquo;id\u0026rdquo;:207074265,\u0026ldquo;parent\u0026rdquo;:null,\u0026ldquo;type\u0026rdquo;:\u0026ldquo;a\u0026rdquo;,\u0026ldquo;site_id\u0026rdquo;:193996949,\u0026ldquo;section\u0026rdquo;:\u0026ldquo;user\u0026rdquo;,\u0026ldquo;intent\u0026rdquo;:\u0026ldquo;edit\u0026rdquo;}]},\u0026ldquo;name\u0026rdquo;:\u0026ldquo;user__added\u0026rdquo;,\u0026ldquo;actor\u0026rdquo;:{\u0026ldquo;type\u0026rdquo;:\u0026ldquo;Person\u0026rdquo;,\u0026ldquo;name\u0026rdquo;:\u0026ldquo;tom g\u0026rdquo;,\u0026ldquo;external_user_id\u0026rdquo;:0,\u0026ldquo;wpcom_user_id\u0026rdquo;:207074265,\u0026ldquo;icon\u0026rdquo;:{\u0026ldquo;type\u0026rdquo;:\u0026ldquo;Image\u0026rdquo;,\u0026ldquo;url\u0026rdquo;:\u0026ldquo;https://secure.gravatar.com/avatar/bb8e93de19bbf15a0cd884492f745151?s=96\u0026amp;d=identicon\u0026amp;r=g\u0026rdquo;,\u0026ldquo;width\u0026rdquo;:96,\u0026ldquo;height\u0026rdquo;:96},\u0026ldquo;role\u0026rdquo;:\u0026quot;\u0026quot;},\u0026ldquo;type\u0026rdquo;:\u0026ldquo;Add\u0026rdquo;,\u0026ldquo;published\u0026rdquo;:\u0026ldquo;2021-06-04T03:08:35.989+00:00\u0026rdquo;,\u0026ldquo;generator\u0026rdquo;:{\u0026ldquo;jetpack_version\u0026rdquo;:0,\u0026ldquo;blog_id\u0026rdquo;:193996949},\u0026ldquo;is_rewindable\u0026rdquo;:false,\u0026ldquo;rewind_id\u0026rdquo;:\u0026ldquo;1622776115.9894\u0026rdquo;,\u0026ldquo;gridicon\u0026rdquo;:\u0026ldquo;user\u0026rdquo;,\u0026ldquo;status\u0026rdquo;:null,\u0026ldquo;activity_id\u0026rdquo;:\u0026ldquo;AXnU_omKEdwdUqNpkVeE\u0026rdquo;,\u0026ldquo;object\u0026rdquo;:{\u0026ldquo;type\u0026rdquo;:\u0026ldquo;Person\u0026rdquo;,\u0026ldquo;name\u0026rdquo;:\u0026ldquo;tom g\u0026rdquo;,\u0026ldquo;external_user_id\u0026rdquo;:0,\u0026ldquo;wpcom_user_id\u0026rdquo;:207074265},\u0026ldquo;is_discarded\u0026rdquo;:false},{\u0026ldquo;summary\u0026rdquo;:\u0026ldquo;Setting changed\u0026rdquo;,\u0026ldquo;content\u0026rdquo;:{\u0026ldquo;text\u0026rdquo;:\u0026ldquo;Site description was changed from \u0026ldquo;Just another WordPress.com site\u0026rdquo; to \u0026ldquo;(empty)\u0026rdquo;\u0026rdquo;,\u0026ldquo;ranges\u0026rdquo;:[{\u0026ldquo;type\u0026rdquo;:\u0026ldquo;em\u0026rdquo;,\u0026ldquo;indices\u0026rdquo;:[35,66],\u0026ldquo;id\u0026rdquo;:\u0026ldquo;10\u0026rdquo;,\u0026ldquo;parent\u0026rdquo;:null},{\u0026ldquo;type\u0026rdquo;:\u0026ldquo;em\u0026rdquo;,\u0026ldquo;indices\u0026rdquo;:[72,79],\u0026ldquo;id\u0026rdquo;:\u0026ldquo;13\u0026rdquo;,\u0026ldquo;parent\u0026rdquo;:null}]},\u0026ldquo;name\u0026rdquo;:\u0026ldquo;setting__changed_blogdescription\u0026rdquo;,\u0026ldquo;actor\u0026rdquo;:{\u0026ldquo;type\u0026rdquo;:\u0026ldquo;Person\u0026rdquo;,\u0026ldquo;name\u0026rdquo;:\u0026ldquo;tom g\u0026rdquo;,\u0026ldquo;external_user_id\u0026rdquo;:0,\u0026ldquo;wpcom_user_id\u0026rdquo;:207074265,\u0026ldquo;icon\u0026rdquo;:{\u0026ldquo;type\u0026rdquo;:\u0026ldquo;Image\u0026rdquo;,\u0026ldquo;url\u0026rdquo;:\u0026ldquo;https://secure.gravatar.com/avatar/bb8e93de19bbf15a0cd884492f745151?s=96\u0026amp;d=identicon\u0026amp;r=g\u0026rdquo;,\u0026ldquo;width\u0026rdquo;:96,\u0026ldquo;height\u0026rdquo;:96},\u0026ldquo;role\u0026rdquo;:\u0026quot;\u0026quot;},\u0026ldquo;type\u0026rdquo;:\u0026ldquo;Announce\u0026rdquo;,\u0026ldquo;published\u0026rdquo;:\u0026ldquo;2021-06-04T03:08:35.957+00:00\u0026rdquo;,\u0026ldquo;generator\u0026rdquo;:{\u0026ldquo;jetpack_version\u0026rdquo;:0,\u0026ldquo;blog_id\u0026rdquo;:193996949},\u0026ldquo;is_rewindable\u0026rdquo;:false,\u0026ldquo;rewind_id\u0026rdquo;:\u0026ldquo;1622776115.9574\u0026rdquo;,\u0026ldquo;gridicon\u0026rdquo;:\u0026ldquo;cog\u0026rdquo;,\u0026ldquo;status\u0026rdquo;:null,\u0026ldquo;activity_id\u0026rdquo;:\u0026ldquo;AXnU_omKEdwdUqNpkVeD\u0026rdquo;,\u0026ldquo;is_discarded\u0026rdquo;:false},{\u0026ldquo;summary\u0026rdquo;:\u0026ldquo;Setting changed\u0026rdquo;,\u0026ldquo;content\u0026rdquo;:{\u0026ldquo;text\u0026rdquo;:\u0026ldquo;Paginate comments\u0026rdquo;},\u0026ldquo;name\u0026rdquo;:\u0026ldquo;setting__changed_page_comments\u0026rdquo;,\u0026ldquo;actor\u0026rdquo;:{\u0026ldquo;type\u0026rdquo;:\u0026ldquo;Person\u0026rdquo;,\u0026ldquo;name\u0026rdquo;:\u0026ldquo;tom g\u0026rdquo;,\u0026ldquo;external_user_id\u0026rdquo;:0,\u0026ldquo;wpcom_user_id\u0026rdquo;:207074265,\u0026ldquo;icon\u0026rdquo;:{\u0026ldquo;type\u0026rdquo;:\u0026ldquo;Image\u0026rdquo;,\u0026ldquo;url\u0026rdquo;:\u0026ldquo;https://secure.gravatar.com/avatar/bb8e93de19bbf15a0cd884492f745151?s=96\u0026amp;d=identicon\u0026amp;r=g\u0026rdquo;,\u0026ldquo;width\u0026rdquo;:96,\u0026ldquo;height\u0026rdquo;:96},\u0026ldquo;role\u0026rdquo;:\u0026quot;\u0026quot;},\u0026ldquo;type\u0026rdquo;:\u0026ldquo;Announce\u0026rdquo;,\u0026ldquo;published\u0026rdquo;:\u0026ldquo;2021-06-04T03:08:35.907+00:00\u0026rdquo;,\u0026ldquo;generator\u0026rdquo;:{\u0026ldquo;jetpack_version\u0026rdquo;:0,\u0026ldquo;blog_id\u0026rdquo;:193996949},\u0026ldquo;is_rewindable\u0026rdquo;:false,\u0026ldquo;rewind_id\u0026rdquo;:\u0026ldquo;1622776115.9069\u0026rdquo;,\u0026ldquo;gridicon\u0026rdquo;:\u0026ldquo;cog\u0026rdquo;,\u0026ldquo;status\u0026rdquo;:null,\u0026ldquo;activity_id\u0026rdquo;:\u0026ldquo;AXnU_omKEdwdUqNpkVeC\u0026rdquo;,\u0026ldquo;is_discarded\u0026rdquo;:false}]}}\n",
+    "href": "/docs/api/mobile/#api-site-activity",
+    "httpMethod": "Get",
+    "objectID": "Get: /f/api/v1/mobile/sites/{wp_app_id}/activity/",
+    "ordinal": 53,
+    "section": "api \u003e mobile",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e mobile",
+    "title": "Api Site Activity"
+  },
+  {
+    "content": "",
+    "excerpt": "",
+    "href": "/docs/api/mobile/#api-delete-site",
+    "httpMethod": "Post",
+    "objectID": "Post: /f/api/v1/mobile/sites/{wp_app_id}/delete/",
+    "ordinal": 54,
+    "section": "api \u003e mobile",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e mobile",
+    "title": "Api Delete Site"
+  },
+  {
+    "content": "",
+    "excerpt": "Does nothing, i think this sets primary domain\nbut we don\u0026rsquo;t use that",
+    "href": "/docs/api/mobile/#site-primary",
+    "httpMethod": "Get",
+    "objectID": "Get: /f/api/v1/mobile/sites/{wp_app_id}/domains/primary/",
+    "ordinal": 55,
+    "section": "api \u003e mobile",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e mobile",
+    "title": "Site Primary"
+  },
+  {
+    "content": "",
+    "excerpt": "",
+    "href": "/docs/api/mobile/#get-invites",
+    "httpMethod": "Get",
+    "objectID": "Get: /f/api/v1/mobile/sites/{wp_app_id}/invites",
+    "ordinal": 56,
+    "section": "api \u003e mobile",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e mobile",
+    "title": "Get Invites"
+  },
+  {
+    "content": "",
+    "excerpt": "",
+    "href": "/docs/api/mobile/#get-email-links",
+    "httpMethod": "Get",
+    "objectID": "Get: /f/api/v1/mobile/sites/{wp_app_id}/invites/links",
+    "ordinal": 57,
+    "section": "api \u003e mobile",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e mobile",
+    "title": "Get Email Links"
+  },
+  {
+    "content": "",
+    "excerpt": "",
+    "href": "/docs/api/mobile/#generate-email-links",
+    "httpMethod": "Post",
+    "objectID": "Post: /f/api/v1/mobile/sites/{wp_app_id}/invites/links/generate",
+    "ordinal": 58,
+    "section": "api \u003e mobile",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e mobile",
+    "title": "Generate Email Links"
+  },
+  {
+    "content": "",
+    "excerpt": "",
+    "href": "/docs/api/mobile/#api-team-invite",
+    "httpMethod": "Post",
+    "objectID": "Post: /f/api/v1/mobile/sites/{wp_app_id}/invites/{action}",
+    "ordinal": 59,
+    "section": "api \u003e mobile",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e mobile",
+    "title": "Api Team Invite"
+  },
+  {
+    "content": "",
+    "excerpt": "Does nothing, i think this sets primary domain\nbut we don\u0026rsquo;t use that",
+    "href": "/docs/api/mobile/#capabilities",
+    "httpMethod": "Get",
+    "objectID": "Get: /f/api/v1/mobile/sites/{wp_app_id}/rewind/capabilities/",
+    "ordinal": 60,
+    "section": "api \u003e mobile",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e mobile",
+    "title": "Capabilities"
+  },
+  {
+    "content": "",
+    "excerpt": "",
+    "href": "/docs/api/mobile/#get-site-roles",
+    "httpMethod": "Get",
+    "objectID": "Get: /f/api/v1/mobile/sites/{wp_app_id}/roles",
+    "ordinal": 61,
+    "section": "api \u003e mobile",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e mobile",
+    "title": "Get Site Roles"
+  },
+  {
+    "content": "",
+    "excerpt": "",
+    "href": "/docs/api/mobile/#get-site-members",
+    "httpMethod": "Get",
+    "objectID": "Get: /f/api/v1/mobile/sites/{wp_app_id}/users",
+    "ordinal": 62,
+    "section": "api \u003e mobile",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e mobile",
+    "title": "Get Site Members"
+  },
+  {
+    "content": "",
+    "excerpt": "",
+    "href": "/docs/api/mobile/#get-auth-options",
+    "httpMethod": "Get",
+    "objectID": "Get: /f/api/v1/mobile/users/{email}/auth-options",
+    "ordinal": 63,
+    "section": "api \u003e mobile",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e mobile",
+    "title": "Get Auth Options"
+  },
+  {
+    "content": "",
+    "excerpt": "Get all your active teams",
+    "href": "/docs/api/plan/#get-teams",
+    "httpMethod": "Get",
+    "objectID": "Get: /f/api/v1/plan",
+    "ordinal": 64,
+    "section": "api \u003e plan",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e plan",
+    "title": "Get Teams"
+  },
+  {
+    "content": "",
+    "excerpt": "Get a team by its UUID",
+    "href": "/docs/api/plan/#get-team",
+    "httpMethod": "Get",
+    "objectID": "Get: /f/api/v1/plan/{team_id}",
+    "ordinal": 65,
+    "section": "api \u003e plan",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e plan",
+    "title": "Get Team"
+  },
+  {
+    "content": "Request Body:  method:  path:  query_params_json:",
+    "excerpt": "Proxies POST requests to our PostHog API. Site Bot Enabled.",
+    "href": "/docs/api/utils/#proxy-to-posthog",
+    "httpMethod": "Post",
+    "objectID": "Post: /f/api/v1/posthog-proxy",
+    "ordinal": 66,
+    "section": "api \u003e utils",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e utils",
+    "title": "Proxy To Posthog"
+  },
+  {
+    "content": "",
+    "excerpt": "Get details of all regions. Site Bot Enabled.",
+    "href": "/docs/api/region/#get-regions",
+    "httpMethod": "Get",
+    "objectID": "Get: /f/api/v1/region",
+    "ordinal": 67,
+    "section": "api \u003e region",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e region",
+    "title": "Get Regions"
+  },
+  {
+    "content": "",
+    "excerpt": "Get details of a region by its ID",
+    "href": "/docs/api/region/#get-a-region",
+    "httpMethod": "Get",
+    "objectID": "Get: /f/api/v1/region/{region_id}",
+    "ordinal": 68,
+    "section": "api \u003e region",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e region",
+    "title": "Get a Region"
+  },
+  {
+    "content": "",
+    "excerpt": "",
+    "href": "/docs/api/utils/#sanity-check",
+    "httpMethod": "Post",
+    "objectID": "Post: /f/api/v1/sanity_check",
+    "ordinal": 69,
+    "section": "api \u003e utils",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e utils",
+    "title": "Sanity Check"
+  },
+  {
+    "content": "",
+    "excerpt": "Get details about all of your live sites. Site Bot Enabled.",
+    "href": "/docs/api/site_live/#get-your-sites",
+    "httpMethod": "Get",
+    "objectID": "Get: /f/api/v1/site_live",
+    "ordinal": 70,
+    "section": "api \u003e site_live",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e site_live",
+    "title": "Get your sites"
+  },
+  {
+    "content": "Request Body:  fqdn:  git_url:  is_free:  region_name:  team_id:  template_name:  wordpress_blog_name:  wordpress_email:  wordpress_first_name:  wordpress_last_name:  wordpress_password:  wordpress_username:",
+    "excerpt": "Create a new site by providing your domain and your site\u0026rsquo;s WordPress details. If you don\u0026rsquo;t include a region_name, your default region will be used. Site Bot Enabled.",
+    "href": "/docs/api/site_live/#create-a-site",
+    "httpMethod": "Post",
+    "objectID": "Post: /f/api/v1/site_live",
+    "ordinal": 71,
+    "section": "api \u003e site_live",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e site_live",
+    "title": "Create a site"
+  },
+  {
+    "content": "",
+    "excerpt": "This permanently deletes your site, and its stage site if one exists. Site Bot Enabled.",
+    "href": "/docs/api/site_live/#delete-your-live-site",
+    "httpMethod": "Delete",
+    "objectID": "Delete: /f/api/v1/site_live/{fqdn}",
+    "ordinal": 72,
+    "section": "api \u003e site_live",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e site_live",
+    "title": "Delete your live site"
+  },
+  {
+    "content": "",
+    "excerpt": "Get details about your live site. Site Bot Enabled.",
+    "href": "/docs/api/site_live/#get-your-live-site",
+    "httpMethod": "Get",
+    "objectID": "Get: /f/api/v1/site_live/{fqdn}",
+    "ordinal": 73,
+    "section": "api \u003e site_live",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e site_live",
+    "title": "Get your live site"
+  },
+  {
+    "content": "Request Body:  cf_dev_mode_enabled:  cf_firewall_allowed_ips:  cf_firewall_enabled:  git_url:  http_auth_enabled:  is_free:  new_fqdn:  team_id:",
+    "excerpt": "Update a site\u0026rsquo;s details. Site Bot Enabled.",
+    "href": "/docs/api/site_live/#update-a-site",
+    "httpMethod": "Patch",
+    "objectID": "Patch: /f/api/v1/site_live/{fqdn}",
+    "ordinal": 74,
+    "section": "api \u003e site_live",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e site_live",
+    "title": "Update a site"
+  },
+  {
+    "content": "",
+    "excerpt": "Send a bash shell command to your site, such as a WP-CLI command. Site Bot Enabled.",
+    "href": "/docs/api/site_live/#execute-shell-command",
+    "httpMethod": "Post",
+    "objectID": "Post: /f/api/v1/site_live/{fqdn}/cmd",
+    "ordinal": 75,
+    "section": "api \u003e site_live",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e site_live",
+    "title": "Execute shell command"
+  },
+  {
+    "content": "",
+    "excerpt": "Get events, such as restores, updates, stage creations, etc. Site Bot Enabled.",
+    "href": "/docs/api/site_live/#get-site-events",
+    "httpMethod": "Get",
+    "objectID": "Get: /f/api/v1/site_live/{fqdn}/event",
+    "ordinal": 76,
+    "section": "api \u003e site_live",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e site_live",
+    "title": "Get Site Events"
+  },
+  {
+    "content": "",
+    "excerpt": "Get details about your site\u0026rsquo;s external path configs. Site Bot Enabled.",
+    "href": "/docs/api/site_live/#get-external-paths",
+    "httpMethod": "Get",
+    "objectID": "Get: /f/api/v1/site_live/{fqdn}/external_path",
+    "ordinal": 77,
+    "section": "api \u003e site_live",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e site_live",
+    "title": "Get External Paths"
+  },
+  {
+    "content": "Request Body:  external_name:  path:",
+    "excerpt": "Connect an external URL to your site on a subpath. Site Bot Enabled.",
+    "href": "/docs/api/site_live/#create-external-path",
+    "httpMethod": "Post",
+    "objectID": "Post: /f/api/v1/site_live/{fqdn}/external_path",
+    "ordinal": 78,
+    "section": "api \u003e site_live",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e site_live",
+    "title": "Create External Path"
+  },
+  {
+    "content": "",
+    "excerpt": "Delete the link between an external URL and your site. Site Bot Enabled.",
+    "href": "/docs/api/site_live/#delete-external-path",
+    "httpMethod": "Delete",
+    "objectID": "Delete: /f/api/v1/site_live/{fqdn}/external_path/{external_path_id}",
+    "ordinal": 79,
+    "section": "api \u003e site_live",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e site_live",
+    "title": "Delete External Path"
+  },
+  {
+    "content": "",
+    "excerpt": "Get an external path for your site",
+    "href": "/docs/api/site_live/#get-external-path",
+    "httpMethod": "Get",
+    "objectID": "Get: /f/api/v1/site_live/{fqdn}/external_path/{external_path_id}",
+    "ordinal": 80,
+    "section": "api \u003e site_live",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e site_live",
+    "title": "Get External Path"
+  },
+  {
+    "content": "Request Body:  external_name:  path:",
+    "excerpt": "Update your site\u0026rsquo;s external path configs. Site Bot Enabled.",
+    "href": "/docs/api/site_live/#update-external-path",
+    "httpMethod": "Patch",
+    "objectID": "Patch: /f/api/v1/site_live/{fqdn}/external_path/{external_path_id}",
+    "ordinal": 81,
+    "section": "api \u003e site_live",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e site_live",
+    "title": "Update External Path"
+  },
+  {
+    "content": "Request Body:  free_region_version_ids:  keys:",
+    "excerpt": "",
+    "href": "/docs/api/site_live/#get-blob-urls",
+    "httpMethod": "Post",
+    "objectID": "Post: /f/api/v1/site_live/{fqdn}/get_download_urls",
+    "ordinal": 82,
+    "section": "api \u003e site_live",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e site_live",
+    "title": "Get Blob Urls"
+  },
+  {
+    "content": "",
+    "excerpt": "Get all the results of a site\u0026rsquo;s restores to a previous point in time. Site Bot Enabled.",
+    "href": "/docs/api/site_live/#get-pit-restores",
+    "httpMethod": "Get",
+    "objectID": "Get: /f/api/v1/site_live/{fqdn}/pit_restore",
+    "ordinal": 83,
+    "section": "api \u003e site_live",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e site_live",
+    "title": "Get PIT Restores"
+  },
+  {
+    "content": "Request Body:  delete_extra_files:  dolt_restore_hash:  for_stage_site:  is_dry_run:  restore_db:  restore_point:  restore_wp_content:",
+    "excerpt": "Restore your site to a previous point in time, down to the minute. Site Bot Enabled.",
+    "href": "/docs/api/site_live/#create-pit-restore",
+    "httpMethod": "Post",
+    "objectID": "Post: /f/api/v1/site_live/{fqdn}/pit_restore",
+    "ordinal": 84,
+    "section": "api \u003e site_live",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e site_live",
+    "title": "Create PIT Restore"
+  },
+  {
+    "content": "",
+    "excerpt": "Give a restore point to get your closest minutely backup details. Site Bot Enabled.",
+    "href": "/docs/api/site_live/#get-backups-to-create-pit-restore",
+    "httpMethod": "Get",
+    "objectID": "Get: /f/api/v1/site_live/{fqdn}/pit_restore/commits",
+    "ordinal": 85,
+    "section": "api \u003e site_live",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e site_live",
+    "title": "Get backups to create PIT Restore"
+  },
+  {
+    "content": "",
+    "excerpt": "Get a list of wp-content files at a point in time",
+    "href": "/docs/api/site_live/#pit-files",
+    "httpMethod": "Get",
+    "objectID": "Get: /f/api/v1/site_live/{fqdn}/pit_restore/files",
+    "ordinal": 86,
+    "section": "api \u003e site_live",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e site_live",
+    "title": "PIT Files"
+  },
+  {
+    "content": "Request Body:  delete_extra_files:  dolt_restore_hash:  for_stage_site:  is_dry_run:  restore_db:  restore_point:  restore_wp_content:",
+    "excerpt": "Restore your site to a previous point in time, down to the minute",
+    "href": "/docs/api/site_live/#preview-pit-restore",
+    "httpMethod": "Post",
+    "objectID": "Post: /f/api/v1/site_live/{fqdn}/pit_restore/preview",
+    "ordinal": 87,
+    "section": "api \u003e site_live",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e site_live",
+    "title": "Preview PIT Restore"
+  },
+  {
+    "content": "",
+    "excerpt": "Get the results of a site\u0026rsquo;s restore to a previous point in time. Site Bot Enabled.",
+    "href": "/docs/api/site_live/#get-pit-restore",
+    "httpMethod": "Get",
+    "objectID": "Get: /f/api/v1/site_live/{fqdn}/pit_restore/{pit_restore_id}",
+    "ordinal": 88,
+    "section": "api \u003e site_live",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e site_live",
+    "title": "Get PIT Restore"
+  },
+  {
+    "content": "",
+    "excerpt": "",
+    "href": "/docs/api/site_live/#sleep",
+    "httpMethod": "Post",
+    "objectID": "Post: /f/api/v1/site_live/{fqdn}/sleep",
+    "ordinal": 89,
+    "section": "api \u003e site_live",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e site_live",
+    "title": "Sleep"
+  },
+  {
+    "content": "",
+    "excerpt": "Delete your staging site. Site Bot Enabled.",
+    "href": "/docs/api/site_live/#delete-stage-site",
+    "httpMethod": "Delete",
+    "objectID": "Delete: /f/api/v1/site_live/{fqdn}/stage",
+    "ordinal": 90,
+    "section": "api \u003e site_live",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e site_live",
+    "title": "Delete Stage Site"
+  },
+  {
+    "content": "Request Body:  git_staging_branch:  restore_point:  subdomain:",
+    "excerpt": "Create a staging site on which you can test changes. Site Bot Enabled.",
+    "href": "/docs/api/site_live/#create-a-staging-site",
+    "httpMethod": "Post",
+    "objectID": "Post: /f/api/v1/site_live/{fqdn}/stage",
+    "ordinal": 91,
+    "section": "api \u003e site_live",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e site_live",
+    "title": "Create a Staging site"
+  },
+  {
+    "content": "",
+    "excerpt": "Sync the wp-content and database from your staging site to your live site. Site Bot Enabled.",
+    "href": "/docs/api/site_live/#commit-stage-site",
+    "httpMethod": "Post",
+    "objectID": "Post: /f/api/v1/site_live/{fqdn}/stage/commit",
+    "ordinal": 92,
+    "section": "api \u003e site_live",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e site_live",
+    "title": "Commit Stage Site"
+  },
+  {
+    "content": "",
+    "excerpt": "Create a staging site on which you can test changes. Site Bot Enabled.",
+    "href": "/docs/api/site_live/#create-a-staging-site",
+    "httpMethod": "Get",
+    "objectID": "Get: /f/api/v1/site_live/{fqdn}/static",
+    "ordinal": 93,
+    "section": "api \u003e site_live",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e site_live",
+    "title": "Create a Staging site"
+  },
+  {
+    "content": "",
+    "excerpt": "Get details about your live site\u0026rsquo;s tools on Cloudflare",
+    "href": "/docs/api/site_live/#get-cloudflare-info",
+    "httpMethod": "Get",
+    "objectID": "Get: /f/api/v1/site_live/{fqdn}/tools",
+    "ordinal": 94,
+    "section": "api \u003e site_live",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e site_live",
+    "title": "Get Cloudflare info"
+  },
+  {
+    "content": "",
+    "excerpt": "Get your visits and storage for a site at a given interval",
+    "href": "/docs/api/site_live/#get-site-team-usage",
+    "httpMethod": "Get",
+    "objectID": "Get: /f/api/v1/site_live/{fqdn}/usage",
+    "ordinal": 95,
+    "section": "api \u003e site_live",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e site_live",
+    "title": "Get Site Team Usage"
+  },
+  {
+    "content": "",
+    "excerpt": "",
+    "href": "/docs/api/site_live/#wake",
+    "httpMethod": "Post",
+    "objectID": "Post: /f/api/v1/site_live/{fqdn}/wake",
+    "ordinal": 96,
+    "section": "api \u003e site_live",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e site_live",
+    "title": "Wake"
+  },
+  {
+    "content": "",
+    "excerpt": "Get your support ticket requests",
+    "href": "/docs/api/ticket/#get-tickets",
+    "httpMethod": "Get",
+    "objectID": "Get: /f/api/v1/support/ticket",
+    "ordinal": 97,
+    "section": "api \u003e ticket",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e ticket",
+    "title": "Get tickets"
+  },
+  {
+    "content": "Request Body:  category:  description:  resolved:  s3_object:  site_live_id:  subject:  team_id:",
+    "excerpt": "Create a support ticket request",
+    "href": "/docs/api/ticket/#create-ticket",
+    "httpMethod": "Post",
+    "objectID": "Post: /f/api/v1/support/ticket",
+    "ordinal": 98,
+    "section": "api \u003e ticket",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e ticket",
+    "title": "Create Ticket"
+  },
+  {
+    "content": "",
+    "excerpt": "Delete a support ticket request by its ID",
+    "href": "/docs/api/ticket/#delete-ticket",
+    "httpMethod": "Delete",
+    "objectID": "Delete: /f/api/v1/support/ticket/{ticket_id}",
+    "ordinal": 99,
+    "section": "api \u003e ticket",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e ticket",
+    "title": "Delete Ticket"
+  },
+  {
+    "content": "",
+    "excerpt": "Get a support ticket request by its ID",
+    "href": "/docs/api/ticket/#get-ticket",
+    "httpMethod": "Get",
+    "objectID": "Get: /f/api/v1/support/ticket/{ticket_id}",
+    "ordinal": 100,
+    "section": "api \u003e ticket",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e ticket",
+    "title": "Get Ticket"
+  },
+  {
+    "content": "Request Body:  openai_custom_instructions:",
+    "excerpt": "Adjust your team\u0026rsquo;s settings",
+    "href": "/docs/api/ticket/#update-a-team",
+    "httpMethod": "Patch",
+    "objectID": "Patch: /f/api/v1/support/ticket/{ticket_id}",
+    "ordinal": 101,
+    "section": "api \u003e ticket",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e ticket",
+    "title": "Update a Team"
+  },
+  {
+    "content": "",
+    "excerpt": "Get a support ticket\u0026rsquo;s replies by its ID",
+    "href": "/docs/api/ticket/#get-ticket-replies",
+    "httpMethod": "Get",
+    "objectID": "Get: /f/api/v1/support/ticket/{ticket_id}/reply",
+    "ordinal": 102,
+    "section": "api \u003e ticket",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e ticket",
+    "title": "Get Ticket replies"
+  },
+  {
+    "content": "Request Body:  description:  is_gpt_chat_message:  resolve:",
+    "excerpt": "Reply to a support ticket request",
+    "href": "/docs/api/ticket/#create-ticket-reply",
+    "httpMethod": "Post",
+    "objectID": "Post: /f/api/v1/support/ticket/{ticket_id}/reply",
+    "ordinal": 103,
+    "section": "api \u003e ticket",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e ticket",
+    "title": "Create Ticket Reply"
+  },
+  {
+    "content": "",
+    "excerpt": "Get details about all of your owned and member teams",
+    "href": "/docs/api/team/#get-your-teams",
+    "httpMethod": "Get",
+    "objectID": "Get: /f/api/v1/team",
+    "ordinal": 104,
+    "section": "api \u003e team",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e team",
+    "title": "Get your teams"
+  },
+  {
+    "content": "",
+    "excerpt": "Get details about an owned or member team by its ID",
+    "href": "/docs/api/team/#get-a-team",
+    "httpMethod": "Get",
+    "objectID": "Get: /f/api/v1/team/{team_id}",
+    "ordinal": 105,
+    "section": "api \u003e team",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e team",
+    "title": "Get a team"
+  },
+  {
+    "content": "Request Body:  name:  timezone:",
+    "excerpt": "Adjust your team\u0026rsquo;s settings",
+    "href": "/docs/api/team/#update-a-team",
+    "httpMethod": "Patch",
+    "objectID": "Patch: /f/api/v1/team/{team_id}",
+    "ordinal": 106,
+    "section": "api \u003e team",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e team",
+    "title": "Update a Team"
+  },
+  {
+    "content": "",
+    "excerpt": "Get events, such as restores, updates, stage creations, etc.",
+    "href": "/docs/api/team/#get-team-events",
+    "httpMethod": "Get",
+    "objectID": "Get: /f/api/v1/team/{team_id}/event",
+    "ordinal": 107,
+    "section": "api \u003e team",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e team",
+    "title": "Get Team Events"
+  },
+  {
+    "content": "",
+    "excerpt": "Get a list of Team Members",
+    "href": "/docs/api/team/#get-a-teams-invites",
+    "httpMethod": "Get",
+    "objectID": "Get: /f/api/v1/team/{team_id}/invite",
+    "ordinal": 108,
+    "section": "api \u003e team",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e team",
+    "title": "Get a team's invites"
+  },
+  {
+    "content": "Request Body:  first_name:  message:  target_email:",
+    "excerpt": "",
+    "href": "/docs/api/team/#create-team-member-invite",
+    "httpMethod": "Post",
+    "objectID": "Post: /f/api/v1/team/{team_id}/invite",
+    "ordinal": 109,
+    "section": "api \u003e team",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e team",
+    "title": "Create Team Member Invite"
+  },
+  {
+    "content": "",
+    "excerpt": ":param team_id:\n:param invite_id:\n:param db:\n:param user:\n:return:",
+    "href": "/docs/api/team/#accept-team-member-invite",
+    "httpMethod": "Post",
+    "objectID": "Post: /f/api/v1/team/{team_id}/invite/{invite_id}",
+    "ordinal": 110,
+    "section": "api \u003e team",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e team",
+    "title": "Accept Team Member Invite"
+  },
+  {
+    "content": "",
+    "excerpt": "",
+    "href": "/docs/api/team/#delete-team-member-invite",
+    "httpMethod": "Delete",
+    "objectID": "Delete: /f/api/v1/team/{team_id}/invite/{team_member_invite_id}",
+    "ordinal": 111,
+    "section": "api \u003e team",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e team",
+    "title": "Delete Team Member Invite"
+  },
+  {
+    "content": "",
+    "excerpt": "Get a list of Team Members",
+    "href": "/docs/api/team/#get-a-teams-members",
+    "httpMethod": "Get",
+    "objectID": "Get: /f/api/v1/team/{team_id}/member",
+    "ordinal": 112,
+    "section": "api \u003e team",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e team",
+    "title": "Get a team's members"
+  },
+  {
+    "content": "",
+    "excerpt": "Get a Team Member by their UUID",
+    "href": "/docs/api/team/#get-team-member",
+    "httpMethod": "Get",
+    "objectID": "Get: /f/api/v1/team/{team_id}/member/{team_member_id}",
+    "ordinal": 113,
+    "section": "api \u003e team",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e team",
+    "title": "Get Team Member"
+  },
+  {
+    "content": "",
+    "excerpt": "Remove a team member",
+    "href": "/docs/api/team/#remove-team-member",
+    "httpMethod": "Delete",
+    "objectID": "Delete: /f/api/v1/team/{team_id}/member/{team_member_user_id}",
+    "ordinal": 114,
+    "section": "api \u003e team",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e team",
+    "title": "Remove Team Member"
+  },
+  {
+    "content": "",
+    "excerpt": "Get a list of Team Tickets",
+    "href": "/docs/api/team/#get-a-teams-tickets",
+    "httpMethod": "Get",
+    "objectID": "Get: /f/api/v1/team/{team_id}/ticket",
+    "ordinal": 115,
+    "section": "api \u003e team",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e team",
+    "title": "Get a team's tickets"
+  },
+  {
+    "content": "",
+    "excerpt": "Returns a list of ready-made template sites. Site Bot enabled.",
+    "href": "/docs/api/template/#get-templates",
+    "httpMethod": "Get",
+    "objectID": "Get: /f/api/v1/template",
+    "ordinal": 116,
+    "section": "api \u003e template",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e template",
+    "title": "Get Templates"
+  },
+  {
+    "content": "Request Body:  description:  fqdn:  is_public:  tag:  theme:  url:",
+    "excerpt": "Create a new template by uploading a GitHub repo containing a wpress file",
+    "href": "/docs/api/template/#create-template",
+    "httpMethod": "Post",
+    "objectID": "Post: /f/api/v1/template",
+    "ordinal": 117,
+    "section": "api \u003e template",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e template",
+    "title": "Create Template"
+  },
+  {
+    "content": "",
+    "excerpt": "Delete your template",
+    "href": "/docs/api/template/#delete-template",
+    "httpMethod": "Delete",
+    "objectID": "Delete: /f/api/v1/template/{template_name}",
+    "ordinal": 118,
+    "section": "api \u003e template",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e template",
+    "title": "Delete Template"
+  },
+  {
+    "content": "",
+    "excerpt": "Get details of a ready-made template sites by its name",
+    "href": "/docs/api/template/#get-template-by-name",
+    "httpMethod": "Get",
+    "objectID": "Get: /f/api/v1/template/{template_name}",
+    "ordinal": 119,
+    "section": "api \u003e template",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e template",
+    "title": "Get Template by name"
+  },
+  {
+    "content": "Request Body:  description:  is_public:  tag:  url:",
+    "excerpt": "Update an existing template using its name",
+    "href": "/docs/api/template/#update-template",
+    "httpMethod": "Patch",
+    "objectID": "Patch: /f/api/v1/template/{template_name}",
+    "ordinal": 120,
+    "section": "api \u003e template",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e template",
+    "title": "Update Template"
+  },
+  {
+    "content": "",
+    "excerpt": "",
+    "href": "/docs/api/utils/#test-sentry",
+    "httpMethod": "Get",
+    "objectID": "Get: /f/api/v1/test-sentry",
+    "ordinal": 121,
+    "section": "api \u003e utils",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e utils",
+    "title": "Test Sentry"
+  },
+  {
+    "content": "",
+    "excerpt": "Returns success if a given FQDN\u0026rsquo;s DNS records are correctly set up",
+    "href": "/docs/api/utils/#domain-check",
+    "httpMethod": "Get",
+    "objectID": "Get: /f/api/v1/verify_domain",
+    "ordinal": 122,
+    "section": "api \u003e utils",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e utils",
+    "title": "Domain check"
+  },
+  {
+    "content": "",
+    "excerpt": "Returns success Git Repo\u0026rsquo;s root folder is correctly set up",
+    "href": "/docs/api/utils/#verify-git-sync-directories",
+    "httpMethod": "Get",
+    "objectID": "Get: /f/api/v1/verify_git_sync_directories",
+    "ordinal": 123,
+    "section": "api \u003e utils",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e utils",
+    "title": "Verify Git Sync Directories"
+  },
+  {
+    "content": "Request Body:  fqdn:  method:  path:  query_params_json:",
+    "excerpt": "Proxies POST requests to a WordPress JSON API. Site Bot Enabled.",
+    "href": "/docs/api/utils/#proxy-to-wp-site",
+    "httpMethod": "Post",
+    "objectID": "Post: /f/api/v1/wp-proxy",
+    "ordinal": 124,
+    "section": "api \u003e utils",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e utils",
+    "title": "Proxy To Wp Site"
+  },
+  {
+    "content": "",
+    "excerpt": "Proxies GET requests to a WordPress xmlrpc endpoint",
+    "href": "/docs/api/utils/#proxy-xmlrpc",
+    "httpMethod": "Post",
+    "objectID": "Post: /f/api/v1/xmlrpc/{fqdn}",
+    "ordinal": 125,
+    "section": "api \u003e utils",
+    "section.lvl0": "api",
+    "section.lvl1": "api \u003e utils",
+    "title": "Proxy Xmlrpc"
+  }
+]
