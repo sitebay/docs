@@ -10,7 +10,7 @@ modified_by:
   name: Site Bay
 title: "Mastering Staging Sites on Site Bay’s WordPress Hosting"
 title_meta: "Staging Site Management with Site Bay: A Step-by-Step Guide"
-authors: ["Stephen Savitzky"]
+authors: ["Site Bay"]
 ---
 
 Creating a staging site on Site Bay's WordPress hosting platform is a breeze, thanks to Kubernetes’ robust architecture and the integrated analytics and monitoring tools like PostHog and Grafana. Staging sites are essential for testing updates, themes, plugins, and custom code before pushing changes to your live WordPress site, ensuring a smooth visitor experience.
