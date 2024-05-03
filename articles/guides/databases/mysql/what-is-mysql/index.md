@@ -45,7 +45,6 @@ While blockchain is not a SQL database, Blockchain is also not a NoSQL database.
 
 There are innumerable examples of other NoSQL databases built for particular purposes:
 - for Atomicity, Consistency, Isolation, Durability (ACID) transactions in a distributed database, such as with [FoundationDB](https://www.foundationdb.org/)
-- to store and analyze high-frequency time-series data, such as with [Axibase](https://axibase.com/)
 - to solve basic data science problems for users with no statistical background, such as with [BayesDB](http://probcomp.csail.mit.edu/software/bayesdb/))
 It is likely that a database system exists that meets your needs.
 

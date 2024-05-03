@@ -1,6 +1,6 @@
 ---
 title: Get Started
-title_meta: "Getting Started with Prompt Engineering"
+title_meta: "Getting Started with Site Bot"
 description: "Learn how to quickly get up and running with the Managed Site Bot service."
 tab_group_main:
     weight: 20

@@ -15,15 +15,11 @@ contributor:
   name: Site Bay
 image: AfterSoftInpainting.png
 ---
-## Soft Inpainting Guide: How we make our Tutorial Images
-
+## Soft Inpainting Guide: How We Make our Tutorial Images
 - Before
     ![Before](OriginalImage.png)
 - After
     ![After](AfterSoftInpainting.png)
-
-
-
 
 If there's a visible division between the inpainted area and the rest of your image using normal inpainting, we can fix this with the new Soft inpainting feature.
 
@@ -45,9 +41,6 @@ https://civitai.com/models/349146/alegria-artcorporate-memphis
 
 
 ### Settings
-
-
-
 I want to turn the graph into a mountain and have an alegria art (corporate memphis) girl on it.
 We will use the prompt:
     happy with mouth open, girl on mountain, alegria art, 1girl, solo, standing, looking at viewer, flat color, no lineart, watercolor background
@@ -59,10 +52,8 @@ It kind of blotches the background but that's why we add watercolor background t
 
 Remember to click the protractor icon (right angle triangle) to automatically set the image dimensions, otherwise your resultant image will be stretched.
 
-
 Most of the images are not very good, so it's best to just generate a bunch and cherry-pick the best one. Set the batch to 9.
 Keep clicking on Generate until you get a nice one.
-
 
 If there's a visible division between the inpainted area and the rest of your image using normal inpainting, we can fix this with the new Soft inpainting feature.
 With soft inpainting, “Only masked padding, pixels” should be zero. Because the Mask blur needs to be set to max.
@@ -107,7 +98,6 @@ The transition contrast boost controls how abruptly the original and inpainted c
 ### Mask Influence
 Mask Influence controls the level of influence the inpaint mask has over the process.
 **I don't think this makes a difference.**
-
 
 ### Difference Threshold
 The difference threshold controls the allowed amount of change without showing the inpainted content.

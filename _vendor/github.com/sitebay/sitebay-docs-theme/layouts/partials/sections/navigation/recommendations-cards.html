@@ -6,7 +6,7 @@
   <div class="space-y-8">
     <template x-for="item in hits">
       <a
-        class="a--block bg-white block rounded-md md:flex md:items-center"
+        class="a--block bg-white block rounded-md md:flex md:items-center shadow-sm"
         @click="$store.nav.analytics.handler.clickHit(item, 'DOCS: Related Content')"
         :target="item.isExternalLink ? '_blank' : ''"
         :href="item.href">

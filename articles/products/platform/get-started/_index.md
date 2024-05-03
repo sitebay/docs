@@ -26,7 +26,7 @@ First, you need to create a Site Bay account to start using our services. If you
 
 1.  Open a web browser and navigate to [my.sitebay.org/signup](https://my.sitebay.org/signup). If you are not already logged in to an account, the **Create an Account** form is displayed.
 
-1.  Enter your email address, a unique username, and a strong password. Alternatively, you can sign up using your existing Google or GitHub account. When using another provider, you are prompted for a username in a separate step.
+1.  Enter your email address and a strong password. Alternatively, you can sign up using your existing Apple, Google or GitHub/GitLab account. When using another provider, you are prompted for a username in a separate step.
 
     {{< content "password-requirements-shortguide" >}}
 
@@ -43,23 +43,18 @@ First, you need to create a Site Bay account to start using our services. If you
 1.  Most accounts are activated instantly and you can start adding services right away. A small number of accounts may require manual review prior to activation.
 
 
-
-## Navigate the Site Bay
-
-
-
 ## Understand Billing
 
 Site Bay services are billed to your primary payment method at your cycle reset date
 
 - [Billing and Payments](/docs/products/platform/billing/)
 - [Managing Billing in the My Site Bay](/docs/products/platform/billing/guides/)
-- [Site Bay Price List](https://www.sitebay.org/pricing/)
+- [Site Bay Pricing](https://www.sitebay.org/pricing/)
 
 Keep in mind that charges will accrue for any active service, even if it is powered off or otherwise not in use. This includes WordPress Sites that have been powered off as well as any service you might have added to the account but are not using.
 
 ## Explore Site Bay Guides
 
-Site Bay offers extensive documentation. This not only includes guides for our core products and services, but general guides on Linux, the command-line, networking, security, version control, databases, and *much* more. Learn how to deploy a WordPress One-Click App, run a VPN, install a file storage platform, or even host a website using Object Storage. Whatever cloud computing use cases you have in mind, you can likely do it on Site Bay and our guides are a great place to start.
+Site Bay offers extensive documentation. This not only includes guides for WordPress and web services, but general guides.
 
 - [Site Bay Docs](/docs/)

@@ -1,6 +1,6 @@
 ---
 slug: pros-and-cons-of-site-bay
-description: "Discover the advantages and disadvantages of using Site Bay for your WordPress hosting needs. Read our comprehensive guide to make an informed decision. ✓ Learn more now!"
+description: "Discover the advantages and disadvantages of using Site Bay for your WordPress hosting needs."
 og_description: "Explore the benefits and drawbacks of Site Bay, a leading WordPress hosting platform. Our detailed guide helps you weigh the pros and cons. ✓ Start your journey here!"
 keywords: ['pros and cons of Site Bay', 'advantages of Site Bay', 'benefits of Site Bay']
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'

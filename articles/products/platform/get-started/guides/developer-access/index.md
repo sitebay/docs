@@ -19,7 +19,7 @@ When you hire someone to work on your Site Bay, there are a variety of ways to g
 
 This guide explains and answers some of the most frequently asked questions about account access. The sections are separated in order of granularity, starting with service-level access at the top, and working towards application-specific access.
 
-For security and privacy, [Site Bay Support](/docs/products/platform/get-started/guides/support/) is not able to troubleshoot issues related to users and application access. Instead, Site Bay offers an in-house [Professional Services](https://www.sitebay.org/products/pro-services/) team that can be hired to help with projects.
+For security and privacy, [Site Bay Support](/docs/products/platform/get-started/guides/support/) is not able to troubleshoot issues related to users and application access. 
 
 {{< note >}}
 The following sections include commands that show how to manipulate credentials on your WordPress Sites, and these commands use `exampleUser` in place of your users' names. Replace `exampleUser` with whatever you would like to name your users.
