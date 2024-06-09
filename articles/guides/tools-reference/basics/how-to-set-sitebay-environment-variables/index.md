@@ -6,21 +6,21 @@ tags: ["linux"]
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
 modified: 2024-04-04
 modified_by:
-  name: Site Bay
+  name: SiteBay
 published: 2024-03-04
 title: 'how-to-set-sitebay-environment-variables'
 deprecated: true
-authors: ["Site Bay"]
+authors: ["SiteBay"]
 ---
-Let's remake the article for Site Bay Powerful WordPress hosting, making it relatable and straightforward. We'll focus on setting and using environment variables in the context of Site Bay, ensuring it's clear and accessible for everyone, especially those new to WordPress hosting on Kubernetes platforms.
+Let's remake the article for SiteBay Powerful WordPress hosting, making it relatable and straightforward. We'll focus on setting and using environment variables in the context of SiteBay, ensuring it's clear and accessible for everyone, especially those new to WordPress hosting on Kubernetes platforms.
 
-Setting Up Your Site Bay Environment Like a Pro
+Setting Up Your SiteBay Environment Like a Pro
 
-Welcome to the world of Site Bay, where hosting your WordPress site becomes as easy as posting your favorite meme. But before you dive into the deep end, let's get you equipped with the basics, starting with environment variables. Think of them as the secret sauce that makes your website run just the way you like it.
+Welcome to the world of SiteBay, where hosting your WordPress site becomes as easy as posting your favorite meme. But before you dive into the deep end, let's get you equipped with the basics, starting with environment variables. Think of them as the secret sauce that makes your website run just the way you like it.
 
 Before We Jump In
 
-First things first, if you haven't got a Site Bay account yet, it's time to create one. It's your first step towards making your website dreams come true. Once you're set up, your journey into the world of WordPress hosting on Kubernetes with all the cool analytics from Posthog, recordings, and Grafana dashboards begins.
+First things first, if you haven't got a SiteBay account yet, it's time to create one. It's your first step towards making your website dreams come true. Once you're set up, your journey into the world of WordPress hosting on Kubernetes with all the cool analytics from Posthog, recordings, and Grafana dashboards begins.
 
 What's an Environment Variable Anyway?
 
@@ -65,6 +65,6 @@ To keep your variables around for the long haul, you'll want to add them to your
 
 Wrapping Up
 
-And there you have it! You're now a budding Site Bay environment variable expert. With these basics, you're well on your way to customizing your WordPress hosting experience and making your site run just the way you want. Happy hosting!
+And there you have it! You're now a budding SiteBay environment variable expert. With these basics, you're well on your way to customizing your WordPress hosting experience and making your site run just the way you want. Happy hosting!
 
-This guide simplifies the concept of environment variables and their application within Site Bay, making it accessible and easy to understand. Whether you're setting up your WordPress site for the first time or looking to fine-tune your hosting environment, mastering environment variables is a crucial step on your journey.
+This guide simplifies the concept of environment variables and their application within SiteBay, making it accessible and easy to understand. Whether you're setting up your WordPress site for the first time or looking to fine-tune your hosting environment, mastering environment variables is a crucial step on your journey.

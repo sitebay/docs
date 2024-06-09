@@ -1,7 +1,7 @@
 ---
 title: Get Started
-title_meta: "Getting Started with the Site Bay API"
-description: "Get started with the Site Bay api. Learn to get an access token and learn about OpenAPI and swagger."
+title_meta: "Getting Started with the SiteBay API"
+description: "Get started with the SiteBay api. Learn to get an access token and learn about OpenAPI and swagger."
 tab_group_main:
     weight: 60
 published: 2024-04-23
@@ -11,17 +11,17 @@ tags: ["managed hosting"]
 ---
 
 
-# Getting Started with the Site Bay API: A Comprehensive Guide
+# Getting Started with the SiteBay API: A Comprehensive Guide
 
-The Site Bay API offers a wealth of options for developers looking to automate aspects of web hosting, site management, and integration of various online services. Whether you're running an agency or managing multiple websites, Site Bay's API can enhance your operational efficiency through automation. This article serves as an introduction to working with the Site Bay API, covering key functions, and providing guidance on how you can leverage this powerful tool.
+The SiteBay API offers a wealth of options for developers looking to automate aspects of web hosting, site management, and integration of various online services. Whether you're running an agency or managing multiple websites, SiteBay's API can enhance your operational efficiency through automation. This article serves as an introduction to working with the SiteBay API, covering key functions, and providing guidance on how you can leverage this powerful tool.
 
-### Overview of the Site Bay API
+### Overview of the SiteBay API
 
-The Site Bay API provides endpoints covering a wide range of functionalities including site management, domain verification, user events, team collaboration, and payment processing. With thorough documentation available through swagger at [Site Bay API Docs](https://my.sitebay.org/docs) and an SDK available on [GitHub](https://github.com/sitebay/sitebay-sdk), developers have all the resources they need to start integrating the API quickly.
+The SiteBay API provides endpoints covering a wide range of functionalities including site management, domain verification, user events, team collaboration, and payment processing. With thorough documentation available through swagger at [SiteBay API Docs](https://my.sitebay.org/docs) and an SDK available on [GitHub](https://github.com/sitebay/sitebay-sdk), developers have all the resources they need to start integrating the API quickly.
 
 ### Essential API Functions
 
-Here's a breakdown of some essential categories and functions that you’ll frequently interact with when using the Site Bay API:
+Here's a breakdown of some essential categories and functions that you’ll frequently interact with when using the SiteBay API:
 
 #### Site Management
 - **Manage Live Sites**: Create, update, and delete live sites.
@@ -46,7 +46,7 @@ Here's a breakdown of some essential categories and functions that you’ll freq
 
 ### Getting Started: API Authentication and Setup
 
-Before you begin utilizing the Site Bay API, you'll have to set up authentication. Site Bay API uses Oauth2 for secure API access, which means you'll need to sign up for an agency plan.
+Before you begin utilizing the SiteBay API, you'll have to set up authentication. SiteBay API uses Oauth2 for secure API access, which means you'll need to sign up for an agency plan.
 
 ### Example: Creating a New Site
 
@@ -66,4 +66,4 @@ Comprehensive API documentation is available, facilitating easy integration and 
 
 ### Conclusion
 
-The Site Bay API offers robust capabilities for website and team management, making it invaluable for developers managing extensive web properties or deploying integrated services. With easy-to-follow documentation and robust endpoint security, you can start automating your workflows securely and efficiently. Begin by exploring the API, testing endpoints, and incorporating them into your projects to experience enhanced productivity and streamlined operations.
+The SiteBay API offers robust capabilities for website and team management, making it invaluable for developers managing extensive web properties or deploying integrated services. With easy-to-follow documentation and robust endpoint security, you can start automating your workflows securely and efficiently. Begin by exploring the API, testing endpoints, and incorporating them into your projects to experience enhanced productivity and streamlined operations.

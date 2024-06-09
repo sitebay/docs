@@ -5,14 +5,14 @@ keywords: ["sitebay", "how to", "cd", "change directory"]
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
 modified: 2024-04-23
 modified_by:
-  name: Site Bay
+  name: SiteBay
 published: 2024-04-22
 image: UseTheCDCommand.png
 title: "Using the cd Command to Navigate the Terminal"
 title_meta: "How to Use the cd Command to Navigate the Terminal"
 tags: ["sitebay"]
 aliases: ['/quick-answers/sitebay/how-to-use-cd/']
-authors: ["Site Bay"]
+authors: ["SiteBay"]
 ---
 
 What is cd?
@@ -30,7 +30,7 @@ For example, to navigate to the directory /usr/local, you would use the followin
 cd /usr/local
 
 
-In the previous example, an absolute path name was used. However, you can also use a path relative to your current location. For example, if you are in /usr/local and want to change into /usr/local/share, you can do so with the following relative path:
+In the previous example, an absolute path name was used. But, you can also use a path relative to your current location. For example, if you are in /usr/local and want to change into /usr/local/share, you can do so with the following relative path:
 
 cd share
 

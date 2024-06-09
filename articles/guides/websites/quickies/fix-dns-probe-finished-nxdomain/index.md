@@ -1,7 +1,7 @@
 ---
 slug: fix-dns-probe-finished-nxdomain
 author:
-  name: Site Bay
+  name: SiteBay
   email: support@sitebay.org
 description: 'How to fix DNS_PROBE_FINISHED_NXDOMAIN error'
 keywords: ["server", "error"]
@@ -10,7 +10,7 @@ license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
 published: 2024-04-04
 modified: 2024-04-04
 modified_by:
-  name: Site Bay
+  name: SiteBay
 image: FixDnsProbe.png
 title: 'Fix DNS_PROBE_FINISHED_NXDOMAIN in Chrome'
 ---

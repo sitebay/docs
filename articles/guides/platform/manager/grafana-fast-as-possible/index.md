@@ -1,22 +1,22 @@
 ---
 slug: grafana-analytics-fast-as-possible
-description: "My Site Bay includes Grafana for analytics and dashboards"
+description: "My SiteBay includes Grafana for analytics and dashboards"
 keywords: ['dns','members.sitebay.org','reverse dns']
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
 published: 2024-04-13
 modified_by:
-  name: Site Bay
+  name: SiteBay
 title: "Supercharge Your WordPress Site with Grafana Analytics"
 title_meta: "Seamless Integration with Grafana for Insightful Dashboards and Metrics"
-authors: ["Site Bay"]
+authors: ["SiteBay"]
 ---
 
-Site Bay introduces Grafana, an open-source platform for monitoring and observability, integrated with our powerful WordPress hosting. Grafana lets you visualize, alert on, and understand your metrics no matter where they are stored. Create, explore, and share dashboards with your team to turn data into actionable insights.
+SiteBay introduces Grafana, an open-source platform for monitoring and observability, integrated with our powerful WordPress hosting. Grafana lets you visualize, alert on, and understand your metrics no matter where they are stored. Create, explore, and share dashboards with your team to turn data into actionable insights.
 
 Comprehensive Monitoring: Keep track of your WordPress site’s performance, availability, and health.
 
 
-Access Grafana: Find Grafana in your Site Bay dashboard. It's pre-integrated, saving you setup time.
+Access Grafana: Find Grafana in your SiteBay dashboard. It's pre-integrated, saving you setup time.
 
 Unlocking User Insights with Grafana and PostHog Integration
 Introduction
@@ -36,7 +36,7 @@ Grafana’s integration with PostHog takes data analysis a step further. Beyond 
 ## Click on a dot on the map
 Then click on a row, then click View User Events to see the posthog events
 
-With Grafana on Site Bay, you can:
+With Grafana on SiteBay, you can:
 
 Monitor site performance and user engagement in real-time.
 Analyze traffic sources, page views, and user interactions to make informed decisions.

@@ -9,7 +9,7 @@ title_short: "Databases"
 weight: 90
 icon: "database"
 aliases: ['/databases/']
-authors: ["Site Bay"]
+authors: ["SiteBay"]
 ---
 
 Databases are crucial in the world of web development and hosting, especially when it comes to managing dynamic content and user data. They allow for the organized storage, retrieval, and manipulation of data, making them an essential part of many web applications and services.
@@ -28,8 +28,8 @@ Why Use a Database?
 Data Organization: Databases allow for the efficient organization and categorization of data, making it easier to find and manipulate.
 Scalability: Proper database management systems can handle large volumes of data and high traffic loads, making them ideal for growing applications.
 Security: Databases provide mechanisms to secure data, ensuring that sensitive information is protected from unauthorized access.
-Getting Started with Databases on Site Bay
+Getting Started with Databases on SiteBay
 
-Site Bay offers robust WordPress hosting on Kubernetes, complete with support for the most popular databases, including MySQL and PostgreSQL. With Site Bay, you can easily manage your databases using tools like phpMyAdmin or connect directly using command-line interfaces. Plus, with built-in features like PostHog for analytics, Grafana for data visualization, and automated backups, managing and scaling your web applications has never been easier.
+SiteBay offers robust WordPress hosting on Kubernetes, complete with support for the most popular databases, including MySQL and PostgreSQL. With SiteBay, you can easily manage your databases using tools like phpMyAdmin or connect directly using command-line interfaces. Plus, with built-in features like PostHog for analytics, Grafana for data visualization, and automated backups, managing and scaling your web applications has never been easier.
 
 Whether you're building a small personal project or a large-scale web application, understanding databases and choosing the right one for your needs is a critical step in developing an efficient, secure, and scalable project.

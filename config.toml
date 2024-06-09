@@ -2,7 +2,7 @@
 # so that it correctly parses the URL
 baseURL = "https://www.sitebay.org/docs/"
 languageCode = "en-us"
-title = "Site Bay Guides & Tutorials"
+title = "SiteBay Guides & Tutorials"
 
 # disableKinds = ["taxonomy", "taxonomyTerm"]
 themeDir = ".."
@@ -28,8 +28,8 @@ lastmod = [":git", "lastmod", "date", "publishDate"]
 publishDate = ["published", "publishDate", "date"]
 
 [params]
-page_title_suffix = "Site Bay Docs"
-description = "Guides and tutorials on the Site Bay platform, WP-CLI and Linux basics, and software installation and configuration."
+page_title_suffix = "SiteBay Docs"
+description = "Guides and tutorials on the SiteBay platform, WP-CLI and Linux basics, and software installation and configuration."
 # Date and time formatting, see https://gohugo.io/functions/format/
 time_format_RFC3339 = "2006-01-02T15:04:05Z07:00"
 time_format_default = "January 2, 2006"

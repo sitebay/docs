@@ -1,21 +1,21 @@
 ---
 slug: using-the-terminal
-description: 'This guide shows how to access and use the command line interface, also known as the Shell, via a Terminal application like PuTTY to perform system admin tasks on your Site Bay WordPress hosting.'
-keywords: ["Linux terminal", "terminal HOWTO", "Site Bay terminal tutorial"]
+description: 'This guide shows how to access and use the command line interface, also known as the Shell, via a Terminal application like PuTTY to perform system admin tasks on your SiteBay WordPress hosting.'
+keywords: ["Linux terminal", "terminal HOWTO", "SiteBay terminal tutorial"]
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
 aliases: ['/networking/ssh/using-the-terminal/', '/tools-reference/tools/using-the-terminal/', '/tools-reference/ssh/using-the-terminal/', '/using-sitebay/using-the-terminal/']
 modified: 2024-04-15
 modified_by:
-  name: Site Bay
+  name: SiteBay
 published: 2024-04-04
-title: Using the Terminal for Site Bay WordPress Hosting
+title: Using the Terminal for SiteBay WordPress Hosting
 ---
 
 'Command Line at FLOSS Manuals'
 tags: ["sitebay"]
-authors: ["Site Bay"]
+authors: ["SiteBay"]
 
-The shell, a.k.a. "command line interface" or "CLI", is a powerhouse for interacting with your Site Bay WordPress hosting environment. It's your go-to for managing files, running scripts, and performing tasks that keep your site humming. You might already be familiar with the terminal from Linux or Mac's Terminal.app.
+The shell, a.k.a. "command line interface" or "CLI", is a powerhouse for interacting with your SiteBay WordPress hosting environment. It's your go-to for managing files, running scripts, and performing tasks that keep your site humming. You might already be familiar with the terminal from Linux or Mac's Terminal.app.
 
 This overview will walk you through the terminal basics, offering tips to make your command line journey smooth and beneficial. When you hop onto a terminal, you're met with a prompt, signaling you're ready to start. This guide will break down command structures, file system navigation, and more.
 
@@ -49,7 +49,7 @@ cp duplicates files, and mv renames or moves them. Remember, mv is like cp but f
 
 Text Editors and Stream Management
 
-Site Bay recommends using the code-server editor for quick file edits. It's straightforward and includes basic commands right in the terminal window.
+SiteBay recommends using the code-server editor for quick file edits. It's straightforward and includes basic commands right in the terminal window.
 
 Direct streams with pipes (|) and redirect output with > to save command outputs to files. Use >> to append to an existing file without overwriting.
 
@@ -61,4 +61,4 @@ Terminal Tricks and Tips
 
 Make the most of the terminal with tab completion, screen sessions for multitasking, and command history for quick recall. bash also supports emacs-like keybindings for efficient text navigation.
 
-Conclusion: The terminal is a robust tool for managing your Site Bay WordPress hosting. Start with these basics, and you'll find yourself more confident in handling your hosting environment directly from the command line. For more advanced topics and system monitoring, explore Site Bay's comprehensive guides.
+Conclusion: The terminal is a robust tool for managing your SiteBay WordPress hosting. Start with these basics, and you'll find yourself more confident in handling your hosting environment directly from the command line. For more advanced topics and system monitoring, explore SiteBay's comprehensive guides.

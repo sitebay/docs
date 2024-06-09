@@ -1,33 +1,33 @@
 ---
 slug: point-in-time-machine-wordpress
-description: 'Explore how Site Bay utilizes point-in-time recovery for WordPress sites, enabling easy rollback and data restoration to specific moments.'
-keywords: ['Site Bay WordPress recovery', 'point-in-time recovery', 'WordPress backup', 'data restoration']
+description: 'Explore how SiteBay utilizes point-in-time recovery for WordPress sites, enabling easy rollback and data restoration to specific moments.'
+keywords: ['SiteBay WordPress recovery', 'point-in-time recovery', 'WordPress backup', 'data restoration']
 tags: ['sitebay']
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
 published: 2024-04-04
 modified_by:
-  name: Site Bay
-title: "Effortless WordPress Recovery with Site Bay's Point-in-Time Machine"
-authors: ["Site Bay"]
+  name: SiteBay
+title: "Effortless WordPress Recovery with SiteBay's Point-in-Time Machine"
+authors: ["SiteBay"]
 ---
 
 Embrace the Safety Net of Point-in-Time Recovery for WordPress
 
-In the dynamic world of WordPress hosting, ensuring your site's integrity and continuity is paramount. Site Bay introduces an innovative feature – the Point-in-Time Recovery Machine. This powerful tool acts as a time machine for your WordPress site, offering unparalleled control over your data and the peace of mind that comes with knowing you can revert to a prior state with ease.
+In the dynamic world of WordPress hosting, ensuring your site's integrity and continuity is paramount. SiteBay introduces an innovative feature – the Point-in-Time Recovery Machine. This powerful tool acts as a time machine for your WordPress site, offering unparalleled control over your data and the peace of mind that comes with knowing you can revert to a prior state with ease.
 
 Understanding Point-in-Time Recovery
 
 Point-in-Time Recovery (PITR) is not just about backups; it's about strategic data protection. It allows you to restore your WordPress site to a specific moment before data loss or corruption occurred. This capability is invaluable in scenarios like unintended data deletions, website hacks, or corrupted data due to faulty updates.
 
-How Site Bay's PITR Works
+How SiteBay's PITR Works
 
-Site Bay's PITR system is seamlessly integrated into the WordPress hosting environment, providing a straightforward interface for managing backups and restorations:
+SiteBay's PITR system is seamlessly integrated into the WordPress hosting environment, providing a straightforward interface for managing backups and restorations:
 
 Automated Backups: Your site's data is continuously backed up, capturing every change. These backups serve as the foundation for the PITR functionality, allowing you to select from numerous restore points.
 
 Granular Control: Choose exactly when to roll your site back to, down to the minute. This precise control ensures minimal data loss and disruption.
 
-Easy Restoration: With a few clicks in the Site Bay dashboard, initiate the restoration process to your chosen point in time. The system handles the complexities, ensuring a smooth rollback.
+Easy Restoration: With a few clicks in the SiteBay dashboard, initiate the restoration process to your chosen point in time. The system handles the complexities, ensuring a smooth rollback.
 
 Data Integrity: Advanced algorithms ensure that your data remains consistent and intact throughout the restoration process, even if it spans across multiple databases and files.
 
@@ -43,7 +43,7 @@ Development and Testing: Safely experiment with new features or designs, knowing
 
 Getting Started with Point-in-Time Recovery
 
-Accessing the PITR feature is straightforward via the Site Bay dashboard. Navigate to the backups section, where you'll find a timeline of your site's backup points. Select the desired restore point, initiate the recovery, and let Site Bay handle the rest.
+Accessing the PITR feature is straightforward via the SiteBay dashboard. Navigate to the backups section, where you'll find a timeline of your site's backup points. Select the desired restore point, initiate the recovery, and let SiteBay handle the rest.
 
 Best Practices for Utilizing PITR
 
@@ -55,4 +55,4 @@ Comprehensive Security: Use PITR as part of a broader security strategy, includi
 
 Conclusion
 
-Site Bay's Point-in-Time Recovery Machine revolutionizes WordPress site management, offering a robust safety net that empowers you to manage your site confidently. Whether you're recovering from a mishap or undoing a problematic update, PITR provides the flexibility and control needed to maintain your site's integrity with minimal disruption.
+SiteBay's Point-in-Time Recovery Machine revolutionizes WordPress site management, offering a robust safety net that empowers you to manage your site confidently. Whether you're recovering from a mishap or undoing a problematic update, PITR provides the flexibility and control needed to maintain your site's integrity with minimal disruption.

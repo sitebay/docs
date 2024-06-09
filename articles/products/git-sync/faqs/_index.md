@@ -1,7 +1,7 @@
 ---
 title: "FAQs"
 title_meta: "FAQs for the PIT Machine"
-description: "Find quick answers to some of the most commonly asked questions for Site Bay's PIT Machine."
+description: "Find quick answers to some of the most commonly asked questions for SiteBay's PIT Machine."
 tab_group_main:
     weight: 60
 published: 2024-04-04

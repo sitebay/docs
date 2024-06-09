@@ -2,15 +2,15 @@
 slug: managing-your-sites-with-site-bot-ai
 description: 'Quick tips to use our GPT powered bot to create and manage your WordPress site.'
 keywords: ["ai", "site-bot"]
-tags: ["site bay platform", "dashboard", "site bot"]
+tags: ["SiteBay platform", "dashboard", "site bot"]
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
 modified: 2024-04-21
 modified_by:
-  name: Site Bay
+  name: SiteBay
 published: 2024-04-21
 title: Managing Your Sites with Site Bot AI
 aliases: ['/quick-answers/platform/managing-your-sites-with-site-bot-ai']
-authors: ["Site Bay"]
+authors: ["SiteBay"]
 ---
 
 ## Creating and Managing Your Website with Site Bot: A User-Friendly Guide
@@ -38,7 +38,7 @@ Creating a new website is a breeze with Site Bot. Here's a step-by-step walkthro
 
 - Upgrading Your Team: Need to upgrade your subscription plan? Ask for a checkout link, e.g., "I want to upgrade my team. Give me a checkout link for the Business Plan."
 
-- Creating WordPress Posts: Command Site Bot to create content on your Site Bay WordPress site, e.g., "Create a post on my Site Bay WordPress site about a dog named Sammy."
+- Creating WordPress Posts: Command Site Bot to create content on your SiteBay WordPress site, e.g., "Create a post on my SiteBay WordPress site about a dog named Sammy."
 
 - Restoring Your Website: Specify a restore point for your site, instructing whether to restore wp-content, delete extra files, etc., e.g., "Restore my site www.sitebay.org to a specific date but JUST restore the wp-content and delete extra files."
 

@@ -8,5 +8,5 @@ show_on_frontpage: true
 title_short: "Generative AI"
 weight: 90
 icon: "database"
-authors: ["Site Bay"]
+authors: ["SiteBay"]
 ---

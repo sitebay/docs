@@ -10,11 +10,11 @@ license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
 published: 2024-05-04
 modified: 2024-05-24
 modified_by:
-  name: Site Bay
+  name: SiteBay
 title: "Installing and Using Elasticsearch Plugins"
 title_meta: "How to Install and Use Elasticsearch Plugins"
 dedicated_cpu_link: true
 tags: ["ubuntu","debian","database","java"]
 aliases: ['/databases/algolia/a-guide-to-algolia-plugins/']
-authors: ["Site Bay"]
+authors: ["SiteBay"]
 ---

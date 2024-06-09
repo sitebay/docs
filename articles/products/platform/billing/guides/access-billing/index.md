@@ -4,9 +4,9 @@ description: "View billing information, including checking your account balancin
 published: 2024-04-17
 ---
 
-Most information and settings pertaining to billing are located within the [Billing Info](https://my.sitebay.org/account/billing) page of the My Site Bay. Follow the instructions below to access this page:
+Most information and settings pertaining to billing are located within the [Billing Info](https://my.sitebay.org/account/billing) page of the My SiteBay. Follow the instructions below to access this page:
 
-1. Log in to the [My Site Bay](https://my.sitebay.org) on a user account with one of the following permissions. See [Setting User Permissions](/docs/products/platform/accounts/guides/user-permissions/) for more details.
+1. Log in to the [My SiteBay](https://my.sitebay.org) on a user account with one of the following permissions. See [Setting User Permissions](/docs/products/platform/accounts/guides/user-permissions/) for more details.
 
     - **Full account access** (unrestricted).
     - Restricted user with *Read-Write* permissions under **Billing Access**. Users with *Read Only* permissions are able to see most billing information but they are not able to make changes.

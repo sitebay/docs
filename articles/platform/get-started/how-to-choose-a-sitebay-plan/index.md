@@ -1,26 +1,26 @@
 ---
 slug: how-to-choose-a-sitebay-plan
 author:
-  name: Site Bay
+  name: SiteBay
   email: support@sitebay.org
-description: 'Decide which Site Bay WordPress hosting plan is right for you.'
+description: 'Decide which SiteBay WordPress hosting plan is right for you.'
 keywords: ["choose", "help", "plan", "visits"]
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
 modified: 2024-04-20
 modified_by:
-  name: Site Bay
+  name: SiteBay
 published: 2024-04-04
-title: How to Choose a Site Bay Plan
+title: How to Choose a SiteBay Plan
 tags: ["sitebay platform"]
 aliases: ['/platform/how-to-choose-a-sitebay-plan/']
 ---
 
-Site Bay offers four plan types: Micro, Starter, Business, and Enterprise. All our cool features? You get 'em with any plan you pick. But let's break it down so you can choose what's best for your vibe.
+SiteBay offers four plan types: Micro, Starter, Business, and Enterprise. All our cool features? You get 'em with any plan you pick. But let's break it down so you can choose what's best for your vibe.
 
-When you're looking at plans, think about how many folks you expect to visit your site each month and how much stuff (like photos and videos) you want to store. This guide's here to walk you through Site Bay's plans, show you what each one's good for, and help you pick the right one.
+When you're looking at plans, think about how many folks you expect to visit your site each month and how much stuff (like photos and videos) you want to store. This guide's here to walk you through SiteBay's plans, show you what each one's good for, and help you pick the right one.
 
 {{< note >}}
-Feeling like you need to switch things up later? No sweat. You can change your plans anytime on My Site Bay. Check out the Change a Plan tutorial if you need a hand.
+Feeling like you need to switch things up later? No sweat. You can change your plans anytime on My SiteBay. Check out the Change a Plan tutorial if you need a hand.
 {{< /note >}}
 
 Custom Enterprise Quotes
@@ -68,10 +68,10 @@ Starter	30,000	20GB
 Business	150,000	40GB
 Enterprise	500,000	50GB
 
-For the full scoop on what you get with each plan, check out the Site Bay Pricing page.
+For the full scoop on what you get with each plan, check out the SiteBay Pricing page.
 
 Pricing
 
-We keep it 100 with pricing in Canadian and US Dollars, plus Euros. See all the numbers at Site Bay Pricing.
+We keep it 100 with pricing in Canadian and US Dollars, plus Euros. See all the numbers at SiteBay Pricing.
 
 Thinking about moving your hosting to us? We've got you. We'll do the heavy lifting for free.

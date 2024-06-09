@@ -1,6 +1,6 @@
 ---
 author:
-  name: Site Bay
+  name: SiteBay
   email: support@sitebay.org
 keywords: ["upgrading"]
 description: 'WordPress is constantly evolving. Bugs are fixed, new features are added, and packages are updated.'
@@ -11,11 +11,11 @@ title: Upgrading
 show_in_lists: true
 ---
 
-Yo! Time to chat about stepping your WordPress game up with Site Bay. Imagine your WordPress site like your favorite kicks: you gotta keep 'em fresh and on point. That's where we slide in with the updates.
+Yo! Time to chat about stepping your WordPress game up with SiteBay. Imagine your WordPress site like your favorite kicks: you gotta keep 'em fresh and on point. That's where we slide in with the updates.
 
 Elevating Your Site with Docker and Kubernetes
 
-At Site Bay, we're all about ensuring you're vibing with the latest, most secure WordPress version, no sweat required from you. We're doing it with a bit of tech wizardry called Docker and Kubernetes.
+At SiteBay, we're all about ensuring you're vibing with the latest, most secure WordPress version, no sweat required from you. We're doing it with a bit of tech wizardry called Docker and Kubernetes.
 
 Docker + Kubernetes = Your Site's Glow Up
 
@@ -29,7 +29,7 @@ Kubernetes isn't just about uptime; it's about flexing with your growth. Getting
 
 Fresh WordPress On the Reg
 
-Starting a new site with Site Bay or revamping your current one snaps you right into the newest WordPress version. It's all automatic – you get the freshest features and security patches without lifting a finger.
+Starting a new site with SiteBay or revamping your current one snaps you right into the newest WordPress version. It's all automatic – you get the freshest features and security patches without lifting a finger.
 
 Hold Up, Though...
 
@@ -39,4 +39,4 @@ Watch the Clock
 
 Just a heads up: there might be a minute between WordPress releasing an update and Docker catching up. It's usually quick, but sometimes, you gotta hang tight for the best new stuff.
 
-With Site Bay, you're ensuring your WordPress site stays locked down, scalable, and current, all without breaking a sweat. So lean back, keep creating dope content, and let us handle the tech.
+With SiteBay, you're ensuring your WordPress site stays locked down, scalable, and current, all without breaking a sweat. So lean back, keep creating dope content, and let us handle the tech.

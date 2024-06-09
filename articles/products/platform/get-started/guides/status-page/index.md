@@ -1,14 +1,14 @@
 ---
-description: 'Learn how to subscribe to Site Bay system status and maintenance updates.'
+description: 'Learn how to subscribe to SiteBay system status and maintenance updates.'
 keywords: ['sitebay','maintenance','incident','system', 'status']
 published: 2024-04-20
 modified: 2024-04-23
 modified_by:
-  name: Site Bay
-title: "Subscribe to Site Bay Status Updates"
+  name: SiteBay
+title: "Subscribe to SiteBay Status Updates"
 tags: ["sitebay platform"]
 aliases: ['/platform/sitebay-status-page/','/guides/sitebay-status-page/']
-authors: ["Site Bay"]
+authors: ["SiteBay"]
 ---
 
 The [Status Page](https://status.sitebay.org/) provides real-time system status and maintenance updates via email. All customers are encouraged to subscribe to status notifications to stay up-to-date with any events that may impact our services. When you sign up for status updates, you can fine-tune which service updates you receive. These different topic areas are referred to as *components*. If, for example, all your services are restricted to the Newark data center, you may only wish to subscribe to the Newark component.
@@ -19,11 +19,11 @@ You can also subscribe to individual incident notifications. In this case, you c
 
 To subscribe to system status and maintenance updates, follow the instructions below.
 
-1. Navigate to the [Site Bay Status Page](https://status.sitebay.org/).
+1. Navigate to the [SiteBay Status Page](https://status.sitebay.org/).
 
 1. Click on the **Subscribe to Updates** button.
 
-    ![Subscribe to Site Bay status updates.](status-page-subscribe.png)
+    ![Subscribe to SiteBay status updates.](status-page-subscribe.png)
 
 1. In the form that appears, enter your email address and click the **Subscribe via email** button.
 
@@ -39,7 +39,7 @@ Within your RSS aggregator, go through the process of adding a new RSS feed. Whe
 
 To subscribe to updates for a specific incident:
 
-1. Navigate to the [Site Bay Status Page](https://status.sitebay.org/).
+1. Navigate to the [SiteBay Status Page](https://status.sitebay.org/).
 
 1. Find the incident you would like to follow and click on its heading. You are brought to that incident's page.
 
@@ -47,9 +47,9 @@ To subscribe to updates for a specific incident:
 
 ## Update Notification Preferences or Unsubscribe
 
-You can update your component preferences or cancel your subscription to Site Bay status and maintenance updates at any time. To update your preferences or to unsubscribe:
+You can update your component preferences or cancel your subscription to SiteBay status and maintenance updates at any time. To update your preferences or to unsubscribe:
 
-1. Navigate to the [Site Bay Status Page](https://status.sitebay.org/).
+1. Navigate to the [SiteBay Status Page](https://status.sitebay.org/).
 
 1. Click on the **Subscribe to Updates** button and enter your email address.
 

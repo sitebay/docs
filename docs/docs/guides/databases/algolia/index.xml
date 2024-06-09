@@ -1,11 +1,29 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Algolia Guides, Tutorials, and Resources – Site Bay on Site Bay Guides &amp; Tutorials</title>
+    <title>Algolia Guides, Tutorials, and Resources – SiteBay on SiteBay Guides &amp; Tutorials</title>
     <link>https://www.sitebay.org/docs/guides/databases/algolia/</link>
-    <description>Recent content in Algolia Guides, Tutorials, and Resources – Site Bay on Site Bay Guides &amp; Tutorials</description>
+    <description>Recent content in Algolia Guides, Tutorials, and Resources – SiteBay on SiteBay Guides &amp; Tutorials</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 04 Apr 2014 00:00:00 +0000</lastBuildDate><atom:link href="https://www.sitebay.org/docs/guides/databases/algolia/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Monitoring NGINX Using the Elastic Stack on Centos 7</title>
+      <link>https://www.sitebay.org/docs/guides/monitor-nginx-web-server-logs-using-filebeat-elastic-stack-linux-7/</link>
+      <pubDate>Mon, 13 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/monitor-nginx-web-server-logs-using-filebeat-elastic-stack-linux-7/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Installing and Using Elasticsearch Plugins</title>
+      <link>https://www.sitebay.org/docs/guides/a-guide-to-algolia-plugins/</link>
+      <pubDate>Sat, 04 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/a-guide-to-algolia-plugins/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

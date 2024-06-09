@@ -1,4 +1,4 @@
-Diving into the digital world of Site Bay, especially when it comes to WordPress hosting on Kubernetes, equipped with Posthog analytics, recordings, and Grafana dashboards, can sometimes feel like navigating a vast and mysterious ocean. But fear not, because we've got the compass you need to chart your course through any stormy seas. Welcome to the troubleshooting section of Site Bay Guides, where we tackle the trickiest of issues head-on, ensuring smooth sailing for your WordPress adventures.
+Diving into the digital world of SiteBay, especially when it comes to WordPress hosting on Kubernetes, equipped with Posthog analytics, recordings, and Grafana dashboards, can sometimes feel like navigating a vast and mysterious ocean. But fear not, because we've got the compass you need to chart your course through any stormy seas. Welcome to the troubleshooting section of SiteBay Guides, where we tackle the trickiest of issues head-on, ensuring smooth sailing for your WordPress adventures.
 
 Got a Problem? We've Got Solutions
 
@@ -14,8 +14,8 @@ Performance Pitfalls: When your site's speed slips or your uptime takes a hit, d
 
 Community and Support
 
-Remember, you're not charting these waters alone. The Site Bay community is a crew of like-minded mariners, from beginners to seasoned sailors, all navigating the WordPress waves. Share your experiences, solutions, and discover new troubleshooting treasures along the way.
+Remember, you're not charting these waters alone. The SiteBay community is a crew of like-minded mariners, from beginners to seasoned sailors, all navigating the WordPress waves. Share your experiences, solutions, and discover new troubleshooting treasures along the way.
 
-And if the seas get too stormy, our Site Bay support squad is on standby. With a beacon of knowledge and a lifeline of assistance, we're here to help you weather any digital deluge.
+And if the seas get too stormy, our SiteBay support squad is on standby. With a beacon of knowledge and a lifeline of assistance, we're here to help you weather any digital deluge.
 
-So, whether it's your first voyage with Site Bay or you're a veteran of the virtual seas, our troubleshooting guide is the compass you need to navigate the challenges of WordPress hosting, analytics, and beyond. Let's set sail into smoother operations and digital discoveries together.
+So, whether it's your first voyage with SiteBay or you're a veteran of the virtual seas, our troubleshooting guide is the compass you need to navigate the challenges of WordPress hosting, analytics, and beyond. Let's set sail into smoother operations and digital discoveries together.

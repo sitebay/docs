@@ -1,20 +1,20 @@
 ---
 slug: wp-cli-tutorial
 author:
-  name: Site Bay
+  name: SiteBay
   email: support@sitebay.org
-description: "Learn how to use WP-CLI, the command-line interface for WordPress, to manage your Site Bay WordPress sites more efficiently."
+description: "Learn how to use WP-CLI, the command-line interface for WordPress, to manage your SiteBay WordPress sites more efficiently."
 keywords: ['WP-CLI', 'command line', 'WordPress management']
 tags: ["wordpress"]
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
 published: 2024-04-27
 modified: 2024-04-27
 modified_by:
-  name: Site Bay
-title: "Mastering WP-CLI on Site Bay"
+  name: SiteBay
+title: "Mastering WP-CLI on SiteBay"
 ---
 
-Hey! Wanna level up how you manage your WordPress site? Let's dive into WP-CLI, the superhero command-line tool that lets you boss around your WordPress site straight from the terminal. And yep, you can totally do this on Site Bay with our browser-based VSCode (code-server). Cool, right? Let's get started.
+Hey! Wanna level up how you manage your WordPress site? Let's dive into WP-CLI, the superhero command-line tool that lets you boss around your WordPress site straight from the terminal. And yep, you can totally do this on SiteBay with our browser-based VSCode (code-server). Cool, right? Let's get started.
 
 ## Setting Up Your Environment
 First things first, you gotta let WP-CLI know how you roll. This means setting up environment variables to customize how WP-CLI behaves when you run it.
@@ -51,4 +51,4 @@ Must-Know Environment Variables for WP-CLI:
 - WP_CLI_STRICT_ARGS_MODE: Keep things clear by making arguments before a command global and after local.
 - WP_CLI_SUPPRESS_GLOBAL_PARAMS: Know WP-CLI like the back of your hand? Turn this on to hide global parameters in help screens.
 
-And there you have it! With WP-CLI on Site Bay, you're ready to take your WordPress management game to the next level. Dive in, and see what you can do. It's not just about making things easier; it's about making them faster and more powerful too. Welcome to the WP-CLI club!
+And there you have it! With WP-CLI on SiteBay, you're ready to take your WordPress management game to the next level. Dive in, and see what you can do. It's not just about making things easier; it's about making them faster and more powerful too. Welcome to the WP-CLI club!

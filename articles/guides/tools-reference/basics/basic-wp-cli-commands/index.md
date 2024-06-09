@@ -6,22 +6,22 @@ tags: ["wp-cli"]
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
 modified: 2024-04-04
 modified_by:
-  name: Site Bay
+  name: SiteBay
 published: 2024-03-04
 title: 'basic-wp-cli-commands'
-authors: ["Site Bay"]
+authors: ["SiteBay"]
 ---
 # Basic WP-CLI Commands
 
 When managing a WordPress site, using the command line can make tasks quicker and easier. WP-CLI, or WordPress Command Line Interface, is a powerful tool that helps you manage your WordPress sites without using the web browser. Whether you're looking to add a new user, change your password, or install plugins, here's how you can do it using WP-CLI.
 
 ## Code Server
-Go to your My Site Bay site's dashboard to try these out
+Go to your My SiteBay site's dashboard to try these out
 
-If you aren't on Site Bay, you need to install wp-cli first on your local machine
-## Installation (Non Site Bay Users)
+If you aren't on SiteBay, you need to install wp-cli first on your local machine
+## Installation (Non SiteBay Users)
 Make sure you have it installed on your local development machine or hosting environment. You can install WP-CLI by following the instructions on the [official website](https://wp-cli.org/).
-(This is preinstalled on Site Bay Code Server)
+(This is preinstalled on SiteBay Code Server)
 
 ## Adding or Changing a User
 

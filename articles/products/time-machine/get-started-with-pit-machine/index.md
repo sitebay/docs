@@ -6,11 +6,11 @@ tab_group_main:
     weight: 20
 ---
 
-## Use Site Bay's Point-in-time Machine
+## Use SiteBay's Point-in-time Machine
 
-You can restore your site, create a new staging site, or view files from a previous time on My Site Bay.  Here's how:
+You can restore your site, create a new staging site, or view files from a previous time on My SiteBay.  Here's how:
 
-1.  Log in to [My Site Bay](https://my.sitebay.org).
+1.  Log in to [My SiteBay](https://my.sitebay.org).
 
 1.  Select which site you want to manage on the **sites** page.
 

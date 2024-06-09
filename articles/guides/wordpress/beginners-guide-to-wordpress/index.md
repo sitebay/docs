@@ -1,13 +1,13 @@
 ---
 slug: beginners-guide-to-wordpress
-authors: ["Site Bay"]
+authors: ["SiteBay"]
 description: 'An introduction to WordPress posts and components.'
 keywords: ['wordpress','help','beginner','introduction']
 tags: ["wordpress","quickstart"]
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
 published: 2024-03-29
 modified_by:
-  name: Site Bay
+  name: SiteBay
 title: "A Beginner's Tutorial to WordPress"
 concentrations: ["WordPress"]
 aliases: ['beginners-guide-to-wordpress-introduction/']
@@ -26,13 +26,13 @@ In this tutorial you will learn how to [Set up your first WordPress Site](#set-u
 ## Set-Up
 {{< note >}}
 
-If you don't already have a Site Bay account be sure to make one and get 20% off for a limited time using our [Intro Offer here.](https://my.sitebay.org/signup?promo=INTRO)
+If you don't already have a SiteBay account be sure to make one and get 20% off for a limited time using our [Intro Offer here.](https://my.sitebay.org/signup?promo=INTRO)
 Then follow our [WordPress site creation tutorial](/support/tutorials/getting-started/) to get a site up and running.
 {{< /note >}}
 
 First, navigate to your site's WordPress admin dashboard. Enter your site's url in your browser's address bar and add /wp-admin/ to the end of the url.
  
-Next, use the email/username and password you picked at the site creation screen. The password to enter here should be different from the password you used to sign up with Site Bay.
+Next, use the email/username and password you picked at the site creation screen. The password to enter here should be different from the password you used to sign up with SiteBay.
  
 The admin panel is used to manage the content for your WordPress site. This is where you can upload images, write blog posts, and design new pages for your visitors to enjoy.
 

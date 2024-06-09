@@ -6,10 +6,10 @@ license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
 published: 2024-04-18
 modified: 2024-04-18
 modified_by:
-  name: Site Bay
+  name: SiteBay
 title: 'Understanding "People" in PostHog Analytics'
 tags: ["sitebay", "analytics", "PostHog", "WordPress"]
-authors: ["Site Bay"]
+authors: ["SiteBay"]
 ---
 
 

@@ -8,11 +8,11 @@ license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
 published: 2024-05-13
 modified: 2024-05-24
 modified_by:
-  name: Site Bay
+  name: SiteBay
 title: "Monitoring NGINX Using the Elastic Stack on Centos 7"
 title_meta: "How to Monitor NGINX Using the Elastic Stack on CentOS 7"
 dedicated_cpu_link: true
 tags: ["analytics","database","linux","monitoring"]
 aliases: ['/databases/algolia/monitor-nginx-web-server-logs-using-filebeat-elastic-stack-linux-7/']
-authors: ["Site Bay"]
+authors: ["SiteBay"]
 ---

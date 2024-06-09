@@ -1,17 +1,17 @@
 ---
 slug: site-bay-code-server-introduction
 author:
-  name: Site Bay
+  name: SiteBay
   email: support@sitebay.org
 keywords: ["getting started", "intro", "basics", "first steps"]
-description: 'This tutorial will help you use Code Server with your WordPress site on Site Bay.'
+description: 'This tutorial will help you use Code Server with your WordPress site on SiteBay.'
 og_description: "Learn how to use VS Code in the browser to manage your WP site with our Getting Started tutorial."
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
 modified: 2024-04-25
 modified_by:
-  name: Site Bay
+  name: SiteBay
 published: 2024-04-04
-title: Site Bay Code Server
+title: SiteBay Code Server
 show_on_frontpage: true
 title_short: "Get Started"
 weight: 10
@@ -21,11 +21,11 @@ show_on_rss_feed: false
 
 # Code Server: Editing Your WordPress Site in the Browser
 
-Are you ready to revolutionize the way you work on your WordPress site? Meet Site Bay's Code Server, a powerful tool that transforms your web browser into a fully functional instance of Visual Studio Code. This means you can edit your website's code anytime, anywhere, right from your browser – no need to install software or manage complex development environments.
+Are you ready to revolutionize the way you work on your WordPress site? Meet SiteBay's Code Server, a powerful tool that transforms your web browser into a fully functional instance of Visual Studio Code. This means you can edit your website's code anytime, anywhere, right from your browser – no need to install software or manage complex development environments.
 
-## What is Site Bay's Code Server?
+## What is SiteBay's Code Server?
 
-Site Bay's Code Server is a browser-based version of the popular Visual Studio Code editor, customized for editing WordPress sites. It's integrated with Site Bay's hosting platform, providing direct access to your site's files and the ability to edit them in real-time.
+SiteBay's Code Server is a browser-based version of the popular Visual Studio Code editor, customized for editing WordPress sites. It's integrated with SiteBay's hosting platform, providing direct access to your site's files and the ability to edit them in real-time.
 
 Key Features
 1. Access Anywhere: Edit your site's files from any device with a web browser.
@@ -37,20 +37,20 @@ Key Features
 
 ## How to Use the Code Server
 
-Using Site Bay's Code Server is simple:
+Using SiteBay's Code Server is simple:
 
-1. Log in to your Site Bay dashboard.
+1. Log in to your SiteBay dashboard.
 1. Navigate to the Code Server for your live or staging WordPress site.
 1. Start editing your files with the power of Visual Studio Code, right in your browser.
 
 ### Staging Made Easy
 
-Site Bay's Code Server works seamlessly with your staging environment. You can execute WP-CLI commands such as wp plugin list --path=/bitnami/stagewordpress to manage your staging site directly through the Code Server terminal. This integration ensures you can test changes thoroughly before going live.
+SiteBay's Code Server works seamlessly with your staging environment. You can execute WP-CLI commands such as wp plugin list --path=/bitnami/stagewordpress to manage your staging site directly through the Code Server terminal. This integration ensures you can test changes thoroughly before going live.
 
 ### Security and Convenience
 
-Security is a top priority at Site Bay. We've set up the Code Server to handle file permissions and user settings securely, so you can code with peace of mind. Moreover, Site Bay's Code Server automatically handles application passwords, ensuring a secure connection between your edits and your site.
+Security is a top priority at SiteBay. We've set up the Code Server to handle file permissions and user settings securely, so you can code with peace of mind. Moreover, SiteBay's Code Server automatically handles application passwords, ensuring a secure connection between your edits and your site.
 
 # Get Started
 
-Ready to take your WordPress site development to the next level? Sign in to your Site Bay account and launch the Code Server today. Experience the ultimate convenience o
+Ready to take your WordPress site development to the next level? Sign in to your SiteBay account and launch the Code Server today. Experience the ultimate convenience o

@@ -1,6 +1,6 @@
 ---
 title: "FAQs"
-title_meta: "FAQs for Creating and Managing Site Bay Accounts"
+title_meta: "FAQs for Creating and Managing SiteBay Accounts"
 description: "Find quick answers to some of the most commonly asked account and login questions."
 tab_group_main:
     weight: 60
@@ -10,7 +10,7 @@ modified: 2024-03-14
 
 ## I no longer remember my user password. How can I reset it?
 
-If you forget the password associated with your Site Bay user account, you can reset it using the [forgot password](https://my.sitebay.org/forgot/password) form. Once you enter your username and submit the form, a password reset is emailed to the user's email address. See [Reset Your User Password](/docs/products/platform/accounts/guides/reset-user-password/).
+If you forget the password associated with your SiteBay user account, you can reset it using the [forgot password](https://my.sitebay.org/forgot/password) form. Once you enter your username and submit the form, a password reset is emailed to the user's email address. See [Reset Your User Password](/docs/products/platform/accounts/guides/reset-user-password/).
 
 If you instead need assistance resetting the admin user on a WordPress Site, use the wp-cli in code-server.
 

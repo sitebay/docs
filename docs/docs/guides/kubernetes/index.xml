@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Kubernetes on Site Bay Guides &amp; Tutorials</title>
+    <title>Kubernetes on SiteBay Guides &amp; Tutorials</title>
     <link>https://www.sitebay.org/docs/guides/kubernetes/</link>
-    <description>Recent content in Kubernetes on Site Bay Guides &amp; Tutorials</description>
+    <description>Recent content in Kubernetes on SiteBay Guides &amp; Tutorials</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 29 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.sitebay.org/docs/guides/kubernetes/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Deploy NGINX on Kubernetes: Quick and Easy Setup with Site Bay</title>
+      <title>Deploy NGINX on Kubernetes: Quick and Easy Setup with SiteBay</title>
       <link>https://www.sitebay.org/docs/guides/kubernetes-fast-as-possible/</link>
       <pubDate>Sat, 27 Apr 2024 00:00:00 +0000</pubDate>
       
@@ -18,7 +18,7 @@ Kubernetes is a powerful open-source system for managing containerized applicati
     </item>
     
     <item>
-      <title>Elevate Your WordPress Site with Kubernetes on Site Bay</title>
+      <title>Elevate Your WordPress Site with Kubernetes on SiteBay</title>
       <link>https://www.sitebay.org/docs/guides/benefits-of-wordpress-on-kubernetes/</link>
       <pubDate>Sat, 27 Apr 2024 00:00:00 +0000</pubDate>
       
@@ -28,7 +28,7 @@ Kubernetes is a cutting-edge tool that automates deploying, scaling, and operati
     </item>
     
     <item>
-      <title>Elevating WordPress Performance with Kubernetes and NGINX on Site Bay</title>
+      <title>Elevating WordPress Performance with Kubernetes and NGINX on SiteBay</title>
       <link>https://www.sitebay.org/docs/guides/troubleshooting-wordpress-on-kubernetes/</link>
       <pubDate>Sat, 27 Apr 2024 00:00:00 +0000</pubDate>
       

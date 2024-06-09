@@ -101,7 +101,7 @@ jobs:
 
       # Debugging step so we can check if the right version
       # of the Algolia admin tool is checked out
-    - name: (Debugging info) Print Site Bay Algolia admin tool version
+    - name: (Debugging info) Print SiteBay Algolia admin tool version
       working-directory: ./sitebay-docs-theme-repo
       run: |
         cd scripts/sitebay_algolia_admin/

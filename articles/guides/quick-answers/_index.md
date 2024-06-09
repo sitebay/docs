@@ -9,5 +9,5 @@ title_short: "Quick Answers"
 weight: 20
 icon: "bolt"
 aliases: ['/quick-answers/']
-authors: ["Site Bay"]
+authors: ["SiteBay"]
 ---

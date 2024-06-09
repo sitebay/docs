@@ -24,9 +24,9 @@ swap:
   Kube Controller Manager: kube-controller-Manager
   Kube Proxy: kube-proxy
   Kube Scheduler: kube-scheduler
-  sitebay cli: Site Bay CLI
-  sitebay manager: Site Bay Manager
-  sitebay: Site Bay
+  sitebay cli: SiteBay CLI
+  sitebay manager: SiteBay Manager
+  sitebay: SiteBay
   longview: Longview
   macOS: macOS
   metabase: Metabase

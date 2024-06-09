@@ -1,11 +1,11 @@
 [
   {
     "authors": [
-      "Site Bay"
+      "SiteBay"
     ],
     "category": null,
     "deprecated": false,
-    "excerpt": "Learn how to create an account and use the Site Bay WordPress Hosting Platform.",
+    "excerpt": "Learn how to create an account and use the SiteBay WordPress Hosting Platform.",
     "excludeFromViews": [],
     "firstPublishedTime": 1712188800,
     "firstPublishedYear": 2024,
@@ -22,7 +22,7 @@
     ],
     "keywordsAlgolia": [],
     "languages": null,
-    "lastUpdatedTime": 1714295532,
+    "lastUpdatedTime": 1714717213,
     "linkTitle": "Get Started",
     "objectID": "/docs/products/platform/get-started/",
     "ordinal": 10,
@@ -31,12 +31,12 @@
     "section.lvl1": "products-branches \u003e platform",
     "skillLevel": null,
     "tags": null,
-    "thumbnailUrl": "/docs/products/platform/get-started/feature.svg",
-    "title": "Platform - Getting Started on the Site Bay Platform",
+    "thumbnailUrl": "/docs/products/platform/get-started/cloudflare-cname-setup_hue58d7522277ef99ee6d30071b9bced81_60669_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
+    "title": "Platform - Getting Started on the SiteBay Platform",
     "titleH1": "",
     "titleMeta": "",
     "titleSocial": "",
-    "toc": " Sign Up for an Account Understand Billing Explore Site Bay Guides ",
+    "toc": " Sign Up for an Account Understand Billing Explore SiteBay Guides ",
     "weightAge": 0,
     "weightSearchBoost": true
   },
@@ -44,7 +44,7 @@
     "authors": [],
     "category": null,
     "deprecated": false,
-    "excerpt": "This tutorial will guide you through launching your first WordPress site with Site Bay, leveraging the power of Kubernetes.",
+    "excerpt": "This tutorial will guide you through launching your first WordPress site with SiteBay, with the power of Kubernetes.",
     "excludeFromViews": [],
     "firstPublishedTime": 1712188800,
     "firstPublishedYear": 2024,
@@ -61,19 +61,19 @@
     "keywordsAlgolia": [],
     "languages": null,
     "lastUpdatedTime": 1714295532,
-    "linkTitle": "Get Started with Site Bay",
+    "linkTitle": "Get Started with SiteBay",
     "objectID": "/docs/guides/getting-started/",
     "ordinal": 0,
     "section": "guides",
     "section.lvl0": "guides",
     "skillLevel": null,
     "tags": null,
-    "thumbnailUrl": "/docs/guides/getting-started/getting-started_hu7073266e0ea4f459a4166f783458efb0_424270_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
-    "title": "Get Started with Site Bay",
+    "thumbnailUrl": "/docs/guides/getting-started/cloudflare-cname-setup_hue58d7522277ef99ee6d30071b9bced81_60669_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
+    "title": "Get Started with SiteBay",
     "titleH1": "",
     "titleMeta": "",
     "titleSocial": "",
-    "toc": "",
+    "toc": " Set Sail with Site Bay! Let’s Get Started Setting Up Your WordPress Site ",
     "weightAge": 0,
     "weightSearchBoost": false
   },
@@ -81,7 +81,7 @@
     "authors": [],
     "category": null,
     "deprecated": false,
-    "excerpt": "This tutorial will help you use Code Server with your Staging WordPress site on Site Bay.",
+    "excerpt": "This tutorial will help you use Code Server with your Staging WordPress site on SiteBay.",
     "excludeFromViews": [],
     "firstPublishedTime": 1712188800,
     "firstPublishedYear": 2024,
@@ -118,7 +118,7 @@
     "authors": [],
     "category": null,
     "deprecated": false,
-    "excerpt": "This tutorial will help you use Code Server with your WordPress site on Site Bay.",
+    "excerpt": "This tutorial will help you use Code Server with your WordPress site on SiteBay.",
     "excludeFromViews": [],
     "firstPublishedTime": 1712188800,
     "firstPublishedYear": 2024,
@@ -135,7 +135,7 @@
     "keywordsAlgolia": [],
     "languages": null,
     "lastUpdatedTime": 1714295532,
-    "linkTitle": "Site Bay Code Server",
+    "linkTitle": "SiteBay Code Server",
     "objectID": "/docs/guides/site-bay-code-server-introduction/",
     "ordinal": 0,
     "section": "guides",
@@ -143,17 +143,17 @@
     "skillLevel": null,
     "tags": null,
     "thumbnailUrl": "/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
-    "title": "Site Bay Code Server",
+    "title": "SiteBay Code Server",
     "titleH1": "",
     "titleMeta": "",
     "titleSocial": "",
-    "toc": " What is Site Bay’s Code Server? How to Use the Code Server Staging Made Easy Security and Convenience ",
+    "toc": " What is SiteBay’s Code Server? How to Use the Code Server Staging Made Easy Security and Convenience ",
     "weightAge": 0,
     "weightSearchBoost": false
   },
   {
     "authors": [
-      "Site Bay"
+      "SiteBay"
     ],
     "category": null,
     "deprecated": false,
@@ -193,7 +193,7 @@
     "authors": [],
     "category": null,
     "deprecated": false,
-    "excerpt": "Dive into the world of Site Bay for WordPress hosting mastery!",
+    "excerpt": "Dive into the world of SiteBay for WordPress hosting mastery!",
     "excludeFromViews": [],
     "firstPublishedTime": -62135596800,
     "firstPublishedYear": 1,
@@ -205,7 +205,7 @@
     "keywordsAlgolia": [],
     "languages": null,
     "lastUpdatedTime": 1714295532,
-    "linkTitle": "Site Bay Platform",
+    "linkTitle": "SiteBay Platform",
     "objectID": "/docs/guides/platform/",
     "ordinal": 0,
     "section": "guides-branches",
@@ -213,7 +213,7 @@
     "skillLevel": null,
     "tags": null,
     "thumbnailUrl": "/docs/guides/platform/feature_hudca5a97f5c26d48e8c9566c80769ed1a_4805_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
-    "title": "Site Bay Platform",
+    "title": "SiteBay Platform",
     "titleH1": "",
     "titleMeta": "",
     "titleSocial": "",
@@ -225,7 +225,7 @@
     "authors": [],
     "category": null,
     "deprecated": false,
-    "excerpt": "Learn about everything Billing on Site Bay!",
+    "excerpt": "Learn about everything Billing on SiteBay!",
     "excludeFromViews": [],
     "firstPublishedTime": -62135596800,
     "firstPublishedYear": 1,
@@ -237,7 +237,7 @@
     "keywordsAlgolia": [],
     "languages": null,
     "lastUpdatedTime": 1714295532,
-    "linkTitle": "Site Bay Platform",
+    "linkTitle": "SiteBay Platform",
     "objectID": "/docs/platform/billing-and-support/",
     "ordinal": 0,
     "section": "platform-branches",
@@ -245,7 +245,7 @@
     "skillLevel": null,
     "tags": null,
     "thumbnailUrl": "/docs/platform/billing-and-support/feature_hu0e85f5c19a2bbbe12e551a18e1c6d734_5146_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
-    "title": "Site Bay Platform",
+    "title": "SiteBay Platform",
     "titleH1": "",
     "titleMeta": "",
     "titleSocial": "",
@@ -257,7 +257,7 @@
     "authors": [],
     "category": null,
     "deprecated": false,
-    "excerpt": "Learn about everything shopify on Site Bay!",
+    "excerpt": "Learn about everything shopify on SiteBay!",
     "excludeFromViews": [],
     "firstPublishedTime": -62135596800,
     "firstPublishedYear": 1,
@@ -269,7 +269,7 @@
     "keywordsAlgolia": [],
     "languages": null,
     "lastUpdatedTime": 1714295532,
-    "linkTitle": "Site Bay Platform",
+    "linkTitle": "SiteBay Platform",
     "objectID": "/docs/platform/shopify/how-to-use-git-sync/",
     "ordinal": 0,
     "section": "platform \u003e shopify",
@@ -278,7 +278,7 @@
     "skillLevel": null,
     "tags": null,
     "thumbnailUrl": "/docs/platform/shopify/how-to-use-git-sync/how-to-use-sitebay-git-sync_hu07522c31dae92a147b5fe819d5549fc3_244885_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
-    "title": "Site Bay Platform",
+    "title": "SiteBay Platform",
     "titleH1": "",
     "titleMeta": "",
     "titleSocial": "",
@@ -290,7 +290,7 @@
     "authors": [],
     "category": null,
     "deprecated": false,
-    "excerpt": "Learn about everything templates on Site Bay!",
+    "excerpt": "Learn about everything templates on SiteBay!",
     "excludeFromViews": [],
     "firstPublishedTime": -62135596800,
     "firstPublishedYear": 1,
@@ -302,7 +302,7 @@
     "keywordsAlgolia": [],
     "languages": null,
     "lastUpdatedTime": 1714295532,
-    "linkTitle": "Site Bay Platform",
+    "linkTitle": "SiteBay Platform",
     "objectID": "/docs/platform/templates/",
     "ordinal": 0,
     "section": "platform-branches",
@@ -310,7 +310,7 @@
     "skillLevel": null,
     "tags": null,
     "thumbnailUrl": "/docs/platform/templates/feature.svg",
-    "title": "Site Bay Platform",
+    "title": "SiteBay Platform",
     "titleH1": "",
     "titleMeta": "",
     "titleSocial": "",
@@ -395,7 +395,7 @@
   },
   {
     "authors": [
-      "Site Bay"
+      "SiteBay"
     ],
     "category": null,
     "deprecated": false,
@@ -439,7 +439,7 @@
   },
   {
     "authors": [
-      "Site Bay"
+      "SiteBay"
     ],
     "category": null,
     "deprecated": false,
@@ -513,7 +513,7 @@
   },
   {
     "authors": [
-      "Site Bay"
+      "SiteBay"
     ],
     "category": null,
     "deprecated": false,
@@ -551,7 +551,7 @@
     "authors": [],
     "category": null,
     "deprecated": false,
-    "excerpt": "Dive into the world of WordPress development with Site Bay. This collection of tutorials is designed to help you master the use of essential development tools like git, VSCode, and Site Bay’s Git Sync for your WordPress projects.",
+    "excerpt": "Dive into the world of WordPress development with SiteBay. This collection of tutorials is designed to help you master the use of essential development tools like git, VSCode, and SiteBay’s Git Sync for your WordPress projects.",
     "excludeFromViews": [],
     "firstPublishedTime": 1713052800,
     "firstPublishedYear": 2024,
@@ -564,7 +564,7 @@
       "vscode",
       "git",
       "git-sync",
-      "site bay"
+      "SiteBay"
     ],
     "keywordsAlgolia": [],
     "languages": null,
@@ -587,11 +587,11 @@
   },
   {
     "authors": [
-      "Site Bay"
+      "SiteBay"
     ],
     "category": null,
     "deprecated": false,
-    "excerpt": "Learn how to utilize the Cloudflare and Site Bay platforms together to build global, scalable solutions.",
+    "excerpt": "Learn how to utilize the Cloudflare and SiteBay platforms together to build global, scalable solutions.",
     "excludeFromViews": [],
     "firstPublishedTime": 1712188800,
     "firstPublishedYear": 2024,
@@ -607,7 +607,7 @@
     "keywordsAlgolia": [],
     "languages": null,
     "lastUpdatedTime": 1714295532,
-    "linkTitle": "Cloudflare + Site Bay",
+    "linkTitle": "Cloudflare + SiteBay",
     "objectID": "/docs/guides/cloudflare/",
     "ordinal": 0,
     "section": "guides-branches",
@@ -615,7 +615,7 @@
     "skillLevel": null,
     "tags": null,
     "thumbnailUrl": "/docs/guides/cloudflare/feature_hu788a9151df58139aff72c3adc9b1d01f_12554_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
-    "title": "Cloudflare + Site Bay",
+    "title": "Cloudflare + SiteBay",
     "titleH1": "",
     "titleMeta": "",
     "titleSocial": "",
@@ -627,7 +627,7 @@
     "authors": [],
     "category": null,
     "deprecated": false,
-    "excerpt": "Welcome to Site Bay, where we take your WordPress hosting experience to another level. We\u0026rsquo;ve got everything you need to make your site pop, from seamless migrations to powerful analytics with PostHog, and dashboards that keep you informed.",
+    "excerpt": "Welcome to SiteBay, where we take your WordPress hosting experience to another level. We\u0026rsquo;ve got everything you need to make your site pop, from seamless migrations to powerful analytics with PostHog, and dashboards that keep you informed.",
     "excludeFromViews": [],
     "firstPublishedTime": -62135596800,
     "firstPublishedYear": 1,
@@ -657,7 +657,152 @@
   },
   {
     "authors": [
-      "Site Bay"
+      "sitebay"
+    ],
+    "category": null,
+    "deprecated": false,
+    "excerpt": "This guide will provide quick answers to common My SiteBay errors. It includes links to helpful documentation and suggestions on next steps.",
+    "excludeFromViews": [],
+    "firstPublishedTime": 1716336000,
+    "firstPublishedYear": 2024,
+    "hiddenguide": null,
+    "hierarchy": [],
+    "href": "/docs/guides/an-overview-of-common-cloud-manager-errors/",
+    "isBranch": false,
+    "keywords": [
+      "error",
+      "account limit",
+      "limit",
+      "activated",
+      "before you can",
+      "please try again",
+      "open a support ticket"
+    ],
+    "keywordsAlgolia": [],
+    "languages": null,
+    "lastUpdatedTime": 1714295532,
+    "linkTitle": "Understanding Common My SiteBay Errors",
+    "objectID": "/docs/guides/an-overview-of-common-cloud-manager-errors/",
+    "ordinal": 0,
+    "section": "guides \u003e platform \u003e manager",
+    "section.lvl0": "guides",
+    "section.lvl1": "guides \u003e platform",
+    "section.lvl2": "guides \u003e platform \u003e manager",
+    "skillLevel": null,
+    "tags": [
+      "sitebay platform",
+      "My SiteBay"
+    ],
+    "thumbnailUrl": "/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
+    "title": "Understanding Common My SiteBay Errors",
+    "titleH1": "",
+    "titleMeta": "An Overview of Common My SiteBay Errors",
+    "titleSocial": "",
+    "toc": "",
+    "weightAge": 0,
+    "weightSearchBoost": false
+  },
+  {
+    "authors": [
+      "SiteBay"
+    ],
+    "category": null,
+    "deprecated": false,
+    "excerpt": "This guide shows how to install four components of Elastic Stack - Filebeat, Metricbeat, Elasticsearch, and Kibana - to monitor a typical NGINX webserver.",
+    "excludeFromViews": [],
+    "firstPublishedTime": 1715558400,
+    "firstPublishedYear": 2024,
+    "hiddenguide": null,
+    "hierarchy": [],
+    "href": "/docs/guides/monitor-nginx-web-server-logs-using-filebeat-elastic-stack-linux-7/",
+    "isBranch": false,
+    "keywords": [
+      "nginx linux 7",
+      "algolia",
+      "filebeat",
+      "metricbeat",
+      "beats",
+      "kibana",
+      "elk stack",
+      "elastic stack"
+    ],
+    "keywordsAlgolia": [],
+    "languages": null,
+    "lastUpdatedTime": 1714295532,
+    "linkTitle": "Monitoring NGINX Using the Elastic Stack on Centos 7",
+    "objectID": "/docs/guides/monitor-nginx-web-server-logs-using-filebeat-elastic-stack-linux-7/",
+    "ordinal": 0,
+    "section": "guides \u003e databases \u003e algolia",
+    "section.lvl0": "guides",
+    "section.lvl1": "guides \u003e databases",
+    "section.lvl2": "guides \u003e databases \u003e algolia",
+    "skillLevel": null,
+    "tags": [
+      "analytics",
+      "database",
+      "linux",
+      "monitoring"
+    ],
+    "thumbnailUrl": "/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
+    "title": "Monitoring NGINX Using the Elastic Stack on Centos 7",
+    "titleH1": "",
+    "titleMeta": "How to Monitor NGINX Using the Elastic Stack on CentOS 7",
+    "titleSocial": "",
+    "toc": "",
+    "weightAge": 0,
+    "weightSearchBoost": false
+  },
+  {
+    "authors": [
+      "SiteBay"
+    ],
+    "category": null,
+    "deprecated": false,
+    "excerpt": "Elasticsearch supports a wide variety of plugins which enable more powerful search features. Learn how to manage, install, and use them.",
+    "excludeFromViews": [],
+    "firstPublishedTime": 1714780800,
+    "firstPublishedYear": 2024,
+    "hiddenguide": null,
+    "hierarchy": [],
+    "href": "/docs/guides/a-guide-to-algolia-plugins/",
+    "isBranch": false,
+    "keywords": [
+      "elastic",
+      "algolia",
+      "plugins",
+      "search",
+      "analytics",
+      "search engine"
+    ],
+    "keywordsAlgolia": [],
+    "languages": null,
+    "lastUpdatedTime": 1714295532,
+    "linkTitle": "Installing and Using Elasticsearch Plugins",
+    "objectID": "/docs/guides/a-guide-to-algolia-plugins/",
+    "ordinal": 0,
+    "section": "guides \u003e databases \u003e algolia",
+    "section.lvl0": "guides",
+    "section.lvl1": "guides \u003e databases",
+    "section.lvl2": "guides \u003e databases \u003e algolia",
+    "skillLevel": null,
+    "tags": [
+      "ubuntu",
+      "debian",
+      "database",
+      "java"
+    ],
+    "thumbnailUrl": "/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
+    "title": "Installing and Using Elasticsearch Plugins",
+    "titleH1": "",
+    "titleMeta": "How to Install and Use Elasticsearch Plugins",
+    "titleSocial": "",
+    "toc": "",
+    "weightAge": 0,
+    "weightSearchBoost": false
+  },
+  {
+    "authors": [
+      "SiteBay"
     ],
     "category": null,
     "deprecated": false,
@@ -678,7 +823,7 @@
     "keywordsAlgolia": [],
     "languages": null,
     "lastUpdatedTime": 1714389935,
-    "linkTitle": "Collaborate with PostHog Notebooks on Site Bay",
+    "linkTitle": "Collaborate with PostHog Notebooks on SiteBay",
     "objectID": "/docs/products/posthog/notebooks/",
     "ordinal": 0,
     "section": "products \u003e posthog",
@@ -690,9 +835,9 @@
       "sitebay"
     ],
     "thumbnailUrl": "/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
-    "title": "PostHog - Collaborate with PostHog Notebooks on Site Bay",
+    "title": "PostHog - Collaborate with PostHog Notebooks on SiteBay",
     "titleH1": "",
-    "titleMeta": "How to Collaborate with PostHog Notebooks on Site Bay",
+    "titleMeta": "How to Collaborate with PostHog Notebooks on SiteBay",
     "titleSocial": "",
     "toc": "",
     "weightAge": 0,
@@ -700,11 +845,11 @@
   },
   {
     "authors": [
-      "Site Bay"
+      "SiteBay"
     ],
     "category": null,
     "deprecated": false,
-    "excerpt": "Learn how to create and manage a staging site for testing WordPress changes with Site Bay’s powerful WordPress hosting on Kubernetes, featuring PostHog analytics and Grafana dashboards.",
+    "excerpt": "Learn how to create and manage a staging site for testing WordPress changes with SiteBay’s powerful WordPress hosting on Kubernetes, featuring PostHog analytics and Grafana dashboards.",
     "excludeFromViews": [],
     "firstPublishedTime": 1714435200,
     "firstPublishedYear": 2024,
@@ -718,7 +863,7 @@
     "keywordsAlgolia": [],
     "languages": null,
     "lastUpdatedTime": 1714634570,
-    "linkTitle": "Mastering Staging Sites on Site Bay’s WordPress Hosting",
+    "linkTitle": "Mastering Staging Sites on SiteBay’s WordPress Hosting",
     "objectID": "/docs/guides/sitebay-dashboard-staging-site/",
     "ordinal": 0,
     "section": "guides \u003e quick-answers \u003e sitebay",
@@ -733,9 +878,9 @@
       "grafana"
     ],
     "thumbnailUrl": "/docs/guides/sitebay-dashboard-staging-site/GNUMakeTutorial-LearntoAutomateTasks_hu0ad3ca52d053c9ccc7a76319a7fae5a5_67113_640x0_resize_q75_catmullrom.jpg",
-    "title": "Mastering Staging Sites on Site Bay’s WordPress Hosting",
+    "title": "Mastering Staging Sites on SiteBay’s WordPress Hosting",
     "titleH1": "",
-    "titleMeta": "Staging Site Management with Site Bay: A Step-by-Step Guide",
+    "titleMeta": "Staging Site Management with SiteBay: A Step-by-Step Guide",
     "titleSocial": "",
     "toc": "",
     "weightAge": 0,
@@ -743,11 +888,11 @@
   },
   {
     "authors": [
-      "Site Bay"
+      "SiteBay"
     ],
     "category": null,
     "deprecated": false,
-    "excerpt": "Discover how to harness PostHog dashboards for comprehensive insights into your WordPress site visitors on Site Bay, optimizing your content strategy with data-driven decisions.",
+    "excerpt": "Discover how to harness PostHog dashboards for comprehensive insights into your WordPress site visitors on SiteBay, optimizing your content strategy with data-driven decisions.",
     "excludeFromViews": [],
     "firstPublishedTime": 1714435200,
     "firstPublishedYear": 2024,
@@ -758,14 +903,14 @@
     "keywords": [
       "PostHog",
       "WordPress",
-      "Site Bay",
+      "SiteBay",
       "analytics",
       "dashboards"
     ],
     "keywordsAlgolia": [],
     "languages": null,
     "lastUpdatedTime": 1714389935,
-    "linkTitle": "Maximizing WordPress Insights with PostHog Dashboards on Site Bay",
+    "linkTitle": "Maximizing WordPress Insights with PostHog Dashboards on SiteBay",
     "objectID": "/docs/products/posthog/dashboards/",
     "ordinal": 0,
     "section": "products \u003e posthog",
@@ -779,7 +924,7 @@
       "visitor analytics"
     ],
     "thumbnailUrl": "/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
-    "title": "PostHog - Maximizing WordPress Insights with PostHog Dashboards on Site Bay",
+    "title": "PostHog - Maximizing WordPress Insights with PostHog Dashboards on SiteBay",
     "titleH1": "",
     "titleMeta": "",
     "titleSocial": "",
@@ -789,7 +934,7 @@
   },
   {
     "authors": [
-      "Site Bay"
+      "SiteBay"
     ],
     "category": null,
     "deprecated": false,
@@ -810,7 +955,7 @@
     "keywordsAlgolia": [],
     "languages": null,
     "lastUpdatedTime": 1714295532,
-    "linkTitle": "Enhancing SEO with Site Bays Shopify Link for WordPress Blogs",
+    "linkTitle": "Enhancing SEO with SiteBays Shopify Link for WordPress Blogs",
     "objectID": "/docs/guides/what-is-shopify-link/",
     "ordinal": 0,
     "section": "guides \u003e quick-answers \u003e sitebay-essentials",
@@ -825,21 +970,21 @@
       "seo"
     ],
     "thumbnailUrl": "/docs/guides/what-is-shopify-link/ShopifyLink_hu977916463a19591fd35c3f92d499b681_645910_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
-    "title": "Enhancing SEO with Site Bays Shopify Link for WordPress Blogs",
+    "title": "Enhancing SEO with SiteBays Shopify Link for WordPress Blogs",
     "titleH1": "",
     "titleMeta": "",
     "titleSocial": "",
-    "toc": " Benefits of Linking WordPress to Shopify Improved SEO Unified Brand Experience Increased Traffic Easy Management How to Set Up Shopify Link with Site Bay Conclusion ",
+    "toc": " Benefits of Linking WordPress to Shopify Improved SEO Unified Brand Experience Increased Traffic Easy Management How to Set Up Shopify Link with SiteBay Conclusion ",
     "weightAge": 0,
     "weightSearchBoost": false
   },
   {
     "authors": [
-      "Site Bay"
+      "SiteBay"
     ],
     "category": null,
     "deprecated": false,
-    "excerpt": "This guide walks you through setting up a WordPress site using Docker on Site Bay, offering a straightforward approach to launching your own website.",
+    "excerpt": "This guide walks you through setting up a WordPress site using Docker on SiteBay, offering a straightforward approach to launching your own website.",
     "excludeFromViews": [],
     "firstPublishedTime": 1714348800,
     "firstPublishedYear": 2024,
@@ -850,12 +995,12 @@
     "keywords": [
       "WordPress",
       "Docker",
-      "Site Bay"
+      "SiteBay"
     ],
     "keywordsAlgolia": [],
     "languages": null,
     "lastUpdatedTime": 1714295532,
-    "linkTitle": "Install WordPress with Docker on Site Bay",
+    "linkTitle": "Install WordPress with Docker on SiteBay",
     "objectID": "/docs/guides/sitebay-create-a-site/",
     "ordinal": 0,
     "section": "guides \u003e quick-answers \u003e sitebay",
@@ -869,7 +1014,7 @@
       "sitebay"
     ],
     "thumbnailUrl": "/docs/guides/sitebay-create-a-site/drupal_setup_choose_language_hub30e4c1b166dfeeea8f09a574ac9c231_742140_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
-    "title": "Install WordPress with Docker on Site Bay",
+    "title": "Install WordPress with Docker on SiteBay",
     "titleH1": "",
     "titleMeta": "",
     "titleSocial": "",
@@ -879,11 +1024,11 @@
   },
   {
     "authors": [
-      "Site Bay"
+      "SiteBay"
     ],
     "category": null,
     "deprecated": false,
-    "excerpt": "This guide explains how to deploy a WordPress site using Docker and Docker Compose on Site Bay, utilizing a LAMP stack within Docker containers.",
+    "excerpt": "This guide explains how to deploy a WordPress site using Docker and Docker Compose on SiteBay, utilizing a LAMP stack within Docker containers.",
     "excludeFromViews": [],
     "firstPublishedTime": 1714348800,
     "firstPublishedYear": 2024,
@@ -895,12 +1040,12 @@
       "Docker",
       "Docker Compose",
       "WordPress",
-      "Site Bay"
+      "SiteBay"
     ],
     "keywordsAlgolia": [],
     "languages": null,
     "lastUpdatedTime": 1714295532,
-    "linkTitle": "Launch WordPress with Docker Compose on Site Bay",
+    "linkTitle": "Launch WordPress with Docker Compose on SiteBay",
     "objectID": "/docs/guides/wordpress-with-docker-compose/",
     "ordinal": 0,
     "section": "guides \u003e quick-answers \u003e sitebay",
@@ -914,7 +1059,7 @@
       "sitebay"
     ],
     "thumbnailUrl": "/docs/guides/wordpress-with-docker-compose/docker-compose-wordpress-settings-screen_hufe56d727348747d8ba0bbb4285409d64_139050_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
-    "title": "Launch WordPress with Docker Compose on Site Bay",
+    "title": "Launch WordPress with Docker Compose on SiteBay",
     "titleH1": "",
     "titleMeta": "",
     "titleSocial": "",
@@ -926,7 +1071,7 @@
     "authors": [],
     "category": null,
     "deprecated": false,
-    "excerpt": "Explore the world of PHP development within WordPress hosting on Site Bay. This section is designed to empower both beginners and seasoned developers with the knowledge to utilize PHP effectively in their WordPress projects.",
+    "excerpt": "Explore the world of PHP development within WordPress hosting on SiteBay. This section is designed to empower both beginners and seasoned developers with the knowledge to utilize PHP effectively in their WordPress projects.",
     "excludeFromViews": [],
     "firstPublishedTime": 1714348800,
     "firstPublishedYear": 2024,
@@ -937,12 +1082,12 @@
     "keywords": [
       "php development",
       "wordpress",
-      "site bay"
+      "SiteBay"
     ],
     "keywordsAlgolia": [],
     "languages": null,
     "lastUpdatedTime": 1714295532,
-    "linkTitle": "Mastering PHP on Site Bay",
+    "linkTitle": "Mastering PHP on SiteBay",
     "objectID": "/docs/guides/development/php/",
     "ordinal": 0,
     "section": "guides-branches \u003e development",
@@ -951,7 +1096,7 @@
     "skillLevel": null,
     "tags": null,
     "thumbnailUrl": "/docs/guides/development/php/feature_hu7502b10060d38ae689d73836eb8dfefe_5098_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
-    "title": "Mastering PHP on Site Bay",
+    "title": "Mastering PHP on SiteBay",
     "titleH1": "",
     "titleMeta": "",
     "titleSocial": "",
@@ -963,7 +1108,7 @@
     "authors": [],
     "category": null,
     "deprecated": false,
-    "excerpt": "Yo! Noticed your site\u0026rsquo;s lagging or just curious about who\u0026rsquo;s dropping by? Site Bay hooks you up with all the essentials for monitoring and logging your site\u0026rsquo;s traffic.",
+    "excerpt": "Yo! Noticed your site\u0026rsquo;s lagging or just curious about who\u0026rsquo;s dropping by? SiteBay hooks you up with all the essentials for monitoring and logging your site\u0026rsquo;s traffic.",
     "excludeFromViews": [],
     "firstPublishedTime": 1714348800,
     "firstPublishedYear": 2024,
@@ -1003,13 +1148,13 @@
     "authors": [],
     "category": null,
     "deprecated": false,
-    "excerpt": "A go-to guide for troubleshooting common WordPress problems on Site Bay, designed to get your site running smoothly again in no time.",
+    "excerpt": "A go-to guide for troubleshooting common WordPress problems on SiteBay, designed to get your site running smoothly again in no time.",
     "excludeFromViews": [],
     "firstPublishedTime": 1714348800,
     "firstPublishedYear": 2024,
     "hiddenguide": null,
     "hierarchy": [],
-    "href": "/docs/guides/troubleshooting-wordpress-on-site-bay/",
+    "href": "/docs/guides/troubleshooting-wordpress-on-sitebay/",
     "isBranch": false,
     "keywords": [
       "wordpress",
@@ -1020,16 +1165,16 @@
     "keywordsAlgolia": [],
     "languages": null,
     "lastUpdatedTime": 1714295532,
-    "linkTitle": "Troubleshooting WordPress on Site Bay",
-    "objectID": "/docs/guides/troubleshooting-wordpress-on-site-bay/",
+    "linkTitle": "Troubleshooting WordPress on SiteBay",
+    "objectID": "/docs/guides/troubleshooting-wordpress-on-sitebay/",
     "ordinal": 0,
     "section": "guides \u003e common-problems",
     "section.lvl0": "guides",
     "section.lvl1": "guides \u003e common-problems",
     "skillLevel": null,
     "tags": null,
-    "thumbnailUrl": "/docs/guides/troubleshooting-wordpress-on-site-bay/beginners-guide-to-wordpress_hu2e5baf9caf909fab8a6b27e2c4d613d4_547477_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
-    "title": "Troubleshooting WordPress on Site Bay",
+    "thumbnailUrl": "/docs/guides/troubleshooting-wordpress-on-sitebay/beginners-guide-to-wordpress_hu2e5baf9caf909fab8a6b27e2c4d613d4_547477_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
+    "title": "Troubleshooting WordPress on SiteBay",
     "titleH1": "",
     "titleMeta": "",
     "titleSocial": "",
@@ -1041,7 +1186,7 @@
     "authors": [],
     "category": null,
     "deprecated": false,
-    "excerpt": "A go-to guide for troubleshooting common WordPress problems on Site Bay, designed to get your site running smoothly again in no time.",
+    "excerpt": "A go-to guide for troubleshooting common WordPress problems on SiteBay, designed to get your site running smoothly again in no time.",
     "excludeFromViews": [],
     "firstPublishedTime": 1714348800,
     "firstPublishedYear": 2024,
@@ -1058,7 +1203,7 @@
     "keywordsAlgolia": [],
     "languages": null,
     "lastUpdatedTime": 1714295532,
-    "linkTitle": "Troubleshooting WordPress on Site Bay",
+    "linkTitle": "Troubleshooting WordPress on SiteBay",
     "objectID": "/docs/guides/common-problems/",
     "ordinal": 0,
     "section": "guides-branches",
@@ -1066,7 +1211,7 @@
     "skillLevel": null,
     "tags": null,
     "thumbnailUrl": "/docs/guides/common-problems/feature_hu21de23ef7ed65e2d8f66c61b946b8db6_10557_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
-    "title": "Troubleshooting WordPress on Site Bay",
+    "title": "Troubleshooting WordPress on SiteBay",
     "titleH1": "",
     "titleMeta": "",
     "titleSocial": "",
@@ -1078,7 +1223,7 @@
     "authors": [],
     "category": null,
     "deprecated": false,
-    "excerpt": "Yo! Noticed your site\u0026rsquo;s lagging or just curious about who\u0026rsquo;s dropping by? Site Bay hooks you up with all the essentials for monitoring and logging your site\u0026rsquo;s traffic.",
+    "excerpt": "Yo! Noticed your site\u0026rsquo;s lagging or just curious about who\u0026rsquo;s dropping by? SiteBay hooks you up with all the essentials for monitoring and logging your site\u0026rsquo;s traffic.",
     "excludeFromViews": [],
     "firstPublishedTime": 1714348800,
     "firstPublishedYear": 2024,
@@ -1149,13 +1294,13 @@
     "titleH1": "",
     "titleMeta": "",
     "titleSocial": "",
-    "toc": " Site Bay WordPress Hosting Viewing Current Usage or Overage Visits/storage overage Tax Information Payment Methods Accessing Invoice History Referral Credits Updating Credit Cards ",
+    "toc": " SiteBay WordPress Hosting Viewing Current Usage or Overage Visits/storage overage Tax Information Payment Methods Accessing Invoice History Referral Credits Updating Credit Cards ",
     "weightAge": 0,
     "weightSearchBoost": true
   },
   {
     "authors": [
-      "Site Bay"
+      "SiteBay"
     ],
     "category": null,
     "deprecated": false,
@@ -1191,11 +1336,11 @@
   },
   {
     "authors": [
-      "Site Bay"
+      "SiteBay"
     ],
     "category": null,
     "deprecated": false,
-    "excerpt": "Invite your team to collaborate on Site Bay for seamless WordPress management.",
+    "excerpt": "Invite your team to collaborate on SiteBay for seamless WordPress management.",
     "excludeFromViews": [],
     "firstPublishedTime": 1714262400,
     "firstPublishedYear": 2024,
@@ -1206,13 +1351,13 @@
     "keywords": [
       "wordpress hosting",
       "team collaboration",
-      "site bay teamwork",
+      "SiteBay teamwork",
       "project management"
     ],
     "keywordsAlgolia": [],
     "languages": null,
     "lastUpdatedTime": 1714295532,
-    "linkTitle": "Team Collaboration on Site Bay: Enhance Your WordPress Management",
+    "linkTitle": "Team Collaboration on SiteBay: Enhance Your WordPress Management",
     "objectID": "/docs/guides/sitebay-team-members/",
     "ordinal": 0,
     "section": "guides \u003e quick-answers \u003e sitebay-essentials",
@@ -1222,7 +1367,7 @@
     "skillLevel": null,
     "tags": null,
     "thumbnailUrl": "/docs/guides/sitebay-team-members/InviteTeam_hu43190505e8e4a62986b26331c9def480_476454_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
-    "title": "Team Collaboration on Site Bay: Enhance Your WordPress Management",
+    "title": "Team Collaboration on SiteBay: Enhance Your WordPress Management",
     "titleH1": "",
     "titleMeta": "",
     "titleSocial": "",
@@ -1232,11 +1377,11 @@
   },
   {
     "authors": [
-      "Site Bay"
+      "SiteBay"
     ],
     "category": null,
     "deprecated": false,
-    "excerpt": "Discover the fastest route to deploying NGINX on a Kubernetes cluster with Site Bay, designed for quick setup and easy management.",
+    "excerpt": "Discover the fastest route to deploying NGINX on a Kubernetes cluster with SiteBay, designed for quick setup and easy management.",
     "excludeFromViews": [],
     "firstPublishedTime": 1714176000,
     "firstPublishedYear": 2024,
@@ -1249,12 +1394,12 @@
       "wordpress",
       "deployment",
       "nginx",
-      "site bay"
+      "SiteBay"
     ],
     "keywordsAlgolia": [],
     "languages": null,
     "lastUpdatedTime": 1714295532,
-    "linkTitle": "Deploy NGINX on Kubernetes: Quick and Easy Setup with Site Bay",
+    "linkTitle": "Deploy NGINX on Kubernetes: Quick and Easy Setup with SiteBay",
     "objectID": "/docs/guides/kubernetes-fast-as-possible/",
     "ordinal": 0,
     "section": "guides \u003e kubernetes",
@@ -1266,10 +1411,10 @@
       "kubernetes",
       "nginx",
       "deployment",
-      "site bay"
+      "SiteBay"
     ],
     "thumbnailUrl": "/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
-    "title": "Deploy NGINX on Kubernetes: Quick and Easy Setup with Site Bay",
+    "title": "Deploy NGINX on Kubernetes: Quick and Easy Setup with SiteBay",
     "titleH1": "",
     "titleMeta": "",
     "titleSocial": "",
@@ -1279,11 +1424,11 @@
   },
   {
     "authors": [
-      "Site Bay"
+      "SiteBay"
     ],
     "category": null,
     "deprecated": false,
-    "excerpt": "This guide will show you how to harness the power of Kubernetes for your WordPress site on Site Bay, offering scalable, efficient, and automated deployment solutions.",
+    "excerpt": "This guide will show you how to harness the power of Kubernetes for your WordPress site on SiteBay, offering scalable, efficient, and automated deployment solutions.",
     "excludeFromViews": [],
     "firstPublishedTime": 1714176000,
     "firstPublishedYear": 2024,
@@ -1301,7 +1446,7 @@
     "keywordsAlgolia": [],
     "languages": null,
     "lastUpdatedTime": 1714295532,
-    "linkTitle": "Elevate Your WordPress Site with Kubernetes on Site Bay",
+    "linkTitle": "Elevate Your WordPress Site with Kubernetes on SiteBay",
     "objectID": "/docs/guides/benefits-of-wordpress-on-kubernetes/",
     "ordinal": 0,
     "section": "guides \u003e kubernetes",
@@ -1316,7 +1461,7 @@
       "container"
     ],
     "thumbnailUrl": "/docs/guides/benefits-of-wordpress-on-kubernetes/DeployNGINX_Linode_hu3984f387b80f3f5229d75e3cf41e581e_232713_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
-    "title": "Elevate Your WordPress Site with Kubernetes on Site Bay",
+    "title": "Elevate Your WordPress Site with Kubernetes on SiteBay",
     "titleH1": "",
     "titleMeta": "",
     "titleSocial": "",
@@ -1326,7 +1471,7 @@
   },
   {
     "authors": [
-      "Site Bay"
+      "SiteBay"
     ],
     "category": null,
     "deprecated": false,
@@ -1344,12 +1489,12 @@
       "container",
       "deployment",
       "nginx",
-      "site bay"
+      "SiteBay"
     ],
     "keywordsAlgolia": [],
     "languages": null,
     "lastUpdatedTime": 1714295532,
-    "linkTitle": "Elevating WordPress Performance with Kubernetes and NGINX on Site Bay",
+    "linkTitle": "Elevating WordPress Performance with Kubernetes and NGINX on SiteBay",
     "objectID": "/docs/guides/troubleshooting-wordpress-on-kubernetes/",
     "ordinal": 0,
     "section": "guides \u003e kubernetes",
@@ -1361,10 +1506,10 @@
       "kubernetes",
       "nginx",
       "deployment",
-      "site bay"
+      "SiteBay"
     ],
     "thumbnailUrl": "/docs/guides/troubleshooting-wordpress-on-kubernetes/DeployNGINX_Linode_hu3984f387b80f3f5229d75e3cf41e581e_232713_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
-    "title": "Elevating WordPress Performance with Kubernetes and NGINX on Site Bay",
+    "title": "Elevating WordPress Performance with Kubernetes and NGINX on SiteBay",
     "titleH1": "",
     "titleMeta": "",
     "titleSocial": "",
@@ -1413,7 +1558,7 @@
   },
   {
     "authors": [
-      "Site Bay"
+      "SiteBay"
     ],
     "category": null,
     "deprecated": false,
@@ -1435,7 +1580,7 @@
     "keywordsAlgolia": [],
     "languages": null,
     "lastUpdatedTime": 1714634515,
-    "linkTitle": "Leveraging Feature Flags for A/B Testing on Site Bay",
+    "linkTitle": "Leveraging Feature Flags for A/B Testing on SiteBay",
     "objectID": "/docs/products/posthog/feature-flags/",
     "ordinal": 0,
     "section": "products \u003e posthog",
@@ -1448,7 +1593,7 @@
       "A/B testing"
     ],
     "thumbnailUrl": "/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
-    "title": "PostHog - Leveraging Feature Flags for A/B Testing on Site Bay",
+    "title": "PostHog - Leveraging Feature Flags for A/B Testing on SiteBay",
     "titleH1": "",
     "titleMeta": "How to Manage Feature Flags for WordPress Sites",
     "titleSocial": "",
@@ -1460,7 +1605,7 @@
     "authors": [],
     "category": null,
     "deprecated": false,
-    "excerpt": "Learn how to use WP-CLI, the command-line interface for WordPress, to manage your Site Bay WordPress sites more efficiently.",
+    "excerpt": "Learn how to use WP-CLI, the command-line interface for WordPress, to manage your SiteBay WordPress sites more efficiently.",
     "excludeFromViews": [],
     "firstPublishedTime": 1714176000,
     "firstPublishedYear": 2024,
@@ -1476,7 +1621,7 @@
     "keywordsAlgolia": [],
     "languages": null,
     "lastUpdatedTime": 1714295532,
-    "linkTitle": "Mastering WP-CLI on Site Bay",
+    "linkTitle": "Mastering WP-CLI on SiteBay",
     "objectID": "/docs/guides/wp-cli-tutorial/",
     "ordinal": 0,
     "section": "guides \u003e troubleshooting",
@@ -1487,7 +1632,7 @@
       "wordpress"
     ],
     "thumbnailUrl": "/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
-    "title": "Mastering WP-CLI on Site Bay",
+    "title": "Mastering WP-CLI on SiteBay",
     "titleH1": "",
     "titleMeta": "",
     "titleSocial": "",
@@ -1497,7 +1642,7 @@
   },
   {
     "authors": [
-      "Site Bay"
+      "SiteBay"
     ],
     "category": null,
     "deprecated": false,
@@ -1518,8 +1663,8 @@
     ],
     "keywordsAlgolia": [],
     "languages": null,
-    "lastUpdatedTime": 1714295532,
-    "linkTitle": "Grant a Developer Access a WordPress Site or Site Bay Account",
+    "lastUpdatedTime": 1714717213,
+    "linkTitle": "Grant a Developer Access a WordPress Site or SiteBay Account",
     "objectID": "/docs/products/platform/get-started/guides/developer-access/",
     "ordinal": 0,
     "section": "products \u003e platform \u003e get-started \u003e guides",
@@ -1537,11 +1682,11 @@
       "wordpress"
     ],
     "thumbnailUrl": "/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
-    "title": "Guides - Grant a Developer Access a WordPress Site or Site Bay Account",
+    "title": "Guides - Grant a Developer Access a WordPress Site or SiteBay Account",
     "titleH1": "",
     "titleMeta": "",
     "titleSocial": "",
-    "toc": " What to Keep Track of when Hiring a Developer My Site Bay Access Who Has Access to My Site Bay Account? Add a User to the Site Bay Account Revoke a User’s Access to the Site Bay Account ",
+    "toc": " What to Keep Track of when Hiring a Developer My SiteBay Access Who Has Access to My SiteBay Account? Add a User to the SiteBay Account Revoke a User’s Access to the SiteBay Account ",
     "weightAge": 0,
     "weightSearchBoost": true
   },
@@ -1549,7 +1694,7 @@
     "authors": [],
     "category": null,
     "deprecated": false,
-    "excerpt": "Navigate through the recovery process with ease, leveraging Site Bays tools to protect your data and recover your WordPress site from hacks.",
+    "excerpt": "Navigate through the recovery process with ease, using SiteBays tools to protect your data and recover your WordPress site from hacks.",
     "excludeFromViews": [],
     "firstPublishedTime": 1714089600,
     "firstPublishedYear": 2024,
@@ -1577,7 +1722,7 @@
     "tags": [
       "security",
       "resolving",
-      "My Site Bay"
+      "My SiteBay"
     ],
     "thumbnailUrl": "/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
     "title": "Recovering from a WordPress Hack",
@@ -1592,7 +1737,7 @@
     "authors": [],
     "category": null,
     "deprecated": false,
-    "excerpt": "Learn how Site Bay makes billing simple",
+    "excerpt": "Learn how SiteBay makes billing simple",
     "excludeFromViews": [],
     "firstPublishedTime": 1714003200,
     "firstPublishedYear": 2024,
@@ -1620,7 +1765,7 @@
     "thumbnailUrl": "/docs/products/platform/billing/feature.svg",
     "title": "Platform - Billing",
     "titleH1": "",
-    "titleMeta": "Understanding How Billing Works on the Site Bay Platform",
+    "titleMeta": "Understanding How Billing Works on the SiteBay Platform",
     "titleSocial": "",
     "toc": " Understand How Billing Works Get a Plan Sleeping sites Paid plans Micro $19/month Starter $25/month Business $120/month More Info Region Specific Pricing Payments Refunds ",
     "weightAge": 0,
@@ -1630,7 +1775,7 @@
     "authors": [],
     "category": null,
     "deprecated": false,
-    "excerpt": "Learn how to cancel a Site Bay account through the My Site Bay.",
+    "excerpt": "Learn how to cancel a SiteBay account through the My SiteBay.",
     "excludeFromViews": [],
     "firstPublishedTime": 1714003200,
     "firstPublishedYear": 2024,
@@ -1653,12 +1798,12 @@
     "skillLevel": null,
     "tags": [
       "sitebay platform",
-      "My Site Bay"
+      "My SiteBay"
     ],
     "thumbnailUrl": "/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
     "title": "Guides - Cancel Your Account",
     "titleH1": "",
-    "titleMeta": "How to Cancel an Account on the Site Bay Platform",
+    "titleMeta": "How to Cancel an Account on the SiteBay Platform",
     "titleSocial": "",
     "toc": "",
     "weightAge": 0,
@@ -1666,7 +1811,7 @@
   },
   {
     "authors": [
-      "Site Bay"
+      "SiteBay"
     ],
     "category": null,
     "deprecated": false,
@@ -1706,11 +1851,11 @@
   },
   {
     "authors": [
-      "Site Bay"
+      "SiteBay"
     ],
     "category": null,
     "deprecated": false,
-    "excerpt": "The ps aux command is a vital tool for monitoring processes on your Linux system, especially within a Site Bay WordPress hosting environment. This guide explains its importance and how to utilize it.",
+    "excerpt": "The ps aux command is a vital tool for monitoring processes on your Linux system, especially within a SiteBay WordPress hosting environment. This guide explains its importance and how to utilize it.",
     "excludeFromViews": [],
     "firstPublishedTime": 1714003200,
     "firstPublishedYear": 2024,
@@ -1726,7 +1871,7 @@
     "keywordsAlgolia": [],
     "languages": null,
     "lastUpdatedTime": 1714295532,
-    "linkTitle": "Mastering Process Monitoring in Site Bay with the ps aux Command",
+    "linkTitle": "Mastering Process Monitoring in SiteBay with the ps aux Command",
     "objectID": "/docs/guides/use-the-ps-aux-command-in-sitebay/",
     "ordinal": 0,
     "section": "guides \u003e quick-answers \u003e sitebay",
@@ -1738,9 +1883,9 @@
       "sitebay"
     ],
     "thumbnailUrl": "/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
-    "title": "Mastering Process Monitoring in Site Bay with the ps aux Command",
+    "title": "Mastering Process Monitoring in SiteBay with the ps aux Command",
     "titleH1": "",
-    "titleMeta": "How to Use the ps aux Command in Site Bay's WordPress Hosting",
+    "titleMeta": "How to Use the ps aux Command in SiteBay's WordPress Hosting",
     "titleSocial": "",
     "toc": "",
     "weightAge": 0,
@@ -1748,7 +1893,7 @@
   },
   {
     "authors": [
-      "Site Bay"
+      "SiteBay"
     ],
     "category": null,
     "deprecated": false,
@@ -1769,7 +1914,7 @@
     "keywordsAlgolia": [],
     "languages": null,
     "lastUpdatedTime": 1714295532,
-    "linkTitle": "Transfer a WordPress Site to Site Bay's WordPress Hosting",
+    "linkTitle": "Transfer a WordPress Site to SiteBay's WordPress Hosting",
     "objectID": "/docs/guides/transferring-a-wordpress-site-to-a-new-server/",
     "ordinal": 0,
     "section": "guides \u003e quick-answers \u003e websites",
@@ -1778,17 +1923,17 @@
     "section.lvl2": "guides \u003e quick-answers \u003e websites",
     "skillLevel": null,
     "tags": [
-      "apache",
-      "nginx",
-      "ubuntu",
-      "linux"
+      "wordpress",
+      "transfer",
+      "migration",
+      "hosting"
     ],
     "thumbnailUrl": "/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
-    "title": "Transfer a WordPress Site to Site Bay's WordPress Hosting",
+    "title": "Transfer a WordPress Site to SiteBay's WordPress Hosting",
     "titleH1": "",
     "titleMeta": "",
     "titleSocial": "",
-    "toc": "",
+    "toc": " Before You Start Exporting Your WordPress Site Backing Up Your Site ",
     "weightAge": 0,
     "weightSearchBoost": false
   },
@@ -1796,7 +1941,7 @@
     "authors": [],
     "category": null,
     "deprecated": false,
-    "excerpt": "Best practices when migrating a website to Site Bay.",
+    "excerpt": "Best practices when migrating a website to SiteBay.",
     "excludeFromViews": [],
     "firstPublishedTime": 1713916800,
     "firstPublishedYear": 2024,
@@ -1811,7 +1956,7 @@
     "keywordsAlgolia": [],
     "languages": null,
     "lastUpdatedTime": 1714295532,
-    "linkTitle": "Best Practices when Migrating to Site Bay",
+    "linkTitle": "Best Practices when Migrating to SiteBay",
     "objectID": "/docs/platform/migrate-to-sitebay/best-practices-when-migrating-to-sitebay/",
     "ordinal": 0,
     "section": "platform \u003e migrate-to-sitebay",
@@ -1822,7 +1967,7 @@
       "sitebay platform"
     ],
     "thumbnailUrl": "/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
-    "title": "Best Practices when Migrating to Site Bay",
+    "title": "Best Practices when Migrating to SiteBay",
     "titleH1": "",
     "titleMeta": "",
     "titleSocial": "",
@@ -1832,11 +1977,11 @@
   },
   {
     "authors": [
-      "Site Bay"
+      "SiteBay"
     ],
     "category": null,
     "deprecated": false,
-    "excerpt": "Discover the power of open source software with Site Bay’s WordPress hosting, leveraging PostHog, recordings, and Grafana for optimal performance and flexibility.",
+    "excerpt": "Discover the power of open source software with SiteBay’s WordPress hosting, using PostHog, recordings, and Grafana for optimal performance and flexibility.",
     "excludeFromViews": [],
     "firstPublishedTime": 1713916800,
     "firstPublishedYear": 2024,
@@ -1852,7 +1997,7 @@
     "keywordsAlgolia": [],
     "languages": null,
     "lastUpdatedTime": 1714295532,
-    "linkTitle": "Embracing the Advantages of Open Source Software with Site Bay",
+    "linkTitle": "Embracing the Advantages of Open Source Software with SiteBay",
     "objectID": "/docs/guides/open-source-software-benefits/",
     "ordinal": 0,
     "section": "guides \u003e quick-answers \u003e sitebay",
@@ -1867,9 +2012,9 @@
       "grafana"
     ],
     "thumbnailUrl": "/docs/guides/open-source-software-benefits/OpenSource_hu2fb2b37a86777ea2736f2234144098ee_200739_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
-    "title": "Embracing the Advantages of Open Source Software with Site Bay",
+    "title": "Embracing the Advantages of Open Source Software with SiteBay",
     "titleH1": "",
-    "titleMeta": "Open Source Software: Unlocking Potential with Site Bay",
+    "titleMeta": "Open Source Software: Unlocking Potential with SiteBay",
     "titleSocial": "",
     "toc": " Cost-Effectiveness Crowdsourced Development Enhanced Security and Transparency Superior Reliability Unmatched Flexibility Freedom from Vendor Lock-In Abundance of Web-Based Tools Simplified License Management Broad Community Support Embrace of Container Technology Conclusion ",
     "weightAge": 0,
@@ -1890,7 +2035,7 @@
     "keywords": [],
     "keywordsAlgolia": [],
     "languages": null,
-    "lastUpdatedTime": 1714295532,
+    "lastUpdatedTime": 1714717213,
     "linkTitle": "Get Started",
     "objectID": "/docs/products/site-bot/get-started/",
     "ordinal": 20,
@@ -1904,13 +2049,13 @@
     "titleH1": "",
     "titleMeta": "Getting Started with Site Bot",
     "titleSocial": "",
-    "toc": " Open the Site Bot Side Panel Make a Site with Site Bot Buy a Plan with Site Bot Post Content on Your Site Bay WordPress Site Get Installed Plugins Restore Your Website Grab a Link to The Latest Session Recording Cool prompts to try ",
+    "toc": " Open the Site Bot Side Panel Make a Site with Site Bot Buy a Plan with Site Bot Post Content on Your SiteBay WordPress Site Get Installed Plugins Restore Your Website Grab a Link to The Latest Session Recording Cool prompts to try ",
     "weightAge": 0,
     "weightSearchBoost": true
   },
   {
     "authors": [
-      "Site Bay"
+      "SiteBay"
     ],
     "category": null,
     "deprecated": false,
@@ -1956,7 +2101,7 @@
     "authors": [],
     "category": null,
     "deprecated": false,
-    "excerpt": "How to start your own website design agency using Site Bay's hosting services",
+    "excerpt": "How to start your own website design agency using SiteBay's hosting services",
     "excludeFromViews": [],
     "firstPublishedTime": 1713916800,
     "firstPublishedYear": 2024,
@@ -1994,7 +2139,7 @@
   },
   {
     "authors": [
-      "Site Bay"
+      "SiteBay"
     ],
     "category": null,
     "deprecated": false,
@@ -2014,7 +2159,7 @@
     "keywordsAlgolia": [],
     "languages": null,
     "lastUpdatedTime": 1714295532,
-    "linkTitle": "Introduction to Site Bay Regions",
+    "linkTitle": "Introduction to SiteBay Regions",
     "objectID": "/docs/guides/introduction-to-sitebay-regions/",
     "ordinal": 0,
     "section": "guides \u003e quick-answers \u003e sitebay-essentials",
@@ -2026,7 +2171,7 @@
       "sitebay"
     ],
     "thumbnailUrl": "/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
-    "title": "Introduction to Site Bay Regions",
+    "title": "Introduction to SiteBay Regions",
     "titleH1": "",
     "titleMeta": "",
     "titleSocial": "",
@@ -2072,11 +2217,11 @@
   },
   {
     "authors": [
-      "Site Bay"
+      "SiteBay"
     ],
     "category": null,
     "deprecated": false,
-    "excerpt": "How to resell Site Bay services using the Site Bay API, and how to get started with the Site Bay referral program.",
+    "excerpt": "How to resell SiteBay services using the SiteBay API, and how to get started with the SiteBay referral program.",
     "excludeFromViews": [],
     "firstPublishedTime": 1713916800,
     "firstPublishedYear": 2024,
@@ -2095,7 +2240,7 @@
     "keywordsAlgolia": [],
     "languages": null,
     "lastUpdatedTime": 1714295532,
-    "linkTitle": "Resell Site Bay Services",
+    "linkTitle": "Resell SiteBay Services",
     "objectID": "/docs/products/platform/get-started/guides/resell-services/",
     "ordinal": 0,
     "section": "products \u003e platform \u003e get-started \u003e guides",
@@ -2108,57 +2253,11 @@
       "sitebay platform"
     ],
     "thumbnailUrl": "/docs/products/platform/get-started/guides/resell-services/how-to-resell-linode-services_hu6d16408b1121814378911b505dbbd1ff_25011_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
-    "title": "Guides - Resell Site Bay Services",
+    "title": "Guides - Resell SiteBay Services",
     "titleH1": "",
-    "titleMeta": "How to Resell Site Bay Services",
+    "titleMeta": "How to Resell SiteBay Services",
     "titleSocial": "",
-    "toc": " Referral Program Things Resellers Should Keep in Mind Site Bay API Frequently Asked Questions Can I Show Site Bay’s Logos on My Site? What Payment Methods are Available? Does Site Bay Have a White-Label Interface? Can I Model my Terms of Service on Site Bay’s ToS? ",
-    "weightAge": 0,
-    "weightSearchBoost": true
-  },
-  {
-    "authors": [
-      "Site Bay"
-    ],
-    "category": null,
-    "deprecated": false,
-    "excerpt": "Learn how to protect your Site Bay account using security measures and controls built-in to the Site Bay platform.",
-    "excludeFromViews": [],
-    "firstPublishedTime": 1713916800,
-    "firstPublishedYear": 2024,
-    "hiddenguide": null,
-    "hierarchy": [],
-    "href": "/docs/products/platform/accounts/guides/user-security-controls/",
-    "isBranch": false,
-    "keywords": [
-      "two-factor authentication",
-      "password",
-      "security",
-      "My Site Bay",
-      "token"
-    ],
-    "keywordsAlgolia": [],
-    "languages": null,
-    "lastUpdatedTime": 1714295532,
-    "linkTitle": "Security Controls for User Accounts",
-    "objectID": "/docs/products/platform/accounts/guides/user-security-controls/",
-    "ordinal": 0,
-    "section": "products \u003e platform \u003e accounts \u003e guides",
-    "section.lvl0": "products",
-    "section.lvl1": "products \u003e platform",
-    "section.lvl2": "products \u003e platform \u003e accounts",
-    "section.lvl3": "products \u003e platform \u003e accounts \u003e guides",
-    "skillLevel": null,
-    "tags": [
-      "security",
-      "My Site Bay"
-    ],
-    "thumbnailUrl": "/docs/products/platform/accounts/guides/user-security-controls/2fa_hu8dc54aba2d35cd06d8b0378159539389_47015_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
-    "title": "Guides - Security Controls for User Accounts",
-    "titleH1": "",
-    "titleMeta": "",
-    "titleSocial": "",
-    "toc": " 2FA (Two-Factor Authentication) Security Questions Configuring Security Questions. Phone Verification Adding a Verified Phone Number Multiple User Accounts ",
+    "toc": " Referral Program Things Resellers Should Keep in Mind SiteBay API Frequently Asked Questions Can I Show SiteBay’s Logos on My Site? What Payment Methods are Available? Does SiteBay Have a White-Label Interface? Can I Model my Terms of Service on SiteBay’s ToS? ",
     "weightAge": 0,
     "weightSearchBoost": true
   },
@@ -2166,7 +2265,7 @@
     "authors": [],
     "category": null,
     "deprecated": false,
-    "excerpt": "Dive into the essentials of system recovery with Site Bay, guiding you through planning and bouncing back from system compromises with ease.",
+    "excerpt": "Dive into the essentials of system recovery with SiteBay, guiding you through planning and bouncing back from system compromises with ease.",
     "excludeFromViews": [],
     "firstPublishedTime": 1713916800,
     "firstPublishedYear": 2024,
@@ -2202,7 +2301,7 @@
     "authors": [],
     "category": null,
     "deprecated": false,
-    "excerpt": "Dive into software development practices that streamline your coding process, making development on WordPress sites hosted on Site Bay not just efficient but enjoyable.",
+    "excerpt": "Dive into software development practices that streamline your coding process, making development on WordPress sites hosted on SiteBay not just efficient but enjoyable.",
     "excludeFromViews": [],
     "firstPublishedTime": 1713916800,
     "firstPublishedYear": 2024,
@@ -2213,12 +2312,12 @@
     "keywords": [
       "WordPress development",
       "programming tips",
-      "Site Bay hosting"
+      "SiteBay hosting"
     ],
     "keywordsAlgolia": [],
     "languages": null,
     "lastUpdatedTime": 1714295532,
-    "linkTitle": "Tips and Tricks for WordPress Development on Site Bay",
+    "linkTitle": "Tips and Tricks for WordPress Development on SiteBay",
     "objectID": "/docs/guides/development/tips-and-tricks/",
     "ordinal": 0,
     "section": "guides-branches \u003e development",
@@ -2227,7 +2326,7 @@
     "skillLevel": null,
     "tags": null,
     "thumbnailUrl": "/docs/guides/advanced-wordpress-development-techniques/Linode_WebDev_hu3f942cecc26c94a9f8b6e42137deab14_92386_640x0_resize_q75_catmullrom.jpg",
-    "title": "Tips and Tricks for WordPress Development on Site Bay",
+    "title": "Tips and Tricks for WordPress Development on SiteBay",
     "titleH1": "",
     "titleMeta": "",
     "titleSocial": "",
@@ -2272,7 +2371,7 @@
   },
   {
     "authors": [
-      "Site Bay"
+      "SiteBay"
     ],
     "category": null,
     "deprecated": false,
@@ -2351,7 +2450,7 @@
     "authors": [],
     "category": null,
     "deprecated": false,
-    "excerpt": "Get started with the Site Bay api. Learn to get an access token and learn about OpenAPI and swagger.",
+    "excerpt": "Get started with the SiteBay api. Learn to get an access token and learn about OpenAPI and swagger.",
     "excludeFromViews": [],
     "firstPublishedTime": 1713830400,
     "firstPublishedYear": 2024,
@@ -2376,9 +2475,9 @@
     "thumbnailUrl": "/docs/platform/api/getting-started-with-the-sitebay-api/00251-1715236896_hue754cf0a6f9889bf98a40bfb980b6834_401940_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
     "title": "Get Started",
     "titleH1": "",
-    "titleMeta": "Getting Started with the Site Bay API",
+    "titleMeta": "Getting Started with the SiteBay API",
     "titleSocial": "",
-    "toc": " Overview of the Site Bay API Essential API Functions Site Management Team Collaboration User and Account Management Billing and Payments Domain and Repository Management Getting Started: API Authentication and Setup Example: Creating a New Site Documentation and Support Conclusion ",
+    "toc": " Overview of the SiteBay API Essential API Functions Site Management Team Collaboration User and Account Management Billing and Payments Domain and Repository Management Getting Started: API Authentication and Setup Example: Creating a New Site Documentation and Support Conclusion ",
     "weightAge": 0,
     "weightSearchBoost": true
   },
@@ -2386,7 +2485,7 @@
     "authors": [],
     "category": null,
     "deprecated": false,
-    "excerpt": "Get started with the Site Bay Tools. Learn to clear your cache, turn on development mode, change your domain and create external paths.",
+    "excerpt": "Get started with the SiteBay Tools. Learn to clear your cache, turn on development mode, change your domain and create external paths.",
     "excludeFromViews": [],
     "firstPublishedTime": 1713830400,
     "firstPublishedYear": 2024,
@@ -2411,7 +2510,7 @@
     "thumbnailUrl": "/docs/products/tools/get-started/ToolsPage_hu4378f152c3faec8ffb6968cbd1c6cedc_486680_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
     "title": "Tools - Get Started",
     "titleH1": "",
-    "titleMeta": "Getting Started with the Site Bay Tools",
+    "titleMeta": "Getting Started with the SiteBay Tools",
     "titleSocial": "",
     "toc": " Optimize Your Site with External Paths Secure Your Website with HTTP Basic Authentication Domain Change Delete site Development Mode and Cache Management ",
     "weightAge": 0,
@@ -2476,7 +2575,7 @@
     ],
     "keywordsAlgolia": [],
     "languages": null,
-    "lastUpdatedTime": 1714295532,
+    "lastUpdatedTime": 1714717213,
     "linkTitle": "How to use the new soft-inpainting feature in AUTOMATIC1111 WebUI",
     "objectID": "/docs/guides/how-to-use-soft-inpainting/",
     "ordinal": 0,
@@ -2501,7 +2600,7 @@
   },
   {
     "authors": [
-      "Site Bay"
+      "SiteBay"
     ],
     "category": null,
     "deprecated": false,
@@ -2538,7 +2637,7 @@
     "thumbnailUrl": "/docs/guides/how-to-use-basic-commands-for-wordpress-linux/UseTheCDCommand_hu5547ec92b743b7c5968037b422f42ae9_1126149_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
     "title": "Navigating Your WordPress Code Server with Linux Commands",
     "titleH1": "",
-    "titleMeta": "Master Linux Commands for WordPress Hosting on Site Bay",
+    "titleMeta": "Master Linux Commands for WordPress Hosting on SiteBay",
     "titleSocial": "",
     "toc": " Understanding the cd Command Executing the cd Command ",
     "weightAge": 0,
@@ -2546,7 +2645,7 @@
   },
   {
     "authors": [
-      "Site Bay"
+      "SiteBay"
     ],
     "category": null,
     "deprecated": false,
@@ -2589,11 +2688,11 @@
   },
   {
     "authors": [
-      "Site Bay"
+      "SiteBay"
     ],
     "category": null,
     "deprecated": false,
-    "excerpt": "This section contains basic information about WordPress hosting on Kubernetes, utilizing tools like Posthog for analytics, and Grafana for monitoring, essential for managing your Site Bay WordPress hosting.",
+    "excerpt": "This section contains basic information about WordPress hosting on Kubernetes, utilizing tools like Posthog for analytics, and Grafana for monitoring, essential for managing your SiteBay WordPress hosting.",
     "excludeFromViews": [],
     "firstPublishedTime": 1713744000,
     "firstPublishedYear": 2024,
@@ -2605,7 +2704,7 @@
     "keywordsAlgolia": [],
     "languages": null,
     "lastUpdatedTime": 1714295532,
-    "linkTitle": "WordPress Hosting Essentials on Site Bay",
+    "linkTitle": "WordPress Hosting Essentials on SiteBay",
     "objectID": "/docs/guides/quick-answers/sitebay-essentials/",
     "ordinal": 0,
     "section": "guides-branches \u003e quick-answers",
@@ -2614,7 +2713,7 @@
     "skillLevel": null,
     "tags": null,
     "thumbnailUrl": "/docs/guides/quick-answers/sitebay-essentials/feature_hu6cd7df748af64393bf5b40a797a133ae_2996_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
-    "title": "WordPress Hosting Essentials on Site Bay",
+    "title": "WordPress Hosting Essentials on SiteBay",
     "titleH1": "",
     "titleMeta": "",
     "titleSocial": "",
@@ -2626,7 +2725,7 @@
     "authors": [],
     "category": null,
     "deprecated": false,
-    "excerpt": "Learn how to manage your Site Bay user account, including adding multiple users and adjusting their permissions",
+    "excerpt": "Learn how to manage your SiteBay user account, including adding multiple users and adjusting their permissions",
     "excludeFromViews": [],
     "firstPublishedTime": 1713657600,
     "firstPublishedYear": 2024,
@@ -2657,7 +2756,7 @@
   },
   {
     "authors": [
-      "Site Bay"
+      "SiteBay"
     ],
     "category": null,
     "deprecated": false,
@@ -2689,13 +2788,13 @@
     "skillLevel": null,
     "tags": [
       "sitebay platform",
-      "My Site Bay",
+      "My SiteBay",
       "email"
     ],
     "thumbnailUrl": "/docs/products/platform/accounts/guides/change-user-email/ChangingYourEmailAddress_hue6f4587fa686ffa9756b25444bf3b7af_224524_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
     "title": "Guides - Change Your Email Address",
     "titleH1": "",
-    "titleMeta": "Change Your Email Address on a Site Bay Account",
+    "titleMeta": "Change Your Email Address on a SiteBay Account",
     "titleSocial": "",
     "toc": " Modify Billing Contact Email Modify User Account Email ",
     "weightAge": 0,
@@ -2705,7 +2804,7 @@
     "authors": [],
     "category": null,
     "deprecated": false,
-    "excerpt": "A collection of documentation related to managing Site Bay accounts and users",
+    "excerpt": "A collection of documentation related to managing SiteBay accounts and users",
     "excludeFromViews": [],
     "firstPublishedTime": 1713657600,
     "firstPublishedYear": 2024,
@@ -2726,10 +2825,10 @@
     "section.lvl2": "products-branches \u003e platform \u003e accounts",
     "skillLevel": null,
     "tags": null,
-    "thumbnailUrl": "/docs/products/platform/accounts/guides/user-security-controls/2fa_hu8dc54aba2d35cd06d8b0378159539389_47015_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
+    "thumbnailUrl": "/docs/products/platform/accounts/guides/change-user-email/ChangingYourEmailAddress_hue6f4587fa686ffa9756b25444bf3b7af_224524_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
     "title": "Accounts - Guides",
     "titleH1": "",
-    "titleMeta": "Guides and Tutorials for Managing Site Bay Accounts",
+    "titleMeta": "Guides and Tutorials for Managing SiteBay Accounts",
     "titleSocial": "",
     "toc": " Basics Security Controls Additional User Settings ",
     "weightAge": 0,
@@ -2739,7 +2838,7 @@
     "authors": [],
     "category": null,
     "deprecated": false,
-    "excerpt": "Learn how to manage permissions and restrict user access on a Site Bay account.",
+    "excerpt": "Learn how to manage permissions and restrict user access on a SiteBay account.",
     "excludeFromViews": [],
     "firstPublishedTime": 1713657600,
     "firstPublishedYear": 2024,
@@ -2768,7 +2867,7 @@
     "thumbnailUrl": "/docs/products/platform/accounts/guides/user-permissions/list-of-users_hud3cd7e93d8c0b090b8534eac2f1deb99_79722_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
     "title": "Guides - Manage User Permissions",
     "titleH1": "",
-    "titleMeta": "Manage User Permissions for a Site Bay User Account",
+    "titleMeta": "Manage User Permissions for a SiteBay User Account",
     "titleSocial": "",
     "toc": " View and Set Permissions for a User Permission Settings Full Account Access Create Services (Global Permissions) Billing Access Specific Services ",
     "weightAge": 0,
@@ -2778,7 +2877,7 @@
     "authors": [],
     "category": null,
     "deprecated": false,
-    "excerpt": "Learn how to view, edit, and manage users on a Site Bay account.",
+    "excerpt": "Learn how to view, edit, and manage users on a SiteBay account.",
     "excludeFromViews": [],
     "firstPublishedTime": 1713657600,
     "firstPublishedYear": 2024,
@@ -2790,7 +2889,7 @@
     "keywordsAlgolia": [],
     "languages": null,
     "lastUpdatedTime": 1714295532,
-    "linkTitle": "Manage Users on a Site Bay Account",
+    "linkTitle": "Manage Users on a SiteBay Account",
     "objectID": "/docs/products/platform/accounts/guides/manage-users/",
     "ordinal": 0,
     "section": "products \u003e platform \u003e accounts \u003e guides",
@@ -2801,7 +2900,7 @@
     "skillLevel": null,
     "tags": null,
     "thumbnailUrl": "/docs/products/platform/accounts/guides/manage-users/accounts-update-a-username_hud643f0e6507f65a8bd795d23f65fc980_22069_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
-    "title": "Guides - Manage Users on a Site Bay Account",
+    "title": "Guides - Manage Users on a SiteBay Account",
     "titleH1": "",
     "titleMeta": "",
     "titleSocial": "",
@@ -2811,7 +2910,7 @@
   },
   {
     "authors": [
-      "Site Bay"
+      "SiteBay"
     ],
     "category": null,
     "deprecated": false,
@@ -2839,7 +2938,7 @@
     "section.lvl2": "guides \u003e platform \u003e manager",
     "skillLevel": null,
     "tags": [
-      "site bay platform",
+      "SiteBay platform",
       "dashboard",
       "site bot"
     ],
@@ -2854,11 +2953,11 @@
   },
   {
     "authors": [
-      "Site Bay"
+      "SiteBay"
     ],
     "category": null,
     "deprecated": false,
-    "excerpt": "Learn how your Site Bay account's network transfer pool is calculated and billed.",
+    "excerpt": "Learn how your SiteBay account's network transfer pool is calculated and billed.",
     "excludeFromViews": [],
     "firstPublishedTime": 1713657600,
     "firstPublishedYear": 2024,
@@ -2982,11 +3081,11 @@
   },
   {
     "authors": [
-      "Site Bay"
+      "SiteBay"
     ],
     "category": null,
     "deprecated": false,
-    "excerpt": "Learn how to change your user's password on a Site Bay account.",
+    "excerpt": "Learn how to change your user's password on a SiteBay account.",
     "excludeFromViews": [],
     "firstPublishedTime": 1713657600,
     "firstPublishedYear": 2024,
@@ -2998,7 +3097,7 @@
       "password",
       "change password",
       "update password",
-      "My Site Bay"
+      "My SiteBay"
     ],
     "keywordsAlgolia": [],
     "languages": null,
@@ -3014,15 +3113,15 @@
     "skillLevel": null,
     "tags": [
       "sitebay platform",
-      "My Site Bay",
+      "My SiteBay",
       "security"
     ],
     "thumbnailUrl": "/docs/products/platform/accounts/guides/reset-user-password/L_ChangeYourPassword_hubde79b8492307ea1b2fe0f0d4da36a6c_196809_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
     "title": "Guides - Reset Your User Password",
     "titleH1": "",
-    "titleMeta": "Reset Your User Password on the Site Bay Platform",
+    "titleMeta": "Reset Your User Password on the SiteBay Platform",
     "titleSocial": "",
-    "toc": " Changing or Resetting Your My Site Bay Password ",
+    "toc": " Changing or Resetting Your My SiteBay Password ",
     "weightAge": 0,
     "weightSearchBoost": true
   },
@@ -3047,7 +3146,7 @@
     "keywordsAlgolia": [],
     "languages": null,
     "lastUpdatedTime": 1714295532,
-    "linkTitle": "Site Bay Support",
+    "linkTitle": "SiteBay Support",
     "objectID": "/docs/platform/billing-and-support/support/",
     "ordinal": 0,
     "section": "platform \u003e billing-and-support",
@@ -3058,17 +3157,17 @@
       "sitebay platform"
     ],
     "thumbnailUrl": "/docs/platform/billing-and-support/support/help_hu880231b8a3a004c3ac6022ebb6902fc5_441106_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
-    "title": "Site Bay Support",
+    "title": "SiteBay Support",
     "titleH1": "",
     "titleMeta": "",
     "titleSocial": "",
-    "toc": " Scope of Support Contacting Site Bay Support Reporting Abuse ",
+    "toc": " Scope of Support Contacting SiteBay Support Reporting Abuse ",
     "weightAge": 0,
     "weightSearchBoost": true
   },
   {
     "authors": [
-      "Site Bay"
+      "SiteBay"
     ],
     "category": null,
     "deprecated": false,
@@ -3082,13 +3181,13 @@
     "isBranch": false,
     "keywords": [
       "classic manager",
-      "My Site Bay",
+      "My SiteBay",
       "sitebay"
     ],
     "keywordsAlgolia": [],
     "languages": null,
     "lastUpdatedTime": 1714295532,
-    "linkTitle": "An Overview of the Site Bay Dashboard",
+    "linkTitle": "An Overview of the SiteBay Dashboard",
     "objectID": "/docs/guides/an-overview-of-mysitebay/",
     "ordinal": 0,
     "section": "guides \u003e platform \u003e manager",
@@ -3098,10 +3197,10 @@
     "skillLevel": null,
     "tags": [
       "sitebay platform",
-      "My Site Bay"
+      "My SiteBay"
     ],
     "thumbnailUrl": "/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
-    "title": "An Overview of the Site Bay Dashboard",
+    "title": "An Overview of the SiteBay Dashboard",
     "titleH1": "",
     "titleMeta": "",
     "titleSocial": "",
@@ -3113,7 +3212,7 @@
     "authors": [],
     "category": null,
     "deprecated": false,
-    "excerpt": "These tutorials describe important first steps for any new Site Bay user, and they answer common questions you might have when getting started.",
+    "excerpt": "These tutorials describe important first steps for any new SiteBay user, and they answer common questions you might have when getting started.",
     "excludeFromViews": [],
     "firstPublishedTime": 1713571200,
     "firstPublishedYear": 2024,
@@ -3149,7 +3248,7 @@
     "authors": [],
     "category": null,
     "deprecated": false,
-    "excerpt": "This quickstart tutorial shows you how to migrate from your current host to Site Bay.",
+    "excerpt": "This quickstart tutorial shows you how to migrate from your current host to SiteBay.",
     "excludeFromViews": [],
     "firstPublishedTime": 1713571200,
     "firstPublishedYear": 2024,
@@ -3173,12 +3272,12 @@
     "section.lvl2": "guides \u003e quick-answers \u003e sitebay",
     "skillLevel": null,
     "tags": [
-      "my site bay",
+      "my SiteBay",
       "migrate"
     ],
     "thumbnailUrl": "/docs/guides/how-to-compress-wordpress-site-to-zip/migrate-wordpress_hu53e2014d08ee1d8f24b9e57e74e32736_19671_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
     "title": "How to Migrate your WordPress site",
-    "titleH1": "Migrating to Site Bay",
+    "titleH1": "Migrating to SiteBay",
     "titleMeta": "",
     "titleSocial": "",
     "toc": "",
@@ -3189,7 +3288,7 @@
     "authors": [],
     "category": null,
     "deprecated": false,
-    "excerpt": "This quickstart tutorial shows you how to migrate from your current host to Site Bay.",
+    "excerpt": "This quickstart tutorial shows you how to migrate from your current host to SiteBay.",
     "excludeFromViews": [],
     "firstPublishedTime": 1713571200,
     "firstPublishedYear": 2024,
@@ -3213,12 +3312,12 @@
     "section.lvl2": "guides \u003e quick-answers \u003e sitebay",
     "skillLevel": null,
     "tags": [
-      "my site bay",
+      "my SiteBay",
       "migrate"
     ],
     "thumbnailUrl": "/docs/guides/how-to-migrate-your-site/migrate-wordpress_hu53e2014d08ee1d8f24b9e57e74e32736_19671_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
     "title": "How to Migrate your WordPress site",
-    "titleH1": "Migrating to Site Bay",
+    "titleH1": "Migrating to SiteBay",
     "titleMeta": "",
     "titleSocial": "",
     "toc": "",
@@ -3227,11 +3326,11 @@
   },
   {
     "authors": [
-      "Site Bay"
+      "SiteBay"
     ],
     "category": null,
     "deprecated": false,
-    "excerpt": "This guide shows you how to integrate Posthog surveys into your WordPress site hosted on Site Bay.",
+    "excerpt": "This guide shows you how to integrate Posthog surveys into your WordPress site hosted on SiteBay.",
     "excludeFromViews": [],
     "firstPublishedTime": 1713571200,
     "firstPublishedYear": 2024,
@@ -3243,7 +3342,7 @@
       "posthog",
       "surveys",
       "wordpress",
-      "site bay"
+      "SiteBay"
     ],
     "keywordsAlgolia": [],
     "languages": null,
@@ -3271,7 +3370,7 @@
     "authors": [],
     "category": null,
     "deprecated": false,
-    "excerpt": "Learn about Site Bay's recordings page.",
+    "excerpt": "Learn about SiteBay's recordings page.",
     "excludeFromViews": [],
     "firstPublishedTime": 1713571200,
     "firstPublishedYear": 2024,
@@ -3289,7 +3388,7 @@
     "keywordsAlgolia": [],
     "languages": null,
     "lastUpdatedTime": 1714295532,
-    "linkTitle": "Site Bay Recordings",
+    "linkTitle": "SiteBay Recordings",
     "objectID": "/docs/platform/recording/sitebay-recordings-page/",
     "ordinal": 0,
     "section": "platform \u003e recording",
@@ -3300,7 +3399,7 @@
       "sitebay platform"
     ],
     "thumbnailUrl": "/docs/platform/recording/sitebay-recordings-page/status-subscribe_hua59d4388dd4c8bcb2f7c264ee992cfc4_148504_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
-    "title": "Site Bay Recordings",
+    "title": "SiteBay Recordings",
     "titleH1": "",
     "titleMeta": "",
     "titleSocial": "",
@@ -3312,7 +3411,7 @@
     "authors": [],
     "category": null,
     "deprecated": false,
-    "excerpt": "Learn about Site Bay's status page.",
+    "excerpt": "Learn about SiteBay's status page.",
     "excludeFromViews": [],
     "firstPublishedTime": 1713571200,
     "firstPublishedYear": 2024,
@@ -3330,7 +3429,7 @@
     "keywordsAlgolia": [],
     "languages": null,
     "lastUpdatedTime": 1714295532,
-    "linkTitle": "Subscribe to Site Bay Status Updates",
+    "linkTitle": "Subscribe to SiteBay Status Updates",
     "objectID": "/docs/platform/monitoring/sitebay-status-page/",
     "ordinal": 0,
     "section": "platform \u003e monitoring",
@@ -3341,7 +3440,7 @@
       "sitebay platform"
     ],
     "thumbnailUrl": "/docs/platform/monitoring/sitebay-status-page/status-subscribe_hua59d4388dd4c8bcb2f7c264ee992cfc4_148504_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
-    "title": "Subscribe to Site Bay Status Updates",
+    "title": "Subscribe to SiteBay Status Updates",
     "titleH1": "",
     "titleMeta": "",
     "titleSocial": "",
@@ -3351,11 +3450,11 @@
   },
   {
     "authors": [
-      "Site Bay"
+      "SiteBay"
     ],
     "category": null,
     "deprecated": false,
-    "excerpt": "Learn how to subscribe to Site Bay system status and maintenance updates.",
+    "excerpt": "Learn how to subscribe to SiteBay system status and maintenance updates.",
     "excludeFromViews": [],
     "firstPublishedTime": 1713571200,
     "firstPublishedYear": 2024,
@@ -3373,7 +3472,7 @@
     "keywordsAlgolia": [],
     "languages": null,
     "lastUpdatedTime": 1714295532,
-    "linkTitle": "Subscribe to Site Bay Status Updates",
+    "linkTitle": "Subscribe to SiteBay Status Updates",
     "objectID": "/docs/products/platform/get-started/guides/status-page/",
     "ordinal": 0,
     "section": "products \u003e platform \u003e get-started \u003e guides",
@@ -3386,7 +3485,7 @@
       "sitebay platform"
     ],
     "thumbnailUrl": "/docs/products/platform/get-started/guides/status-page/status-page-subscribe_hu39ab47b6e1ce2d9e3f253f077bb7bd84_37811_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
-    "title": "Guides - Subscribe to Site Bay Status Updates",
+    "title": "Guides - Subscribe to SiteBay Status Updates",
     "titleH1": "",
     "titleMeta": "",
     "titleSocial": "",
@@ -3396,11 +3495,11 @@
   },
   {
     "authors": [
-      "Site Bay"
+      "SiteBay"
     ],
     "category": null,
     "deprecated": false,
-    "excerpt": "Dive into the world of Site Bay analytics with Posthog. Track user interactions, screen views, and more to understand how visitors engage with your WordPress sites.",
+    "excerpt": "Dive into the world of SiteBay analytics with Posthog. Track user interactions, screen views, and more to understand how visitors engage with your WordPress sites.",
     "excludeFromViews": [],
     "firstPublishedTime": 1713484800,
     "firstPublishedYear": 2024,
@@ -3409,7 +3508,7 @@
     "href": "/docs/products/posthog/events/",
     "isBranch": false,
     "keywords": [
-      "Site Bay analytics",
+      "SiteBay analytics",
       "Posthog for WordPress",
       "WordPress user tracking",
       "Posthog events",
@@ -3418,7 +3517,7 @@
     "keywordsAlgolia": [],
     "languages": null,
     "lastUpdatedTime": 1714634515,
-    "linkTitle": "Events with Posthog on Site Bay",
+    "linkTitle": "Events with Posthog on SiteBay",
     "objectID": "/docs/products/posthog/events/",
     "ordinal": 0,
     "section": "products \u003e posthog",
@@ -3427,9 +3526,9 @@
     "skillLevel": null,
     "tags": null,
     "thumbnailUrl": "/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
-    "title": "PostHog - Events with Posthog on Site Bay",
+    "title": "PostHog - Events with Posthog on SiteBay",
     "titleH1": "",
-    "titleMeta": "Leverage Posthog Analytics for Enhanced User Engagement on Site Bay",
+    "titleMeta": "Leverage Posthog Analytics for Enhanced User Engagement on SiteBay",
     "titleSocial": "",
     "toc": " Making Data-Driven Decisions Conclusion ",
     "weightAge": 0,
@@ -3437,11 +3536,11 @@
   },
   {
     "authors": [
-      "Site Bay"
+      "SiteBay"
     ],
     "category": null,
     "deprecated": false,
-    "excerpt": "Master Git for your Site Bay WordPress hosting: a step-by-step guide to initializing repositories, staging commits, and pushing updates.",
+    "excerpt": "Master Git for your SiteBay WordPress hosting: a step-by-step guide to initializing repositories, staging commits, and pushing updates.",
     "excludeFromViews": [],
     "firstPublishedTime": 1713484800,
     "firstPublishedYear": 2024,
@@ -3458,7 +3557,7 @@
     "keywordsAlgolia": [],
     "languages": null,
     "lastUpdatedTime": 1714295532,
-    "linkTitle": "Harnessing Git for Site Bay: A Comprehensive Guide",
+    "linkTitle": "Harnessing Git for SiteBay: A Comprehensive Guide",
     "objectID": "/docs/guides/how-to-use-git/",
     "ordinal": 0,
     "section": "guides \u003e quick-answers \u003e sitebay",
@@ -3471,7 +3570,7 @@
       "sitebay"
     ],
     "thumbnailUrl": "/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
-    "title": "Harnessing Git for Site Bay: A Comprehensive Guide",
+    "title": "Harnessing Git for SiteBay: A Comprehensive Guide",
     "titleH1": "",
     "titleMeta": "",
     "titleSocial": "",
@@ -3481,11 +3580,11 @@
   },
   {
     "authors": [
-      "Site Bay"
+      "SiteBay"
     ],
     "category": null,
     "deprecated": false,
-    "excerpt": "Learn how to keep your Site Bay WordPress site up to date with the latest changes from your Git repository using Git Sync.",
+    "excerpt": "Learn how to keep your SiteBay WordPress site up to date with the latest changes from your Git repository using Git Sync.",
     "excludeFromViews": [],
     "firstPublishedTime": 1713484800,
     "firstPublishedYear": 2024,
@@ -3502,7 +3601,7 @@
     "keywordsAlgolia": [],
     "languages": null,
     "lastUpdatedTime": 1714295532,
-    "linkTitle": "How to Use Git Sync on Site Bay",
+    "linkTitle": "How to Use Git Sync on SiteBay",
     "objectID": "/docs/guides/how-to-use-git-sync/",
     "ordinal": 0,
     "section": "guides \u003e quick-answers \u003e sitebay",
@@ -3514,9 +3613,9 @@
       "sitebay"
     ],
     "thumbnailUrl": "/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
-    "title": "How to Use Git Sync on Site Bay",
+    "title": "How to Use Git Sync on SiteBay",
     "titleH1": "",
-    "titleMeta": "Git Sync: Effortlessly Update Your Site Bay WordPress Site",
+    "titleMeta": "Git Sync: Effortlessly Update Your SiteBay WordPress Site",
     "titleSocial": "",
     "toc": "",
     "weightAge": 0,
@@ -3524,7 +3623,7 @@
   },
   {
     "authors": [
-      "Site Bay"
+      "SiteBay"
     ],
     "category": null,
     "deprecated": false,
@@ -3567,7 +3666,7 @@
   },
   {
     "authors": [
-      "Site Bay"
+      "SiteBay"
     ],
     "category": null,
     "deprecated": false,
@@ -3580,7 +3679,7 @@
     "href": "/docs/guides/site-bot/",
     "isBranch": false,
     "keywords": [
-      "site bay",
+      "SiteBay",
       "wordpress",
       "GPT",
       "AI management",
@@ -3609,7 +3708,7 @@
   },
   {
     "authors": [
-      "Site Bay"
+      "SiteBay"
     ],
     "category": null,
     "deprecated": false,
@@ -3655,7 +3754,7 @@
   },
   {
     "authors": [
-      "Site Bay"
+      "SiteBay"
     ],
     "category": null,
     "deprecated": false,
@@ -3739,7 +3838,7 @@
     "authors": [],
     "category": null,
     "deprecated": false,
-    "excerpt": "A collection of documentation related to managing billing, payments, and other related topics on the Site Bay platform.",
+    "excerpt": "A collection of documentation related to managing billing, payments, and other related topics on the SiteBay platform.",
     "excludeFromViews": [],
     "firstPublishedTime": 1713312000,
     "firstPublishedYear": 2024,
@@ -3773,7 +3872,7 @@
     "authors": [],
     "category": null,
     "deprecated": false,
-    "excerpt": "Dive into the basics of securing your WordPress site on Site Bay, including setting up user accounts, configuring a firewall, securing SSH, and disabling unused network services like XMLRPC.",
+    "excerpt": "Dive into the basics of securing your WordPress site on SiteBay, including setting up user accounts, configuring a firewall, securing SSH, and disabling unused network services like XMLRPC.",
     "excludeFromViews": [],
     "firstPublishedTime": 1713312000,
     "firstPublishedYear": 2024,
@@ -3813,7 +3912,7 @@
   },
   {
     "authors": [
-      "Site Bay"
+      "SiteBay"
     ],
     "category": null,
     "deprecated": false,
@@ -3855,7 +3954,7 @@
     "authors": [],
     "category": null,
     "deprecated": false,
-    "excerpt": "Learn what payment methods Site Bay accepts and how to view, add, and remove them.",
+    "excerpt": "Learn what payment methods SiteBay accepts and how to view, add, and remove them.",
     "excludeFromViews": [],
     "firstPublishedTime": 1713312000,
     "firstPublishedYear": 2024,
@@ -3890,7 +3989,7 @@
     "authors": [],
     "category": null,
     "deprecated": false,
-    "excerpt": "Learn what payment methods Site Bay accepts and how to view, add, and remove them.",
+    "excerpt": "Learn what payment methods SiteBay accepts and how to view, add, and remove them.",
     "excludeFromViews": [],
     "firstPublishedTime": 1713312000,
     "firstPublishedYear": 2024,
@@ -3923,11 +4022,11 @@
   },
   {
     "authors": [
-      "Site Bay"
+      "SiteBay"
     ],
     "category": null,
     "deprecated": false,
-    "excerpt": "Master time-saving techniques with the Linux \"alias\" command for creating customizable command shortcuts on Site Bay.",
+    "excerpt": "Master time-saving techniques with the Linux \"alias\" command for creating customizable command shortcuts on SiteBay.",
     "excludeFromViews": [],
     "firstPublishedTime": 1713312000,
     "firstPublishedYear": 2024,
@@ -3941,7 +4040,7 @@
     "keywordsAlgolia": [],
     "languages": null,
     "lastUpdatedTime": 1714295532,
-    "linkTitle": "Mastering Shortcuts with the Linux alias Command on Site Bay",
+    "linkTitle": "Mastering Shortcuts with the Linux alias Command on SiteBay",
     "objectID": "/docs/guides/how-to-use-the-sitebay-alias-command/",
     "ordinal": 0,
     "section": "guides \u003e quick-answers \u003e sitebay",
@@ -3953,9 +4052,9 @@
       "sitebay"
     ],
     "thumbnailUrl": "/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
-    "title": "Mastering Shortcuts with the Linux alias Command on Site Bay",
+    "title": "Mastering Shortcuts with the Linux alias Command on SiteBay",
     "titleH1": "",
-    "titleMeta": "How to Utilize the Linux alias Command on Site Bay",
+    "titleMeta": "How to Utilize the Linux alias Command on SiteBay",
     "titleSocial": "",
     "toc": "",
     "weightAge": 0,
@@ -3963,11 +4062,11 @@
   },
   {
     "authors": [
-      "Site Bay"
+      "SiteBay"
     ],
     "category": null,
     "deprecated": false,
-    "excerpt": "Discover how to utilize the xargs command within Site Bay’s WordPress hosting environment for effective command chaining and argument handling.",
+    "excerpt": "Discover how to utilize the xargs command within SiteBay’s WordPress hosting environment for effective command chaining and argument handling.",
     "excludeFromViews": [],
     "firstPublishedTime": 1713312000,
     "firstPublishedYear": 2024,
@@ -3978,13 +4077,13 @@
     "keywords": [
       "xargs examples",
       "WordPress",
-      "Site Bay",
+      "SiteBay",
       "command line"
     ],
     "keywordsAlgolia": [],
     "languages": null,
     "lastUpdatedTime": 1714295532,
-    "linkTitle": "Mastering the xargs Command on Site Bay WordPress Hosting",
+    "linkTitle": "Mastering the xargs Command on SiteBay WordPress Hosting",
     "objectID": "/docs/guides/using-xargs-with-examples/",
     "ordinal": 0,
     "section": "guides \u003e quick-answers \u003e sitebay",
@@ -3994,7 +4093,7 @@
     "skillLevel": null,
     "tags": null,
     "thumbnailUrl": "/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
-    "title": "Mastering the xargs Command on Site Bay WordPress Hosting",
+    "title": "Mastering the xargs Command on SiteBay WordPress Hosting",
     "titleH1": "",
     "titleMeta": "Efficient Use of the xargs Command in WordPress Hosting",
     "titleSocial": "",
@@ -4004,11 +4103,11 @@
   },
   {
     "authors": [
-      "Site Bay"
+      "SiteBay"
     ],
     "category": null,
     "deprecated": false,
-    "excerpt": "Explore your site's past events and restore your site to previous states using Site Bay's Point-in-Time (PIT) machine.",
+    "excerpt": "Explore your site's past events and restore your site to previous states using SiteBay's Point-in-Time (PIT) machine.",
     "excludeFromViews": [],
     "firstPublishedTime": 1713312000,
     "firstPublishedYear": 2024,
@@ -4025,7 +4124,7 @@
     "keywordsAlgolia": [],
     "languages": null,
     "lastUpdatedTime": 1714295532,
-    "linkTitle": "Navigating Your Site's History with Site Bay Dashboard",
+    "linkTitle": "Navigating Your Site's History with SiteBay Dashboard",
     "objectID": "/docs/guides/sitebay-dashboard-history/",
     "ordinal": 0,
     "section": "guides \u003e quick-answers \u003e sitebay",
@@ -4037,9 +4136,9 @@
       "sitebay"
     ],
     "thumbnailUrl": "/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
-    "title": "Navigating Your Site's History with Site Bay Dashboard",
+    "title": "Navigating Your Site's History with SiteBay Dashboard",
     "titleH1": "",
-    "titleMeta": "How to Use Site Bay Dashboard for Site History and Restoration",
+    "titleMeta": "How to Use SiteBay Dashboard for Site History and Restoration",
     "titleSocial": "",
     "toc": " Accessing Your Site’s History Restoring Your Site with the PIT Machine Tips ",
     "weightAge": 0,
@@ -4049,7 +4148,7 @@
     "authors": [],
     "category": null,
     "deprecated": false,
-    "excerpt": "Learn how to join Site Bay's referral program and gain credits when you refer new users",
+    "excerpt": "Learn how to join SiteBay's referral program and gain credits when you refer new users",
     "excludeFromViews": [],
     "firstPublishedTime": 1713312000,
     "firstPublishedYear": 2024,
@@ -4081,56 +4180,10 @@
     "weightSearchBoost": true
   },
   {
-    "authors": [
-      "Site Bay"
-    ],
-    "category": null,
-    "deprecated": false,
-    "excerpt": "Is your site enabled with NGINX or Apache? This guide explains how to quickly disable a website running on Apache/NGINX, \u0026 what's involved in re-enabling it.",
-    "excludeFromViews": [],
-    "firstPublishedTime": 1713312000,
-    "firstPublishedYear": 2024,
-    "hiddenguide": null,
-    "hierarchy": [],
-    "href": "/docs/guides/how-to-enable-disable-website/",
-    "isBranch": false,
-    "keywords": [
-      "enable website",
-      "disable website",
-      "apache",
-      "nginx"
-    ],
-    "keywordsAlgolia": [],
-    "languages": null,
-    "lastUpdatedTime": 1714295532,
-    "linkTitle": "Sites Enabled with NGINX or Apache",
-    "objectID": "/docs/guides/how-to-enable-disable-website/",
-    "ordinal": 0,
-    "section": "guides \u003e quick-answers \u003e websites",
-    "section.lvl0": "guides",
-    "section.lvl1": "guides \u003e quick-answers",
-    "section.lvl2": "guides \u003e quick-answers \u003e websites",
-    "skillLevel": null,
-    "tags": [
-      "apache",
-      "nginx",
-      "ubuntu",
-      "linux"
-    ],
-    "thumbnailUrl": "/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
-    "title": "Sites Enabled with NGINX or Apache",
-    "titleH1": "",
-    "titleMeta": "How to Enable Sites in NGINX or Apache",
-    "titleSocial": "",
-    "toc": "",
-    "weightAge": 0,
-    "weightSearchBoost": false
-  },
-  {
     "authors": [],
     "category": null,
     "deprecated": false,
-    "excerpt": "Instructions on removing services to stop charges from accruing on your Site Bay account.",
+    "excerpt": "Instructions on removing services to stop charges from accruing on your SiteBay account.",
     "excludeFromViews": [],
     "firstPublishedTime": 1713312000,
     "firstPublishedYear": 2024,
@@ -4165,7 +4218,7 @@
     "authors": [],
     "category": null,
     "deprecated": false,
-    "excerpt": "Review all invoices and payments on your Site Bay account.",
+    "excerpt": "Review all invoices and payments on your SiteBay account.",
     "excludeFromViews": [],
     "firstPublishedTime": 1713312000,
     "firstPublishedYear": 2024,
@@ -4198,11 +4251,11 @@
   },
   {
     "authors": [
-      "Site Bay"
+      "SiteBay"
     ],
     "category": null,
     "deprecated": false,
-    "excerpt": "Dive into the essentials of the Site Bay Manager.",
+    "excerpt": "Dive into the essentials of the SiteBay Manager.",
     "excludeFromViews": [],
     "firstPublishedTime": 1713225600,
     "firstPublishedYear": 2024,
@@ -4216,7 +4269,7 @@
     "keywordsAlgolia": [],
     "languages": null,
     "lastUpdatedTime": 1714295532,
-    "linkTitle": "Site Bay Manager",
+    "linkTitle": "SiteBay Manager",
     "objectID": "/docs/guides/platform/manager/",
     "ordinal": 0,
     "section": "guides-branches \u003e platform",
@@ -4225,7 +4278,7 @@
     "skillLevel": null,
     "tags": null,
     "thumbnailUrl": "/docs/guides/platform/manager/feature_hu847fb21d69bf1f122352314dc027afc3_4207_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
-    "title": "Site Bay Manager",
+    "title": "SiteBay Manager",
     "titleH1": "",
     "titleMeta": "",
     "titleSocial": "",
@@ -4237,7 +4290,7 @@
     "authors": [],
     "category": null,
     "deprecated": false,
-    "excerpt": "Learn how to edit the billing address, name, and other contact information on your Site Bay account.",
+    "excerpt": "Learn how to edit the billing address, name, and other contact information on your SiteBay account.",
     "excludeFromViews": [],
     "firstPublishedTime": 1713225600,
     "firstPublishedYear": 2024,
@@ -4272,7 +4325,7 @@
     "authors": [],
     "category": null,
     "deprecated": false,
-    "excerpt": "The Site Bay Tutorials style tutorial for article submissions",
+    "excerpt": "The SiteBay Tutorials style tutorial for article submissions",
     "excludeFromViews": [],
     "firstPublishedTime": 1713139200,
     "firstPublishedYear": 2024,
@@ -4293,7 +4346,7 @@
     "keywordsAlgolia": [],
     "languages": null,
     "lastUpdatedTime": 1714295532,
-    "linkTitle": "Site Bay Writer's Formatting Tutorial",
+    "linkTitle": "SiteBay Writer's Formatting Tutorial",
     "objectID": "/docs/guides/sitebay-writers-formatting-tutorial/",
     "ordinal": 0,
     "section": "guides",
@@ -4301,7 +4354,7 @@
     "skillLevel": null,
     "tags": null,
     "thumbnailUrl": "/docs/guides/sitebay-writers-formatting-tutorial/example-blue-stripe-table_hu051498d7a294515c314e169529d0aa81_17002_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
-    "title": "Site Bay Writer's Formatting Tutorial",
+    "title": "SiteBay Writer's Formatting Tutorial",
     "titleH1": "",
     "titleMeta": "",
     "titleSocial": "",
@@ -4313,7 +4366,7 @@
     "authors": [],
     "category": null,
     "deprecated": false,
-    "excerpt": "Explore advanced WordPress development techniques using Site Bay's powerful hosting capabilities, including working with remote environments.",
+    "excerpt": "Explore advanced WordPress development techniques using SiteBay's powerful hosting capabilities, including working with remote environments.",
     "excludeFromViews": [],
     "firstPublishedTime": 1713052800,
     "firstPublishedYear": 2024,
@@ -4331,7 +4384,7 @@
     "keywordsAlgolia": [],
     "languages": null,
     "lastUpdatedTime": 1714295532,
-    "linkTitle": "Advanced WordPress Development Techniques on Remote Devices with Site Bay",
+    "linkTitle": "Advanced WordPress Development Techniques on Remote Devices with SiteBay",
     "objectID": "/docs/guides/advanced-wordpress-development-techniques/",
     "ordinal": 0,
     "section": "guides \u003e development \u003e tips-and-tricks",
@@ -4346,7 +4399,7 @@
       "ide"
     ],
     "thumbnailUrl": "/docs/guides/advanced-wordpress-development-techniques/Linode_WebDev_hu3f942cecc26c94a9f8b6e42137deab14_92386_640x0_resize_q75_catmullrom.jpg",
-    "title": "Advanced WordPress Development Techniques on Remote Devices with Site Bay",
+    "title": "Advanced WordPress Development Techniques on Remote Devices with SiteBay",
     "titleH1": "",
     "titleMeta": "",
     "titleSocial": "",
@@ -4358,7 +4411,7 @@
     "authors": [],
     "category": null,
     "deprecated": false,
-    "excerpt": "Unlock the power of remote WordPress development with Site Bay, utilizing cutting-edge tools for a seamless development experience.",
+    "excerpt": "Unlock the power of remote WordPress development with SiteBay, utilizing cutting-edge tools for a seamless development experience.",
     "excludeFromViews": [],
     "firstPublishedTime": 1713052800,
     "firstPublishedYear": 2024,
@@ -4369,7 +4422,6 @@
     "keywords": [
       "docker",
       "container",
-      "portainer",
       "sitebay",
       "remote",
       "devices"
@@ -4377,7 +4429,7 @@
     "keywordsAlgolia": [],
     "languages": null,
     "lastUpdatedTime": 1714295532,
-    "linkTitle": "Mastering WordPress Development on Remote Devices with Site Bay",
+    "linkTitle": "Mastering WordPress Development on Remote Devices with SiteBay",
     "objectID": "/docs/guides/wordpress-development-on-remote-devices/",
     "ordinal": 0,
     "section": "guides \u003e development \u003e tips-and-tricks",
@@ -4392,11 +4444,11 @@
       "ide"
     ],
     "thumbnailUrl": "/docs/guides/wordpress-development-on-remote-devices/how-to-use-sitebay-git-sync_hu07522c31dae92a147b5fe819d5549fc3_244885_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
-    "title": "Mastering WordPress Development on Remote Devices with Site Bay",
+    "title": "Mastering WordPress Development on Remote Devices with SiteBay",
     "titleH1": "",
     "titleMeta": "",
     "titleSocial": "",
-    "toc": " Development Environments Local Development Remote Development Our Hybrid Recommended Approach Setting Up Site Bay’s Git Sync ",
+    "toc": " Development Environments Local Development Remote Development Our Hybrid Recommended Approach Setting Up SiteBay’s Git Sync ",
     "weightAge": 0,
     "weightSearchBoost": false
   },
@@ -4404,7 +4456,7 @@
     "authors": [],
     "category": null,
     "deprecated": false,
-    "excerpt": "Search the Site Bay support library",
+    "excerpt": "Search the SiteBay support library",
     "excludeFromViews": [],
     "firstPublishedTime": 1713052800,
     "firstPublishedYear": 2024,
@@ -4416,7 +4468,7 @@
     "keywordsAlgolia": [],
     "languages": null,
     "lastUpdatedTime": 1714295532,
-    "linkTitle": "Search Site Bay support",
+    "linkTitle": "Search SiteBay support",
     "objectID": "/docs/guides/search/",
     "ordinal": 0,
     "section": "guides",
@@ -4424,7 +4476,7 @@
     "skillLevel": null,
     "tags": null,
     "thumbnailUrl": "/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
-    "title": "Search Site Bay support",
+    "title": "Search SiteBay support",
     "titleH1": "",
     "titleMeta": "",
     "titleSocial": "",
@@ -4434,11 +4486,11 @@
   },
   {
     "authors": [
-      "Site Bay"
+      "SiteBay"
     ],
     "category": null,
     "deprecated": false,
-    "excerpt": "Unleash the power of the WP CLI: Your ultimate guide to mastering WordPress management from the command line with Site Bay hosting.",
+    "excerpt": "Unleash the power of the WP CLI: Your ultimate guide to mastering WordPress management from the command line with SiteBay hosting.",
     "excludeFromViews": [],
     "firstPublishedTime": 1712966400,
     "firstPublishedYear": 2024,
@@ -4474,17 +4526,17 @@
     "titleH1": "",
     "titleMeta": "",
     "titleSocial": "",
-    "toc": " Essential Terminal Commands for Navigating WordPress on Site Bay Simple Command Line Editing Instant Command Correction and Re-execution Correcting Typos Easily Changing a Command Action Quickly ",
+    "toc": " Essential Terminal Commands for Navigating WordPress on SiteBay Simple Command Line Editing Instant Command Correction and Re-execution Correcting Typos Easily Changing a Command Action Quickly ",
     "weightAge": 0,
     "weightSearchBoost": false
   },
   {
     "authors": [
-      "Site Bay"
+      "SiteBay"
     ],
     "category": null,
     "deprecated": false,
-    "excerpt": "My Site Bay includes the fantastic PostHog for analytics",
+    "excerpt": "My SiteBay includes the fantastic PostHog for analytics",
     "excludeFromViews": [],
     "firstPublishedTime": 1712966400,
     "firstPublishedYear": 2024,
@@ -4500,7 +4552,7 @@
     "keywordsAlgolia": [],
     "languages": null,
     "lastUpdatedTime": 1714295532,
-    "linkTitle": "Fast Analytics with PostHog on Site Bay",
+    "linkTitle": "Fast Analytics with PostHog on SiteBay",
     "objectID": "/docs/guides/posthog-analytics-fast-as-possible/",
     "ordinal": 0,
     "section": "guides \u003e platform \u003e manager",
@@ -4510,11 +4562,11 @@
     "skillLevel": null,
     "tags": null,
     "thumbnailUrl": "/docs/guides/posthog-analytics-fast-as-possible/locate-rdns-linode_hub82c59ab40545a0a245f12c41c3e3580_73718_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
-    "title": "Fast Analytics with PostHog on Site Bay",
+    "title": "Fast Analytics with PostHog on SiteBay",
     "titleH1": "",
     "titleMeta": "Effortless Migration to PostHog for Enhanced Site Analytics",
     "titleSocial": "",
-    "toc": " Key Benefits of Using PostHog with Site Bay Leveraging PostHog for Growth ",
+    "toc": " Key Benefits of Using PostHog with SiteBay Leveraging PostHog for Growth ",
     "weightAge": 0,
     "weightSearchBoost": false
   },
@@ -4561,11 +4613,11 @@
   },
   {
     "authors": [
-      "Site Bay"
+      "SiteBay"
     ],
     "category": null,
     "deprecated": false,
-    "excerpt": "My Site Bay includes Grafana for analytics and dashboards",
+    "excerpt": "My SiteBay includes Grafana for analytics and dashboards",
     "excludeFromViews": [],
     "firstPublishedTime": 1712966400,
     "firstPublishedYear": 2024,
@@ -4601,11 +4653,11 @@
   },
   {
     "authors": [
-      "Site Bay"
+      "SiteBay"
     ],
     "category": null,
     "deprecated": false,
-    "excerpt": "Combine the capabilities of the Cloudflare and Site Bay platforms.",
+    "excerpt": "Combine the capabilities of the Cloudflare and SiteBay platforms.",
     "excludeFromViews": [],
     "firstPublishedTime": 1712966400,
     "firstPublishedYear": 2024,
@@ -4640,13 +4692,13 @@
     "titleH1": "",
     "titleMeta": "",
     "titleSocial": "",
-    "toc": " Cloudflare’s CDN on Site Bay WordPress Platform Advantages of Using Cloudflare’s CDN Set up In Cloudflare In My Site Bay ",
+    "toc": " Cloudflare’s CDN on SiteBay WordPress Platform Advantages of Using Cloudflare’s CDN Set up In Cloudflare In My SiteBay ",
     "weightAge": 0,
     "weightSearchBoost": false
   },
   {
     "authors": [
-      "Site Bay"
+      "SiteBay"
     ],
     "category": null,
     "deprecated": false,
@@ -4686,7 +4738,7 @@
     "titleH1": "",
     "titleMeta": "",
     "titleSocial": "",
-    "toc": " The Setup Process Step 1: Site Bay Configuration Step 2: Cloudflare Integration Step 3: Email Service Setup ",
+    "toc": " The Setup Process Step 1: SiteBay Configuration Step 2: Cloudflare Integration Step 3: Email Service Setup ",
     "weightAge": 0,
     "weightSearchBoost": false
   },
@@ -4694,7 +4746,7 @@
     "authors": [],
     "category": null,
     "deprecated": false,
-    "excerpt": "An introduction to the PHP language tailored for WordPress development on Site Bay. Learn the ropes of backend development to enhance your WordPress site.",
+    "excerpt": "An introduction to the PHP language tailored for WordPress development on SiteBay. Learn the ropes of backend development to enhance your WordPress site.",
     "excludeFromViews": [],
     "firstPublishedTime": 1712188800,
     "firstPublishedYear": 2024,
@@ -4706,12 +4758,12 @@
       "php",
       "wordpress",
       "development",
-      "Site Bay"
+      "SiteBay"
     ],
     "keywordsAlgolia": [],
     "languages": null,
     "lastUpdatedTime": 1714295532,
-    "linkTitle": "A Beginner's Tutorial to PHP for WordPress Development on Site Bay",
+    "linkTitle": "A Beginner's Tutorial to PHP for WordPress Development on SiteBay",
     "objectID": "/docs/guides/beginners-tutorial-to-php-wordpress-developers/",
     "ordinal": 0,
     "section": "guides \u003e development \u003e php",
@@ -4721,8 +4773,8 @@
     "skillLevel": null,
     "tags": null,
     "thumbnailUrl": "/docs/guides/beginners-tutorial-to-php-wordpress-developers/get-started-php_hu68354e7387ac71c34c644aa38f1f918a_115248_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
-    "title": "A Beginner's Tutorial to PHP for WordPress Development on Site Bay",
-    "titleH1": "Getting Started with PHP for WordPress on Site Bay",
+    "title": "A Beginner's Tutorial to PHP for WordPress Development on SiteBay",
+    "titleH1": "Getting Started with PHP for WordPress on SiteBay",
     "titleMeta": "",
     "titleSocial": "",
     "toc": "",
@@ -4731,11 +4783,11 @@
   },
   {
     "authors": [
-      "Site Bay"
+      "SiteBay"
     ],
     "category": null,
     "deprecated": false,
-    "excerpt": "Learn how to streamline your WordPress management tasks in Site Bay using aliases for frequently used commands. This guide explains creating and removing aliases for efficiency.",
+    "excerpt": "Learn how to streamline your WordPress management tasks in SiteBay using aliases for frequently used commands. This guide explains creating and removing aliases for efficiency.",
     "excludeFromViews": [],
     "firstPublishedTime": 1712188800,
     "firstPublishedYear": 2024,
@@ -4747,12 +4799,12 @@
       "WordPress",
       "alias",
       "command line",
-      "Site Bay"
+      "SiteBay"
     ],
     "keywordsAlgolia": [],
     "languages": null,
     "lastUpdatedTime": 1714295532,
-    "linkTitle": "Alias Frequently Used Commands in Site Bay",
+    "linkTitle": "Alias Frequently Used Commands in SiteBay",
     "objectID": "/docs/guides/alias-frequently-used-commands/",
     "ordinal": 0,
     "section": "guides \u003e quick-answers \u003e sitebay",
@@ -4764,7 +4816,7 @@
       "sitebay"
     ],
     "thumbnailUrl": "/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
-    "title": "Alias Frequently Used Commands in Site Bay",
+    "title": "Alias Frequently Used Commands in SiteBay",
     "titleH1": "",
     "titleMeta": "",
     "titleSocial": "",
@@ -4774,7 +4826,7 @@
   },
   {
     "authors": [
-      "Site Bay"
+      "SiteBay"
     ],
     "category": null,
     "deprecated": false,
@@ -4818,7 +4870,7 @@
     "authors": [],
     "category": null,
     "deprecated": false,
-    "excerpt": "Introducing the new Site Bay Android app, your mobile solution for managing your WordPress sites on the go.",
+    "excerpt": "Introducing the new SiteBay Android app, your mobile solution for managing your WordPress sites on the go.",
     "excludeFromViews": [],
     "firstPublishedTime": 1712188800,
     "firstPublishedYear": 2024,
@@ -4827,26 +4879,26 @@
     "href": "/docs/guides/site-bay-android-app-introduction/",
     "isBranch": false,
     "keywords": [
-      "site bay app",
+      "SiteBay app",
       "wordpress mobile",
       "android app"
     ],
     "keywordsAlgolia": [],
     "languages": null,
     "lastUpdatedTime": 1714295532,
-    "linkTitle": "Early Access: Site Bay Android App",
+    "linkTitle": "Early Access: SiteBay Android App",
     "objectID": "/docs/guides/site-bay-android-app-introduction/",
     "ordinal": 0,
     "section": "guides",
     "section.lvl0": "guides",
     "skillLevel": null,
     "tags": [
-      "site bay",
+      "SiteBay",
       "mobile app",
       "android"
     ],
     "thumbnailUrl": "/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
-    "title": "Early Access: Site Bay Android App",
+    "title": "Early Access: SiteBay Android App",
     "titleH1": "",
     "titleMeta": "",
     "titleSocial": "",
@@ -4856,11 +4908,11 @@
   },
   {
     "authors": [
-      "Site Bay"
+      "SiteBay"
     ],
     "category": null,
     "deprecated": false,
-    "excerpt": "Discover how to efficiently manage file sizes on your Site Bay WordPress hosting environment by using tar and gzip for archiving and compression.",
+    "excerpt": "Discover how to efficiently manage file sizes on your SiteBay WordPress hosting environment by using tar and gzip for archiving and compression.",
     "excludeFromViews": [],
     "firstPublishedTime": 1712188800,
     "firstPublishedYear": 2024,
@@ -4873,12 +4925,12 @@
       "gzip",
       "file compression",
       "archive files",
-      "Site Bay hosting"
+      "SiteBay hosting"
     ],
     "keywordsAlgolia": [],
     "languages": null,
     "lastUpdatedTime": 1714295532,
-    "linkTitle": "Efficient File Management on Site Bay Hosting with Command Line Tools",
+    "linkTitle": "Efficient File Management on SiteBay Hosting with Command Line Tools",
     "objectID": "/docs/guides/compress-files-using-the-command-line/",
     "ordinal": 0,
     "section": "guides \u003e quick-answers \u003e sitebay",
@@ -4887,12 +4939,12 @@
     "section.lvl2": "guides \u003e quick-answers \u003e sitebay",
     "skillLevel": null,
     "tags": [
-      "Site Bay"
+      "SiteBay"
     ],
     "thumbnailUrl": "/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
-    "title": "Efficient File Management on Site Bay Hosting with Command Line Tools",
+    "title": "Efficient File Management on SiteBay Hosting with Command Line Tools",
     "titleH1": "",
-    "titleMeta": "Archiving, Compressing \u0026 Extracting Files on Site Bay with Linux Commands",
+    "titleMeta": "Archiving, Compressing \u0026 Extracting Files on SiteBay with Linux Commands",
     "titleSocial": "",
     "toc": "",
     "weightAge": 0,
@@ -4900,11 +4952,11 @@
   },
   {
     "authors": [
-      "Site Bay"
+      "SiteBay"
     ],
     "category": null,
     "deprecated": false,
-    "excerpt": "Master text searching within your WordPress files using grep on Site Bay's code-server.",
+    "excerpt": "Master text searching within your WordPress files using grep on SiteBay's code-server.",
     "excludeFromViews": [],
     "firstPublishedTime": 1712188800,
     "firstPublishedYear": 2024,
@@ -4913,7 +4965,7 @@
     "href": "/docs/guides/how-to-use-grep/",
     "isBranch": false,
     "keywords": [
-      "Site Bay",
+      "SiteBay",
       "grep",
       "text search",
       "WordPress",
@@ -4931,7 +4983,7 @@
     "section.lvl2": "guides \u003e quick-answers \u003e sitebay",
     "skillLevel": null,
     "tags": [
-      "Site Bay",
+      "SiteBay",
       "WordPress",
       "Development Tools"
     ],
@@ -4940,17 +4992,17 @@
     "titleH1": "",
     "titleMeta": "",
     "titleSocial": "",
-    "toc": "",
+    "toc": " Searching Within Files Using Regular Expressions Practical Applications Conclusion ",
     "weightAge": 0,
     "weightSearchBoost": false
   },
   {
     "authors": [
-      "Site Bay"
+      "SiteBay"
     ],
     "category": null,
     "deprecated": false,
-    "excerpt": "Explore how Site Bay utilizes point-in-time recovery for WordPress sites, enabling easy rollback and data restoration to specific moments.",
+    "excerpt": "Explore how SiteBay utilizes point-in-time recovery for WordPress sites, enabling easy rollback and data restoration to specific moments.",
     "excludeFromViews": [],
     "firstPublishedTime": 1712188800,
     "firstPublishedYear": 2024,
@@ -4959,7 +5011,7 @@
     "href": "/docs/guides/point-in-time-machine-wordpress/",
     "isBranch": false,
     "keywords": [
-      "Site Bay WordPress recovery",
+      "SiteBay WordPress recovery",
       "point-in-time recovery",
       "WordPress backup",
       "data restoration"
@@ -4967,7 +5019,7 @@
     "keywordsAlgolia": [],
     "languages": null,
     "lastUpdatedTime": 1714295532,
-    "linkTitle": "Effortless WordPress Recovery with Site Bay's Point-in-Time Machine",
+    "linkTitle": "Effortless WordPress Recovery with SiteBay's Point-in-Time Machine",
     "objectID": "/docs/guides/point-in-time-machine-wordpress/",
     "ordinal": 0,
     "section": "guides \u003e quick-answers \u003e sitebay",
@@ -4979,7 +5031,7 @@
       "sitebay"
     ],
     "thumbnailUrl": "/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
-    "title": "Effortless WordPress Recovery with Site Bay's Point-in-Time Machine",
+    "title": "Effortless WordPress Recovery with SiteBay's Point-in-Time Machine",
     "titleH1": "",
     "titleMeta": "",
     "titleSocial": "",
@@ -4989,11 +5041,11 @@
   },
   {
     "authors": [
-      "Site Bay"
+      "SiteBay"
     ],
     "category": null,
     "deprecated": false,
-    "excerpt": "Learn how to use code-server, Site Bay’s integrated development environment (IDE), for editing WordPress files directly within your browser.",
+    "excerpt": "Learn how to use code-server, SiteBay’s integrated development environment (IDE), for editing WordPress files directly within your browser.",
     "excludeFromViews": [],
     "firstPublishedTime": 1712188800,
     "firstPublishedYear": 2024,
@@ -5003,7 +5055,7 @@
     "isBranch": false,
     "keywords": [
       "code-server",
-      "Site Bay",
+      "SiteBay",
       "WordPress",
       "IDE",
       "browser-based editor"
@@ -5011,7 +5063,7 @@
     "keywordsAlgolia": [],
     "languages": null,
     "lastUpdatedTime": 1714295532,
-    "linkTitle": "Effortlessly Edit WordPress Files with Site Bay’s code-server",
+    "linkTitle": "Effortlessly Edit WordPress Files with SiteBay’s code-server",
     "objectID": "/docs/guides/use-code-server-to-edit-files-in-sitebay/",
     "ordinal": 0,
     "section": "guides \u003e quick-answers \u003e sitebay",
@@ -5027,17 +5079,17 @@
       "development"
     ],
     "thumbnailUrl": "/docs/guides/use-code-server-to-edit-files-in-sitebay/CodeServer_hu0a27bd8048c009d64e65307320d468cf_694098_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
-    "title": "Effortlessly Edit WordPress Files with Site Bay’s code-server",
+    "title": "Effortlessly Edit WordPress Files with SiteBay’s code-server",
     "titleH1": "",
     "titleMeta": "",
     "titleSocial": "",
-    "toc": " Getting Started with code-server on Site Bay Collaborative Editing and Debugging Conclusion ",
+    "toc": " Getting Started with code-server on SiteBay Collaborative Editing and Debugging Conclusion ",
     "weightAge": 0,
     "weightSearchBoost": false
   },
   {
     "authors": [
-      "Site Bay"
+      "SiteBay"
     ],
     "category": null,
     "deprecated": false,
@@ -5074,9 +5126,9 @@
     "thumbnailUrl": "/docs/guides/connect-an-external-site-to-wordpress/ExternalPaths_hu4378f152c3faec8ffb6968cbd1c6cedc_486680_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
     "title": "External Sites on a Subpath on WordPress",
     "titleH1": "",
-    "titleMeta": "Guide to adding other sites via a path on Site Bay Powerful WordPress Hosting",
+    "titleMeta": "Guide to adding other sites via a path on SiteBay Powerful WordPress Hosting",
     "titleSocial": "",
-    "toc": " Identify Your External Site Determine Your Path Navigate to the Site Bay Tools Tab Enter Your Details Validate and Test ",
+    "toc": " Identify Your External Site Determine Your Path Navigate to the SiteBay Tools Tab Enter Your Details Validate and Test ",
     "weightAge": 0,
     "weightSearchBoost": false
   },
@@ -5121,11 +5173,11 @@
   },
   {
     "authors": [
-      "Site Bay"
+      "SiteBay"
     ],
     "category": null,
     "deprecated": false,
-    "excerpt": "These guides include introductory projects that utilize the foundational services of the Cloudflare and Site Bay platforms.",
+    "excerpt": "These guides include introductory projects that utilize the foundational services of the Cloudflare and SiteBay platforms.",
     "excludeFromViews": [],
     "firstPublishedTime": 1712188800,
     "firstPublishedYear": 2024,
@@ -5164,7 +5216,7 @@
     "authors": [],
     "category": null,
     "deprecated": false,
-    "excerpt": "Manage and Develop your Wordpress in your browser on Site Bay.",
+    "excerpt": "Manage and Develop your Wordpress in your browser on SiteBay.",
     "excludeFromViews": [],
     "firstPublishedTime": 1712188800,
     "firstPublishedYear": 2024,
@@ -5189,14 +5241,14 @@
     "tags": [
       "sitebay platform",
       "kubernetes",
-      "My Site Bay"
+      "My SiteBay"
     ],
     "thumbnailUrl": "/docs/products/code-server/get-started/CodeServer_hu0a27bd8048c009d64e65307320d468cf_694098_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
     "title": "Code Server - Get Started",
     "titleH1": "",
-    "titleMeta": "Getting Started with Code Server (Manage and Develop your Wordpress in your browser on Site Bay)",
+    "titleMeta": "Getting Started with Code Server (Manage and Develop your Wordpress in your browser on SiteBay)",
     "titleSocial": "",
-    "toc": " Using Code Server (VSCode) on My Site Bay: A Simple Guide What is Code Server? Extensions Preinstalled: IntelliSense and Snippets for WordPress Wrap-Up Next Steps ",
+    "toc": " Using Code Server (VSCode) on My SiteBay: A Simple Guide What is Code Server? Extensions Preinstalled: IntelliSense and Snippets for WordPress Wrap-Up Next Steps ",
     "weightAge": 0,
     "weightSearchBoost": true
   },
@@ -5227,9 +5279,9 @@
     "thumbnailUrl": "/docs/products/git-sync/get-started/GitSync_hu86de1bad57253a2262faa32990e10649_284087_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
     "title": "Git-Sync - Get Started",
     "titleH1": "",
-    "titleMeta": "Getting Started with the Site Bay Bi-directional Git-Sync",
+    "titleMeta": "Getting Started with the SiteBay Bi-directional Git-Sync",
     "titleSocial": "",
-    "toc": " Introduction How It Works Setting Up Site Bay Git-Sync Prerequisites Steps ",
+    "toc": " Introduction How It Works Setting Up SiteBay Git-Sync Prerequisites Steps ",
     "weightAge": 0,
     "weightSearchBoost": true
   },
@@ -5262,13 +5314,13 @@
     "titleH1": "",
     "titleMeta": "",
     "titleSocial": "",
-    "toc": " Use Site Bay’s Point-in-time Machine ",
+    "toc": " Use SiteBay’s Point-in-time Machine ",
     "weightAge": 0,
     "weightSearchBoost": true
   },
   {
     "authors": [
-      "Site Bay"
+      "SiteBay"
     ],
     "category": null,
     "deprecated": false,
@@ -5286,7 +5338,7 @@
     "keywordsAlgolia": [],
     "languages": null,
     "lastUpdatedTime": 1714634515,
-    "linkTitle": "Grafana on Site Bay WordPress Hosting",
+    "linkTitle": "Grafana on SiteBay WordPress Hosting",
     "objectID": "/docs/products/posthog/web-analytics/",
     "ordinal": 0,
     "section": "products \u003e posthog",
@@ -5297,7 +5349,7 @@
       "sitebay"
     ],
     "thumbnailUrl": "/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
-    "title": "PostHog - Grafana on Site Bay WordPress Hosting",
+    "title": "PostHog - Grafana on SiteBay WordPress Hosting",
     "titleH1": "",
     "titleMeta": "",
     "titleSocial": "",
@@ -5309,7 +5361,7 @@
     "authors": [],
     "category": null,
     "deprecated": false,
-    "excerpt": "Decide which Site Bay WordPress hosting plan is right for you.",
+    "excerpt": "Decide which SiteBay WordPress hosting plan is right for you.",
     "excludeFromViews": [],
     "firstPublishedTime": 1712188800,
     "firstPublishedYear": 2024,
@@ -5326,7 +5378,7 @@
     "keywordsAlgolia": [],
     "languages": null,
     "lastUpdatedTime": 1714295532,
-    "linkTitle": "How to Choose a Site Bay Plan",
+    "linkTitle": "How to Choose a SiteBay Plan",
     "objectID": "/docs/platform/get-started/how-to-choose-a-sitebay-plan/",
     "ordinal": 0,
     "section": "platform \u003e get-started",
@@ -5337,7 +5389,7 @@
       "sitebay platform"
     ],
     "thumbnailUrl": "/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
-    "title": "How to Choose a Site Bay Plan",
+    "title": "How to Choose a SiteBay Plan",
     "titleH1": "",
     "titleMeta": "",
     "titleSocial": "",
@@ -5360,7 +5412,7 @@
     "keywords": [
       "Linux terminal",
       "terminal HOWTO",
-      "Site Bay terminal tutorial"
+      "SiteBay terminal tutorial"
     ],
     "keywordsAlgolia": [],
     "languages": null,
@@ -5387,7 +5439,7 @@
     "authors": [],
     "category": null,
     "deprecated": false,
-    "excerpt": "Shows how to export posts from a WordPress.com website and import them to WordPress on a Site Bay.",
+    "excerpt": "Shows how to export posts from a WordPress.com website and import them to WordPress on a SiteBay.",
     "excludeFromViews": [],
     "firstPublishedTime": 1712188800,
     "firstPublishedYear": 2024,
@@ -5404,7 +5456,7 @@
     "keywordsAlgolia": [],
     "languages": null,
     "lastUpdatedTime": 1714295532,
-    "linkTitle": "How to Migrate a WordPress.com Website to Site Bay",
+    "linkTitle": "How to Migrate a WordPress.com Website to SiteBay",
     "objectID": "/docs/platform/migrate-to-sitebay/migrate-a-wordpressdotcom-site-to-sitebay/",
     "ordinal": 0,
     "section": "platform \u003e migrate-to-sitebay",
@@ -5416,11 +5468,11 @@
       "wordpress"
     ],
     "thumbnailUrl": "/docs/platform/migrate-to-sitebay/migrate-a-wordpressdotcom-site-to-sitebay/tools-import-wordpress_hu5292a67d7f65d1b7a8e7da95d9dbe8ec_198033_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
-    "title": "How to Migrate a WordPress.com Website to Site Bay",
+    "title": "How to Migrate a WordPress.com Website to SiteBay",
     "titleH1": "",
     "titleMeta": "",
     "titleSocial": "",
-    "toc": " Migrate Your Website Create Your Site on Site Bay Export Your WordPress.com Content Import Your Content on your Site Bay hosted WordPress site Next Steps ",
+    "toc": " Migrate Your Website Create Your Site on SiteBay Export Your WordPress.com Content Import Your Content on your SiteBay hosted WordPress site Next Steps ",
     "weightAge": 0,
     "weightSearchBoost": true
   },
@@ -5428,7 +5480,7 @@
     "authors": [],
     "category": null,
     "deprecated": false,
-    "excerpt": "How find which Site Bay data center you should choose.",
+    "excerpt": "How find which SiteBay data center you should choose.",
     "excludeFromViews": [],
     "firstPublishedTime": -62135596800,
     "firstPublishedYear": 1,
@@ -5463,11 +5515,11 @@
   },
   {
     "authors": [
-      "Site Bay"
+      "SiteBay"
     ],
     "category": null,
     "deprecated": false,
-    "excerpt": "Discover how Site Bay utilizes Grafana for in-depth WordPress visitor insights on our Kubernetes-based hosting platform, featuring seamless integration with PostHog analytics.",
+    "excerpt": "Discover how SiteBay utilizes Grafana for in-depth WordPress visitor insights on our Kubernetes-based hosting platform, featuring seamless integration with PostHog analytics.",
     "excludeFromViews": [],
     "firstPublishedTime": 1712188800,
     "firstPublishedYear": 2024,
@@ -5484,7 +5536,7 @@
     "keywordsAlgolia": [],
     "languages": null,
     "lastUpdatedTime": 1714295532,
-    "linkTitle": "Leveraging Grafana for WordPress Insights at Site Bay",
+    "linkTitle": "Leveraging Grafana for WordPress Insights at SiteBay",
     "objectID": "/docs/guides/grafana-for-wordpress/",
     "ordinal": 0,
     "section": "guides \u003e quick-answers \u003e sitebay",
@@ -5498,7 +5550,7 @@
       "sitebay"
     ],
     "thumbnailUrl": "/docs/guides/grafana-for-wordpress/container-sitebay-login-lish_hu5fa61dd950d60f5fcf5277b9bfa6ea93_20242_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
-    "title": "Leveraging Grafana for WordPress Insights at Site Bay",
+    "title": "Leveraging Grafana for WordPress Insights at SiteBay",
     "titleH1": "",
     "titleMeta": "",
     "titleSocial": "",
@@ -5508,11 +5560,11 @@
   },
   {
     "authors": [
-      "Site Bay"
+      "SiteBay"
     ],
     "category": null,
     "deprecated": false,
-    "excerpt": "Use data management to organize events that come into Site Bay. Reduce noise, clarify usage, and help collaborators get the most value from your data. Events Actions Properties Annotations History Database",
+    "excerpt": "Use data management to organize events that come into SiteBay. Reduce noise, clarify usage, and help collaborators get the most value from your data. Events Actions Properties Annotations History Database",
     "excludeFromViews": [],
     "firstPublishedTime": 1712188800,
     "firstPublishedYear": 2024,
@@ -5530,7 +5582,7 @@
     "keywordsAlgolia": [],
     "languages": null,
     "lastUpdatedTime": 1714295532,
-    "linkTitle": "Mastering Data Management with PostHog on Site Bay",
+    "linkTitle": "Mastering Data Management with PostHog on SiteBay",
     "objectID": "/docs/guides/posthog-data-management/",
     "ordinal": 0,
     "section": "guides \u003e quick-answers \u003e sitebay",
@@ -5544,21 +5596,21 @@
       "data management"
     ],
     "thumbnailUrl": "/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
-    "title": "Mastering Data Management with PostHog on Site Bay",
+    "title": "Mastering Data Management with PostHog on SiteBay",
     "titleH1": "",
     "titleMeta": "",
     "titleSocial": "",
-    "toc": " Getting Started with PostHog on Site Bay Events Actions Properties Annotations History Putting It All Together ",
+    "toc": " Getting Started with PostHog on SiteBay Events Actions Properties Annotations History Putting It All Together ",
     "weightAge": 0,
     "weightSearchBoost": false
   },
   {
     "authors": [
-      "Site Bay"
+      "SiteBay"
     ],
     "category": null,
     "deprecated": false,
-    "excerpt": "Use data management to organize events that come into Site Bay. Reduce noise, clarify usage, and help collaborators get the most value from your data. Events Actions Properties Annotations History Database",
+    "excerpt": "Use data management to organize events that come into SiteBay. Reduce noise, clarify usage, and help collaborators get the most value from your data. Events Actions Properties Annotations History Database",
     "excludeFromViews": [],
     "firstPublishedTime": 1712188800,
     "firstPublishedYear": 2024,
@@ -5576,7 +5628,7 @@
     "keywordsAlgolia": [],
     "languages": null,
     "lastUpdatedTime": 1714389935,
-    "linkTitle": "Mastering Data Management with PostHog on Site Bay",
+    "linkTitle": "Mastering Data Management with PostHog on SiteBay",
     "objectID": "/docs/products/posthog/data-management/",
     "ordinal": 0,
     "section": "products \u003e posthog",
@@ -5589,7 +5641,7 @@
       "data management"
     ],
     "thumbnailUrl": "/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
-    "title": "PostHog - Mastering Data Management with PostHog on Site Bay",
+    "title": "PostHog - Mastering Data Management with PostHog on SiteBay",
     "titleH1": "",
     "titleMeta": "",
     "titleSocial": "",
@@ -5599,11 +5651,11 @@
   },
   {
     "authors": [
-      "Site Bay"
+      "SiteBay"
     ],
     "category": null,
     "deprecated": false,
-    "excerpt": "Site Bay Dashboard Tools: External Paths, HTTP Basic Authentication, Cloudflare Dev Mode, Clear Cache, Change Domain, Delete Site.",
+    "excerpt": "SiteBay Dashboard Tools: External Paths, HTTP Basic Authentication, Cloudflare Dev Mode, Clear Cache, Change Domain, Delete Site.",
     "excludeFromViews": [],
     "firstPublishedTime": 1712188800,
     "firstPublishedYear": 2024,
@@ -5624,7 +5676,7 @@
     "keywordsAlgolia": [],
     "languages": null,
     "lastUpdatedTime": 1714295532,
-    "linkTitle": "Maximizing Efficiency with Site Bay's Dashboard Tools",
+    "linkTitle": "Maximizing Efficiency with SiteBay's Dashboard Tools",
     "objectID": "/docs/guides/sitebay-dashboard-tools/",
     "ordinal": 0,
     "section": "guides \u003e quick-answers \u003e sitebay",
@@ -5636,7 +5688,7 @@
       "sitebay"
     ],
     "thumbnailUrl": "/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
-    "title": "Maximizing Efficiency with Site Bay's Dashboard Tools",
+    "title": "Maximizing Efficiency with SiteBay's Dashboard Tools",
     "titleH1": "",
     "titleMeta": "",
     "titleSocial": "",
@@ -5646,11 +5698,11 @@
   },
   {
     "authors": [
-      "Site Bay"
+      "SiteBay"
     ],
     "category": null,
     "deprecated": false,
-    "excerpt": "Discover how to leverage Site Bay’s powerful features for your WordPress hosting needs, including insights into PostHog analytics, Grafana dashboards, and more.",
+    "excerpt": "Discover how to leverage SiteBay’s powerful features for your WordPress hosting needs, including insights into PostHog analytics, Grafana dashboards, and more.",
     "excludeFromViews": [],
     "firstPublishedTime": 1712188800,
     "firstPublishedYear": 2024,
@@ -5668,7 +5720,7 @@
     "keywordsAlgolia": [],
     "languages": null,
     "lastUpdatedTime": 1714295532,
-    "linkTitle": "Maximizing WordPress Hosting with Site Bay's Advanced Tools",
+    "linkTitle": "Maximizing WordPress Hosting with SiteBay's Advanced Tools",
     "objectID": "/docs/guides/sitebay-template-sites/",
     "ordinal": 0,
     "section": "guides \u003e quick-answers \u003e sitebay",
@@ -5683,7 +5735,7 @@
       "monitoring"
     ],
     "thumbnailUrl": "/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
-    "title": "Maximizing WordPress Hosting with Site Bay's Advanced Tools",
+    "title": "Maximizing WordPress Hosting with SiteBay's Advanced Tools",
     "titleH1": "",
     "titleMeta": "",
     "titleSocial": "",
@@ -5693,11 +5745,11 @@
   },
   {
     "authors": [
-      "Site Bay"
+      "SiteBay"
     ],
     "category": null,
     "deprecated": false,
-    "excerpt": "Get recurring credits when you invite users to Site Bay",
+    "excerpt": "Get recurring credits when you invite users to SiteBay",
     "excludeFromViews": [],
     "firstPublishedTime": 1712188800,
     "firstPublishedYear": 2024,
@@ -5711,7 +5763,7 @@
     "keywordsAlgolia": [],
     "languages": null,
     "lastUpdatedTime": 1714295532,
-    "linkTitle": "Maximizing Your Earnings with Site Bay's Affiliate Program",
+    "linkTitle": "Maximizing Your Earnings with SiteBay's Affiliate Program",
     "objectID": "/docs/guides/affiliate-program/",
     "ordinal": 0,
     "section": "guides \u003e quick-answers \u003e sitebay-essentials",
@@ -5721,11 +5773,11 @@
     "skillLevel": null,
     "tags": null,
     "thumbnailUrl": "/docs/guides/affiliate-program/IntroAffiliateProgram_hu57a2c8669349162bcbd8e79ef1777177_1002774_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
-    "title": "Maximizing Your Earnings with Site Bay's Affiliate Program",
+    "title": "Maximizing Your Earnings with SiteBay's Affiliate Program",
     "titleH1": "",
     "titleMeta": "",
     "titleSocial": "",
-    "toc": " What is Site Bay’s Affiliate Program? How Does It Work? Why Join? Tips for Success ",
+    "toc": " What is SiteBay’s Affiliate Program? How Does It Work? Why Join? Tips for Success ",
     "weightAge": 0,
     "weightSearchBoost": false
   },
@@ -5733,7 +5785,7 @@
     "authors": [],
     "category": null,
     "deprecated": false,
-    "excerpt": "Site Bay's Point-in-time (PIT) Machine allows you to recover your site or individual files from against accidental deletions or misconfigurations.",
+    "excerpt": "SiteBay's Point-in-time (PIT) Machine allows you to recover your site or individual files from against accidental deletions or misconfigurations.",
     "excludeFromViews": [],
     "firstPublishedTime": 1712188800,
     "firstPublishedYear": 2024,
@@ -5763,7 +5815,7 @@
   },
   {
     "authors": [
-      "Site Bay"
+      "SiteBay"
     ],
     "category": null,
     "deprecated": false,
@@ -5802,7 +5854,7 @@
   },
   {
     "authors": [
-      "Site Bay"
+      "SiteBay"
     ],
     "category": null,
     "deprecated": false,
@@ -5820,7 +5872,7 @@
     "keywordsAlgolia": [],
     "languages": null,
     "lastUpdatedTime": 1714634515,
-    "linkTitle": "PostHog Recordings on Site Bay WordPress Hosting",
+    "linkTitle": "PostHog Recordings on SiteBay WordPress Hosting",
     "objectID": "/docs/products/posthog/session-replay/",
     "ordinal": 0,
     "section": "products \u003e posthog",
@@ -5831,7 +5883,7 @@
       "sitebay"
     ],
     "thumbnailUrl": "/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
-    "title": "PostHog - PostHog Recordings on Site Bay WordPress Hosting",
+    "title": "PostHog - PostHog Recordings on SiteBay WordPress Hosting",
     "titleH1": "",
     "titleMeta": "",
     "titleSocial": "",
@@ -5841,11 +5893,11 @@
   },
   {
     "authors": [
-      "Site Bay"
+      "SiteBay"
     ],
     "category": null,
     "deprecated": false,
-    "excerpt": "Explore how to utilize Site Bay’s backup and restore capabilities for your WordPress site, ensuring your data’s security and easy recovery.",
+    "excerpt": "Explore how to utilize SiteBay’s backup and restore capabilities for your WordPress site, ensuring your data’s security and easy recovery.",
     "excludeFromViews": [],
     "firstPublishedTime": 1712188800,
     "firstPublishedYear": 2024,
@@ -5854,7 +5906,7 @@
     "href": "/docs/guides/sitebay-dump-and-restore-commands/",
     "isBranch": false,
     "keywords": [
-      "Site Bay backup",
+      "SiteBay backup",
       "WordPress restore",
       "data backup",
       "data recovery",
@@ -5863,7 +5915,7 @@
     "keywordsAlgolia": [],
     "languages": null,
     "lastUpdatedTime": 1714295532,
-    "linkTitle": "Quick Guide to Site Bay’s Backup and Restoration Commands",
+    "linkTitle": "Quick Guide to SiteBay’s Backup and Restoration Commands",
     "objectID": "/docs/guides/sitebay-dump-and-restore-commands/",
     "ordinal": 0,
     "section": "guides \u003e quick-answers \u003e sitebay",
@@ -5873,7 +5925,7 @@
     "skillLevel": null,
     "tags": null,
     "thumbnailUrl": "/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
-    "title": "Quick Guide to Site Bay’s Backup and Restoration Commands",
+    "title": "Quick Guide to SiteBay’s Backup and Restoration Commands",
     "titleH1": "",
     "titleMeta": "",
     "titleSocial": "",
@@ -5883,11 +5935,11 @@
   },
   {
     "authors": [
-      "Site Bay"
+      "SiteBay"
     ],
     "category": null,
     "deprecated": false,
-    "excerpt": "Elevate your WordPress hosting game on Site Bay with these essential SSH tricks. Secure and simplify your server management today.",
+    "excerpt": "Elevate your WordPress hosting game on SiteBay with these essential SSH tricks. Secure and simplify your server management today.",
     "excludeFromViews": [],
     "firstPublishedTime": 1712188800,
     "firstPublishedYear": 2024,
@@ -5905,7 +5957,7 @@
     "keywordsAlgolia": [],
     "languages": null,
     "lastUpdatedTime": 1714295532,
-    "linkTitle": "Shell Tricks for WordPress Hosting on Site Bay",
+    "linkTitle": "Shell Tricks for WordPress Hosting on SiteBay",
     "objectID": "/docs/guides/shell-tricks-for-wordpress/",
     "ordinal": 0,
     "section": "guides \u003e quick-answers \u003e sitebay",
@@ -5915,21 +5967,21 @@
     "skillLevel": null,
     "tags": null,
     "thumbnailUrl": "/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
-    "title": "Shell Tricks for WordPress Hosting on Site Bay",
+    "title": "Shell Tricks for WordPress Hosting on SiteBay",
     "titleH1": "",
     "titleMeta": "",
     "titleSocial": "",
-    "toc": " Shell Tricks for WordPress CLI: Enhancing Your Workflow on Site Bay Introduction to WordPress CLI Leveraging Site Bay’s Code Server Shell Tricks for WordPress CLI Tips for Using WP-CLI on Site Bay Conclusion ",
+    "toc": " Shell Tricks for WordPress CLI: Enhancing Your Workflow on SiteBay Introduction to WordPress CLI Leveraging SiteBay’s Code Server Shell Tricks for WordPress CLI Tips for Using WP-CLI on SiteBay Conclusion ",
     "weightAge": 0,
     "weightSearchBoost": false
   },
   {
     "authors": [
-      "Site Bay"
+      "SiteBay"
     ],
     "category": null,
     "deprecated": false,
-    "excerpt": "Welcome to Site Bay: Your New Home for WordPress Hosting What\u0026rsquo;s Site Bay All About?",
+    "excerpt": "Welcome to SiteBay: Your New Home for WordPress Hosting What\u0026rsquo;s SiteBay All About?\nGlad you asked!",
     "excludeFromViews": [],
     "firstPublishedTime": 1712188800,
     "firstPublishedYear": 2024,
@@ -5944,7 +5996,7 @@
     "keywordsAlgolia": [],
     "languages": null,
     "lastUpdatedTime": 1714295532,
-    "linkTitle": "Site Bay",
+    "linkTitle": "SiteBay",
     "objectID": "/docs/guides/quick-answers/sitebay/",
     "ordinal": 0,
     "section": "guides-branches \u003e quick-answers",
@@ -5953,7 +6005,7 @@
     "skillLevel": null,
     "tags": null,
     "thumbnailUrl": "/docs/guides/quick-answers/sitebay/feature_hu77119e3d9e9783a3b2a020f26e49165a_11465_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
-    "title": "Site Bay",
+    "title": "SiteBay",
     "titleH1": "",
     "titleMeta": "",
     "titleSocial": "",
@@ -5963,11 +6015,11 @@
   },
   {
     "authors": [
-      "Site Bay"
+      "SiteBay"
     ],
     "category": null,
     "deprecated": false,
-    "excerpt": "Leverage Code Server on Site Bay to streamline your WordPress development directly in your browser.",
+    "excerpt": "Leverage Code Server on SiteBay to streamline your WordPress development directly in your browser.",
     "excludeFromViews": [],
     "firstPublishedTime": 1712188800,
     "firstPublishedYear": 2024,
@@ -5976,7 +6028,7 @@
     "href": "/docs/guides/sitebay-code-server/",
     "isBranch": false,
     "keywords": [
-      "Site Bay",
+      "SiteBay",
       "Code Server",
       "WordPress development",
       "browser-based IDE"
@@ -5984,7 +6036,7 @@
     "keywordsAlgolia": [],
     "languages": null,
     "lastUpdatedTime": 1714295532,
-    "linkTitle": "Streamline Your WordPress Development with Site Bay's Code Server",
+    "linkTitle": "Streamline Your WordPress Development with SiteBay's Code Server",
     "objectID": "/docs/guides/sitebay-code-server/",
     "ordinal": 0,
     "section": "guides \u003e quick-answers \u003e sitebay",
@@ -5993,11 +6045,11 @@
     "section.lvl2": "guides \u003e quick-answers \u003e sitebay",
     "skillLevel": null,
     "tags": [
-      "Site Bay",
+      "SiteBay",
       "Development Tools"
     ],
     "thumbnailUrl": "/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
-    "title": "Streamline Your WordPress Development with Site Bay's Code Server",
+    "title": "Streamline Your WordPress Development with SiteBay's Code Server",
     "titleH1": "",
     "titleMeta": "",
     "titleSocial": "",
@@ -6009,7 +6061,7 @@
     "authors": [],
     "category": null,
     "deprecated": false,
-    "excerpt": "Describes which taxes Site Bay collects and how to add a tax identification number to your account.",
+    "excerpt": "Describes which taxes SiteBay collects and how to add a tax identification number to your account.",
     "excludeFromViews": [],
     "firstPublishedTime": 1712188800,
     "firstPublishedYear": 2024,
@@ -6051,17 +6103,17 @@
     "titleH1": "",
     "titleMeta": "",
     "titleSocial": "",
-    "toc": " Which Taxes are Collected by Site Bay? ",
+    "toc": " Which Taxes are Collected by SiteBay? ",
     "weightAge": 0,
     "weightSearchBoost": true
   },
   {
     "authors": [
-      "Site Bay"
+      "SiteBay"
     ],
     "category": null,
     "deprecated": false,
-    "excerpt": "Learn which taxes are collected by Site Bay and how to add a tax identification number to your account.",
+    "excerpt": "Learn which taxes are collected by SiteBay and how to add a tax identification number to your account.",
     "excludeFromViews": [],
     "firstPublishedTime": 1712188800,
     "firstPublishedYear": 2024,
@@ -6073,7 +6125,7 @@
       "accounts",
       "vat",
       "sitebay manager",
-      "sitebay My Site Bay",
+      "sitebay My SiteBay",
       "manager",
       "tax",
       "taxes",
@@ -6114,11 +6166,11 @@
   },
   {
     "authors": [
-      "Site Bay"
+      "SiteBay"
     ],
     "category": null,
     "deprecated": false,
-    "excerpt": "Discover the advantages and disadvantages of using Site Bay for your WordPress hosting needs.",
+    "excerpt": "Discover the advantages and disadvantages of using SiteBay for your WordPress hosting needs.",
     "excludeFromViews": [],
     "firstPublishedTime": 1712188800,
     "firstPublishedYear": 2024,
@@ -6127,14 +6179,14 @@
     "href": "/docs/guides/pros-and-cons-of-site-bay/",
     "isBranch": false,
     "keywords": [
-      "pros and cons of Site Bay",
-      "advantages of Site Bay",
-      "benefits of Site Bay"
+      "pros and cons of SiteBay",
+      "advantages of SiteBay",
+      "benefits of SiteBay"
     ],
     "keywordsAlgolia": [],
     "languages": null,
-    "lastUpdatedTime": 1714295532,
-    "linkTitle": "The Pros and Cons of Site Bay",
+    "lastUpdatedTime": 1714717213,
+    "linkTitle": "The Pros and Cons of SiteBay",
     "objectID": "/docs/guides/pros-and-cons-of-site-bay/",
     "ordinal": 0,
     "section": "guides \u003e development \u003e php",
@@ -6144,9 +6196,9 @@
     "skillLevel": null,
     "tags": null,
     "thumbnailUrl": "/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
-    "title": "The Pros and Cons of Site Bay",
+    "title": "The Pros and Cons of SiteBay",
     "titleH1": "",
-    "titleMeta": "A Programmers’ Guide to Site Bay: Advantages \u0026 Disadvantages",
+    "titleMeta": "A Programmers’ Guide to SiteBay: Advantages \u0026 Disadvantages",
     "titleSocial": "",
     "toc": "",
     "weightAge": 0,
@@ -6154,7 +6206,7 @@
   },
   {
     "authors": [
-      "Site Bay"
+      "SiteBay"
     ],
     "category": null,
     "deprecated": false,
@@ -6203,7 +6255,7 @@
     "authors": [],
     "category": null,
     "deprecated": false,
-    "excerpt": "This guide shows how to access and use the command line interface, also known as the Shell, via a Terminal application like PuTTY to perform system admin tasks on your Site Bay WordPress hosting.",
+    "excerpt": "This guide shows how to access and use the command line interface, also known as the Shell, via a Terminal application like PuTTY to perform system admin tasks on your SiteBay WordPress hosting.",
     "excludeFromViews": [],
     "firstPublishedTime": 1712188800,
     "firstPublishedYear": 2024,
@@ -6214,12 +6266,12 @@
     "keywords": [
       "Linux terminal",
       "terminal HOWTO",
-      "Site Bay terminal tutorial"
+      "SiteBay terminal tutorial"
     ],
     "keywordsAlgolia": [],
     "languages": null,
     "lastUpdatedTime": 1714295532,
-    "linkTitle": "Using the Terminal for Site Bay WordPress Hosting",
+    "linkTitle": "Using the Terminal for SiteBay WordPress Hosting",
     "objectID": "/docs/guides/using-the-terminal/",
     "ordinal": 0,
     "section": "guides \u003e tools-reference \u003e basics",
@@ -6229,7 +6281,7 @@
     "skillLevel": null,
     "tags": null,
     "thumbnailUrl": "/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
-    "title": "Using the Terminal for Site Bay WordPress Hosting",
+    "title": "Using the Terminal for SiteBay WordPress Hosting",
     "titleH1": "",
     "titleMeta": "",
     "titleSocial": "",
@@ -6315,7 +6367,7 @@
   },
   {
     "authors": [
-      "Site Bay"
+      "SiteBay"
     ],
     "category": null,
     "deprecated": false,
@@ -6359,7 +6411,7 @@
   },
   {
     "authors": [
-      "Site Bay"
+      "SiteBay"
     ],
     "category": null,
     "deprecated": false,
@@ -6380,7 +6432,7 @@
     ],
     "keywordsAlgolia": [],
     "languages": null,
-    "lastUpdatedTime": 1714295532,
+    "lastUpdatedTime": 1714717213,
     "linkTitle": "What is MySQL?",
     "objectID": "/docs/guides/what-is-mysql/",
     "ordinal": 0,
@@ -6403,7 +6455,7 @@
   },
   {
     "authors": [
-      "Site Bay"
+      "SiteBay"
     ],
     "category": null,
     "deprecated": false,
@@ -6447,11 +6499,11 @@
   },
   {
     "authors": [
-      "Site Bay"
+      "SiteBay"
     ],
     "category": null,
     "deprecated": false,
-    "excerpt": "Explore why Site Bay is your go-to platform for WordPress development.",
+    "excerpt": "Explore why SiteBay is your go-to platform for WordPress development.",
     "excludeFromViews": [],
     "firstPublishedTime": 1712188800,
     "firstPublishedYear": 2024,
@@ -6468,7 +6520,7 @@
     "keywordsAlgolia": [],
     "languages": null,
     "lastUpdatedTime": 1714295532,
-    "linkTitle": "Why Choose Site Bay for WordPress Development?",
+    "linkTitle": "Why Choose SiteBay for WordPress Development?",
     "objectID": "/docs/guides/why-use-sitebay-for-development/",
     "ordinal": 0,
     "section": "guides \u003e quick-answers \u003e sitebay-essentials",
@@ -6482,11 +6534,11 @@
       "sitebay"
     ],
     "thumbnailUrl": "/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
-    "title": "Why Choose Site Bay for WordPress Development?",
+    "title": "Why Choose SiteBay for WordPress Development?",
     "titleH1": "",
     "titleMeta": "",
     "titleSocial": "",
-    "toc": " Why Opt for Site Bay for Your WordPress Projects? Optimized Performance Enhanced Security Seamless Collaboration Comprehensive Development Tools Integrated Analytics and Monitoring Scalability and Flexibility Developer-Friendly Environment Comprehensive Support and Documentation Getting Started with Site Bay ",
+    "toc": " Why Opt for SiteBay for Your WordPress Projects? Optimized Performance Enhanced Security Seamless Collaboration Comprehensive Development Tools Integrated Analytics and Monitoring Scalability and Flexibility Developer-Friendly Environment Comprehensive Support and Documentation Getting Started with SiteBay ",
     "weightAge": 0,
     "weightSearchBoost": false
   },
@@ -6505,7 +6557,7 @@
     "keywords": [
       "accounts",
       "passwords",
-      "My Site Bay"
+      "My SiteBay"
     ],
     "keywordsAlgolia": [],
     "languages": null,
@@ -6532,11 +6584,11 @@
   },
   {
     "authors": [
-      "Site Bay"
+      "SiteBay"
     ],
     "category": null,
     "deprecated": false,
-    "excerpt": "Learn how to confidently delete files, directories, and more on your Site Bay WordPress hosting using the command line, ensuring a clean and organized site.",
+    "excerpt": "Learn how to confidently delete files, directories, and more on your SiteBay WordPress hosting using the command line, ensuring a clean and organized site.",
     "excludeFromViews": [],
     "firstPublishedTime": 1712102400,
     "firstPublishedYear": 2024,
@@ -6547,7 +6599,7 @@
     "keywords": [
       "remove files",
       "delete files",
-      "Site Bay rm"
+      "SiteBay rm"
     ],
     "keywordsAlgolia": [],
     "languages": null,
@@ -6574,7 +6626,7 @@
   },
   {
     "authors": [
-      "Site Bay"
+      "SiteBay"
     ],
     "category": null,
     "deprecated": false,
@@ -6617,7 +6669,7 @@
   },
   {
     "authors": [
-      "Site Bay"
+      "SiteBay"
     ],
     "category": null,
     "deprecated": false,
@@ -6703,7 +6755,7 @@
     "authors": [],
     "category": null,
     "deprecated": false,
-    "excerpt": "Learn how to get up and running with the Site Bay Shopify Link",
+    "excerpt": "Learn how to get up and running with the SiteBay Shopify Link",
     "excludeFromViews": [],
     "firstPublishedTime": 1711670400,
     "firstPublishedYear": 2024,
@@ -6726,9 +6778,9 @@
     "thumbnailUrl": "/docs/products/shopify-link/get-started/ShopifyStore_hu792b4f40b73e36c63586f8a73baed56a_541345_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
     "title": "Shopify Link - Get Started",
     "titleH1": "",
-    "titleMeta": "Getting Started with the Site Bay Shopify Link",
+    "titleMeta": "Getting Started with the SiteBay Shopify Link",
     "titleSocial": "",
-    "toc": "",
+    "toc": " Step 1: Install the SiteBay Shopify Link Step 2: Enable the Slider in Theme Settings Step 3: Enter Your Site URL on my.sitebay.org Step 4: Access Your Blog Step 5: View Recordings and Other PostHog Features ",
     "weightAge": 0,
     "weightSearchBoost": true
   },
@@ -6772,61 +6824,49 @@
   },
   {
     "authors": [
-      "Site Bay"
+      "SiteBay"
     ],
     "category": null,
     "deprecated": false,
-    "excerpt": "An introduction to setting up OhMyForm, an open-source software for creating, customizing, and hosting forms in containers using Portainer for easy data gathering.",
+    "excerpt": "",
     "excludeFromViews": [],
     "firstPublishedTime": 1711670400,
     "firstPublishedYear": 2024,
     "hiddenguide": null,
     "hierarchy": [],
-    "href": "/docs/templates/test-matketplace/",
+    "href": "/docs/templates/photography-blog/",
     "isBranch": false,
     "keywords": [
-      "portainer",
-      "ohmyform",
-      "containers",
-      "docker",
-      "kubernetes",
-      "open source",
-      "data gathering",
-      "form creation"
+      "photography"
     ],
     "keywordsAlgolia": [],
     "languages": null,
-    "lastUpdatedTime": 1714295532,
-    "linkTitle": "Portainer and OhMyForm | Simple Open Source Forms in Containers for Easy Data Gathering",
-    "objectID": "/docs/templates/test-matketplace/",
+    "lastUpdatedTime": 1711670400,
+    "linkTitle": "Photography Template",
+    "objectID": "/docs/templates/photography-blog/",
     "ordinal": 0,
     "section": "templates",
     "section.lvl0": "templates",
     "skillLevel": null,
     "tags": [
-      "containers",
-      "docker",
-      "kubernetes",
-      "open source",
-      "form creation",
-      "data gathering"
+      "photography"
     ],
     "thumbnailUrl": "/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
-    "title": "Portainer and OhMyForm | Simple Open Source Forms in Containers for Easy Data Gathering",
+    "title": "Photography Template",
     "titleH1": "",
     "titleMeta": "",
     "titleSocial": "",
     "toc": "",
     "weightAge": 0,
-    "weightSearchBoost": false
+    "weightSearchBoost": true
   },
   {
     "authors": [
-      "Site Bay"
+      "SiteBay"
     ],
     "category": null,
     "deprecated": false,
-    "excerpt": "A video introduction Site Bay",
+    "excerpt": "A video introduction SiteBay",
     "excludeFromViews": [],
     "firstPublishedTime": 1711670400,
     "firstPublishedYear": 2024,
@@ -6835,23 +6875,23 @@
     "href": "/docs/content/intro-video/",
     "isBranch": false,
     "keywords": [
-      "what is site bay"
+      "what is SiteBay"
     ],
     "keywordsAlgolia": [],
     "languages": null,
     "lastUpdatedTime": 1714295532,
-    "linkTitle": "Site Bay Trailer",
+    "linkTitle": "SiteBay Trailer",
     "objectID": "/docs/content/intro-video/",
     "ordinal": 0,
     "section": "content",
     "section.lvl0": "content",
     "skillLevel": null,
     "tags": [
-      "site bay",
+      "SiteBay",
       "kubernetes"
     ],
     "thumbnailUrl": "/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
-    "title": "Site Bay Trailer",
+    "title": "SiteBay Trailer",
     "titleH1": "",
     "titleMeta": "",
     "titleSocial": "",
@@ -6863,7 +6903,7 @@
     "authors": [],
     "category": null,
     "deprecated": false,
-    "excerpt": "A beginner’s guide to getting started with WordPress on Site Bay, with everything you need to know to launch your first website.",
+    "excerpt": "A beginner’s guide to getting started with WordPress on SiteBay, with everything you need to know to launch your first website.",
     "excludeFromViews": [],
     "firstPublishedTime": 1711670400,
     "firstPublishedYear": 2024,
@@ -6904,7 +6944,7 @@
     "authors": [],
     "category": null,
     "deprecated": false,
-    "excerpt": "Use Site Bay's Bi-directional Git Sync to develop locally.",
+    "excerpt": "Use SiteBay's Bi-directional Git Sync to develop locally.",
     "excludeFromViews": [],
     "firstPublishedTime": 1711411200,
     "firstPublishedYear": 2024,
@@ -6938,7 +6978,7 @@
     "authors": [],
     "category": null,
     "deprecated": false,
-    "excerpt": "Learn how Site Bay's Point-in-Time Machine interacts with Git Sync",
+    "excerpt": "Learn how SiteBay's Point-in-Time Machine interacts with Git Sync",
     "excludeFromViews": [],
     "firstPublishedTime": 1711411200,
     "firstPublishedYear": 2024,
@@ -6978,7 +7018,7 @@
     "authors": [],
     "category": null,
     "deprecated": false,
-    "excerpt": "Learn how Site Bay's Point-in-Time Machine interacts with Git Sync",
+    "excerpt": "Learn how SiteBay's Point-in-Time Machine interacts with Git Sync",
     "excludeFromViews": [],
     "firstPublishedTime": 1711411200,
     "firstPublishedYear": 2024,
@@ -7032,7 +7072,7 @@
     "keywordsAlgolia": [],
     "languages": null,
     "lastUpdatedTime": 1714295532,
-    "linkTitle": "How to Use Site Bay's Git Sync",
+    "linkTitle": "How to Use SiteBay's Git Sync",
     "objectID": "/docs/platform/git-sync/how-to-use-sitebay-git-sync/",
     "ordinal": 0,
     "section": "platform \u003e git-sync",
@@ -7045,7 +7085,7 @@
       "git sync"
     ],
     "thumbnailUrl": "/docs/platform/git-sync/how-to-use-sitebay-git-sync/how-to-use-sitebay-git-sync_hu07522c31dae92a147b5fe819d5549fc3_244885_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
-    "title": "How to Use Site Bay's Git Sync",
+    "title": "How to Use SiteBay's Git Sync",
     "titleH1": "Using Git Sync",
     "titleMeta": "",
     "titleSocial": "",
@@ -7087,11 +7127,11 @@
   },
   {
     "authors": [
-      "Site Bay"
+      "SiteBay"
     ],
     "category": null,
     "deprecated": false,
-    "excerpt": "Get acquainted with Site Bay's powerful WordPress hosting dashboard for managing your sites efficiently.",
+    "excerpt": "Get acquainted with SiteBay's powerful WordPress hosting dashboard for managing your sites efficiently.",
     "excludeFromViews": [],
     "firstPublishedTime": 1710633600,
     "firstPublishedYear": 2024,
@@ -7108,7 +7148,7 @@
     "keywordsAlgolia": [],
     "languages": null,
     "lastUpdatedTime": 1714295532,
-    "linkTitle": "Navigating Your Site Bay Dashboard",
+    "linkTitle": "Navigating Your SiteBay Dashboard",
     "objectID": "/docs/guides/sitebay-dashboard-overview/",
     "ordinal": 0,
     "section": "guides \u003e quick-answers \u003e sitebay",
@@ -7122,9 +7162,9 @@
       "dashboard"
     ],
     "thumbnailUrl": "/docs/guides/sitebay-dashboard-overview/Dashboard_hu27cd2d0e1aaea1190bc8b0b74ffb3df3_446537_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
-    "title": "Navigating Your Site Bay Dashboard",
+    "title": "Navigating Your SiteBay Dashboard",
     "titleH1": "",
-    "titleMeta": "Master Your Site Bay Dashboard for WordPress Hosting",
+    "titleMeta": "Master Your SiteBay Dashboard for WordPress Hosting",
     "titleSocial": "",
     "toc": " Dashboard Overview ",
     "weightAge": 0,
@@ -7167,7 +7207,7 @@
     "authors": [],
     "category": null,
     "deprecated": false,
-    "excerpt": "A collection of guides to help get you started on the Site Bay Platform",
+    "excerpt": "A collection of guides to help get you started on the SiteBay Platform",
     "excludeFromViews": [],
     "firstPublishedTime": 1710374400,
     "firstPublishedYear": 2024,
@@ -7189,9 +7229,9 @@
     "skillLevel": null,
     "tags": null,
     "thumbnailUrl": "/docs/products/platform/get-started/guides/resell-services/how-to-resell-linode-services_hu6d16408b1121814378911b505dbbd1ff_25011_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
-    "title": "Getting Started on the Site Bay Platform - Guides",
+    "title": "Getting Started on the SiteBay Platform - Guides",
     "titleH1": "",
-    "titleMeta": "Guides and Tutorials for Getting Started on the Site Bay Platform",
+    "titleMeta": "Guides and Tutorials for Getting Started on the SiteBay Platform",
     "titleSocial": "",
     "toc": " Basics ",
     "weightAge": 0,
@@ -7199,11 +7239,11 @@
   },
   {
     "authors": [
-      "Site Bay"
+      "SiteBay"
     ],
     "category": null,
     "deprecated": false,
-    "excerpt": "Information about Site Bay support, including the scope of support and how to get help.",
+    "excerpt": "Information about SiteBay support, including the scope of support and how to get help.",
     "excludeFromViews": [],
     "firstPublishedTime": 1710374400,
     "firstPublishedYear": 2024,
@@ -7237,17 +7277,17 @@
     "titleH1": "",
     "titleMeta": "",
     "titleSocial": "",
-    "toc": " Types of Questions and Issues Account Access and Login Issues Site Bay Platform Application and Server Configuration Issues Legal and Compliance Information Infrastructure Status Inquiries Report Abuse On Our Platform Self-Service and Community-based Resources Scope of Support Contact Customer Support Create and Manage Support Tickets ",
+    "toc": " Types of Questions and Issues Account Access and Login Issues SiteBay Platform Application and Server Configuration Issues Legal and Compliance Information Infrastructure Status Inquiries Report Abuse On Our Platform Self-Service and Community-based Resources Scope of Support Contact Customer Support Create and Manage Support Tickets ",
     "weightAge": 0,
     "weightSearchBoost": true
   },
   {
     "authors": [
-      "Site Bay"
+      "SiteBay"
     ],
     "category": null,
     "deprecated": false,
-    "excerpt": "Discover the importance of backups and learn how to utilize Site Bay's Point-In-Time (PIT) Machine for easy and efficient data backups.",
+    "excerpt": "Discover the importance of backups and learn how to utilize SiteBay's Point-In-Time (PIT) Machine for easy and efficient data backups.",
     "excludeFromViews": [],
     "firstPublishedTime": 1710288000,
     "firstPublishedYear": 2024,
@@ -7258,13 +7298,13 @@
     "keywords": [
       "backups",
       "snapshot",
-      "Site Bay backup",
+      "SiteBay backup",
       "beginners"
     ],
     "keywordsAlgolia": [],
     "languages": null,
     "lastUpdatedTime": 1714295532,
-    "linkTitle": "Recovering Your Site and Files: An Introduction to Site Bay's PIT Machine",
+    "linkTitle": "Recovering Your Site and Files: An Introduction to SiteBay's PIT Machine",
     "objectID": "/docs/guides/introduction-to-pit-machine/",
     "ordinal": 0,
     "section": "guides \u003e quick-answers \u003e sitebay-essentials",
@@ -7279,21 +7319,21 @@
       "data recovery"
     ],
     "thumbnailUrl": "/docs/guides/introduction-to-pit-machine/introduction-to-backups_hu8cc1e60ee4756f54b0d824a4fc8e67e4_603925_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
-    "title": "Recovering Your Site and Files: An Introduction to Site Bay's PIT Machine",
+    "title": "Recovering Your Site and Files: An Introduction to SiteBay's PIT Machine",
     "titleH1": "",
     "titleMeta": "",
     "titleSocial": "",
-    "toc": " Site Bay’s Point-in-Time Machine Using the PIT Machine on the My Site Bay Dashboard ",
+    "toc": " SiteBay’s Point-in-Time Machine Using the PIT Machine on the My SiteBay Dashboard ",
     "weightAge": 0,
     "weightSearchBoost": false
   },
   {
     "authors": [
-      "Site Bay"
+      "SiteBay"
     ],
     "category": null,
     "deprecated": false,
-    "excerpt": "Get to know Site Bay, the ultimate platform for WordPress hosting on Kubernetes, complete with analytics, performance monitoring, and more.",
+    "excerpt": "Get to know SiteBay, the ultimate platform for WordPress hosting on Kubernetes, complete with analytics, performance monitoring, and more.",
     "excludeFromViews": [],
     "firstPublishedTime": 1710288000,
     "firstPublishedYear": 2024,
@@ -7311,7 +7351,7 @@
     "keywordsAlgolia": [],
     "languages": null,
     "lastUpdatedTime": 1714295532,
-    "linkTitle": "What is Site Bay?",
+    "linkTitle": "What is SiteBay?",
     "objectID": "/docs/guides/what-is-sitebay/",
     "ordinal": 0,
     "section": "guides \u003e quick-answers \u003e sitebay-essentials",
@@ -7327,7 +7367,7 @@
       "analytics"
     ],
     "thumbnailUrl": "/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
-    "title": "What is Site Bay?",
+    "title": "What is SiteBay?",
     "titleH1": "",
     "titleMeta": "",
     "titleSocial": "",
@@ -7337,7 +7377,7 @@
   },
   {
     "authors": [
-      "Site Bay"
+      "SiteBay"
     ],
     "category": null,
     "deprecated": false,
@@ -7373,13 +7413,13 @@
     "titleH1": "",
     "titleMeta": "",
     "titleSocial": "",
-    "toc": " Code Server Installation (Non Site Bay Users) Adding or Changing a User Adding a New User Changing a User’s Role Changing Your Password Installing Plugins Install a Plugin Activate a Plugin Summary ",
+    "toc": " Code Server Installation (Non SiteBay Users) Adding or Changing a User Adding a New User Changing a User’s Role Changing Your Password Installing Plugins Install a Plugin Activate a Plugin Summary ",
     "weightAge": 0,
     "weightSearchBoost": false
   },
   {
     "authors": [
-      "Site Bay"
+      "SiteBay"
     ],
     "category": null,
     "deprecated": true,
@@ -7419,11 +7459,11 @@
   },
   {
     "authors": [
-      "Site Bay"
+      "SiteBay"
     ],
     "category": null,
     "deprecated": false,
-    "excerpt": "Learn how to use Site Bay's git sync feature to easily sync your WordPress site without needing to run git commands.",
+    "excerpt": "Learn how to use SiteBay's git sync feature to easily sync your WordPress site without needing to run git commands.",
     "excludeFromViews": [],
     "firstPublishedTime": 1709510400,
     "firstPublishedYear": 2024,
@@ -7433,14 +7473,14 @@
     "isBranch": false,
     "keywords": [
       "git sync",
-      "Site Bay",
+      "SiteBay",
       "WordPress hosting",
       "automatic syncing"
     ],
     "keywordsAlgolia": [],
     "languages": null,
     "lastUpdatedTime": 1714295532,
-    "linkTitle": "Git Sync: Automating Your Site Syncing on Site Bay",
+    "linkTitle": "Git Sync: Automating Your Site Syncing on SiteBay",
     "objectID": "/docs/guides/introduction-to-git-sync/",
     "ordinal": 0,
     "section": "guides \u003e quick-answers \u003e sitebay-essentials",
@@ -7455,7 +7495,7 @@
       "site syncing"
     ],
     "thumbnailUrl": "/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
-    "title": "Git Sync: Automating Your Site Syncing on Site Bay",
+    "title": "Git Sync: Automating Your Site Syncing on SiteBay",
     "titleH1": "",
     "titleMeta": "",
     "titleSocial": "",
@@ -7465,7 +7505,7 @@
   },
   {
     "authors": [
-      "Site Bay"
+      "SiteBay"
     ],
     "category": null,
     "deprecated": false,
@@ -7499,17 +7539,17 @@
     "titleH1": "",
     "titleMeta": "",
     "titleSocial": "",
-    "toc": " Copying Files and Directories in Site Bay Introduction to the cp Command Getting Started Copying Basics Copy within the Same Directory: Copy to Another Directory: Copy Multiple Files: Recursive Directory Copy: ",
+    "toc": " Copying Files and Directories in SiteBay Introduction to the cp Command Getting Started Copying Basics Copy within the Same Directory: Copy to Another Directory: Copy Multiple Files: Recursive Directory Copy: ",
     "weightAge": 0,
     "weightSearchBoost": false
   },
   {
     "authors": [
-      "Site Bay"
+      "SiteBay"
     ],
     "category": null,
     "deprecated": true,
-    "excerpt": "Let\u0026rsquo;s remake the article for Site Bay Powerful WordPress hosting, making it relatable and straightforward. We\u0026rsquo;ll focus on setting and using environment variables in the context of Site Bay, ensuring it\u0026rsquo;s clear and accessible for everyone, especially those new to WordPress hosting on Kubernetes platforms.",
+    "excerpt": "Let\u0026rsquo;s remake the article for SiteBay Powerful WordPress hosting, making it relatable and straightforward. We\u0026rsquo;ll focus on setting and using environment variables in the context of SiteBay, ensuring it\u0026rsquo;s clear and accessible for everyone, especially those new to WordPress hosting on Kubernetes platforms.",
     "excludeFromViews": [],
     "firstPublishedTime": 1709510400,
     "firstPublishedYear": 2024,
@@ -7547,11 +7587,11 @@
   },
   {
     "authors": [
-      "Site Bay"
+      "SiteBay"
     ],
     "category": null,
     "deprecated": false,
-    "excerpt": "A quick intro on what Site Bay is and isn't ",
+    "excerpt": "A quick intro on what SiteBay is and isn't ",
     "excludeFromViews": [],
     "firstPublishedTime": 1709510400,
     "firstPublishedYear": 2024,
@@ -7567,7 +7607,7 @@
     "keywordsAlgolia": [],
     "languages": null,
     "lastUpdatedTime": 1714295532,
-    "linkTitle": "Introduction to Site Bay Concepts",
+    "linkTitle": "Introduction to SiteBay Concepts",
     "objectID": "/docs/guides/introduction-to-sitebay-concepts/",
     "ordinal": 0,
     "section": "guides \u003e tools-reference \u003e basics",
@@ -7579,7 +7619,7 @@
       "sitebay"
     ],
     "thumbnailUrl": "/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
-    "title": "Introduction to Site Bay Concepts",
+    "title": "Introduction to SiteBay Concepts",
     "titleH1": "",
     "titleMeta": "",
     "titleSocial": "",
@@ -7589,7 +7629,7 @@
   },
   {
     "authors": [
-      "Site Bay"
+      "SiteBay"
     ],
     "category": null,
     "deprecated": false,
@@ -7635,7 +7675,7 @@
     ],
     "category": null,
     "deprecated": false,
-    "excerpt": "Learn how to use the echo command effectively in Site Bay environments for displaying messages, writing to files, and combining it with other commands.",
+    "excerpt": "Learn how to use the echo command effectively in SiteBay environments for displaying messages, writing to files, and combining it with other commands.",
     "excludeFromViews": [],
     "firstPublishedTime": 1709510400,
     "firstPublishedYear": 2024,
@@ -7651,7 +7691,7 @@
     "keywordsAlgolia": [],
     "languages": null,
     "lastUpdatedTime": 1714295532,
-    "linkTitle": "Mastering the echo Command in Site Bay",
+    "linkTitle": "Mastering the echo Command in SiteBay",
     "objectID": "/docs/guides/how-to-use-echo/",
     "ordinal": 0,
     "section": "guides \u003e quick-answers \u003e sitebay",
@@ -7665,7 +7705,7 @@
       "echo"
     ],
     "thumbnailUrl": "/docs/guides/how-to-use-echo/UseEchoCommand_hu2365e7cbd32318a49c4de85bf828c67b_825908_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
-    "title": "Mastering the echo Command in Site Bay",
+    "title": "Mastering the echo Command in SiteBay",
     "titleH1": "",
     "titleMeta": "How to Master the Echo Command",
     "titleSocial": "",
@@ -7675,11 +7715,11 @@
   },
   {
     "authors": [
-      "Site Bay"
+      "SiteBay"
     ],
     "category": null,
     "deprecated": false,
-    "excerpt": "How to restore your Site Bay site with unlimited size",
+    "excerpt": "How to restore your SiteBay site with unlimited size",
     "excludeFromViews": [],
     "firstPublishedTime": 1709510400,
     "firstPublishedYear": 2024,
@@ -7697,7 +7737,7 @@
     "keywordsAlgolia": [],
     "languages": null,
     "lastUpdatedTime": 1714295532,
-    "linkTitle": "Restoring Your WordPress Site on Site Bay with All-in-One WP Migration",
+    "linkTitle": "Restoring Your WordPress Site on SiteBay with All-in-One WP Migration",
     "objectID": "/docs/guides/all-in-one-wp-migration-with-import/",
     "ordinal": 0,
     "section": "guides",
@@ -7709,7 +7749,7 @@
       "restore"
     ],
     "thumbnailUrl": "/docs/guides/all-in-one-wp-migration-with-import/team-fortress-rcon-console-small_hu27c5090e0aa1687ef3955225f72be604_230221_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
-    "title": "Restoring Your WordPress Site on Site Bay with All-in-One WP Migration",
+    "title": "Restoring Your WordPress Site on SiteBay with All-in-One WP Migration",
     "titleH1": "",
     "titleMeta": "",
     "titleSocial": "",
@@ -7719,11 +7759,11 @@
   },
   {
     "authors": [
-      "Site Bay"
+      "SiteBay"
     ],
     "category": null,
     "deprecated": false,
-    "excerpt": "An overview of Site Bay WordPress hosting plans: Micro, Starter, and Business.",
+    "excerpt": "An overview of SiteBay WordPress hosting plans: Micro, Starter, and Business.",
     "excludeFromViews": [],
     "firstPublishedTime": 1709510400,
     "firstPublishedYear": 2024,
@@ -7733,14 +7773,14 @@
     "isBranch": false,
     "keywords": [
       "WordPress hosting",
-      "Site Bay",
+      "SiteBay",
       "hosting plans",
       "web hosting"
     ],
     "keywordsAlgolia": [],
     "languages": null,
     "lastUpdatedTime": 1714295532,
-    "linkTitle": "Site Bay WordPress Hosting Plans",
+    "linkTitle": "SiteBay WordPress Hosting Plans",
     "objectID": "/docs/guides/sitebay-plans/",
     "ordinal": 0,
     "section": "guides \u003e quick-answers \u003e sitebay-essentials",
@@ -7754,7 +7794,7 @@
       "hosting plans"
     ],
     "thumbnailUrl": "/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
-    "title": "Site Bay WordPress Hosting Plans",
+    "title": "SiteBay WordPress Hosting Plans",
     "titleH1": "",
     "titleMeta": "",
     "titleSocial": "",
@@ -7764,11 +7804,11 @@
   },
   {
     "authors": [
-      "Site Bay"
+      "SiteBay"
     ],
     "category": null,
     "deprecated": false,
-    "excerpt": "Discover the advantages of Site Bay for WordPress hosting: from flexibility and cost efficiency to security and community support. Learn why Site Bay stands out.",
+    "excerpt": "Discover the advantages of SiteBay for WordPress hosting: from flexibility and cost efficiency to security and community support. Learn why SiteBay stands out.",
     "excludeFromViews": [],
     "firstPublishedTime": 1709510400,
     "firstPublishedYear": 2024,
@@ -7777,14 +7817,14 @@
     "href": "/docs/guides/benefits-of-sitebay/",
     "isBranch": false,
     "keywords": [
-      "Site Bay advantages",
-      "benefits of Site Bay",
+      "SiteBay advantages",
+      "benefits of SiteBay",
       "WordPress hosting benefits"
     ],
     "keywordsAlgolia": [],
     "languages": null,
     "lastUpdatedTime": 1714295532,
-    "linkTitle": "Top Benefits of Site Bay for WordPress Hosting",
+    "linkTitle": "Top Benefits of SiteBay for WordPress Hosting",
     "objectID": "/docs/guides/benefits-of-sitebay/",
     "ordinal": 0,
     "section": "guides \u003e quick-answers \u003e sitebay",
@@ -7794,7 +7834,7 @@
     "skillLevel": null,
     "tags": null,
     "thumbnailUrl": "/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
-    "title": "Top Benefits of Site Bay for WordPress Hosting",
+    "title": "Top Benefits of SiteBay for WordPress Hosting",
     "titleH1": "",
     "titleMeta": "",
     "titleSocial": "",
@@ -7804,7 +7844,7 @@
   },
   {
     "authors": [
-      "Site Bay"
+      "SiteBay"
     ],
     "category": null,
     "deprecated": false,
@@ -7849,10 +7889,50 @@
     "weightSearchBoost": false
   },
   {
+    "authors": [
+      "SiteBay"
+    ],
+    "category": null,
+    "deprecated": false,
+    "excerpt": "Learn how to use, install, configure and perform tasks on database management platform Elasticsearch in these tutorials.",
+    "excludeFromViews": [],
+    "firstPublishedTime": 1396569600,
+    "firstPublishedYear": 2014,
+    "hiddenguide": null,
+    "hierarchy": [],
+    "href": "/docs/guides/databases/algolia/",
+    "isBranch": true,
+    "keywords": [
+      "algolia,what",
+      "is",
+      "algolia,install",
+      "algolia"
+    ],
+    "keywordsAlgolia": [],
+    "languages": null,
+    "lastUpdatedTime": 1714295532,
+    "linkTitle": "Algolia Guides, Tutorials, and Resources – SiteBay",
+    "objectID": "/docs/guides/databases/algolia/",
+    "ordinal": 0,
+    "section": "guides-branches \u003e databases",
+    "section.lvl0": "guides-branches",
+    "section.lvl1": "guides-branches \u003e databases",
+    "skillLevel": null,
+    "tags": null,
+    "thumbnailUrl": "/docs/guides/databases/algolia/feature_hu4122827094cd0851fd423c2888dac741_3865_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
+    "title": "Algolia Guides, Tutorials, and Resources – SiteBay",
+    "titleH1": "",
+    "titleMeta": "",
+    "titleSocial": "",
+    "toc": " ElasticSearch Tutorials: ",
+    "weightAge": 0,
+    "weightSearchBoost": false
+  },
+  {
     "authors": [],
     "category": null,
     "deprecated": false,
-    "excerpt": "Site Bay provides powerful WordPress hosting solutions tailored for businesses and individuals alike, offering a range of plans to fit various needs.",
+    "excerpt": "SiteBay provides powerful WordPress hosting solutions tailored for businesses and individuals alike, offering a range of plans to fit various needs.",
     "excludeFromViews": [],
     "firstPublishedTime": -62135596800,
     "firstPublishedYear": 1,
@@ -7885,7 +7965,7 @@
     "authors": [],
     "category": null,
     "deprecated": false,
-    "excerpt": "Diving into the digital world of Site Bay, especially when it comes to WordPress hosting on Kubernetes, equipped with Posthog analytics, recordings, and Grafana dashboards, can sometimes feel like navigating a vast and mysterious ocean.",
+    "excerpt": "Diving into the digital world of SiteBay, especially when it comes to WordPress hosting on Kubernetes, equipped with Posthog analytics, recordings, and Grafana dashboards, can sometimes feel like navigating a vast and mysterious ocean.",
     "excludeFromViews": [],
     "firstPublishedTime": -62135596800,
     "firstPublishedYear": 1,
@@ -8178,7 +8258,7 @@
     "authors": [],
     "category": null,
     "deprecated": false,
-    "excerpt": "All Site Bay hosted WordPress sites include a code-server instance, allow you to design and develop your site faster.",
+    "excerpt": "All SiteBay hosted WordPress sites include a code-server instance, allow you to design and develop your site faster.",
     "excludeFromViews": [],
     "firstPublishedTime": -62135596800,
     "firstPublishedYear": 1,
@@ -8210,7 +8290,7 @@
     "authors": [],
     "category": null,
     "deprecated": false,
-    "excerpt": "Get Started with using Site Bay templates with this quick start tutorial. Pick a template, create a site, and modify it.",
+    "excerpt": "Get Started with using SiteBay templates with this quick start tutorial. Pick a template, create a site, and modify it.",
     "excludeFromViews": [],
     "firstPublishedTime": -62135596800,
     "firstPublishedYear": 1,
@@ -8243,7 +8323,7 @@
     "authors": [],
     "category": null,
     "deprecated": false,
-    "excerpt": "Site Bay offers a free bi-directional Git Sync for WordPress sites",
+    "excerpt": "SiteBay offers a free bi-directional Git Sync for WordPress sites",
     "excludeFromViews": [],
     "firstPublishedTime": -62135596800,
     "firstPublishedYear": 1,
@@ -8275,7 +8355,7 @@
     "authors": [],
     "category": null,
     "deprecated": false,
-    "excerpt": "Hey there! Want to keep an eye on how your website is doing? Monitoring is key, and we\u0026rsquo;ve got you covered at Site Bay.",
+    "excerpt": "Hey there! Want to keep an eye on how your website is doing? Monitoring is key, and we\u0026rsquo;ve got you covered at SiteBay.",
     "excludeFromViews": [],
     "firstPublishedTime": -62135596800,
     "firstPublishedYear": 1,
@@ -8305,7 +8385,7 @@
   },
   {
     "authors": [
-      "Site Bay"
+      "SiteBay"
     ],
     "category": null,
     "deprecated": false,
@@ -8344,7 +8424,7 @@
     "authors": [],
     "category": null,
     "deprecated": false,
-    "excerpt": "A collection of product documentation for topics related to the Site Bay Platform.",
+    "excerpt": "A collection of product documentation for topics related to the SiteBay Platform.",
     "excludeFromViews": [],
     "firstPublishedTime": -62135596800,
     "firstPublishedYear": 1,
@@ -8366,7 +8446,7 @@
     "thumbnailUrl": "/docs/products/platform/feature_hu1b128e8f7e52b287bccd2255b27c85e2_10103_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
     "title": "All Products - Platform",
     "titleH1": "",
-    "titleMeta": "Site Bay Platform Documentation",
+    "titleMeta": "SiteBay Platform Documentation",
     "titleSocial": "",
     "toc": "",
     "weightAge": 0,
@@ -8440,7 +8520,7 @@
     "authors": [],
     "category": null,
     "deprecated": false,
-    "excerpt": "Site Bay offers an app to integrate your blog posts and use session recordings on your Shopify shop",
+    "excerpt": "SiteBay offers an app to integrate your blog posts and use session recordings on your Shopify shop",
     "excludeFromViews": [],
     "firstPublishedTime": -62135596800,
     "firstPublishedYear": 1,
@@ -8536,7 +8616,7 @@
     "authors": [],
     "category": null,
     "deprecated": false,
-    "excerpt": "Site Bay offers robust developer tools to make it easy to manage your infrastructure.",
+    "excerpt": "SiteBay offers robust developer tools to make it easy to manage your infrastructure.",
     "excludeFromViews": [],
     "firstPublishedTime": -62135596800,
     "firstPublishedYear": 1,
@@ -8558,7 +8638,7 @@
     "thumbnailUrl": "/docs/products/tools/feature.svg",
     "title": "All Products - Tools",
     "titleH1": "",
-    "titleMeta": "Tools and Additional Products on the Site Bay Platform",
+    "titleMeta": "Tools and Additional Products on the SiteBay Platform",
     "titleSocial": "",
     "toc": "",
     "weightAge": 0,
@@ -8601,7 +8681,7 @@
     "authors": [],
     "category": null,
     "deprecated": false,
-    "excerpt": "Welcome to the Websites section of our support articles! Here, you\u0026rsquo;ll dive into the world of Site Bay, the ultimate spot for WordPress hosting on Kubernetes, enriched with Posthog for analytics, Grafana for monitoring, and much more.",
+    "excerpt": "Welcome to the Websites section of our support articles! Here, you\u0026rsquo;ll dive into the world of SiteBay, the ultimate spot for WordPress hosting on Kubernetes, enriched with Posthog for analytics, Grafana for monitoring, and much more.",
     "excludeFromViews": [],
     "firstPublishedTime": -62135596800,
     "firstPublishedYear": 1,

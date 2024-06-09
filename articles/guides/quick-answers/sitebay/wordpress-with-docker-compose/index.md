@@ -1,16 +1,16 @@
 ---
 slug: wordpress-with-docker-compose
-keywords: ["Docker", "Docker Compose", "WordPress", "Site Bay"]
+keywords: ["Docker", "Docker Compose", "WordPress", "SiteBay"]
 tags: ["wordpress", "docker", "sitebay"]
-description: 'This guide explains how to deploy a WordPress site using Docker and Docker Compose on Site Bay, utilizing a LAMP stack within Docker containers.'
+description: 'This guide explains how to deploy a WordPress site using Docker and Docker Compose on SiteBay, utilizing a LAMP stack within Docker containers.'
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
 published: 2024-04-29
 modified: 2024-04-29
 modified_by:
-  name: Site Bay
-title: Launch WordPress with Docker Compose on Site Bay
+  name: SiteBay
+title: Launch WordPress with Docker Compose on SiteBay
 aliases: ['/quick-answers/sitebay/wordpress-with-docker-compose/']
-authors: ["Site Bay"]
+authors: ["SiteBay"]
 ---
 
 Introduction to Docker and Docker Compose
@@ -28,7 +28,7 @@ Isolation: Docker ensures that your applications and their environment remain is
 Setting Up WordPress with Docker Compose
 Installing Docker and Docker Compose
 
-First, ensure Docker and Docker Compose are installed on your Site Bay. Docker allows you to create and manage containers, while Docker Compose helps manage multi-container setups.
+First, ensure Docker and Docker Compose are installed on your SiteBay. Docker allows you to create and manage containers, while Docker Compose helps manage multi-container setups.
 
 Deploying WordPress and MySQL
 
@@ -93,4 +93,4 @@ docker-compose pull && docker-compose up -d
 
 Conclusion
 
-Using Docker and Docker Compose streamlines the deployment and management of WordPress sites on Site Bay. This approach not only simplifies initial setup but also facilitates ongoing maintenance and updates. For detailed Docker documentation, visit the official Docker and Docker Compose guides.
+Using Docker and Docker Compose streamlines the deployment and management of WordPress sites on SiteBay. This approach not only simplifies initial setup but also facilitates ongoing maintenance and updates. For detailed Docker documentation, visit the official Docker and Docker Compose guides.

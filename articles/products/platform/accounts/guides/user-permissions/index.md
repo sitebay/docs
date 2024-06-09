@@ -1,7 +1,7 @@
 ---
 title: Manage User Permissions
-title_meta: Manage User Permissions for a Site Bay User Account
-description: "Learn how to manage permissions and restrict user access on a Site Bay account."
+title_meta: Manage User Permissions for a SiteBay User Account
+description: "Learn how to manage permissions and restrict user access on a SiteBay account."
 published: 2024-04-21
 modified: 2024-04-24
 tags: ["sitebay platform","users","user permissions"]
@@ -10,18 +10,18 @@ tags: ["sitebay platform","users","user permissions"]
 Each user on an account can be given individualized permissions that provides unrestricted access to an account or limits their access to specific information or services. For example, you could give your core team members full unrestricted access, grant your accounts payable team access only to view and modify billing details, and limit an outside developer to only access specific WordPress Sites or other services.
 
 {{< note >}}
-The permissions discussed within this guide apply to accessing the Site Bay platform through the My Site Bay, Site Bay API, and Site Bay CLI. If you wish to only provide someone with direct access to the internal system of a WordPress Site (or revoke their access), that can be accomplished through limited user accounts within your operating system. See [Create an Account for a Developer to Work on Your WordPress Site](/docs/products/platform/get-started/guides/developer-access/).
+The permissions discussed within this guide apply to accessing the SiteBay platform through the My SiteBay, SiteBay API, and SiteBay CLI. If you wish to only provide someone with direct access to the internal system of a WordPress Site (or revoke their access), that can be accomplished through limited user accounts within your operating system. See [Create an Account for a Developer to Work on Your WordPress Site](/docs/products/platform/get-started/guides/developer-access/).
 {{< /note >}}
 
 ## View and Set Permissions for a User
 
-You can view and edit permissions for a user directly in the My Site Bay by following the instructions below.
+You can view and edit permissions for a user directly in the My SiteBay by following the instructions below.
 
-1. Log in to the [My Site Bay](https://my.sitebay.org) and click the **Account** link in the sidebar.
+1. Log in to the [My SiteBay](https://my.sitebay.org) and click the **Account** link in the sidebar.
 
 1. Navigate to the **Users & Grants** tab, which displays a list of existing users for the account.
 
-    ![Screenshot of the Users & Grants tab in the My Site Bay](list-of-users.png)
+    ![Screenshot of the Users & Grants tab in the My SiteBay](list-of-users.png)
 
 1. Locate the user for which you wish to view or modify permissions and click the corresponding **User Permissions** link.
 
@@ -46,7 +46,7 @@ A user can either be given unrestricted (full) access to an account or they can 
 The **Global Permissions** settings enable users to add various types of services. There is a setting that corresponds to each type of service. For instance, to allow the user to add NodeBalancers, enable the *Can add NodeBalancers to this account* setting.
 
 {{< note >}}
-Granting access to settings denoted with a dollar sign ($) allows the user to perform actions that incur billing costs, such as adding or resizing a Site Bay WordPress Site.
+Granting access to settings denoted with a dollar sign ($) allows the user to perform actions that incur billing costs, such as adding or resizing a SiteBay WordPress Site.
 {{< /note >}}
 
 ### Billing Access
@@ -63,8 +63,8 @@ This section provides various levels of access to view or modify billing informa
 
 ![Specific Services](user-permissions-specific-access.png)
 
-A user can be granted individual permissions to each instance of a service, such as Site Bay WordPress Sites, Block Storage Volumes, NodeBalancers, and more. Unlike **Global Permissions**, **Specific Permissions** apply to individual resources -- not the service as a whole.
+A user can be granted individual permissions to each instance of a service, such as SiteBay WordPress Sites, Block Storage Volumes, NodeBalancers, and more. Unlike **Global Permissions**, **Specific Permissions** apply to individual resources -- not the service as a whole.
 
 - **None**: The user cannot view or otherwise interact with the selected resource.
-- **Read Only**: The user can view the resource and all of its associated information typically visible within the My Site Bay, however they cannot otherwise interact with it.
+- **Read Only**: The user can view the resource and all of its associated information typically visible within the My SiteBay, But they cannot otherwise interact with it.
 - **Read-Write**: The user has full access to the selected resource and can make any changes that only an administrator is otherwise able to. This includes resource deletion, cloning, and all other applicable edits. The user also receives an email notification when a ticket is created or updated for this resource.

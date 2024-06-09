@@ -1,5 +1,5 @@
 ---
-title: Site Bay Types
+title: SiteBay Types
 slug: sitebay-types
 ---
 

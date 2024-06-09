@@ -1,16 +1,16 @@
 ---
 description: "Instructions on updating the email address on an account so that you can receive email notifications."
 keywords: ["email address", "email addresses", "address", "addresses"]
-tags: ["sitebay platform","My Site Bay","email"]
+tags: ["sitebay platform","My SiteBay","email"]
 published: 2024-04-21
 image: L_ChangeYourEmail.png
 title: Change Your Email Address
-title_meta: Change Your Email Address on a Site Bay Account
+title_meta: Change Your Email Address on a SiteBay Account
 aliases: ['/quick-answers/platform/how-to-change-your-email/','/guides/how-to-change-your-email/']
-authors: ["Site Bay"]
+authors: ["SiteBay"]
 ---
 
-Site Bay uses the contact information on file in your account to notify and bill you. Keep this information current to prevent service interruptions. It's especially important to keep your email address current.
+SiteBay uses the contact information on file in your account to notify and bill you. Keep this information current to prevent service interruptions. It's especially important to keep your email address current.
 
 The **Billing Info** and **User & Grants** pages have email address fields. The email addresses saved on these pages receive different notifications, as described in the following sections. If you are the only user, you should enter your email address on both pages. If there are multiple users, verify that the primary account holder's email address is current on the **Billing Info** page.
 
@@ -40,5 +40,5 @@ Here's how to change a user's email from the **Users & Grants** page:
 The user's email address is now updated.
 
 {{< note >}}
-If you do not have full account access, you can view your user profile settings and update your email address by clicking on your username at the top of the My Site Bay screen and selecting **Display**.
+If you do not have full account access, you can view your user profile settings and update your email address by clicking on your username at the top of the My SiteBay screen and selecting **Display**.
 {{< /note >}}

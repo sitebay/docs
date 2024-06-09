@@ -6,11 +6,11 @@ tags: ['sitebay']
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
 published: 2024-04-19
 modified_by:
-  name: Site Bay
+  name: SiteBay
 title: "What is Open Source Software?"
 title_meta: "Open Source Software Definition and Examples"
 image: OpenSource.png
-authors: ["Site Bay"]
+authors: ["SiteBay"]
 ---
 
 Every application you use starts as an idea. No matter the platform it’s installed on or its purpose, every piece of software begins in the planning phase. That idea is then turned into a project and at its heart is the source code, which is written by either a single software engineer or a team. The source code is then compiled into a functioning application that you run on your desktop computer or server.

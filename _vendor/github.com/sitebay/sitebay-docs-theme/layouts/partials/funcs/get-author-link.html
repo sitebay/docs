@@ -2,7 +2,7 @@
 
   The rules are:
 
-  1. Use the author name, if present. However, if the author's name contains Site Bay, then check to see if a contributor name is set, and use that instead if it is present.
+  1. Use the author name, if present. However, if the author's name contains SiteBay, then check to see if a contributor name is set, and use that instead if it is present.
   2. If contributor link is present, set that as a link in the title byline. All links have been set to be HTTPS URLs, so we don't have to try and parse Twitter/Linkedin/etc @usernames.
 */}}
 {{ $p := .Params }}
@@ -21,7 +21,7 @@
   {{ $author :=  $p.author }}
   {{ $contributor :=  $p.contributor }}
   {{ $name := $author.name }}
-  {{ if and (strings.Contains $name "Site Bay") $contributor }}
+  {{ if and (strings.Contains $name "SiteBay") $contributor }}
     {{ with $contributor.name }}
       {{ $name = . }}
     {{ end }}

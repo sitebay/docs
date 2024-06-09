@@ -1260,7 +1260,7 @@
   },
   {
     "content": "Request Body:  fqdn:  password:  team_id:  username:",
-    "excerpt": "Users can add a non Site Bay hosted WordPress site.",
+    "excerpt": "Users can add a non SiteBay hosted WordPress site.",
     "href": "/docs/api/application_password/#create-application-password",
     "httpMethod": "Post",
     "objectID": "Post: /f/api/v1/application_password",
@@ -1284,7 +1284,7 @@
   },
   {
     "content": "Request Body:  fqdn:  password:  username:",
-    "excerpt": "Users can update their application password/username for non Site Bay hosted WordPress site. Can proxy through the WordPress REST API for various functionalities. Do not use for sites already on Site Bay.",
+    "excerpt": "Users can update their application password/username for non Site Bay hosted WordPress site. Can proxy through the WordPress REST API for various functionalities. Do not use for sites already on SiteBay.",
     "href": "/docs/api/application_password/#update-application-password",
     "httpMethod": "Put",
     "objectID": "Put: /f/api/v1/application_password/{fqdn}",

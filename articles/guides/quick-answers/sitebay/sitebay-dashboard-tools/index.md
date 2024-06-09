@@ -1,18 +1,18 @@
 ---
 slug: sitebay-dashboard-tools
-description: 'Site Bay Dashboard Tools: External Paths, HTTP Basic Authentication, Cloudflare Dev Mode, Clear Cache, Change Domain, Delete Site.'
+description: 'SiteBay Dashboard Tools: External Paths, HTTP Basic Authentication, Cloudflare Dev Mode, Clear Cache, Change Domain, Delete Site.'
 keywords: ["sitebay", "dashboard", "tools", "http basic auth", "cloudflare", "clear cache", "change domain", "delete site"]
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
 modified: 2024-04-04
 modified_by:
-  name: Site Bay
+  name: SiteBay
 published: 2024-04-04
-title: Maximizing Efficiency with Site Bay's Dashboard Tools
+title: Maximizing Efficiency with SiteBay's Dashboard Tools
 tags: ["sitebay"]
-authors: ["Site Bay"]
+authors: ["SiteBay"]
 ---
 
-Site Bay's Dashboard is packed with powerful tools designed to give you full control over your WordPress hosting environment. These tools are tailored to streamline your site management process, ensuring that your website remains robust, secure, and highly available. Let's dive into what each tool offers and how you can use them to enhance your site's performance.
+SiteBay's Dashboard is packed with powerful tools designed to give you full control over your WordPress hosting environment. These tools are tailored to streamline your site management process, ensuring that your website remains robust, secure, and highly available. Let's dive into what each tool offers and how you can use them to enhance your site's performance.
 
 ## External Paths
 
@@ -30,7 +30,7 @@ Easily change your site's domain name. Whether you're rebranding or moving to a 
 
 When it's time to remove a site, whether for cleanup or because a project has come to an end, this tool enables you to do so directly from the dashboard. It ensures that your site is properly and securely deleted from the server.
 
-Utilizing these dashboard tools effectively can greatly enhance your site management workflow on Site Bay. From security features like HTTP Basic Authentication to performance optimizations such as clearing the cache or using Cloudflare Developer Mode, each tool is designed to provide you with a seamless and efficient hosting experience.
+Utilizing these dashboard tools effectively can greatly enhance your site management workflow on SiteBay. From security features like HTTP Basic Authentication to performance optimizations such as clearing the cache or using Cloudflare Developer Mode, each tool is designed to provide you with a seamless and efficient hosting experience.
 
 ## Testing sites
 ### Cloudflare Developer Mode

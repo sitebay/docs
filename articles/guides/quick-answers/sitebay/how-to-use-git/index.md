@@ -1,22 +1,22 @@
 ---
 slug: how-to-use-git
-description: 'Master Git for your Site Bay WordPress hosting: a step-by-step guide to initializing repositories, staging commits, and pushing updates.'
+description: 'Master Git for your SiteBay WordPress hosting: a step-by-step guide to initializing repositories, staging commits, and pushing updates.'
 aliases: ['/quick-answers/sitebay/how-to-use-git/','/quick-answers/how-to-use-git/']
 keywords: ["Linux", "how to use Git", "github", "create git repo"]
 tags: ["version control system","sitebay"]
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
 modified: 2024-04-17
 modified_by:
-  name: Site Bay
+  name: SiteBay
 published: 2024-04-19
-title: "Harnessing Git for Site Bay: A Comprehensive Guide"
-authors: ["Site Bay"]
+title: "Harnessing Git for SiteBay: A Comprehensive Guide"
+authors: ["SiteBay"]
 ---
 
 For our bi-directional Git Sync, you don't actually need to manage and a git repo on your computer.
 You can develop locally without any of the below, but if you want to learn the basics, read on.
 
-Git is a cornerstone for managing software projects, offering powerful version control capabilities. Whether you're launching your first WordPress site on Site Bay or managing a complex project, understanding Git is key. Follow these six steps to kickstart your journey with Git, from creating a repository to making your first commit and pushing it online. For a deeper dive, check out our extensive guide on Git Source Control Management.
+Git is a cornerstone for managing software projects, offering powerful version control capabilities. Whether you're launching your first WordPress site on SiteBay or managing a complex project, understanding Git is key. Follow these six steps to kickstart your journey with Git, from creating a repository to making your first commit and pushing it online. For a deeper dive, check out our extensive guide on Git Source Control Management.
 
 Initialize Your Git Repository:
 Begin by setting up a dedicated folder for your project files, then initialize a Git repository within it:
@@ -30,7 +30,7 @@ Create and Track Files:
 Generate some files for your project and add content to one as a starting point:
 
 touch index.html style.css script.js
-echo "Hello Site Bay!" >> index.html
+echo "Hello SiteBay!" >> index.html
 
 
 Check Your Repository Status:

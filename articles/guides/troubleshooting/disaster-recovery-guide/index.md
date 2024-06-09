@@ -1,7 +1,7 @@
 ---
 slug: disaster-recovery-tutorial
 author:
-  name: Site Bay
+  name: SiteBay
   email: support@sitebay.org
 description: 'Troubleshooting steps to problems after upgrading your site.'
 keywords: ['upgrade','wordpress','update']
@@ -12,7 +12,7 @@ deprecated_link: 'troubleshooting/troubleshooting-basic-connection-issues/'
 published: 2024-04-27
 modified: 2024-04-27
 modified_by:
-  name: Site Bay
+  name: SiteBay
 title: "Fix WordPress site problems after updating"
 aliases: ['/troubleshooting/disaster-recovery-tutorial/']
 ---

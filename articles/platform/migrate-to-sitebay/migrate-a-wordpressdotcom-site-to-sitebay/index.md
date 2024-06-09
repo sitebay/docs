@@ -1,23 +1,23 @@
 ---
 slug: migrate-a-wordpressdotcom-site-to-sitebay
 author:
-  name: Site Bay
+  name: SiteBay
   email: support@sitebay.org
-description: 'Shows how to export posts from a WordPress.com website and import them to WordPress on a Site Bay.'
+description: 'Shows how to export posts from a WordPress.com website and import them to WordPress on a SiteBay.'
 keywords: ["wordpress", "wordpress.com", "migrate", "website migration"]
 tags: ["sitebay platform","wordpress"]
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
 modified: 2024-04-04
 modified_by:
-  name: Site Bay
+  name: SiteBay
 published: 2024-04-04
-title: How to Migrate a WordPress.com Website to Site Bay
+title: How to Migrate a WordPress.com Website to SiteBay
 external_resources:
  - '[WordPress.com: Moving to Self-Hosted WordPress](https://move.wordpress.com/)'
 aliases: ['/platform/migrate-to-sitebay/migrate-a-wordpressdotcom-site-to-sitebay/']
 ---
 
-This tutorial describes how to export your content from WordPress.com and host your WordPress website on Site Bay.
+This tutorial describes how to export your content from WordPress.com and host your WordPress website on SiteBay.
 
 
 {{< note >}}
@@ -26,9 +26,9 @@ WordPress.com's export feature will export pages, posts, and comments from your 
 
 ## Migrate Your Website
 
-### Create Your Site on Site Bay
+### Create Your Site on SiteBay
 
-Follow Site Bay's [Getting Started](/support/getting-started/) tutorial to create your first site with us. Choose a Site Bay plan with enough storage space to store the data from your current host.
+Follow SiteBay's [Getting Started](/support/getting-started/) tutorial to create your first site with us. Choose a SiteBay plan with enough storage space to store the data from your current host.
 
 
 
@@ -46,9 +46,9 @@ Follow Site Bay's [Getting Started](/support/getting-started/) tutorial to creat
 
 1.  Unzip the file.
 
-### Import Your Content on your Site Bay hosted WordPress site
+### Import Your Content on your SiteBay hosted WordPress site
 
-1.  Visit your Site Bay hosted WordPress site from your browser and login with your WordPress credentials.
+1.  Visit your SiteBay hosted WordPress site from your browser and login with your WordPress credentials.
 
 1.  Navigate to the Import page of the Tools section. The WordPress importer plugin will be listed:
 
@@ -66,7 +66,7 @@ Follow Site Bay's [Getting Started](/support/getting-started/) tutorial to creat
 
     -   Your previous WordPress.com user, which will also be imported
     -   A brand new user that the import plugin will create
-    -   One of the WordPress users you've already created on your Site Bay as part of deploying your web server
+    -   One of the WordPress users you've already created on your SiteBay as part of deploying your web server
 
     **Be sure to enable** the *Download and import file attachment* option on this page.
 

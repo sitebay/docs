@@ -1,29 +1,29 @@
 ---
 slug: use-code-server-to-edit-files-in-sitebay
-description: 'Learn how to use code-server, Site Bay’s integrated development environment (IDE), for editing WordPress files directly within your browser.'
-keywords: ["code-server", "Site Bay", "WordPress", "IDE", "browser-based editor"]
+description: 'Learn how to use code-server, SiteBay’s integrated development environment (IDE), for editing WordPress files directly within your browser.'
+keywords: ["code-server", "SiteBay", "WordPress", "IDE", "browser-based editor"]
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
 aliases: ['/quick-answers/use-code-server-to-edit-files-in-sitebay/','/quick-answers/sitebay/use-code-server-to-edit-files-in-sitebay/']
 published: 2024-04-04
 modified: 2024-04-04
 modified_by:
-  name: Site Bay
-title: 'Effortlessly Edit WordPress Files with Site Bay’s code-server'
+  name: SiteBay
+title: 'Effortlessly Edit WordPress Files with SiteBay’s code-server'
 tags: ["sitebay", "code-server", "WordPress", "IDE", "development"]
-authors: ["Site Bay"]
+authors: ["SiteBay"]
 ---
 
-Site Bay gives you the power of code-server for free, a browser-based Integrated Development Environment (IDE), to offer a pro WordPress development experience. Handy if you're tweaking themes or developing plugins.
+SiteBay gives you the power of code-server for free, a browser-based Integrated Development Environment (IDE), to offer a pro WordPress development experience. Handy if you're tweaking themes or developing plugins.
 
-## Getting Started with code-server on Site Bay
+## Getting Started with code-server on SiteBay
 
-Opening and editing files with code-server is straightforward. Simply navigate to your Site Bay dashboard, access your WordPress site, and launch the code-server IDE. From there, you can open any file within your WordPress directory.
+Opening and editing files with code-server is straightforward. Simply navigate to your SiteBay dashboard, access your WordPress site, and launch the code-server IDE. From there, you can open any file within your WordPress directory.
 
 Example: Editing the WordPress Configuration
 
 To edit your wp-config.php file:
 
-From the Site Bay dashboard, navigate to your WordPress site's dash.
+From the SiteBay dashboard, navigate to your WordPress site's dash.
 Open code-server by clicking on the Code Server tab.
 Open wp-config.php by clicking on the file in the left directory tree.
 
@@ -46,8 +46,8 @@ We preinstalled extensions for your for WordPress development, including:
 
 ## Collaborative Editing and Debugging
 
-One of the key benefits of using code-server on Site Bay is the ability to collaborate with team members in real-time, share your development environment, and debug together, all within the browser. This feature accelerates troubleshooting and enhances the overall development process.
+One of the key benefits of using code-server on SiteBay is the ability to collaborate with team members in real-time, share your development environment, and debug together, all within the browser. This feature accelerates troubleshooting and enhances the overall development process.
 
 ## Conclusion
 
-Site Bay's integration of code-server revolutionizes WordPress development by offering feature-rich IDE directly in your browser.
+SiteBay's integration of code-server revolutionizes WordPress development by offering feature-rich IDE directly in your browser.

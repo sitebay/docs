@@ -28,7 +28,7 @@ min = "0.110.0"
 path = "github.com/sitebay/sitebay-docs-theme"
 
 
-# Site Bay's OpenAPI definition.
+# SiteBay's OpenAPI definition.
 [[imports]]
 path = "github.com/sitebay/sitebay-api-docs/v4"
 

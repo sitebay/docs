@@ -1,5 +1,5 @@
 ---
-title: Site Bay Instances
+title: SiteBay Instances
 slug: sitebay-instances
 ---
 

@@ -1,19 +1,19 @@
 ---
 slug: sitebay-plans
-description: 'An overview of Site Bay WordPress hosting plans: Micro, Starter, and Business.'
-keywords: ['WordPress hosting', 'Site Bay', 'hosting plans', 'web hosting']
+description: 'An overview of SiteBay WordPress hosting plans: Micro, Starter, and Business.'
+keywords: ['WordPress hosting', 'SiteBay', 'hosting plans', 'web hosting']
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
 published: 2024-03-04
 modified: 2024-03-04
 modified_by:
-  name: Site Bay
-title: "Site Bay WordPress Hosting Plans"
+  name: SiteBay
+title: "SiteBay WordPress Hosting Plans"
 tags: ["sitebay", "WordPress hosting", "hosting plans"]
 aliases: ['/quick-answers/sitebay-essentials/sitebay-plans/']
-authors: ["Site Bay"]
+authors: ["SiteBay"]
 ---
 
-Choosing the right WordPress hosting plan is crucial for your website's success. At Site Bay, we offer three tailored plans designed to match your specific needs: Micro, Starter, and Business. Each plan is optimized for WordPress, ensuring your site runs smoothly on our Kubernetes-based platform. Let's dive into the details of what each plan offers.
+Choosing the right WordPress hosting plan is crucial for your website's success. At SiteBay, we offer three tailored plans designed to match your specific needs: Micro, Starter, and Business. Each plan is optimized for WordPress, ensuring your site runs smoothly on our Kubernetes-based platform. Let's dive into the details of what each plan offers.
 
 Micro Plan
 
@@ -47,12 +47,12 @@ At $120 USD/month, this plan caters to businesses needing high performance, mult
 
 Features Across All Plans
 
-All Site Bay plans come with robust features to enhance your WordPress experience:
+All SiteBay plans come with robust features to enhance your WordPress experience:
 
 Kubernetes-based Hosting: Enjoy the scalability, reliability, and security of Kubernetes.
-Session Replay & Analytics: Utilize Site Bay's integration with Posthog for detailed user analytics and session replays.
+Session Replay & Analytics: Utilize SiteBay's integration with Posthog for detailed user analytics and session replays.
 Grafana Dashboards: Monitor your site's performance with custom Nginx analytics and potential future custom dashboards.
-Free Migrations: Easily migrate your site to Site Bay with our free migration service.
+Free Migrations: Easily migrate your site to SiteBay with our free migration service.
 VSCode Web Server: Develop and manage your WordPress site with a VSCode web server, featuring pre-installed development extensions.
 Choosing the Right Plan
 

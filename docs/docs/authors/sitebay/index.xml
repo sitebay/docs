@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SiteBay on SiteBay Guides &amp; Tutorials</title>
+    <link>https://www.sitebay.org/docs/authors/sitebay/</link>
+    <description>Recent content in SiteBay on SiteBay Guides &amp; Tutorials</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 22 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.sitebay.org/docs/authors/sitebay/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Getting Started on the SiteBay Platform</title>
+      <link>https://www.sitebay.org/docs/products/platform/get-started/</link>
+      <pubDate>Thu, 04 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/products/platform/get-started/</guid>
+      <description>Sign Up for an AccountFirst, you need to create a SiteBay account to start using our services.</description>
+    </item>
+    
+    <item>
+      <title>Quick Answers</title>
+      <link>https://www.sitebay.org/docs/guides/quick-answers/</link>
+      <pubDate>Sun, 14 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/quick-answers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Web Server Guides for WordPress on Kubernetes</title>
+      <link>https://www.sitebay.org/docs/guides/web-servers/</link>
+      <pubDate>Sat, 13 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/web-servers/</guid>
+      <description>Hey! Ready to level up your WordPress game with SiteBay? Our web server guides got you.</description>
+    </item>
+    
+    <item>
+      <title>Databases</title>
+      <link>https://www.sitebay.org/docs/guides/databases/</link>
+      <pubDate>Tue, 16 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/databases/</guid>
+      <description>Databases are crucial in the world of web development and hosting, especially when it comes to managing dynamic content and user data.</description>
+    </item>
+    
+    <item>
+      <title>Generative AI for WordPress</title>
+      <link>https://www.sitebay.org/docs/guides/generative-ai/</link>
+      <pubDate>Tue, 16 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/generative-ai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>WordPress</title>
+      <link>https://www.sitebay.org/docs/guides/wordpress/</link>
+      <pubDate>Mon, 29 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/wordpress/</guid>
+      <description>Yo, welcome to the WordPress section, where we break down everything about this awesome CMS platform that&amp;rsquo;s powering millions of websites across the globe.</description>
+    </item>
+    
+    <item>
+      <title>Cloudflare &#43; SiteBay</title>
+      <link>https://www.sitebay.org/docs/guides/cloudflare/</link>
+      <pubDate>Thu, 04 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/cloudflare/</guid>
+      <description>Utilizing Cloudflare in conjunction with SiteBay can dramatically improve the performance, security, and scalability of your WordPress sites.</description>
+    </item>
+    
+    <item>
+      <title>Understanding Common My SiteBay Errors</title>
+      <link>https://www.sitebay.org/docs/guides/an-overview-of-common-cloud-manager-errors/</link>
+      <pubDate>Wed, 22 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/an-overview-of-common-cloud-manager-errors/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Monitoring NGINX Using the Elastic Stack on Centos 7</title>
+      <link>https://www.sitebay.org/docs/guides/monitor-nginx-web-server-logs-using-filebeat-elastic-stack-linux-7/</link>
+      <pubDate>Mon, 13 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/monitor-nginx-web-server-logs-using-filebeat-elastic-stack-linux-7/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Install Elasticsearch on Debian and Ubuntu</title>
+      <link></link>
+      <pubDate>Sat, 04 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid></guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Installing and Using Elasticsearch Plugins</title>
+      <link>https://www.sitebay.org/docs/guides/a-guide-to-algolia-plugins/</link>
+      <pubDate>Sat, 04 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/a-guide-to-algolia-plugins/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Collaborate with PostHog Notebooks on SiteBay</title>
+      <link>https://www.sitebay.org/docs/products/posthog/notebooks/</link>
+      <pubDate>Tue, 30 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/products/posthog/notebooks/</guid>
+      <description>SiteBay integrates PostHog analytics, offering powerful insights into your WordPress site&amp;rsquo;s user interactions. One of the standout features is PostHog Notebooks, which enables collaborative data analysis directly within your SiteBay environment.</description>
+    </item>
+    
+    <item>
+      <title>Mastering Staging Sites on SiteBay’s WordPress Hosting</title>
+      <link>https://www.sitebay.org/docs/guides/sitebay-dashboard-staging-site/</link>
+      <pubDate>Tue, 30 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/sitebay-dashboard-staging-site/</guid>
+      <description>Creating a staging site on SiteBay&amp;rsquo;s WordPress hosting platform is a breeze, thanks to Kubernetes’ robust architecture and the integrated analytics and monitoring tools like PostHog and Grafana.</description>
+    </item>
+    
+    <item>
+      <title>Maximizing WordPress Insights with PostHog Dashboards on SiteBay</title>
+      <link>https://www.sitebay.org/docs/products/posthog/dashboards/</link>
+      <pubDate>Tue, 30 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/products/posthog/dashboards/</guid>
+      <description>Introduction to PostHog Dashboards
+PostHog dashboards are powerful tools for WordPress site owners on SiteBay, offering deep insights into visitor behavior and site performance.</description>
+    </item>
+    
+    <item>
+      <title>Enhancing SEO with SiteBays Shopify Link for WordPress Blogs</title>
+      <link>https://www.sitebay.org/docs/guides/what-is-shopify-link/</link>
+      <pubDate>Mon, 29 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/what-is-shopify-link/</guid>
+      <description>Integrating your WordPress blog with your Shopify store can enhance your online presence and SEO. SiteBay&amp;rsquo;s Shopify Link makes this process seamless, allowing your WordPress content to be accessible directly from your Shopify store at a /a/blog path.</description>
+    </item>
+    
+    <item>
+      <title>Install WordPress with Docker on SiteBay</title>
+      <link>https://www.sitebay.org/docs/guides/sitebay-create-a-site/</link>
+      <pubDate>Mon, 29 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/sitebay-create-a-site/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Launch WordPress with Docker Compose on SiteBay</title>
+      <link>https://www.sitebay.org/docs/guides/wordpress-with-docker-compose/</link>
+      <pubDate>Mon, 29 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/wordpress-with-docker-compose/</guid>
+      <description>Introduction to Docker and Docker Compose
+Docker provides a way to run applications securely isolated in a container, packaged with all its dependencies and libraries.</description>
+    </item>
+    
+    <item>
+      <title>Clearing Cache and Cookies in a Browser</title>
+      <link>https://www.sitebay.org/docs/guides/clear-cache-shortguide/</link>
+      <pubDate>Sun, 28 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/clear-cache-shortguide/</guid>
+      <description>A browser&amp;rsquo;s cache improves website loading performance by reducing the data processing and fetching. When a sizable amount of cached content is stored, it slows down the system and reduces the performance of the application.</description>
+    </item>
+    
+    <item>
+      <title>Team Collaboration on SiteBay: Enhance Your WordPress Management</title>
+      <link>https://www.sitebay.org/docs/guides/sitebay-team-members/</link>
+      <pubDate>Sun, 28 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/sitebay-team-members/</guid>
+      <description>NoteAll team members have equal privileges and can create or modify any resources including sites on the team.</description>
+    </item>
+    
+    <item>
+      <title>Deploy NGINX on Kubernetes: Quick and Easy Setup with SiteBay</title>
+      <link>https://www.sitebay.org/docs/guides/kubernetes-fast-as-possible/</link>
+      <pubDate>Sat, 27 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/kubernetes-fast-as-possible/</guid>
+      <description>Introduction to Kubernetes
+Kubernetes is a powerful open-source system for managing containerized applications across a cluster of machines.</description>
+    </item>
+    
+    <item>
+      <title>Elevate Your WordPress Site with Kubernetes on SiteBay</title>
+      <link>https://www.sitebay.org/docs/guides/benefits-of-wordpress-on-kubernetes/</link>
+      <pubDate>Sat, 27 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/benefits-of-wordpress-on-kubernetes/</guid>
+      <description>What is Kubernetes?
+Kubernetes is a cutting-edge tool that automates deploying, scaling, and operating application containers.</description>
+    </item>
+    
+    <item>
+      <title>Elevating WordPress Performance with Kubernetes and NGINX on SiteBay</title>
+      <link>https://www.sitebay.org/docs/guides/troubleshooting-wordpress-on-kubernetes/</link>
+      <pubDate>Sat, 27 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/troubleshooting-wordpress-on-kubernetes/</guid>
+      <description>Kubernetes, an open-source container orchestration platform, enables the management of containerized applications in a clustered environment.</description>
+    </item>
+    
+    <item>
+      <title>Leveraging Feature Flags for A/B Testing on SiteBay</title>
+      <link>https://www.sitebay.org/docs/products/posthog/feature-flags/</link>
+      <pubDate>Sat, 27 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/products/posthog/feature-flags/</guid>
+      <description>Feature flags, also known as feature toggles, are a powerful technique for controlling the roll-out of features on your website.</description>
+    </item>
+    
+    <item>
+      <title>Grant a Developer Access a WordPress Site or SiteBay Account</title>
+      <link>https://www.sitebay.org/docs/products/platform/get-started/guides/developer-access/</link>
+      <pubDate>Fri, 26 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/products/platform/get-started/guides/developer-access/</guid>
+      <description>One of the most powerful features of SiteBay&amp;rsquo;s unmanaged service is the amount of control SiteBay users have over their account and the software installed on their systems.</description>
+    </item>
+    
+    <item>
+      <title>Comparing WordPress Databases: The 3 Most Popular Database Types</title>
+      <link>https://www.sitebay.org/docs/guides/list-of-databases/</link>
+      <pubDate>Thu, 25 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/list-of-databases/</guid>
+      <description>Databases are the powerhouse behind nearly every website, app, and online platform you interact with daily.</description>
+    </item>
+    
+    <item>
+      <title>Mastering Process Monitoring in SiteBay with the ps aux Command</title>
+      <link>https://www.sitebay.org/docs/guides/use-the-ps-aux-command-in-sitebay/</link>
+      <pubDate>Thu, 25 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/use-the-ps-aux-command-in-sitebay/</guid>
+      <description>Within the ecosystem of SiteBay&amp;rsquo;s WordPress hosting on Kubernetes, understanding the underlying Linux system processes is crucial for managing and troubleshooting your WordPress site.</description>
+    </item>
+    
+    <item>
+      <title>Transfer a WordPress Site to SiteBay&#39;s WordPress Hosting</title>
+      <link>https://www.sitebay.org/docs/guides/transferring-a-wordpress-site-to-a-new-server/</link>
+      <pubDate>Thu, 25 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/transferring-a-wordpress-site-to-a-new-server/</guid>
+      <description>Transferring your WordPress site to SiteBay&amp;rsquo;s robust WordPress hosting environment, optimized with Kubernetes, Posthog analytics, and Grafana dashboards, ensures your website&amp;rsquo;s seamless performance and enhanced security.</description>
+    </item>
+    
+    <item>
+      <title>Email Port Blocking Alert</title>
+      <link></link>
+      <pubDate>Wed, 24 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid></guid>
+      <description>Email restrictions on SiteBay WordPress HostingTo combat spam from our network, outbound connections on ports 25, 465, and 587 are restricted by default for some new accounts.</description>
+    </item>
+    
+    <item>
+      <title>Embracing the Advantages of Open Source Software with SiteBay</title>
+      <link>https://www.sitebay.org/docs/guides/open-source-software-benefits/</link>
+      <pubDate>Wed, 24 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/open-source-software-benefits/</guid>
+      <description>Open-source software (OSS) is a cornerstone of innovation and flexibility in technology, powering enterprises and personal projects alike.</description>
+    </item>
+    
+    <item>
+      <title>How to Choose a Data Center</title>
+      <link>https://www.sitebay.org/docs/products/platform/get-started/guides/choose-a-data-center/</link>
+      <pubDate>Wed, 24 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/products/platform/get-started/guides/choose-a-data-center/</guid>
+      <description>If your visitors are in North America choose Washington (state), otherwise choose EU (hosted in Frankfurt)</description>
+    </item>
+    
+  </channel>
+</rss>

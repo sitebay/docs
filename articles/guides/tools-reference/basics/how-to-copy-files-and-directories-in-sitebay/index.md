@@ -6,19 +6,19 @@ tags: ["linux"]
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
 modified: 2024-04-04
 modified_by:
-  name: Site Bay
+  name: SiteBay
 published: 2024-03-04
 title: How to Copy Files and Directories
-authors: ["Site Bay"]
+authors: ["SiteBay"]
 ---
 
-## Copying Files and Directories in Site Bay
+## Copying Files and Directories in SiteBay
 
-Whether you're new to managing a WordPress site on Site Bay or you've been at it for a while, knowing how to handle files is crucial. One basic task you'll find yourself doing often is copying files and directories. This guide will break down how to use the cp command on your Site Bay environment, ensuring you're prepared to copy anything from a single file to an entire directory with ease.
+Whether you're new to managing a WordPress site on SiteBay or you've been at it for a while, knowing how to handle files is crucial. One basic task you'll find yourself doing often is copying files and directories. This guide will break down how to use the cp command on your SiteBay environment, ensuring you're prepared to copy anything from a single file to an entire directory with ease.
 
 ## Introduction to the cp Command
 
-The cp command stands as the go-to method for copying files and directories within Linux-based systems like those Site Bay runs on. Unlike the mv command, which moves files, cp duplicates them, leaving the original file untouched. You can copy files within the same directory (giving them a new name), to a different location, or even duplicate entire directories recursively.
+The cp command stands as the go-to method for copying files and directories within Linux-based systems like those SiteBay runs on. Unlike the mv command, which moves files, cp duplicates them, leaving the original file untouched. You can copy files within the same directory (giving them a new name), to a different location, or even duplicate entire directories recursively.
 
 Before diving in, here are a few basics:
 
@@ -27,7 +27,7 @@ The -r option allows for recursive copying, which is necessary when duplicating 
 
 ## Getting Started
 
-First up, you'll need to be logged into your Site Bay account and have access to your WordPress hosting environment.
+First up, you'll need to be logged into your SiteBay account and have access to your WordPress hosting environment.
 
 ## Copying Basics
 

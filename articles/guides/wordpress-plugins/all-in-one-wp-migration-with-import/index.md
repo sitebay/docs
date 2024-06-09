@@ -1,18 +1,18 @@
 ---
 slug: all-in-one-wp-migration-with-import
-description: 'How to restore your Site Bay site with unlimited size'
+description: 'How to restore your SiteBay site with unlimited size'
 keywords: ["wordpress", "site restoration", "all-in-one wp migration", "import", "backup"]
 tags: ["wordpress", "backup", "restore"]
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
 modified: 2024-04-04
 modified_by:
-  name: Site Bay
+  name: SiteBay
 published: 2024-03-04
-title: 'Restoring Your WordPress Site on Site Bay with All-in-One WP Migration'
-authors: ["Site Bay"]
+title: 'Restoring Your WordPress Site on SiteBay with All-in-One WP Migration'
+authors: ["SiteBay"]
 ---
 
-Restoring your WordPress site on Site Bay can be smooth and straightforward, especially when you're using the All-in-One WP Migration plugin. This tool simplifies the process of migrating your WordPress website, regardless of its size. Here’s how to get your site back up and running in no time.
+Restoring your WordPress site on SiteBay can be smooth and straightforward, especially when you're using the All-in-One WP Migration plugin. This tool simplifies the process of migrating your WordPress website, regardless of its size. Here’s how to get your site back up and running in no time.
 
 Before You Begin
 Install the Plugin: Ensure that the All-in-One WP Migration plugin is installed and activated on your WordPress dashboard.
@@ -34,4 +34,4 @@ The plugin’s standard version has a size limit for the import. If your backup 
 Alternatively, you can use the "All-in-One WP Migration File Extension" to increase the upload size limit.
 Conclusion
 
-All-in-One WP Migration is a powerful tool for restoring your WordPress site on Site Bay, making it a straightforward process to get your site back to its former glory. With this guide, you're well-equipped to handle site restorations like a pro.
+All-in-One WP Migration is a powerful tool for restoring your WordPress site on SiteBay, making it a straightforward process to get your site back to its former glory. With this guide, you're well-equipped to handle site restorations like a pro.

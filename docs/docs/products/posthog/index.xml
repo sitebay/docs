@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>PostHog on Site Bay Guides &amp; Tutorials</title>
+    <title>PostHog on SiteBay Guides &amp; Tutorials</title>
     <link>https://www.sitebay.org/docs/products/posthog/</link>
-    <description>Recent content in PostHog on Site Bay Guides &amp; Tutorials</description>
+    <description>Recent content in PostHog on SiteBay Guides &amp; Tutorials</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://www.sitebay.org/docs/products/posthog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Collaborate with PostHog Notebooks on Site Bay</title>
+      <title>Collaborate with PostHog Notebooks on SiteBay</title>
       <link>https://www.sitebay.org/docs/products/posthog/notebooks/</link>
       <pubDate>Tue, 30 Apr 2024 00:00:00 +0000</pubDate>
       
       <guid>https://www.sitebay.org/docs/products/posthog/notebooks/</guid>
-      <description>Site Bay integrates PostHog analytics, offering powerful insights into your WordPress site&amp;rsquo;s user interactions. One of the standout features is PostHog Notebooks, which enables collaborative data analysis directly within your Site Bay environment.</description>
+      <description>SiteBay integrates PostHog analytics, offering powerful insights into your WordPress site&amp;rsquo;s user interactions. One of the standout features is PostHog Notebooks, which enables collaborative data analysis directly within your SiteBay environment.</description>
     </item>
     
     <item>
-      <title>Maximizing WordPress Insights with PostHog Dashboards on Site Bay</title>
+      <title>Maximizing WordPress Insights with PostHog Dashboards on SiteBay</title>
       <link>https://www.sitebay.org/docs/products/posthog/dashboards/</link>
       <pubDate>Tue, 30 Apr 2024 00:00:00 +0000</pubDate>
       
       <guid>https://www.sitebay.org/docs/products/posthog/dashboards/</guid>
       <description>Introduction to PostHog Dashboards
-PostHog dashboards are powerful tools for WordPress site owners on Site Bay, offering deep insights into visitor behavior and site performance.</description>
+PostHog dashboards are powerful tools for WordPress site owners on SiteBay, offering deep insights into visitor behavior and site performance.</description>
     </item>
     
     <item>
-      <title>Leveraging Feature Flags for A/B Testing on Site Bay</title>
+      <title>Leveraging Feature Flags for A/B Testing on SiteBay</title>
       <link>https://www.sitebay.org/docs/products/posthog/feature-flags/</link>
       <pubDate>Sat, 27 Apr 2024 00:00:00 +0000</pubDate>
       
@@ -40,16 +40,16 @@ PostHog dashboards are powerful tools for WordPress site owners on Site Bay, off
       <pubDate>Sat, 20 Apr 2024 00:00:00 +0000</pubDate>
       
       <guid>https://www.sitebay.org/docs/products/posthog/surveys/</guid>
-      <description>Want to get real feedback directly from your users? Adding Posthog surveys to your WordPress site hosted on Site Bay can give you valuable insights into what your audience thinks and wants.</description>
+      <description>Want to get real feedback directly from your users? Adding Posthog surveys to your WordPress site hosted on SiteBay can give you valuable insights into what your audience thinks and wants.</description>
     </item>
     
     <item>
-      <title>Events with Posthog on Site Bay</title>
+      <title>Events with Posthog on SiteBay</title>
       <link>https://www.sitebay.org/docs/products/posthog/events/</link>
       <pubDate>Fri, 19 Apr 2024 00:00:00 +0000</pubDate>
       
       <guid>https://www.sitebay.org/docs/products/posthog/events/</guid>
-      <description>If you haven&amp;rsquo;t already, set up your Site Bay WordPress site. Check out our guides on Getting Started with Site Bay and Deploying Your First WordPress Site.</description>
+      <description>If you haven&amp;rsquo;t already, set up your SiteBay WordPress site. Check out our guides on Getting Started with SiteBay and Deploying Your First WordPress Site.</description>
     </item>
     
     <item>
@@ -62,7 +62,7 @@ PostHog dashboards are powerful tools for WordPress site owners on Site Bay, off
     </item>
     
     <item>
-      <title>Grafana on Site Bay WordPress Hosting</title>
+      <title>Grafana on SiteBay WordPress Hosting</title>
       <link>https://www.sitebay.org/docs/products/posthog/web-analytics/</link>
       <pubDate>Thu, 04 Apr 2024 00:00:00 +0000</pubDate>
       
@@ -72,13 +72,13 @@ OverviewInsights in Grafana display your data through various information visual
     </item>
     
     <item>
-      <title>Mastering Data Management with PostHog on Site Bay</title>
+      <title>Mastering Data Management with PostHog on SiteBay</title>
       <link>https://www.sitebay.org/docs/products/posthog/data-management/</link>
       <pubDate>Thu, 04 Apr 2024 00:00:00 +0000</pubDate>
       
       <guid>https://www.sitebay.org/docs/products/posthog/data-management/</guid>
-      <description>Mastering Data Management with PostHog on Site Bay
-Welcome to the guide on leveraging PostHog for optimal data management on Site Bay.</description>
+      <description>Mastering Data Management with PostHog on SiteBay
+Welcome to the guide on using PostHog for optimal data management on SiteBay.</description>
     </item>
     
     <item>
@@ -92,7 +92,7 @@ OverviewInsights in PostHog display your data through various information visual
     </item>
     
     <item>
-      <title>PostHog Recordings on Site Bay WordPress Hosting</title>
+      <title>PostHog Recordings on SiteBay WordPress Hosting</title>
       <link>https://www.sitebay.org/docs/products/posthog/session-replay/</link>
       <pubDate>Thu, 04 Apr 2024 00:00:00 +0000</pubDate>
       

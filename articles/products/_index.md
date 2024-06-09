@@ -1,8 +1,8 @@
 +++
 title = "All Products"
 linkTitle = "Products"
-title_meta = "Site Bay Product Documentation"
-description = "Get started using My Site Bay to create Site Bay WordPress sites and manage your account."
+title_meta = "SiteBay Product Documentation"
+description = "Get started using My SiteBay to create SiteBay WordPress sites and manage your account."
 
 [[cascade]]
 weightAge = 0

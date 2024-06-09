@@ -1,22 +1,22 @@
 ---
 slug: how-to-use-echo
-description: 'Learn how to use the echo command effectively in Site Bay environments for displaying messages, writing to files, and combining it with other commands.'
+description: 'Learn how to use the echo command effectively in SiteBay environments for displaying messages, writing to files, and combining it with other commands.'
 keywords: ["sitebay", "how to", "echo"]
 aliases: ['quick-answers/how-to-use-echo/']
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
 modified_by:
-  name: Site Bay
+  name: SiteBay
 published: 2024-03-04
 image: UseEchoCommand.png
-title: Mastering the echo Command in Site Bay
+title: Mastering the echo Command in SiteBay
 title_meta: How to Master the Echo Command
 tags: ["sitebay", "command line", "echo"]
 authors: ["Rajakavitha Kodhandapani"]
 ---
 
-Echo Command in Site Bay Environments
+Echo Command in SiteBay Environments
 
-The echo command is a versatile tool used in the terminal to display text or strings passed as arguments. It's essential for Site Bay users who manage WordPress sites on Kubernetes, as it helps in scripting and automating tasks efficiently. Whether you're logging messages, displaying variable values, or integrating with other commands, echo is a fundamental command that enhances your command-line proficiency.
+The echo command is a versatile tool used in the terminal to display text or strings passed as arguments. It's essential for SiteBay users who manage WordPress sites on Kubernetes, as it helps in scripting and automating tasks efficiently. Whether you're logging messages, displaying variable values, or integrating with other commands, echo is a fundamental command that enhances your command-line proficiency.
 
 Practical Uses of Echo
 
@@ -26,7 +26,7 @@ Basic Text Display
 
 The simplest use of echo is to display plain text:
 
-echo "Welcome to Site Bay Hosting!"
+echo "Welcome to SiteBay Hosting!"
 
 Advanced Text Formatting
 
@@ -39,18 +39,18 @@ echo -e "\aNew WordPress update available!"
 
 New Line (\n): Break lines for better readability.
 
-echo -e "Welcome to\nSite Bay Hosting"
+echo -e "Welcome to\nSiteBay Hosting"
 
 
 Tabs (\t): Indent text for structured output.
 
-echo -e "Site Bay\tWordPress Hosting"
+echo -e "SiteBay\tWordPress Hosting"
 
 Removing Trailing New Line
 
 The -n option suppresses the trailing new line, keeping the output on the same line:
 
-echo -n "Loading Site Bay Dashboard..."
+echo -n "Loading SiteBay Dashboard..."
 
 Displaying Directories and Files
 
@@ -77,4 +77,4 @@ echo "export PATH=\$PATH:/opt/sitebay/bin" >> ~/.bashrc
 
 Conclusion
 
-The echo command is invaluable for Site Bay users managing WordPress sites, offering simplicity for beginners and depth for seasoned users. From scripting and automation to simple notifications, mastering echo enhances your command-line efficiency and opens up new possibilities for managing your hosting environment. Explore, experiment, and integrate echo into your Site Bay workflow for more streamlined site management.
+The echo command is invaluable for SiteBay users managing WordPress sites, offering simplicity for beginners and depth for seasoned users. From scripting and automation to simple notifications, mastering echo enhances your command-line efficiency and opens up new possibilities for managing your hosting environment. Explore, experiment, and integrate echo into your SiteBay workflow for more streamlined site management.

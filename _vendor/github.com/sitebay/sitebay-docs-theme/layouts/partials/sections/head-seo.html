@@ -1,9 +1,9 @@
 {{ $description := "" }}
 {{ if eq .Section "api" }}
   {{ if $.IsNode }}
-    {{ $description = "Site Bay API reference and examples." }}
+    {{ $description = "SiteBay API reference and examples." }}
   {{ else }}
-    {{ $description = printf "Site Bay API reference and examples for %s endpoints." .Title }}
+    {{ $description = printf "SiteBay API reference and examples for %s endpoints." .Title }}
   {{ end }}
 {{ else }}
   {{ $description = .Param "description" }}

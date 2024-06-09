@@ -2,7 +2,7 @@
 title: "Custom Domain Email on iMail Gmail for Free"
 description: "Learn how to send email from your website's domain"
 published: 2024-04-04
-authors: ["Site Bay"]
+authors: ["SiteBay"]
 keywords: ["SMTP", "iMail", "google", "icloud"]
 ---
 # Custom Domain Email on Gmail or iMail

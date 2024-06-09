@@ -5,14 +5,14 @@
 {{ $author :=  $p.author }}
 {{ $contributor :=  $p.contributor }}
 {{ $authorName := $author.name }}
-{{ if and (strings.Contains $authorName "Site Bay") $contributor }}
+{{ if and (strings.Contains $authorName "SiteBay") $contributor }}
   {{ with $contributor.name }}
     {{ $authorName = . }}
   {{ end }}
 {{ end }}
 
 {{ $author := dict }}
-{{ if or (not $authorName) (strings.Contains $authorName "Site Bay") }}
+{{ if or (not $authorName) (strings.Contains $authorName "SiteBay") }}
   {{ $author = $schemaCommonParts.publisher }}
 {{ else }}
   {{ $author = dict "@type" "Person" "name" $authorName }}
@@ -63,7 +63,7 @@
   {{ $logo := "media/images/sitebay-logo-black.png" | absURL }}
   {{ $publisher := printf `{
     "@type": "Organization",
-    "name": "Site Bay",
+    "name": "SiteBay",
     "logo": {
     "@type": "ImageObject",
     "url": %q

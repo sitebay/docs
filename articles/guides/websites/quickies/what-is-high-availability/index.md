@@ -1,7 +1,7 @@
 ---
 slug: what-is-high-availability
 author:
-  name: Site Bay
+  name: SiteBay
   email: support@sitebay.org
 description: 'Introduction to high availability WordPress'
 keywords: ["high availability", "hosting", "website"]
@@ -10,7 +10,7 @@ license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
 published: 2024-04-04
 modified: 2024-04-04
 modified_by:
-  name: Site Bay
+  name: SiteBay
 title: 'What is High Availability?'
 image: HighAvailability.png
 ---

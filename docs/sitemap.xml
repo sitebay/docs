@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://www.sitebay.org/docs/products/platform/get-started/</loc>
-    <lastmod>2024-04-28T03:12:12-06:00</lastmod>
+    <lastmod>2024-05-03T00:20:13-06:00</lastmod>
   </url><url>
     <loc>https://www.sitebay.org/docs/guides/getting-started/</loc>
     <lastmod>2024-04-28T03:12:12-06:00</lastmod>
@@ -63,7 +63,19 @@
     <lastmod>2024-04-28T03:12:12-06:00</lastmod>
   </url><url>
     <loc>https://www.sitebay.org/docs/authors/</loc>
-    <lastmod>2024-05-02T01:22:50-06:00</lastmod>
+    <lastmod>2024-05-03T00:20:13-06:00</lastmod>
+  </url><url>
+    <loc>https://www.sitebay.org/docs/authors/sitebay/</loc>
+    <lastmod>2024-05-03T00:20:13-06:00</lastmod>
+  </url><url>
+    <loc>https://www.sitebay.org/docs/guides/an-overview-of-common-cloud-manager-errors/</loc>
+    <lastmod>2024-04-28T03:12:12-06:00</lastmod>
+  </url><url>
+    <loc>https://www.sitebay.org/docs/guides/monitor-nginx-web-server-logs-using-filebeat-elastic-stack-linux-7/</loc>
+    <lastmod>2024-04-28T03:12:12-06:00</lastmod>
+  </url><url>
+    <loc>https://www.sitebay.org/docs/guides/a-guide-to-algolia-plugins/</loc>
+    <lastmod>2024-04-28T03:12:12-06:00</lastmod>
   </url><url>
     <loc>https://www.sitebay.org/docs/products/posthog/notebooks/</loc>
     <lastmod>2024-04-29T05:25:35-06:00</lastmod>
@@ -73,9 +85,6 @@
   </url><url>
     <loc>https://www.sitebay.org/docs/products/posthog/dashboards/</loc>
     <lastmod>2024-04-29T05:25:35-06:00</lastmod>
-  </url><url>
-    <loc>https://www.sitebay.org/docs/authors/site-bay/</loc>
-    <lastmod>2024-05-02T01:22:50-06:00</lastmod>
   </url><url>
     <loc>https://www.sitebay.org/docs/guides/what-is-shopify-link/</loc>
     <lastmod>2024-04-28T03:12:12-06:00</lastmod>
@@ -92,7 +101,7 @@
     <loc>https://www.sitebay.org/docs/guides/scanning-your-wordpress-site-for-malware/</loc>
     <lastmod>2024-04-28T03:12:12-06:00</lastmod>
   </url><url>
-    <loc>https://www.sitebay.org/docs/guides/troubleshooting-wordpress-on-site-bay/</loc>
+    <loc>https://www.sitebay.org/docs/guides/troubleshooting-wordpress-on-sitebay/</loc>
     <lastmod>2024-04-28T03:12:12-06:00</lastmod>
   </url><url>
     <loc>https://www.sitebay.org/docs/guides/common-problems/</loc>
@@ -132,7 +141,7 @@
     <lastmod>2024-04-28T03:12:12-06:00</lastmod>
   </url><url>
     <loc>https://www.sitebay.org/docs/products/platform/get-started/guides/developer-access/</loc>
-    <lastmod>2024-04-28T03:12:12-06:00</lastmod>
+    <lastmod>2024-05-03T00:20:13-06:00</lastmod>
   </url><url>
     <loc>https://www.sitebay.org/docs/guides/recovering-from-a-wordpress-hack/</loc>
     <lastmod>2024-04-28T03:12:12-06:00</lastmod>
@@ -159,7 +168,7 @@
     <lastmod>2024-04-28T03:12:12-06:00</lastmod>
   </url><url>
     <loc>https://www.sitebay.org/docs/products/site-bot/get-started/</loc>
-    <lastmod>2024-04-28T03:12:12-06:00</lastmod>
+    <lastmod>2024-05-03T00:20:13-06:00</lastmod>
   </url><url>
     <loc>https://www.sitebay.org/docs/products/platform/get-started/guides/choose-a-data-center/</loc>
     <lastmod>2024-04-28T03:12:12-06:00</lastmod>
@@ -174,9 +183,6 @@
     <lastmod>2024-04-28T03:12:12-06:00</lastmod>
   </url><url>
     <loc>https://www.sitebay.org/docs/products/platform/get-started/guides/resell-services/</loc>
-    <lastmod>2024-04-28T03:12:12-06:00</lastmod>
-  </url><url>
-    <loc>https://www.sitebay.org/docs/products/platform/accounts/guides/user-security-controls/</loc>
     <lastmod>2024-04-28T03:12:12-06:00</lastmod>
   </url><url>
     <loc>https://www.sitebay.org/docs/guides/security/recovery/</loc>
@@ -204,7 +210,7 @@
     <lastmod>2024-04-28T03:12:12-06:00</lastmod>
   </url><url>
     <loc>https://www.sitebay.org/docs/guides/how-to-use-soft-inpainting/</loc>
-    <lastmod>2024-04-28T03:12:12-06:00</lastmod>
+    <lastmod>2024-05-03T00:20:13-06:00</lastmod>
   </url><url>
     <loc>https://www.sitebay.org/docs/guides/how-to-use-basic-commands-for-wordpress-linux/</loc>
     <lastmod>2024-04-28T03:12:12-06:00</lastmod>
@@ -330,9 +336,6 @@
     <lastmod>2024-04-28T03:12:12-06:00</lastmod>
   </url><url>
     <loc>https://www.sitebay.org/docs/products/platform/billing/guides/referral-program/</loc>
-    <lastmod>2024-04-28T03:12:12-06:00</lastmod>
-  </url><url>
-    <loc>https://www.sitebay.org/docs/guides/how-to-enable-disable-website/</loc>
     <lastmod>2024-04-28T03:12:12-06:00</lastmod>
   </url><url>
     <loc>https://www.sitebay.org/docs/products/platform/billing/guides/stop-billing/</loc>
@@ -489,7 +492,7 @@
     <lastmod>2024-04-28T03:12:12-06:00</lastmod>
   </url><url>
     <loc>https://www.sitebay.org/docs/guides/pros-and-cons-of-site-bay/</loc>
-    <lastmod>2024-04-28T03:12:12-06:00</lastmod>
+    <lastmod>2024-05-03T00:20:13-06:00</lastmod>
   </url><url>
     <loc>https://www.sitebay.org/docs/guides/http-get-request/</loc>
     <lastmod>2024-04-28T03:12:12-06:00</lastmod>
@@ -507,7 +510,7 @@
     <lastmod>2024-04-28T03:12:12-06:00</lastmod>
   </url><url>
     <loc>https://www.sitebay.org/docs/guides/what-is-mysql/</loc>
-    <lastmod>2024-04-28T03:12:12-06:00</lastmod>
+    <lastmod>2024-05-03T00:20:13-06:00</lastmod>
   </url><url>
     <loc>https://www.sitebay.org/docs/guides/what-is-sqlite/</loc>
     <lastmod>2024-04-28T03:12:12-06:00</lastmod>
@@ -539,14 +542,14 @@
     <loc>https://www.sitebay.org/docs/guides/how-to-use-inpainting-roid1kan/</loc>
     <lastmod>2024-04-28T03:12:12-06:00</lastmod>
   </url><url>
-    <loc>https://www.sitebay.org/docs/templates/test-matketplace/</loc>
-    <lastmod>2024-04-28T03:12:12-06:00</lastmod>
+    <loc>https://www.sitebay.org/docs/templates/photography-blog/</loc>
+    <lastmod>2024-03-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.sitebay.org/docs/content/intro-video/</loc>
     <lastmod>2024-04-28T03:12:12-06:00</lastmod>
   </url><url>
     <loc>https://www.sitebay.org/docs/templates/</loc>
-    <lastmod>2024-04-28T03:12:12-06:00</lastmod>
+    <lastmod>2024-03-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.sitebay.org/docs/guides/wordpress-beginner-tips/</loc>
     <lastmod>2024-04-28T03:12:12-06:00</lastmod>
@@ -764,15 +767,6 @@
     <loc>https://www.sitebay.org/docs/products/shopify-link/</loc>
     <lastmod>2024-04-28T03:12:12-06:00</lastmod>
   </url><url>
-    <loc>https://www.sitebay.org/docs/api/sitebay-instances/</loc>
-    <lastmod>2024-04-28T03:12:12-06:00</lastmod>
-  </url><url>
-    <loc>https://www.sitebay.org/docs/api/sitebay-kubernetes-engine-lke/</loc>
-    <lastmod>2024-04-28T03:12:12-06:00</lastmod>
-  </url><url>
-    <loc>https://www.sitebay.org/docs/api/sitebay-types/</loc>
-    <lastmod>2024-04-28T03:12:12-06:00</lastmod>
-  </url><url>
     <loc>https://www.sitebay.org/docs/products/site-bot/</loc>
     <lastmod>2024-04-28T03:12:12-06:00</lastmod>
   </url><url>
@@ -783,6 +777,15 @@
     <lastmod>2024-04-28T03:12:12-06:00</lastmod>
   </url><url>
     <loc>https://www.sitebay.org/docs/api/site-stage/</loc>
+    <lastmod>2024-04-28T03:12:12-06:00</lastmod>
+  </url><url>
+    <loc>https://www.sitebay.org/docs/api/sitebay-instances/</loc>
+    <lastmod>2024-04-28T03:12:12-06:00</lastmod>
+  </url><url>
+    <loc>https://www.sitebay.org/docs/api/sitebay-kubernetes-engine-lke/</loc>
+    <lastmod>2024-04-28T03:12:12-06:00</lastmod>
+  </url><url>
+    <loc>https://www.sitebay.org/docs/api/sitebay-types/</loc>
     <lastmod>2024-04-28T03:12:12-06:00</lastmod>
   </url><url>
     <loc>https://www.sitebay.org/docs/api/support/</loc>

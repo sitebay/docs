@@ -82,7 +82,7 @@ jobs:
       run: |
         git checkout ${{ steps.get-theme-version.outputs.VERSION }}
 
-    - name: Print Site Bay Algolia admin tool version
+    - name: Print SiteBay Algolia admin tool version
       working-directory: ./sitebay-docs-theme-repo
       run: |
         cd scripts/sitebay_algolia_admin/

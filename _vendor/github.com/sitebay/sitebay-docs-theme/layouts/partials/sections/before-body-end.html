@@ -26,7 +26,7 @@
   </script>
 {{ end }}
 <div x-data="{}" style="display: none;">
-  {{/* Load the common Site Bay (from sitebay-website-partials repo), but only if trustecm.functional is set. */}}
+  {{/* Load the common SiteBay (from sitebay-website-partials repo), but only if trustecm.functional is set. */}}
   {{ $js := resources.Get "sitebay/footer-inline.js" }}
   <template x-if="$store.nav.trustecm.functional">
     {{ partial "helpers/script-src.html" (dict "js" $js "nodefer" true "params" (dict "is_production" (ne hugo.Environment "development") ) ) }}

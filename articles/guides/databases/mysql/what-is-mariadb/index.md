@@ -6,9 +6,9 @@ tags: ["mariadb"]
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
 published: 2024-04-04
 modified_by:
-  name: Site Bay
+  name: SiteBay
 title: "What is MariaDB?"
-authors: ["Site Bay"]
+authors: ["SiteBay"]
 ---
 
 # What Makes MariaDB Different From MySQL?

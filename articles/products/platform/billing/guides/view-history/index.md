@@ -1,13 +1,13 @@
 ---
 title: "View Invoices and Payment History"
-description: "Review all invoices and payments on your Site Bay account."
+description: "Review all invoices and payments on your SiteBay account."
 published: 2024-04-17
 modified: 2024-04-21
 ---
 
-All of your billing history, including previous invoices and payments, is accessible within the [My Site Bay](https://my.sitebay.org/account/billing) on the **Billing & Payment History** section within the **Billing Info** page (see [Accessing Billing Information](/docs/products/platform/billing/guides/access-billing/)). By default, all transactions (both invoices and payments) from the last *6 months* are displayed. To customize this, use the dropdown menus on the top right of this section.
+All of your billing history, including previous invoices and payments, is accessible within the [My SiteBay](https://my.sitebay.org/account/billing) on the **Billing & Payment History** section within the **Billing Info** page (see [Accessing Billing Information](/docs/products/platform/billing/guides/access-billing/)). By default, all transactions (both invoices and payments) from the last *6 months* are displayed. To customize this, use the dropdown menus on the top right of this section.
 
-![Viewing Billing & Payment History in the My Site Bay](view-invoices.png)
+![Viewing Billing & Payment History in the My SiteBay](view-invoices.png)
 
 **To view an itemized invoice,** find the invoice row on the list and click the corresponding invoice number. This opens up a new page that displays each service that was active during the billing period, along with the additional details listed below:
 
@@ -23,4 +23,4 @@ All of your billing history, including previous invoices and payments, is access
 
 ## Downloading Invoices (PDF and CSV)
 
-An invoice or payment can be downloaded as either a PDF or a CSV file. To do this, open the invoice within the My Site Bay and select either the **Download CSV** or **Download PDF** button.
+An invoice or payment can be downloaded as either a PDF or a CSV file. To do this, open the invoice within the My SiteBay and select either the **Download CSV** or **Download PDF** button.

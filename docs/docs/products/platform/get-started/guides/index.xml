@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Guides on Site Bay Guides &amp; Tutorials</title>
+    <title>Guides on SiteBay Guides &amp; Tutorials</title>
     <link>https://www.sitebay.org/docs/products/platform/get-started/guides/</link>
-    <description>Recent content in Guides on Site Bay Guides &amp; Tutorials</description>
+    <description>Recent content in Guides on SiteBay Guides &amp; Tutorials</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 14 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.sitebay.org/docs/products/platform/get-started/guides/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Grant a Developer Access a WordPress Site or Site Bay Account</title>
+      <title>Grant a Developer Access a WordPress Site or SiteBay Account</title>
       <link>https://www.sitebay.org/docs/products/platform/get-started/guides/developer-access/</link>
       <pubDate>Fri, 26 Apr 2024 00:00:00 +0000</pubDate>
       
       <guid>https://www.sitebay.org/docs/products/platform/get-started/guides/developer-access/</guid>
-      <description>One of the most powerful features of Site Bay&amp;rsquo;s unmanaged service is the amount of control Site Bay users have over their account and the software installed on their systems.</description>
+      <description>One of the most powerful features of SiteBay&amp;rsquo;s unmanaged service is the amount of control SiteBay users have over their account and the software installed on their systems.</description>
     </item>
     
     <item>
@@ -26,7 +26,7 @@
     </item>
     
     <item>
-      <title>Resell Site Bay Services</title>
+      <title>Resell SiteBay Services</title>
       <link>https://www.sitebay.org/docs/products/platform/get-started/guides/resell-services/</link>
       <pubDate>Wed, 24 Apr 2024 00:00:00 +0000</pubDate>
       
@@ -44,7 +44,7 @@
     </item>
     
     <item>
-      <title>Subscribe to Site Bay Status Updates</title>
+      <title>Subscribe to SiteBay Status Updates</title>
       <link>https://www.sitebay.org/docs/products/platform/get-started/guides/status-page/</link>
       <pubDate>Sat, 20 Apr 2024 00:00:00 +0000</pubDate>
       
@@ -67,7 +67,7 @@
       <pubDate>Thu, 14 Mar 2024 00:00:00 +0000</pubDate>
       
       <guid>https://www.sitebay.org/docs/products/platform/get-started/guides/support/</guid>
-      <description>Site Bay provides a variety of support options so that you get the answers you need, in the timeframe you need them, and in the way that works best for you &amp;ndash; all at no cost.</description>
+      <description>SiteBay provides a variety of support options so that you get the answers you need, in the timeframe you need them, and in the way that works best for you &amp;ndash; all at no cost.</description>
     </item>
     
   </channel>

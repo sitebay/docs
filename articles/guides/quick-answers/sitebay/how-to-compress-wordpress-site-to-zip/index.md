@@ -1,25 +1,25 @@
 ---
 slug: how-to-compress-wordpress-site-to-zip
 author:
-  name: Site Bay
+  name: SiteBay
   email: support@sitebay.org
-description: 'This quickstart tutorial shows you how to migrate from your current host to Site Bay.'
+description: 'This quickstart tutorial shows you how to migrate from your current host to SiteBay.'
 keywords: ["migration", "wordpress"]
-tags: ["my site bay","migrate"]
+tags: ["my SiteBay","migrate"]
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
 modified: 2024-04-20
 modified_by:
-  name: Site Bay
+  name: SiteBay
 published: 2024-04-20
 image: migrate-wordpress.png
 title: How to Migrate your WordPress site
-h1_title: Migrating to Site Bay
+h1_title: Migrating to SiteBay
 ---
 
 aliases: ['/quick-answers/platform/how-to-compress-wordpress-site-to-zip']
 Zipping your site's wp-content folder
 
-Alright, so you wanna move your WordPress site to Site Bay? Cool. First thing's first, we gotta zip that site up. You might think it's all techy and complicated, but nah, it's easy. Let's break it down.
+Alright, so you wanna move your WordPress site to SiteBay? Cool. First thing's first, we gotta zip that site up. You might think it's all techy and complicated, but nah, it's easy. Let's break it down.
 
 Step 1: Back It Up
 
@@ -47,12 +47,12 @@ Go to the "Export" tab.
 Choose the "Quick" option.
 Make sure the format is set to "SQL."
 Hit "Go," and it'll download to your computer.
-Step 4: Bring It to Site Bay
+Step 4: Bring It to SiteBay
 
-With your site and database all zipped up and ready, head over to Site Bay. We've got a smooth migration tool that'll take those files and set everything up on your new Site Bay WordPress hosting. Or, you can reach out to our support team at support@sitebay.org. We're here to help make this move as easy as pie.
+With your site and database all zipped up and ready, head over to SiteBay. We've got a smooth migration tool that'll take those files and set everything up on your new SiteBay WordPress hosting. Or, you can reach out to our support team at support@sitebay.org. We're here to help make this move as easy as pie.
 
 Step 5: Check Your Site
 
 Once everything's uploaded and set up, give your site a thorough check. Make sure everything looks good, all your pages are loading, and there ain't any missing images or broken links.
 
-And that's it! You've just moved your WordPress site to Site Bay. Welcome to the fam! If you hit any snags or have questions, our support team's got your back. Happy hosting with Site Bay!
+And that's it! You've just moved your WordPress site to SiteBay. Welcome to the fam! If you hit any snags or have questions, our support team's got your back. Happy hosting with SiteBay!

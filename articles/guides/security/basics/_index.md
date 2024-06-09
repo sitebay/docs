@@ -1,6 +1,6 @@
 ---
 author:
-  name: Site Bay
+  name: SiteBay
   email: support@sitebay.org
 description: "Dive into the fundamentals of WordPress security with practical advice every site admin should follow to safeguard their website."
 og_description: "Learn WordPress security best practices to protect your site against threats."

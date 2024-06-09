@@ -1,6 +1,6 @@
 ---
 author:
-  name: Site Bay
+  name: SiteBay
   email: support@sitebay.org
 description: "Keep your WordPress site on lock. Dive into tutorials on installing top security plugins and understanding why monitoring your site is a game-changer."
 og_description: "Learn to safeguard your WordPress site with the right tools and knowledge. Find out how to install security plugins and stay alert to threats."

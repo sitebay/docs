@@ -4,11 +4,11 @@ show_in_lists: true
 aliases: ['/platform/recording/']
 ---
 
-Have you ever wished you could go back in time and see exactly what happened on your website? With Site Bay's recording feature, it's like having a time machine for your site. This tool is all about helping you understand your audience better and making sure your site is always on point. Let me break it down for you, real simple, so you can see just how cool this feature is.
+Have you ever wished you could go back in time and see exactly what happened on your website? With SiteBay's recording feature, it's like having a time machine for your site. This tool is all about helping you understand your audience better and making sure your site is always on point. Let me break it down for you, real simple, so you can see just how cool this feature is.
 
 What's Recording All About?
 
-Recording with Site Bay is like having a CCTV camera for your website. It lets you see how visitors interact with your site. You can watch what they click on, how they scroll, and even where they get stuck. It's all about giving you the insights to make your site better.
+Recording with SiteBay is like having a CCTV camera for your website. It lets you see how visitors interact with your site. You can watch what they click on, how they scroll, and even where they get stuck. It's all about giving you the insights to make your site better.
 
 Why Should You Care?
 
@@ -20,11 +20,11 @@ Improve Your Site: See where people are dropping off or what's making them click
 
 How to Get Started
 
-Getting started with recordings on Site Bay is easy. Here's how:
+Getting started with recordings on SiteBay is easy. Here's how:
 
-Sign Up: First things first, make sure you're signed up for Site Bay. You'll need an account to access the recording feature.
+Sign Up: First things first, make sure you're signed up for SiteBay. You'll need an account to access the recording feature.
 
-Enable Recording: Find the recording feature in your Site Bay dashboard. Turn it on with just a click.
+Enable Recording: Find the recording feature in your SiteBay dashboard. Turn it on with just a click.
 
 Start Watching: Once you've got some visitors on your site, you can start watching the recordings. Sit back, grab some popcorn, and see what your visitors are up to.
 
@@ -36,4 +36,4 @@ Focus on Key Pages: Pay special attention to important pages like your homepage,
 
 Take Action: Don’t just watch – act. Use what you learn to make your site better.
 
-Recording is a powerful tool in your Site Bay toolbox. It gives you a whole new way to understand your visitors and make your site the best it can be. So why not give it a try? You might be surprised at what you find.
+Recording is a powerful tool in your SiteBay toolbox. It gives you a whole new way to understand your visitors and make your site the best it can be. So why not give it a try? You might be surprised at what you find.

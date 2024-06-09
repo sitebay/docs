@@ -1,6 +1,6 @@
 ---
 author:
-  name: Site Bay
+  name: SiteBay
   email: support@sitebay.org
 description: 'Scan your WordPress for viruses or vulnerabilities.'
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'

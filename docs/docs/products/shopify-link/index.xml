@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Shopify Link on Site Bay Guides &amp; Tutorials</title>
+    <title>Shopify Link on SiteBay Guides &amp; Tutorials</title>
     <link>https://www.sitebay.org/docs/products/shopify-link/</link>
-    <description>Recent content in Shopify Link on Site Bay Guides &amp; Tutorials</description>
+    <description>Recent content in Shopify Link on SiteBay Guides &amp; Tutorials</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://www.sitebay.org/docs/products/shopify-link/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -12,7 +12,7 @@
       <pubDate>Fri, 29 Mar 2024 00:00:00 +0000</pubDate>
       
       <guid>https://www.sitebay.org/docs/products/shopify-link/get-started/</guid>
-      <description>Just install our Shopify app</description>
+      <description>This guide will help you get started with installing and enabling the SiteBay Shopify Link, configuring your settings, and accessing your blog and PostHog features on SiteBay.</description>
     </item>
     
   </channel>

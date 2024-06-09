@@ -6,11 +6,11 @@ tags: ["nosql"]
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
 published: 2024-04-04
 modified_by:
-  name: Site Bay
+  name: SiteBay
 title: "What is MySQL?"
 external_resources:
 - '[LIST OF NOSQL DATABASE MANAGEMENT SYSTEMS](https://hostingdata.co.uk/nosql-database/)'
-authors: ["Site Bay"]
+authors: ["SiteBay"]
 ---
 
 ## What Makes NoSQL Different From SQL?
@@ -23,7 +23,7 @@ Keeping up with every NoSQL database is an overwhelming task. This article cover
 
 ## What are the Types of NoSQL Databases?
 
-There are at least ten types of NoSQL systems. However, when someone mentions "NoSQL," they are usually referring to four types: Columnar, Document-oriented, Graph, and Key-value. Some databases, such as the Amazon and IBM offerings, are cloud-based, and require working within their systems. Others, such as Redis and MongoDB, can be installed within a Site Bay or other system to work with as you see fit.
+There are at least ten types of NoSQL systems. But, when someone mentions "NoSQL," they are usually referring to four types: Columnar, Document-oriented, Graph, and Key-value. Some databases, such as the Amazon and IBM offerings, are cloud-based, and require working within their systems. Others, such as Redis and MongoDB, can be installed within a SiteBay or other system to work with as you see fit.
 
 ### Columnar Databases
 Columnar databases, sometimes called wide-column stores, store their data in columns, each in its own file, or region in the system storage. On the surface, this seems similar to traditional relational SQL databases. Because they have no predefined keys, column names, and are free of schemas, all of which allow for high flexibility. Notable examples include [Apache Cassandra](https://cassandra.apache.org/), and [Apache Hadoop](http://hadoop.apache.org/).

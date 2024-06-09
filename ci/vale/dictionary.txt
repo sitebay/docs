@@ -30,7 +30,7 @@ ahvz
 aircrack
 ajenti
 ajp
-Site Bay
+SiteBay
 Akaunting
 aker
 akr

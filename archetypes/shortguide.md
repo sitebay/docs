@@ -3,11 +3,11 @@ title: "{{ replace .TranslationBaseName "-" " " | title }}"
 description: 'Two to three sentences describing your guide.'
 keywords: []
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
-authors: ["Site Bay"]
+authors: ["SiteBay"]
 published: {{ now.Format "2006-04-04" }}
 modified: {{ now.Format "2006-04-04" }}
 modified_by:
-  name: Site Bay
+  name: SiteBay
 headless: true
 show_on_rss_feed: false
 ---

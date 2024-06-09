@@ -1,18 +1,18 @@
 ---
 slug: wordpress-beginner-tips
 author:
-  name: Site Bay
+  name: SiteBay
   email: support@sitebay.org
-description: 'A beginner’s guide to getting started with WordPress on Site Bay, with everything you need to know to launch your first website.'
+description: 'A beginner’s guide to getting started with WordPress on SiteBay, with everything you need to know to launch your first website.'
 keywords: ['wordpress','help','beginner','introduction']
 tags: ["wordpress","quickstart"]
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
 published: 2024-03-29
 modified_by:
-  name: Site Bay
+  name: SiteBay
 title: "WordPress Beginner's Guide"
 contributor:
-  name: Site Bay
+  name: SiteBay
 concentrations: ["WordPress"]
 ---
 external_resources:
@@ -20,16 +20,16 @@ external_resources:
 'WordPress.org'
 WordPress Beginner's Guide
 
-Welcome to the WordPress Beginner’s Guide by Site Bay! Starting your first website can feel like a huge step, but with WordPress and Site Bay, it’s easier than you might think. Here’s how to get your site off the ground and into the world.
+Welcome to the WordPress Beginner’s Guide by SiteBay! Starting your first website can feel like a huge step, but with WordPress and SiteBay, it’s easier than you might think. Here’s how to get your site off the ground and into the world.
 
-\#\# Getting Started with WordPress on Site Bay
-\#\#\# Step 1: Sign Up with Site Bay
+\#\# Getting Started with WordPress on SiteBay
+\#\#\# Step 1: Sign Up with SiteBay
 
-First things first, you’ll need a Site Bay account. Signing up is quick and easy, plus, you can start on a free plan and upgrade as your site grows.
+First things first, you’ll need a SiteBay account. Signing up is quick and easy, plus, you can start on a free plan and upgrade as your site grows.
 
 \#\#\# Step 2: Create Your First Site
 
-Using the Site Bay dashboard, create your new site. If you’re unsure about the details, Site Bot can guide you through the process – just ask it to set up your site for you.
+Using the SiteBay dashboard, create your new site. If you’re unsure about the details, Site Bot can guide you through the process – just ask it to set up your site for you.
 
 \#\#\# Step 3: Choose Your Theme
 
@@ -49,12 +49,12 @@ Before you go live, double-check your settings and content. Then, remove any sit
 
 \#\# Tips for Success
 - **Keep It Updated**: WordPress and plugins release updates for a reason. Keep everything up to date to ensure your site is secure and running smoothly.
-- **Back It Up**: Use Site Bay’s Time Machine to back up your site regularly. It’s a lifesaver if you run into any issues.
+- **Back It Up**: Use SiteBay’s Time Machine to back up your site regularly. It’s a lifesaver if you run into any issues.
 - **Stay Secure**: Choose strong passwords, keep your themes and plugins updated, and consider additional security plugins.
 - **SEO Is Key**: Optimize your site for search engines to help people find your content. WordPress SEO plugins can guide you through the process.
 
 \#\# Need Help?
 
-Got stuck? No problem. Site Bay’s support team is here to help you through any hiccups you might encounter. Email us at support@sitebay.org or check out the WordPress community forums for advice from fellow users.
+Got stuck? No problem. SiteBay’s support team is here to help you through any hiccups you might encounter. Email us at support@sitebay.org or check out the WordPress community forums for advice from fellow users.
 
-Remember, every great site started somewhere. With a bit of patience and creativity, your WordPress site will grow into something you’re proud of. Welcome to Site Bay – let’s build something amazing together!
+Remember, every great site started somewhere. With a bit of patience and creativity, your WordPress site will grow into something you’re proud of. Welcome to SiteBay – let’s build something amazing together!

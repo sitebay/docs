@@ -1,23 +1,23 @@
 ---
 slug: sitebay-recordings-page
 author:
-  name: Site Bay Community
+  name: SiteBay Community
   email: support@sitebay.org
-description: 'Learn about Site Bay''s recordings page.'
+description: 'Learn about SiteBay''s recordings page.'
 keywords: ['sitebay','maintenance','incident','system', 'recordings']
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
 published: 2024-04-20
 modified: 2024-04-20
 modified_by:
-  name: Site Bay
-title: "Site Bay Recordings"
+  name: SiteBay
+title: "SiteBay Recordings"
 contributor:
-  name: Site Bay
+  name: SiteBay
 tags: ["sitebay platform"]
 aliases: ['/platform/sitebay-recordings-page/']
 ---
 
-The Site Bay recordings Page thanks to PostHog, My Site Bay provides real-time recordings of how user's use your Site Bay hosted WordPress site.
+The SiteBay recordings Page thanks to PostHog, My SiteBay provides real-time recordings of how user's use your SiteBay hosted WordPress site.
 
 User observability is a powerful tool for understanding how users interact with your website or application. By tracking and analyzing user behavior, you can gain valuable insights into how users navigate your site, what features they use, and where they encounter problems or obstacles.
 
@@ -42,7 +42,7 @@ So if you want the best analytics tool on the market, look no further than Posth
 
 ## PostHog Insights
 
-First, log in to your My Site Bay and go to the Insights tab.
+First, log in to your My SiteBay and go to the Insights tab.
 From here, you can see a variety of different metrics and graphs that show you how users are interacting with your site.
 You can see how many users are visiting your site, how long they are staying, and which pages they are viewing.
 

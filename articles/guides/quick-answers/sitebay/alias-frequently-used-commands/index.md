@@ -1,20 +1,20 @@
 ---
 slug: alias-frequently-used-commands
-description: 'Learn how to streamline your WordPress management tasks in Site Bay using aliases for frequently used commands. This guide explains creating and removing aliases for efficiency.'
-keywords: ["WordPress", "alias", "command line", "Site Bay"]
+description: 'Learn how to streamline your WordPress management tasks in SiteBay using aliases for frequently used commands. This guide explains creating and removing aliases for efficiency.'
+keywords: ["WordPress", "alias", "command line", "SiteBay"]
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
 published: 2024-04-04
 modified: 2024-04-04
 modified_by:
-  name: Site Bay
-title: 'Alias Frequently Used Commands in Site Bay'
+  name: SiteBay
+title: 'Alias Frequently Used Commands in SiteBay'
 tags: ["sitebay"]
 aliases: ['/quick-answers/sitebay/alias-frequently-used-commands/']
-authors: ["Site Bay"]
+authors: ["SiteBay"]
 ---
 What is an Alias?
 
-An alias in Site Bay simplifies your WordPress management by creating shortcuts for the commands you use most. It’s like having speed dial for your website management tasks.
+An alias in SiteBay simplifies your WordPress management by creating shortcuts for the commands you use most. It’s like having speed dial for your website management tasks.
 
 List Existing Aliases
 
@@ -23,7 +23,7 @@ alias
 
 Managing Aliases in WordPress Hosting
 
-In Site Bay, aliases can be particularly useful for WordPress commands that you find yourself using often. Depending on your shell (Bash, Z shell (ZSH), or fish), the place to set these aliases varies:
+In SiteBay, aliases can be particularly useful for WordPress commands that you find yourself using often. Depending on your shell (Bash, Z shell (ZSH), or fish), the place to set these aliases varies:
 
 Bash: ~/.bashrc
 ZSH: ~/.zshrc

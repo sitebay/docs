@@ -1,4 +1,4 @@
-# Site Bay Code of Conduct
+# SiteBay Code of Conduct
 
 ## Our Pledge
 

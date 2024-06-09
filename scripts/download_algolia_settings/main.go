@@ -33,7 +33,7 @@ func (config) Version() string {
 // This program downloads the settings for some of the Algolia indices in config.toml
 // to algolia_settings.json in the project's root. This will download settings for any
 // index that has download_settings=true set in config.toml. Basically, this is any
-// index that doesn't represent content from another Site Bay property (like sitebay.org or
+// index that doesn't represent content from another SiteBay property (like sitebay.org or
 // the community site), plus the sections index.
 //
 // Run this and check algolia_settings.json into version control whenever the settings of

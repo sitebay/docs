@@ -1,7 +1,7 @@
 openapi: 3.0.1
 info:
   version: 1.0.0
-  title: Site Bay API
+  title: SiteBay API
   description: |
     Test API schema
 servers:
@@ -104,7 +104,7 @@ components:
       required:
         - purpose
       description: |
-        An array of Network Interfaces to add to this Site Bay's Configuration Profile.
+        An array of Network Interfaces to add to this SiteBay's Configuration Profile.
       example:
         - {
             "id": 101,

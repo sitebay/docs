@@ -2,7 +2,7 @@
 title: "{{ replace (path.Base .File.Dir) "-" " " | title }}"
 link: ""
 email: ""
-description: "The Site Bay documentation library's profile page and submission listing for {{ replace (path.Base .File.Dir) "-" " " | title }}"
+description: "The SiteBay documentation library's profile page and submission listing for {{ replace (path.Base .File.Dir) "-" " " | title }}"
 ---
 
 <!--

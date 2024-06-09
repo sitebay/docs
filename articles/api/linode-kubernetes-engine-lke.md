@@ -1,5 +1,5 @@
 ---
-title: Site Bay Kubernetes Engine (LKE)
+title: SiteBay Kubernetes Engine (LKE)
 slug: sitebay-kubernetes-engine-lke
 ---
 

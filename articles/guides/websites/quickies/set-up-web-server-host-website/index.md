@@ -1,7 +1,7 @@
 ---
 slug: set-up-subdomain-or-subdirectory-wordpress
 author:
-  name: Site Bay
+  name: SiteBay
   email: support@sitebay.org
 description: 'How to set up a subdomain or subdirectory and integrate it with your WordPress site.'
 keywords: ["hosting a website", "website", "s3"]
@@ -9,7 +9,7 @@ tags: ["web server","nginx"]
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
 modified: 2024-04-17
 modified_by:
-  name: Site Bay
+  name: SiteBay
 published: 2024-04-13
 title: Set up a Subdomain or Path for your WordPress Site
 ---
@@ -24,10 +24,10 @@ Setting Up Your Subdomain
 
 Here’s a step-by-step to get your subdomain live:
 
-Get into Your Hosting Account: Jump into your Site Bay dashboard and find the "Domains" section.
+Get into Your Hosting Account: Jump into your SiteBay dashboard and find the "Domains" section.
 Create Your Subdomain: Hit "Add Subdomain" and name it. Going for a blog? Try "blog.yoursite.com".
 Point It Right: Set up the DNS settings to point your new subdomain to the right place in the digital universe.
-Install WordPress (Again?): If you're using Site Bay, you can easily add a new WordPress instance to your subdomain. It's like setting up your main site, but this time it's for your subdomain's exclusive bash.
+Install WordPress (Again?): If you're using SiteBay, you can easily add a new WordPress instance to your subdomain. It's like setting up your main site, but this time it's for your subdomain's exclusive bash.
 Theme It Up: Customize your subdomain's look to match its purpose. Different vibe for the blog? No problem.
 Launch: Double-check everything, and when you're ready, take that subdomain live!
 

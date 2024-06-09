@@ -53,8 +53,8 @@ This is **tab 2**.
 1. First, add an additional worker node and, if using the Autoscale feature, increase the minimum number of nodes.
 
    {{< tabs >}}
-   {{< tab "My Site Bay" >}}
-   Locate the node pool on the details page of your LKE cluster in the My Site Bay. Click the corresponding **Resize Pool** button. Increase the size of the node pool by 1. For example, if you have 3 nodes in the pool, increase that value to 4. For additional instructions, see [Resize a Node Pool](/docs/products/compute/kubernetes/guides/manage-node-pools/#resize-a-node-pool).
+   {{< tab "My SiteBay" >}}
+   Locate the node pool on the details page of your LKE cluster in the My SiteBay. Click the corresponding **Resize Pool** button. Increase the size of the node pool by 1. For example, if you have 3 nodes in the pool, increase that value to 4. For additional instructions, see [Resize a Node Pool](/docs/products/compute/kubernetes/guides/manage-node-pools/#resize-a-node-pool).
 
    If you are also using the autoscale feature, increase the minimum and maximum nodes by 1. This can be done by clicking the corresponding **Autoscale Pool** button and adjusting the minimum and maximum values. For more details, see [Autoscale](/docs/products/compute/kubernetes/guides/manage-node-pools/#autoscale-automatically-resize-node-pools).
 
@@ -67,7 +67,7 @@ This is **tab 2**.
 ### Note shortcode in tab
 
 {{< tabs >}}
-{{< tab "My Site Bay" >}}
+{{< tab "My SiteBay" >}}
 {{< note >}}
 Test
 {{< /note >}}

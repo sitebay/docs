@@ -1,6 +1,6 @@
 ---
 author:
-  name: Site Bay
+  name: SiteBay
   email: support@sitebay.org
 description: 'Kubernetes, often referred to as k8s, is an open source container orchestration system that helps deploy and manage containerized applications.'
 keywords: ["kubernetes"]
@@ -18,4 +18,4 @@ Kubernetes, or as the cool kids call it, "k8s", is like the maestro of the conta
 
 This powerful tool lets you roll out new features like you're dropping hot tracks, scale your hits up or down based on the crowd's roar (aka user demand), and keep the show going even if one of the instruments suddenly goes out of tune (think crashing). It's open-source, which means a whole community of developers is constantly working to make it better, adding new features, and fixing any bugs.
 
-So, if you're looking to get your app to perform like a headliner at the biggest concert of the year, learning Kubernetes is your backstage pass. Whether you're deploying your app on Site Bay or any other platform that supports container orchestration, knowing your way around Kubernetes will make sure your app is always ready for the spotlight.
+So, if you're looking to get your app to perform like a headliner at the biggest concert of the year, learning Kubernetes is your backstage pass. Whether you're deploying your app on SiteBay or any other platform that supports container orchestration, knowing your way around Kubernetes will make sure your app is always ready for the spotlight.

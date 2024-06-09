@@ -1,10 +1,10 @@
 ---
 title: "Referral Program"
-description: "Learn how to join Site Bay's referral program and gain credits when you refer new users"
+description: "Learn how to join SiteBay's referral program and gain credits when you refer new users"
 published: 2024-04-17
 ---
 
-When you refer a new user to Site Bay through our referral program, both you and the new user can receive a promotional credit. Here are the program details:
+When you refer a new user to SiteBay through our referral program, both you and the new user can receive a promotional credit. Here are the program details:
 
 -  **A new user receives a $100 60-day credit** when they sign up through a referral link. Before the credit is applied, they must add a valid payment method to their account.
 
@@ -14,9 +14,9 @@ To learn more about this program, visit the [Referral Program](https://www.siteb
 
 ### Find Your Referral Link
 
-To activate the referral program and obtain a referral link, you must spend at least $25 with Site Bay, not including any promotional credits added to your account. Once activated, your referral link (including your unique referral code) can be viewed within the My Site Bay.
+To activate the referral program and obtain a referral link, you must spend at least $25 with SiteBay, not including any promotional credits added to your account. Once activated, your referral link (including your unique referral code) can be viewed within the My SiteBay.
 
-1.  Log in to the [My Site Bay](https://my.sitebay.org).
+1.  Log in to the [My SiteBay](https://my.sitebay.org).
 1.  Select the **My Profile** link by clicking on your username at the top of the page.
 1.  Select the **Referrals** tab.
 1.  The referral code and URL are listed within this section.

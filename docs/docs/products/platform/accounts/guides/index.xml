@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Guides on Site Bay Guides &amp; Tutorials</title>
+    <title>Guides on SiteBay Guides &amp; Tutorials</title>
     <link>https://www.sitebay.org/docs/products/platform/accounts/guides/</link>
-    <description>Recent content in Guides on Site Bay Guides &amp; Tutorials</description>
+    <description>Recent content in Guides on SiteBay Guides &amp; Tutorials</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 21 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.sitebay.org/docs/products/platform/accounts/guides/index.xml" rel="self" type="application/rss+xml" />
@@ -13,16 +13,7 @@
       <pubDate>Thu, 25 Apr 2024 00:00:00 +0000</pubDate>
       
       <guid>https://www.sitebay.org/docs/products/platform/accounts/guides/cancel-account/</guid>
-      <description>A Site Bay account enables you to deploy and use services on the Site Bay Platform.</description>
-    </item>
-    
-    <item>
-      <title>Security Controls for User Accounts</title>
-      <link>https://www.sitebay.org/docs/products/platform/accounts/guides/user-security-controls/</link>
-      <pubDate>Wed, 24 Apr 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.sitebay.org/docs/products/platform/accounts/guides/user-security-controls/</guid>
-      <description>To protect your Site Bay user account against unauthorized access, there are several security controls you can implement.</description>
+      <description>A SiteBay account enables you to deploy and use services on the SiteBay Platform. If you no longer wish to use the SiteBay Platform, you can cancel your account at any time.</description>
     </item>
     
     <item>
@@ -31,7 +22,7 @@
       <pubDate>Sun, 21 Apr 2024 00:00:00 +0000</pubDate>
       
       <guid>https://www.sitebay.org/docs/products/platform/accounts/guides/change-user-email/</guid>
-      <description>Site Bay uses the contact information on file in your account to notify and bill you.</description>
+      <description>SiteBay uses the contact information on file in your account to notify and bill you. Keep this information current to prevent service interruptions.</description>
     </item>
     
     <item>
@@ -44,12 +35,12 @@
     </item>
     
     <item>
-      <title>Manage Users on a Site Bay Account</title>
+      <title>Manage Users on a SiteBay Account</title>
       <link>https://www.sitebay.org/docs/products/platform/accounts/guides/manage-users/</link>
       <pubDate>Sun, 21 Apr 2024 00:00:00 +0000</pubDate>
       
       <guid>https://www.sitebay.org/docs/products/platform/accounts/guides/manage-users/</guid>
-      <description>You can grant other people access to your My Site Bay account by creating users and assigning permissions to restrict access to certain areas of the control panel.</description>
+      <description>You can grant other people access to your My SiteBay account by creating users and assigning permissions to restrict access to certain areas of the control panel.</description>
     </item>
     
     <item>
@@ -58,7 +49,7 @@
       <pubDate>Sun, 21 Apr 2024 00:00:00 +0000</pubDate>
       
       <guid>https://www.sitebay.org/docs/products/platform/accounts/guides/reset-user-password/</guid>
-      <description>Creating strong passwords is essential to protecting your Site Bay and your Site Bay My Site Bay account.</description>
+      <description>Creating strong passwords is essential to protecting your SiteBay and your SiteBay My SiteBay account. If you suspect that an unauthorized user has gained access to one of your accounts, you should change the password immediately.</description>
     </item>
     
   </channel>

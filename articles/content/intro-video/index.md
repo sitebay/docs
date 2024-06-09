@@ -1,13 +1,13 @@
 ---
 slug: intro-video
-authors: ["Site Bay"]
-description: 'A video introduction Site Bay'
-keywords: ['what is site bay']
-tags: ["site bay", "kubernetes"]
+authors: ["SiteBay"]
+description: 'A video introduction SiteBay'
+keywords: ['what is SiteBay']
+tags: ["SiteBay", "kubernetes"]
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
 published: 2024-03-29
 modified_by:
-  name: Site Bay
-title: "Site Bay Trailer"
+  name: SiteBay
+title: "SiteBay Trailer"
 ---
 To be done

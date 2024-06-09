@@ -1,13 +1,13 @@
 ---
 title: "Update the Billing Contact Information on Your Account"
-description: "Learn how to edit the billing address, name, and other contact information on your Site Bay account."
+description: "Learn how to edit the billing address, name, and other contact information on your SiteBay account."
 published: 2024-04-16
 ---
 
-Use the **Billing Info** page to update the contact information for the Site Bay account. The email address saved on this webpage receives invoices, receipts, and credit card expiration warnings.
+Use the **Billing Info** page to update the contact information for the SiteBay account. The email address saved on this webpage receives invoices, receipts, and credit card expiration warnings.
 
 {{< note >}}
-Site Bay Support tickets are *not* sent to your Billing Contact email address, but to the email address for the relevant user.
+SiteBay Support tickets are *not* sent to your Billing Contact email address, but to the email address for the relevant user.
 {{< /note >}}
 
 Here's how to update the contact information and the email address on the *Account* page:
@@ -15,7 +15,7 @@ Here's how to update the contact information and the email address on the *Accou
 1.  Click the **Account** link in the sidebar.
 1.  Under the **Billing Contact** section, click **Edit** to show the **Edit Billing Contact Info** menu.
 
-    ![Update your Contact Information in My Site Bay](accounts-update-billing-info.png)
+    ![Update your Contact Information in My SiteBay](accounts-update-billing-info.png)
 
 1.  Update the contact information and the email address for the account.
 1.  Click **Save**.

@@ -1,23 +1,23 @@
 ---
 slug: credits-shortguide
-description: 'Shortguide that shows you how to manage your Site Bay WordPress hosting credits.'
+description: 'Shortguide that shows you how to manage your SiteBay WordPress hosting credits.'
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
 modified: 2024-04-22
 modified_by:
-  name: Site Bay
+  name: SiteBay
 published: 2024-04-22
-title: How to Manage Your WordPress Hosting Credits on Site Bay
-keywords: ["WordPress hosting", "Site Bay credits", "Billing management"]
+title: How to Manage Your WordPress Hosting Credits on SiteBay
+keywords: ["WordPress hosting", "SiteBay credits", "Billing management"]
 headless: true
 show_on_rss_feed: false
 tags: ["sitebay platform", "wordpress hosting"]
 aliases: ['/platform/manager/credits-shortguide/']
-authors: ["Site Bay"]
+authors: ["SiteBay"]
 ---
 
-Managing your WordPress hosting credits on Site Bay is straightforward and ensures you have complete control over your hosting budget and resources. Here’s how to check your available credits:
+Managing your WordPress hosting credits on SiteBay is straightforward and ensures you have complete control over your hosting budget and resources. Here’s how to check your available credits:
 
-Navigate to the My Account section from your Site Bay dashboard to access the Billing Information area.
+Navigate to the My Account section from your SiteBay dashboard to access the Billing Information area.
 
 Within the Overview tab, locate the Credits section, where you’ll find the total credits available to your account.
 

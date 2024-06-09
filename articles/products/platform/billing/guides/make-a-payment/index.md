@@ -1,6 +1,6 @@
 ---
 title: "Make a Payment"
-description: "Learn what payment methods Site Bay accepts and how to view, add, and remove them."
+description: "Learn what payment methods SiteBay accepts and how to view, add, and remove them."
 published: 2024-04-17
 ---
 

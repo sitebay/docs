@@ -1,7 +1,7 @@
 ---
 slug: outgoing-bandwidth
 author:
-  name: Site Bay
+  name: SiteBay
   email: support@sitebay.org
 description: "Learn how your Site's outgoing data transfer is calculated."
 keywords: ["network","billing","account","transfer", "overage"]
@@ -9,10 +9,10 @@ license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
 published: 2024-04-21
 modified: 2024-04-03
 modified_by:
-  name: Site Bay
+  name: SiteBay
 title: "Outgoing Bandwidth"
 contributor:
-  name: Site Bay
+  name: SiteBay
 tags: ["sitebay platform"]
 aliases: ['/platform/billing-and-support/outgoing-bandwidth/']
 ---
@@ -39,8 +39,8 @@ If you have gone over your quota, or you think you may before the end of the mon
 
 ## View Bandwidth Out
 
-You can view your current outgoing bandwidth usage for your monthly cycle in Site Bay Insites.
+You can view your current outgoing bandwidth usage for your monthly cycle in SiteBay Insites.
 
 ## More Information
 
-Read the [Billing and Payments](/support/tutorials/billing-and-payments/) tutorial for an overview of Site Bay billing.
+Read the [Billing and Payments](/support/tutorials/billing-and-payments/) tutorial for an overview of SiteBay billing.

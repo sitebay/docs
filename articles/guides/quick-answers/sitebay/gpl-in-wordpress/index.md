@@ -6,7 +6,7 @@ tags: ["sitebay"]
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
 published: 2024-04-21
 modified_by:
-  name: Site Bay
+  name: SiteBay
 title: "Open Source vs. Closed Source in WordPress: What’s the Difference?"
 title_meta: "Understanding Open Source and Closed Source in WordPress"
 authors: ["Steven J. Vaughan-Nichols"]
@@ -50,8 +50,8 @@ GPL in WordPress
 
 The GPL license used by WordPress ensures that it remains free and open, encouraging innovation and allowing the software to benefit from contributions by a global community of developers. This approach has led to WordPress powering a portion of the internet, with sites ranging from small personal blogs to large corporate websites.
 
-Conclusion: Embracing Open Source with Site Bay
+Conclusion: Embracing Open Source with SiteBay
 
-Site Bay champions the open-source philosophy, providing powerful WordPress hosting solutions that leverage the best of what the open-source community has to offer. With a focus on performance, security, and scalability, Site Bay empowers users to build and manage WordPress sites with ease, supported by the vast, collaborative world of open-source software.
+SiteBay champions the open-source philosophy, providing powerful WordPress hosting solutions that leverage the best of what the open-source community has to offer. With a focus on performance, security, and scalability, SiteBay empowers users to build and manage WordPress sites with ease, supported by the vast, collaborative world of open-source software.
 
-Understanding the difference between open source and closed source, especially in the context of WordPress, is crucial for making informed decisions about your digital presence. With Site Bay, you're not just choosing a hosting provider; you're embracing a commitment to openness, community, and i
+Understanding the difference between open source and closed source, especially in the context of WordPress, is crucial for making informed decisions about your digital presence. With SiteBay, you're not just choosing a hosting provider; you're embracing a commitment to openness, community, and i

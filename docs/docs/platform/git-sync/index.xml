@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Git Sync on Site Bay Guides &amp; Tutorials</title>
+    <title>Git Sync on SiteBay Guides &amp; Tutorials</title>
     <link>https://www.sitebay.org/docs/platform/git-sync/</link>
-    <description>Recent content in Git Sync on Site Bay Guides &amp; Tutorials</description>
+    <description>Recent content in Git Sync on SiteBay Guides &amp; Tutorials</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 26 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.sitebay.org/docs/platform/git-sync/index.xml" rel="self" type="application/rss+xml" />
@@ -26,12 +26,12 @@
     </item>
     
     <item>
-      <title>How to Use Site Bay&#39;s Git Sync</title>
+      <title>How to Use SiteBay&#39;s Git Sync</title>
       <link>https://www.sitebay.org/docs/platform/git-sync/how-to-use-sitebay-git-sync/</link>
       <pubDate>Tue, 26 Mar 2024 00:00:00 +0000</pubDate>
       
       <guid>https://www.sitebay.org/docs/platform/git-sync/how-to-use-sitebay-git-sync/</guid>
-      <description>Using Git Sync with your Site Bay WordPress site opens up a whole new world of development flexibility and efficiency.</description>
+      <description>Using Git Sync with your SiteBay WordPress site opens up a whole new world of development flexibility and efficiency.</description>
     </item>
     
   </channel>

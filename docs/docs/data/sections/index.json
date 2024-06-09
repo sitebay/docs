@@ -1,15 +1,15 @@
 
 [
   {
-    "excerpt": "Learn how to create an account and use the Site Bay WordPress Hosting Platform.",
+    "excerpt": "Learn how to create an account and use the SiteBay WordPress Hosting Platform.",
     "firstPublishedTime": 1712188800,
-    "lastUpdatedTime": 1714295532,
+    "lastUpdatedTime": 1714717213,
     "linkTitle": "Get Started",
     "objectID": "products \u003e platform \u003e get-started",
     "ordinal": 10,
     "section": "products",
     "thumbnail": "/docs/products/platform/get-started/feature.svg",
-    "title": "Getting Started on the Site Bay Platform"
+    "title": "Getting Started on the SiteBay Platform"
   },
   {
     "excerpt": "These guides offer simple, quick answers to common questions.",
@@ -23,48 +23,48 @@
     "title": "Quick Answers"
   },
   {
-    "excerpt": "Dive into the world of Site Bay for WordPress hosting mastery!",
+    "excerpt": "Dive into the world of SiteBay for WordPress hosting mastery!",
     "firstPublishedTime": -62135596800,
     "lastUpdatedTime": 1714295532,
-    "linkTitle": "Site Bay Platform",
+    "linkTitle": "SiteBay Platform",
     "objectID": "guides \u003e platform",
     "ordinal": 0,
     "section": "guides",
     "thumbnail": "/docs/guides/platform/feature.svg",
-    "title": "Site Bay Platform"
+    "title": "SiteBay Platform"
   },
   {
-    "excerpt": "Learn about everything Site Bay!",
+    "excerpt": "Learn about everything SiteBay!",
     "firstPublishedTime": -62135596800,
     "lastUpdatedTime": 1714295532,
-    "linkTitle": "Site Bay Platform",
+    "linkTitle": "SiteBay Platform",
     "objectID": "platform",
     "ordinal": 0,
     "section": "platform",
     "thumbnail": "/docs/platform/feature.svg",
-    "title": "Site Bay Platform"
+    "title": "SiteBay Platform"
   },
   {
-    "excerpt": "Learn about everything Billing on Site Bay!",
+    "excerpt": "Learn about everything Billing on SiteBay!",
     "firstPublishedTime": -62135596800,
     "lastUpdatedTime": 1714295532,
-    "linkTitle": "Site Bay Platform",
+    "linkTitle": "SiteBay Platform",
     "objectID": "platform \u003e billing-and-support",
     "ordinal": 0,
     "section": "platform",
     "thumbnail": "/docs/platform/billing-and-support/feature.svg",
-    "title": "Site Bay Platform"
+    "title": "SiteBay Platform"
   },
   {
-    "excerpt": "Learn about everything templates on Site Bay!",
+    "excerpt": "Learn about everything templates on SiteBay!",
     "firstPublishedTime": -62135596800,
     "lastUpdatedTime": 1714295532,
-    "linkTitle": "Site Bay Platform",
+    "linkTitle": "SiteBay Platform",
     "objectID": "platform \u003e templates",
     "ordinal": 0,
     "section": "platform",
     "thumbnail": "/docs/platform/templates/feature.svg",
-    "title": "Site Bay Platform"
+    "title": "SiteBay Platform"
   },
   {
     "excerpt": "These tutorials cover simple web page hosting and many popular web applications.",
@@ -78,7 +78,7 @@
     "title": "Website Tutorials"
   },
   {
-    "excerpt": "Dive into the world of web hosting with Site Bay: your go-to for everything WordPress on Kubernetes, complete with Posthog analytics, recordings, and Grafana dashboards.",
+    "excerpt": "Dive into the world of web hosting with SiteBay: your go-to for everything WordPress on Kubernetes, complete with Posthog analytics, recordings, and Grafana dashboards.",
     "firstPublishedTime": 1712966400,
     "lastUpdatedTime": 1714295532,
     "linkTitle": "Web Server Guides for WordPress on Kubernetes",
@@ -144,7 +144,7 @@
     "title": "WordPress"
   },
   {
-    "excerpt": "Dive into the world of WordPress development with Site Bay. This collection of tutorials is designed to help you master the use of essential development tools like git, VSCode, and Site Bay’s Git Sync for your WordPress projects.",
+    "excerpt": "Dive into the world of WordPress development with SiteBay. This collection of tutorials is designed to help you master the use of essential development tools like git, VSCode, and SiteBay’s Git Sync for your WordPress projects.",
     "firstPublishedTime": 1713052800,
     "lastUpdatedTime": 1714295532,
     "linkTitle": "WordPress Development",
@@ -155,18 +155,18 @@
     "title": "WordPress Development"
   },
   {
-    "excerpt": "Learn how to utilize the Cloudflare and Site Bay platforms together to build global, scalable solutions.",
+    "excerpt": "Learn how to utilize the Cloudflare and SiteBay platforms together to build global, scalable solutions.",
     "firstPublishedTime": 1712188800,
     "lastUpdatedTime": 1714295532,
-    "linkTitle": "Cloudflare + Site Bay",
+    "linkTitle": "Cloudflare + SiteBay",
     "objectID": "guides \u003e cloudflare",
     "ordinal": 0,
     "section": "guides",
     "thumbnail": "/docs/guides/cloudflare/feature.svg",
-    "title": "Cloudflare + Site Bay"
+    "title": "Cloudflare + SiteBay"
   },
   {
-    "excerpt": "Welcome to Site Bay, where we take your WordPress hosting experience to another level. We\u0026rsquo;ve got everything you need to make your site pop, from seamless migrations to powerful analytics with PostHog, and dashboards that keep you informed.",
+    "excerpt": "Welcome to SiteBay, where we take your WordPress hosting experience to another level. We\u0026rsquo;ve got everything you need to make your site pop, from seamless migrations to powerful analytics with PostHog, and dashboards that keep you informed.",
     "firstPublishedTime": -62135596800,
     "lastUpdatedTime": 1714295532,
     "linkTitle": "Tools \u0026 Reference",
@@ -177,26 +177,26 @@
     "title": "Tools \u0026 Reference"
   },
   {
-    "excerpt": "Explore the world of PHP development within WordPress hosting on Site Bay. This section is designed to empower both beginners and seasoned developers with the knowledge to utilize PHP effectively in their WordPress projects.",
+    "excerpt": "Explore the world of PHP development within WordPress hosting on SiteBay. This section is designed to empower both beginners and seasoned developers with the knowledge to utilize PHP effectively in their WordPress projects.",
     "firstPublishedTime": 1714348800,
     "lastUpdatedTime": 1714295532,
-    "linkTitle": "Mastering PHP on Site Bay",
+    "linkTitle": "Mastering PHP on SiteBay",
     "objectID": "guides \u003e development \u003e php",
     "ordinal": 0,
     "section": "guides",
     "thumbnail": "/docs/guides/development/php/feature_hu7502b10060d38ae689d73836eb8dfefe_5098_640x400_fill_catmullrom_smart1_3.png",
-    "title": "Mastering PHP on Site Bay"
+    "title": "Mastering PHP on SiteBay"
   },
   {
-    "excerpt": "A go-to guide for troubleshooting common WordPress problems on Site Bay, designed to get your site running smoothly again in no time.",
+    "excerpt": "A go-to guide for troubleshooting common WordPress problems on SiteBay, designed to get your site running smoothly again in no time.",
     "firstPublishedTime": 1714348800,
     "lastUpdatedTime": 1714295532,
-    "linkTitle": "Troubleshooting WordPress on Site Bay",
+    "linkTitle": "Troubleshooting WordPress on SiteBay",
     "objectID": "guides \u003e common-problems",
     "ordinal": 0,
     "section": "guides",
     "thumbnail": "/docs/guides/common-problems/feature.svg",
-    "title": "Troubleshooting WordPress on Site Bay"
+    "title": "Troubleshooting WordPress on SiteBay"
   },
   {
     "excerpt": "Find quick answers to some of the most commonly asked billing questions.",
@@ -210,7 +210,7 @@
     "title": "FAQs"
   },
   {
-    "excerpt": "Learn how Site Bay makes billing simple",
+    "excerpt": "Learn how SiteBay makes billing simple",
     "firstPublishedTime": 1714003200,
     "lastUpdatedTime": 1714634515,
     "linkTitle": "Billing",
@@ -232,7 +232,7 @@
     "title": "Monitoring"
   },
   {
-    "excerpt": "Dive into the essentials of system recovery with Site Bay, guiding you through planning and bouncing back from system compromises with ease.",
+    "excerpt": "Dive into the essentials of system recovery with SiteBay, guiding you through planning and bouncing back from system compromises with ease.",
     "firstPublishedTime": 1713916800,
     "lastUpdatedTime": 1714295532,
     "linkTitle": "System Recovery",
@@ -243,15 +243,15 @@
     "title": "System Recovery"
   },
   {
-    "excerpt": "Dive into software development practices that streamline your coding process, making development on WordPress sites hosted on Site Bay not just efficient but enjoyable.",
+    "excerpt": "Dive into software development practices that streamline your coding process, making development on WordPress sites hosted on SiteBay not just efficient but enjoyable.",
     "firstPublishedTime": 1713916800,
     "lastUpdatedTime": 1714295532,
-    "linkTitle": "Tips and Tricks for WordPress Development on Site Bay",
+    "linkTitle": "Tips and Tricks for WordPress Development on SiteBay",
     "objectID": "guides \u003e development \u003e tips-and-tricks",
     "ordinal": 0,
     "section": "guides",
     "thumbnail": "/docs/guides/advanced-wordpress-development-techniques/Linode_WebDev_hu3f942cecc26c94a9f8b6e42137deab14_92386_640x400_fill_q75_catmullrom_smart1.jpg",
-    "title": "Tips and Tricks for WordPress Development on Site Bay"
+    "title": "Tips and Tricks for WordPress Development on SiteBay"
   },
   {
     "excerpt": "Dive into the fundamentals of WordPress security with practical advice every site admin should follow to safeguard their website.",
@@ -276,18 +276,18 @@
     "title": "WP-CLI and Linux Shell Basics"
   },
   {
-    "excerpt": "This section contains basic information about WordPress hosting on Kubernetes, utilizing tools like Posthog for analytics, and Grafana for monitoring, essential for managing your Site Bay WordPress hosting.",
+    "excerpt": "This section contains basic information about WordPress hosting on Kubernetes, utilizing tools like Posthog for analytics, and Grafana for monitoring, essential for managing your SiteBay WordPress hosting.",
     "firstPublishedTime": 1713744000,
     "lastUpdatedTime": 1714295532,
-    "linkTitle": "WordPress Hosting Essentials on Site Bay",
+    "linkTitle": "WordPress Hosting Essentials on SiteBay",
     "objectID": "guides \u003e quick-answers \u003e sitebay-essentials",
     "ordinal": 0,
     "section": "guides",
     "thumbnail": "/docs/guides/quick-answers/sitebay-essentials/feature.svg",
-    "title": "WordPress Hosting Essentials on Site Bay"
+    "title": "WordPress Hosting Essentials on SiteBay"
   },
   {
-    "excerpt": "Learn how to manage your Site Bay user account, including adding multiple users and adjusting their permissions",
+    "excerpt": "Learn how to manage your SiteBay user account, including adding multiple users and adjusting their permissions",
     "firstPublishedTime": 1713657600,
     "lastUpdatedTime": 1714295532,
     "linkTitle": "Accounts",
@@ -298,18 +298,18 @@
     "title": "Accounts"
   },
   {
-    "excerpt": "A collection of documentation related to managing Site Bay accounts and users",
+    "excerpt": "A collection of documentation related to managing SiteBay accounts and users",
     "firstPublishedTime": 1713657600,
     "lastUpdatedTime": 1714295532,
     "linkTitle": "Guides",
     "objectID": "products \u003e platform \u003e accounts \u003e guides",
     "ordinal": 30,
     "section": "products",
-    "thumbnail": "/docs/products/platform/accounts/guides/user-security-controls/2fa_hu8dc54aba2d35cd06d8b0378159539389_47015_640x400_fill_catmullrom_smart1_3.png",
+    "thumbnail": "/docs/products/platform/accounts/guides/change-user-email/ChangingYourEmailAddress_hue6f4587fa686ffa9756b25444bf3b7af_224524_640x400_fill_catmullrom_smart1_3.png",
     "title": "Guides"
   },
   {
-    "excerpt": "These tutorials describe important first steps for any new Site Bay user, and they answer common questions you might have when getting started.",
+    "excerpt": "These tutorials describe important first steps for any new SiteBay user, and they answer common questions you might have when getting started.",
     "firstPublishedTime": 1713571200,
     "lastUpdatedTime": 1714295532,
     "linkTitle": "Get Started",
@@ -323,15 +323,15 @@
     "excerpt": "Guidance on IaaS primitives, open source software, and architecture design to implement a highly available and production ready Cloud-based document management system.",
     "firstPublishedTime": 1711756800,
     "lastUpdatedTime": 1714295532,
-    "linkTitle": "Autoscaling on Site Bay using Prometheus",
+    "linkTitle": "Autoscaling on SiteBay using Prometheus",
     "objectID": "reference-architecture \u003e auto-scaling-prometheus",
     "ordinal": 10,
     "section": "reference-architecture",
     "thumbnail": "/docs/reference-architecture/auto-scaling-prometheus/feature.svg",
-    "title": "Autoscaling on Site Bay using Prometheus"
+    "title": "Autoscaling on SiteBay using Prometheus"
   },
   {
-    "excerpt": "A collection of documentation related to managing billing, payments, and other related topics on the Site Bay platform.",
+    "excerpt": "A collection of documentation related to managing billing, payments, and other related topics on the SiteBay platform.",
     "firstPublishedTime": 1713312000,
     "lastUpdatedTime": 1714295532,
     "linkTitle": "Guides",
@@ -342,7 +342,7 @@
     "title": "Guides"
   },
   {
-    "excerpt": "Reference architectures from Site Bay show how to arrange cloud infrastructure and services for a range of applications, through diagrams, abstracts, and tutorials. Learn how to architect high-availability applications, document management systems, CI/CD pipelines, and more.",
+    "excerpt": "Reference architectures from SiteBay show how to arrange cloud infrastructure and services for a range of applications, through diagrams, abstracts, and tutorials. Learn how to architect high-availability applications, document management systems, CI/CD pipelines, and more.",
     "firstPublishedTime": 1713312000,
     "lastUpdatedTime": 1714295532,
     "linkTitle": "Reference Architecture",
@@ -353,18 +353,18 @@
     "title": "Reference Architecture"
   },
   {
-    "excerpt": "Dive into the essentials of the Site Bay Manager.",
+    "excerpt": "Dive into the essentials of the SiteBay Manager.",
     "firstPublishedTime": 1713225600,
     "lastUpdatedTime": 1714295532,
-    "linkTitle": "Site Bay Manager",
+    "linkTitle": "SiteBay Manager",
     "objectID": "guides \u003e platform \u003e manager",
     "ordinal": 0,
     "section": "guides",
     "thumbnail": "/docs/guides/platform/manager/feature.svg",
-    "title": "Site Bay Manager"
+    "title": "SiteBay Manager"
   },
   {
-    "excerpt": "Find quick answers to some of the most commonly asked questions for Site Bay\u0026rsquo;s PIT Machine.",
+    "excerpt": "Find quick answers to some of the most commonly asked questions for SiteBay\u0026rsquo;s PIT Machine.",
     "firstPublishedTime": 1712188800,
     "lastUpdatedTime": 1714295532,
     "linkTitle": "FAQs",
@@ -375,7 +375,7 @@
     "title": "FAQs"
   },
   {
-    "excerpt": "These guides include introductory projects that utilize the foundational services of the Cloudflare and Site Bay platforms.",
+    "excerpt": "These guides include introductory projects that utilize the foundational services of the Cloudflare and SiteBay platforms.",
     "firstPublishedTime": 1712188800,
     "lastUpdatedTime": 1714295532,
     "linkTitle": "Get Started",
@@ -386,7 +386,7 @@
     "title": "Get Started"
   },
   {
-    "excerpt": "Site Bay\u0026rsquo;s Point-in-time (PIT) Machine allows you to recover your site or individual files from against accidental deletions or misconfigurations.",
+    "excerpt": "SiteBay\u0026rsquo;s Point-in-time (PIT) Machine allows you to recover your site or individual files from against accidental deletions or misconfigurations.",
     "firstPublishedTime": 1712188800,
     "lastUpdatedTime": 1714295532,
     "linkTitle": "Point-in-Time Machine",
@@ -397,26 +397,26 @@
     "title": "Point-in-Time Machine"
   },
   {
-    "excerpt": "Welcome to Site Bay: Your New Home for WordPress Hosting What\u0026rsquo;s Site Bay All About?",
+    "excerpt": "Welcome to SiteBay: Your New Home for WordPress Hosting What\u0026rsquo;s SiteBay All About?\nGlad you asked!",
     "firstPublishedTime": 1712188800,
     "lastUpdatedTime": 1714295532,
-    "linkTitle": "Site Bay",
+    "linkTitle": "SiteBay",
     "objectID": "guides \u003e quick-answers \u003e sitebay",
     "ordinal": 0,
     "section": "guides",
     "thumbnail": "/docs/guides/quick-answers/sitebay/feature.svg",
-    "title": "Site Bay"
+    "title": "SiteBay"
   },
   {
     "excerpt": "",
     "firstPublishedTime": 1712188800,
     "lastUpdatedTime": 1714295532,
-    "linkTitle": "Site Bay Platform",
+    "linkTitle": "SiteBay Platform",
     "objectID": "guides \u003e quick-answers \u003e sitebay-platform",
     "ordinal": 0,
     "section": "guides",
     "thumbnail": "/docs/guides/quick-answers/sitebay-platform/feature.svg",
-    "title": "Site Bay Platform"
+    "title": "SiteBay Platform"
   },
   {
     "excerpt": "Fast as possible tutorials of a modern website.",
@@ -430,18 +430,18 @@
     "title": "Website Quickie Guides"
   },
   {
-    "excerpt": "",
+    "excerpt": "Get started using My SiteBay to create SiteBay WordPress sites in a click",
     "firstPublishedTime": -62135596800,
-    "lastUpdatedTime": 1714295532,
+    "lastUpdatedTime": 1711670400,
     "linkTitle": "Templates",
     "objectID": "templates",
     "ordinal": 0,
     "section": "templates",
     "thumbnail": "/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x400_fill_q75_catmullrom_smart1.jpg",
-    "title": "Templates"
+    "title": "All Templates"
   },
   {
-    "excerpt": "Use Site Bay\u0026rsquo;s Bi-directional Git Sync to develop locally.",
+    "excerpt": "Use SiteBay\u0026rsquo;s Bi-directional Git Sync to develop locally.",
     "firstPublishedTime": 1711411200,
     "lastUpdatedTime": 1714295532,
     "linkTitle": "Git Sync",
@@ -452,7 +452,7 @@
     "title": "Git Sync"
   },
   {
-    "excerpt": "A collection of guides to help get you started on the Site Bay Platform",
+    "excerpt": "A collection of guides to help get you started on the SiteBay Platform",
     "firstPublishedTime": 1710374400,
     "lastUpdatedTime": 1714295532,
     "linkTitle": "Guides",
@@ -477,12 +477,12 @@
     "excerpt": "Learn how to use, install, configure and perform tasks on database management platform Elasticsearch in these tutorials.",
     "firstPublishedTime": 1396569600,
     "lastUpdatedTime": 1714295532,
-    "linkTitle": "Algolia Guides, Tutorials, and Resources – Site Bay",
+    "linkTitle": "Algolia Guides, Tutorials, and Resources – SiteBay",
     "objectID": "guides \u003e databases \u003e algolia",
     "ordinal": 0,
     "section": "guides",
     "thumbnail": "/docs/guides/databases/algolia/feature.svg",
-    "title": "Algolia Guides, Tutorials, and Resources – Site Bay"
+    "title": "Algolia Guides, Tutorials, and Resources – SiteBay"
   },
   {
     "excerpt": "WordPress is constantly evolving. Bugs are fixed, new features are added, and packages are updated.",
@@ -496,7 +496,7 @@
     "title": "Upgrading"
   },
   {
-    "excerpt": "Welcome to Site Bay\u0026rsquo;s Language Universe\nYo, when you\u0026rsquo;re diving into the world of web development with Site Bay, you\u0026rsquo;re stepping into a universe where language isn\u0026rsquo;t just about speaking—it\u0026rsquo;s about coding.",
+    "excerpt": "Welcome to SiteBay\u0026rsquo;s Language Universe\nYo, when you\u0026rsquo;re diving into the world of web development with SiteBay, you\u0026rsquo;re stepping into a universe where language isn\u0026rsquo;t just about speaking—it\u0026rsquo;s about coding.",
     "firstPublishedTime": -62135596800,
     "lastUpdatedTime": 1714295532,
     "linkTitle": "",
@@ -507,7 +507,7 @@
     "title": ""
   },
   {
-    "excerpt": "Go: Speed and Simplicity for Your Site Bay Projects\nYo, welcome to the world of Go!",
+    "excerpt": "Go: Speed and Simplicity for Your SiteBay Projects\nYo, welcome to the world of Go! If you\u0026rsquo;re all about getting your web projects running at lightning speed with some seriously efficient code, then you, my friend, are in the right place.",
     "firstPublishedTime": -62135596800,
     "lastUpdatedTime": 1714295532,
     "linkTitle": "",
@@ -518,7 +518,7 @@
     "title": ""
   },
   {
-    "excerpt": "PHP: The Heart of Your Site Bay WordPress Site\nAlright, let\u0026rsquo;s break it down with PHP, the backbone of WordPress and a whole lot of the web.",
+    "excerpt": "PHP: The Heart of Your SiteBay WordPress Site\nAlright, let\u0026rsquo;s break it down with PHP, the backbone of WordPress and a whole lot of the web.",
     "firstPublishedTime": -62135596800,
     "lastUpdatedTime": 1714295532,
     "linkTitle": "",
@@ -529,7 +529,7 @@
     "title": ""
   },
   {
-    "excerpt": "Site Bay provides powerful WordPress hosting solutions tailored for businesses and individuals alike, offering a range of plans to fit various needs.",
+    "excerpt": "SiteBay provides powerful WordPress hosting solutions tailored for businesses and individuals alike, offering a range of plans to fit various needs.",
     "firstPublishedTime": -62135596800,
     "lastUpdatedTime": 1714295532,
     "linkTitle": "",
@@ -540,7 +540,7 @@
     "title": ""
   },
   {
-    "excerpt": "Diving into the digital world of Site Bay, especially when it comes to WordPress hosting on Kubernetes, equipped with Posthog analytics, recordings, and Grafana dashboards, can sometimes feel like navigating a vast and mysterious ocean.",
+    "excerpt": "Diving into the digital world of SiteBay, especially when it comes to WordPress hosting on Kubernetes, equipped with Posthog analytics, recordings, and Grafana dashboards, can sometimes feel like navigating a vast and mysterious ocean.",
     "firstPublishedTime": -62135596800,
     "lastUpdatedTime": 1714295532,
     "linkTitle": "",
@@ -603,7 +603,7 @@
     "ordinal": 0,
     "section": "api",
     "thumbnail": "/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x400_fill_q75_catmullrom_smart1.jpg",
-    "title": "Site Bay API Documentation"
+    "title": "SiteBay API Documentation"
   },
   {
     "excerpt": "View tutorials based on the reader\u0026rsquo;s experience level.",
@@ -617,7 +617,7 @@
     "title": "Audiences"
   },
   {
-    "excerpt": "All Site Bay hosted WordPress sites include a code-server instance, allow you to design and develop your site faster.",
+    "excerpt": "All SiteBay hosted WordPress sites include a code-server instance, allow you to design and develop your site faster.",
     "firstPublishedTime": -62135596800,
     "lastUpdatedTime": 1714295532,
     "linkTitle": "Code Server",
@@ -639,7 +639,7 @@
     "title": "Concentrations"
   },
   {
-    "excerpt": "Welcome to Site Bay\u0026rsquo;s foundational guide, where we simplify the world of powerful WordPress hosting on Kubernetes, analytics with Posthog, and insights via Grafana.",
+    "excerpt": "Welcome to SiteBay\u0026rsquo;s foundational guide, where we simplify the world of powerful WordPress hosting on Kubernetes, analytics with Posthog, and insights via Grafana.",
     "firstPublishedTime": -62135596800,
     "lastUpdatedTime": 1714295532,
     "linkTitle": "Foundational",
@@ -650,7 +650,7 @@
     "title": "Foundational"
   },
   {
-    "excerpt": "Welcome to the foundational corner of Site Bay, where we demystify the basics of WordPress hosting on Kubernetes, complete with insights from Posthog and Grafana.",
+    "excerpt": "Welcome to the foundational corner of SiteBay, where we demystify the basics of WordPress hosting on Kubernetes, complete with insights from Posthog and Grafana.",
     "firstPublishedTime": -62135596800,
     "lastUpdatedTime": 1714295532,
     "linkTitle": "Foundational",
@@ -661,7 +661,7 @@
     "title": "Foundational"
   },
   {
-    "excerpt": "Site Bay offers a free bi-directional Git Sync for WordPress sites",
+    "excerpt": "SiteBay offers a free bi-directional Git Sync for WordPress sites",
     "firstPublishedTime": -62135596800,
     "lastUpdatedTime": 1714295532,
     "linkTitle": "Git-Sync",
@@ -679,8 +679,8 @@
     "objectID": "guides",
     "ordinal": 0,
     "section": "guides",
-    "thumbnail": "/docs/guides/getting-started/getting-started_hu7073266e0ea4f459a4166f783458efb0_424270_640x400_fill_catmullrom_smart1_3.png",
-    "title": "Site Bay Guides \u0026 Tutorials"
+    "thumbnail": "/docs/guides/getting-started/cloudflare-cname-setup_hue58d7522277ef99ee6d30071b9bced81_60669_640x400_fill_catmullrom_smart1_3.png",
+    "title": "SiteBay Guides \u0026 Tutorials"
   },
   {
     "excerpt": "Hey there! If you\u0026rsquo;ve got the basics down and you\u0026rsquo;re ready to level up, you\u0026rsquo;ve hit the right spot.",
@@ -694,7 +694,7 @@
     "title": "Intermediate"
   },
   {
-    "excerpt": "Hey there! Want to keep an eye on how your website is doing? Monitoring is key, and we\u0026rsquo;ve got you covered at Site Bay.",
+    "excerpt": "Hey there! Want to keep an eye on how your website is doing? Monitoring is key, and we\u0026rsquo;ve got you covered at SiteBay.",
     "firstPublishedTime": -62135596800,
     "lastUpdatedTime": 1714295532,
     "linkTitle": "Monitoring",
@@ -716,7 +716,7 @@
     "title": "MySQL Database"
   },
   {
-    "excerpt": "A collection of product documentation for topics related to the Site Bay Platform.",
+    "excerpt": "A collection of product documentation for topics related to the SiteBay Platform.",
     "firstPublishedTime": -62135596800,
     "lastUpdatedTime": 1714295532,
     "linkTitle": "Platform",
@@ -738,7 +738,7 @@
     "title": "PostHog"
   },
   {
-    "excerpt": "Get started using My Site Bay to create Site Bay WordPress sites and manage your account.",
+    "excerpt": "Get started using My SiteBay to create SiteBay WordPress sites and manage your account.",
     "firstPublishedTime": -62135596800,
     "lastUpdatedTime": 1714634515,
     "linkTitle": "Products",
@@ -760,7 +760,7 @@
     "title": "Recording"
   },
   {
-    "excerpt": "Step into the realm of efficiency and power with Site Bay\u0026rsquo;s Scripting, Automation, and Build Tools!",
+    "excerpt": "Step into the realm of efficiency and power with SiteBay\u0026rsquo;s Scripting, Automation, and Build Tools! This corner of our knowledge base is dedicated to guiding you through the automation of your WordPress hosting workflows on Kubernetes, utilizing SiteBay\u0026rsquo;s robust features alongside tools like PostHog analytics, Grafana dashboards, and more.",
     "firstPublishedTime": -62135596800,
     "lastUpdatedTime": 1714295532,
     "linkTitle": "Scripting, Automation, and Build Tools",
@@ -771,7 +771,7 @@
     "title": "Scripting, Automation, and Build Tools"
   },
   {
-    "excerpt": "Site Bay offers an app to integrate your blog posts and use session recordings on your Shopify shop",
+    "excerpt": "SiteBay offers an app to integrate your blog posts and use session recordings on your Shopify shop",
     "firstPublishedTime": -62135596800,
     "lastUpdatedTime": 1714295532,
     "linkTitle": "Shopify Link",
@@ -804,7 +804,7 @@
     "title": "Templates"
   },
   {
-    "excerpt": "Site Bay offers robust developer tools to make it easy to manage your infrastructure.",
+    "excerpt": "SiteBay offers robust developer tools to make it easy to manage your infrastructure.",
     "firstPublishedTime": -62135596800,
     "lastUpdatedTime": 1714295532,
     "linkTitle": "Tools",
@@ -837,7 +837,7 @@
     "title": "Vulnerability Detection"
   },
   {
-    "excerpt": "Welcome to the Web Applications guide, tailored specifically for the movers and shakers using Site Bay for Powerful WordPress Hosting.",
+    "excerpt": "Welcome to the Web Applications guide, tailored specifically for the movers and shakers using SiteBay for Powerful WordPress Hosting.",
     "firstPublishedTime": -62135596800,
     "lastUpdatedTime": 1714295532,
     "linkTitle": "Web Applications",
@@ -848,7 +848,7 @@
     "title": "Web Applications"
   },
   {
-    "excerpt": "Welcome to the Websites section of our support articles! Here, you\u0026rsquo;ll dive into the world of Site Bay, the ultimate spot for WordPress hosting on Kubernetes, enriched with Posthog for analytics, Grafana for monitoring, and much more.",
+    "excerpt": "Welcome to the Websites section of our support articles! Here, you\u0026rsquo;ll dive into the world of SiteBay, the ultimate spot for WordPress hosting on Kubernetes, enriched with Posthog for analytics, Grafana for monitoring, and much more.",
     "firstPublishedTime": -62135596800,
     "lastUpdatedTime": 1714295532,
     "linkTitle": "Websites",
@@ -859,7 +859,7 @@
     "title": "Websites"
   },
   {
-    "excerpt": "Welcome to the world of WordPress Development on Site Bay! Here, we dive deep into the heart of creating, managing, and optimizing WordPress sites, all hosted on our robust Kubernetes infrastructure.",
+    "excerpt": "Welcome to the world of WordPress Development on SiteBay! Here, we dive deep into the heart of creating, managing, and optimizing WordPress sites, all hosted on our robust Kubernetes infrastructure.",
     "firstPublishedTime": -62135596800,
     "lastUpdatedTime": 1714295532,
     "linkTitle": "WordPress Development",

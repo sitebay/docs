@@ -1,7 +1,7 @@
 ---
 slug: how-to-use-inpainting
 author:
-  name: Site Bay
+  name: SiteBay
   email: support@sitebay.org
 description: 'Modern Photoshop for free in Stable Diffusion (AUTOMATIC1111 tutorial)'
 keywords: ['stable diffusion','help','beginner','introduction']
@@ -9,10 +9,10 @@ tags: ["stable diffusion","quickstart"]
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
 published: 2024-03-29
 modified_by:
-  name: Site Bay
+  name: SiteBay
 title: "Basic inpainting guide"
 contributor:
-  name: Site Bay
+  name: SiteBay
 ---
 
 ## What Is Inpainting?

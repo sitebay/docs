@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Guides &amp; Tutorials on Site Bay Guides &amp; Tutorials</title>
+    <title>Guides &amp; Tutorials on SiteBay Guides &amp; Tutorials</title>
     <link>https://www.sitebay.org/docs/</link>
-    <description>Recent content in Guides &amp; Tutorials on Site Bay Guides &amp; Tutorials</description>
+    <description>Recent content in Guides &amp; Tutorials on SiteBay Guides &amp; Tutorials</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://www.sitebay.org/docs/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Get Started with Site Bay</title>
+      <title>Get Started with SiteBay</title>
       <link>https://www.sitebay.org/docs/guides/getting-started/</link>
       <pubDate>Thu, 04 Apr 2024 00:00:00 +0000</pubDate>
       
       <guid>https://www.sitebay.org/docs/guides/getting-started/</guid>
-      <description>Welcome to Site Bay!
-Glad you&amp;rsquo;re here! Site Bay is your new favorite spot for WordPress hosting, now with the scalability of Kubernetes.</description>
+      <description>Set Sail with Site Bay!Let&amp;rsquo;s get started with Site Bay, Powerful WordPress Hosting! This tutorial will help you sign up for an account on My Site Bay, our browser-based control panel where you can create, manage, and monitor your WordPress sites with the scalability of Kubernetes.</description>
     </item>
     
     <item>
@@ -23,11 +22,11 @@ Glad you&amp;rsquo;re here! Site Bay is your new favorite spot for WordPress hos
       
       <guid>https://www.sitebay.org/docs/guides/managing-your-staging-site-on-code-server/</guid>
       <description>Code Server: Editing Your WordPress Staging Site in the Browser
-Welcome to the future of website development on Site Bay, where managing your WordPress staging site becomes a breeze with our Code Server tool.</description>
+Welcome to the future of website development on SiteBay, where managing your WordPress staging site becomes a breeze with our Code Server tool.</description>
     </item>
     
     <item>
-      <title>Site Bay Code Server</title>
+      <title>SiteBay Code Server</title>
       <link>https://www.sitebay.org/docs/guides/site-bay-code-server-introduction/</link>
       <pubDate>Thu, 04 Apr 2024 00:00:00 +0000</pubDate>
       
@@ -36,7 +35,7 @@ Welcome to the future of website development on Site Bay, where managing your Wo
     </item>
     
     <item>
-      <title>Site Bay Platform</title>
+      <title>SiteBay Platform</title>
       <link>https://www.sitebay.org/docs/platform/shopify/how-to-use-git-sync/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -45,44 +44,71 @@ Welcome to the future of website development on Site Bay, where managing your Wo
     </item>
     
     <item>
-      <title>Collaborate with PostHog Notebooks on Site Bay</title>
+      <title>Understanding Common My SiteBay Errors</title>
+      <link>https://www.sitebay.org/docs/guides/an-overview-of-common-cloud-manager-errors/</link>
+      <pubDate>Wed, 22 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/an-overview-of-common-cloud-manager-errors/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Monitoring NGINX Using the Elastic Stack on Centos 7</title>
+      <link>https://www.sitebay.org/docs/guides/monitor-nginx-web-server-logs-using-filebeat-elastic-stack-linux-7/</link>
+      <pubDate>Mon, 13 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/monitor-nginx-web-server-logs-using-filebeat-elastic-stack-linux-7/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Installing and Using Elasticsearch Plugins</title>
+      <link>https://www.sitebay.org/docs/guides/a-guide-to-algolia-plugins/</link>
+      <pubDate>Sat, 04 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/docs/guides/a-guide-to-algolia-plugins/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Collaborate with PostHog Notebooks on SiteBay</title>
       <link>https://www.sitebay.org/docs/products/posthog/notebooks/</link>
       <pubDate>Tue, 30 Apr 2024 00:00:00 +0000</pubDate>
       
       <guid>https://www.sitebay.org/docs/products/posthog/notebooks/</guid>
-      <description>Site Bay integrates PostHog analytics, offering powerful insights into your WordPress site&amp;rsquo;s user interactions. One of the standout features is PostHog Notebooks, which enables collaborative data analysis directly within your Site Bay environment.</description>
+      <description>SiteBay integrates PostHog analytics, offering powerful insights into your WordPress site&amp;rsquo;s user interactions. One of the standout features is PostHog Notebooks, which enables collaborative data analysis directly within your SiteBay environment.</description>
     </item>
     
     <item>
-      <title>Mastering Staging Sites on Site Bay’s WordPress Hosting</title>
+      <title>Mastering Staging Sites on SiteBay’s WordPress Hosting</title>
       <link>https://www.sitebay.org/docs/guides/sitebay-dashboard-staging-site/</link>
       <pubDate>Tue, 30 Apr 2024 00:00:00 +0000</pubDate>
       
       <guid>https://www.sitebay.org/docs/guides/sitebay-dashboard-staging-site/</guid>
-      <description>Creating a staging site on Site Bay&amp;rsquo;s WordPress hosting platform is a breeze, thanks to Kubernetes’ robust architecture and the integrated analytics and monitoring tools like PostHog and Grafana.</description>
+      <description>Creating a staging site on SiteBay&amp;rsquo;s WordPress hosting platform is a breeze, thanks to Kubernetes’ robust architecture and the integrated analytics and monitoring tools like PostHog and Grafana.</description>
     </item>
     
     <item>
-      <title>Maximizing WordPress Insights with PostHog Dashboards on Site Bay</title>
+      <title>Maximizing WordPress Insights with PostHog Dashboards on SiteBay</title>
       <link>https://www.sitebay.org/docs/products/posthog/dashboards/</link>
       <pubDate>Tue, 30 Apr 2024 00:00:00 +0000</pubDate>
       
       <guid>https://www.sitebay.org/docs/products/posthog/dashboards/</guid>
       <description>Introduction to PostHog Dashboards
-PostHog dashboards are powerful tools for WordPress site owners on Site Bay, offering deep insights into visitor behavior and site performance.</description>
+PostHog dashboards are powerful tools for WordPress site owners on SiteBay, offering deep insights into visitor behavior and site performance.</description>
     </item>
     
     <item>
-      <title>Enhancing SEO with Site Bays Shopify Link for WordPress Blogs</title>
+      <title>Enhancing SEO with SiteBays Shopify Link for WordPress Blogs</title>
       <link>https://www.sitebay.org/docs/guides/what-is-shopify-link/</link>
       <pubDate>Mon, 29 Apr 2024 00:00:00 +0000</pubDate>
       
       <guid>https://www.sitebay.org/docs/guides/what-is-shopify-link/</guid>
-      <description>Integrating your WordPress blog with your Shopify store can enhance your online presence and SEO. Site Bay&amp;rsquo;s Shopify Link makes this process seamless, allowing your WordPress content to be accessible directly from your Shopify store at a /a/blog path.</description>
+      <description>Integrating your WordPress blog with your Shopify store can enhance your online presence and SEO. SiteBay&amp;rsquo;s Shopify Link makes this process seamless, allowing your WordPress content to be accessible directly from your Shopify store at a /a/blog path.</description>
     </item>
     
     <item>
-      <title>Install WordPress with Docker on Site Bay</title>
+      <title>Install WordPress with Docker on SiteBay</title>
       <link>https://www.sitebay.org/docs/guides/sitebay-create-a-site/</link>
       <pubDate>Mon, 29 Apr 2024 00:00:00 +0000</pubDate>
       
@@ -91,7 +117,7 @@ PostHog dashboards are powerful tools for WordPress site owners on Site Bay, off
     </item>
     
     <item>
-      <title>Launch WordPress with Docker Compose on Site Bay</title>
+      <title>Launch WordPress with Docker Compose on SiteBay</title>
       <link>https://www.sitebay.org/docs/guides/wordpress-with-docker-compose/</link>
       <pubDate>Mon, 29 Apr 2024 00:00:00 +0000</pubDate>
       
@@ -106,16 +132,16 @@ Docker provides a way to run applications securely isolated in a container, pack
       <pubDate>Mon, 29 Apr 2024 00:00:00 +0000</pubDate>
       
       <guid>https://www.sitebay.org/docs/guides/scanning-your-wordpress-site-for-malware/</guid>
-      <description>Yo! Noticed your site&amp;rsquo;s lagging or just curious about who&amp;rsquo;s dropping by? Site Bay hooks you up with all the essentials for monitoring and logging your site&amp;rsquo;s traffic.</description>
+      <description>Yo! Noticed your site&amp;rsquo;s lagging or just curious about who&amp;rsquo;s dropping by? SiteBay hooks you up with all the essentials for monitoring and logging your site&amp;rsquo;s traffic.</description>
     </item>
     
     <item>
-      <title>Troubleshooting WordPress on Site Bay</title>
-      <link>https://www.sitebay.org/docs/guides/troubleshooting-wordpress-on-site-bay/</link>
+      <title>Troubleshooting WordPress on SiteBay</title>
+      <link>https://www.sitebay.org/docs/guides/troubleshooting-wordpress-on-sitebay/</link>
       <pubDate>Mon, 29 Apr 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://www.sitebay.org/docs/guides/troubleshooting-wordpress-on-site-bay/</guid>
-      <description>Welcome to the WordPress troubleshooting guide by Site Bay! If you&amp;rsquo;ve hit a snag with your WordPress site, don&amp;rsquo;t sweat it.</description>
+      <guid>https://www.sitebay.org/docs/guides/troubleshooting-wordpress-on-sitebay/</guid>
+      <description>Welcome to the WordPress troubleshooting guide by SiteBay! If you&amp;rsquo;ve hit a snag with your WordPress site, don&amp;rsquo;t sweat it.</description>
     </item>
     
     <item>
@@ -124,7 +150,7 @@ Docker provides a way to run applications securely isolated in a container, pack
       <pubDate>Mon, 29 Apr 2024 00:00:00 +0000</pubDate>
       
       <guid>https://www.sitebay.org/docs/guides/wordpress-logging-and-monitoring/</guid>
-      <description>Yo! Noticed your site&amp;rsquo;s lagging or just curious about who&amp;rsquo;s dropping by? Site Bay hooks you up with all the essentials for monitoring and logging your site&amp;rsquo;s traffic.</description>
+      <description>Yo! Noticed your site&amp;rsquo;s lagging or just curious about who&amp;rsquo;s dropping by? SiteBay hooks you up with all the essentials for monitoring and logging your site&amp;rsquo;s traffic.</description>
     </item>
     
     <item>
@@ -133,7 +159,7 @@ Docker provides a way to run applications securely isolated in a container, pack
       <pubDate>Sun, 28 Apr 2024 00:00:00 +0000</pubDate>
       
       <guid>https://www.sitebay.org/docs/platform/billing-and-support/billing-and-payments/</guid>
-      <description>Site Bay WordPress HostingFull details of our plan are on our pricing page
+      <description>SiteBay WordPress HostingFull details of our plan are on our pricing page
 Going over your plan&amp;rsquo;s visits limit can result in a Visits overage charge.</description>
     </item>
     
@@ -147,7 +173,7 @@ Going over your plan&amp;rsquo;s visits limit can result in a Visits overage cha
     </item>
     
     <item>
-      <title>Team Collaboration on Site Bay: Enhance Your WordPress Management</title>
+      <title>Team Collaboration on SiteBay: Enhance Your WordPress Management</title>
       <link>https://www.sitebay.org/docs/guides/sitebay-team-members/</link>
       <pubDate>Sun, 28 Apr 2024 00:00:00 +0000</pubDate>
       
@@ -156,7 +182,7 @@ Going over your plan&amp;rsquo;s visits limit can result in a Visits overage cha
     </item>
     
     <item>
-      <title>Deploy NGINX on Kubernetes: Quick and Easy Setup with Site Bay</title>
+      <title>Deploy NGINX on Kubernetes: Quick and Easy Setup with SiteBay</title>
       <link>https://www.sitebay.org/docs/guides/kubernetes-fast-as-possible/</link>
       <pubDate>Sat, 27 Apr 2024 00:00:00 +0000</pubDate>
       
@@ -166,7 +192,7 @@ Kubernetes is a powerful open-source system for managing containerized applicati
     </item>
     
     <item>
-      <title>Elevate Your WordPress Site with Kubernetes on Site Bay</title>
+      <title>Elevate Your WordPress Site with Kubernetes on SiteBay</title>
       <link>https://www.sitebay.org/docs/guides/benefits-of-wordpress-on-kubernetes/</link>
       <pubDate>Sat, 27 Apr 2024 00:00:00 +0000</pubDate>
       
@@ -176,7 +202,7 @@ Kubernetes is a cutting-edge tool that automates deploying, scaling, and operati
     </item>
     
     <item>
-      <title>Elevating WordPress Performance with Kubernetes and NGINX on Site Bay</title>
+      <title>Elevating WordPress Performance with Kubernetes and NGINX on SiteBay</title>
       <link>https://www.sitebay.org/docs/guides/troubleshooting-wordpress-on-kubernetes/</link>
       <pubDate>Sat, 27 Apr 2024 00:00:00 +0000</pubDate>
       
@@ -194,7 +220,7 @@ Kubernetes is a cutting-edge tool that automates deploying, scaling, and operati
     </item>
     
     <item>
-      <title>Leveraging Feature Flags for A/B Testing on Site Bay</title>
+      <title>Leveraging Feature Flags for A/B Testing on SiteBay</title>
       <link>https://www.sitebay.org/docs/products/posthog/feature-flags/</link>
       <pubDate>Sat, 27 Apr 2024 00:00:00 +0000</pubDate>
       
@@ -203,7 +229,7 @@ Kubernetes is a cutting-edge tool that automates deploying, scaling, and operati
     </item>
     
     <item>
-      <title>Mastering WP-CLI on Site Bay</title>
+      <title>Mastering WP-CLI on SiteBay</title>
       <link>https://www.sitebay.org/docs/guides/wp-cli-tutorial/</link>
       <pubDate>Sat, 27 Apr 2024 00:00:00 +0000</pubDate>
       
@@ -212,12 +238,12 @@ Kubernetes is a cutting-edge tool that automates deploying, scaling, and operati
     </item>
     
     <item>
-      <title>Grant a Developer Access a WordPress Site or Site Bay Account</title>
+      <title>Grant a Developer Access a WordPress Site or SiteBay Account</title>
       <link>https://www.sitebay.org/docs/products/platform/get-started/guides/developer-access/</link>
       <pubDate>Fri, 26 Apr 2024 00:00:00 +0000</pubDate>
       
       <guid>https://www.sitebay.org/docs/products/platform/get-started/guides/developer-access/</guid>
-      <description>One of the most powerful features of Site Bay&amp;rsquo;s unmanaged service is the amount of control Site Bay users have over their account and the software installed on their systems.</description>
+      <description>One of the most powerful features of SiteBay&amp;rsquo;s unmanaged service is the amount of control SiteBay users have over their account and the software installed on their systems.</description>
     </item>
     
     <item>
@@ -226,7 +252,7 @@ Kubernetes is a cutting-edge tool that automates deploying, scaling, and operati
       <pubDate>Fri, 26 Apr 2024 00:00:00 +0000</pubDate>
       
       <guid>https://www.sitebay.org/docs/guides/recovering-from-a-wordpress-hack/</guid>
-      <description>Got hit by a WordPress hack? Keep calm and carry on! Site Bay&amp;rsquo;s got your back with tools designed to restore your site&amp;rsquo;s glory days, pre-hack.</description>
+      <description>Got hit by a WordPress hack? Keep calm and carry on! SiteBay&amp;rsquo;s got your back with tools designed to restore your site&amp;rsquo;s glory days, pre-hack.</description>
     </item>
     
     <item>
@@ -235,7 +261,7 @@ Kubernetes is a cutting-edge tool that automates deploying, scaling, and operati
       <pubDate>Thu, 25 Apr 2024 00:00:00 +0000</pubDate>
       
       <guid>https://www.sitebay.org/docs/products/platform/accounts/guides/cancel-account/</guid>
-      <description>A Site Bay account enables you to deploy and use services on the Site Bay Platform.</description>
+      <description>A SiteBay account enables you to deploy and use services on the SiteBay Platform. If you no longer wish to use the SiteBay Platform, you can cancel your account at any time.</description>
     </item>
     
     <item>
@@ -248,39 +274,12 @@ Kubernetes is a cutting-edge tool that automates deploying, scaling, and operati
     </item>
     
     <item>
-      <title>Mastering Process Monitoring in Site Bay with the ps aux Command</title>
+      <title>Mastering Process Monitoring in SiteBay with the ps aux Command</title>
       <link>https://www.sitebay.org/docs/guides/use-the-ps-aux-command-in-sitebay/</link>
       <pubDate>Thu, 25 Apr 2024 00:00:00 +0000</pubDate>
       
       <guid>https://www.sitebay.org/docs/guides/use-the-ps-aux-command-in-sitebay/</guid>
-      <description>Within the ecosystem of Site Bay&amp;rsquo;s WordPress hosting on Kubernetes, understanding the underlying Linux system processes is crucial for managing and troubleshooting your WordPress site.</description>
-    </item>
-    
-    <item>
-      <title>Transfer a WordPress Site to Site Bay&#39;s WordPress Hosting</title>
-      <link>https://www.sitebay.org/docs/guides/transferring-a-wordpress-site-to-a-new-server/</link>
-      <pubDate>Thu, 25 Apr 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.sitebay.org/docs/guides/transferring-a-wordpress-site-to-a-new-server/</guid>
-      <description>Transferring your WordPress site to Site Bay&amp;rsquo;s robust WordPress hosting environment, optimized with Kubernetes, Posthog analytics, and Grafana dashboards, ensures your website&amp;rsquo;s seamless performance and enhanced security.</description>
-    </item>
-    
-    <item>
-      <title>Best Practices when Migrating to Site Bay</title>
-      <link>https://www.sitebay.org/docs/platform/migrate-to-sitebay/best-practices-when-migrating-to-sitebay/</link>
-      <pubDate>Wed, 24 Apr 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.sitebay.org/docs/platform/migrate-to-sitebay/best-practices-when-migrating-to-sitebay/</guid>
-      <description>Next StepsAfter doing the above, your site should be fully migrated to Site Bay. It is a good idea to wait a few days before cancelling your previous WordPress hosting service to make sure that everything is running smoothly.</description>
-    </item>
-    
-    <item>
-      <title>Embracing the Advantages of Open Source Software with Site Bay</title>
-      <link>https://www.sitebay.org/docs/guides/open-source-software-benefits/</link>
-      <pubDate>Wed, 24 Apr 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.sitebay.org/docs/guides/open-source-software-benefits/</guid>
-      <description>Open-source software (OSS) is a cornerstone of innovation and flexibility in technology, powering enterprises and personal projects alike.</description>
+      <description>Within the ecosystem of SiteBay&amp;rsquo;s WordPress hosting on Kubernetes, understanding the underlying Linux system processes is crucial for managing and troubleshooting your WordPress site.</description>
     </item>
     
   </channel>

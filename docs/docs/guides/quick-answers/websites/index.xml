@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Websites on Site Bay Guides &amp; Tutorials</title>
+    <title>Websites on SiteBay Guides &amp; Tutorials</title>
     <link>https://www.sitebay.org/docs/guides/quick-answers/websites/</link>
-    <description>Recent content in Websites on Site Bay Guides &amp; Tutorials</description>
+    <description>Recent content in Websites on SiteBay Guides &amp; Tutorials</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://www.sitebay.org/docs/guides/quick-answers/websites/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -16,21 +16,12 @@
     </item>
     
     <item>
-      <title>Transfer a WordPress Site to Site Bay&#39;s WordPress Hosting</title>
+      <title>Transfer a WordPress Site to SiteBay&#39;s WordPress Hosting</title>
       <link>https://www.sitebay.org/docs/guides/transferring-a-wordpress-site-to-a-new-server/</link>
       <pubDate>Thu, 25 Apr 2024 00:00:00 +0000</pubDate>
       
       <guid>https://www.sitebay.org/docs/guides/transferring-a-wordpress-site-to-a-new-server/</guid>
-      <description>Transferring your WordPress site to Site Bay&amp;rsquo;s robust WordPress hosting environment, optimized with Kubernetes, Posthog analytics, and Grafana dashboards, ensures your website&amp;rsquo;s seamless performance and enhanced security.</description>
-    </item>
-    
-    <item>
-      <title>Sites Enabled with NGINX or Apache</title>
-      <link>https://www.sitebay.org/docs/guides/how-to-enable-disable-website/</link>
-      <pubDate>Wed, 17 Apr 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.sitebay.org/docs/guides/how-to-enable-disable-website/</guid>
-      <description></description>
+      <description>Transferring your WordPress site to SiteBay&amp;rsquo;s robust WordPress hosting environment, optimized with Kubernetes, Posthog analytics, and Grafana dashboards, ensures your website&amp;rsquo;s seamless performance and enhanced security.</description>
     </item>
     
     <item>

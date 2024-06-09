@@ -1,25 +1,25 @@
 ---
-description: "Learn which taxes are collected by Site Bay and how to add a tax identification number to your account."
+description: "Learn which taxes are collected by SiteBay and how to add a tax identification number to your account."
 title: Tax Information
 published: 2024-04-04
 modified: 2024-04-20
 modified_by:
-  name: Site Bay
-keywords: ["accounts", "vat", "sitebay manager", "sitebay My Site Bay", "manager", "tax", "taxes", "tax information", "usd", "vat id", "eu", "european union", "value added tax", "gst", "goods and services tax", "gst id", "tax id"]
+  name: SiteBay
+keywords: ["accounts", "vat", "sitebay manager", "sitebay My SiteBay", "manager", "tax", "taxes", "tax information", "usd", "vat id", "eu", "european union", "value added tax", "gst", "goods and services tax", "gst id", "tax id"]
 aliases: ['/platform/billing-and-support/european-union-vat-sitebay/','/platform/billing-and-support/tax-information/','/platform/billing-and-support/tax-information-classic-manager/','/guides/tax-information/']
 tags: ["sitebay platform"]
-authors: ["Site Bay"]
+authors: ["SiteBay"]
 ---
 
 Some countries, states, and regions require us by law to collect taxes. As such, customers located in these locations are charged the appropriate tax rate for any taxable services billed to their account.
 
 {{< note >}}
-Pricing and service fees posted publicly, such as our [Pricing](https://www.sitebay.org/pricing/) page and listed in the My Site Bay, do not include taxes.
+Pricing and service fees posted publicly, such as our [Pricing](https://www.sitebay.org/pricing/) page and listed in the My SiteBay, do not include taxes.
 {{< /note >}}
 
 ## List of Countries and Tax Rates
 
-The following table lists each country that requires us to collect taxes. Alongside each country is the tax rate, a link to additional tax details, and the date which Site Bay started to collected taxes in that country. Tax rates are subject to change and the most current rate will be used on customer invoices.
+The following table lists each country that requires us to collect taxes. Alongside each country is the tax rate, a link to additional tax details, and the date which SiteBay started to collected taxes in that country. Tax rates are subject to change and the most current rate will be used on customer invoices.
 
 | Country | Tax Rate | Tax Details | Start Date |
 | -- | -- | -- | -- |

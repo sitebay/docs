@@ -1,18 +1,18 @@
 # In this Guide
 
-- [How to download and install the Site Bay Docs library](#installing-the-docs-library)
+- [How to download and install the SiteBay Docs library](#installing-the-docs-library)
 
 - [How to contribute to the library](#contributing-to-the-docs-library)
 
 # Installing the Docs Library
 
-Site Bay's documentation library uses a static site generator, [Hugo](https://gohugo.io/), to build the website from Markdown (`.md`) files. Building the site requires Node.js, NPM, and Go.
+SiteBay's documentation library uses a static site generator, [Hugo](https://gohugo.io/), to build the website from Markdown (`.md`) files. Building the site requires Node.js, NPM, and Go.
 
 ## Install prerequisites
 
 ### Install Go
 
-Some parts of the Site Bay documentation environment require the [GO programming language](https://golang.org/). In most cases, you should install the latest version of Go.
+Some parts of the SiteBay documentation environment require the [GO programming language](https://golang.org/). In most cases, you should install the latest version of Go.
 
 #### Install Go on macOS and Windows
 
@@ -37,7 +37,7 @@ You can ensure that go has been installed by checking the version currently in u
 
 ### Install Node.js
 
-To support the JavaScript runtime environment used by the Site Bay documentation site, Node.js must be installed on your system.
+To support the JavaScript runtime environment used by the SiteBay documentation site, Node.js must be installed on your system.
 
 #### Install Node.js on macOS and Linux
 
@@ -70,7 +70,7 @@ To Install the latest Node.js LTS release on Windows, navigate to the [downloads
 
 ### Install Hugo
 
-The Site Bay documentation library is built using [Hugo](http://gohugo.io), an open-source static site generator. In order to preview your guide before submission, you need to install Hugo on your local computer. This site currently uses **Hugo v0.116.1**. To remain consistent in the testing and development process, it's recommended to install this version instead of using a newer version.
+The SiteBay documentation library is built using [Hugo](http://gohugo.io), an open-source static site generator. In order to preview your guide before submission, you need to install Hugo on your local computer. This site currently uses **Hugo v0.116.1**. To remain consistent in the testing and development process, it's recommended to install this version instead of using a newer version.
 
 Note: If you observe any issues on a newer version, please [file an issue](https://github.com/sitebay/docs/issues) in the docs GitHub repository.
 
@@ -113,7 +113,7 @@ To install Hugo, download the appropriate binary for your system, extract it, an
 
 #### Windows
 
-While macOS and Linux are preferred by most of the core Site Bay Docs team, it's also possible to use Hugo on Windows.
+While macOS and Linux are preferred by most of the core SiteBay Docs team, it's also possible to use Hugo on Windows.
 
 1.  Download the [hugo_extended_0.116.1_windows-amd64.zip](https://github.com/gohugoio/hugo/releases/download/v0.116.1/hugo_extended_0.116.1_windows-amd64.zip) file. Additional files for other operating systems can be found on the [Hugo v0.116.1 GitHub release page](https://github.com/gohugoio/hugo/releases/tag/v0.116.1) under **Assets**.
 
@@ -123,7 +123,7 @@ While macOS and Linux are preferred by most of the core Site Bay Docs team, it's
 
         set PATH=%PATH%;C:\Hugo\bin
 
-## Fork and Clone the Site Bay Library
+## Fork and Clone the SiteBay Library
 
 All of our guides are stored in the [github.com/sitebay/docs](https://github.com/sitebay/docs) repository. You will need to fork this repository and clone your fork to your local computer.
 
@@ -215,7 +215,7 @@ This section is only relevant to contributors who have previously worked on the 
 
 # Contributing to the Docs Library
 
-This guide describes how to write and submit a guide for the Site Bay docs. If you would like to write on a topic, please visit our [Contribute](http://www.sitebay.org/contribute) page to choose a topic and submit a writing sample. When you have received an email notifying you that your topic has been accepted, you are ready to follow the steps in this guide.
+This guide describes how to write and submit a guide for the SiteBay docs. If you would like to write on a topic, please visit our [Contribute](http://www.sitebay.org/contribute) page to choose a topic and submit a writing sample. When you have received an email notifying you that your topic has been accepted, you are ready to follow the steps in this guide.
 
 ## Fixing an Issue
 
@@ -259,7 +259,7 @@ This section takes you through the process of creating a new guide, using the to
 
         hugo server
 
-    This starts a local server you can use to view the Site Bay library in your browser on `http://localhost:1313/docs/`.
+    This starts a local server you can use to view the SiteBay library in your browser on `http://localhost:1313/docs/`.
 
     Note: The first time Hugo is run on your workstation, it needs to compile a cache of web-optimized images for each guide in the documentation library. This process can take 10-20 minutes. If you run Hugo again in the future, the cache from your first build is reused and the startup time is much faster.
 
@@ -269,7 +269,7 @@ This section takes you through the process of creating a new guide, using the to
 
 ## Write and Submit
 
-1.  Make edits or write new content using any text editor, though we recommend a code editor like [Visual Studio Code](https://code.visualstudio.com/). Your local Hugo development server has live preview functionality, so you will be able to view changes to your guide as you save them. Review our [Site Bay Writer's Formatting guide](https://www.sitebay.org/docs/sitebay-writers-formatting-guide/) for more information on how to make edits and for formatting / style guidelines.
+1.  Make edits or write new content using any text editor, though we recommend a code editor like [Visual Studio Code](https://code.visualstudio.com/). Your local Hugo development server has live preview functionality, so you will be able to view changes to your guide as you save them. Review our [SiteBay Writer's Formatting guide](https://www.sitebay.org/docs/sitebay-writers-formatting-guide/) for more information on how to make edits and for formatting / style guidelines.
 
     Any images that you include in the guide should be added inside the same directory as the new `index.md` file. Images should be linked to using their filename as the relative URL: `![Image Title](image.png)`. See the [Images](https://www.sitebay.org/docs/guides/sitebay-writers-formatting-guide/#images) section of the writer's formatting guide.
 
@@ -287,7 +287,7 @@ This section takes you through the process of creating a new guide, using the to
 
 1.  In your web browser, you can now navigate to `https://github.com/sitebay/docs` and open a pull request. When creating a pull request, provide a detailed overview of the changes.
 
-Your guide is now submitted. Thank you for contributing to Site Bay! A member of the content team will review your guide and contact you if any changes are required.
+Your guide is now submitted. Thank you for contributing to SiteBay! A member of the content team will review your guide and contact you if any changes are required.
 
 ## Run Tests
 

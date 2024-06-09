@@ -6,8 +6,8 @@ keywords: ['database', 'database lists', 'best database']
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
 published: 2024-04-25
 modified_by:
-  name: Site Bay
-authors: ["Site Bay"]
+  name: SiteBay
+authors: ["SiteBay"]
 ---
 
 Databases are the powerhouse behind nearly every website, app, and online platform you interact with daily. From social media to online shopping, databases keep the digital world spinning. Let's dive into what databases are, the types you'll come across, and spotlight some of the most popular options out there.

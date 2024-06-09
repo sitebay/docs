@@ -1,14 +1,14 @@
 ---
-title: "Deploy ___App_Name___ through the Site Bay Marketplace"
+title: "Deploy ___App_Name___ through the SiteBay Marketplace"
 description: "Two to three sentences describing your guide."
 og_description: "Two to three sentences describing your guide when shared on social media. Delete this if not needed."
 keywords: ['list','of','keywords','and key phrases']
-tags: ["marketplace", "sitebay platform", "My Site Bay"]
+tags: ["marketplace", "sitebay platform", "My SiteBay"]
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
-authors: ["Site Bay"]
+authors: ["SiteBay"]
 published: {{ now.Format "2006-04-04" }}
 modified_by:
-  name: Site Bay
+  name: SiteBay
 external_resources:
 - '[Link Title 1](http://www.example.com)'
 - '[Link Title 2](http://www.example.net)'
@@ -43,9 +43,9 @@ external_resources:
      to access and interact with the Marketplace app. -->
 ### Accessing the ___App_Name___ App
 
-Your app is accessible at your Site Bay's IP address...etc.
+Your app is accessible at your SiteBay's IP address...etc.
 
-<!-- the following shortcode informs the user that Site Bay does not provide automatic updates
+<!-- the following shortcode informs the user that SiteBay does not provide automatic updates
      to the Marketplace app, and that the user is responsible for the security and longevity
      of the installation. -->
 {{< content "marketplace-update-note-shortguide">}}

@@ -1,21 +1,21 @@
 ---
 slug: wordpress-command-line-tips
-description: 'Unleash the power of the WP CLI: Your ultimate guide to mastering WordPress management from the command line with Site Bay hosting.'
+description: 'Unleash the power of the WP CLI: Your ultimate guide to mastering WordPress management from the command line with SiteBay hosting.'
 keywords: ["terminal", "command line", "shell", "tips", "tricks", "wp", "cli"]
 aliases: ['/quick-answers/sitebay/sitebay-command-line-tips/','/quick-answers/sitebay-command-line-tips/']
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
 published: 2024-04-13
 modified: 2024-04-17
 modified_by:
-  name: Site Bay
+  name: SiteBay
 title: 'Command Line Mastery in VS Code Server'
 tags: ["sitebay"]
-authors: ["Site Bay"]
+authors: ["SiteBay"]
 ---
 
 # Managing WordPress via CLI on Code Server
 
-## Essential Terminal Commands for Navigating WordPress on Site Bay
+## Essential Terminal Commands for Navigating WordPress on SiteBay
 
 - **Navigating Command History**: Simply use the **Up arrow** on your keyboard to cycle through previously used commands. Press **Enter** to execute the chosen command.
 - **Interrupt Processes**: Use **CTRL+C** to stop any ongoing processes and return to the prompt.
@@ -44,6 +44,6 @@ To correct a typo in your previous command, especially useful in long lines:
 If you need to change an action in a command without retyping the entire line:
     wp plugin deactivate debug-bar ^deactivate^activate
 
-Using these streamlined command line inputs can enhance your productivity and simplify your WordPress management tasks on Site Bay.
+Using these streamlined command line inputs can enhance your productivity and simplify your WordPress management tasks on SiteBay.
 
 Note: Replace `^old^new` in the commands with the actual syntax required for command correction in your environment, as this notation is used here for illustrative purposes.

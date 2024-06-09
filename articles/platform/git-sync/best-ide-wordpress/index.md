@@ -1,7 +1,7 @@
 ---
 slug: best-ide-wordpress
 author:
-  name: Site Bay
+  name: SiteBay
   email: support@sitebay.org
 description: 'The Best IDE for WordPress Development'
 og_description: 'Software to create websites such as WordPress'
@@ -10,11 +10,11 @@ tags: ["git-sync", "wordpress development"]
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
 published: 2024-04-23
 modified_by:
-  name: Site Bay
+  name: SiteBay
 title: "Best IDE Software for WordPress Development"
 h1_title: "Best IDEs for WordPress"
 contributor:
-  name: Site Bay
+  name: SiteBay
 ---
 
 Choosing the right Integrated Development Environment (IDE) can impact your productivity and efficiency when developing WordPress sites. Whether you're a beginner just starting out or an experienced developer looking for more power and flexibility, there's an IDE out there that's perfect for your WordPress development needs. Here are some of the best IDEs for WordPress development, offering features such as Git integration, intelligent code completion, and more.

@@ -33,13 +33,13 @@
 	  "elements": false,
 	  "required": false,
 	  "type": "text",
-	  "description": "In a guide which features copy or screenshots of the new My Site Bay, this provides a link to the older guide written for the Site Bay Classic Manager, if an older/classic version of the guide was previously written. The link will be included within the Site Bay Classic Manager banner message at the bottom of the guide. The link must be a string using the alias format (platform/example-guide-classic-manager). Both the classic_manager_link and cloud_manager_link should be used between corresponding guides to create a bi-directional link. Must use alias-style relative links (e.g. platform/manager/dns-manager-classic-manager/)."
+	  "description": "In a guide which features copy or screenshots of the new My SiteBay, this provides a link to the older guide written for the SiteBay Classic Manager, if an older/classic version of the guide was previously written. The link will be included within the SiteBay Classic Manager banner message at the bottom of the guide. The link must be a string using the alias format (platform/example-guide-classic-manager). Both the classic_manager_link and cloud_manager_link should be used between corresponding guides to create a bi-directional link. Must use alias-style relative links (e.g. platform/manager/dns-manager-classic-manager/)."
   },
   "cloud_manager_link": {
 	  "elements": false,
 	  "required": false,
 	  "type": "text",
-	  "description": "In a guide which features copy or screenshots of the Site Bay Classic Manager, this provides a link to a guide written for the new My Site Bay, if a new version of the guide has been written. The link will be included within the My Site Bay banner message at the top of the guide. The link must be a string using the alias format (platform/example-guide). Both the classic_manager_link and cloud_manager_link should be used between corresponding guides to create a bi-directional link. Must use alias-style relative links (e.g. platform/manager/dns-manager/)."
+	  "description": "In a guide which features copy or screenshots of the SiteBay Classic Manager, this provides a link to a guide written for the new My SiteBay, if a new version of the guide has been written. The link will be included within the My SiteBay banner message at the top of the guide. The link must be a string using the alias format (platform/example-guide). Both the classic_manager_link and cloud_manager_link should be used between corresponding guides to create a bi-directional link. Must use alias-style relative links (e.g. platform/manager/dns-manager/)."
   },
   "concentrations": {
     "elements": false,
@@ -57,7 +57,7 @@
         "elements": false,
         "required": false,
         "type": "text",
-        "description": "Adds a banner to guide announcing Site Bay Dedicated CPU instances."
+        "description": "Adds a banner to guide announcing SiteBay Dedicated CPU instances."
   },
   "deprecated": {
     "elements": false,

@@ -4,4 +4,4 @@ title: "Guides & Tutorials"
 linkTitle: "Tutorials"
 ---
 
-Fast as possible guides on WordPress on Site Bay's Powerful Hosting Platform
+Fast as possible guides on WordPress on SiteBay's Powerful Hosting Platform

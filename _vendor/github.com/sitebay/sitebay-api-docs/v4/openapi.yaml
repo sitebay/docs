@@ -2551,7 +2551,7 @@ components:
 info:
   description: OpenAPI schema for the Agency plan. Access for only $99USD per month!
     Swagger docs available at https://my.sitebay.org/docs - SDK available at https://github.com/sitebay/sitebay-sdk
-  title: Site Bay
+  title: SiteBay
   version: 1.0.0
   x-logo:
     url: https://my.sitebay.org/static/logos/sitebaylogo-small.png
@@ -2955,7 +2955,7 @@ paths:
       - utils
   /f/api/v1/application_password:
     post:
-      description: Users can add a non Site Bay hosted WordPress site.
+      description: Users can add a non SiteBay hosted WordPress site.
       operationId: create_application_password
       requestBody:
         content:
@@ -3016,7 +3016,7 @@ paths:
     put:
       description: Users can update their application password/username for non Site
         Bay hosted WordPress site. Can proxy through the WordPress REST API for various
-        functionalities. Do not use for sites already on Site Bay.
+        functionalities. Do not use for sites already on SiteBay.
       operationId: update_application_password
       parameters:
       - in: path

@@ -3,7 +3,7 @@
 {{ end }}
 
 {{ define "main" }}
-  {{ $isSiteBayAuthor := (or (eq .Title "Site Bay") (eq .Title "Site Bay Community")) }}
+  {{ $isSiteBayAuthor := (or (eq .Title "SiteBay") (eq .Title "SiteBay Community")) }}
   <h1
     class="font-semibold leading-tight tracking-tight text-4xl text-titlecolor w-full">
     {{ .Title }}

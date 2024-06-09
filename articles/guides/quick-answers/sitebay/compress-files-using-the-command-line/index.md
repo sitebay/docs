@@ -1,25 +1,25 @@
 ---
 slug: compress-files-using-the-command-line
-description: "Discover how to efficiently manage file sizes on your Site Bay WordPress hosting environment by using tar and gzip for archiving and compression."
-og_description: "Master file compression and extraction using tar and gzip on your Site Bay WordPress hosting, saving disk space and optimizing resource usage."
-keywords: ["tar", "gzip", "file compression", "archive files", "Site Bay hosting"]
+description: "Discover how to efficiently manage file sizes on your SiteBay WordPress hosting environment by using tar and gzip for archiving and compression."
+og_description: "Master file compression and extraction using tar and gzip on your SiteBay WordPress hosting, saving disk space and optimizing resource usage."
+keywords: ["tar", "gzip", "file compression", "archive files", "SiteBay hosting"]
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
 published: 2024-04-04
 modified: 2024-04-04
 modified_by:
-  name: Site Bay
-title: "Efficient File Management on Site Bay Hosting with Command Line Tools"
-title_meta: "Archiving, Compressing & Extracting Files on Site Bay with Linux Commands"
-tags: ["Site Bay"]
+  name: SiteBay
+title: "Efficient File Management on SiteBay Hosting with Command Line Tools"
+title_meta: "Archiving, Compressing & Extracting Files on SiteBay with Linux Commands"
+tags: ["SiteBay"]
 aliases: ['/quick-answers/sitebay/compress-files-using-the-command-line/']
-authors: ["Site Bay"]
+authors: ["SiteBay"]
 ---
 
-Utilizing tar and gzip commands, you can streamline file management within your Site Bay WordPress hosting environment. These tools allow you to compile multiple files into a single archive and compress them to reduce disk space usage. While tar groups files together, gzip minimizes the archive's size. Together, they produce a compressed file, often referred to as a "tarball", with the .tar.gz extension.
+Utilizing tar and gzip commands, you can streamline file management within your SiteBay WordPress hosting environment. These tools allow you to compile multiple files into a single archive and compress them to reduce disk space usage. While tar groups files together, gzip minimizes the archive's size. Together, they produce a compressed file, often referred to as a "tarball", with the .tar.gz extension.
 
 Archive a Directory
 
-Create a directory in your Site Bay environment and add a file:
+Create a directory in your SiteBay environment and add a file:
     mkdir myfolder && touch myfolder/sample.txt
 
 
@@ -90,4 +90,4 @@ Flag	Function
 -t	Lists the contents of an archive.
 -u	Updates the archive, avoiding overwrites.
 
-For comprehensive information on these and other options, consult the manual pages with man tar. This guide equips you with basic knowledge for managing archives and compressed files within your Site Bay WordPress hosting setup, leveraging the command line for efficient file handling.
+For comprehensive information on these and other options, consult the manual pages with man tar. This guide equips you with basic knowledge for managing archives and compressed files within your SiteBay WordPress hosting setup, using the command line for efficient file handling.

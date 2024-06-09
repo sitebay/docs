@@ -1,7 +1,7 @@
 ---
 slug: how-to-use-inpainting-roid1kan
 author:
-  name: Site Bay
+  name: SiteBay
   email: support@sitebay.org
 description: 'Modern Photoshop for free in Stable Diffusion (AUTOMATIC1111 tutorial by RoiD1kan)'
 keywords: ['stable diffusion','inpainting','beginner','automatic1111']

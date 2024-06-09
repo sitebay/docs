@@ -5,10 +5,10 @@ title_meta: "Guide to HTTP: GET Requests, POST Requests & More"
 description: 'The HTTP GET Request is one of many request methods. Read our guide to learn about HTTP request structures and how to send HTTP requests.'
 keywords: ['http get request','example http request','http request example','http request format','http request response','http request line','http request headers list','make http request','how to send http request in java','http request structure']
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
-authors: ["Site Bay"]
+authors: ["SiteBay"]
 published: 2024-04-04
 modified_by:
-  name: Site Bay
+  name: SiteBay
 ---
 HTTP requests are the backbone of web communication, enabling the exchange of data between clients (like your browser) and servers. Think of it like sending a text message to a friend asking for the latest gossip, and your friend replies with all the juicy details. In the digital world, your browser sends an HTTP request to a server, asking for a specific webpage, and the server replies with the content of that page.
 

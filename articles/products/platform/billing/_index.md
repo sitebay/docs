@@ -1,7 +1,7 @@
 ---
 title: Billing
-title_meta: "Understanding How Billing Works on the Site Bay Platform"
-description: "Learn how Site Bay makes billing simple"
+title_meta: "Understanding How Billing Works on the SiteBay Platform"
+description: "Learn how SiteBay makes billing simple"
 tab_group_main:
     is_root: true
     title: Overview
@@ -11,11 +11,11 @@ aliases: ['/products/tools/billing/','/platform/billing-and-support/how-sitebay-
 published: 2024-04-25
 modified: 2024-04-20
 modified_by:
-  name: Site Bay
+  name: SiteBay
 tags: ["sitebay platform"]
 ---
 
-Site Bay strives to provide transparent and uncomplicated pricing structures and billing policies. As a supplement to our [Pricing](https://www.sitebay.org/pricing/) page, read through this guide to understand how we bill for services and how you can pay for these services. For instructions on how to manage your billing in the My Site Bay, see the [Manage Billing in My Site Bay](/docs/products/platform/billing/guides/) guide. If you have a question that isn't answered in either of these guides, don't hesitate to [contact Support](https://www.sitebay.org/docs/).
+SiteBay strives to provide transparent and uncomplicated pricing structures and billing policies. As a supplement to our [Pricing](https://www.sitebay.org/pricing/) page, read through this guide to understand how we bill for services and how you can pay for these services. For instructions on how to manage your billing in the My SiteBay, see the [Manage Billing in My SiteBay](/docs/products/platform/billing/guides/) guide. If you have a question that isn't answered in either of these guides, don't hesitate to [contact Support](https://www.sitebay.org/docs/).
 
 ## Understand How Billing Works
 
@@ -33,7 +33,7 @@ You won't be able to log in to WP admin.
 
 Features that update the database, like contact forms also won't work.  
 
-You can wake your site up from the My Site Bay dashboard.
+You can wake your site up from the My SiteBay dashboard.
 
 Upgrade to get sleep immunity and way more visits. If a site exceeds its visits, it will no longer be able to be awoken until next cycle.
 
@@ -79,19 +79,19 @@ Here are some important billing considerations:
 - We use Stripe Checkout which is convenient. 
 - A user can have multiple plans, but only one free site per account which can be on whichever team, even if it’s a paid plan.
 - If a plan expires, it will be downgraded to free, but never deleted. A Site  on an expired plan will be converted to free if a user’s free site is available, but deleted if not. 
-- You can upgrade, downgrade, or cancel your plan at any time in your Stripe Portal, accessible by clicking Manage Plan in the My Site Bay Dashboard
+- You can upgrade, downgrade, or cancel your plan at any time in your Stripe Portal, accessible by clicking Manage Plan in the My SiteBay Dashboard
 - If you go over your visits, you can upgrade your plan to instantly get more visits.
-- Site Bay uses a monthly billing cycle. An invoice is automatically generated on the cycle reset date that you can find in your Team Settings dashboard. 
+- SiteBay uses a monthly billing cycle. An invoice is automatically generated on the cycle reset date that you can find in your Team Settings dashboard. 
 
-\*Review the [Team Settings](/docs/products/platform/billing/guides/access-billing/) section in My Site Bay guide to monitor your visits and storage usage.
+\*Review the [Team Settings](/docs/products/platform/billing/guides/access-billing/) section in My SiteBay guide to monitor your visits and storage usage.
 
 ### Region Specific Pricing
 
-For now, Site Bay plans and services are billed at the same, flat rate across data centers.
+For now, SiteBay plans and services are billed at the same, flat rate across data centers.
 
 ## Payments
 
-When an invoice is generated on the cycle reset date, Site Bay automatically attempts to charge the account's default payment method. In addition to these automatic recurring payments, you can make one-time payments to add funds to your account, which will then be used to pay future invoices.
+When an invoice is generated on the cycle reset date, SiteBay automatically attempts to charge the account's default payment method. In addition to these automatic recurring payments, you can make one-time payments to add funds to your account, which will then be used to pay future invoices.
 
 ### Refunds
 

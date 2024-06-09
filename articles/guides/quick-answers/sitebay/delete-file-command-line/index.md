@@ -1,15 +1,15 @@
 ---
 slug: delete-file-command-line
-description: "Learn how to confidently delete files, directories, and more on your Site Bay WordPress hosting using the command line, ensuring a clean and organized site."
-keywords: ["remove files", "delete files", "Site Bay rm"]
+description: "Learn how to confidently delete files, directories, and more on your SiteBay WordPress hosting using the command line, ensuring a clean and organized site."
+keywords: ["remove files", "delete files", "SiteBay rm"]
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
 published: 2024-04-03
 modified: 2024-04-14
 modified_by:
-  name: Site Bay
+  name: SiteBay
 title: "File Management from the linux command line in Code Server: "
 tags: ["sitebay"]
-authors: ["Site Bay"]
+authors: ["SiteBay"]
 ---
 
 # Beginner File Removal in WordPress tips

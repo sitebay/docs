@@ -10,12 +10,12 @@ title: Large Diagram
 Figure 3 is the built-out reference architecture that includes:
 
 * A CI/CD workflow using GitOps at the bottom of the diagram
-* A media processing lifecycle management workflow application built in Site Bay Kubernetes Engine using Argo Events and Argo Workflows
-* Content distribution using Site Bay CDN.
+* A media processing lifecycle management workflow application built in SiteBay Kubernetes Engine using Argo Events and Argo Workflows
+* Content distribution using SiteBay CDN.
 
-The illustrated deployment method for this architecture is via Terraform and Helm Charts.  Site Bay supports Terraform through the Site Bay Provider and Argo supports Argo Events Helm Chart and Argo Workflow Helm Chart for application deployment.  Our reference architecture also includes deployment automation using GitHub for source code and GitHub Actions for continuous delivery.  Finally, Argo configurations which include Event Sources, Sensors, Triggers, and Workflows are all set up using YAML files that can be applied through Kubectl or through Argo CLI.  There are a number of Argo Events YAML Configuration Examples as well as Argo Workflow YAML Configuration Examples to get you started.  The benefit of  this design is that the entire reference architecture from the infrastructure, to the application, to the application setup and configuration can be completely automated supporting cloud native and DevOps principles.
+The illustrated deployment method for this architecture is via Terraform and Helm Charts.  SiteBay supports Terraform through the SiteBay Provider and Argo supports Argo Events Helm Chart and Argo Workflow Helm Chart for application deployment.  Our reference architecture also includes deployment automation using GitHub for source code and GitHub Actions for continuous delivery.  Finally, Argo configurations which include Event Sources, Sensors, Triggers, and Workflows are all set up using YAML files that can be applied through Kubectl or through Argo CLI.  There are a number of Argo Events YAML Configuration Examples as well as Argo Workflow YAML Configuration Examples to get you started.  The benefit of  this design is that the entire reference architecture from the infrastructure, to the application, to the application setup and configuration can be completely automated supporting cloud native and DevOps principles.
 
-1. Starting at the left-hand side of the diagram we have content creators with the ability to ingest files into Site Bay Object Storage which is used as the content landing point.  Object storage can be set up to receive files from CLIs, programmatic integrations, and desktop tools such as Cyberduck.  Supported upload methods are described in the Site Bay Object Storage documentation. Additionally Site Bay Object Storage supports lifecycle policies so that we can automatically purge source files regularly. A purging policy should only be implemented if a separate system-of-record for your high resolution source content is maintained.
+1. Starting at the left-hand side of the diagram we have content creators with the ability to ingest files into SiteBay Object Storage which is used as the content landing point.  Object storage can be set up to receive files from CLIs, programmatic integrations, and desktop tools such as Cyberduck.  Supported upload methods are described in the SiteBay Object Storage documentation. Additionally SiteBay Object Storage supports lifecycle policies so that we can automatically purge source files regularly. A purging policy should only be implemented if a separate system-of-record for your high resolution source content is maintained.
 
 1. Argo Event Sources includes 20+ origination mechanisms that can be setup to generate event messages that are written to Argo Event Bus. In this reference architecture we have enabled a simple Webhook Event Source that a user or system can send and include the filename they are ingesting.
 
@@ -25,7 +25,7 @@ The illustrated deployment method for this architecture is via Terraform and Hel
 
     1.  In this reference architecture the workflow would create a persistent volume to be shared by all steps of the workflow where the source file and output files would reside. In essence this is a common file-based workspace for all steps of the workflow to leverage.
 
-    1.  Argo has integrated capabilities to communicate with S3 compliant storage so we used Site Bay Object Storage as our mechanism of source file input. Shown here is the file being transferred from Object Storage to the local persistent volume claim.
+    1.  Argo has integrated capabilities to communicate with S3 compliant storage so we used SiteBay Object Storage as our mechanism of source file input. Shown here is the file being transferred from Object Storage to the local persistent volume claim.
 
     1.  MediaInfo and FFmpeg are two industry-standard open source tools for media processing workflows and are incorporated into this reference architecture using community-supported containers deployed in DockerHub to enable our desired outputs. At this step MediaInfo will gather file information about the source file to be used as part of the input for transcoding.
 
@@ -35,11 +35,11 @@ The illustrated deployment method for this architecture is via Terraform and Hel
 
     1.  FFmpeg can also be used to generate one or more thumbnails from the original source file.
 
-1. HLS outputs that have completed their process can be uploaded to a defined destination on Site Bay Object Storage and serve as the origin for the Site Bay Content Delivery Network. Shown towards the top of the diagram it is worth noting that this solution provides operational observability from a systems as well as a content management perspective. In particular, Argo Workflows UI provides insight into the media workflows that are in process, completed, or failed so that real-time visibility and operational error handling can be achieved.
+1. HLS outputs that have completed their process can be uploaded to a defined destination on SiteBay Object Storage and serve as the origin for the SiteBay Content Delivery Network. Shown towards the top of the diagram it is worth noting that this solution provides operational observability from a systems as well as a content management perspective. In particular, Argo Workflows UI provides insight into the media workflows that are in process, completed, or failed so that real-time visibility and operational error handling can be achieved.
 
 1. Additionally, Prometheus and Grafana can provide system-wide metrics and observability to developers and site reliability engineers for managing the capacity, performance, and health of the infrastructure.
 
-1. Finally, a combination of Cert-Manager, Let’s Encrypt, Nginx Ingress, Site Bay Node Balancers, and Site Bay DNS can be leveraged to enable communication with helpful internals of the application over a secure TLS connection. This includes the Argo Workflow UI, Grafana UI, and Argo Events Webhook. High availability, disaster recovery, and scaling considerations are all well-documented and capable of being supported on this architecture.
+1. Finally, a combination of Cert-Manager, Let’s Encrypt, Nginx Ingress, SiteBay Node Balancers, and SiteBay DNS can be leveraged to enable communication with helpful internals of the application over a secure TLS connection. This includes the Argo Workflow UI, Grafana UI, and Argo Events Webhook. High availability, disaster recovery, and scaling considerations are all well-documented and capable of being supported on this architecture.
 {#figure-3-description-1 .large-diagram}
 
 ## Large Diagram 2
@@ -49,12 +49,12 @@ The illustrated deployment method for this architecture is via Terraform and Hel
 Figure 3 is the built-out reference architecture that includes:
 
 * A CI/CD workflow using GitOps at the bottom of the diagram
-* A media processing lifecycle management workflow application built in Site Bay Kubernetes Engine using Argo Events and Argo Workflows
-* Content distribution using Site Bay CDN.
+* A media processing lifecycle management workflow application built in SiteBay Kubernetes Engine using Argo Events and Argo Workflows
+* Content distribution using SiteBay CDN.
 
-The illustrated deployment method for this architecture is via Terraform and Helm Charts.  Site Bay supports Terraform through the Site Bay Provider and Argo supports Argo Events Helm Chart and Argo Workflow Helm Chart for application deployment.  Our reference architecture also includes deployment automation using GitHub for source code and GitHub Actions for continuous delivery.  Finally, Argo configurations which include Event Sources, Sensors, Triggers, and Workflows are all set up using YAML files that can be applied through Kubectl or through Argo CLI.  There are a number of Argo Events YAML Configuration Examples as well as Argo Workflow YAML Configuration Examples to get you started.  The benefit of  this design is that the entire reference architecture from the infrastructure, to the application, to the application setup and configuration can be completely automated supporting cloud native and DevOps principles.
+The illustrated deployment method for this architecture is via Terraform and Helm Charts.  SiteBay supports Terraform through the SiteBay Provider and Argo supports Argo Events Helm Chart and Argo Workflow Helm Chart for application deployment.  Our reference architecture also includes deployment automation using GitHub for source code and GitHub Actions for continuous delivery.  Finally, Argo configurations which include Event Sources, Sensors, Triggers, and Workflows are all set up using YAML files that can be applied through Kubectl or through Argo CLI.  There are a number of Argo Events YAML Configuration Examples as well as Argo Workflow YAML Configuration Examples to get you started.  The benefit of  this design is that the entire reference architecture from the infrastructure, to the application, to the application setup and configuration can be completely automated supporting cloud native and DevOps principles.
 
-1. Starting at the left-hand side of the diagram we have content creators with the ability to ingest files into Site Bay Object Storage which is used as the content landing point.  Object storage can be set up to receive files from CLIs, programmatic integrations, and desktop tools such as Cyberduck.  Supported upload methods are described in the Site Bay Object Storage documentation. Additionally Site Bay Object Storage supports lifecycle policies so that we can automatically purge source files regularly. A purging policy should only be implemented if a separate system-of-record for your high resolution source content is maintained.
+1. Starting at the left-hand side of the diagram we have content creators with the ability to ingest files into SiteBay Object Storage which is used as the content landing point.  Object storage can be set up to receive files from CLIs, programmatic integrations, and desktop tools such as Cyberduck.  Supported upload methods are described in the SiteBay Object Storage documentation. Additionally SiteBay Object Storage supports lifecycle policies so that we can automatically purge source files regularly. A purging policy should only be implemented if a separate system-of-record for your high resolution source content is maintained.
 
 1. Argo Event Sources includes 20+ origination mechanisms that can be setup to generate event messages that are written to Argo Event Bus. In this reference architecture we have enabled a simple Webhook Event Source that a user or system can send and include the filename they are ingesting.
 
@@ -64,7 +64,7 @@ The illustrated deployment method for this architecture is via Terraform and Hel
 
     1.  In this reference architecture the workflow would create a persistent volume to be shared by all steps of the workflow where the source file and output files would reside. In essence this is a common file-based workspace for all steps of the workflow to leverage.
 
-    1.  Argo has integrated capabilities to communicate with S3 compliant storage so we used Site Bay Object Storage as our mechanism of source file input. Shown here is the file being transferred from Object Storage to the local persistent volume claim.
+    1.  Argo has integrated capabilities to communicate with S3 compliant storage so we used SiteBay Object Storage as our mechanism of source file input. Shown here is the file being transferred from Object Storage to the local persistent volume claim.
 
     1.  MediaInfo and FFmpeg are two industry-standard open source tools for media processing workflows and are incorporated into this reference architecture using community-supported containers deployed in DockerHub to enable our desired outputs. At this step MediaInfo will gather file information about the source file to be used as part of the input for transcoding.
 
@@ -74,9 +74,9 @@ The illustrated deployment method for this architecture is via Terraform and Hel
 
     1.  FFmpeg can also be used to generate one or more thumbnails from the original source file.
 
-1. HLS outputs that have completed their process can be uploaded to a defined destination on Site Bay Object Storage and serve as the origin for the Site Bay Content Delivery Network. Shown towards the top of the diagram it is worth noting that this solution provides operational observability from a systems as well as a content management perspective. In particular, Argo Workflows UI provides insight into the media workflows that are in process, completed, or failed so that real-time visibility and operational error handling can be achieved.
+1. HLS outputs that have completed their process can be uploaded to a defined destination on SiteBay Object Storage and serve as the origin for the SiteBay Content Delivery Network. Shown towards the top of the diagram it is worth noting that this solution provides operational observability from a systems as well as a content management perspective. In particular, Argo Workflows UI provides insight into the media workflows that are in process, completed, or failed so that real-time visibility and operational error handling can be achieved.
 
 1. Additionally, Prometheus and Grafana can provide system-wide metrics and observability to developers and site reliability engineers for managing the capacity, performance, and health of the infrastructure.
 
-1. Finally, a combination of Cert-Manager, Let’s Encrypt, Nginx Ingress, Site Bay Node Balancers, and Site Bay DNS can be leveraged to enable communication with helpful internals of the application over a secure TLS connection. This includes the Argo Workflow UI, Grafana UI, and Argo Events Webhook. High availability, disaster recovery, and scaling considerations are all well-documented and capable of being supported on this architecture.
+1. Finally, a combination of Cert-Manager, Let’s Encrypt, Nginx Ingress, SiteBay Node Balancers, and SiteBay DNS can be leveraged to enable communication with helpful internals of the application over a secure TLS connection. This includes the Argo Workflow UI, Grafana UI, and Argo Events Webhook. High availability, disaster recovery, and scaling considerations are all well-documented and capable of being supported on this architecture.
 {#figure-3-description-2 .large-diagram}

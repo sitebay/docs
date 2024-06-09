@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Guides on Site Bay Guides &amp; Tutorials</title>
+    <title>Guides on SiteBay Guides &amp; Tutorials</title>
     <link>https://www.sitebay.org/docs/products/platform/billing/guides/</link>
-    <description>Recent content in Guides on Site Bay Guides &amp; Tutorials</description>
+    <description>Recent content in Guides on SiteBay Guides &amp; Tutorials</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 17 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.sitebay.org/docs/products/platform/billing/guides/index.xml" rel="self" type="application/rss+xml" />
@@ -13,7 +13,7 @@
       <pubDate>Wed, 17 Apr 2024 00:00:00 +0000</pubDate>
       
       <guid>https://www.sitebay.org/docs/products/platform/billing/guides/access-billing/</guid>
-      <description>Most information and settings pertaining to billing are located within the Billing Info page of the My Site Bay.</description>
+      <description>Most information and settings pertaining to billing are located within the Billing Info page of the My SiteBay.</description>
     </item>
     
     <item>
@@ -40,7 +40,7 @@
       <pubDate>Wed, 17 Apr 2024 00:00:00 +0000</pubDate>
       
       <guid>https://www.sitebay.org/docs/products/platform/billing/guides/referral-program/</guid>
-      <description>When you refer a new user to Site Bay through our referral program, both you and the new user can receive a promotional credit.</description>
+      <description>When you refer a new user to SiteBay through our referral program, both you and the new user can receive a promotional credit.</description>
     </item>
     
     <item>
@@ -58,7 +58,7 @@
       <pubDate>Wed, 17 Apr 2024 00:00:00 +0000</pubDate>
       
       <guid>https://www.sitebay.org/docs/products/platform/billing/guides/view-history/</guid>
-      <description>All of your billing history, including previous invoices and payments, is accessible within the My Site Bay on the Billing &amp;amp; Payment History section within the Billing Info page (see Accessing Billing Information).</description>
+      <description>All of your billing history, including previous invoices and payments, is accessible within the My SiteBay on the Billing &amp;amp; Payment History section within the Billing Info page (see Accessing Billing Information).</description>
     </item>
     
     <item>
@@ -67,7 +67,7 @@
       <pubDate>Tue, 16 Apr 2024 00:00:00 +0000</pubDate>
       
       <guid>https://www.sitebay.org/docs/products/platform/billing/guides/update-billing-contact-info/</guid>
-      <description>Use the Billing Info page to update the contact information for the Site Bay account. The email address saved on this webpage receives invoices, receipts, and credit card expiration warnings.</description>
+      <description>Use the Billing Info page to update the contact information for the SiteBay account. The email address saved on this webpage receives invoices, receipts, and credit card expiration warnings.</description>
     </item>
     
     <item>

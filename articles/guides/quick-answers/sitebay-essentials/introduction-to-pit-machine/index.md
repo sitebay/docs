@@ -1,23 +1,23 @@
 ---
 slug: introduction-to-pit-machine
-keywords: ["backups", "snapshot", "Site Bay backup", "beginners"]
-description: "Discover the importance of backups and learn how to utilize Site Bay's Point-In-Time (PIT) Machine for easy and efficient data backups."
+keywords: ["backups", "snapshot", "SiteBay backup", "beginners"]
+description: "Discover the importance of backups and learn how to utilize SiteBay's Point-In-Time (PIT) Machine for easy and efficient data backups."
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
 modified: 2024-03-13
 modified_by:
-  name: Site Bay
+  name: SiteBay
 published: 2024-03-13
-title: "Recovering Your Site and Files: An Introduction to Site Bay's PIT Machine"
+title: "Recovering Your Site and Files: An Introduction to SiteBay's PIT Machine"
 tags: ["sitebay", "backups", "PIT Machine", "data recovery"]
 aliases: ['/quick-answers/sitebay-essentials/introduction-to-pit-machine/']
-authors: ["Site Bay"]
+authors: ["SiteBay"]
 ---
 
-In the digital world, data is your most valuable asset. Whether it's website content, customer information, or personal projects, losing data can range from inconvenient to catastrophic. Unlike some platforms that automatically back up your data, Site Bay empowers you with full control over your WordPress site's data.
+In the digital world, data is your most valuable asset. Whether it's website content, customer information, or personal projects, losing data can range from inconvenient to catastrophic. Unlike some platforms that automatically back up your data, SiteBay empowers you with full control over your WordPress site's data.
 
-The good news? Site Bay makes this easy with the PIT (Point-In-Time) Machine, a tool designed to safeguard your data by capturing snapshots of your entire site's database every minute. And wp-content data every hour.
+The good news? SiteBay makes this easy with the PIT (Point-In-Time) Machine, a tool designed to safeguard your data by capturing snapshots of your entire site's database every minute. And wp-content data every hour.
 
-## Site Bay's Point-in-Time Machine
+## SiteBay's Point-in-Time Machine
 
 Imagine having the ability to turn back time on your website—to a point before a mishap occurred. That's what the PIT Machine offers. It's a comprehensive backup solution that:
 
@@ -25,7 +25,7 @@ Imagine having the ability to turn back time on your website—to a point before
 - Allows you to restore your site to any previous state captured in a snapshot, effectively undoing any data loss or corruption.
 - Schedules regular backups without you lifting a finger, ensuring your site's data is always protected.
 
-## Using the PIT Machine on the My Site Bay Dashboard
+## Using the PIT Machine on the My SiteBay Dashboard
 1. Navigate to your site's dashboard.
 1. Click the PIT Machine tab
 1. Pick a date and time in the calendar select at the top of the browser.

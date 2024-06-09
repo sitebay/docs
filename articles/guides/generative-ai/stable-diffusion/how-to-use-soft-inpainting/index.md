@@ -1,7 +1,7 @@
 ---
 slug: how-to-use-soft-inpainting
 author:
-  name: Site Bay
+  name: SiteBay
   email: support@sitebay.org
 description: 'How we made our Tutorial Images'
 keywords: ['corporate memphis', generation','inpainting']
@@ -9,10 +9,10 @@ tags: ["inpainting","ai", "stable diffusion","img2img"]
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
 published: 2024-04-23
 modified_by:
-  name: Site Bay
+  name: SiteBay
 title: "How to use the new soft-inpainting feature in AUTOMATIC1111 WebUI"
 contributor:
-  name: Site Bay
+  name: SiteBay
 image: AfterSoftInpainting.png
 ---
 ## Soft Inpainting Guide: How We Make our Tutorial Images

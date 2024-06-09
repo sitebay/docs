@@ -6,18 +6,18 @@ tags: ["linux"]
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
 modified: 2024-04-04
 modified_by:
-  name: Site Bay
+  name: SiteBay
 published: 2024-03-04
 title: Code Server Linux Commands
 deprecated: true
-authors: ["Site Bay"]
+authors: ["SiteBay"]
 ---
 
 We're here to turn you into a command line ninja, managing your WordPress site like you were born to do it.
 
 ## The Heart of Your Site: Understanding Linux File System
 
-In the world of Site Bay, your WordPress site lives in a Linux-powered environment. 
+In the world of SiteBay, your WordPress site lives in a Linux-powered environment. 
 - /bin: Your toolbox, filled with essential programs.
 - /etc: The settings corner, housing configuration files.
 - /home: Where user folders reside, including your site's specific workspace.

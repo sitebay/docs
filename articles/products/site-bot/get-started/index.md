@@ -19,7 +19,7 @@ Site Bot enables you to deploy new sites swiftly. Start by telling Site Bot the 
 ## Buy a Plan with Site Bot
 As your site grows, you might need more resources or features. Site Bot facilitates easy plan upgrades. Just inform Site Bot about your desire to upgrade your team's plan, and it will provide a secure checkout link for transitioning to the Business Plan or any other preferred option.
 
-## Post Content on Your Site Bay WordPress Site
+## Post Content on Your SiteBay WordPress Site
 Site Bot isn't just about managing the technical side of your site; it can also help you with content management. For example, you can request Site Bot to post a story about a dog named Sammy, complete with images, tags, and categories, on your WordPress site.
 
 ## Get Installed Plugins
@@ -56,7 +56,7 @@ For insights and analytics, particularly to understand user interaction, request
 1.    Create a WordPress Post:
         - About about a dog named Sammy on the WordPress site my_domain.org using the command:  
         
-              Create a post on my Site Bay WordPress site about a dog named Sammy on my_domain.org
+              Create a post on my SiteBay WordPress site about a dog named Sammy on my_domain.org
 
 1.    Manage Plugins:
         - Get a list of installed plugins by asking: 

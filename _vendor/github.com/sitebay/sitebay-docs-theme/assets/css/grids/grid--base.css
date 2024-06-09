@@ -9,7 +9,7 @@
 }
 
 .grid--base {
-  --num-rows: 3; /* Number of grid rows including the Site Bay menu header. */
+  --num-rows: 3; /* Number of grid rows including the SiteBay menu header. */
   --row-explorer: 2; /* The grid row for the left side explorer menu. */
   --row-main: 3; /* The grid row for the main content. */
   --col-navbar: 1; /* The grid column for the top navbar. */

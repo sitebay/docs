@@ -4,7 +4,7 @@ description: "Choose your focus in WordPress development to explore all related 
 aliases: ['/concentrations/']
 ---
 
-Welcome to Site Bay's WordPress Development Focus Areas! Here, we've organized our resources and guides based on different areas of development within the WordPress ecosystem. Whether you're new to WordPress or looking to deepen your expertise in a specific area, we've got you covered. Select a concentration below to dive into a collection of guides, tips, and best practices tailored to help you excel.
+Welcome to SiteBay's WordPress Development Focus Areas! Here, we've organized our resources and guides based on different areas of development within the WordPress ecosystem. Whether you're new to WordPress or looking to deepen your expertise in a specific area, we've got you covered. Select a concentration below to dive into a collection of guides, tips, and best practices tailored to help you excel.
 
 Available Concentrations:
 WordPress Site Building
