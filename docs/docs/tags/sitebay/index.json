@@ -1,107 +1,8 @@
 [
   {
-    "excerpt": "Learn how to create and manage a staging site for testing WordPress changes with SiteBay’s powerful WordPress hosting on Kubernetes, featuring PostHog analytics and Grafana dashboards.",
-    "href": "https://www.sitebay.org/docs/guides/sitebay-dashboard-staging-site/",
-    "lastModified": "2024-05-02T01:22:50-06:00",
-    "linkTitle": "Mastering Staging Sites on SiteBay’s WordPress Hosting",
-    "publishDate": "2024-04-30T00:00:00Z",
-    "thumbnail": "https://www.sitebay.org/docs/guides/sitebay-dashboard-staging-site/GNUMakeTutorial-LearntoAutomateTasks_hu0ad3ca52d053c9ccc7a76319a7fae5a5_67113_640x0_resize_q75_catmullrom.jpg",
-    "title": "Mastering Staging Sites on SiteBay’s WordPress Hosting"
-  },
-  {
-    "excerpt": "Explaining session replay in Grafana: dashboard components",
-    "href": "https://www.sitebay.org/docs/products/posthog/session-replay/",
-    "lastModified": "2024-05-02T01:21:55-06:00",
-    "linkTitle": "PostHog Recordings on SiteBay WordPress Hosting",
-    "publishDate": "2024-04-04T00:00:00Z",
-    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
-    "title": "PostHog Recordings on SiteBay WordPress Hosting"
-  },
-  {
-    "excerpt": "Explaining insights in PostHog: dashboard components",
-    "href": "https://www.sitebay.org/docs/products/posthog/insights/",
-    "lastModified": "2024-05-02T01:21:55-06:00",
-    "linkTitle": "PostHog Insights",
-    "publishDate": "2024-04-04T00:00:00Z",
-    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
-    "title": "PostHog Insights"
-  },
-  {
-    "excerpt": "Explaining insights in Grafana: dashboard components",
-    "href": "https://www.sitebay.org/docs/products/posthog/web-analytics/",
-    "lastModified": "2024-05-02T01:21:55-06:00",
-    "linkTitle": "Grafana on SiteBay WordPress Hosting",
-    "publishDate": "2024-04-04T00:00:00Z",
-    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
-    "title": "Grafana on SiteBay WordPress Hosting"
-  },
-  {
-    "excerpt": "Connect an external site to your WordPress on a Subpath",
-    "href": "https://www.sitebay.org/docs/guides/connect-an-external-site-to-wordpress/",
-    "lastModified": "2024-05-02T01:21:55-06:00",
-    "linkTitle": "External Sites on a Subpath on WordPress",
-    "publishDate": "2024-04-04T00:00:00Z",
-    "thumbnail": "https://www.sitebay.org/docs/guides/connect-an-external-site-to-wordpress/ExternalPaths_hu4378f152c3faec8ffb6968cbd1c6cedc_486680_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
-    "title": "External Sites on a Subpath on WordPress"
-  },
-  {
-    "excerpt": "Learn to enable and manage your feature flags for A/B Testing",
-    "href": "https://www.sitebay.org/docs/products/posthog/feature-flags/",
-    "lastModified": "2024-05-02T01:21:55-06:00",
-    "linkTitle": "Leveraging Feature Flags for A/B Testing on SiteBay",
-    "publishDate": "2024-04-27T00:00:00Z",
-    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
-    "title": "Leveraging Feature Flags for A/B Testing on SiteBay"
-  },
-  {
-    "excerpt": "Use data management to organize events that come into SiteBay. Reduce noise, clarify usage, and help collaborators get the most value from your data. Events Actions Properties Annotations History Database",
-    "href": "https://www.sitebay.org/docs/products/posthog/data-management/",
-    "lastModified": "2024-04-29T05:25:35-06:00",
-    "linkTitle": "Mastering Data Management with PostHog on SiteBay",
-    "publishDate": "2024-04-04T00:00:00Z",
-    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
-    "title": "Mastering Data Management with PostHog on SiteBay"
-  },
-  {
-    "excerpt": "Understanding \"People\" in PostHog Analytics",
-    "href": "https://www.sitebay.org/docs/products/posthog/persons/",
-    "lastModified": "2024-04-29T05:25:35-06:00",
-    "linkTitle": "Understanding \"People\" in PostHog Analytics",
-    "publishDate": "2024-04-18T00:00:00Z",
-    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
-    "title": "Understanding \"People\" in PostHog Analytics"
-  },
-  {
-    "excerpt": "This guide shows you how to integrate Posthog surveys into your WordPress site hosted on SiteBay.",
-    "href": "https://www.sitebay.org/docs/products/posthog/surveys/",
-    "lastModified": "2024-04-29T05:25:35-06:00",
-    "linkTitle": "Integrating Posthog Surveys on Your WordPress Site",
-    "publishDate": "2024-04-20T00:00:00Z",
-    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
-    "title": "Integrating Posthog Surveys on Your WordPress Site"
-  },
-  {
-    "excerpt": "Discover how to harness PostHog dashboards for comprehensive insights into your WordPress site visitors on SiteBay, optimizing your content strategy with data-driven decisions.",
-    "href": "https://www.sitebay.org/docs/products/posthog/dashboards/",
-    "lastModified": "2024-04-29T05:25:35-06:00",
-    "linkTitle": "Maximizing WordPress Insights with PostHog Dashboards on SiteBay",
-    "publishDate": "2024-04-30T00:00:00Z",
-    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
-    "title": "Maximizing WordPress Insights with PostHog Dashboards on SiteBay"
-  },
-  {
-    "excerpt": "This guide shows you how to create notebooks to collaborate with friends.",
-    "href": "https://www.sitebay.org/docs/products/posthog/notebooks/",
-    "lastModified": "2024-04-29T05:25:35-06:00",
-    "linkTitle": "Collaborate with PostHog Notebooks on SiteBay",
-    "publishDate": "2024-04-30T00:00:00Z",
-    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
-    "title": "Collaborate with PostHog Notebooks on SiteBay"
-  },
-  {
     "excerpt": "Unlock the power of session replays to understand your visitors' interactions",
     "href": "https://www.sitebay.org/docs/guides/what-is-session-replay/",
-    "lastModified": "2024-04-28T03:12:12-06:00",
+    "lastModified": "2024-06-09T07:47:02-06:00",
     "linkTitle": "What is Session Replay?",
     "publishDate": "2024-03-04T00:00:00Z",
     "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
@@ -110,7 +11,7 @@
   {
     "excerpt": "An overview of SiteBay WordPress hosting plans: Micro, Starter, and Business.",
     "href": "https://www.sitebay.org/docs/guides/sitebay-plans/",
-    "lastModified": "2024-04-28T03:12:12-06:00",
+    "lastModified": "2024-06-09T07:47:02-06:00",
     "linkTitle": "SiteBay WordPress Hosting Plans",
     "publishDate": "2024-03-04T00:00:00Z",
     "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
@@ -119,7 +20,7 @@
   {
     "excerpt": "Learn how to use the echo command effectively in SiteBay environments for displaying messages, writing to files, and combining it with other commands.",
     "href": "https://www.sitebay.org/docs/guides/how-to-use-echo/",
-    "lastModified": "2024-04-28T03:12:12-06:00",
+    "lastModified": "2024-06-09T07:47:02-06:00",
     "linkTitle": "Mastering the echo Command in SiteBay",
     "publishDate": "2024-03-04T00:00:00Z",
     "thumbnail": "https://www.sitebay.org/docs/guides/how-to-use-echo/UseEchoCommand_hu2365e7cbd32318a49c4de85bf828c67b_825908_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
@@ -128,7 +29,7 @@
   {
     "excerpt": "A quick intro on what SiteBay is and isn't ",
     "href": "https://www.sitebay.org/docs/guides/introduction-to-sitebay-concepts/",
-    "lastModified": "2024-04-28T03:12:12-06:00",
+    "lastModified": "2024-06-09T07:47:02-06:00",
     "linkTitle": "Introduction to SiteBay Concepts",
     "publishDate": "2024-03-04T00:00:00Z",
     "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
@@ -137,7 +38,7 @@
   {
     "excerpt": "Learn how to use SiteBay's git sync feature to easily sync your WordPress site without needing to run git commands.",
     "href": "https://www.sitebay.org/docs/guides/introduction-to-git-sync/",
-    "lastModified": "2024-04-28T03:12:12-06:00",
+    "lastModified": "2024-06-09T07:47:02-06:00",
     "linkTitle": "Git Sync: Automating Your Site Syncing on SiteBay",
     "publishDate": "2024-03-04T00:00:00Z",
     "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
@@ -146,7 +47,7 @@
   {
     "excerpt": "Get to know SiteBay, the ultimate platform for WordPress hosting on Kubernetes, complete with analytics, performance monitoring, and more.",
     "href": "https://www.sitebay.org/docs/guides/what-is-sitebay/",
-    "lastModified": "2024-04-28T03:12:12-06:00",
+    "lastModified": "2024-06-09T07:47:02-06:00",
     "linkTitle": "What is SiteBay?",
     "publishDate": "2024-03-13T00:00:00Z",
     "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
@@ -155,7 +56,7 @@
   {
     "excerpt": "Discover the importance of backups and learn how to utilize SiteBay's Point-In-Time (PIT) Machine for easy and efficient data backups.",
     "href": "https://www.sitebay.org/docs/guides/introduction-to-pit-machine/",
-    "lastModified": "2024-04-28T03:12:12-06:00",
+    "lastModified": "2024-06-09T07:47:02-06:00",
     "linkTitle": "Recovering Your Site and Files: An Introduction to SiteBay's PIT Machine",
     "publishDate": "2024-03-13T00:00:00Z",
     "thumbnail": "https://www.sitebay.org/docs/guides/introduction-to-pit-machine/introduction-to-backups_hu8cc1e60ee4756f54b0d824a4fc8e67e4_603925_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
@@ -164,7 +65,7 @@
   {
     "excerpt": "Get acquainted with SiteBay's powerful WordPress hosting dashboard for managing your sites efficiently.",
     "href": "https://www.sitebay.org/docs/guides/sitebay-dashboard-overview/",
-    "lastModified": "2024-04-28T03:12:12-06:00",
+    "lastModified": "2024-06-09T07:47:02-06:00",
     "linkTitle": "Navigating Your SiteBay Dashboard",
     "publishDate": "2024-03-17T00:00:00Z",
     "thumbnail": "https://www.sitebay.org/docs/guides/sitebay-dashboard-overview/Dashboard_hu27cd2d0e1aaea1190bc8b0b74ffb3df3_446537_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
@@ -173,10 +74,109 @@
   {
     "excerpt": "A video introduction SiteBay",
     "href": "https://www.sitebay.org/docs/content/intro-video/",
-    "lastModified": "2024-04-28T03:12:12-06:00",
+    "lastModified": "2024-06-09T07:47:02-06:00",
     "linkTitle": "SiteBay Trailer",
     "publishDate": "2024-03-29T00:00:00Z",
     "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
     "title": "SiteBay Trailer"
+  },
+  {
+    "excerpt": "Learn how to confidently delete files, directories, and more on your SiteBay WordPress hosting using the command line, ensuring a clean and organized site.",
+    "href": "https://www.sitebay.org/docs/guides/delete-file-command-line/",
+    "lastModified": "2024-06-09T07:47:02-06:00",
+    "linkTitle": "File Management from the linux command line in Code Server: ",
+    "publishDate": "2024-04-03T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
+    "title": "File Management from the linux command line in Code Server: "
+  },
+  {
+    "excerpt": "Explore why SiteBay is your go-to platform for WordPress development.",
+    "href": "https://www.sitebay.org/docs/guides/why-use-sitebay-for-development/",
+    "lastModified": "2024-06-09T07:47:02-06:00",
+    "linkTitle": "Why Choose SiteBay for WordPress Development?",
+    "publishDate": "2024-04-04T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
+    "title": "Why Choose SiteBay for WordPress Development?"
+  },
+  {
+    "excerpt": "Leverage Code Server on SiteBay to streamline your WordPress development directly in your browser.",
+    "href": "https://www.sitebay.org/docs/guides/sitebay-code-server/",
+    "lastModified": "2024-06-09T07:47:02-06:00",
+    "linkTitle": "Streamline Your WordPress Development with SiteBay's Code Server",
+    "publishDate": "2024-04-04T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
+    "title": "Streamline Your WordPress Development with SiteBay's Code Server"
+  },
+  {
+    "excerpt": "Explaining session replay in Grafana: dashboard components",
+    "href": "https://www.sitebay.org/docs/products/posthog/session-replay/",
+    "lastModified": "2024-06-09T07:47:02-06:00",
+    "linkTitle": "PostHog Recordings on SiteBay WordPress Hosting",
+    "publishDate": "2024-04-04T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
+    "title": "PostHog Recordings on SiteBay WordPress Hosting"
+  },
+  {
+    "excerpt": "Explaining insights in PostHog: dashboard components",
+    "href": "https://www.sitebay.org/docs/products/posthog/insights/",
+    "lastModified": "2024-06-09T07:47:02-06:00",
+    "linkTitle": "PostHog Insights",
+    "publishDate": "2024-04-04T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
+    "title": "PostHog Insights"
+  },
+  {
+    "excerpt": "Discover how to leverage SiteBay’s powerful features for your WordPress hosting needs, including insights into PostHog analytics, Grafana dashboards, and more.",
+    "href": "https://www.sitebay.org/docs/guides/sitebay-template-sites/",
+    "lastModified": "2024-06-09T07:47:02-06:00",
+    "linkTitle": "Maximizing WordPress Hosting with SiteBay's Advanced Tools",
+    "publishDate": "2024-04-04T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
+    "title": "Maximizing WordPress Hosting with SiteBay's Advanced Tools"
+  },
+  {
+    "excerpt": "SiteBay Dashboard Tools: External Paths, HTTP Basic Authentication, Cloudflare Dev Mode, Clear Cache, Change Domain, Delete Site.",
+    "href": "https://www.sitebay.org/docs/guides/sitebay-dashboard-tools/",
+    "lastModified": "2024-06-09T07:47:02-06:00",
+    "linkTitle": "Maximizing Efficiency with SiteBay's Dashboard Tools",
+    "publishDate": "2024-04-04T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
+    "title": "Maximizing Efficiency with SiteBay's Dashboard Tools"
+  },
+  {
+    "excerpt": "Use data management to organize events that come into SiteBay. Reduce noise, clarify usage, and help collaborators get the most value from your data. Events Actions Properties Annotations History Database",
+    "href": "https://www.sitebay.org/docs/products/posthog/data-management/",
+    "lastModified": "2024-06-09T07:47:02-06:00",
+    "linkTitle": "Mastering Data Management with PostHog on SiteBay",
+    "publishDate": "2024-04-04T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
+    "title": "Mastering Data Management with PostHog on SiteBay"
+  },
+  {
+    "excerpt": "Use data management to organize events that come into SiteBay. Reduce noise, clarify usage, and help collaborators get the most value from your data. Events Actions Properties Annotations History Database",
+    "href": "https://www.sitebay.org/docs/guides/posthog-data-management/",
+    "lastModified": "2024-06-09T07:47:02-06:00",
+    "linkTitle": "Mastering Data Management with PostHog on SiteBay",
+    "publishDate": "2024-04-04T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
+    "title": "Mastering Data Management with PostHog on SiteBay"
+  },
+  {
+    "excerpt": "Discover how SiteBay utilizes Grafana for in-depth WordPress visitor insights on our Kubernetes-based hosting platform, featuring seamless integration with PostHog analytics.",
+    "href": "https://www.sitebay.org/docs/guides/grafana-for-wordpress/",
+    "lastModified": "2024-06-09T07:47:02-06:00",
+    "linkTitle": "Leveraging Grafana for WordPress Insights at SiteBay",
+    "publishDate": "2024-04-04T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/guides/grafana-for-wordpress/container-sitebay-login-lish_hu5fa61dd950d60f5fcf5277b9bfa6ea93_20242_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
+    "title": "Leveraging Grafana for WordPress Insights at SiteBay"
+  },
+  {
+    "excerpt": "Unlock the power of SiteBay with browser-based shell access for your WordPress site.",
+    "href": "",
+    "lastModified": "2024-06-09T07:47:02-06:00",
+    "linkTitle": "Harnessing the WebSSH Feature in SiteBay Dashboard",
+    "publishDate": "2024-04-04T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
+    "title": "Harnessing the WebSSH Feature in SiteBay Dashboard"
   }
 ]

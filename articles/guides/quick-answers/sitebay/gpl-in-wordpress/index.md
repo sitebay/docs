@@ -9,7 +9,7 @@ modified_by:
   name: SiteBay
 title: "Open Source vs. Closed Source in WordPress: What’s the Difference?"
 title_meta: "Understanding Open Source and Closed Source in WordPress"
-authors: ["Steven J. Vaughan-Nichols"]
+authors: ["SiteBay"]
 ---
 
 What is Open Source?
@@ -53,5 +53,3 @@ The GPL license used by WordPress ensures that it remains free and open, encoura
 Conclusion: Embracing Open Source with SiteBay
 
 SiteBay champions the open-source philosophy, providing powerful WordPress hosting solutions that leverage the best of what the open-source community has to offer. With a focus on performance, security, and scalability, SiteBay empowers users to build and manage WordPress sites with ease, supported by the vast, collaborative world of open-source software.
-
-Understanding the difference between open source and closed source, especially in the context of WordPress, is crucial for making informed decisions about your digital presence. With SiteBay, you're not just choosing a hosting provider; you're embracing a commitment to openness, community, and i

@@ -1,26 +1,8 @@
 [
   {
-    "excerpt": "Understanding \"People\" in PostHog Analytics",
-    "href": "https://www.sitebay.org/docs/products/posthog/persons/",
-    "lastModified": "2024-04-29T05:25:35-06:00",
-    "linkTitle": "Understanding \"People\" in PostHog Analytics",
-    "publishDate": "2024-04-18T00:00:00Z",
-    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
-    "title": "Understanding \"People\" in PostHog Analytics"
-  },
-  {
-    "excerpt": "This guide shows you how to create notebooks to collaborate with friends.",
-    "href": "https://www.sitebay.org/docs/products/posthog/notebooks/",
-    "lastModified": "2024-04-29T05:25:35-06:00",
-    "linkTitle": "Collaborate with PostHog Notebooks on SiteBay",
-    "publishDate": "2024-04-30T00:00:00Z",
-    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
-    "title": "Collaborate with PostHog Notebooks on SiteBay"
-  },
-  {
     "excerpt": "Unlock the power of session replays to understand your visitors' interactions",
     "href": "https://www.sitebay.org/docs/guides/what-is-session-replay/",
-    "lastModified": "2024-04-28T03:12:12-06:00",
+    "lastModified": "2024-06-09T07:47:02-06:00",
     "linkTitle": "What is Session Replay?",
     "publishDate": "2024-03-04T00:00:00Z",
     "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
@@ -29,7 +11,7 @@
   {
     "excerpt": "Get to know SiteBay, the ultimate platform for WordPress hosting on Kubernetes, complete with analytics, performance monitoring, and more.",
     "href": "https://www.sitebay.org/docs/guides/what-is-sitebay/",
-    "lastModified": "2024-04-28T03:12:12-06:00",
+    "lastModified": "2024-06-09T07:47:02-06:00",
     "linkTitle": "What is SiteBay?",
     "publishDate": "2024-03-13T00:00:00Z",
     "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
@@ -38,7 +20,7 @@
   {
     "excerpt": "Discover how to leverage SiteBay’s powerful features for your WordPress hosting needs, including insights into PostHog analytics, Grafana dashboards, and more.",
     "href": "https://www.sitebay.org/docs/guides/sitebay-template-sites/",
-    "lastModified": "2024-04-28T03:12:12-06:00",
+    "lastModified": "2024-06-09T07:47:02-06:00",
     "linkTitle": "Maximizing WordPress Hosting with SiteBay's Advanced Tools",
     "publishDate": "2024-04-04T00:00:00Z",
     "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
@@ -47,16 +29,34 @@
   {
     "excerpt": "Unlock the full potential of PostHog Analytics to understand and engage your audience effectively.",
     "href": "https://www.sitebay.org/docs/guides/what-is-posthog/",
-    "lastModified": "2024-04-28T03:12:12-06:00",
+    "lastModified": "2024-06-09T07:47:02-06:00",
     "linkTitle": "What is PostHog",
     "publishDate": "2024-04-18T00:00:00Z",
     "thumbnail": "https://www.sitebay.org/docs/guides/what-is-posthog/PostHog_hu463b65dd375bd709fc7443820fbfcda2_214106_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
     "title": "What is PostHog"
   },
   {
+    "excerpt": "Understanding \"People\" in PostHog Analytics",
+    "href": "https://www.sitebay.org/docs/products/posthog/persons/",
+    "lastModified": "2024-06-09T07:47:02-06:00",
+    "linkTitle": "Understanding \"People\" in PostHog Analytics",
+    "publishDate": "2024-04-18T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
+    "title": "Understanding \"People\" in PostHog Analytics"
+  },
+  {
+    "excerpt": "This guide shows you how to create notebooks to collaborate with friends.",
+    "href": "https://www.sitebay.org/docs/products/posthog/notebooks/",
+    "lastModified": "2024-06-09T07:47:02-06:00",
+    "linkTitle": "Collaborate with PostHog Notebooks on SiteBay",
+    "publishDate": "2024-04-30T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
+    "title": "Collaborate with PostHog Notebooks on SiteBay"
+  },
+  {
     "excerpt": "This guide shows how to install four components of Elastic Stack - Filebeat, Metricbeat, Elasticsearch, and Kibana - to monitor a typical NGINX webserver.",
     "href": "https://www.sitebay.org/docs/guides/monitor-nginx-web-server-logs-using-filebeat-elastic-stack-linux-7/",
-    "lastModified": "2024-04-28T03:12:12-06:00",
+    "lastModified": "2024-06-09T07:47:02-06:00",
     "linkTitle": "Monitoring NGINX Using the Elastic Stack on Centos 7",
     "publishDate": "2024-05-13T00:00:00Z",
     "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",

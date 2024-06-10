@@ -53,3 +53,16 @@ You can now access recordings and other PostHog features directly on SiteBay:
 - Explore Other Features: Utilize other PostHog features like heatmaps, funnels, and user analytics to gain insights into your store's performance.
 
 Congratulations! You've successfully set up the SiteBay Shopify Link and can now leverage its powerful features to enhance your Shopify store. If you have any questions or need further assistance, feel free to reach out to our support team.
+
+## Q&A
+- Can I have multiple shops?
+- Yes, you can have multiple shops with multiple installs. They will automatically share the same resources as your base plan at no extra charge per shop.
+
+- What happens if I go over my visits?
+- Your sites will sleep, and you will no longer receive analytics data and your blog proxy will stop working.
+
+- How can I upgrade?
+- [In your team's plan settings](https://my.sitebay.org/settings/team) you can upgrade at any time if you go over your visits and reactivate your features.
+
+- How can I uninstall the app or cancel my plan?
+- In your Shopify Admin https://admin.shopify.com/store/YOURMYSHOPIFYDOMAIN/settings/apps/app_installations/ find our WordPress SEO Blog by SiteBay and click the dropdown menu (...) then click uninstall to stop future charges. Your non-free resources will be deleted at the end of your billing cycle.

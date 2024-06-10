@@ -2,7 +2,7 @@
   {
     "excerpt": "Discover how to leverage SiteBay’s powerful features for your WordPress hosting needs, including insights into PostHog analytics, Grafana dashboards, and more.",
     "href": "https://www.sitebay.org/docs/guides/sitebay-template-sites/",
-    "lastModified": "2024-04-28T03:12:12-06:00",
+    "lastModified": "2024-06-09T07:47:02-06:00",
     "linkTitle": "Maximizing WordPress Hosting with SiteBay's Advanced Tools",
     "publishDate": "2024-04-04T00:00:00Z",
     "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
@@ -11,7 +11,7 @@
   {
     "excerpt": "This guide shows how to install four components of Elastic Stack - Filebeat, Metricbeat, Elasticsearch, and Kibana - to monitor a typical NGINX webserver.",
     "href": "https://www.sitebay.org/docs/guides/monitor-nginx-web-server-logs-using-filebeat-elastic-stack-linux-7/",
-    "lastModified": "2024-04-28T03:12:12-06:00",
+    "lastModified": "2024-06-09T07:47:02-06:00",
     "linkTitle": "Monitoring NGINX Using the Elastic Stack on Centos 7",
     "publishDate": "2024-05-13T00:00:00Z",
     "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu7849b20ce9ad2599a2189d7278ab15e2_52294_640x0_resize_q75_catmullrom.jpg",
