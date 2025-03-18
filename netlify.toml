@@ -51,7 +51,7 @@ Cache-Control = "public, max-age=604800"
       default-src * 'unsafe-inline' 'unsafe-eval' data: blob:;
       worker-src * blob: data:;
       script-src * 'unsafe-inline' 'unsafe-eval';
-      style-src * 'unsafe-inline';
+      connect-src 'self' https://*.sitebay.org https://*.algolia.net;
       connect-src *;
       frame-ancestors *;
     """
