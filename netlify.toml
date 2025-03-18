@@ -54,7 +54,7 @@ Cache-Control = "public, max-age=604800"
     X-XSS-Protection = "1; mode=block"
     X-Content-Type-Options = "nosniff"
     Referrer-Policy = "no-referrer"
-    Content-Security-Policy = "default-src 'self'; worker-src 'self' blob:; script-src 'self' 'unsafe-inline' 'unsafe-eval' *.googletagmanager.com *.cloudflareinsights.com *.trustarc.com *.weglot.com *.sitebay.org; connect-src 'self' https://my.sitebay.org; frame-ancestors https://my.sitebay.org"
+    Content-Security-Policy = "default-src 'self'; worker-src 'self' blob:; script-src 'self' 'unsafe-inline' 'unsafe-eval' *.googletagmanager.com *.cloudflareinsights.com *.trustarc.com *.weglot.com *.sitebay.org; connect-src 'self' *.sitebay.org; style-src 'self' 'unsafe-inline'; frame-ancestors https://my.sitebay.org"
 
 [[redirects]]
 from = "/docs/blog/*"
