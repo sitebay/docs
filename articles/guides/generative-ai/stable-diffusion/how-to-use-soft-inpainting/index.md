@@ -1,8 +1,9 @@
 ---
 slug: how-to-use-soft-inpainting
-title: "How to use the new soft-inpainting feature in AUTOMATIC1111 WebUI"
-authors: ["SiteBay"]
-contributors: ["SiteBay"]
+title: 'How to use the new soft-inpainting feature in AUTOMATIC1111 WebUI'
+author:
+  name: SiteBay
+  email: support@sitebay.org
 description: 'How we made our Tutorial Images'
 keywords: ['corporate memphis', generation','inpainting']
 tags: ["inpainting","ai", "stable diffusion","img2img"]
@@ -11,14 +12,15 @@ published: 2024-04-23
 ---
 
 Soft Inpainting Guide: How We Make our Tutorial Images
-- Before
-    ![Before](OriginalImage.png)
-- After
-    ![After](AfterSoftInpainting.png)
-
-If  there's a visible division between the inpainted area and the rest of your image using normal inpainting, we can fix this with the new Soft inpainting feature.
+So if there's a visible division between the inpainted area and the rest of your image using normal inpainting, we can fix this with the new Soft inpainting feature.
 
 Soft inpainting enables you to introduce new elements to your image that blend effortlessly with the original.
+- Before
+![Before](OriginalImage.png)
+- After
+![After](AfterSoftInpainting.png)
+
+
 
 Activate Soft Inpainting by checking the checkbox next to it.
 
@@ -105,4 +107,4 @@ The difference contrast controls the abruptness of the transition between origin
 - Use the brush where you want your generated content to appear
 - Most of the generated images are not very good but about 10% are cool so just keep making more. There was only one where it generated the character i specified: in the bottom center out of a batch of 9.
 
-![Bonus - only one where it generated the character i specified: in the bottom center out of a batch of 9. ](BonusInpainting.png)
+![Bonus - only one where it generated the character I specified: in the bottom center out of a batch of 9. ](BonusInpainting.png)

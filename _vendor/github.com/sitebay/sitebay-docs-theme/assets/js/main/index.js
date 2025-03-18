@@ -5,33 +5,32 @@ import intersect from 'jslibs/alpinejs/v3/intersect/dist/module.esm.js';
 import persist from 'jslibs/alpinejs/v3/persist/dist/module.esm.js';
 import { bridgeTurboAndAlpine } from './alpine-turbo-bridge';
 import {
-	alpineRegisterMagicHelpers,
 	alpineRegisterDirectiveSVG,
+	alpineRegisterMagicHelpers,
 	newDisqus,
 	newDropdownsController,
 	newTabsController,
 } from './components/index';
-import { toggleBooleanClass, setIsTranslating, getCurrentLang, scrollToActiveExplorerNode } from './helpers/helpers';
+import { setIsTranslating, toggleBooleanClass } from './helpers/helpers';
 import { leackChecker } from './helpers/leak-checker';
 import {
-	addLangToLinks,
 	newBreadcrumbsController,
 	newLanguageSwitcherController,
 	newNavController,
-	newPromoCodesController,
-	newToCController,
 	newPaginatorController,
-	newSearchExplorerInitial,
+	newPromoCodesController,
 	newSearchExplorerHydrated,
+	newSearchExplorerInitial,
 	newSearchExplorerNode,
+	newToCController
 } from './navigation/index';
 import { newNavStore } from './navigation/nav-store';
 // AlpineJS controllers and helpers.
-import { newSearchFiltersController, newSearchInputController, newSearchStore, getSearchConfig } from './search/index';
+import { newFileIssueButton } from './navigation/file-issue-button';
+import { newSVGViewerController } from './navigation/svg-viewer';
+import { getSearchConfig, newSearchFiltersController, newSearchInputController, newSearchStore } from './search/index';
 import { newHomeController } from './sections/home/home';
 import { newSectionsController } from './sections/sections/index';
-import { newSVGViewerController } from './navigation/svg-viewer';
-import { newFileIssueButton } from './navigation/file-issue-button';
 
 // Set up the search configuration (as defined in config.toml).
 const searchConfig = getSearchConfig(params);
@@ -162,11 +161,11 @@ const searchConfig = getSearchConfig(params);
 
 	document.addEventListener('turbo:load', function (event) {
 		// Update any static links to the current language.
-		let lang = getCurrentLang();
-		if (lang && lang !== 'en') {
-			addLangToLinks(lang, document.getElementById('sitebay-menus'));
-			addLangToLinks(lang, document.getElementById('footer'));
-		}
+		//let lang = getCurrentLang();
+		//if (lang && lang !== 'en') {
+		//	addLangToLinks(lang, document.getElementById('sitebay-menus'));
+		//	addLangToLinks(lang, document.getElementById('footer'));
+		//}
 
 		if (window.turbolinksLoaded) {
 			// Make sure we only fire one event to GTM.
@@ -177,11 +176,11 @@ const searchConfig = getSearchConfig(params);
 		toggleBooleanClass('turbo-loaded', document.documentElement, true);
 
 		// Init language links.
-		let languageSwitcherTarget = document.getElementById('weglot_here');
+		//let languageSwitcherTarget = document.getElementById('weglot_here');
 
-		let languageSwitcherTemplate = document.getElementById('language-switcher-template');
-		let languageSwitcherSource = document.importNode(languageSwitcherTemplate.content, true);
-		languageSwitcherTarget.replaceChildren(languageSwitcherSource);
+		//let languageSwitcherTemplate = document.getElementById('language-switcher-template');
+		//let languageSwitcherSource = document.importNode(languageSwitcherTemplate.content, true);
+		//languageSwitcherTarget.replaceChildren(languageSwitcherSource);
 
 		window.turbolinksLoaded = true;
 		setTimeout(function () {

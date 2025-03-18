@@ -76,7 +76,7 @@ This is where you load your images and draw masks. Buttons include:
   
 It may require iterating and tweaking your prompts to achieve the desired results.
 
-If there's a visible division between the inpainted area and the rest of your image using normal inpainting, we can fix this with the new Soft inpainting feature. Click below.
+If there is a visible division between the inpainted area and the rest of your image using normal inpainting, we can fix this with the new Soft inpainting feature. Click below.
 
 ## Advanced Inpainting Guides
 For more in-depth guides by read below

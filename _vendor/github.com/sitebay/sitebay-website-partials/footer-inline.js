@@ -76,7 +76,7 @@
     "regex": /^[0-9]*$/
   });
   function updateLinkPromoCodes(promo, should_override) {
-    let $links = Array.from(document.querySelectorAll(`a[href*="login.sitebay.org"][href*="/signup"]`));
+    let $links = Array.from(document.querySelectorAll(`a[href*="my.sitebay.org"][href*="/signup"]`));
     $links.forEach(($link) => {
       let link_url = new URL($link.href);
       if (link_url.searchParams.has("promo")) {
@@ -91,7 +91,7 @@
     });
   }
   function updateFormPromoCodes(promo, should_override) {
-    let $forms = Array.from(document.querySelectorAll(`form[action*="login.sitebay.org/signup"]`));
+    let $forms = Array.from(document.querySelectorAll(`form[action*="my.sitebay.org/signup"]`));
     $forms.forEach(($form) => {
       let form_url = new URL($form.action), $promo_field = $form.querySelector('input[name="promo"]');
       if ($promo_field) {

@@ -25,7 +25,7 @@ export function newFileIssueButton(conf) {
 				let info = window.lnPageInfo;
 				let file = '';
 				if (info.path) {
-					file = `https://github.com/sitebay/docs/blob/develop/docs/${info.path}`;
+					file = `https://github.com/sitebay/docs/blob/main/articles/${info.path}`;
 				}
 				let context = this.hoveredEl.textContent.trim();
 				debug('context:', context);
