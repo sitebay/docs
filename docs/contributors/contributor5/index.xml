@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Contributor5 on sitebay Guides &amp; Tutorials</title>
+    <link>http://localhost:1313/docs/contributors/contributor5/</link>
+    <description>Recent content in Contributor5 on sitebay Guides &amp; Tutorials</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 11 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/docs/contributors/contributor5/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Single author, multiple contributors</title>
+      <link>http://localhost:1313/docs/testpages/authormeta/single-author-multiple-contributors/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/testpages/authormeta/single-author-multiple-contributors/</guid>
+      <description>&lt;p&gt;Nulla laborum aute deserunt sit occaecat. Lorem amet ad nisi mollit voluptate. Cillum ex deserunt occaecat irure enim ex proident. Tempor laboris Lorem occaecat ipsum.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Matt-Wildman on sitebay Guides &amp; Tutorials</title>
+    <link>http://localhost:1313/docs/contributors/matt-wildman/</link>
+    <description>Recent content in Matt-Wildman on sitebay Guides &amp; Tutorials</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 14 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/docs/contributors/matt-wildman/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Multiple authors, multiple contributors</title>
+      <link>http://localhost:1313/docs/testpages/authormeta/multiple-authors-multiple-contributors/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/testpages/authormeta/multiple-authors-multiple-contributors/</guid>
+      <description>&lt;p&gt;Nulla laborum aute deserunt sit occaecat. Lorem amet ad nisi mollit voluptate. Cillum ex deserunt occaecat irure enim ex proident. Tempor laboris Lorem occaecat ipsum.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Single author, multiple contributors</title>
+      <link>http://localhost:1313/docs/testpages/authormeta/single-author-multiple-contributors/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/testpages/authormeta/single-author-multiple-contributors/</guid>
+      <description>&lt;p&gt;Nulla laborum aute deserunt sit occaecat. Lorem amet ad nisi mollit voluptate. Cillum ex deserunt occaecat irure enim ex proident. Tempor laboris Lorem occaecat ipsum.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

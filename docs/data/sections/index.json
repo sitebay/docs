@@ -111,17 +111,6 @@
     "title": "Databases"
   },
   {
-    "excerpt": "Combine Images with Inpainting in Stable Diffusion or Flux",
-    "firstPublishedTime": 1713225600,
-    "lastUpdatedTime": 1713225600,
-    "linkTitle": "Generative AI for WordPress",
-    "objectID": "guides \u003e generative-ai",
-    "ordinal": 0,
-    "section": "guides",
-    "thumbnail": "/docs/guides/generative-ai/feature.svg",
-    "title": "Generative AI for WordPress"
-  },
-  {
     "excerpt": "Kubernetes, often referred to as k8s, is an open source container orchestration system that helps deploy and manage containerized applications.",
     "firstPublishedTime": 1714348800,
     "lastUpdatedTime": 1714348800,
@@ -142,6 +131,17 @@
     "section": "guides",
     "thumbnail": "/docs/guides/wordpress/feature.svg",
     "title": "WordPress"
+  },
+  {
+    "excerpt": "Combine Images with Inpainting in Stable Diffusion or Flux",
+    "firstPublishedTime": 1713225600,
+    "lastUpdatedTime": 1713225600,
+    "linkTitle": "Generative AI for WordPress",
+    "objectID": "guides \u003e generative-ai",
+    "ordinal": 0,
+    "section": "guides",
+    "thumbnail": "/docs/guides/generative-ai/feature.svg",
+    "title": "Generative AI for WordPress"
   },
   {
     "excerpt": "Dive into the world of WordPress development with SiteBay. This collection of tutorials is designed to help you master the use of essential development tools like git, VSCode, and SiteBay’s Git Sync for your WordPress projects.",

@@ -43,14 +43,14 @@
     <loc>https://www.sitebay.org/docs/guides/databases/</loc>
     <lastmod>2024-04-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.sitebay.org/docs/guides/generative-ai/</loc>
-    <lastmod>2024-04-16T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://www.sitebay.org/docs/guides/kubernetes/</loc>
     <lastmod>2024-04-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.sitebay.org/docs/guides/wordpress/</loc>
     <lastmod>2024-04-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.sitebay.org/docs/guides/generative-ai/</loc>
+    <lastmod>2024-04-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.sitebay.org/docs/guides/development/</loc>
     <lastmod>2024-04-14T00:00:00+00:00</lastmod>
@@ -733,6 +733,8 @@
     <loc>https://www.sitebay.org/docs/products/templates/get-started-with-templates/</loc>
   </url><url>
     <loc>https://www.sitebay.org/docs/guides/audiences/intermediate/</loc>
+  </url><url>
+    <loc>https://www.sitebay.org/docs/api/invite/</loc>
   </url><url>
     <loc>https://www.sitebay.org/docs/authors/pavel-petrov/</loc>
   </url><url>

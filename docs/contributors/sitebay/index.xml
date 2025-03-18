@@ -37,13 +37,6 @@
       <description>&lt;p&gt;Databases are crucial in the world of web development and hosting, especially when it comes to managing dynamic content and user data. They allow for the organized storage, retrieval, and manipulation of data, making them an essential part of many web applications and services.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Generative AI for WordPress</title>
-      <link>https://www.sitebay.org/docs/guides/generative-ai/</link>
-      <pubDate>Tue, 16 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>https://www.sitebay.org/docs/guides/generative-ai/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>WordPress</title>
       <link>https://www.sitebay.org/docs/guides/wordpress/</link>
       <pubDate>Mon, 29 Apr 2024 00:00:00 +0000</pubDate>
@@ -217,6 +210,13 @@
       <pubDate>Wed, 24 Apr 2024 00:00:00 +0000</pubDate>
       <guid>https://www.sitebay.org/docs/products/platform/get-started/guides/resell-services/</guid>
       <description>&lt;h2 id=&#34;referral-program&#34; &gt;Referral Program&lt;a href=&#34;#referral-program&#34; aria-label=&#34;Resell SiteBay Services: Referral Program&#34;  class=&#34;group&#34;&gt;&lt;svg class=&#34;ml-2 inline-block w-5 h-5 text-brand group-hover:text-blue-400&#34;&gt;&lt;use href=&#34;#icon--hashtag&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;As an alternative to reselling our services, you can participate in our referral program. See the &lt;a&#xA;    href=&#34;https://www.sitebay.org/referral-program/&#34;&#xA;    &#xA;      target=&#34;_blank&#34;&#xA;    &#xA;    &gt;Referral Program&lt;/a&#xA;  &gt; page on our website or the &lt;a&#xA;    href=&#34;https://www.sitebay.org/docs/docs/products/platform/billing/guides/referral-program/&#34;&#xA;    &#xA;    &gt;Referral Program&lt;/a&#xA;  &gt; section within our billing guide for more details.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>WP-CLI and Linux Shell Basics</title>
+      <link>https://www.sitebay.org/docs/guides/tools-reference/basics/</link>
+      <pubDate>Wed, 24 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.sitebay.org/docs/guides/tools-reference/basics/</guid>
+      <description></description>
     </item>
   </channel>
 </rss>
