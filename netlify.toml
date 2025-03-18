@@ -46,15 +46,18 @@ for = "/webfonts/*"
 [headers.values]
 Cache-Control = "public, max-age=604800"
 
-  [headers.values]
-    Content-Security-Policy = """
-      default-src * 'unsafe-inline' 'unsafe-eval' data: blob:;
-      worker-src * blob: data:;
-      script-src * 'unsafe-inline' 'unsafe-eval';
-      connect-src 'self' https://*.sitebay.org https://*.algolia.net;
-      connect-src *;
-      frame-ancestors *;
-    """
+[[headers]]
+  for = "/*"
+
+[headers.values]
+Content-Security-Policy = """
+  default-src * 'unsafe-inline' 'unsafe-eval' data: blob:;
+  worker-src * blob: data:;
+  script-src * 'unsafe-inline' 'unsafe-eval';
+  connect-src 'self' https://*.sitebay.org https://*.algolia.net;
+  connect-src *;
+  frame-ancestors *;
+"""
 
 [[redirects]]
 from = "/docs/blog/*"
