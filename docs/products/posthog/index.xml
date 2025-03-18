@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PostHog on sitebay Guides &amp; Tutorials</title>
+    <link>https://www.sitebay.org/docs/products/posthog/</link>
+    <description>Recent content in PostHog on sitebay Guides &amp; Tutorials</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 30 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.sitebay.org/docs/products/posthog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Collaborate with PostHog Notebooks on SiteBay</title>
+      <link>https://www.sitebay.org/docs/products/posthog/notebooks/</link>
+      <pubDate>Tue, 30 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.sitebay.org/docs/products/posthog/notebooks/</guid>
+      <description>&lt;p&gt;SiteBay integrates PostHog analytics, offering powerful insights into your WordPress site&amp;rsquo;s user interactions. One of the standout features is PostHog Notebooks, which enables collaborative data analysis directly within your SiteBay environment. This guide walks you through creating and collaborating with PostHog Notebooks, enhancing your data-driven decisions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Maximizing WordPress Insights with PostHog Dashboards on SiteBay</title>
+      <link>https://www.sitebay.org/docs/products/posthog/dashboards/</link>
+      <pubDate>Tue, 30 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.sitebay.org/docs/products/posthog/dashboards/</guid>
+      <description>&lt;p&gt;Introduction to PostHog Dashboards&lt;/p&gt;&#xA;&lt;p&gt;PostHog dashboards are powerful tools for WordPress site owners on SiteBay, offering deep insights into visitor behavior and site performance. With PostHog, you can track how visitors interact with your site, identify popular content, and uncover opportunities to enhance the user experience.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Leveraging Feature Flags for A/B Testing on SiteBay</title>
+      <link>https://www.sitebay.org/docs/products/posthog/feature-flags/</link>
+      <pubDate>Sat, 27 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.sitebay.org/docs/products/posthog/feature-flags/</guid>
+      <description>&lt;p&gt;Feature flags, also known as feature toggles, are a powerful technique for controlling the roll-out of features on your website. They allow you to enable or disable features without deploying new code, making it easy to perform A/B testing, roll out features gradually, and manage the user experience more dynamically.&#xA;It gives flexibility to test and iterate on features with minimal risk.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Integrating Posthog Surveys on Your WordPress Site</title>
+      <link>https://www.sitebay.org/docs/products/posthog/surveys/</link>
+      <pubDate>Sat, 20 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.sitebay.org/docs/products/posthog/surveys/</guid>
+      <description>&lt;p&gt;Want to get real feedback directly from your users? Adding Posthog surveys to your WordPress site hosted on SiteBay can give you valuable insights into what your audience thinks and wants. Here&amp;rsquo;s a quick guide on setting up Posthog surveys, making sure you&amp;rsquo;re gathering feedback in a snap.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Events with Posthog on SiteBay</title>
+      <link>https://www.sitebay.org/docs/products/posthog/events/</link>
+      <pubDate>Fri, 19 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.sitebay.org/docs/products/posthog/events/</guid>
+      <description>&lt;p&gt;If you haven&amp;rsquo;t already, set up your SiteBay WordPress site. Check out our guides on Getting Started with SiteBay and Deploying Your First WordPress Site.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Understanding &#34;People&#34; in PostHog Analytics</title>
+      <link>https://www.sitebay.org/docs/products/posthog/persons/</link>
+      <pubDate>Thu, 18 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.sitebay.org/docs/products/posthog/persons/</guid>
+      <description>&lt;h2 id=&#34;what-is-people-in-posthog&#34; &gt;What is &amp;ldquo;People&amp;rdquo; in PostHog?&lt;a href=&#34;#what-is-people-in-posthog&#34; aria-label=&#34;Understanding &amp;#34;People&amp;#34; in PostHog Analytics: What is &amp;amp;ldquo;People&amp;amp;rdquo; in PostHog?&#34;  class=&#34;group&#34;&gt;&lt;svg class=&#34;ml-2 inline-block w-5 h-5 text-brand group-hover:text-blue-400&#34;&gt;&lt;use href=&#34;#icon--hashtag&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;In PostHog, the &amp;ldquo;People&amp;rdquo; feature refers to the users who interact with your product or website. It is a section in the PostHog platform where individual user data is collected and displayed. This feature helps you understand who your users are, and how they interact with your product.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Grafana on SiteBay WordPress Hosting</title>
+      <link>https://www.sitebay.org/docs/products/posthog/web-analytics/</link>
+      <pubDate>Thu, 04 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.sitebay.org/docs/products/posthog/web-analytics/</guid>
+      <description>&lt;p&gt;Grafana insights are the core components of dashboards&lt;/p&gt;&#xA;&#xA;&lt;h2 id=&#34;overview&#34; &gt;Overview&lt;a href=&#34;#overview&#34; aria-label=&#34;Grafana on SiteBay WordPress Hosting: Overview&#34;  class=&#34;group&#34;&gt;&lt;svg class=&#34;ml-2 inline-block w-5 h-5 text-brand group-hover:text-blue-400&#34;&gt;&lt;use href=&#34;#icon--hashtag&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Insights in Grafana display your data through various information visualization components. These components include line graphs, bar charts, pie charts, funnels, retention tables, and other user analytics tools.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mastering Data Management with PostHog on SiteBay</title>
+      <link>https://www.sitebay.org/docs/products/posthog/data-management/</link>
+      <pubDate>Thu, 04 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.sitebay.org/docs/products/posthog/data-management/</guid>
+      <description>&lt;p&gt;Mastering Data Management with PostHog on SiteBay&lt;/p&gt;&#xA;&lt;p&gt;Welcome to the guide on using PostHog for optimal data management on SiteBay. Whether you&amp;rsquo;re a developer, marketer, or a team leader, understanding how to organize, analyze, and act on your site&amp;rsquo;s data is crucial. Let&amp;rsquo;s dive into how you can reduce noise, clarify usage, and empower your collaborators with data.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>PostHog Insights</title>
+      <link>https://www.sitebay.org/docs/products/posthog/insights/</link>
+      <pubDate>Thu, 04 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.sitebay.org/docs/products/posthog/insights/</guid>
+      <description>&lt;p&gt;PostHog insights are the core components of dashboards&lt;/p&gt;&#xA;&#xA;&lt;h2 id=&#34;overview&#34; &gt;Overview&lt;a href=&#34;#overview&#34; aria-label=&#34;PostHog Insights: Overview&#34;  class=&#34;group&#34;&gt;&lt;svg class=&#34;ml-2 inline-block w-5 h-5 text-brand group-hover:text-blue-400&#34;&gt;&lt;use href=&#34;#icon--hashtag&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Insights in PostHog display your data through various information visualization components. These components include line graphs, bar charts, pie charts, funnels, retention tables, and other user analytics tools.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>PostHog Recordings on SiteBay WordPress Hosting</title>
+      <link>https://www.sitebay.org/docs/products/posthog/session-replay/</link>
+      <pubDate>Thu, 04 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.sitebay.org/docs/products/posthog/session-replay/</guid>
+      <description>&lt;h2 id=&#34;overview&#34; &gt;Overview&lt;a href=&#34;#overview&#34; aria-label=&#34;PostHog Recordings on SiteBay WordPress Hosting: Overview&#34;  class=&#34;group&#34;&gt;&lt;svg class=&#34;ml-2 inline-block w-5 h-5 text-brand group-hover:text-blue-400&#34;&gt;&lt;use href=&#34;#icon--hashtag&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Session replay in PostHog displays your user&amp;rsquo;s visit video data.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

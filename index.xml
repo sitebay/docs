@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Guides &amp; Tutorials on sitebay Guides &amp; Tutorials</title>
+    <link>https://www.sitebay.org/docs/</link>
+    <description>Recent content in Guides &amp; Tutorials on sitebay Guides &amp; Tutorials</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 16 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.sitebay.org/docs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Get Started with SiteBay</title>
+      <link>https://www.sitebay.org/docs/guides/getting-started/</link>
+      <pubDate>Thu, 04 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.sitebay.org/docs/guides/getting-started/</guid>
+      <description>&lt;p&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;    &#xA;    &#xA;    &#xA;    &#xA;    &#xA;    &#xA;    &#xA;      &#xA;      &#xA;      &#xA;        &#xA;        &#xA;      &#xA;      &#xA;    &#xA;    &#xA;      &#xA;      &lt;div&#xA;  x-data=&#34;{ visible: false }&#34;&#xA;  x-intersect.once=&#34;visible = true&#34;&#xA;  data-testid=&#34;image-modal&#34;&gt;&#xA;  &lt;template x-if=&#34;!visible&#34;&gt;&#xA;    &#xA;    &lt;div class=&#34;w-full bg-gray-200 rounded-lg&#34;&gt;&#xA;      &lt;img&#xA;        src=&#34;https://www.sitebay.org/docs/docs/images/pix.gif&#34;&#xA;        style=&#34;width: 100%; aspect-ratio: 694 / 363;&#34; /&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/template&gt;&#xA;  &lt;template x-if=&#34;visible&#34;&gt;&#xA;    &lt;div x-data=&#34;{ open: false, hover:false, src: &#39;&#39; }&#34;&gt;&#xA;      &lt;figure&#xA;        class=&#34;w-full&#34;&#xA;        @click=&#34;open = ! open; $event.preventDefault();&#34;&#xA;        @keydown.escape.window=&#34;open = false&#34;&#xA;        @mouseenter=&#34;hover = true&#34;&#xA;        @mouseleave=&#34;hover = false&#34;&gt;&#xA;        &lt;div class=&#34;relative w-full text-brand cursor-pointer group&#34;&gt;&#xA;          &lt;div class=&#34;&#34;&gt;&#xA;            &lt;template x-if=&#34;$isMobile()&#34;&gt;&#xA;              &lt;img&#xA;                src=&#34;https://www.sitebay.org/docs/docs/guides/getting-started/getting-started_hu17461831091384868241.jpg&#34;&#xA;                alt=&#34;Getting Started with Site Bay&#34;&#xA;                title=&#34;Getting Started with Site Bay&#34;&#xA;                class=&#34;img-transparentw-full&#34;&#xA;                @load=&#34;$event.target.classList.remove(&#39;img-transparent&#39;)&#34; /&gt;&#xA;            &lt;/template&gt;&#xA;            &lt;template x-if=&#34;!$isMobile()&#34;&gt;&#xA;              &lt;img&#xA;                src=&#34;https://www.sitebay.org/docs/docs/guides/getting-started/getting-started_hu17681403227233584749.jpg&#34;&#xA;                alt=&#34;Getting Started with Site Bay&#34;&#xA;                title=&#34;Getting Started with Site Bay&#34;&#xA;                class=&#34;img-transparentw-full&#34;&#xA;                @load=&#34;$event.target.classList.remove(&#39;img-transparent&#39;)&#34; /&gt;&#xA;            &lt;/template&gt;&#xA;          &lt;/div&gt;&#xA;          &#xA;            &lt;div&#xA;              x-transition&#xA;              x-show=&#34;hover&#34;&#xA;              class=&#34;hide-if-no-js absolute bg-gray-100/25 p-3 rounded-full&#34;&#xA;              style=&#34;bottom: 2rem; right: 2rem;&#34;&gt;&#xA;              &lt;svg class=&#34;h-5 w-5&#34;&gt;&#xA;                &lt;use href=&#34;#icon--search&#34;&gt;&lt;/use&gt;&#xA;              &lt;/svg&gt;&#xA;            &lt;/div&gt;&#xA;          &#xA;        &lt;/div&gt;&#xA;      &lt;/figure&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/template&gt;&#xA;&lt;/div&gt;&#xA;&lt;noscript&gt;&#xA;  &#xA;&lt;/noscript&gt;&#xA;&#xA;    &#xA;  &lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Managing Your Staging Site with Code Server</title>
+      <link>https://www.sitebay.org/docs/guides/managing-your-staging-site-on-code-server/</link>
+      <pubDate>Thu, 04 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.sitebay.org/docs/guides/managing-your-staging-site-on-code-server/</guid>
+      <description>&lt;h2 id=&#34;code-server-edit-your-wordpress-staging-site-directly-in-the-browser&#34; &gt;Code Server: Edit Your WordPress Staging Site Directly in the Browser&lt;a href=&#34;#code-server-edit-your-wordpress-staging-site-directly-in-the-browser&#34; aria-label=&#34;Managing Your Staging Site with Code Server: Code Server: Edit Your WordPress Staging Site Directly in the Browser&#34;  class=&#34;group&#34;&gt;&lt;svg class=&#34;ml-2 inline-block w-5 h-5 text-brand group-hover:text-blue-400&#34;&gt;&lt;use href=&#34;#icon--hashtag&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Managing your WordPress staging site has never been easier, thanks to SiteBay&amp;rsquo;s integrated Code Server. This innovative feature transforms your browser into a fully equipped development environment, allowing effortless website customization without complicated setups.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>SiteBay Code Server</title>
+      <link>https://www.sitebay.org/docs/guides/site-bay-code-server-introduction/</link>
+      <pubDate>Thu, 04 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.sitebay.org/docs/guides/site-bay-code-server-introduction/</guid>
+      <description>&lt;h1 id=&#34;code-server-editing-your-wordpress-site-in-the-browser&#34; &gt;Code Server: Editing Your WordPress Site in the Browser&lt;a href=&#34;#code-server-editing-your-wordpress-site-in-the-browser&#34; aria-label=&#34;SiteBay Code Server: Code Server: Editing Your WordPress Site in the Browser&#34;  class=&#34;group&#34;&gt;&lt;svg class=&#34;ml-2 inline-block w-5 h-5 text-brand group-hover:text-blue-400&#34;&gt;&lt;use href=&#34;#icon--hashtag&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h1&gt;&lt;p&gt;Are you ready to revolutionize the way you work on your WordPress site? Meet SiteBay&amp;rsquo;s Code Server, a powerful tool that transforms your web browser into a fully functional instance of Visual Studio Code. This means you can edit your website&amp;rsquo;s code anytime, anywhere, right from your browser – no need to install software or manage complex development environments.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>SiteBay Platform</title>
+      <link>https://www.sitebay.org/docs/platform/shopify/how-to-use-git-sync/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.sitebay.org/docs/platform/shopify/how-to-use-git-sync/</guid>
+      <description>&lt;p&gt;&amp;quot;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Vibe-coding a Website from an Image Using Cline/Roo Code</title>
+      <link>https://www.sitebay.org/docs/guides/design-site-from-image-cline-roo/</link>
+      <pubDate>Sun, 16 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.sitebay.org/docs/guides/design-site-from-image-cline-roo/</guid>
+      <description>&lt;p&gt;We used Claude 3.7 as our model, asking it to create a WordPress site from the following image&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;&#xA;&#xA;&#xA;  &#xA;    &#xA;    &#xA;    &#xA;    &#xA;    &#xA;    &#xA;    &#xA;      &#xA;      &#xA;      &#xA;      &#xA;    &#xA;    &#xA;      &#xA;      &lt;div&#xA;  x-data=&#34;{ visible: false }&#34;&#xA;  x-intersect.once=&#34;visible = true&#34;&#xA;  data-testid=&#34;image-modal&#34;&gt;&#xA;  &lt;template x-if=&#34;!visible&#34;&gt;&#xA;    &#xA;    &lt;div class=&#34;w-full bg-gray-200 rounded-lg&#34;&gt;&#xA;      &lt;img&#xA;        src=&#34;https://www.sitebay.org/docs/docs/images/pix.gif&#34;&#xA;        style=&#34;width: 100%; aspect-ratio: 694 / 315;&#34; /&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/template&gt;&#xA;  &lt;template x-if=&#34;visible&#34;&gt;&#xA;    &lt;div x-data=&#34;{ open: false, hover:false, src: &#39;&#39; }&#34;&gt;&#xA;      &lt;figure&#xA;        class=&#34;w-full&#34;&#xA;        @click=&#34;open = ! open; $event.preventDefault();&#34;&#xA;        @keydown.escape.window=&#34;open = false&#34;&#xA;        @mouseenter=&#34;hover = true&#34;&#xA;        @mouseleave=&#34;hover = false&#34;&gt;&#xA;        &lt;div class=&#34;relative w-full text-brand cursor-pointer group&#34;&gt;&#xA;          &lt;div class=&#34;&#34;&gt;&#xA;            &lt;template x-if=&#34;$isMobile()&#34;&gt;&#xA;              &lt;img&#xA;                src=&#34;https://www.sitebay.org/docs/docs/guides/design-site-from-image-cline-roo/roo-cline-source_hu11696840835854972000.jpg&#34;&#xA;                alt=&#34;roo source&#34;&#xA;                title=&#34;roo source&#34;&#xA;                class=&#34;img-transparentw-full&#34;&#xA;                @load=&#34;$event.target.classList.remove(&#39;img-transparent&#39;)&#34; /&gt;&#xA;            &lt;/template&gt;&#xA;            &lt;template x-if=&#34;!$isMobile()&#34;&gt;&#xA;              &lt;img&#xA;                src=&#34;https://www.sitebay.org/docs/docs/guides/design-site-from-image-cline-roo/roo-cline-source_hu15043714797171082023.jpg&#34;&#xA;                alt=&#34;roo source&#34;&#xA;                title=&#34;roo source&#34;&#xA;                class=&#34;img-transparentw-full&#34;&#xA;                @load=&#34;$event.target.classList.remove(&#39;img-transparent&#39;)&#34; /&gt;&#xA;            &lt;/template&gt;&#xA;          &lt;/div&gt;&#xA;          &#xA;            &lt;div&#xA;              x-transition&#xA;              x-show=&#34;hover&#34;&#xA;              class=&#34;hide-if-no-js absolute bg-gray-100/25 p-3 rounded-full&#34;&#xA;              style=&#34;bottom: 2rem; right: 2rem;&#34;&gt;&#xA;              &lt;svg class=&#34;h-5 w-5&#34;&gt;&#xA;                &lt;use href=&#34;#icon--search&#34;&gt;&lt;/use&gt;&#xA;              &lt;/svg&gt;&#xA;            &lt;/div&gt;&#xA;          &#xA;        &lt;/div&gt;&#xA;      &lt;/figure&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/template&gt;&#xA;&lt;/div&gt;&#xA;&lt;noscript&gt;&#xA;  &#xA;&lt;/noscript&gt;&#xA;&#xA;    &#xA;  &#xA;And this was the result&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;&#xA;&#xA;&#xA;  &#xA;    &#xA;    &#xA;    &#xA;    &#xA;    &#xA;    &#xA;    &#xA;      &#xA;      &#xA;      &#xA;      &#xA;    &#xA;    &#xA;      &#xA;      &lt;div&#xA;  x-data=&#34;{ visible: false }&#34;&#xA;  x-intersect.once=&#34;visible = true&#34;&#xA;  data-testid=&#34;image-modal&#34;&gt;&#xA;  &lt;template x-if=&#34;!visible&#34;&gt;&#xA;    &#xA;    &lt;div class=&#34;w-full bg-gray-200 rounded-lg&#34;&gt;&#xA;      &lt;img&#xA;        src=&#34;https://www.sitebay.org/docs/docs/images/pix.gif&#34;&#xA;        style=&#34;width: 100%; aspect-ratio: 694 / 286;&#34; /&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/template&gt;&#xA;  &lt;template x-if=&#34;visible&#34;&gt;&#xA;    &lt;div x-data=&#34;{ open: false, hover:false, src: &#39;&#39; }&#34;&gt;&#xA;      &lt;figure&#xA;        class=&#34;w-full&#34;&#xA;        @click=&#34;open = ! open; $event.preventDefault();&#34;&#xA;        @keydown.escape.window=&#34;open = false&#34;&#xA;        @mouseenter=&#34;hover = true&#34;&#xA;        @mouseleave=&#34;hover = false&#34;&gt;&#xA;        &lt;div class=&#34;relative w-full text-brand cursor-pointer group&#34;&gt;&#xA;          &lt;div class=&#34;&#34;&gt;&#xA;            &lt;template x-if=&#34;$isMobile()&#34;&gt;&#xA;              &lt;img&#xA;                src=&#34;https://www.sitebay.org/docs/docs/guides/design-site-from-image-cline-roo/roo-cline-result_hu8055816805860904866.jpg&#34;&#xA;                alt=&#34;roo result&#34;&#xA;                title=&#34;roo result&#34;&#xA;                class=&#34;img-transparentw-full&#34;&#xA;                @load=&#34;$event.target.classList.remove(&#39;img-transparent&#39;)&#34; /&gt;&#xA;            &lt;/template&gt;&#xA;            &lt;template x-if=&#34;!$isMobile()&#34;&gt;&#xA;              &lt;img&#xA;                src=&#34;https://www.sitebay.org/docs/docs/guides/design-site-from-image-cline-roo/roo-cline-result_hu13866438863511833684.jpg&#34;&#xA;                alt=&#34;roo result&#34;&#xA;                title=&#34;roo result&#34;&#xA;                class=&#34;img-transparentw-full&#34;&#xA;                @load=&#34;$event.target.classList.remove(&#39;img-transparent&#39;)&#34; /&gt;&#xA;            &lt;/template&gt;&#xA;          &lt;/div&gt;&#xA;          &#xA;            &lt;div&#xA;              x-transition&#xA;              x-show=&#34;hover&#34;&#xA;              class=&#34;hide-if-no-js absolute bg-gray-100/25 p-3 rounded-full&#34;&#xA;              style=&#34;bottom: 2rem; right: 2rem;&#34;&gt;&#xA;              &lt;svg class=&#34;h-5 w-5&#34;&gt;&#xA;                &lt;use href=&#34;#icon--search&#34;&gt;&lt;/use&gt;&#xA;              &lt;/svg&gt;&#xA;            &lt;/div&gt;&#xA;          &#xA;        &lt;/div&gt;&#xA;      &lt;/figure&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/template&gt;&#xA;&lt;/div&gt;&#xA;&lt;noscript&gt;&#xA;  &#xA;&lt;/noscript&gt;&#xA;&#xA;    &#xA;  &lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Understanding Common My SiteBay Errors</title>
+      <link>https://www.sitebay.org/docs/guides/an-overview-of-common-cloud-manager-errors/</link>
+      <pubDate>Wed, 22 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.sitebay.org/docs/guides/an-overview-of-common-cloud-manager-errors/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>How to Create a Search with Algolia</title>
+      <link>https://www.sitebay.org/docs/guides/create-search-with-algolia/</link>
+      <pubDate>Mon, 13 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.sitebay.org/docs/guides/create-search-with-algolia/</guid>
+      <description>&lt;h2 id=&#34;how-to-create-powerful-site-search-with-algolia&#34; &gt;How to Create Powerful Site Search with Algolia&lt;a href=&#34;#how-to-create-powerful-site-search-with-algolia&#34; aria-label=&#34;How to Create a Search with Algolia: How to Create Powerful Site Search with Algolia&#34;  class=&#34;group&#34;&gt;&lt;svg class=&#34;ml-2 inline-block w-5 h-5 text-brand group-hover:text-blue-400&#34;&gt;&lt;use href=&#34;#icon--hashtag&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Algolia provides lightning-fast, relevant, and customizable search capabilities that can be quickly integrated into any website or application. This guide walks you through the process of setting up Algolia, indexing your data, and embedding search functionality seamlessly.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Installing and Using Elasticsearch Plugins</title>
+      <link>https://www.sitebay.org/docs/guides/a-guide-to-algolia-plugins/</link>
+      <pubDate>Sat, 04 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.sitebay.org/docs/guides/a-guide-to-algolia-plugins/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Collaborate with PostHog Notebooks on SiteBay</title>
+      <link>https://www.sitebay.org/docs/products/posthog/notebooks/</link>
+      <pubDate>Tue, 30 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.sitebay.org/docs/products/posthog/notebooks/</guid>
+      <description>&lt;p&gt;SiteBay integrates PostHog analytics, offering powerful insights into your WordPress site&amp;rsquo;s user interactions. One of the standout features is PostHog Notebooks, which enables collaborative data analysis directly within your SiteBay environment. This guide walks you through creating and collaborating with PostHog Notebooks, enhancing your data-driven decisions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mastering Staging Sites on SiteBay’s WordPress Hosting</title>
+      <link>https://www.sitebay.org/docs/guides/sitebay-dashboard-staging-site/</link>
+      <pubDate>Tue, 30 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.sitebay.org/docs/guides/sitebay-dashboard-staging-site/</guid>
+      <description>&lt;p&gt;Creating a staging site on SiteBay&amp;rsquo;s WordPress hosting platform is a breeze, thanks to Kubernetes’ robust architecture and the integrated analytics and monitoring tools like PostHog and Grafana. Staging sites are essential for testing updates, themes, plugins, and custom code before pushing changes to your live WordPress site, ensuring a smooth visitor experience.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Maximizing WordPress Insights with PostHog Dashboards on SiteBay</title>
+      <link>https://www.sitebay.org/docs/products/posthog/dashboards/</link>
+      <pubDate>Tue, 30 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.sitebay.org/docs/products/posthog/dashboards/</guid>
+      <description>&lt;p&gt;Introduction to PostHog Dashboards&lt;/p&gt;&#xA;&lt;p&gt;PostHog dashboards are powerful tools for WordPress site owners on SiteBay, offering deep insights into visitor behavior and site performance. With PostHog, you can track how visitors interact with your site, identify popular content, and uncover opportunities to enhance the user experience.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Enhancing SEO with SiteBays Shopify Link for WordPress Blogs</title>
+      <link>https://www.sitebay.org/docs/guides/what-is-shopify-link/</link>
+      <pubDate>Mon, 29 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.sitebay.org/docs/guides/what-is-shopify-link/</guid>
+      <description>&lt;p&gt;Integrating your WordPress blog with your Shopify store can enhance your online presence and SEO. SiteBay&amp;rsquo;s Shopify Link makes this process seamless, allowing your WordPress content to be accessible directly from your Shopify store at a /a/blog path. This strategic integration not only enriches your store&amp;rsquo;s content but also leverages your blog&amp;rsquo;s SEO potential to attract more visitors, all while maintaining a cohesive brand experience.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Install WordPress with Docker on SiteBay</title>
+      <link>https://www.sitebay.org/docs/guides/sitebay-create-a-site/</link>
+      <pubDate>Mon, 29 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.sitebay.org/docs/guides/sitebay-create-a-site/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>scanning-your-wordpress-site-for-malware</title>
+      <link>https://www.sitebay.org/docs/guides/scanning-your-wordpress-site-for-malware/</link>
+      <pubDate>Mon, 29 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.sitebay.org/docs/guides/scanning-your-wordpress-site-for-malware/</guid>
+      <description>&lt;p&gt;Yo! Noticed your site&amp;rsquo;s lagging or just curious about who&amp;rsquo;s dropping by? SiteBay hooks you up with all the essentials for monitoring and logging your site&amp;rsquo;s traffic. Think of it as setting up a surveillance system for your online spot.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Troubleshooting WordPress on SiteBay</title>
+      <link>https://www.sitebay.org/docs/guides/troubleshooting-wordpress-on-sitebay/</link>
+      <pubDate>Mon, 29 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.sitebay.org/docs/guides/troubleshooting-wordpress-on-sitebay/</guid>
+      <description>&lt;p&gt;Welcome to the WordPress troubleshooting guide by SiteBay! If you&amp;rsquo;ve hit a snag with your WordPress site, don&amp;rsquo;t sweat it. This guide is packed with easy-to-follow solutions for the most common WordPress headaches. Whether you&amp;rsquo;re dealing with a pesky plugin, a slow site, or you just can&amp;rsquo;t get your head around customizing your theme, we&amp;rsquo;ve got you covered.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>WordPress Logging and Monitoring</title>
+      <link>https://www.sitebay.org/docs/guides/wordpress-logging-and-monitoring/</link>
+      <pubDate>Mon, 29 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.sitebay.org/docs/guides/wordpress-logging-and-monitoring/</guid>
+      <description>&lt;p&gt;Yo! Noticed your site&amp;rsquo;s lagging or just curious about who&amp;rsquo;s dropping by? SiteBay hooks you up with all the essentials for monitoring and logging your site&amp;rsquo;s traffic. Think of it as setting up a surveillance system for your online spot.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Billing Manager</title>
+      <link>https://www.sitebay.org/docs/platform/billing-and-support/billing-and-payments/</link>
+      <pubDate>Sun, 28 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.sitebay.org/docs/platform/billing-and-support/billing-and-payments/</guid>
+      <description>&lt;h2 id=&#34;sitebay-wordpress-hosting&#34; &gt;SiteBay WordPress Hosting&lt;a href=&#34;#sitebay-wordpress-hosting&#34; aria-label=&#34;Billing Manager: SiteBay WordPress Hosting&#34;  class=&#34;group&#34;&gt;&lt;svg class=&#34;ml-2 inline-block w-5 h-5 text-brand group-hover:text-blue-400&#34;&gt;&lt;use href=&#34;#icon--hashtag&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Full details of our plan are on our &lt;a&#xA;    href=&#34;https://www.sitebay.org/pricing&#34;&#xA;    &#xA;      target=&#34;_blank&#34;&#xA;    &#xA;    &gt;pricing page&lt;/a&#xA;  &gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Clearing Cache and Cookies in a Browser</title>
+      <link>https://www.sitebay.org/docs/guides/clear-cache-shortguide/</link>
+      <pubDate>Sun, 28 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.sitebay.org/docs/guides/clear-cache-shortguide/</guid>
+      <description>&lt;p&gt;A browser&amp;rsquo;s cache improves website loading performance by reducing the data processing and fetching. When a sizable amount of cached content is stored, it slows down the system and reduces the performance of the application.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Team Collaboration on SiteBay: Enhance Your WordPress Management</title>
+      <link>https://www.sitebay.org/docs/guides/sitebay-team-members/</link>
+      <pubDate>Sun, 28 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.sitebay.org/docs/guides/sitebay-team-members/</guid>
+      <description>&lt;p&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;    &#xA;    &#xA;    &#xA;    &#xA;    &#xA;    &#xA;    &#xA;      &#xA;      &#xA;      &#xA;      &#xA;    &#xA;    &#xA;      &#xA;      &lt;div&#xA;  x-data=&#34;{ visible: false }&#34;&#xA;  x-intersect.once=&#34;visible = true&#34;&#xA;  data-testid=&#34;image-modal&#34;&gt;&#xA;  &lt;template x-if=&#34;!visible&#34;&gt;&#xA;    &#xA;    &lt;div class=&#34;w-full bg-gray-200 rounded-lg&#34;&gt;&#xA;      &lt;img&#xA;        src=&#34;https://www.sitebay.org/docs/docs/images/pix.gif&#34;&#xA;        style=&#34;width: 100%; aspect-ratio: 694 / 341;&#34; /&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/template&gt;&#xA;  &lt;template x-if=&#34;visible&#34;&gt;&#xA;    &lt;div x-data=&#34;{ open: false, hover:false, src: &#39;&#39; }&#34;&gt;&#xA;      &lt;figure&#xA;        class=&#34;w-full&#34;&#xA;        @click=&#34;open = ! open; $event.preventDefault();&#34;&#xA;        @keydown.escape.window=&#34;open = false&#34;&#xA;        @mouseenter=&#34;hover = true&#34;&#xA;        @mouseleave=&#34;hover = false&#34;&gt;&#xA;        &lt;div class=&#34;relative w-full text-brand cursor-pointer group&#34;&gt;&#xA;          &lt;div class=&#34;&#34;&gt;&#xA;            &lt;template x-if=&#34;$isMobile()&#34;&gt;&#xA;              &lt;img&#xA;                src=&#34;https://www.sitebay.org/docs/docs/guides/sitebay-team-members/InviteTeam_hu13019060469916198799.jpg&#34;&#xA;                alt=&#34;SiteBay Invite Team Page&#34;&#xA;                title=&#34;SiteBay Invite Page&#34;&#xA;                class=&#34;img-transparentw-full&#34;&#xA;                @load=&#34;$event.target.classList.remove(&#39;img-transparent&#39;)&#34; /&gt;&#xA;            &lt;/template&gt;&#xA;            &lt;template x-if=&#34;!$isMobile()&#34;&gt;&#xA;              &lt;img&#xA;                src=&#34;https://www.sitebay.org/docs/docs/guides/sitebay-team-members/InviteTeam_hu17856964476137092468.jpg&#34;&#xA;                alt=&#34;SiteBay Invite Team Page&#34;&#xA;                title=&#34;SiteBay Invite Page&#34;&#xA;                class=&#34;img-transparentw-full&#34;&#xA;                @load=&#34;$event.target.classList.remove(&#39;img-transparent&#39;)&#34; /&gt;&#xA;            &lt;/template&gt;&#xA;          &lt;/div&gt;&#xA;          &#xA;            &lt;div&#xA;              x-transition&#xA;              x-show=&#34;hover&#34;&#xA;              class=&#34;hide-if-no-js absolute bg-gray-100/25 p-3 rounded-full&#34;&#xA;              style=&#34;bottom: 2rem; right: 2rem;&#34;&gt;&#xA;              &lt;svg class=&#34;h-5 w-5&#34;&gt;&#xA;                &lt;use href=&#34;#icon--search&#34;&gt;&lt;/use&gt;&#xA;              &lt;/svg&gt;&#xA;            &lt;/div&gt;&#xA;          &#xA;        &lt;/div&gt;&#xA;      &lt;/figure&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/template&gt;&#xA;&lt;/div&gt;&#xA;&lt;noscript&gt;&#xA;  &#xA;&lt;/noscript&gt;&#xA;&#xA;    &#xA;  &#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;    &#xA;  &#xA;&lt;div class=&#34;note note-primary leading-snug p-5&#34;&gt;&lt;header class=&#34;note-title font-semibold text-lg&#34;&gt;Note&lt;/header&gt;&lt;div class=&#34;note-content mt-2&#34;&gt;All team members have equal privileges and can create or modify any resources including sites on the team.&lt;/div&gt;&#xA;  &lt;/div&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Deploy NGINX on Kubernetes: Quick and Easy Setup with SiteBay</title>
+      <link>https://www.sitebay.org/docs/guides/kubernetes-fast-as-possible/</link>
+      <pubDate>Sat, 27 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.sitebay.org/docs/guides/kubernetes-fast-as-possible/</guid>
+      <description>&lt;p&gt;Introduction to Kubernetes&lt;/p&gt;&#xA;&lt;p&gt;Kubernetes is a powerful open-source system for managing containerized applications across a cluster of machines. It provides tools for deploying applications, scaling them as necessary, managing changes to existing containerized applications, and optimizing the use of underlying hardware beneath your containers. SiteBay streamlines this process for WordPress hosting, providing an optimized environment for deploying, managing, and scaling your WordPress sites.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Elevate Your WordPress Site with Kubernetes on SiteBay</title>
+      <link>https://www.sitebay.org/docs/guides/benefits-of-wordpress-on-kubernetes/</link>
+      <pubDate>Sat, 27 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.sitebay.org/docs/guides/benefits-of-wordpress-on-kubernetes/</guid>
+      <description>&lt;p&gt;What is Kubernetes?&lt;/p&gt;&#xA;&lt;p&gt;Kubernetes is a cutting-edge tool that automates deploying, scaling, and operating application containers. By using Kubernetes on SiteBay, you can enjoy the perks of high availability, horizontal scaling, and automated deployments for your WordPress site.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Elevating WordPress Performance with Kubernetes and NGINX on SiteBay</title>
+      <link>https://www.sitebay.org/docs/guides/troubleshooting-wordpress-on-kubernetes/</link>
+      <pubDate>Sat, 27 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.sitebay.org/docs/guides/troubleshooting-wordpress-on-kubernetes/</guid>
+      <description>&lt;p&gt;Kubernetes, an open-source container orchestration platform, enables the management of containerized applications in a clustered environment. It&amp;rsquo;s a game-changer for WordPress hosting, offering unparalleled scalability, automated deployments, and the ability to ensure high availability. This guide introduces you to the benefits of running your WordPress site on a Kubernetes cluster hosted by SiteBay, using NGINX for enhanced performance and reliability.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Fix WordPress site problems after updating</title>
+      <link>https://www.sitebay.org/docs/guides/disaster-recovery-tutorial/</link>
+      <pubDate>Sat, 27 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.sitebay.org/docs/guides/disaster-recovery-tutorial/</guid>
+      <description>&lt;p&gt;If you are having issues accessing your Site after the WordPress core has been updated, here are a few troubleshooting steps to follow.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Leveraging Feature Flags for A/B Testing on SiteBay</title>
+      <link>https://www.sitebay.org/docs/products/posthog/feature-flags/</link>
+      <pubDate>Sat, 27 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.sitebay.org/docs/products/posthog/feature-flags/</guid>
+      <description>&lt;p&gt;Feature flags, also known as feature toggles, are a powerful technique for controlling the roll-out of features on your website. They allow you to enable or disable features without deploying new code, making it easy to perform A/B testing, roll out features gradually, and manage the user experience more dynamically.&#xA;It gives flexibility to test and iterate on features with minimal risk.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mastering WP-CLI on SiteBay</title>
+      <link>https://www.sitebay.org/docs/guides/wp-cli-tutorial/</link>
+      <pubDate>Sat, 27 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.sitebay.org/docs/guides/wp-cli-tutorial/</guid>
+      <description>&lt;p&gt;Hey! Wanna level up how you manage your WordPress site? Let&amp;rsquo;s dive into WP-CLI, the superhero command-line tool that lets you boss around your WordPress site straight from the terminal. And yep, you can totally do this on SiteBay with our browser-based VSCode (code-server). Cool, right? Let&amp;rsquo;s get started.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Grant a Developer Access a WordPress Site or SiteBay Account</title>
+      <link>https://www.sitebay.org/docs/products/platform/get-started/guides/developer-access/</link>
+      <pubDate>Fri, 26 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.sitebay.org/docs/products/platform/get-started/guides/developer-access/</guid>
+      <description>&lt;p&gt;One of the most powerful features of SiteBay&amp;rsquo;s unmanaged service is the amount of control SiteBay users have over their account and the software installed on their systems. If you&amp;rsquo;re a business owner that does not have expertise with installing or maintaining software on Linux, or if you do have experience with Linux but don&amp;rsquo;t have the time to set up a new server, then contracting with a developer or administrator is a popular way to get your services up and running.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Recovering from a WordPress Hack</title>
+      <link>https://www.sitebay.org/docs/guides/recovering-from-a-wordpress-hack/</link>
+      <pubDate>Fri, 26 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.sitebay.org/docs/guides/recovering-from-a-wordpress-hack/</guid>
+      <description>&lt;p&gt;Got hit by a WordPress hack? Keep calm and carry on! SiteBay&amp;rsquo;s got your back with tools designed to restore your site&amp;rsquo;s glory days, pre-hack.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Cancel Your Account</title>
+      <link>https://www.sitebay.org/docs/products/platform/accounts/guides/cancel-account/</link>
+      <pubDate>Thu, 25 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.sitebay.org/docs/products/platform/accounts/guides/cancel-account/</guid>
+      <description>&lt;p&gt;A SiteBay account enables you to deploy and use services on the SiteBay Platform. If you no longer wish to use the SiteBay Platform, you can cancel your account at any time. When you cancel your account, any past due balance and uninvoiced balance remaining on your account is immediately charged to the default payment method on file, minus any remaining account credits.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Comparing WordPress Databases: The 3 Most Popular Database Types</title>
+      <link>https://www.sitebay.org/docs/guides/list-of-databases/</link>
+      <pubDate>Thu, 25 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.sitebay.org/docs/guides/list-of-databases/</guid>
+      <description>&lt;p&gt;Databases are the powerhouse behind nearly every website, app, and online platform you interact with daily. From social media to online shopping, databases keep the digital world spinning. Let&amp;rsquo;s dive into what databases are, the types you&amp;rsquo;ll come across, and spotlight some of the most popular options out there.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mastering Process Monitoring in SiteBay with the ps aux Command</title>
+      <link>https://www.sitebay.org/docs/guides/use-the-ps-aux-command-in-sitebay/</link>
+      <pubDate>Thu, 25 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.sitebay.org/docs/guides/use-the-ps-aux-command-in-sitebay/</guid>
+      <description>&lt;p&gt;Within the ecosystem of SiteBay&amp;rsquo;s WordPress hosting on Kubernetes, understanding the underlying Linux system processes is crucial for managing and troubleshooting your WordPress site. The ps aux command is a powerful tool that provides comprehensive details about the processes running on your Linux system, including those affecting your WordPress site hosted on SiteBay. This guide offers insights into the ps aux command, illustrating why it&amp;rsquo;s important for your SiteBay WordPress hosting management.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

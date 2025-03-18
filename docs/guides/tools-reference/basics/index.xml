@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>WP-CLI and Linux Shell Basics on sitebay Guides &amp; Tutorials</title>
+    <link>https://www.sitebay.org/docs/guides/tools-reference/basics/</link>
+    <description>Recent content in WP-CLI and Linux Shell Basics on sitebay Guides &amp; Tutorials</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 15 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.sitebay.org/docs/guides/tools-reference/basics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Using the Terminal for SiteBay WordPress Hosting</title>
+      <link>https://www.sitebay.org/docs/guides/using-the-terminal/</link>
+      <pubDate>Thu, 04 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.sitebay.org/docs/guides/using-the-terminal/</guid>
+      <description>&lt;p&gt;&amp;lsquo;Command Line at FLOSS Manuals&amp;rsquo;&#xA;tags: [&amp;ldquo;sitebay&amp;rdquo;]&#xA;authors: [&amp;ldquo;SiteBay&amp;rdquo;]&#xA;contributors: [&amp;ldquo;SiteBay&amp;rdquo;]&lt;/p&gt;&#xA;&lt;p&gt;The shell, a.k.a. &amp;ldquo;command line interface&amp;rdquo; or &amp;ldquo;CLI&amp;rdquo;, is a powerhouse for interacting with your SiteBay WordPress hosting environment. It&amp;rsquo;s your go-to for managing files, running scripts, and performing tasks that keep your site humming. You might already be familiar with the terminal from Linux or Mac&amp;rsquo;s Terminal.app.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>basic-wp-cli-commands</title>
+      <link>https://www.sitebay.org/docs/guides/basic-wp-cli-commands/</link>
+      <pubDate>Mon, 04 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.sitebay.org/docs/guides/basic-wp-cli-commands/</guid>
+      <description>&lt;h1 id=&#34;basic-wp-cli-commands&#34; &gt;Basic WP-CLI Commands&lt;a href=&#34;#basic-wp-cli-commands&#34; aria-label=&#34;basic-wp-cli-commands: Basic WP-CLI Commands&#34;  class=&#34;group&#34;&gt;&lt;svg class=&#34;ml-2 inline-block w-5 h-5 text-brand group-hover:text-blue-400&#34;&gt;&lt;use href=&#34;#icon--hashtag&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h1&gt;&lt;p&gt;When managing a WordPress site, using the command line can make tasks quicker and easier. WP-CLI, or WordPress Command Line Interface, is a powerful tool that helps you manage your WordPress sites without using the web browser. Whether you&amp;rsquo;re looking to add a new user, change your password, or install plugins, here&amp;rsquo;s how you can do it using WP-CLI.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Code Server Linux Commands</title>
+      <link>https://www.sitebay.org/docs/guides/code-server-linux-commands/</link>
+      <pubDate>Mon, 04 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.sitebay.org/docs/guides/code-server-linux-commands/</guid>
+      <description>&lt;p&gt;We&amp;rsquo;re here to turn you into a command line ninja, managing your WordPress site like you were born to do it.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to Copy Files and Directories</title>
+      <link>https://www.sitebay.org/docs/guides/how-to-copy-files-and-directories/</link>
+      <pubDate>Mon, 04 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.sitebay.org/docs/guides/how-to-copy-files-and-directories/</guid>
+      <description>&lt;h2 id=&#34;copying-files-and-directories-in-sitebay&#34; &gt;Copying Files and Directories in SiteBay&lt;a href=&#34;#copying-files-and-directories-in-sitebay&#34; aria-label=&#34;How to Copy Files and Directories: Copying Files and Directories in SiteBay&#34;  class=&#34;group&#34;&gt;&lt;svg class=&#34;ml-2 inline-block w-5 h-5 text-brand group-hover:text-blue-400&#34;&gt;&lt;use href=&#34;#icon--hashtag&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Whether you&amp;rsquo;re new to managing a WordPress site on SiteBay or you&amp;rsquo;ve been at it for a while, knowing how to handle files is crucial. One basic task you&amp;rsquo;ll find yourself doing often is copying files and directories. This guide will break down how to use the cp command on your SiteBay environment, ensuring you&amp;rsquo;re prepared to copy anything from a single file to an entire directory with ease.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>how-to-set-sitebay-environment-variables</title>
+      <link>https://www.sitebay.org/docs/guides/how-to-set-sitebay-environment-variables/</link>
+      <pubDate>Mon, 04 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.sitebay.org/docs/guides/how-to-set-sitebay-environment-variables/</guid>
+      <description>&lt;p&gt;Let&amp;rsquo;s remake the article for SiteBay Powerful WordPress hosting, making it relatable and straightforward. We&amp;rsquo;ll focus on setting and using environment variables in the context of SiteBay, ensuring it&amp;rsquo;s clear and accessible for everyone, especially those new to WordPress hosting on Kubernetes platforms.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Introduction to SiteBay Concepts</title>
+      <link>https://www.sitebay.org/docs/guides/introduction-to-sitebay-concepts/</link>
+      <pubDate>Mon, 04 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.sitebay.org/docs/guides/introduction-to-sitebay-concepts/</guid>
+      <description>&lt;h1 id=&#34;dive-into-sitebay-your-wordpress-hosting-powerhouse&#34; &gt;Dive Into SiteBay: Your WordPress Hosting Powerhouse&lt;a href=&#34;#dive-into-sitebay-your-wordpress-hosting-powerhouse&#34; aria-label=&#34;Introduction to SiteBay Concepts: Dive Into SiteBay: Your WordPress Hosting Powerhouse&#34;  class=&#34;group&#34;&gt;&lt;svg class=&#34;ml-2 inline-block w-5 h-5 text-brand group-hover:text-blue-400&#34;&gt;&lt;use href=&#34;#icon--hashtag&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h1&gt;&lt;p&gt;Welcome to SiteBay, where WordPress hosting meets Kubernetes magic, analytics by Posthog, and more. If you thought driving an automatic car was easy, wait until you get the hang of SiteBay. It&amp;rsquo;s like having an automatic car with a self-driving feature. This guide will get you cozy with the essentials, making you a WordPress wizard in no time.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ls-command-in-sitebay</title>
+      <link>https://www.sitebay.org/docs/guides/ls-command-in-sitebay/</link>
+      <pubDate>Mon, 04 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.sitebay.org/docs/guides/ls-command-in-sitebay/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

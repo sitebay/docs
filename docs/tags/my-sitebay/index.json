@@ -1,0 +1,83 @@
+[
+  {
+    "excerpt": "This guide will provide quick answers to common My SiteBay errors. It includes links to helpful documentation and suggestions on next steps.",
+    "href": "https://www.sitebay.org/docs/guides/an-overview-of-common-cloud-manager-errors/",
+    "lastModified": "2024-05-22T00:00:00Z",
+    "linkTitle": "Understanding Common My SiteBay Errors",
+    "publishDate": "2024-05-22T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu15867188605667351697.jpg",
+    "title": "Understanding Common My SiteBay Errors"
+  },
+  {
+    "excerpt": "Navigate through the recovery process with ease, using SiteBays tools to protect your data and recover your WordPress site from hacks.",
+    "href": "https://www.sitebay.org/docs/guides/recovering-from-a-wordpress-hack/",
+    "lastModified": "2024-04-26T00:00:00Z",
+    "linkTitle": "Recovering from a WordPress Hack",
+    "publishDate": "2024-04-26T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu15867188605667351697.jpg",
+    "title": "Recovering from a WordPress Hack"
+  },
+  {
+    "excerpt": "Instructions on updating the email address on an account so that you can receive email notifications.",
+    "href": "https://www.sitebay.org/docs/products/platform/accounts/guides/change-user-email/",
+    "lastModified": "2024-04-21T00:00:00Z",
+    "linkTitle": "Change Your Email Address",
+    "publishDate": "2024-04-21T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/products/platform/accounts/guides/change-user-email/ChangingYourEmailAddress_hu7091595172444203018.jpg",
+    "title": "Change Your Email Address"
+  },
+  {
+    "excerpt": "This quickstart tutorial shows you how to migrate from your current host to SiteBay.",
+    "href": "https://www.sitebay.org/docs/guides/how-to-migrate-your-site/",
+    "lastModified": "2024-04-20T00:00:00Z",
+    "linkTitle": "How to Migrate your WordPress site",
+    "publishDate": "2024-04-20T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/guides/how-to-migrate-your-site/migrate-wordpress_hu5632141446863616970.jpg",
+    "title": "How to Migrate your WordPress site"
+  },
+  {
+    "excerpt": "This quickstart tutorial shows you how to migrate from your current host to SiteBay.",
+    "href": "https://www.sitebay.org/docs/guides/how-to-compress-wordpress-site-to-zip/",
+    "lastModified": "2024-04-20T00:00:00Z",
+    "linkTitle": "How to Migrate your WordPress site",
+    "publishDate": "2024-04-20T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/guides/how-to-compress-wordpress-site-to-zip/migrate-wordpress_hu5632141446863616970.jpg",
+    "title": "How to Migrate your WordPress site"
+  },
+  {
+    "excerpt": "an-overview-of-mysitebay",
+    "href": "https://www.sitebay.org/docs/guides/an-overview-of-mysitebay/",
+    "lastModified": "2024-04-20T00:00:00Z",
+    "linkTitle": "An Overview of the SiteBay Dashboard",
+    "publishDate": "2024-04-20T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu15867188605667351697.jpg",
+    "title": "An Overview of the SiteBay Dashboard"
+  },
+  {
+    "excerpt": "Manage and Develop your Wordpress in your browser on SiteBay.",
+    "href": "https://www.sitebay.org/docs/products/code-server/get-started/",
+    "lastModified": "2024-04-04T00:00:00Z",
+    "linkTitle": "Get Started",
+    "publishDate": "2024-04-04T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/products/code-server/get-started/CodeServer_hu14692191907762720911.jpg",
+    "title": "Get Started"
+  },
+  {
+    "excerpt": "Learn how to change your user's password on a SiteBay account.",
+    "href": "https://www.sitebay.org/docs/products/platform/accounts/guides/reset-user-password/",
+    "lastModified": "2024-04-04T00:00:00Z",
+    "linkTitle": "Reset Your User Password",
+    "publishDate": "2024-04-21T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/products/platform/accounts/guides/reset-user-password/L_ChangeYourPassword_hu10166098838949077718.jpg",
+    "title": "Reset Your User Password"
+  },
+  {
+    "excerpt": "Learn how to cancel a SiteBay account through the My SiteBay.",
+    "href": "https://www.sitebay.org/docs/products/platform/accounts/guides/cancel-account/",
+    "lastModified": "2024-03-04T00:00:00Z",
+    "linkTitle": "Cancel Your Account",
+    "publishDate": "2024-04-25T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu15867188605667351697.jpg",
+    "title": "Cancel Your Account"
+  }
+]

@@ -1,0 +1,29 @@
+[
+  {
+    "excerpt": "Learn how to create and manage a staging site for testing WordPress changes with SiteBay’s powerful WordPress hosting on Kubernetes, featuring PostHog analytics and Grafana dashboards.",
+    "href": "https://www.sitebay.org/docs/guides/sitebay-dashboard-staging-site/",
+    "lastModified": "2024-04-30T00:00:00Z",
+    "linkTitle": "Mastering Staging Sites on SiteBay’s WordPress Hosting",
+    "publishDate": "2024-04-30T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/guides/sitebay-dashboard-staging-site/GNUMakeTutorial-LearntoAutomateTasks_hu17121084185025708525.jpg",
+    "title": "Mastering Staging Sites on SiteBay’s WordPress Hosting"
+  },
+  {
+    "excerpt": "Discover the power of open source software with SiteBay’s WordPress hosting, using PostHog, recordings, and Grafana for optimal performance and flexibility.",
+    "href": "https://www.sitebay.org/docs/guides/open-source-software-benefits/",
+    "lastModified": "2024-04-24T00:00:00Z",
+    "linkTitle": "Embracing the Advantages of Open Source Software with SiteBay",
+    "publishDate": "2024-04-24T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/guides/open-source-software-benefits/OpenSource_hu15399116716668372881.jpg",
+    "title": "Embracing the Advantages of Open Source Software with SiteBay"
+  },
+  {
+    "excerpt": "Discover how SiteBay utilizes Grafana for in-depth WordPress visitor insights on our Kubernetes-based hosting platform, featuring seamless integration with PostHog analytics.",
+    "href": "https://www.sitebay.org/docs/guides/grafana-for-wordpress/",
+    "lastModified": "2024-04-04T00:00:00Z",
+    "linkTitle": "Leveraging Grafana for WordPress Insights at SiteBay",
+    "publishDate": "2024-04-04T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/guides/grafana-for-wordpress/container-sitebay-login-lish_hu1642287791881910236.jpg",
+    "title": "Leveraging Grafana for WordPress Insights at SiteBay"
+  }
+]

@@ -1,0 +1,6 @@
+{
+  "indexName": "sitebay-merged",
+  "facets": ["section.*", "docType", "category", "tags"],
+  "distinct": 1,
+  "filters": "NOT docType:community AND NOT docType:products AND NOT docType:api AND NOT docType:Marketplace"
+}

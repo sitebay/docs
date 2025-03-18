@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Monitoring on sitebay Guides &amp; Tutorials</title>
+    <link>https://www.sitebay.org/docs/platform/monitoring/</link>
+    <description>Recent content in Monitoring on sitebay Guides &amp; Tutorials</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 20 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.sitebay.org/docs/platform/monitoring/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Subscribe to SiteBay Status Updates</title>
+      <link>https://www.sitebay.org/docs/platform/monitoring/sitebay-status-page/</link>
+      <pubDate>Sat, 20 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.sitebay.org/docs/platform/monitoring/sitebay-status-page/</guid>
+      <description>&lt;p&gt;The SiteBay Status Page provides real-time system status and maintenance updates via email, SMS, and Atom and RSS feed. All SiteBay customers are encouraged to subscribe to SiteBay Status notifications to stay up to date with any events that may impact your service.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

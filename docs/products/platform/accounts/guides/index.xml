@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Guides on sitebay Guides &amp; Tutorials</title>
+    <link>https://www.sitebay.org/docs/products/platform/accounts/guides/</link>
+    <description>Recent content in Guides on sitebay Guides &amp; Tutorials</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 24 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.sitebay.org/docs/products/platform/accounts/guides/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cancel Your Account</title>
+      <link>https://www.sitebay.org/docs/products/platform/accounts/guides/cancel-account/</link>
+      <pubDate>Thu, 25 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.sitebay.org/docs/products/platform/accounts/guides/cancel-account/</guid>
+      <description>&lt;p&gt;A SiteBay account enables you to deploy and use services on the SiteBay Platform. If you no longer wish to use the SiteBay Platform, you can cancel your account at any time. When you cancel your account, any past due balance and uninvoiced balance remaining on your account is immediately charged to the default payment method on file, minus any remaining account credits.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Change Your Email Address</title>
+      <link>https://www.sitebay.org/docs/products/platform/accounts/guides/change-user-email/</link>
+      <pubDate>Sun, 21 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.sitebay.org/docs/products/platform/accounts/guides/change-user-email/</guid>
+      <description>&lt;p&gt;SiteBay uses the contact information on file in your account to notify and bill you. Keep this information current to prevent service interruptions. It&amp;rsquo;s especially important to keep your email address current.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Manage User Permissions</title>
+      <link>https://www.sitebay.org/docs/products/platform/accounts/guides/user-permissions/</link>
+      <pubDate>Sun, 21 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.sitebay.org/docs/products/platform/accounts/guides/user-permissions/</guid>
+      <description>&lt;p&gt;Each user on an account can be given individualized permissions that provides unrestricted access to an account or limits their access to specific information or services. For example, you could give your core team members full unrestricted access, grant your accounts payable team access only to view and modify billing details, and limit an outside developer to only access specific WordPress Sites or other services.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Manage Users on a SiteBay Account</title>
+      <link>https://www.sitebay.org/docs/products/platform/accounts/guides/manage-users/</link>
+      <pubDate>Sun, 21 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.sitebay.org/docs/products/platform/accounts/guides/manage-users/</guid>
+      <description>&lt;p&gt;You can grant other people access to your My SiteBay account by creating &lt;em&gt;users&lt;/em&gt; and assigning &lt;em&gt;permissions&lt;/em&gt; to restrict access to certain areas of the control panel. Adding users and configuring permissions is useful for groups that need to grant all team members access to My SiteBay, or organizations that just want their billing department to have a separate account to receive invoices and billing information.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Reset Your User Password</title>
+      <link>https://www.sitebay.org/docs/products/platform/accounts/guides/reset-user-password/</link>
+      <pubDate>Sun, 21 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.sitebay.org/docs/products/platform/accounts/guides/reset-user-password/</guid>
+      <description>&lt;p&gt;Creating strong passwords is essential to protecting your SiteBay and your SiteBay &lt;a&#xA;    href=&#34;http://my.sitebay.org&#34;&#xA;    &#xA;      target=&#34;_blank&#34;&#xA;    &#xA;    &gt;My SiteBay&lt;/a&#xA;  &gt; account. If you suspect that an unauthorized user has gained access to one of your accounts, you should change the password immediately.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

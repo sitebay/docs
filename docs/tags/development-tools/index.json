@@ -1,0 +1,20 @@
+[
+  {
+    "excerpt": "Master text searching within your WordPress files using grep on SiteBay's code-server.",
+    "href": "https://www.sitebay.org/docs/guides/how-to-use-grep/",
+    "lastModified": "2024-04-27T00:00:00Z",
+    "linkTitle": "Efficiently Find Text in Your WordPress Files with grep",
+    "publishDate": "2024-04-04T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu15867188605667351697.jpg",
+    "title": "Efficiently Find Text in Your WordPress Files with grep"
+  },
+  {
+    "excerpt": "Leverage Code Server on SiteBay to streamline your WordPress development directly in your browser.",
+    "href": "https://www.sitebay.org/docs/guides/sitebay-code-server/",
+    "lastModified": "2024-04-04T00:00:00Z",
+    "linkTitle": "Streamline Your WordPress Development with SiteBay's Code Server",
+    "publishDate": "2024-04-04T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu15867188605667351697.jpg",
+    "title": "Streamline Your WordPress Development with SiteBay's Code Server"
+  }
+]

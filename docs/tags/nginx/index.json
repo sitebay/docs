@@ -1,0 +1,38 @@
+[
+  {
+    "excerpt": "How to set up a subdomain or subdirectory and integrate it with your WordPress site.",
+    "href": "https://www.sitebay.org/docs/guides/set-up-subdomain-or-subdirectory-wordpress/",
+    "lastModified": "2024-04-17T00:00:00Z",
+    "linkTitle": "Set up a Subdomain or Path for your WordPress Site",
+    "publishDate": "2024-04-13T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu15867188605667351697.jpg",
+    "title": "Set up a Subdomain or Path for your WordPress Site"
+  },
+  {
+    "excerpt": "This guide will show you the seamless integration of WordPress with NGINX on a Kubernetes cluster, providing scalability, high availability, and enhanced performance for your website.",
+    "href": "https://www.sitebay.org/docs/guides/troubleshooting-wordpress-on-kubernetes/",
+    "lastModified": "2024-04-13T00:00:00Z",
+    "linkTitle": "Elevating WordPress Performance with Kubernetes and NGINX on SiteBay",
+    "publishDate": "2024-04-27T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/guides/troubleshooting-wordpress-on-kubernetes/DeployNGINX_Linode_hu10419154750164224328.jpg",
+    "title": "Elevating WordPress Performance with Kubernetes and NGINX on SiteBay"
+  },
+  {
+    "excerpt": "This guide will show you how to harness the power of Kubernetes for your WordPress site on SiteBay, offering scalable, efficient, and automated deployment solutions.",
+    "href": "https://www.sitebay.org/docs/guides/benefits-of-wordpress-on-kubernetes/",
+    "lastModified": "2024-04-13T00:00:00Z",
+    "linkTitle": "Elevate Your WordPress Site with Kubernetes on SiteBay",
+    "publishDate": "2024-04-27T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/guides/benefits-of-wordpress-on-kubernetes/DeployNGINX_Linode_hu10419154750164224328.jpg",
+    "title": "Elevate Your WordPress Site with Kubernetes on SiteBay"
+  },
+  {
+    "excerpt": "Discover the fastest route to deploying NGINX on a Kubernetes cluster with SiteBay, designed for quick setup and easy management.",
+    "href": "https://www.sitebay.org/docs/guides/kubernetes-fast-as-possible/",
+    "lastModified": "2024-04-13T00:00:00Z",
+    "linkTitle": "Deploy NGINX on Kubernetes: Quick and Easy Setup with SiteBay",
+    "publishDate": "2024-04-27T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu15867188605667351697.jpg",
+    "title": "Deploy NGINX on Kubernetes: Quick and Easy Setup with SiteBay"
+  }
+]

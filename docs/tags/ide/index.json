@@ -1,0 +1,29 @@
+[
+  {
+    "excerpt": "Unlock the power of remote WordPress development with SiteBay, utilizing cutting-edge tools for a seamless development experience.",
+    "href": "https://www.sitebay.org/docs/guides/wordpress-development-on-remote-devices/",
+    "lastModified": "2024-04-14T00:00:00Z",
+    "linkTitle": "Mastering WordPress Development on Remote Devices with SiteBay",
+    "publishDate": "2024-04-14T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/guides/wordpress-development-on-remote-devices/how-to-use-sitebay-git-sync_hu1491291365618061894.jpg",
+    "title": "Mastering WordPress Development on Remote Devices with SiteBay"
+  },
+  {
+    "excerpt": "Explore advanced WordPress development techniques using SiteBay's powerful hosting capabilities, including working with remote environments.",
+    "href": "https://www.sitebay.org/docs/guides/advanced-wordpress-development-techniques/",
+    "lastModified": "2024-04-14T00:00:00Z",
+    "linkTitle": "Advanced WordPress Development Techniques on Remote Devices with SiteBay",
+    "publishDate": "2024-04-14T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/guides/advanced-wordpress-development-techniques/Linode_WebDev_hu17862894891255932800.jpg",
+    "title": "Advanced WordPress Development Techniques on Remote Devices with SiteBay"
+  },
+  {
+    "excerpt": "Learn how to use code-server, SiteBay’s integrated development environment (IDE), for editing WordPress files directly within your browser.",
+    "href": "https://www.sitebay.org/docs/guides/use-code-server-to-edit-files-in-sitebay/",
+    "lastModified": "2024-04-04T00:00:00Z",
+    "linkTitle": "Effortlessly Edit WordPress Files with SiteBay’s code-server",
+    "publishDate": "2024-04-04T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/guides/use-code-server-to-edit-files-in-sitebay/CodeServer_hu14692191907762720911.jpg",
+    "title": "Effortlessly Edit WordPress Files with SiteBay’s code-server"
+  }
+]

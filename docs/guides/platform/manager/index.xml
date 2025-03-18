@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SiteBay Manager on sitebay Guides &amp; Tutorials</title>
+    <link>https://www.sitebay.org/docs/guides/platform/manager/</link>
+    <description>Recent content in SiteBay Manager on sitebay Guides &amp; Tutorials</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 22 May 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.sitebay.org/docs/guides/platform/manager/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Understanding Common My SiteBay Errors</title>
+      <link>https://www.sitebay.org/docs/guides/an-overview-of-common-cloud-manager-errors/</link>
+      <pubDate>Wed, 22 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.sitebay.org/docs/guides/an-overview-of-common-cloud-manager-errors/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Managing Your Sites with Site Bot AI</title>
+      <link>https://www.sitebay.org/docs/guides/managing-your-sites-with-site-bot-ai/</link>
+      <pubDate>Sun, 21 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.sitebay.org/docs/guides/managing-your-sites-with-site-bot-ai/</guid>
+      <description>&lt;h2 id=&#34;creating-and-managing-your-website-with-site-bot-a-user-friendly-guide&#34; &gt;Creating and Managing Your Website with Site Bot: A User-Friendly Guide&lt;a href=&#34;#creating-and-managing-your-website-with-site-bot-a-user-friendly-guide&#34; aria-label=&#34;Managing Your Sites with Site Bot AI: Creating and Managing Your Website with Site Bot: A User-Friendly Guide&#34;  class=&#34;group&#34;&gt;&lt;svg class=&#34;ml-2 inline-block w-5 h-5 text-brand group-hover:text-blue-400&#34;&gt;&lt;use href=&#34;#icon--hashtag&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Have you ever wished for a more straightforward way to deploy and manage your website without delving into complex coding or navigating through endless dashboard settings? Meet Site Bot – an innovative tool designed to simplify your website creation and maintenance process, making it accessible for anyone with a basic understanding of web management. This guide aims to introduce you to Site Bot&amp;rsquo;s capabilities, especially focusing on its website creation feature.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>An Overview of the SiteBay Dashboard</title>
+      <link>https://www.sitebay.org/docs/guides/an-overview-of-mysitebay/</link>
+      <pubDate>Sat, 20 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.sitebay.org/docs/guides/an-overview-of-mysitebay/</guid>
+      <description>&lt;p&gt;Welcome to SiteBay&amp;rsquo;s Dashboard&lt;/p&gt;&#xA;&lt;p&gt;The SiteBay Dashboard is your central hub for managing powerful WordPress hosting. It&amp;rsquo;s designed to streamline your web hosting experience, enabling you to manage infrastructure, user accounts, billing, and support tickets all from one place. With SiteBay, you can effortlessly manage WordPress instances, handle Kubernetes clusters, configure backups, deploy applications, monitor event notifications, manage storage, and much more—all through an interface built on our robust API.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Fast Analytics with PostHog on SiteBay</title>
+      <link>https://www.sitebay.org/docs/guides/posthog-analytics-fast-as-possible/</link>
+      <pubDate>Sat, 13 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.sitebay.org/docs/guides/posthog-analytics-fast-as-possible/</guid>
+      <description>&lt;p&gt;PostHog, a powerful, open-source analytics platform, is available free to all our SiteBay WordPress users. PostHog lets you gather insights on how visitors interact with your site, providing real-time analytics, user behavior tracking, and much more.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Supercharge Your WordPress Site with Grafana Analytics</title>
+      <link>https://www.sitebay.org/docs/guides/grafana-analytics-fast-as-possible/</link>
+      <pubDate>Sat, 13 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.sitebay.org/docs/guides/grafana-analytics-fast-as-possible/</guid>
+      <description>&lt;p&gt;SiteBay introduces Grafana, an open-source platform for monitoring and observability, integrated with our powerful WordPress hosting. Grafana lets you visualize, alert on, and understand your metrics no matter where they are stored. Create, explore, and share dashboards with your team to turn data into actionable insights.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

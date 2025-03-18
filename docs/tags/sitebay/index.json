@@ -1,0 +1,182 @@
+[
+  {
+    "excerpt": "Discover how to harness PostHog dashboards for comprehensive insights into your WordPress site visitors on SiteBay, optimizing your content strategy with data-driven decisions.",
+    "href": "https://www.sitebay.org/docs/products/posthog/dashboards/",
+    "lastModified": "2024-04-30T00:00:00Z",
+    "linkTitle": "Maximizing WordPress Insights with PostHog Dashboards on SiteBay",
+    "publishDate": "2024-04-30T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu15867188605667351697.jpg",
+    "title": "Maximizing WordPress Insights with PostHog Dashboards on SiteBay"
+  },
+  {
+    "excerpt": "Learn how to create and manage a staging site for testing WordPress changes with SiteBay’s powerful WordPress hosting on Kubernetes, featuring PostHog analytics and Grafana dashboards.",
+    "href": "https://www.sitebay.org/docs/guides/sitebay-dashboard-staging-site/",
+    "lastModified": "2024-04-30T00:00:00Z",
+    "linkTitle": "Mastering Staging Sites on SiteBay’s WordPress Hosting",
+    "publishDate": "2024-04-30T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/guides/sitebay-dashboard-staging-site/GNUMakeTutorial-LearntoAutomateTasks_hu17121084185025708525.jpg",
+    "title": "Mastering Staging Sites on SiteBay’s WordPress Hosting"
+  },
+  {
+    "excerpt": "Learn to enable and manage your feature flags for A/B Testing",
+    "href": "https://www.sitebay.org/docs/products/posthog/feature-flags/",
+    "lastModified": "2024-04-29T00:00:00Z",
+    "linkTitle": "Leveraging Feature Flags for A/B Testing on SiteBay",
+    "publishDate": "2024-04-27T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu15867188605667351697.jpg",
+    "title": "Leveraging Feature Flags for A/B Testing on SiteBay"
+  },
+  {
+    "excerpt": "This guide walks you through setting up a WordPress site using Docker on SiteBay, offering a straightforward approach to launching your own website.",
+    "href": "https://www.sitebay.org/docs/guides/sitebay-create-a-site/",
+    "lastModified": "2024-04-29T00:00:00Z",
+    "linkTitle": "Install WordPress with Docker on SiteBay",
+    "publishDate": "2024-04-29T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/guides/sitebay-create-a-site/drupal_setup_choose_language_hu4885622758262840947.jpg",
+    "title": "Install WordPress with Docker on SiteBay"
+  },
+  {
+    "excerpt": "Integrate your WordPress blog with your Shopify store on /a/blog for enhanced SEO benefits.",
+    "href": "https://www.sitebay.org/docs/guides/what-is-shopify-link/",
+    "lastModified": "2024-04-29T00:00:00Z",
+    "linkTitle": "Enhancing SEO with SiteBays Shopify Link for WordPress Blogs",
+    "publishDate": "2024-04-29T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/guides/what-is-shopify-link/ShopifyLink_hu7125015445118126893.jpg",
+    "title": "Enhancing SEO with SiteBays Shopify Link for WordPress Blogs"
+  },
+  {
+    "excerpt": "Master text searching within your WordPress files using grep on SiteBay's code-server.",
+    "href": "https://www.sitebay.org/docs/guides/how-to-use-grep/",
+    "lastModified": "2024-04-27T00:00:00Z",
+    "linkTitle": "Efficiently Find Text in Your WordPress Files with grep",
+    "publishDate": "2024-04-04T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu15867188605667351697.jpg",
+    "title": "Efficiently Find Text in Your WordPress Files with grep"
+  },
+  {
+    "excerpt": "The ps aux command is a vital tool for monitoring processes on your Linux system, especially within a SiteBay WordPress hosting environment. This guide explains its importance and how to utilize it.",
+    "href": "https://www.sitebay.org/docs/guides/use-the-ps-aux-command-in-sitebay/",
+    "lastModified": "2024-04-25T00:00:00Z",
+    "linkTitle": "Mastering Process Monitoring in SiteBay with the ps aux Command",
+    "publishDate": "2024-04-25T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu15867188605667351697.jpg",
+    "title": "Mastering Process Monitoring in SiteBay with the ps aux Command"
+  },
+  {
+    "excerpt": "This guide introduces our regions washington and frankfurt",
+    "href": "https://www.sitebay.org/docs/guides/introduction-to-sitebay-regions/",
+    "lastModified": "2024-04-24T00:00:00Z",
+    "linkTitle": "Introduction to SiteBay Regions",
+    "publishDate": "2024-04-24T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu15867188605667351697.jpg",
+    "title": "Introduction to SiteBay Regions"
+  },
+  {
+    "excerpt": "Discover the power of open source software with SiteBay’s WordPress hosting, using PostHog, recordings, and Grafana for optimal performance and flexibility.",
+    "href": "https://www.sitebay.org/docs/guides/open-source-software-benefits/",
+    "lastModified": "2024-04-24T00:00:00Z",
+    "linkTitle": "Embracing the Advantages of Open Source Software with SiteBay",
+    "publishDate": "2024-04-24T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/guides/open-source-software-benefits/OpenSource_hu15399116716668372881.jpg",
+    "title": "Embracing the Advantages of Open Source Software with SiteBay"
+  },
+  {
+    "excerpt": "Learn how to use the cd command to navigate to different directories inside of a Linux or macOS terminal.",
+    "href": "https://www.sitebay.org/docs/guides/how-to-use-cd/",
+    "lastModified": "2024-04-23T00:00:00Z",
+    "linkTitle": "Using the cd Command to Navigate the Terminal",
+    "publishDate": "2024-04-22T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/guides/how-to-use-cd/UseTheCDCommand_hu1902317839644320889.jpg",
+    "title": "Using the cd Command to Navigate the Terminal"
+  },
+  {
+    "excerpt": "Master the basics of navigating your WordPress site's server with these essential Linux commands.",
+    "href": "https://www.sitebay.org/docs/guides/how-to-use-basic-commands-for-wordpress-linux/",
+    "lastModified": "2024-04-23T00:00:00Z",
+    "linkTitle": "Navigating Your WordPress Code Server with Linux Commands",
+    "publishDate": "2024-04-22T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/guides/how-to-use-basic-commands-for-wordpress-linux/UseTheCDCommand_hu1902317839644320889.jpg",
+    "title": "Navigating Your WordPress Code Server with Linux Commands"
+  },
+  {
+    "excerpt": "Understanding the role of the GNU General Public License (GPL) in WordPress and the distinction between open source and closed source software.",
+    "href": "https://www.sitebay.org/docs/guides/gpl-in-wordpress/",
+    "lastModified": "2024-04-21T00:00:00Z",
+    "linkTitle": "Open Source vs. Closed Source in WordPress: What’s the Difference?",
+    "publishDate": "2024-04-21T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu15867188605667351697.jpg",
+    "title": "Open Source vs. Closed Source in WordPress: What’s the Difference?"
+  },
+  {
+    "excerpt": "This guide shows you how to integrate Posthog surveys into your WordPress site hosted on SiteBay.",
+    "href": "https://www.sitebay.org/docs/products/posthog/surveys/",
+    "lastModified": "2024-04-20T00:00:00Z",
+    "linkTitle": "Integrating Posthog Surveys on Your WordPress Site",
+    "publishDate": "2024-04-20T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu15867188605667351697.jpg",
+    "title": "Integrating Posthog Surveys on Your WordPress Site"
+  },
+  {
+    "excerpt": "What is open source software and how does it work? We answer these questions, note the advantages and disadvantages of open source software, plus examples.",
+    "href": "https://www.sitebay.org/docs/guides/what-is-open-source-software/",
+    "lastModified": "2024-04-19T00:00:00Z",
+    "linkTitle": "What is Open Source Software?",
+    "publishDate": "2024-04-19T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/guides/what-is-open-source-software/OpenSource_hu15399116716668372881.jpg",
+    "title": "What is Open Source Software?"
+  },
+  {
+    "excerpt": "Unlock the full potential of PostHog Analytics to understand and engage your audience effectively.",
+    "href": "https://www.sitebay.org/docs/guides/what-is-posthog/",
+    "lastModified": "2024-04-18T00:00:00Z",
+    "linkTitle": "What is PostHog",
+    "publishDate": "2024-04-18T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/guides/what-is-posthog/PostHog_hu16012646511183142507.jpg",
+    "title": "What is PostHog"
+  },
+  {
+    "excerpt": "Understanding \"People\" in PostHog Analytics",
+    "href": "https://www.sitebay.org/docs/products/posthog/persons/",
+    "lastModified": "2024-04-18T00:00:00Z",
+    "linkTitle": "Understanding \"People\" in PostHog Analytics",
+    "publishDate": "2024-04-18T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu15867188605667351697.jpg",
+    "title": "Understanding \"People\" in PostHog Analytics"
+  },
+  {
+    "excerpt": "Unleash the power of the WP CLI: Your ultimate guide to mastering WordPress management from the command line with SiteBay hosting.",
+    "href": "https://www.sitebay.org/docs/guides/wordpress-command-line-tips/",
+    "lastModified": "2024-04-17T00:00:00Z",
+    "linkTitle": "Command Line Mastery in VS Code Server",
+    "publishDate": "2024-04-13T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu15867188605667351697.jpg",
+    "title": "Command Line Mastery in VS Code Server"
+  },
+  {
+    "excerpt": "Master Git for your SiteBay WordPress hosting: a step-by-step guide to initializing repositories, staging commits, and pushing updates.",
+    "href": "https://www.sitebay.org/docs/guides/how-to-use-git/",
+    "lastModified": "2024-04-17T00:00:00Z",
+    "linkTitle": "Harnessing Git for SiteBay: A Comprehensive Guide",
+    "publishDate": "2024-04-19T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu15867188605667351697.jpg",
+    "title": "Harnessing Git for SiteBay: A Comprehensive Guide"
+  },
+  {
+    "excerpt": "This guide shows you how to create notebooks to collaborate with friends.",
+    "href": "https://www.sitebay.org/docs/products/posthog/notebooks/",
+    "lastModified": "2024-04-15T00:00:00Z",
+    "linkTitle": "Collaborate with PostHog Notebooks on SiteBay",
+    "publishDate": "2024-04-30T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu15867188605667351697.jpg",
+    "title": "Collaborate with PostHog Notebooks on SiteBay"
+  },
+  {
+    "excerpt": "Learn how to confidently delete files, directories, and more on your SiteBay WordPress hosting using the command line, ensuring a clean and organized site.",
+    "href": "https://www.sitebay.org/docs/guides/delete-file-command-line/",
+    "lastModified": "2024-04-14T00:00:00Z",
+    "linkTitle": "File Management from the linux command line in Code Server: ",
+    "publishDate": "2024-04-03T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu15867188605667351697.jpg",
+    "title": "File Management from the linux command line in Code Server: "
+  }
+]

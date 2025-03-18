@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Websites on sitebay Guides &amp; Tutorials</title>
+    <link>https://www.sitebay.org/docs/guides/quick-answers/websites/</link>
+    <description>Recent content in Websites on sitebay Guides &amp; Tutorials</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 28 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.sitebay.org/docs/guides/quick-answers/websites/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Clearing Cache and Cookies in a Browser</title>
+      <link>https://www.sitebay.org/docs/guides/clear-cache-shortguide/</link>
+      <pubDate>Sun, 28 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.sitebay.org/docs/guides/clear-cache-shortguide/</guid>
+      <description>&lt;p&gt;A browser&amp;rsquo;s cache improves website loading performance by reducing the data processing and fetching. When a sizable amount of cached content is stored, it slows down the system and reduces the performance of the application.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Transfer a WordPress Site to SiteBay&#39;s WordPress Hosting</title>
+      <link>https://www.sitebay.org/docs/guides/transferring-a-wordpress-site-to-a-new-server/</link>
+      <pubDate>Thu, 25 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.sitebay.org/docs/guides/transferring-a-wordpress-site-to-a-new-server/</guid>
+      <description>&lt;p&gt;Transferring your WordPress site to SiteBay&amp;rsquo;s robust WordPress hosting environment, optimized with Kubernetes, Posthog analytics, and Grafana dashboards, ensures your website&amp;rsquo;s seamless performance and enhanced security. This guide aims to simplify the migration process, covering the key steps to ensure a smooth transition to SiteBay.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Understanding HTTP Requests: Structure, Methods &amp; Examples</title>
+      <link>https://www.sitebay.org/docs/guides/http-get-request/</link>
+      <pubDate>Thu, 04 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.sitebay.org/docs/guides/http-get-request/</guid>
+      <description>&lt;p&gt;HTTP requests are the backbone of web communication, enabling the exchange of data between clients (like your browser) and servers. Think of it like sending a text message to a friend asking for the latest gossip, and your friend replies with all the juicy details. In the digital world, your browser sends an HTTP request to a server, asking for a specific webpage, and the server replies with the content of that page.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

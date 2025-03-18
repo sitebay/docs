@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>sitebay Guides &amp; Tutorials</title>
+    <link>https://www.sitebay.org/docs/platform/api/</link>
+    <description>Recent content on sitebay Guides &amp; Tutorials</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 23 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.sitebay.org/docs/platform/api/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Get Started</title>
+      <link>https://www.sitebay.org/docs/platform/api/getting-started-with-the-sitebay-api/</link>
+      <pubDate>Tue, 23 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.sitebay.org/docs/platform/api/getting-started-with-the-sitebay-api/</guid>
+      <description>&lt;h1 id=&#34;getting-started-with-the-sitebay-api-a-comprehensive-guide&#34; &gt;Getting Started with the SiteBay API: A Comprehensive Guide&lt;a href=&#34;#getting-started-with-the-sitebay-api-a-comprehensive-guide&#34; aria-label=&#34;Get Started: Getting Started with the SiteBay API: A Comprehensive Guide&#34;  class=&#34;group&#34;&gt;&lt;svg class=&#34;ml-2 inline-block w-5 h-5 text-brand group-hover:text-blue-400&#34;&gt;&lt;use href=&#34;#icon--hashtag&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h1&gt;&lt;p&gt;The SiteBay API offers a wealth of options for developers looking to automate aspects of web hosting, site management, and integration of various online services. Whether you&amp;rsquo;re running an agency or managing multiple websites, SiteBay&amp;rsquo;s API can enhance your operational efficiency through automation. This article serves as an introduction to working with the SiteBay API, covering key functions, and providing guidance on how you can leverage this powerful tool.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

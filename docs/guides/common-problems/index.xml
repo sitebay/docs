@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Troubleshooting WordPress on SiteBay on sitebay Guides &amp; Tutorials</title>
+    <link>https://www.sitebay.org/docs/guides/common-problems/</link>
+    <description>Recent content in Troubleshooting WordPress on SiteBay on sitebay Guides &amp; Tutorials</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 29 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.sitebay.org/docs/guides/common-problems/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Troubleshooting WordPress on SiteBay</title>
+      <link>https://www.sitebay.org/docs/guides/troubleshooting-wordpress-on-sitebay/</link>
+      <pubDate>Mon, 29 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.sitebay.org/docs/guides/troubleshooting-wordpress-on-sitebay/</guid>
+      <description>&lt;p&gt;Welcome to the WordPress troubleshooting guide by SiteBay! If you&amp;rsquo;ve hit a snag with your WordPress site, don&amp;rsquo;t sweat it. This guide is packed with easy-to-follow solutions for the most common WordPress headaches. Whether you&amp;rsquo;re dealing with a pesky plugin, a slow site, or you just can&amp;rsquo;t get your head around customizing your theme, we&amp;rsquo;ve got you covered.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>WordPress Beginner&#39;s Guide</title>
+      <link>https://www.sitebay.org/docs/guides/wordpress-beginner-tips/</link>
+      <pubDate>Fri, 29 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.sitebay.org/docs/guides/wordpress-beginner-tips/</guid>
+      <description>&lt;h1 id=&#34;wordpress-beginners-guide&#34; &gt;WordPress Beginner&amp;rsquo;s Guide&lt;a href=&#34;#wordpress-beginners-guide&#34; aria-label=&#34;WordPress Beginner&amp;#39;s Guide: WordPress Beginner&amp;amp;rsquo;s Guide&#34;  class=&#34;group&#34;&gt;&lt;svg class=&#34;ml-2 inline-block w-5 h-5 text-brand group-hover:text-blue-400&#34;&gt;&lt;use href=&#34;#icon--hashtag&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h1&gt;&lt;p&gt;Welcome to the WordPress Beginner’s Guide by SiteBay! Starting your first website can feel like a huge step, but with WordPress and SiteBay, it’s easier than you might think. Here’s how to get your site off the ground and into the world.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

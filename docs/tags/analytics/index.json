@@ -1,0 +1,56 @@
+[
+  {
+    "excerpt": "Unlock the full potential of PostHog Analytics to understand and engage your audience effectively.",
+    "href": "https://www.sitebay.org/docs/guides/what-is-posthog/",
+    "lastModified": "2024-04-18T00:00:00Z",
+    "linkTitle": "What is PostHog",
+    "publishDate": "2024-04-18T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/guides/what-is-posthog/PostHog_hu16012646511183142507.jpg",
+    "title": "What is PostHog"
+  },
+  {
+    "excerpt": "Understanding \"People\" in PostHog Analytics",
+    "href": "https://www.sitebay.org/docs/products/posthog/persons/",
+    "lastModified": "2024-04-18T00:00:00Z",
+    "linkTitle": "Understanding \"People\" in PostHog Analytics",
+    "publishDate": "2024-04-18T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu15867188605667351697.jpg",
+    "title": "Understanding \"People\" in PostHog Analytics"
+  },
+  {
+    "excerpt": "This guide shows you how to create notebooks to collaborate with friends.",
+    "href": "https://www.sitebay.org/docs/products/posthog/notebooks/",
+    "lastModified": "2024-04-15T00:00:00Z",
+    "linkTitle": "Collaborate with PostHog Notebooks on SiteBay",
+    "publishDate": "2024-04-30T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu15867188605667351697.jpg",
+    "title": "Collaborate with PostHog Notebooks on SiteBay"
+  },
+  {
+    "excerpt": "Discover how to leverage SiteBay’s powerful features for your WordPress hosting needs, including insights into PostHog analytics, Grafana dashboards, and more.",
+    "href": "https://www.sitebay.org/docs/guides/sitebay-template-sites/",
+    "lastModified": "2024-04-04T00:00:00Z",
+    "linkTitle": "Maximizing WordPress Hosting with SiteBay's Advanced Tools",
+    "publishDate": "2024-04-04T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu15867188605667351697.jpg",
+    "title": "Maximizing WordPress Hosting with SiteBay's Advanced Tools"
+  },
+  {
+    "excerpt": "Get to know SiteBay, the ultimate platform for WordPress hosting on Kubernetes, complete with analytics, performance monitoring, and more.",
+    "href": "https://www.sitebay.org/docs/guides/what-is-sitebay/",
+    "lastModified": "2024-03-13T00:00:00Z",
+    "linkTitle": "What is SiteBay?",
+    "publishDate": "2024-03-13T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu15867188605667351697.jpg",
+    "title": "What is SiteBay?"
+  },
+  {
+    "excerpt": "Unlock the power of session replays to understand your visitors' interactions",
+    "href": "https://www.sitebay.org/docs/guides/what-is-session-replay/",
+    "lastModified": "2024-03-04T00:00:00Z",
+    "linkTitle": "What is Session Replay?",
+    "publishDate": "2024-03-04T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu15867188605667351697.jpg",
+    "title": "What is Session Replay?"
+  }
+]

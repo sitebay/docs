@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Guides on sitebay Guides &amp; Tutorials</title>
+    <link>https://www.sitebay.org/docs/products/platform/billing/guides/</link>
+    <description>Recent content in Guides on sitebay Guides &amp; Tutorials</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 21 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.sitebay.org/docs/products/platform/billing/guides/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Access Billing Information</title>
+      <link>https://www.sitebay.org/docs/products/platform/billing/guides/access-billing/</link>
+      <pubDate>Wed, 17 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.sitebay.org/docs/products/platform/billing/guides/access-billing/</guid>
+      <description>&lt;p&gt;Most information and settings pertaining to billing are located within the &lt;a&#xA;    href=&#34;https://my.sitebay.org/account/billing&#34;&#xA;    &#xA;      target=&#34;_blank&#34;&#xA;    &#xA;    &gt;Billing Info&lt;/a&#xA;  &gt; page of the My SiteBay. Follow the instructions below to access this page:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Make a Payment</title>
+      <link>https://www.sitebay.org/docs/products/platform/billing/guides/make-a-payment/</link>
+      <pubDate>Wed, 17 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.sitebay.org/docs/products/platform/billing/guides/make-a-payment/</guid>
+      <description>&lt;h2 id=&#34;pay-your-bill&#34; &gt;Pay Your Bill&lt;a href=&#34;#pay-your-bill&#34; aria-label=&#34;Make a Payment: Pay Your Bill&#34;  class=&#34;group&#34;&gt;&lt;svg class=&#34;ml-2 inline-block w-5 h-5 text-brand group-hover:text-blue-400&#34;&gt;&lt;use href=&#34;#icon--hashtag&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;When an invoice is generated, the default payment method on the account is automatically charged within a few hours. See &lt;a&#xA;    href=&#34;https://www.sitebay.org/docs/docs/products/platform/billing/guides/payment-methods/#view-and-change-the-default-payment-method&#34;&#xA;    data-turbolinks=&#34;false&#34;&#xA;    &gt;View and Change the Default Payment Method&lt;/a&#xA;  &gt; for instructions on changing the default payment method.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Manage Payment Methods</title>
+      <link>https://www.sitebay.org/docs/products/platform/billing/guides/payment-methods/</link>
+      <pubDate>Wed, 17 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.sitebay.org/docs/products/platform/billing/guides/payment-methods/</guid>
+      <description>&lt;p&gt;See &lt;a&#xA;    href=&#34;https://www.sitebay.org/docs/docs/products/platform/billing/guides/payment-methods/#add-a-new-payment-method&#34;&#xA;    data-turbolinks=&#34;false&#34;&#xA;    &gt;Adding a New Payment Method&lt;/a&#xA;  &gt; for instructions on adding a new payment method to your account.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Referral Program</title>
+      <link>https://www.sitebay.org/docs/products/platform/billing/guides/referral-program/</link>
+      <pubDate>Wed, 17 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.sitebay.org/docs/products/platform/billing/guides/referral-program/</guid>
+      <description>&lt;p&gt;When you refer a new user to SiteBay through our referral program, both you and the new user can receive a promotional credit. Here are the program details:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Stop Further Billing</title>
+      <link>https://www.sitebay.org/docs/products/platform/billing/guides/stop-billing/</link>
+      <pubDate>Wed, 17 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.sitebay.org/docs/products/platform/billing/guides/stop-billing/</guid>
+      <description>&lt;p&gt;To prevent additional charges from accruing and stop further billing, you can remove any paid services from your account or cancel your account entirely.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>View Invoices and Payment History</title>
+      <link>https://www.sitebay.org/docs/products/platform/billing/guides/view-history/</link>
+      <pubDate>Wed, 17 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.sitebay.org/docs/products/platform/billing/guides/view-history/</guid>
+      <description>&lt;p&gt;All of your billing history, including previous invoices and payments, is accessible within the &lt;a&#xA;    href=&#34;https://my.sitebay.org/account/billing&#34;&#xA;    &#xA;      target=&#34;_blank&#34;&#xA;    &#xA;    &gt;My SiteBay&lt;/a&#xA;  &gt; on the &lt;strong&gt;Billing &amp;amp; Payment History&lt;/strong&gt; section within the &lt;strong&gt;Billing Info&lt;/strong&gt; page (see &lt;a&#xA;    href=&#34;https://www.sitebay.org/docs/docs/products/platform/billing/guides/access-billing/&#34;&#xA;    &#xA;    &gt;Accessing Billing Information&lt;/a&#xA;  &gt;). By default, all transactions (both invoices and payments) from the last &lt;em&gt;6 months&lt;/em&gt; are displayed. To customize this, use the dropdown menus on the top right of this section.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Update the Billing Contact Information on Your Account</title>
+      <link>https://www.sitebay.org/docs/products/platform/billing/guides/update-billing-contact-info/</link>
+      <pubDate>Tue, 16 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.sitebay.org/docs/products/platform/billing/guides/update-billing-contact-info/</guid>
+      <description>&lt;p&gt;Use the &lt;strong&gt;Billing Info&lt;/strong&gt; page to update the contact information for the SiteBay account. The email address saved on this webpage receives invoices, receipts, and credit card expiration warnings.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Tax Information</title>
+      <link>https://www.sitebay.org/docs/products/platform/billing/guides/tax-information/</link>
+      <pubDate>Thu, 04 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.sitebay.org/docs/products/platform/billing/guides/tax-information/</guid>
+      <description>&lt;p&gt;Some countries, states, and regions require us by law to collect taxes. As such, customers located in these locations are charged the appropriate tax rate for any taxable services billed to their account.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

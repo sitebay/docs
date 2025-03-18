@@ -1,0 +1,8 @@
+{{ $file := .Get 0 -}}
+{{ $p := or (.Page.GetPage $file) (site.GetPage $file) -}}
+{{ if $p -}}
+{{/* Note: The indendation matters here and we want none, and especially not 4 spaces, which will render it as a code block. */}}
+{{ $p.RenderShortcodes }}
+{{ else -}}
+  {{ warnf "Included content not found: %s" .Position -}}
+{{ end -}}

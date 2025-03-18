@@ -1,0 +1,182 @@
+[
+  {
+    "excerpt": "This guide will provide quick answers to common My SiteBay errors. It includes links to helpful documentation and suggestions on next steps.",
+    "href": "https://www.sitebay.org/docs/guides/an-overview-of-common-cloud-manager-errors/",
+    "lastModified": "2024-05-22T00:00:00Z",
+    "linkTitle": "Understanding Common My SiteBay Errors",
+    "publishDate": "2024-05-22T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu15867188605667351697.jpg",
+    "title": "Understanding Common My SiteBay Errors"
+  },
+  {
+    "excerpt": "Learn how your SiteBay account's network transfer pool is calculated and billed.",
+    "href": "https://www.sitebay.org/docs/products/platform/get-started/guides/network-transfer/",
+    "lastModified": "2024-04-25T00:00:00Z",
+    "linkTitle": "Network Transfer Usage and Costs",
+    "publishDate": "2024-04-21T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/products/platform/get-started/guides/network-transfer/cloud-manage-compute-network-transfer-usage_hu7906494492322769124.jpg",
+    "title": "Network Transfer Usage and Costs"
+  },
+  {
+    "excerpt": "Learn how to manage permissions and restrict user access on a SiteBay account.",
+    "href": "https://www.sitebay.org/docs/products/platform/accounts/guides/user-permissions/",
+    "lastModified": "2024-04-24T00:00:00Z",
+    "linkTitle": "Manage User Permissions",
+    "publishDate": "2024-04-21T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/products/platform/accounts/guides/user-permissions/list-of-users_hu10489504264170701477.jpg",
+    "title": "Manage User Permissions"
+  },
+  {
+    "excerpt": "How to resell SiteBay services using the SiteBay API, and how to get started with the SiteBay referral program.",
+    "href": "https://www.sitebay.org/docs/products/platform/get-started/guides/resell-services/",
+    "lastModified": "2024-04-24T00:00:00Z",
+    "linkTitle": "Resell SiteBay Services",
+    "publishDate": "2024-04-24T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/products/platform/get-started/guides/resell-services/how-to-resell-linode-services_hu13904683530913088650.jpg",
+    "title": "Resell SiteBay Services"
+  },
+  {
+    "excerpt": "How to start your own website design agency using SiteBay's hosting services",
+    "href": "https://www.sitebay.org/docs/platform/get-started/how-to-start-a-web-design-agency/",
+    "lastModified": "2024-04-24T00:00:00Z",
+    "linkTitle": "How to Start a Web Design Agency",
+    "publishDate": "2024-04-24T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/platform/get-started/how-to-start-a-web-design-agency/how-to-resell-sitebay-services_hu14343569211532975922.jpg",
+    "title": "How to Start a Web Design Agency"
+  },
+  {
+    "excerpt": "Our tutorial to managing accounts and passwords.",
+    "href": "https://www.sitebay.org/docs/platform/get-started/accounts-and-passwords/",
+    "lastModified": "2024-04-23T00:00:00Z",
+    "linkTitle": "Accounts and Passwords",
+    "publishDate": "2024-04-03T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu15867188605667351697.jpg",
+    "title": "Accounts and Passwords"
+  },
+  {
+    "excerpt": "Learn how to subscribe to SiteBay system status and maintenance updates.",
+    "href": "https://www.sitebay.org/docs/products/platform/get-started/guides/status-page/",
+    "lastModified": "2024-04-23T00:00:00Z",
+    "linkTitle": "Subscribe to SiteBay Status Updates",
+    "publishDate": "2024-04-20T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/products/platform/get-started/guides/status-page/status-page-subscribe_hu18204404295699715285.jpg",
+    "title": "Subscribe to SiteBay Status Updates"
+  },
+  {
+    "excerpt": "Our tutorial to creating support tickets and getting technical support.",
+    "href": "https://www.sitebay.org/docs/platform/billing-and-support/support/",
+    "lastModified": "2024-04-21T00:00:00Z",
+    "linkTitle": "SiteBay Support",
+    "publishDate": "2024-04-21T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/platform/billing-and-support/support/help_hu580501870286803374.jpg",
+    "title": "SiteBay Support"
+  },
+  {
+    "excerpt": "Quick tips to use our GPT powered bot to create and manage your WordPress site.",
+    "href": "https://www.sitebay.org/docs/guides/managing-your-sites-with-site-bot-ai/",
+    "lastModified": "2024-04-21T00:00:00Z",
+    "linkTitle": "Managing Your Sites with Site Bot AI",
+    "publishDate": "2024-04-21T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/guides/managing-your-sites-with-site-bot-ai/00066-2437320526_hu5649718291876648029.jpg",
+    "title": "Managing Your Sites with Site Bot AI"
+  },
+  {
+    "excerpt": "Instructions on updating the email address on an account so that you can receive email notifications.",
+    "href": "https://www.sitebay.org/docs/products/platform/accounts/guides/change-user-email/",
+    "lastModified": "2024-04-21T00:00:00Z",
+    "linkTitle": "Change Your Email Address",
+    "publishDate": "2024-04-21T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/products/platform/accounts/guides/change-user-email/ChangingYourEmailAddress_hu7091595172444203018.jpg",
+    "title": "Change Your Email Address"
+  },
+  {
+    "excerpt": "Learn which taxes are collected by SiteBay and how to add a tax identification number to your account.",
+    "href": "https://www.sitebay.org/docs/products/platform/billing/guides/tax-information/",
+    "lastModified": "2024-04-20T00:00:00Z",
+    "linkTitle": "Tax Information",
+    "publishDate": "2024-04-04T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu15867188605667351697.jpg",
+    "title": "Tax Information"
+  },
+  {
+    "excerpt": "Decide which SiteBay WordPress hosting plan is right for you.",
+    "href": "https://www.sitebay.org/docs/platform/get-started/how-to-choose-a-sitebay-plan/",
+    "lastModified": "2024-04-20T00:00:00Z",
+    "linkTitle": "How to Choose a SiteBay Plan",
+    "publishDate": "2024-04-04T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu15867188605667351697.jpg",
+    "title": "How to Choose a SiteBay Plan"
+  },
+  {
+    "excerpt": "Learn about SiteBay's status page.",
+    "href": "https://www.sitebay.org/docs/platform/monitoring/sitebay-status-page/",
+    "lastModified": "2024-04-20T00:00:00Z",
+    "linkTitle": "Subscribe to SiteBay Status Updates",
+    "publishDate": "2024-04-20T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/platform/monitoring/sitebay-status-page/status-subscribe_hu2366492611013172646.jpg",
+    "title": "Subscribe to SiteBay Status Updates"
+  },
+  {
+    "excerpt": "Learn about SiteBay's recordings page.",
+    "href": "https://www.sitebay.org/docs/platform/recording/sitebay-recordings-page/",
+    "lastModified": "2024-04-20T00:00:00Z",
+    "linkTitle": "SiteBay Recordings",
+    "publishDate": "2024-04-20T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/platform/recording/sitebay-recordings-page/status-subscribe_hu2366492611013172646.jpg",
+    "title": "SiteBay Recordings"
+  },
+  {
+    "excerpt": "These tutorials describe important first steps for any new SiteBay user, and they answer common questions you might have when getting started.",
+    "href": "https://www.sitebay.org/docs/platform/get-started/",
+    "lastModified": "2024-04-20T00:00:00Z",
+    "linkTitle": "Get Started",
+    "publishDate": "2024-04-20T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/platform/get-started/feature.svg",
+    "title": "Get Started"
+  },
+  {
+    "excerpt": "an-overview-of-mysitebay",
+    "href": "https://www.sitebay.org/docs/guides/an-overview-of-mysitebay/",
+    "lastModified": "2024-04-20T00:00:00Z",
+    "linkTitle": "An Overview of the SiteBay Dashboard",
+    "publishDate": "2024-04-20T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu15867188605667351697.jpg",
+    "title": "An Overview of the SiteBay Dashboard"
+  },
+  {
+    "excerpt": "Learn how SiteBay makes billing simple",
+    "href": "https://www.sitebay.org/docs/products/platform/billing/",
+    "lastModified": "2024-04-20T00:00:00Z",
+    "linkTitle": "Billing",
+    "publishDate": "2024-04-25T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/products/platform/billing/feature.svg",
+    "title": "Billing"
+  },
+  {
+    "excerpt": "The tutorial to billing and payments.",
+    "href": "https://www.sitebay.org/docs/platform/billing-and-support/billing-and-payments/",
+    "lastModified": "2024-04-17T00:00:00Z",
+    "linkTitle": "Billing Manager",
+    "publishDate": "2024-04-28T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/platform/billing-and-support/billing-and-payments/billing-cards_hu6398752991585764729.jpg",
+    "title": "Billing Manager"
+  },
+  {
+    "excerpt": "This article gives you information to help you determine which data center you should choose when deploying your website or app on a WordPress Site.",
+    "href": "https://www.sitebay.org/docs/products/platform/get-started/guides/choose-a-data-center/",
+    "lastModified": "2024-04-14T00:00:00Z",
+    "linkTitle": "How to Choose a Data Center",
+    "publishDate": "2024-04-24T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu15867188605667351697.jpg",
+    "title": "How to Choose a Data Center"
+  },
+  {
+    "excerpt": "Combine the capabilities of the Cloudflare and SiteBay platforms.",
+    "href": "https://www.sitebay.org/docs/guides/understanding-cloudflares-cdn/",
+    "lastModified": "2024-04-13T00:00:00Z",
+    "linkTitle": "Understanding Cloudflare's CDN",
+    "publishDate": "2024-04-13T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu15867188605667351697.jpg",
+    "title": "Understanding Cloudflare's CDN"
+  }
+]

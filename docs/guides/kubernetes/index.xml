@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kubernetes on sitebay Guides &amp; Tutorials</title>
+    <link>https://www.sitebay.org/docs/guides/kubernetes/</link>
+    <description>Recent content in Kubernetes on sitebay Guides &amp; Tutorials</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 13 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.sitebay.org/docs/guides/kubernetes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Deploy NGINX on Kubernetes: Quick and Easy Setup with SiteBay</title>
+      <link>https://www.sitebay.org/docs/guides/kubernetes-fast-as-possible/</link>
+      <pubDate>Sat, 27 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.sitebay.org/docs/guides/kubernetes-fast-as-possible/</guid>
+      <description>&lt;p&gt;Introduction to Kubernetes&lt;/p&gt;&#xA;&lt;p&gt;Kubernetes is a powerful open-source system for managing containerized applications across a cluster of machines. It provides tools for deploying applications, scaling them as necessary, managing changes to existing containerized applications, and optimizing the use of underlying hardware beneath your containers. SiteBay streamlines this process for WordPress hosting, providing an optimized environment for deploying, managing, and scaling your WordPress sites.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Elevate Your WordPress Site with Kubernetes on SiteBay</title>
+      <link>https://www.sitebay.org/docs/guides/benefits-of-wordpress-on-kubernetes/</link>
+      <pubDate>Sat, 27 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.sitebay.org/docs/guides/benefits-of-wordpress-on-kubernetes/</guid>
+      <description>&lt;p&gt;What is Kubernetes?&lt;/p&gt;&#xA;&lt;p&gt;Kubernetes is a cutting-edge tool that automates deploying, scaling, and operating application containers. By using Kubernetes on SiteBay, you can enjoy the perks of high availability, horizontal scaling, and automated deployments for your WordPress site.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Elevating WordPress Performance with Kubernetes and NGINX on SiteBay</title>
+      <link>https://www.sitebay.org/docs/guides/troubleshooting-wordpress-on-kubernetes/</link>
+      <pubDate>Sat, 27 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.sitebay.org/docs/guides/troubleshooting-wordpress-on-kubernetes/</guid>
+      <description>&lt;p&gt;Kubernetes, an open-source container orchestration platform, enables the management of containerized applications in a clustered environment. It&amp;rsquo;s a game-changer for WordPress hosting, offering unparalleled scalability, automated deployments, and the ability to ensure high availability. This guide introduces you to the benefits of running your WordPress site on a Kubernetes cluster hosted by SiteBay, using NGINX for enhanced performance and reliability.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

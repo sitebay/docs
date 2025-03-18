@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SiteBay Platform on sitebay Guides &amp; Tutorials</title>
+    <link>https://www.sitebay.org/docs/platform/billing-and-support/</link>
+    <description>Recent content in SiteBay Platform on sitebay Guides &amp; Tutorials</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 21 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.sitebay.org/docs/platform/billing-and-support/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Billing Manager</title>
+      <link>https://www.sitebay.org/docs/platform/billing-and-support/billing-and-payments/</link>
+      <pubDate>Sun, 28 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.sitebay.org/docs/platform/billing-and-support/billing-and-payments/</guid>
+      <description>&lt;h2 id=&#34;sitebay-wordpress-hosting&#34; &gt;SiteBay WordPress Hosting&lt;a href=&#34;#sitebay-wordpress-hosting&#34; aria-label=&#34;Billing Manager: SiteBay WordPress Hosting&#34;  class=&#34;group&#34;&gt;&lt;svg class=&#34;ml-2 inline-block w-5 h-5 text-brand group-hover:text-blue-400&#34;&gt;&lt;use href=&#34;#icon--hashtag&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Full details of our plan are on our &lt;a&#xA;    href=&#34;https://www.sitebay.org/pricing&#34;&#xA;    &#xA;      target=&#34;_blank&#34;&#xA;    &#xA;    &gt;pricing page&lt;/a&#xA;  &gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Outgoing Bandwidth</title>
+      <link>https://www.sitebay.org/docs/platform/billing-and-support/outgoing-bandwidth/</link>
+      <pubDate>Sun, 21 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.sitebay.org/docs/platform/billing-and-support/outgoing-bandwidth/</guid>
+      <description>&lt;p&gt;Your &lt;em&gt;Outgoing Bandwidth&lt;/em&gt; is the total data uploaded from your site in a monthly cycle.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>SiteBay Support</title>
+      <link>https://www.sitebay.org/docs/platform/billing-and-support/support/</link>
+      <pubDate>Sun, 21 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.sitebay.org/docs/platform/billing-and-support/support/</guid>
+      <description>&lt;p&gt;SiteBay provides live support services 24 hours a day, 7 days a week. SiteBay Support ensures your site&amp;rsquo;s availability and strives to fix any issues you may be experiencing.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Tax Information</title>
+      <link>https://www.sitebay.org/docs/platform/billing-and-support/tax-information/</link>
+      <pubDate>Thu, 04 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.sitebay.org/docs/platform/billing-and-support/tax-information/</guid>
+      <description>&lt;h2 id=&#34;which-taxes-are-collected-by-sitebay&#34; &gt;Which Taxes are Collected by SiteBay?&lt;a href=&#34;#which-taxes-are-collected-by-sitebay&#34; aria-label=&#34;Tax Information: Which Taxes are Collected by SiteBay?&#34;  class=&#34;group&#34;&gt;&lt;svg class=&#34;ml-2 inline-block w-5 h-5 text-brand group-hover:text-blue-400&#34;&gt;&lt;use href=&#34;#icon--hashtag&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;SiteBay does not collect tax as of yet.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://www.sitebay.org/docs/platform/billing-and-support/how-sitebay-billing-works/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.sitebay.org/docs/platform/billing-and-support/how-sitebay-billing-works/</guid>
+      <description>&lt;p&gt;&amp;ldquo;To be written&amp;quot;a&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

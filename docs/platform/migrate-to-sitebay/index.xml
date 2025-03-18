@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>sitebay Guides &amp; Tutorials</title>
+    <link>https://www.sitebay.org/docs/platform/migrate-to-sitebay/</link>
+    <description>Recent content on sitebay Guides &amp; Tutorials</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 04 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.sitebay.org/docs/platform/migrate-to-sitebay/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Best Practices when Migrating to SiteBay</title>
+      <link>https://www.sitebay.org/docs/platform/migrate-to-sitebay/best-practices-when-migrating-to-sitebay/</link>
+      <pubDate>Wed, 24 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.sitebay.org/docs/platform/migrate-to-sitebay/best-practices-when-migrating-to-sitebay/</guid>
+      <description>&lt;h2 id=&#34;next-steps&#34; &gt;Next Steps&lt;a href=&#34;#next-steps&#34; aria-label=&#34;Best Practices when Migrating to SiteBay: Next Steps&#34;  class=&#34;group&#34;&gt;&lt;svg class=&#34;ml-2 inline-block w-5 h-5 text-brand group-hover:text-blue-400&#34;&gt;&lt;use href=&#34;#icon--hashtag&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;After doing the above, your site should be fully migrated to SiteBay. It is a good idea to wait a few days before cancelling your previous WordPress hosting service to make sure that everything is running smoothly. Also, be sure that you didn&amp;rsquo;t forget any files.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to Migrate a WordPress.com Website to SiteBay</title>
+      <link>https://www.sitebay.org/docs/platform/migrate-to-sitebay/migrate-a-wordpressdotcom-site-to-sitebay/</link>
+      <pubDate>Thu, 04 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.sitebay.org/docs/platform/migrate-to-sitebay/migrate-a-wordpressdotcom-site-to-sitebay/</guid>
+      <description>&lt;p&gt;This tutorial describes how to export your content from WordPress.com and host your WordPress website on SiteBay.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://www.sitebay.org/docs/platform/migrate-to-sitebay/migrate-a-lamp-website-to-sitebay/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.sitebay.org/docs/platform/migrate-to-sitebay/migrate-a-lamp-website-to-sitebay/</guid>
+      <description>&lt;p&gt;&amp;ldquo;To be written&amp;rdquo;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,38 @@
+[
+  {
+    "excerpt": "Discover how to harness PostHog dashboards for comprehensive insights into your WordPress site visitors on SiteBay, optimizing your content strategy with data-driven decisions.",
+    "href": "https://www.sitebay.org/docs/products/posthog/dashboards/",
+    "lastModified": "2024-04-30T00:00:00Z",
+    "linkTitle": "Maximizing WordPress Insights with PostHog Dashboards on SiteBay",
+    "publishDate": "2024-04-30T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu15867188605667351697.jpg",
+    "title": "Maximizing WordPress Insights with PostHog Dashboards on SiteBay"
+  },
+  {
+    "excerpt": "Connect an external site to your WordPress on a Subpath",
+    "href": "https://www.sitebay.org/docs/guides/connect-an-external-site-to-wordpress/",
+    "lastModified": "2024-04-04T00:00:00Z",
+    "linkTitle": "External Sites on a Subpath on WordPress",
+    "publishDate": "2024-04-04T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/guides/connect-an-external-site-to-wordpress/ExternalPaths_hu4779046371811308819.jpg",
+    "title": "External Sites on a Subpath on WordPress"
+  },
+  {
+    "excerpt": "An overview of SiteBay WordPress hosting plans: Micro, Starter, and Business.",
+    "href": "https://www.sitebay.org/docs/guides/sitebay-plans/",
+    "lastModified": "2024-03-04T00:00:00Z",
+    "linkTitle": "SiteBay WordPress Hosting Plans",
+    "publishDate": "2024-03-04T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu15867188605667351697.jpg",
+    "title": "SiteBay WordPress Hosting Plans"
+  },
+  {
+    "excerpt": "Learn how to use SiteBay's git sync feature to easily sync your WordPress site without needing to run git commands.",
+    "href": "https://www.sitebay.org/docs/guides/introduction-to-git-sync/",
+    "lastModified": "2024-03-04T00:00:00Z",
+    "linkTitle": "Git Sync: Automating Your Site Syncing on SiteBay",
+    "publishDate": "2024-03-04T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu15867188605667351697.jpg",
+    "title": "Git Sync: Automating Your Site Syncing on SiteBay"
+  }
+]

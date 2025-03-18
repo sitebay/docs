@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SiteBay Guides &amp; Tutorials on sitebay Guides &amp; Tutorials</title>
+    <link>https://www.sitebay.org/docs/guides/</link>
+    <description>Recent content in SiteBay Guides &amp; Tutorials on sitebay Guides &amp; Tutorials</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 08 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.sitebay.org/docs/guides/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Get Started with SiteBay</title>
+      <link>https://www.sitebay.org/docs/guides/getting-started/</link>
+      <pubDate>Thu, 04 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.sitebay.org/docs/guides/getting-started/</guid>
+      <description>&lt;p&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;    &#xA;    &#xA;    &#xA;    &#xA;    &#xA;    &#xA;    &#xA;      &#xA;      &#xA;      &#xA;        &#xA;        &#xA;      &#xA;      &#xA;    &#xA;    &#xA;      &#xA;      &lt;div&#xA;  x-data=&#34;{ visible: false }&#34;&#xA;  x-intersect.once=&#34;visible = true&#34;&#xA;  data-testid=&#34;image-modal&#34;&gt;&#xA;  &lt;template x-if=&#34;!visible&#34;&gt;&#xA;    &#xA;    &lt;div class=&#34;w-full bg-gray-200 rounded-lg&#34;&gt;&#xA;      &lt;img&#xA;        src=&#34;https://www.sitebay.org/docs/docs/images/pix.gif&#34;&#xA;        style=&#34;width: 100%; aspect-ratio: 694 / 363;&#34; /&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/template&gt;&#xA;  &lt;template x-if=&#34;visible&#34;&gt;&#xA;    &lt;div x-data=&#34;{ open: false, hover:false, src: &#39;&#39; }&#34;&gt;&#xA;      &lt;figure&#xA;        class=&#34;w-full&#34;&#xA;        @click=&#34;open = ! open; $event.preventDefault();&#34;&#xA;        @keydown.escape.window=&#34;open = false&#34;&#xA;        @mouseenter=&#34;hover = true&#34;&#xA;        @mouseleave=&#34;hover = false&#34;&gt;&#xA;        &lt;div class=&#34;relative w-full text-brand cursor-pointer group&#34;&gt;&#xA;          &lt;div class=&#34;&#34;&gt;&#xA;            &lt;template x-if=&#34;$isMobile()&#34;&gt;&#xA;              &lt;img&#xA;                src=&#34;https://www.sitebay.org/docs/docs/guides/getting-started/getting-started_hu17461831091384868241.jpg&#34;&#xA;                alt=&#34;Getting Started with Site Bay&#34;&#xA;                title=&#34;Getting Started with Site Bay&#34;&#xA;                class=&#34;img-transparentw-full&#34;&#xA;                @load=&#34;$event.target.classList.remove(&#39;img-transparent&#39;)&#34; /&gt;&#xA;            &lt;/template&gt;&#xA;            &lt;template x-if=&#34;!$isMobile()&#34;&gt;&#xA;              &lt;img&#xA;                src=&#34;https://www.sitebay.org/docs/docs/guides/getting-started/getting-started_hu17681403227233584749.jpg&#34;&#xA;                alt=&#34;Getting Started with Site Bay&#34;&#xA;                title=&#34;Getting Started with Site Bay&#34;&#xA;                class=&#34;img-transparentw-full&#34;&#xA;                @load=&#34;$event.target.classList.remove(&#39;img-transparent&#39;)&#34; /&gt;&#xA;            &lt;/template&gt;&#xA;          &lt;/div&gt;&#xA;          &#xA;            &lt;div&#xA;              x-transition&#xA;              x-show=&#34;hover&#34;&#xA;              class=&#34;hide-if-no-js absolute bg-gray-100/25 p-3 rounded-full&#34;&#xA;              style=&#34;bottom: 2rem; right: 2rem;&#34;&gt;&#xA;              &lt;svg class=&#34;h-5 w-5&#34;&gt;&#xA;                &lt;use href=&#34;#icon--search&#34;&gt;&lt;/use&gt;&#xA;              &lt;/svg&gt;&#xA;            &lt;/div&gt;&#xA;          &#xA;        &lt;/div&gt;&#xA;      &lt;/figure&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/template&gt;&#xA;&lt;/div&gt;&#xA;&lt;noscript&gt;&#xA;  &#xA;&lt;/noscript&gt;&#xA;&#xA;    &#xA;  &lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Managing Your Staging Site with Code Server</title>
+      <link>https://www.sitebay.org/docs/guides/managing-your-staging-site-on-code-server/</link>
+      <pubDate>Thu, 04 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.sitebay.org/docs/guides/managing-your-staging-site-on-code-server/</guid>
+      <description>&lt;h2 id=&#34;code-server-edit-your-wordpress-staging-site-directly-in-the-browser&#34; &gt;Code Server: Edit Your WordPress Staging Site Directly in the Browser&lt;a href=&#34;#code-server-edit-your-wordpress-staging-site-directly-in-the-browser&#34; aria-label=&#34;Managing Your Staging Site with Code Server: Code Server: Edit Your WordPress Staging Site Directly in the Browser&#34;  class=&#34;group&#34;&gt;&lt;svg class=&#34;ml-2 inline-block w-5 h-5 text-brand group-hover:text-blue-400&#34;&gt;&lt;use href=&#34;#icon--hashtag&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Managing your WordPress staging site has never been easier, thanks to SiteBay&amp;rsquo;s integrated Code Server. This innovative feature transforms your browser into a fully equipped development environment, allowing effortless website customization without complicated setups.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>SiteBay Code Server</title>
+      <link>https://www.sitebay.org/docs/guides/site-bay-code-server-introduction/</link>
+      <pubDate>Thu, 04 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.sitebay.org/docs/guides/site-bay-code-server-introduction/</guid>
+      <description>&lt;h1 id=&#34;code-server-editing-your-wordpress-site-in-the-browser&#34; &gt;Code Server: Editing Your WordPress Site in the Browser&lt;a href=&#34;#code-server-editing-your-wordpress-site-in-the-browser&#34; aria-label=&#34;SiteBay Code Server: Code Server: Editing Your WordPress Site in the Browser&#34;  class=&#34;group&#34;&gt;&lt;svg class=&#34;ml-2 inline-block w-5 h-5 text-brand group-hover:text-blue-400&#34;&gt;&lt;use href=&#34;#icon--hashtag&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h1&gt;&lt;p&gt;Are you ready to revolutionize the way you work on your WordPress site? Meet SiteBay&amp;rsquo;s Code Server, a powerful tool that transforms your web browser into a fully functional instance of Visual Studio Code. This means you can edit your website&amp;rsquo;s code anytime, anywhere, right from your browser – no need to install software or manage complex development environments.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>SiteBay Writer&#39;s Formatting Tutorial</title>
+      <link>https://www.sitebay.org/docs/guides/sitebay-writers-formatting-tutorial/</link>
+      <pubDate>Mon, 15 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.sitebay.org/docs/guides/sitebay-writers-formatting-tutorial/</guid>
+      <description>&lt;p&gt;Yo! Ready to drop some knowledge and write for SiteBay? Cool. This is your guide to crafting tutorials that stand out. We&amp;rsquo;re here to help people master WordPress and share valuable insights. Got the skills? We&amp;rsquo;re all ears.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Search SiteBay support</title>
+      <link>https://www.sitebay.org/docs/guides/search/</link>
+      <pubDate>Sun, 14 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.sitebay.org/docs/guides/search/</guid>
+      <description>&lt;p&gt;Yo, welcome to the SiteBay support search page! Here&amp;rsquo;s the deal: whenever you&amp;rsquo;re feeling stuck or just curious about how to do something on SiteBay, this is where you wanna be. It&amp;rsquo;s like having a treasure map, but instead of gold, you&amp;rsquo;re hunting for knowledge.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Early Access: SiteBay Android App</title>
+      <link>https://www.sitebay.org/docs/guides/site-bay-android-app-introduction/</link>
+      <pubDate>Thu, 04 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.sitebay.org/docs/guides/site-bay-android-app-introduction/</guid>
+      <description>&lt;p&gt;Early Access: SiteBay Android App&lt;/p&gt;&#xA;&lt;p&gt;We&amp;rsquo;re thrilled to announce the early access release of the SiteBay Android App! This new mobile application brings the power of SiteBay&amp;rsquo;s WordPress management right to the palm of your hand.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Restoring Your WordPress Site on SiteBay with All-in-One WP Migration</title>
+      <link>https://www.sitebay.org/docs/guides/all-in-one-wp-migration-with-import/</link>
+      <pubDate>Mon, 04 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.sitebay.org/docs/guides/all-in-one-wp-migration-with-import/</guid>
+      <description>&lt;p&gt;Restoring your WordPress site on SiteBay can be smooth and straightforward, especially when you&amp;rsquo;re using the All-in-One WP Migration plugin. This tool simplifies the process of migrating your WordPress website, regardless of its size. Here’s how to get your site back up and running in no time.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

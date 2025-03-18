@@ -1,0 +1,65 @@
+[
+  {
+    "excerpt": "Discover how to harness PostHog dashboards for comprehensive insights into your WordPress site visitors on SiteBay, optimizing your content strategy with data-driven decisions.",
+    "href": "https://www.sitebay.org/docs/products/posthog/dashboards/",
+    "lastModified": "2024-04-30T00:00:00Z",
+    "linkTitle": "Maximizing WordPress Insights with PostHog Dashboards on SiteBay",
+    "publishDate": "2024-04-30T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu15867188605667351697.jpg",
+    "title": "Maximizing WordPress Insights with PostHog Dashboards on SiteBay"
+  },
+  {
+    "excerpt": "Learn how to create and manage a staging site for testing WordPress changes with SiteBay’s powerful WordPress hosting on Kubernetes, featuring PostHog analytics and Grafana dashboards.",
+    "href": "https://www.sitebay.org/docs/guides/sitebay-dashboard-staging-site/",
+    "lastModified": "2024-04-30T00:00:00Z",
+    "linkTitle": "Mastering Staging Sites on SiteBay’s WordPress Hosting",
+    "publishDate": "2024-04-30T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/guides/sitebay-dashboard-staging-site/GNUMakeTutorial-LearntoAutomateTasks_hu17121084185025708525.jpg",
+    "title": "Mastering Staging Sites on SiteBay’s WordPress Hosting"
+  },
+  {
+    "excerpt": "Discover the power of open source software with SiteBay’s WordPress hosting, using PostHog, recordings, and Grafana for optimal performance and flexibility.",
+    "href": "https://www.sitebay.org/docs/guides/open-source-software-benefits/",
+    "lastModified": "2024-04-24T00:00:00Z",
+    "linkTitle": "Embracing the Advantages of Open Source Software with SiteBay",
+    "publishDate": "2024-04-24T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/guides/open-source-software-benefits/OpenSource_hu15399116716668372881.jpg",
+    "title": "Embracing the Advantages of Open Source Software with SiteBay"
+  },
+  {
+    "excerpt": "Unlock the full potential of PostHog Analytics to understand and engage your audience effectively.",
+    "href": "https://www.sitebay.org/docs/guides/what-is-posthog/",
+    "lastModified": "2024-04-18T00:00:00Z",
+    "linkTitle": "What is PostHog",
+    "publishDate": "2024-04-18T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/guides/what-is-posthog/PostHog_hu16012646511183142507.jpg",
+    "title": "What is PostHog"
+  },
+  {
+    "excerpt": "Understanding \"People\" in PostHog Analytics",
+    "href": "https://www.sitebay.org/docs/products/posthog/persons/",
+    "lastModified": "2024-04-18T00:00:00Z",
+    "linkTitle": "Understanding \"People\" in PostHog Analytics",
+    "publishDate": "2024-04-18T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu15867188605667351697.jpg",
+    "title": "Understanding \"People\" in PostHog Analytics"
+  },
+  {
+    "excerpt": "Use data management to organize events that come into SiteBay. Reduce noise, clarify usage, and help collaborators get the most value from your data. Events Actions Properties Annotations History Database",
+    "href": "https://www.sitebay.org/docs/products/posthog/data-management/",
+    "lastModified": "2024-04-04T00:00:00Z",
+    "linkTitle": "Mastering Data Management with PostHog on SiteBay",
+    "publishDate": "2024-04-04T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu15867188605667351697.jpg",
+    "title": "Mastering Data Management with PostHog on SiteBay"
+  },
+  {
+    "excerpt": "Use data management to organize events that come into SiteBay. Reduce noise, clarify usage, and help collaborators get the most value from your data. Events Actions Properties Annotations History Database",
+    "href": "https://www.sitebay.org/docs/guides/posthog-data-management/",
+    "lastModified": "2024-04-04T00:00:00Z",
+    "linkTitle": "Mastering Data Management with PostHog on SiteBay",
+    "publishDate": "2024-04-04T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu15867188605667351697.jpg",
+    "title": "Mastering Data Management with PostHog on SiteBay"
+  }
+]

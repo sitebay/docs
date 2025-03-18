@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vulnerability Detection on sitebay Guides &amp; Tutorials</title>
+    <link>https://www.sitebay.org/docs/guides/security/vulnerabilities/</link>
+    <description>Recent content in Vulnerability Detection on sitebay Guides &amp; Tutorials</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 29 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.sitebay.org/docs/guides/security/vulnerabilities/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>scanning-your-wordpress-site-for-malware</title>
+      <link>https://www.sitebay.org/docs/guides/scanning-your-wordpress-site-for-malware/</link>
+      <pubDate>Mon, 29 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.sitebay.org/docs/guides/scanning-your-wordpress-site-for-malware/</guid>
+      <description>&lt;p&gt;Yo! Noticed your site&amp;rsquo;s lagging or just curious about who&amp;rsquo;s dropping by? SiteBay hooks you up with all the essentials for monitoring and logging your site&amp;rsquo;s traffic. Think of it as setting up a surveillance system for your online spot.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

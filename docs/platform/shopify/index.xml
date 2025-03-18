@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>sitebay Guides &amp; Tutorials</title>
+    <link>https://www.sitebay.org/docs/platform/shopify/</link>
+    <description>Recent content on sitebay Guides &amp; Tutorials</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 26 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.sitebay.org/docs/platform/shopify/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SiteBay Platform</title>
+      <link>https://www.sitebay.org/docs/platform/shopify/how-to-use-git-sync/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.sitebay.org/docs/platform/shopify/how-to-use-git-sync/</guid>
+      <description>&lt;p&gt;&amp;quot;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How Git Sync Works With PIT Machine</title>
+      <link>https://www.sitebay.org/docs/platform/shopify/how-git-sync-works-with-point-in-time-machine/</link>
+      <pubDate>Tue, 26 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.sitebay.org/docs/platform/shopify/how-git-sync-works-with-point-in-time-machine/</guid>
+      <description>&lt;p&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &lt;img src=&#34;https://www.sitebay.org/docs/docs/platform/shopify/how-git-sync-works-with-point-in-time-machine/how-git-sync-works-with-point-in-time-machine.png&#34; alt=&#34;How to Use SiteBays Git Sync&#34; title=&#34;How to Use SiteBay&amp;#39;s Git Sync&#34; width=&#34;500&#34; height=&#34;500&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Do you have a WordPress site set up with our Bi-Directional Git Sync? It also works with our Point-in-Time machine to restore your database and files to any point, down to the minute.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://www.sitebay.org/docs/platform/shopify/best-ide-wordpress/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.sitebay.org/docs/platform/shopify/best-ide-wordpress/</guid>
+      <description>&lt;p&gt;&amp;ldquo;To be written&amp;rdquo;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

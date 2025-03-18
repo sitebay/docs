@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mastering PHP on SiteBay on sitebay Guides &amp; Tutorials</title>
+    <link>https://www.sitebay.org/docs/guides/development/php/</link>
+    <description>Recent content in Mastering PHP on SiteBay on sitebay Guides &amp; Tutorials</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 04 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.sitebay.org/docs/guides/development/php/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A Beginner&#39;s Tutorial to PHP for WordPress Development on SiteBay</title>
+      <link>https://www.sitebay.org/docs/guides/beginners-tutorial-to-php-wordpress-developers/</link>
+      <pubDate>Thu, 04 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.sitebay.org/docs/guides/beginners-tutorial-to-php-wordpress-developers/</guid>
+      <description>&lt;p&gt;external_resources:&lt;/p&gt;&#xA;&lt;p&gt;&amp;lsquo;The WordPress Codex&amp;rsquo;&#xA;aliases: [&amp;rsquo;/development/php/beginners-tutorial-to-php/&amp;rsquo;]&#xA;Introduction&lt;/p&gt;&#xA;&lt;p&gt;PHP isn&amp;rsquo;t just any programming language; it&amp;rsquo;s the engine behind WordPress, powering all those dynamic features on your SiteBay hosted site. Imagine PHP as the hidden wizard, orchestrating every detail to bring your digital dreams to life.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Pros and Cons of SiteBay</title>
+      <link>https://www.sitebay.org/docs/guides/pros-and-cons-of-site-bay/</link>
+      <pubDate>Thu, 04 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.sitebay.org/docs/guides/pros-and-cons-of-site-bay/</guid>
+      <description>&lt;p&gt;SiteBay has emerged as a key player in the realm of WordPress hosting, especially for those seeking the power of Kubernetes combined with the insights of Posthog analytics and the visual prowess of Grafana dashboards. As with any technology, there are both shining benefits and considerations to keep in mind. This guide aims to shine a light on both sides of the coin to help you make an informed decision.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

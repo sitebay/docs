@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Guides on sitebay Guides &amp; Tutorials</title>
+    <link>https://www.sitebay.org/docs/products/platform/get-started/guides/</link>
+    <description>Recent content in Guides on sitebay Guides &amp; Tutorials</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 25 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.sitebay.org/docs/products/platform/get-started/guides/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Grant a Developer Access a WordPress Site or SiteBay Account</title>
+      <link>https://www.sitebay.org/docs/products/platform/get-started/guides/developer-access/</link>
+      <pubDate>Fri, 26 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.sitebay.org/docs/products/platform/get-started/guides/developer-access/</guid>
+      <description>&lt;p&gt;One of the most powerful features of SiteBay&amp;rsquo;s unmanaged service is the amount of control SiteBay users have over their account and the software installed on their systems. If you&amp;rsquo;re a business owner that does not have expertise with installing or maintaining software on Linux, or if you do have experience with Linux but don&amp;rsquo;t have the time to set up a new server, then contracting with a developer or administrator is a popular way to get your services up and running.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to Choose a Data Center</title>
+      <link>https://www.sitebay.org/docs/products/platform/get-started/guides/choose-a-data-center/</link>
+      <pubDate>Wed, 24 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.sitebay.org/docs/products/platform/get-started/guides/choose-a-data-center/</guid>
+      <description>&lt;p&gt;If your visitors are in North America choose Washington (state), otherwise choose EU (hosted in Frankfurt)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Resell SiteBay Services</title>
+      <link>https://www.sitebay.org/docs/products/platform/get-started/guides/resell-services/</link>
+      <pubDate>Wed, 24 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.sitebay.org/docs/products/platform/get-started/guides/resell-services/</guid>
+      <description>&lt;h2 id=&#34;referral-program&#34; &gt;Referral Program&lt;a href=&#34;#referral-program&#34; aria-label=&#34;Resell SiteBay Services: Referral Program&#34;  class=&#34;group&#34;&gt;&lt;svg class=&#34;ml-2 inline-block w-5 h-5 text-brand group-hover:text-blue-400&#34;&gt;&lt;use href=&#34;#icon--hashtag&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;As an alternative to reselling our services, you can participate in our referral program. See the &lt;a&#xA;    href=&#34;https://www.sitebay.org/referral-program/&#34;&#xA;    &#xA;      target=&#34;_blank&#34;&#xA;    &#xA;    &gt;Referral Program&lt;/a&#xA;  &gt; page on our website or the &lt;a&#xA;    href=&#34;https://www.sitebay.org/docs/docs/products/platform/billing/guides/referral-program/&#34;&#xA;    &#xA;    &gt;Referral Program&lt;/a&#xA;  &gt; section within our billing guide for more details.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Network Transfer Usage and Costs</title>
+      <link>https://www.sitebay.org/docs/products/platform/get-started/guides/network-transfer/</link>
+      <pubDate>Sun, 21 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.sitebay.org/docs/products/platform/get-started/guides/network-transfer/</guid>
+      <description>&lt;h2 id=&#34;overview&#34; &gt;Overview&lt;a href=&#34;#overview&#34; aria-label=&#34;Network Transfer Usage and Costs: Overview&#34;  class=&#34;group&#34;&gt;&lt;svg class=&#34;ml-2 inline-block w-5 h-5 text-brand group-hover:text-blue-400&#34;&gt;&lt;use href=&#34;#icon--hashtag&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Network transfer&lt;/strong&gt; is the exchange of data between two computers over the public internet or a private network. Other providers and publications may also refer to this as data transfer, ingress/egress, and bandwidth.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Subscribe to SiteBay Status Updates</title>
+      <link>https://www.sitebay.org/docs/products/platform/get-started/guides/status-page/</link>
+      <pubDate>Sat, 20 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.sitebay.org/docs/products/platform/get-started/guides/status-page/</guid>
+      <description>&lt;p&gt;The &lt;a&#xA;    href=&#34;https://status.sitebay.org/&#34;&#xA;    &#xA;      target=&#34;_blank&#34;&#xA;    &#xA;    &gt;Status Page&lt;/a&#xA;  &gt; provides real-time system status and maintenance updates via email. All customers are encouraged to subscribe to status notifications to stay up-to-date with any events that may impact our services. When you sign up for status updates, you can fine-tune which service updates you receive. These different topic areas are referred to as &lt;em&gt;components&lt;/em&gt;. If, for example, all your services are restricted to the Newark data center, you may only wish to subscribe to the Newark component.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Custom Domain Email on iMail Gmail for Free</title>
+      <link>https://www.sitebay.org/docs/products/platform/get-started/guides/custom-email/</link>
+      <pubDate>Thu, 04 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.sitebay.org/docs/products/platform/get-started/guides/custom-email/</guid>
+      <description>&lt;h1 id=&#34;custom-domain-email-on-gmail-or-imail&#34; &gt;Custom Domain Email on Gmail or iMail&lt;a href=&#34;#custom-domain-email-on-gmail-or-imail&#34; aria-label=&#34;Custom Domain Email on iMail Gmail for Free: Custom Domain Email on Gmail or iMail&#34;  class=&#34;group&#34;&gt;&lt;svg class=&#34;ml-2 inline-block w-5 h-5 text-brand group-hover:text-blue-400&#34;&gt;&lt;use href=&#34;#icon--hashtag&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h1&gt;&lt;p&gt;In today&amp;rsquo;s digital world, having a custom email address with your own domain can boost your personal or business brand. Fortunately, setting up an email from your domain to be sent and received through popular platforms like Gmail and Apple&amp;rsquo;s iCloud Mail (iMail) is straightforward. In this guide, we&amp;rsquo;re going to walk you through the process for both services.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Help &amp; Support</title>
+      <link>https://www.sitebay.org/docs/products/platform/get-started/guides/support/</link>
+      <pubDate>Thu, 14 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.sitebay.org/docs/products/platform/get-started/guides/support/</guid>
+      <description>&lt;p&gt;SiteBay provides a variety of support options so that you get the answers you need, in the timeframe you need them, and in the way that works best for you &amp;ndash; all at no cost. SiteBay users have access to all of our support resources, including our extensive documentation library, our community questions site, and our award-winning Customer Support team - offering &lt;em&gt;self-service&lt;/em&gt; and &lt;em&gt;live support&lt;/em&gt; whenever you need it. This guide aims to point you in the right direction for whichever issue you may need assistance resolving.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

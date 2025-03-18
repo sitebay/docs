@@ -1,0 +1,47 @@
+[
+  {
+    "excerpt": "Explore why SiteBay is your go-to platform for WordPress development.",
+    "href": "https://www.sitebay.org/docs/guides/why-use-sitebay-for-development/",
+    "lastModified": "2024-04-04T00:00:00Z",
+    "linkTitle": "Why Choose SiteBay for WordPress Development?",
+    "publishDate": "2024-04-04T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu15867188605667351697.jpg",
+    "title": "Why Choose SiteBay for WordPress Development?"
+  },
+  {
+    "excerpt": "Learn how to use code-server, SiteBay’s integrated development environment (IDE), for editing WordPress files directly within your browser.",
+    "href": "https://www.sitebay.org/docs/guides/use-code-server-to-edit-files-in-sitebay/",
+    "lastModified": "2024-04-04T00:00:00Z",
+    "linkTitle": "Effortlessly Edit WordPress Files with SiteBay’s code-server",
+    "publishDate": "2024-04-04T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/guides/use-code-server-to-edit-files-in-sitebay/CodeServer_hu14692191907762720911.jpg",
+    "title": "Effortlessly Edit WordPress Files with SiteBay’s code-server"
+  },
+  {
+    "excerpt": "How to use Git Sync to develop your WordPress site from anywhere.",
+    "href": "https://www.sitebay.org/docs/platform/git-sync/how-to-use-sitebay-git-sync/",
+    "lastModified": "2024-03-26T00:00:00Z",
+    "linkTitle": "How to Use SiteBay's Git Sync",
+    "publishDate": "2024-03-26T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/platform/git-sync/how-to-use-sitebay-git-sync/how-to-use-sitebay-git-sync_hu1491291365618061894.jpg",
+    "title": "How to Use SiteBay's Git Sync"
+  },
+  {
+    "excerpt": "Learn how SiteBay's Point-in-Time Machine interacts with Git Sync",
+    "href": "https://www.sitebay.org/docs/platform/shopify/how-git-sync-works-with-point-in-time-machine/",
+    "lastModified": "2024-03-26T00:00:00Z",
+    "linkTitle": "How Git Sync Works With PIT Machine",
+    "publishDate": "2024-03-26T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/platform/shopify/how-git-sync-works-with-point-in-time-machine/how-git-sync-works-with-point-in-time-machine_hu1491291365618061894.jpg",
+    "title": "How Git Sync Works With PIT Machine"
+  },
+  {
+    "excerpt": "Learn how SiteBay's Point-in-Time Machine interacts with Git Sync",
+    "href": "https://www.sitebay.org/docs/platform/git-sync/how-git-sync-works-with-point-in-time-machine/",
+    "lastModified": "2024-03-26T00:00:00Z",
+    "linkTitle": "How Git Sync Works With PIT Machine",
+    "publishDate": "2024-03-26T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/platform/git-sync/how-git-sync-works-with-point-in-time-machine/how-git-sync-works-with-point-in-time-machine_hu1491291365618061894.jpg",
+    "title": "How Git Sync Works With PIT Machine"
+  }
+]

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sitebay-Management on sitebay Guides &amp; Tutorials</title>
+    <link>https://www.sitebay.org/docs/bundles/sitebay-management/</link>
+    <description>Recent content in Sitebay-Management on sitebay Guides &amp; Tutorials</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 17 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.sitebay.org/docs/bundles/sitebay-management/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Navigating Your SiteBay Dashboard</title>
+      <link>https://www.sitebay.org/docs/guides/sitebay-dashboard-overview/</link>
+      <pubDate>Sun, 17 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.sitebay.org/docs/guides/sitebay-dashboard-overview/</guid>
+      <description>&lt;p&gt;Welcome to your SiteBay Dashboard, your one-stop shop for managing your WordPress hosting on Kubernetes. Whether you&amp;rsquo;re setting up your first site or managing a network of WordPress sites, the SiteBay Dashboard provides intuitive access to your sites&amp;rsquo; performance, security settings, and much more.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

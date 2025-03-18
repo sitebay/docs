@@ -1,0 +1,20 @@
+[
+  {
+    "excerpt": "This guide discusses guidelines for quickly transferring a site",
+    "href": "https://www.sitebay.org/docs/guides/transferring-a-wordpress-site-to-a-new-server/",
+    "lastModified": "2024-04-25T00:00:00Z",
+    "linkTitle": "Transfer a WordPress Site to SiteBay's WordPress Hosting",
+    "publishDate": "2024-04-25T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu15867188605667351697.jpg",
+    "title": "Transfer a WordPress Site to SiteBay's WordPress Hosting"
+  },
+  {
+    "excerpt": "Get to know SiteBay, the ultimate platform for WordPress hosting on Kubernetes, complete with analytics, performance monitoring, and more.",
+    "href": "https://www.sitebay.org/docs/guides/what-is-sitebay/",
+    "lastModified": "2024-03-13T00:00:00Z",
+    "linkTitle": "What is SiteBay?",
+    "publishDate": "2024-03-13T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu15867188605667351697.jpg",
+    "title": "What is SiteBay?"
+  }
+]

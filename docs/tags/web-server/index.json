@@ -1,0 +1,20 @@
+[
+  {
+    "excerpt": "How to set up a subdomain or subdirectory and integrate it with your WordPress site.",
+    "href": "https://www.sitebay.org/docs/guides/set-up-subdomain-or-subdirectory-wordpress/",
+    "lastModified": "2024-04-17T00:00:00Z",
+    "linkTitle": "Set up a Subdomain or Path for your WordPress Site",
+    "publishDate": "2024-04-13T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu15867188605667351697.jpg",
+    "title": "Set up a Subdomain or Path for your WordPress Site"
+  },
+  {
+    "excerpt": "Combine the capabilities of the Cloudflare and SiteBay platforms.",
+    "href": "https://www.sitebay.org/docs/guides/understanding-cloudflares-cdn/",
+    "lastModified": "2024-04-13T00:00:00Z",
+    "linkTitle": "Understanding Cloudflare's CDN",
+    "publishDate": "2024-04-13T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu15867188605667351697.jpg",
+    "title": "Understanding Cloudflare's CDN"
+  }
+]
