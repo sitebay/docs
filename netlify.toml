@@ -46,15 +46,15 @@ for = "/webfonts/*"
 [headers.values]
 Cache-Control = "public, max-age=604800"
 
-[[headers]]
-  for = "/*"
-
   [headers.values]
-    X-Frame-Options = "SAMEORIGIN"
-    X-XSS-Protection = "1; mode=block"
-    X-Content-Type-Options = "nosniff"
-    Referrer-Policy = "no-referrer"
-    Content-Security-Policy = "default-src * 'unsafe-inline' 'unsafe-eval' data: blob:; worker-src 'self' blob:; script-src 'self' 'unsafe-inline' 'unsafe-eval' *.googletagmanager.com *.cloudflareinsights.com *.trustarc.com *.weglot.com *.sitebay.org; connect-src 'self' *.sitebay.org; style-src 'self' 'unsafe-inline'; frame-ancestors https://my.sitebay.org"
+    Content-Security-Policy = """
+      default-src * 'unsafe-inline' 'unsafe-eval' data: blob:;
+      worker-src * blob: data:;
+      script-src * 'unsafe-inline' 'unsafe-eval';
+      style-src * 'unsafe-inline';
+      connect-src *;
+      frame-ancestors *;
+    """
 
 [[redirects]]
 from = "/docs/blog/*"
