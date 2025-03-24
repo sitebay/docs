@@ -13,7 +13,7 @@
       <link>https://www.sitebay.org/docs/guides/securing-your-wordpress/</link>
       <pubDate>Wed, 17 Apr 2024 00:00:00 +0000</pubDate>
       <guid>https://www.sitebay.org/docs/guides/securing-your-wordpress/</guid>
-      <description>&lt;p&gt;Secure your site against those no-good, unauthorized accesses.&lt;/p&gt;&#xA;&#xA;&lt;h2 id=&#34;http-password-authentication&#34; &gt;HTTP Password Authentication&lt;a href=&#34;#http-password-authentication&#34; aria-label=&#34;How to Secure Your WordPress: HTTP Password Authentication&#34;  class=&#34;group&#34;&gt;&lt;svg class=&#34;ml-2 inline-block w-5 h-5 text-brand group-hover:text-blue-400&#34;&gt;&lt;use href=&#34;#icon--hashtag&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;We have tools to help lock down your WordPress site on SiteBay: HTTP Password Auth. These bad boys let you decide who gets in and who gets bounced, ensuring your site stays safe and sound.&lt;/p&gt;</description>
+      <description>&lt;h1 id=&#34;bulletproof-your-wordpress&#34; &gt;Bulletproof Your WordPress&lt;a href=&#34;#bulletproof-your-wordpress&#34; aria-label=&#34;How to Secure Your WordPress: Bulletproof Your WordPress&#34;  class=&#34;group&#34;&gt;&lt;svg class=&#34;ml-2 inline-block w-5 h-5 text-brand group-hover:text-blue-400&#34;&gt;&lt;use href=&#34;#icon--hashtag&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h1&gt;&lt;p&gt;In today&amp;rsquo;s digital landscape, protecting your WordPress site is non-negotiable. This ultimate guide provides you with cutting-edge strategies to secure your site on SiteBay, ensuring that hackers are kept at bay and your data remains safe.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

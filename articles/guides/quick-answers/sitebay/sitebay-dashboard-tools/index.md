@@ -41,4 +41,3 @@ Activate Cloudflare Developer Mode directly from the dashboard to temporarily by
 ### Clear Cache
 
 Effortlessly clear your site's cache from the dashboard. This is essential for ensuring that your visitors see the most recent version of your site, especially after making updates or changes to your content.
-

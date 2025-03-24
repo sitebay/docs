@@ -22,16 +22,31 @@ title: "SiteBay Trailer"
     ></iframe>
 </div>
 <!-- END_VERBATIM -->
-This video provides a quick introduction to how you can improve your Shopify store's SEO by linking your Shopify blog to your WordPress site using the SiteBay Shopify app.
 
-Here's how it works:
 
-First, you'll need to install the [SiteBay Shopify app](https://apps.shopify.com/sitebay) [00:00:06]. Once installed, you'll enable a snippet by clicking the slider in your theme settings and saving your changes [00:00:06]. After that, click the "set blog URL" button to return to SiteBay [00:00:13].
+#### The Problem 🤔
+- Fragmented online presence
+- Limited SEO opportunities
+- Missed potential customer touchpoints
 
-SiteBay allows you to connect your Shopify store with your WordPress blog by following a few simple steps [00:00:43]. Once connected, your WordPress content will be accessible at the `/ablog` path on your Shopify store [00:00:20].
+#### The SiteBay Solution 
+- **Seamless Platform Integration**
+- **Expanded Content Reach**
+- **Advanced User Tracking**
 
-Linking your blog in this way enhances your SEO, making it easier for customers to find you. This can lead to improved search engine rankings, increased traffic, and ultimately, more potential sales [00:00:29].
+###  Step-by-Step Integration Magic
 
-As a bonus, SiteBay also offers session recordings for both Shopify and WordPress. This feature allows you to understand user behavior on your sites and optimize the user experience [00:00:58].
+#### 1. Install the SiteBay Shopify App [00:00:06]
+- Quick, one-click installation
+- Zero technical expertise required
+- Compatible with all Shopify themes
 
-By using SiteBay to connect your Shopify blog to your WordPress site, you can unlock significant SEO benefits and gain valuable insights into your customers' interactions with your store.
+#### 2. Enable Blog Integration [00:00:13]
+- Toggle the magic switch in theme settings
+- Instantly connect WordPress and Shopify
+- Unlock cross-platform content strategy
+
+#### 3. Automatic Blog Routing [00:00:20]
+- WordPress content accessible via `/a/blog`
+- No complex redirects or coding
+- Smooth, intuitive user experience

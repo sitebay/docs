@@ -24,9 +24,54 @@ title: "SiteBay Features"
 
 **Video Summary:**
 
-This video demonstrates how to use SiteBay's bidirectional Git sync feature to manage a WordPress site. Key steps include:
+This video demonstrates how to use SiteBay's bidirectional Git sync feature to manage a WordPress site. 
 
-* **Setting up Git Sync:** Connecting a Git repository to SiteBay, allowing automatic synchronization of the main branch with the live WordPress site [00:00:09], [00:00:33], [00:00:49].
-* **Restoring a WordPress Site:** Using WP All in One Migration via the Code Server in the SiteBay dashboard to restore a backup [00:01:11], [00:01:26].
-* **Making Changes and Syncing:** Changes made in the Git repository are automatically reflected on the WordPress site [00:01:42].
-* **Using a Staging Site:** Creating a staging branch and site for testing changes before merging them to the live site [00:01:59], [00:02:13], [00:02:32].
+###  What is Git Sync and Why Should You Care?
+
+Git Sync is more than just a feature – it's a complete transformation of how you manage, develop, and deploy WordPress sites. By creating a direct, bidirectional connection between your Git repository and your live WordPress site, SiteBay eliminates the traditional barriers of web development.
+
+#### Key Superpowers 
+- **Instant Synchronization:** Your code changes reflect in real-time
+- **Version Control Magic:** Track every single change
+- **Risk-Free Experimentation:** Test without breaking your live site
+
+###  The Git Sync Process: A Step-by-Step Breakdown
+
+#### 1. Connect & Sync 
+- **Repository Connection:** Link your GitHub, GitLab, or Bitbucket repo
+- **Automatic Synchronization:** Main branch mirrors your live WordPress site
+- **Zero Manual Uploads:** Say goodbye to FTP and manual file transfers
+
+#### 2. Development Workflow Reimagined 
+- **Staging Sites:** Create isolated environments for testing
+- **Branching Strategy:** Develop features without risking live site stability
+- **Collaborative Development:** Multiple team members, zero conflicts
+
+###  Advanced Features That Will Blow Your Mind
+
+#### Backup & Restore
+- **WP All-in-One Migration:** Seamless backup and restoration
+- **Code Server Integration:** Manage backups directly from the dashboard
+- **Instant Recovery:** Rollback to previous versions in seconds
+
+#### Staging Site Mastery 🧪
+- **One-Click Staging Creation:** Spin up test environments instantly
+- **Safe Experimentation:** Test changes without impacting live site
+- **Smooth Deployment:** Merge tested features with a single click
+
+###  Real-World Scenarios: Git Sync in Action
+
+1. **Feature Development**
+   - Create a new branch
+   - Develop and test in staging
+   - Merge when ready – automatically deployed!
+
+2. **Client Website Updates**
+   - Make changes in a protected environment
+   - Review and approve before going live
+   - Maintain complete transparency
+
+3. **Emergency Fixes**
+   - Quickly create hotfix branches
+   - Deploy critical updates without downtime
+   - Maintain a clean, trackable history

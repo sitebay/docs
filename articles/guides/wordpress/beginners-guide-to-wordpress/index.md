@@ -28,7 +28,7 @@ In this tutorial you will learn how to [Set up your first WordPress Site](#set-u
 {{< note >}}
 
 If you don't already have a SiteBay account be sure to make one and get 20% off for a limited time using our [Intro Offer here.](https://my.sitebay.org/signup?promo=INTRO)
-Then follow our [WordPress site creation tutorial](/support/tutorials/getting-started/) to get a site up and running.
+Then follow our [WordPress site creation tutorial](/docs/guides/getting-started/) to get a site up and running.
 {{< /note >}}
 
 First, navigate to your site's WordPress admin dashboard. Enter your site's url in your browser's address bar and add /wp-admin/ to the end of the url.
@@ -92,4 +92,4 @@ Congratulations, you have successfully added or changed your WordPress site's th
 
 ## Next Steps
 
-To add extra functionality, look at our [Installing Plugins Tutorial](/support/tutorials/getting-started/)
+To add extra functionality, look at our [Installing Plugins Tutorial](/docs/guides/getting-started/)

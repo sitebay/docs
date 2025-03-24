@@ -35,4 +35,3 @@ For Non-SiteBay Users
 
 If you're not using SiteBay for your website hosting, you can still integrate Cloudflare and your email service of choice by ensuring your website's DNS settings are appropriately configured in your hosting platform. The principle remains the same: leverage Cloudflare’s DNS management to route your domain's email traffic to Gmail or iMail, enabling a custom domain email setup.
 For SiteBay Users
-

@@ -55,7 +55,6 @@ Content-Security-Policy = """
   worker-src * blob: data:;
   script-src * 'unsafe-inline' 'unsafe-eval';
   connect-src 'self' https://*.sitebay.org https://*.algolia.net;
-  connect-src *;
   frame-ancestors *;
 """
 

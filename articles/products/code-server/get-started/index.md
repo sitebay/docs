@@ -13,7 +13,7 @@ tags: ["sitebay platform","kubernetes","My SiteBay"]
 
 ## Using Code Server (VSCode) on My SiteBay: A Simple Guide
 
-Ever thought about using your favorite editor, VSCode, directly on your website? With My SiteBay, it's not just a thought anymore; it's a reality! And yes, it's as cool as it sounds. 😎
+Ever thought about using your favorite editor, VSCode, directly on your website? With My SiteBay, it's not just a thought anymore; it's a reality! And yes, it's as cool as it sounds. 
 
 ## What is Code Server?
 

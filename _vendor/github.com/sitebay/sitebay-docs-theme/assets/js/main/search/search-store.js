@@ -120,7 +120,7 @@ export function newSearchStore(searchConfig, params, Alpine) {
 		},
 
 		docsearchLink: function (ds) {
-			return `https://docsearch.akamai.com/s/global-search/${this.query.lndq}?s=Akamai%20TechDocs&ds=${ds}`;
+			return `https://docsearch.sitebay.org/s/global-search/${this.query.lndq}?s=Akamai%20TechDocs&ds=${ds}`;
 		},
 
 		shouldShowHydratedExplorer: function () {

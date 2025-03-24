@@ -42,4 +42,3 @@ You can manage your payment methods, including credit cards, from the Manage Pla
 ## Can I make a payment in another currency?
 
 We accept payments in USD, CAD, and EUR. If you wish to pay in another currency, you must use a credit card or other form of payment that can process the currency exchange on your behalf.
-

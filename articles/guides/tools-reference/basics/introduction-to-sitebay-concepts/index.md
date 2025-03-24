@@ -12,6 +12,7 @@ title: 'Introduction to SiteBay Concepts'
 authors: ["SiteBay"]
 contributors: ["SiteBay"]
 ---
+
 # Dive Into SiteBay: Your WordPress Hosting Powerhouse
 
 Welcome to SiteBay, where WordPress hosting meets Kubernetes magic, analytics by Posthog, and more. If you thought driving an automatic car was easy, wait until you get the hang of SiteBay. It's like having an automatic car with a self-driving feature. This guide will get you cozy with the essentials, making you a WordPress wizard in no time.

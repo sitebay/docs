@@ -48,4 +48,3 @@ Keep your account administrator credentials secret. When hiring an external indi
 1. Log in to the [My SiteBay](https://my.sitebay.org/) and click [**Users and Permissions**](https://my.sitebay.org/account/users) in the **Account** tab. You may be prompted to reauthenticate your password.
 
 1. Locate the user in the Username column, and click the three dots and select **Delete** to remove the user. Click **Delete** to confirm deletion.
-

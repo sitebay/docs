@@ -2,4 +2,3 @@
 title: Template
 slug: template
 ---
-

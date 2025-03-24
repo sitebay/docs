@@ -53,4 +53,3 @@ username=catlover&password=paws
 
 
 This is like filling out a signup form with your username and password. You're giving information to the server, asking it to create an account for you.
-

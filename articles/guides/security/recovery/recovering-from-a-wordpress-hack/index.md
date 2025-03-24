@@ -16,14 +16,20 @@ published: 2024-04-26
 title: Recovering from a WordPress Hack
 ---
 
-Got hit by a WordPress hack? Keep calm and carry on! SiteBay's got your back with tools designed to restore your site's glory days, pre-hack.
+# Bounce Back: Recover Your WordPress Site Like a Pro
 
-Here's a step-by-step guide to fighting back with SiteBay's Point-in-Time Machine (PIT Machine), a literal lifesaver for your site:
+Has your WordPress site been hit by a hack? Don't panic – our ultimate recovery guide will help you restore your site to its former glory in no time.
 
-Access Your SiteBay Dashboard: First thing, log in with your email and password.
-Locate the PIT Machine: Dive into your dashboard and click on the PIT Machine tab for your site.
-Choose Your Moment: Pick the exact moment before the hack occurred using the calendar and timeline.
-Initiate Restoration: Click the restore button to start the magic. The process might take a minute, depending on your site’s size.
-Site Check-Up: Once the restoration is complete, your site will revert to its pre-hack state. Double-check to ensure everything’s smooth and secure.
+## Step-by-Step Recovery Process
 
-With the PIT Machine, SiteBay turns the tide on WordPress hacks, making recovery smooth and straightforward. Hit the restore button and watch your site bounce back stronger!
+1. **Access Your Dashboard:** Log in with your credentials to reach your SiteBay dashboard.
+2. **Locate the PIT Machine:** Navigate to the Point-in-Time (PIT) Machine tab to review available restoration points.
+3. **Select Your Restoration Point:** Choose the exact moment before the hack occurred using the intuitive calendar and timeline.
+4. **Initiate the Restore:** Click the restore button to begin the recovery process. The duration may vary based on your site's size.
+5. **Perform a Site Check-Up:** Once the process completes, verify that your site has been successfully restored and all functionalities are intact.
+
+## Why Choose SiteBay's Recovery Tools?
+
+- **Fast & Reliable:** Our PIT Machine quickly reverts your site to a secure, pre-hack state.
+- **Data Protection:** Secure your data by restoring from a clean backup, minimizing the risk of lingering vulnerabilities.
+- **User-Friendly Process:** Follow clear, actionable steps to get your site back online with minimal downtime.

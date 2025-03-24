@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>System Recovery on sitebay Guides &amp; Tutorials</title>
+    <title>WordPress Recovery: Bounce Back from Hacks Like a Pro on sitebay Guides &amp; Tutorials</title>
     <link>https://www.sitebay.org/docs/guides/security/recovery/</link>
-    <description>Recent content in System Recovery on sitebay Guides &amp; Tutorials</description>
+    <description>Recent content in WordPress Recovery: Bounce Back from Hacks Like a Pro on sitebay Guides &amp; Tutorials</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 26 Apr 2024 00:00:00 +0000</lastBuildDate>
@@ -13,7 +13,7 @@
       <link>https://www.sitebay.org/docs/guides/recovering-from-a-wordpress-hack/</link>
       <pubDate>Fri, 26 Apr 2024 00:00:00 +0000</pubDate>
       <guid>https://www.sitebay.org/docs/guides/recovering-from-a-wordpress-hack/</guid>
-      <description>&lt;p&gt;Got hit by a WordPress hack? Keep calm and carry on! SiteBay&amp;rsquo;s got your back with tools designed to restore your site&amp;rsquo;s glory days, pre-hack.&lt;/p&gt;</description>
+      <description>&lt;h1 id=&#34;bounce-back-recover-your-wordpress-site-like-a-pro&#34; &gt;Bounce Back: Recover Your WordPress Site Like a Pro&lt;a href=&#34;#bounce-back-recover-your-wordpress-site-like-a-pro&#34; aria-label=&#34;Recovering from a WordPress Hack: Bounce Back: Recover Your WordPress Site Like a Pro&#34;  class=&#34;group&#34;&gt;&lt;svg class=&#34;ml-2 inline-block w-5 h-5 text-brand group-hover:text-blue-400&#34;&gt;&lt;use href=&#34;#icon--hashtag&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h1&gt;&lt;p&gt;Has your WordPress site been hit by a hack? Don&amp;rsquo;t panic – our ultimate recovery guide will help you restore your site to its former glory in no time.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

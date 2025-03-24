@@ -20,7 +20,3 @@ aliases: ['/troubleshooting/disaster-recovery-tutorial/']
 If you are having issues accessing your Site after the WordPress core has been updated, here are a few troubleshooting steps to follow.
 
 ### Restarting Services
-
-
-
-

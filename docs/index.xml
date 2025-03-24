@@ -6,7 +6,7 @@
     <description>Recent content in Guides &amp; Tutorials on sitebay Guides &amp; Tutorials</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 16 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 21 Mar 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.sitebay.org/docs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Get Started with SiteBay</title>
@@ -20,14 +20,14 @@
       <link>https://www.sitebay.org/docs/guides/managing-your-staging-site-on-code-server/</link>
       <pubDate>Thu, 04 Apr 2024 00:00:00 +0000</pubDate>
       <guid>https://www.sitebay.org/docs/guides/managing-your-staging-site-on-code-server/</guid>
-      <description>&lt;h2 id=&#34;code-server-edit-your-wordpress-staging-site-directly-in-the-browser&#34; &gt;Code Server: Edit Your WordPress Staging Site Directly in the Browser&lt;a href=&#34;#code-server-edit-your-wordpress-staging-site-directly-in-the-browser&#34; aria-label=&#34;Managing Your Staging Site with Code Server: Code Server: Edit Your WordPress Staging Site Directly in the Browser&#34;  class=&#34;group&#34;&gt;&lt;svg class=&#34;ml-2 inline-block w-5 h-5 text-brand group-hover:text-blue-400&#34;&gt;&lt;use href=&#34;#icon--hashtag&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Managing your WordPress staging site has never been easier, thanks to SiteBay&amp;rsquo;s integrated Code Server. This innovative feature transforms your browser into a fully equipped development environment, allowing effortless website customization without complicated setups.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Managing Your Staging Site with Code Server: The Developer&amp;rsquo;s Ultimate Workflow&lt;/p&gt;&#xA;&#xA;&lt;h2 id=&#34;why-traditional-wordpress-staging-workflows-fail-and-how-to-fix-them&#34; &gt;Why Traditional WordPress Staging Workflows Fail (And How to Fix Them)&lt;a href=&#34;#why-traditional-wordpress-staging-workflows-fail-and-how-to-fix-them&#34; aria-label=&#34;Managing Your Staging Site with Code Server: Why Traditional WordPress Staging Workflows Fail (And How to Fix Them)&#34;  class=&#34;group&#34;&gt;&lt;svg class=&#34;ml-2 inline-block w-5 h-5 text-brand group-hover:text-blue-400&#34;&gt;&lt;use href=&#34;#icon--hashtag&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;If you&amp;rsquo;ve ever managed WordPress sites professionally, you&amp;rsquo;ve likely encountered these common staging frustrations:&lt;/p&gt;</description>
     </item>
     <item>
       <title>SiteBay Code Server</title>
       <link>https://www.sitebay.org/docs/guides/site-bay-code-server-introduction/</link>
       <pubDate>Thu, 04 Apr 2024 00:00:00 +0000</pubDate>
       <guid>https://www.sitebay.org/docs/guides/site-bay-code-server-introduction/</guid>
-      <description>&lt;h1 id=&#34;code-server-editing-your-wordpress-site-in-the-browser&#34; &gt;Code Server: Editing Your WordPress Site in the Browser&lt;a href=&#34;#code-server-editing-your-wordpress-site-in-the-browser&#34; aria-label=&#34;SiteBay Code Server: Code Server: Editing Your WordPress Site in the Browser&#34;  class=&#34;group&#34;&gt;&lt;svg class=&#34;ml-2 inline-block w-5 h-5 text-brand group-hover:text-blue-400&#34;&gt;&lt;use href=&#34;#icon--hashtag&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h1&gt;&lt;p&gt;Are you ready to revolutionize the way you work on your WordPress site? Meet SiteBay&amp;rsquo;s Code Server, a powerful tool that transforms your web browser into a fully functional instance of Visual Studio Code. This means you can edit your website&amp;rsquo;s code anytime, anywhere, right from your browser – no need to install software or manage complex development environments.&lt;/p&gt;</description>
+      <description>&lt;h1 id=&#34;code-server-the-developers-secret-to-wordpress-mastery&#34; &gt;Code Server: The Developer&amp;rsquo;s Secret to WordPress Mastery&lt;a href=&#34;#code-server-the-developers-secret-to-wordpress-mastery&#34; aria-label=&#34;SiteBay Code Server: Code Server: The Developer&amp;amp;rsquo;s Secret to WordPress Mastery&#34;  class=&#34;group&#34;&gt;&lt;svg class=&#34;ml-2 inline-block w-5 h-5 text-brand group-hover:text-blue-400&#34;&gt;&lt;use href=&#34;#icon--hashtag&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;why-this-browser-based-editor-changes-everything-about-wordpress-development&#34; &gt;Why This Browser-Based Editor Changes Everything About WordPress Development&lt;a href=&#34;#why-this-browser-based-editor-changes-everything-about-wordpress-development&#34; aria-label=&#34;SiteBay Code Server: Why This Browser-Based Editor Changes Everything About WordPress Development&#34;  class=&#34;group&#34;&gt;&lt;svg class=&#34;ml-2 inline-block w-5 h-5 text-brand group-hover:text-blue-400&#34;&gt;&lt;use href=&#34;#icon--hashtag&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Traditional WordPress development typically forces you into one of two frustrating workflows:&lt;/p&gt;</description>
     </item>
     <item>
       <title>SiteBay Platform</title>
@@ -35,6 +35,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://www.sitebay.org/docs/platform/shopify/how-to-use-git-sync/</guid>
       <description>&lt;p&gt;&amp;quot;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to Fix Content Security Policy Web Worker Errors</title>
+      <link>https://www.sitebay.org/docs/guides/fix-content-security-policy-web-worker-error/</link>
+      <pubDate>Sun, 16 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.sitebay.org/docs/guides/fix-content-security-policy-web-worker-error/</guid>
+      <description>&lt;p&gt;How to Fix Content Security Policy Web Worker Errors&#xA;Encountering the error:&#xA;Refused to create a worker from &amp;lsquo;blob:&amp;hellip;&amp;rsquo; because it violates the following Content Security Policy directive: &amp;ldquo;script-src &amp;lsquo;self&amp;rsquo; &amp;hellip;&amp;rdquo;. Note that &amp;lsquo;worker-src&amp;rsquo; was not explicitly set, so &amp;lsquo;script-src&amp;rsquo; is used as a fallback.&#xA;can be frustrating, especially when implementing Web Workers or similar features that rely on blob or data URLs. This article explains why this error occurs and provides a clear solution to quickly fix it.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Vibe-coding a Website from an Image Using Cline/Roo Code</title>
@@ -51,18 +58,18 @@
       <description></description>
     </item>
     <item>
-      <title>How to Create a Search with Algolia</title>
+      <title>Build a Lightning-Fast Search Experience in 60 Minutes with Algolia</title>
       <link>https://www.sitebay.org/docs/guides/create-search-with-algolia/</link>
       <pubDate>Mon, 13 May 2024 00:00:00 +0000</pubDate>
       <guid>https://www.sitebay.org/docs/guides/create-search-with-algolia/</guid>
-      <description>&lt;h2 id=&#34;how-to-create-powerful-site-search-with-algolia&#34; &gt;How to Create Powerful Site Search with Algolia&lt;a href=&#34;#how-to-create-powerful-site-search-with-algolia&#34; aria-label=&#34;How to Create a Search with Algolia: How to Create Powerful Site Search with Algolia&#34;  class=&#34;group&#34;&gt;&lt;svg class=&#34;ml-2 inline-block w-5 h-5 text-brand group-hover:text-blue-400&#34;&gt;&lt;use href=&#34;#icon--hashtag&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Algolia provides lightning-fast, relevant, and customizable search capabilities that can be quickly integrated into any website or application. This guide walks you through the process of setting up Algolia, indexing your data, and embedding search functionality seamlessly.&lt;/p&gt;</description>
+      <description>&lt;h1 id=&#34;how-to-create-a-conversion-boosting-search-experience-with-algolia&#34; &gt;How to Create a Conversion-Boosting Search Experience with Algolia&lt;a href=&#34;#how-to-create-a-conversion-boosting-search-experience-with-algolia&#34; aria-label=&#34;Build a Lightning-Fast Search Experience in 60 Minutes with Algolia: How to Create a Conversion-Boosting Search Experience with Algolia&#34;  class=&#34;group&#34;&gt;&lt;svg class=&#34;ml-2 inline-block w-5 h-5 text-brand group-hover:text-blue-400&#34;&gt;&lt;use href=&#34;#icon--hashtag&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;why-standard-search-is-killing-your-conversions&#34; &gt;Why Standard Search Is Killing Your Conversions&lt;a href=&#34;#why-standard-search-is-killing-your-conversions&#34; aria-label=&#34;Build a Lightning-Fast Search Experience in 60 Minutes with Algolia: Why Standard Search Is Killing Your Conversions&#34;  class=&#34;group&#34;&gt;&lt;svg class=&#34;ml-2 inline-block w-5 h-5 text-brand group-hover:text-blue-400&#34;&gt;&lt;use href=&#34;#icon--hashtag&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Search isn&amp;rsquo;t just a feature—it&amp;rsquo;s the primary way many visitors navigate your site. Studies show that users who search are &lt;strong&gt;2-3 times more likely to convert&lt;/strong&gt; than those who browse. Yet most websites rely on default search functionality that:&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Installing and Using Elasticsearch Plugins</title>
+      <title>10 Best Algolia Plugins to Transform Your WordPress Search Experience</title>
       <link>https://www.sitebay.org/docs/guides/a-guide-to-algolia-plugins/</link>
       <pubDate>Sat, 04 May 2024 00:00:00 +0000</pubDate>
       <guid>https://www.sitebay.org/docs/guides/a-guide-to-algolia-plugins/</guid>
-      <description></description>
+      <description>&lt;h1 id=&#34;the-ultimate-guide-to-algolia-plugins-for-wordpress&#34; &gt;The Ultimate Guide to Algolia Plugins for WordPress&lt;a href=&#34;#the-ultimate-guide-to-algolia-plugins-for-wordpress&#34; aria-label=&#34;10 Best Algolia Plugins to Transform Your WordPress Search Experience: The Ultimate Guide to Algolia Plugins for WordPress&#34;  class=&#34;group&#34;&gt;&lt;svg class=&#34;ml-2 inline-block w-5 h-5 text-brand group-hover:text-blue-400&#34;&gt;&lt;use href=&#34;#icon--hashtag&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;why-your-default-wordpress-search-is-costing-you-users&#34; &gt;Why Your Default WordPress Search Is Costing You Users&lt;a href=&#34;#why-your-default-wordpress-search-is-costing-you-users&#34; aria-label=&#34;10 Best Algolia Plugins to Transform Your WordPress Search Experience: Why Your Default WordPress Search Is Costing You Users&#34;  class=&#34;group&#34;&gt;&lt;svg class=&#34;ml-2 inline-block w-5 h-5 text-brand group-hover:text-blue-400&#34;&gt;&lt;use href=&#34;#icon--hashtag&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;If your website visitors can&amp;rsquo;t find what they&amp;rsquo;re looking for, they&amp;rsquo;ll leave. It&amp;rsquo;s that simple. The default WordPress search function is notoriously limited—it&amp;rsquo;s slow, delivers irrelevant results, and lacks critical features like typo tolerance or filtering capabilities.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Collaborate with PostHog Notebooks on SiteBay</title>
@@ -100,25 +107,11 @@
       <description></description>
     </item>
     <item>
-      <title>scanning-your-wordpress-site-for-malware</title>
-      <link>https://www.sitebay.org/docs/guides/scanning-your-wordpress-site-for-malware/</link>
-      <pubDate>Mon, 29 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>https://www.sitebay.org/docs/guides/scanning-your-wordpress-site-for-malware/</guid>
-      <description>&lt;p&gt;Yo! Noticed your site&amp;rsquo;s lagging or just curious about who&amp;rsquo;s dropping by? SiteBay hooks you up with all the essentials for monitoring and logging your site&amp;rsquo;s traffic. Think of it as setting up a surveillance system for your online spot.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Troubleshooting WordPress on SiteBay</title>
-      <link>https://www.sitebay.org/docs/guides/troubleshooting-wordpress-on-sitebay/</link>
-      <pubDate>Mon, 29 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>https://www.sitebay.org/docs/guides/troubleshooting-wordpress-on-sitebay/</guid>
-      <description>&lt;p&gt;Welcome to the WordPress troubleshooting guide by SiteBay! If you&amp;rsquo;ve hit a snag with your WordPress site, don&amp;rsquo;t sweat it. This guide is packed with easy-to-follow solutions for the most common WordPress headaches. Whether you&amp;rsquo;re dealing with a pesky plugin, a slow site, or you just can&amp;rsquo;t get your head around customizing your theme, we&amp;rsquo;ve got you covered.&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>WordPress Logging and Monitoring</title>
       <link>https://www.sitebay.org/docs/guides/wordpress-logging-and-monitoring/</link>
       <pubDate>Mon, 29 Apr 2024 00:00:00 +0000</pubDate>
       <guid>https://www.sitebay.org/docs/guides/wordpress-logging-and-monitoring/</guid>
-      <description>&lt;p&gt;Yo! Noticed your site&amp;rsquo;s lagging or just curious about who&amp;rsquo;s dropping by? SiteBay hooks you up with all the essentials for monitoring and logging your site&amp;rsquo;s traffic. Think of it as setting up a surveillance system for your online spot.&lt;/p&gt;</description>
+      <description>&lt;h1 id=&#34;ultimate-wordpress-logging--monitoring-unlock-hidden-insights&#34; &gt;Ultimate WordPress Logging &amp;amp; Monitoring: Unlock Hidden Insights&lt;a href=&#34;#ultimate-wordpress-logging--monitoring-unlock-hidden-insights&#34; aria-label=&#34;WordPress Logging and Monitoring: Ultimate WordPress Logging &amp;amp;amp; Monitoring: Unlock Hidden Insights&#34;  class=&#34;group&#34;&gt;&lt;svg class=&#34;ml-2 inline-block w-5 h-5 text-brand group-hover:text-blue-400&#34;&gt;&lt;use href=&#34;#icon--hashtag&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h1&gt;&lt;p&gt;Ever wonder what your website is really doing? With our comprehensive guide to WordPress logging and monitoring, you can uncover the secrets hidden in your site&amp;rsquo;s traffic and performance data. Transform your approach to website security and performance with insights that matter.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Billing Manager</title>
@@ -195,7 +188,7 @@
       <link>https://www.sitebay.org/docs/guides/recovering-from-a-wordpress-hack/</link>
       <pubDate>Fri, 26 Apr 2024 00:00:00 +0000</pubDate>
       <guid>https://www.sitebay.org/docs/guides/recovering-from-a-wordpress-hack/</guid>
-      <description>&lt;p&gt;Got hit by a WordPress hack? Keep calm and carry on! SiteBay&amp;rsquo;s got your back with tools designed to restore your site&amp;rsquo;s glory days, pre-hack.&lt;/p&gt;</description>
+      <description>&lt;h1 id=&#34;bounce-back-recover-your-wordpress-site-like-a-pro&#34; &gt;Bounce Back: Recover Your WordPress Site Like a Pro&lt;a href=&#34;#bounce-back-recover-your-wordpress-site-like-a-pro&#34; aria-label=&#34;Recovering from a WordPress Hack: Bounce Back: Recover Your WordPress Site Like a Pro&#34;  class=&#34;group&#34;&gt;&lt;svg class=&#34;ml-2 inline-block w-5 h-5 text-brand group-hover:text-blue-400&#34;&gt;&lt;use href=&#34;#icon--hashtag&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h1&gt;&lt;p&gt;Has your WordPress site been hit by a hack? Don&amp;rsquo;t panic – our ultimate recovery guide will help you restore your site to its former glory in no time.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Cancel Your Account</title>
@@ -205,18 +198,25 @@
       <description>&lt;p&gt;A SiteBay account enables you to deploy and use services on the SiteBay Platform. If you no longer wish to use the SiteBay Platform, you can cancel your account at any time. When you cancel your account, any past due balance and uninvoiced balance remaining on your account is immediately charged to the default payment method on file, minus any remaining account credits.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Comparing WordPress Databases: The 3 Most Popular Database Types</title>
-      <link>https://www.sitebay.org/docs/guides/list-of-databases/</link>
-      <pubDate>Thu, 25 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>https://www.sitebay.org/docs/guides/list-of-databases/</guid>
-      <description>&lt;p&gt;Databases are the powerhouse behind nearly every website, app, and online platform you interact with daily. From social media to online shopping, databases keep the digital world spinning. Let&amp;rsquo;s dive into what databases are, the types you&amp;rsquo;ll come across, and spotlight some of the most popular options out there.&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Mastering Process Monitoring in SiteBay with the ps aux Command</title>
       <link>https://www.sitebay.org/docs/guides/use-the-ps-aux-command-in-sitebay/</link>
       <pubDate>Thu, 25 Apr 2024 00:00:00 +0000</pubDate>
       <guid>https://www.sitebay.org/docs/guides/use-the-ps-aux-command-in-sitebay/</guid>
       <description>&lt;p&gt;Within the ecosystem of SiteBay&amp;rsquo;s WordPress hosting on Kubernetes, understanding the underlying Linux system processes is crucial for managing and troubleshooting your WordPress site. The ps aux command is a powerful tool that provides comprehensive details about the processes running on your Linux system, including those affecting your WordPress site hosted on SiteBay. This guide offers insights into the ps aux command, illustrating why it&amp;rsquo;s important for your SiteBay WordPress hosting management.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Transfer a WordPress Site to SiteBay&#39;s WordPress Hosting</title>
+      <link>https://www.sitebay.org/docs/guides/transferring-a-wordpress-site-to-a-new-server/</link>
+      <pubDate>Thu, 25 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.sitebay.org/docs/guides/transferring-a-wordpress-site-to-a-new-server/</guid>
+      <description>&lt;p&gt;Transferring your WordPress site to SiteBay&amp;rsquo;s robust WordPress hosting environment, optimized with Kubernetes, Posthog analytics, and Grafana dashboards, ensures your website&amp;rsquo;s seamless performance and enhanced security. This guide aims to simplify the migration process, covering the key steps to ensure a smooth transition to SiteBay.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Ultimate Database Showdown: MySQL vs MariaDB vs SQLite for WordPress (2025 Comparison)</title>
+      <link>https://www.sitebay.org/docs/guides/list-of-databases/</link>
+      <pubDate>Thu, 25 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.sitebay.org/docs/guides/list-of-databases/</guid>
+      <description>&lt;h1 id=&#34;the-ultimate-wordpress-database-comparison-mysql-vs-mariadb-vs-sqlite&#34; &gt;The Ultimate WordPress Database Comparison: MySQL vs MariaDB vs SQLite&lt;a href=&#34;#the-ultimate-wordpress-database-comparison-mysql-vs-mariadb-vs-sqlite&#34; aria-label=&#34;Ultimate Database Showdown: MySQL vs MariaDB vs SQLite for WordPress (2025 Comparison): The Ultimate WordPress Database Comparison: MySQL vs MariaDB vs SQLite&#34;  class=&#34;group&#34;&gt;&lt;svg class=&#34;ml-2 inline-block w-5 h-5 text-brand group-hover:text-blue-400&#34;&gt;&lt;use href=&#34;#icon--hashtag&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;choosing-the-right-database-engine-for-your-wordpress-site&#34; &gt;Choosing the Right Database Engine for Your WordPress Site&lt;a href=&#34;#choosing-the-right-database-engine-for-your-wordpress-site&#34; aria-label=&#34;Ultimate Database Showdown: MySQL vs MariaDB vs SQLite for WordPress (2025 Comparison): Choosing the Right Database Engine for Your WordPress Site&#34;  class=&#34;group&#34;&gt;&lt;svg class=&#34;ml-2 inline-block w-5 h-5 text-brand group-hover:text-blue-400&#34;&gt;&lt;use href=&#34;#icon--hashtag&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Your choice of database engine is one of the most consequential decisions affecting your WordPress site&amp;rsquo;s performance, reliability, and scalability. While this &amp;ldquo;behind-the-scenes&amp;rdquo; technology often gets overlooked, it can make the difference between a lightning-fast, stable website and one that crumbles under traffic or frustrates users with slow load times.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

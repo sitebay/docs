@@ -1,11 +1,11 @@
 [
   {
     "excerpt": "Elasticsearch supports a wide variety of plugins which enable more powerful search features. Learn how to manage, install, and use them.",
-    "href": "https://www.sitebay.org/docs/guides/a-guide-to-algolia-plugins/",
+    "href": "http://localhost:1313/docs/guides/a-guide-to-algolia-plugins/",
     "lastModified": "2024-05-24T00:00:00Z",
     "linkTitle": "Installing and Using Elasticsearch Plugins",
     "publishDate": "2024-05-04T00:00:00Z",
-    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu15867188605667351697.jpg",
+    "thumbnail": "http://localhost:1313/docs/images/placeholder_hu15867188605667351697.jpg",
     "title": "Installing and Using Elasticsearch Plugins"
   }
 ]

@@ -1,5 +1,14 @@
 [
   {
+    "excerpt": "Build lightning-fast search that converts visitors into customers! This step-by-step guide shows you exactly how to implement Algolia's powerful search solution on any website in under 60 minutes—even if you're not a developer.",
+    "href": "https://www.sitebay.org/docs/guides/create-search-with-algolia/",
+    "lastModified": "2025-03-21T00:00:00Z",
+    "linkTitle": "Build a Lightning-Fast Search Experience in 60 Minutes with Algolia",
+    "publishDate": "2024-05-13T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu15867188605667351697.jpg",
+    "title": "Build a Lightning-Fast Search Experience in 60 Minutes with Algolia"
+  },
+  {
     "excerpt": "Discover how to harness PostHog dashboards for comprehensive insights into your WordPress site visitors on SiteBay, optimizing your content strategy with data-driven decisions.",
     "href": "https://www.sitebay.org/docs/products/posthog/dashboards/",
     "lastModified": "2024-04-30T00:00:00Z",
@@ -169,14 +178,5 @@
     "publishDate": "2024-04-30T00:00:00Z",
     "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu15867188605667351697.jpg",
     "title": "Collaborate with PostHog Notebooks on SiteBay"
-  },
-  {
-    "excerpt": "Learn how to confidently delete files, directories, and more on your SiteBay WordPress hosting using the command line, ensuring a clean and organized site.",
-    "href": "https://www.sitebay.org/docs/guides/delete-file-command-line/",
-    "lastModified": "2024-04-14T00:00:00Z",
-    "linkTitle": "File Management from the linux command line in Code Server: ",
-    "publishDate": "2024-04-03T00:00:00Z",
-    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu15867188605667351697.jpg",
-    "title": "File Management from the linux command line in Code Server: "
   }
 ]

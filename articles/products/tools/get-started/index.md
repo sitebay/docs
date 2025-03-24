@@ -35,4 +35,3 @@ In the danger zone, you can delete your site.
 To avoid delays in seeing your website changes, SiteBay provides an option to enable "Development Mode." This feature allows you to bypass Cloudflare's cache, enabling immediate viewing of your website changes. 
 
 "Clear Cache" forces Cloudflare to update your site's cache, retrieving the most recent files.
-

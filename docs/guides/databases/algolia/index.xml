@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Algolia Guides, Tutorials, and Resources – SiteBay on sitebay Guides &amp; Tutorials</title>
+    <title>Supercharge Your Website with Algolia: The Ultimate Search Solution on sitebay Guides &amp; Tutorials</title>
     <link>https://www.sitebay.org/docs/guides/databases/algolia/</link>
-    <description>Recent content in Algolia Guides, Tutorials, and Resources – SiteBay on sitebay Guides &amp; Tutorials</description>
+    <description>Recent content in Supercharge Your Website with Algolia: The Ultimate Search Solution on sitebay Guides &amp; Tutorials</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 24 May 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 21 Mar 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.sitebay.org/docs/guides/databases/algolia/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>How to Create a Search with Algolia</title>
+      <title>Build a Lightning-Fast Search Experience in 60 Minutes with Algolia</title>
       <link>https://www.sitebay.org/docs/guides/create-search-with-algolia/</link>
       <pubDate>Mon, 13 May 2024 00:00:00 +0000</pubDate>
       <guid>https://www.sitebay.org/docs/guides/create-search-with-algolia/</guid>
-      <description>&lt;h2 id=&#34;how-to-create-powerful-site-search-with-algolia&#34; &gt;How to Create Powerful Site Search with Algolia&lt;a href=&#34;#how-to-create-powerful-site-search-with-algolia&#34; aria-label=&#34;How to Create a Search with Algolia: How to Create Powerful Site Search with Algolia&#34;  class=&#34;group&#34;&gt;&lt;svg class=&#34;ml-2 inline-block w-5 h-5 text-brand group-hover:text-blue-400&#34;&gt;&lt;use href=&#34;#icon--hashtag&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Algolia provides lightning-fast, relevant, and customizable search capabilities that can be quickly integrated into any website or application. This guide walks you through the process of setting up Algolia, indexing your data, and embedding search functionality seamlessly.&lt;/p&gt;</description>
+      <description>&lt;h1 id=&#34;how-to-create-a-conversion-boosting-search-experience-with-algolia&#34; &gt;How to Create a Conversion-Boosting Search Experience with Algolia&lt;a href=&#34;#how-to-create-a-conversion-boosting-search-experience-with-algolia&#34; aria-label=&#34;Build a Lightning-Fast Search Experience in 60 Minutes with Algolia: How to Create a Conversion-Boosting Search Experience with Algolia&#34;  class=&#34;group&#34;&gt;&lt;svg class=&#34;ml-2 inline-block w-5 h-5 text-brand group-hover:text-blue-400&#34;&gt;&lt;use href=&#34;#icon--hashtag&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;why-standard-search-is-killing-your-conversions&#34; &gt;Why Standard Search Is Killing Your Conversions&lt;a href=&#34;#why-standard-search-is-killing-your-conversions&#34; aria-label=&#34;Build a Lightning-Fast Search Experience in 60 Minutes with Algolia: Why Standard Search Is Killing Your Conversions&#34;  class=&#34;group&#34;&gt;&lt;svg class=&#34;ml-2 inline-block w-5 h-5 text-brand group-hover:text-blue-400&#34;&gt;&lt;use href=&#34;#icon--hashtag&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Search isn&amp;rsquo;t just a feature—it&amp;rsquo;s the primary way many visitors navigate your site. Studies show that users who search are &lt;strong&gt;2-3 times more likely to convert&lt;/strong&gt; than those who browse. Yet most websites rely on default search functionality that:&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Installing and Using Elasticsearch Plugins</title>
+      <title>10 Best Algolia Plugins to Transform Your WordPress Search Experience</title>
       <link>https://www.sitebay.org/docs/guides/a-guide-to-algolia-plugins/</link>
       <pubDate>Sat, 04 May 2024 00:00:00 +0000</pubDate>
       <guid>https://www.sitebay.org/docs/guides/a-guide-to-algolia-plugins/</guid>
-      <description></description>
+      <description>&lt;h1 id=&#34;the-ultimate-guide-to-algolia-plugins-for-wordpress&#34; &gt;The Ultimate Guide to Algolia Plugins for WordPress&lt;a href=&#34;#the-ultimate-guide-to-algolia-plugins-for-wordpress&#34; aria-label=&#34;10 Best Algolia Plugins to Transform Your WordPress Search Experience: The Ultimate Guide to Algolia Plugins for WordPress&#34;  class=&#34;group&#34;&gt;&lt;svg class=&#34;ml-2 inline-block w-5 h-5 text-brand group-hover:text-blue-400&#34;&gt;&lt;use href=&#34;#icon--hashtag&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;why-your-default-wordpress-search-is-costing-you-users&#34; &gt;Why Your Default WordPress Search Is Costing You Users&lt;a href=&#34;#why-your-default-wordpress-search-is-costing-you-users&#34; aria-label=&#34;10 Best Algolia Plugins to Transform Your WordPress Search Experience: Why Your Default WordPress Search Is Costing You Users&#34;  class=&#34;group&#34;&gt;&lt;svg class=&#34;ml-2 inline-block w-5 h-5 text-brand group-hover:text-blue-400&#34;&gt;&lt;use href=&#34;#icon--hashtag&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;If your website visitors can&amp;rsquo;t find what they&amp;rsquo;re looking for, they&amp;rsquo;ll leave. It&amp;rsquo;s that simple. The default WordPress search function is notoriously limited—it&amp;rsquo;s slow, delivers irrelevant results, and lacks critical features like typo tolerance or filtering capabilities.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

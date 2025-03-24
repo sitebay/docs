@@ -16,4 +16,3 @@ tab_group_main:
 1.  Choose a domain and fill in your login details. 
 
 1.  Follow the quickstart tutorial for your template if your need help with your new site.
-

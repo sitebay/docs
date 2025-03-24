@@ -34,17 +34,6 @@
     "title": "SiteBay Platform"
   },
   {
-    "excerpt": "Learn about everything SiteBay!",
-    "firstPublishedTime": 1714262400,
-    "lastUpdatedTime": 1713916800,
-    "linkTitle": "SiteBay Platform",
-    "objectID": "platform",
-    "ordinal": 0,
-    "section": "platform",
-    "thumbnail": "/docs/platform/feature.svg",
-    "title": "SiteBay Platform"
-  },
-  {
     "excerpt": "Learn about everything Billing on SiteBay!",
     "firstPublishedTime": 1714262400,
     "lastUpdatedTime": 1713657600,
@@ -54,6 +43,17 @@
     "section": "platform",
     "thumbnail": "/docs/platform/billing-and-support/feature.svg",
     "title": "SiteBay Platform"
+  },
+  {
+    "excerpt": "Discover how SiteBay\u0026rsquo;s revolutionary WordPress hosting platform leverages Kubernetes to deliver unmatched performance, reliability, and developer experience. Explore the features that are transforming how businesses deploy and manage WordPress sites.",
+    "firstPublishedTime": 1714262400,
+    "lastUpdatedTime": 1713916800,
+    "linkTitle": "SiteBay Platform: The Ultimate WordPress Hosting Solution on Kubernetes",
+    "objectID": "platform",
+    "ordinal": 0,
+    "section": "platform",
+    "thumbnail": "/docs/platform/feature.svg",
+    "title": "SiteBay Platform: The Ultimate WordPress Hosting Solution on Kubernetes"
   },
   {
     "excerpt": "Learn about everything templates on SiteBay!",
@@ -90,8 +90,8 @@
   },
   {
     "excerpt": "Security tips to keep your site safe",
-    "firstPublishedTime": 1714348800,
-    "lastUpdatedTime": 1714348800,
+    "firstPublishedTime": 1714435200,
+    "lastUpdatedTime": 1714435200,
     "linkTitle": "WordPress Security",
     "objectID": "guides \u003e security",
     "ordinal": 0,
@@ -100,15 +100,48 @@
     "title": "WordPress Security"
   },
   {
-    "excerpt": "Databases provide the capability to store data in a structured and easily accessible manner, serving as the foundation for hundreds of popular web and server apps.",
+    "excerpt": "Learn expert strategies to recover your WordPress site quickly after a hack or breach. Restore your site, secure it, and prevent future incidents.",
+    "firstPublishedTime": 1714089600,
+    "lastUpdatedTime": 1714089600,
+    "linkTitle": "WordPress Recovery: Bounce Back from Hacks Like a Pro",
+    "objectID": "guides \u003e security \u003e recovery",
+    "ordinal": 0,
+    "section": "guides",
+    "thumbnail": "/docs/guides/security/recovery/feature.svg",
+    "title": "WordPress Recovery: Bounce Back from Hacks Like a Pro"
+  },
+  {
+    "excerpt": "Learn about database solutions. Learn how to select, implement, and optimize the perfect database for your projects, from SQL powerhouses to cutting-edge NoSQL systems that scale infinitely.",
     "firstPublishedTime": 1713225600,
     "lastUpdatedTime": 1713225600,
-    "linkTitle": "Databases",
+    "linkTitle": "The Ultimate Guide to Databases: Power Your Applications with the Right Data Solution",
     "objectID": "guides \u003e databases",
     "ordinal": 0,
     "section": "guides",
     "thumbnail": "/docs/guides/databases/feature.svg",
-    "title": "Databases"
+    "title": "The Ultimate Guide to Databases: Power Your Applications with the Right Data Solution"
+  },
+  {
+    "excerpt": "Unlock the full power of MySQL for WordPress! Learn how to optimize database performance, troubleshoot common issues, and harness advanced techniques that will make your WordPress sites lightning-fast.",
+    "firstPublishedTime": 1714003200,
+    "lastUpdatedTime": 1742515200,
+    "linkTitle": "MySQL for WordPress: Optimizing Database Performance for Lightning-Fast Sites",
+    "objectID": "guides \u003e databases \u003e mysql",
+    "ordinal": 0,
+    "section": "guides",
+    "thumbnail": "/docs/guides/databases/mysql/feature.svg",
+    "title": "MySQL for WordPress: Optimizing Database Performance for Lightning-Fast Sites"
+  },
+  {
+    "excerpt": "WordPress Mastery: Your Roadmap to Digital and Online Success",
+    "firstPublishedTime": 1714348800,
+    "lastUpdatedTime": 1714348800,
+    "linkTitle": " WordPress: Your Gateway to Digital Empire Building",
+    "objectID": "guides \u003e wordpress",
+    "ordinal": 0,
+    "section": "guides",
+    "thumbnail": "/docs/guides/wordpress/feature.svg",
+    "title": " WordPress: Your Gateway to Digital Empire Building"
   },
   {
     "excerpt": "Kubernetes, often referred to as k8s, is an open source container orchestration system that helps deploy and manage containerized applications.",
@@ -120,17 +153,6 @@
     "section": "guides",
     "thumbnail": "/docs/guides/kubernetes/feature.svg",
     "title": "Kubernetes"
-  },
-  {
-    "excerpt": "WordPress is a popular CMS platform",
-    "firstPublishedTime": 1714348800,
-    "lastUpdatedTime": 1714348800,
-    "linkTitle": "WordPress",
-    "objectID": "guides \u003e wordpress",
-    "ordinal": 0,
-    "section": "guides",
-    "thumbnail": "/docs/guides/wordpress/feature.svg",
-    "title": "WordPress"
   },
   {
     "excerpt": "Combine Images with Inpainting in Stable Diffusion or Flux",
@@ -166,7 +188,7 @@
     "title": "Cloudflare + SiteBay"
   },
   {
-    "excerpt": "\u003cp\u003eWelcome to SiteBay, where we take your WordPress hosting experience to another level. We\u0026rsquo;ve got everything you need to make your site pop, from seamless migrations to powerful analytics with PostHog, and dashboards that keep you informed. Whether you\u0026rsquo;re setting up a personal blog, a business site, or anything in between, we\u0026rsquo;ve got your back.\u003c/p\u003e",
+    "excerpt": "\u003ch2 id=\"sitebay-where-wordpress-dreams-meet-digital-reality\" \u003eSiteBay: Where WordPress Dreams Meet Digital Reality\u003ca href=\"#sitebay-where-wordpress-dreams-meet-digital-reality\" aria-label=\"Tools \u0026amp; Reference: SiteBay: Where WordPress Dreams Meet Digital Reality\"  class=\"group\"\u003e\u003csvg class=\"ml-2 inline-block w-5 h-5 text-brand group-hover:text-blue-400\"\u003e\u003cuse href=\"#icon--hashtag\"\u003e\u003c/use\u003e\u003c/svg\u003e\u003c/a\u003e\u003c/h2\u003e\u003cp\u003eBuckle up, digital entrepreneurs!  You\u0026rsquo;re about to discover the most powerful WordPress hosting platform that transforms ordinary websites into extraordinary digital empires.\u003c/p\u003e",
     "firstPublishedTime": 1713916800,
     "lastUpdatedTime": 1713916800,
     "linkTitle": "Tools \u0026 Reference",
@@ -179,13 +201,24 @@
   {
     "excerpt": "\u003cp\u003eExplore our extensive library of WordPress and Web guides and tutorials with new content published regularly.\u003c/p\u003e",
     "firstPublishedTime": 1742083200,
-    "lastUpdatedTime": 1742083200,
+    "lastUpdatedTime": 1742515200,
     "linkTitle": "Guides",
     "objectID": "guides",
     "ordinal": 0,
     "section": "guides",
     "thumbnail": "/docs/guides/get-started/feature.svg",
     "title": "SiteBay Guides \u0026 Tutorials"
+  },
+  {
+    "excerpt": "Uncover hidden malware and vulnerabilities on your WordPress site with our comprehensive scanning guide. Learn the best practices to keep your site safe.",
+    "firstPublishedTime": 1714435200,
+    "lastUpdatedTime": 1714435200,
+    "linkTitle": "Expose Hidden Malware: The Ultimate Guide to Scanning Your WordPress Site",
+    "objectID": "guides \u003e security \u003e vulnerabilities \u003e scanning-your-wordpress-site-for-malware",
+    "ordinal": 0,
+    "section": "guides",
+    "thumbnail": "/docs/images/placeholder_hu15867188605667351697.jpg",
+    "title": "Expose Hidden Malware: The Ultimate Guide to Scanning Your WordPress Site"
   },
   {
     "excerpt": "We offer the amazing PostHog on for free for WordPress hosted sites. Check our their cloud offering at posthog.com",
@@ -210,6 +243,17 @@
     "title": "All Products"
   },
   {
+    "excerpt": "Reveal hidden threats and secure your WordPress site! Our expert guide on vulnerability detection shows you how to scan and eliminate risks before they wreak havoc.",
+    "firstPublishedTime": 1714435200,
+    "lastUpdatedTime": 1714435200,
+    "linkTitle": "Unmask Hidden Threats: The Ultimate Guide to Vulnerability Detection",
+    "objectID": "guides \u003e security \u003e vulnerabilities",
+    "ordinal": 0,
+    "section": "guides",
+    "thumbnail": "/docs/guides/security/vulnerabilities/feature.svg",
+    "title": "Unmask Hidden Threats: The Ultimate Guide to Vulnerability Detection"
+  },
+  {
     "excerpt": "Explore the world of PHP development within WordPress hosting on SiteBay. This section is designed to empower both beginners and seasoned developers with the knowledge to utilize PHP effectively in their WordPress projects.",
     "firstPublishedTime": 1714348800,
     "lastUpdatedTime": 1714348800,
@@ -230,17 +274,6 @@
     "section": "guides",
     "thumbnail": "/docs/guides/common-problems/feature.svg",
     "title": "Troubleshooting WordPress on SiteBay"
-  },
-  {
-    "excerpt": "Scan your WordPress for viruses or vulnerabilities.",
-    "firstPublishedTime": 1714348800,
-    "lastUpdatedTime": 1714348800,
-    "linkTitle": "Vulnerability Detection",
-    "objectID": "guides \u003e security \u003e vulnerabilities",
-    "ordinal": 0,
-    "section": "guides",
-    "thumbnail": "/docs/guides/security/vulnerabilities/feature.svg",
-    "title": "Vulnerability Detection"
   },
   {
     "excerpt": "Find quick answers to some of the most commonly asked billing questions.",
@@ -298,17 +331,6 @@
     "title": "Billing"
   },
   {
-    "excerpt": "MySQL on WordPress",
-    "firstPublishedTime": 1714003200,
-    "lastUpdatedTime": 1714003200,
-    "linkTitle": "MySQL Database",
-    "objectID": "guides \u003e databases \u003e mysql",
-    "ordinal": 0,
-    "section": "guides",
-    "thumbnail": "/docs/guides/databases/mysql/feature.svg",
-    "title": "MySQL Database"
-  },
-  {
     "excerpt": "\u003cp\u003e\u0026ldquo;To be written\u0026rdquo;\u003c/p\u003e",
     "firstPublishedTime": 1713916800,
     "lastUpdatedTime": 1712188800,
@@ -342,17 +364,6 @@
     "title": "Site Bot"
   },
   {
-    "excerpt": "Dive into the essentials of system recovery with SiteBay, guiding you through planning and bouncing back from system compromises with ease.",
-    "firstPublishedTime": 1713916800,
-    "lastUpdatedTime": 1713916800,
-    "linkTitle": "System Recovery",
-    "objectID": "guides \u003e security \u003e recovery",
-    "ordinal": 0,
-    "section": "guides",
-    "thumbnail": "/docs/guides/security/recovery/feature.svg",
-    "title": "System Recovery"
-  },
-  {
     "excerpt": "Dive into software development practices that streamline your coding process, making development on WordPress sites hosted on SiteBay not just efficient but enjoyable.",
     "firstPublishedTime": 1713916800,
     "lastUpdatedTime": 1713916800,
@@ -360,7 +371,7 @@
     "objectID": "guides \u003e development \u003e tips-and-tricks",
     "ordinal": 0,
     "section": "guides",
-    "thumbnail": "/docs/guides/advanced-wordpress-development-techniques/Linode_WebDev_hu17862894891255932800.jpg",
+    "thumbnail": "/docs/guides/wordpress-development-on-remote-devices/how-to-use-sitebay-git-sync_hu1491291365618061894.jpg",
     "title": "Tips and Tricks for WordPress Development on SiteBay"
   },
   {
@@ -518,7 +529,18 @@
     "title": "SiteBay Manager"
   },
   {
-    "excerpt": "\u003cp\u003eSiteBay provides powerful WordPress hosting solutions tailored for businesses and individuals alike, offering a range of plans to fit various needs. This guide will walk you through getting started with SiteBay, focusing on its standout features, including Posthog analytics, Grafana dashboards, and unique tools like the Site Bot for streamlined site management.\u003c/p\u003e",
+    "excerpt": "Unlock the secrets of remote WordPress development with advanced techniques on SiteBay. Transform your workflow and build feature-rich, dynamic sites with ease.",
+    "firstPublishedTime": 1713052800,
+    "lastUpdatedTime": 1713052800,
+    "linkTitle": "Revolutionize Your WordPress: Advanced Remote Development Techniques Unleashed",
+    "objectID": "guides \u003e development \u003e tips-and-tricks \u003e advanced-wordpress-development-techniques",
+    "ordinal": 0,
+    "section": "guides",
+    "thumbnail": "/docs/images/placeholder_hu15867188605667351697.jpg",
+    "title": "Revolutionize Your WordPress: Advanced Remote Development Techniques Unleashed"
+  },
+  {
+    "excerpt": "\u003ch2 id=\"sitebay-your-digital-transformation-engine-for-wordpress-domination\" \u003eSiteBay: Your Digital Transformation Engine for WordPress Domination\u003ca href=\"#sitebay-your-digital-transformation-engine-for-wordpress-domination\" aria-label=\": SiteBay: Your Digital Transformation Engine for WordPress Domination\"  class=\"group\"\u003e\u003csvg class=\"ml-2 inline-block w-5 h-5 text-brand group-hover:text-blue-400\"\u003e\u003cuse href=\"#icon--hashtag\"\u003e\u003c/use\u003e\u003c/svg\u003e\u003c/a\u003e\u003c/h2\u003e\u003cp\u003eAttention digital entrepreneurs and website visionaries!  Forget everything you know about web hosting. SiteBay isn\u0026rsquo;t just a platform – it\u0026rsquo;s your launchpad to online greatness.\u003c/p\u003e",
     "firstPublishedTime": 1712188800,
     "lastUpdatedTime": 1713139200,
     "linkTitle": "",
@@ -606,6 +628,17 @@
     "title": "SiteBay Platform"
   },
   {
+    "excerpt": "Transform your website search experience with Algolia! Learn how to implement lightning-fast, ultra-relevant search functionality that boosts user engagement and conversion rates. Our step-by-step tutorials cover everything from basic installation to advanced customization.",
+    "firstPublishedTime": 1712188800,
+    "lastUpdatedTime": 1712188800,
+    "linkTitle": "Supercharge Your Website with Algolia: The Ultimate Search Solution",
+    "objectID": "guides \u003e databases \u003e algolia",
+    "ordinal": 0,
+    "section": "guides",
+    "thumbnail": "/docs/guides/databases/algolia/feature.svg",
+    "title": "Supercharge Your Website with Algolia: The Ultimate Search Solution"
+  },
+  {
     "excerpt": "Fast as possible tutorials of a modern website.",
     "firstPublishedTime": 1712188800,
     "lastUpdatedTime": 1712188800,
@@ -683,17 +716,6 @@
     "title": "FAQs"
   },
   {
-    "excerpt": "Learn how to use, install, configure and perform tasks on database management platform Algolia in these tutorials.",
-    "firstPublishedTime": 1396569600,
-    "lastUpdatedTime": 1396569600,
-    "linkTitle": "Algolia Guides, Tutorials, and Resources – SiteBay",
-    "objectID": "guides \u003e databases \u003e algolia",
-    "ordinal": 0,
-    "section": "guides",
-    "thumbnail": "/docs/guides/databases/algolia/feature.svg",
-    "title": "Algolia Guides, Tutorials, and Resources – SiteBay"
-  },
-  {
     "excerpt": "WordPress is constantly evolving. Bugs are fixed, new features are added, and packages are updated.",
     "firstPublishedTime": 1333497600,
     "lastUpdatedTime": 1333497600,
@@ -736,6 +758,17 @@
     "section": "guides",
     "thumbnail": "/docs/images/placeholder_hu15867188605667351697.jpg",
     "title": ""
+  },
+  {
+    "excerpt": "Slash development time and eliminate repetitive tasks with powerful WordPress automation strategies. Learn how to leverage SiteBay\u0026rsquo;s Kubernetes platform for lightning-fast deployments, bulletproof backups, and effortless site management.",
+    "firstPublishedTime": -62135596800,
+    "lastUpdatedTime": -62135596800,
+    "linkTitle": "10X Your WordPress Productivity: Mastering Scripting, Automation \u0026 Build Tools",
+    "objectID": "guides \u003e concentrations \u003e scripting-automation-and-build-tools",
+    "ordinal": 0,
+    "section": "guides",
+    "thumbnail": "/docs/images/placeholder_hu15867188605667351697.jpg",
+    "title": "10X Your WordPress Productivity: Mastering Scripting, Automation \u0026 Build Tools"
   },
   {
     "excerpt": "",
@@ -782,18 +815,18 @@
     "title": "Authors"
   },
   {
-    "excerpt": "Choose your focus in WordPress development to explore all related guides.",
+    "excerpt": "Unleash WordPress\u0026rsquo;s hidden potential on SiteBay\u0026rsquo;s Kubernetes platform. Create high-performance, infinitely scalable web applications with cutting-edge analytics, monitoring, and deployment tools that standard hosting can\u0026rsquo;t match.",
     "firstPublishedTime": -62135596800,
     "lastUpdatedTime": -62135596800,
-    "linkTitle": "Concentrations",
-    "objectID": "guides \u003e concentrations",
+    "linkTitle": "Enterprise-Grade WordPress Web Applications: Build Like the Top 1% of Developers",
+    "objectID": "guides \u003e concentrations \u003e web-applications",
     "ordinal": 0,
     "section": "guides",
     "thumbnail": "/docs/images/placeholder_hu15867188605667351697.jpg",
-    "title": "Concentrations"
+    "title": "Enterprise-Grade WordPress Web Applications: Build Like the Top 1% of Developers"
   },
   {
-    "excerpt": "\u003cp\u003eWelcome to SiteBay\u0026rsquo;s foundational guide, where we simplify the world of powerful WordPress hosting on Kubernetes, analytics with Posthog, and insights via Grafana. This guide is your launchpad into the web development and hosting universe, tailored for those stepping into this world for the first time. Picture this as your introduction to digital fluency, where we break down complex concepts into straightforward, easy-to-understand language.\u003c/p\u003e",
+    "excerpt": "\u003ch2 id=\"welcome-to-your-digital-destiny-no-tech-experience-required\" \u003eWelcome to Your Digital Destiny: No Tech Experience Required!\u003ca href=\"#welcome-to-your-digital-destiny-no-tech-experience-required\" aria-label=\"Foundational: Welcome to Your Digital Destiny: No Tech Experience Required!\"  class=\"group\"\u003e\u003csvg class=\"ml-2 inline-block w-5 h-5 text-brand group-hover:text-blue-400\"\u003e\u003cuse href=\"#icon--hashtag\"\u003e\u003c/use\u003e\u003c/svg\u003e\u003c/a\u003e\u003c/h2\u003e\u003cp\u003eAttention aspiring digital creators!  You\u0026rsquo;re about to embark on an epic journey from complete beginner to confident web master. SiteBay is your trusted guide, transforming complex tech mumbo-jumbo into crystal-clear, actionable knowledge.\u003c/p\u003e",
     "firstPublishedTime": -62135596800,
     "lastUpdatedTime": -62135596800,
     "linkTitle": "Foundational",
@@ -804,7 +837,7 @@
     "title": "Foundational"
   },
   {
-    "excerpt": "\u003cp\u003eWelcome to the foundational corner of SiteBay, where we demystify the basics of WordPress hosting on Kubernetes, complete with insights from Posthog and Grafana. This section is specially crafted for those just embarking on their web development and hosting voyage. Consider this your digital boot camp, where we break things down into simple, digestible pieces.\u003c/p\u003e",
+    "excerpt": "\u003cp\u003e\u003cstrong\u003eBreakthrough Learning Paths:\u003c/strong\u003e\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eDecode Websites\u003c/li\u003e\n\u003cli\u003eMaster Internet Real Estate\u003c/li\u003e\n\u003cli\u003eUnleash WordPress Potential\u003c/li\u003e\n\u003cli\u003eBuild Your First Digital Presence\u003c/li\u003e\n\u003c/ul\u003e",
     "firstPublishedTime": -62135596800,
     "lastUpdatedTime": -62135596800,
     "linkTitle": "Foundational",
@@ -815,7 +848,7 @@
     "title": "Foundational"
   },
   {
-    "excerpt": "\u003cp\u003eHey there! If you\u0026rsquo;ve got the basics down and you\u0026rsquo;re ready to level up, you\u0026rsquo;ve hit the right spot. This intermediate section is all about taking those foundational skills you\u0026rsquo;ve picked up and pushing them a bit further.\u003c/p\u003e",
+    "excerpt": "\u003cp\u003e\u003cem\u003eKey Wins:\u003c/em\u003e*\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eAdvanced WordPress Features – Discover the powerful tools and features that WordPress has hidden up its sleeve. Learn how to leverage these to enhance your website\u0026rsquo;s functionality and user experience.\u003c/li\u003e\n\u003cli\u003eOptimizing Your Site – Learn how to make your site faster and friendlier for both your visitors and search engines. We\u0026rsquo;ll cover everything from caching to optimizing images, ensuring your site loads quickly and ranks well.\u003c/li\u003e\n\u003c/ul\u003e",
     "firstPublishedTime": -62135596800,
     "lastUpdatedTime": -62135596800,
     "linkTitle": "Intermediate",
@@ -835,17 +868,6 @@
     "section": "authors",
     "thumbnail": "/docs/images/placeholder_hu15867188605667351697.jpg",
     "title": "Pavel Petrov"
-  },
-  {
-    "excerpt": "\u003cp\u003eStep into the realm of efficiency and power with SiteBay\u0026rsquo;s Scripting, Automation, and Build Tools! This corner of our knowledge base is dedicated to guiding you through the automation of your WordPress hosting workflows on Kubernetes, utilizing SiteBay\u0026rsquo;s robust features alongside tools like PostHog analytics, Grafana dashboards, and more. Whether you\u0026rsquo;re automating deployments, managing site backups, or optimizing your site\u0026rsquo;s performance, we\u0026rsquo;ve got the tools and tips to make your life easier.\u003c/p\u003e",
-    "firstPublishedTime": -62135596800,
-    "lastUpdatedTime": -62135596800,
-    "linkTitle": "Scripting, Automation, and Build Tools",
-    "objectID": "guides \u003e concentrations \u003e scripting-automation-and-build-tools",
-    "ordinal": 0,
-    "section": "guides",
-    "thumbnail": "/docs/images/placeholder_hu15867188605667351697.jpg",
-    "title": "Scripting, Automation, and Build Tools"
   },
   {
     "excerpt": "Allow you to create a beautiful site in a click",
@@ -870,25 +892,25 @@
     "title": "Tutorials"
   },
   {
-    "excerpt": "\u003cp\u003eWelcome to the Web Applications guide, tailored specifically for the movers and shakers using SiteBay for Powerful WordPress Hosting. Here, you\u0026rsquo;ll learn how to harness the full power of WordPress on Kubernetes, integrating cutting-edge tools like PostHog for analytics, Grafana for your dashboards, and much more.\u003c/p\u003e",
+    "excerpt": "Supercharge your WordPress skills with our specialized development tracks. Discover expert guides for theme building, plugin creation, performance optimization, and more!",
     "firstPublishedTime": -62135596800,
     "lastUpdatedTime": -62135596800,
-    "linkTitle": "Web Applications",
-    "objectID": "guides \u003e concentrations \u003e web-applications",
+    "linkTitle": "Ultimate WordPress Development Concentrations: Master Your Path to Success",
+    "objectID": "guides \u003e concentrations",
     "ordinal": 0,
     "section": "guides",
     "thumbnail": "/docs/images/placeholder_hu15867188605667351697.jpg",
-    "title": "Web Applications"
+    "title": "Ultimate WordPress Development Concentrations: Master Your Path to Success"
   },
   {
-    "excerpt": "\u003cp\u003eWelcome to the world of WordPress Development on SiteBay! Here, we dive deep into the heart of creating, managing, and optimizing WordPress sites, all hosted on our robust Kubernetes infrastructure. Whether you\u0026rsquo;re a beginner aiming to launch your first site or a seasoned developer looking to leverage advanced WordPress features, our guides have got you covered. Let\u0026rsquo;s explore the realms of SiteBay\u0026rsquo;s WordPress hosting, powered by cutting-edge tools like PostHog for analytics, comprehensive recordings, and Grafana for insightful dashboards.\u003c/p\u003e",
+    "excerpt": "Discover the insider techniques professional WordPress developers use to create stunning, high-performance sites on SiteBay\u0026rsquo;s Kubernetes platform. Master advanced customization, optimization secrets, and business-building strategies that separate $500 developers from $5,000+ WordPress pros.",
     "firstPublishedTime": -62135596800,
     "lastUpdatedTime": -62135596800,
-    "linkTitle": "WordPress Development",
+    "linkTitle": "WordPress Development Mastery: Build Sites That Clients Will Pay Premium Prices For",
     "objectID": "guides \u003e concentrations \u003e wordpress-development",
     "ordinal": 0,
     "section": "guides",
     "thumbnail": "/docs/images/placeholder_hu15867188605667351697.jpg",
-    "title": "WordPress Development"
+    "title": "WordPress Development Mastery: Build Sites That Clients Will Pay Premium Prices For"
   }
 ]

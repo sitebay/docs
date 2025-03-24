@@ -9,6 +9,13 @@
     <lastBuildDate>Sun, 16 Mar 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.sitebay.org/docs/guides/websites/quickies/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>How to Fix Content Security Policy Web Worker Errors</title>
+      <link>https://www.sitebay.org/docs/guides/fix-content-security-policy-web-worker-error/</link>
+      <pubDate>Sun, 16 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.sitebay.org/docs/guides/fix-content-security-policy-web-worker-error/</guid>
+      <description>&lt;p&gt;How to Fix Content Security Policy Web Worker Errors&#xA;Encountering the error:&#xA;Refused to create a worker from &amp;lsquo;blob:&amp;hellip;&amp;rsquo; because it violates the following Content Security Policy directive: &amp;ldquo;script-src &amp;lsquo;self&amp;rsquo; &amp;hellip;&amp;rdquo;. Note that &amp;lsquo;worker-src&amp;rsquo; was not explicitly set, so &amp;lsquo;script-src&amp;rsquo; is used as a fallback.&#xA;can be frustrating, especially when implementing Web Workers or similar features that rely on blob or data URLs. This article explains why this error occurs and provides a clear solution to quickly fix it.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Vibe-coding a Website from an Image Using Cline/Roo Code</title>
       <link>https://www.sitebay.org/docs/guides/design-site-from-image-cline-roo/</link>
       <pubDate>Sun, 16 Mar 2025 00:00:00 +0000</pubDate>

@@ -42,4 +42,3 @@ Create cohorts by selecting criteria that group users together. Use this for foc
 
 ### Step 4: Utilize Segmenting
 Segment your users to refine your insights further. This can help you identify which features are popular among different user groups.
-

@@ -74,7 +74,7 @@ name = "products"
 weight = 35 # Used to order the sections in the UI. Higher comes first.
 title = "Products"
 noun = "Product Guide"
-#static_link_url = "https://techdocs.akamai.com/cloud-computing/docs/"
+#static_link_url = "https://techdocs.sitebay.org/cloud-computing/docs/"
 filters = "section.lvl0:products"
 # The icons are fetched from layouts/sections/navigation/explorer-icons.html
 explorer_icon = "#icon-explorer--products"
@@ -90,7 +90,7 @@ explorer_icon = "#icon-explorer--guides"
 [params.search_config2.sections.api]
 name = "api"
 index = "sitebay-documentation-api"
-#static_link_url = "https://techdocs.akamai.com/sitebay-api3/reference/api"
+#static_link_url = "https://techdocs.sitebay.org/sitebay-api3/reference/api"
 filters = "section.lvl0:api"
 weight = 40
 title = "API"

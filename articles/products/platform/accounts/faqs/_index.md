@@ -22,4 +22,3 @@ Login-related emails are sent to the email address of your user account (not to 
 - Search your inbox for the sender email (*support@sitebay.org*).
 - If you are using a Microsoft email service (like Outlook.com, Microsoft 365, or Exchange), verify that *sitebay.org* is on the [safe senders list](https://support.microsoft.com/en-us/office/block-or-allow-junk-email-settings-48c9f6f7-2309-4f95-9a4d-de987e880e46#bkmk_safesenders).
 - For Microsoft 365: review your [quarantined email messages](https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/quarantine-end-user). When viewing the [quarantine portal](https://protection.office.com/quarantine), search for your email address, locate the email you wish to receive, and release/allow that email. and release any emails from *sitebay.org*.
-

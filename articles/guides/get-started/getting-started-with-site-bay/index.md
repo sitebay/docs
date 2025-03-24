@@ -54,8 +54,9 @@ WordPress devs, take your site to the next level with our Bi-directional Git Syn
 
 Hang tight for about a minute while we prepare your site.
 
-What’s Next?
+### Sneak Peek of Your Future 
 
-Your site is just the starting line. Explore our guides for viewing recordings, analytics, setting up and using Git Sync, and unlocking features to make your site pop.
-
-Excited to have you on board! We're looking forward to seeing what you'll build.
+- **Session Recordings:** Watch how users interact with your site
+- **Advanced Analytics:** Track growth and engagement
+- **Git Sync:** Streamline your development workflow
+- **Unlimited Potential:** Your digital canvas awaits!

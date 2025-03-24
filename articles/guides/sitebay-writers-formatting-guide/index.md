@@ -14,32 +14,58 @@ title: SiteBay Writer's Formatting Tutorial
 show_on_rss_feed: false
 ---
 
+###  Why Write for SiteBay?
 
-Yo! Ready to drop some knowledge and write for SiteBay? Cool. This is your guide to crafting tutorials that stand out. We're here to help people master WordPress and share valuable insights. Got the skills? We're all ears.
+- **Get Paid to Share Knowledge:** Transform your tech skills into dollars
+- **Reach a Global Audience:** Impact WordPress users worldwide
+- **Build Your Personal Brand:** Become a recognized expert
 
-Getting Started with GitHub
+###  The GitHub Connection: Your Technical Playground
 
-First off, all our content lives on GitHub. New to it? Peep the GitHub Beginners Tutorial. If you've got something to contribute or spot an error, pull requests (PRs) are your friend. Submit your changes, and we'll review them.
+#### GitHub 101: Your New Best Friend
+- **Pull Requests are Your Superpower:** Contribute, improve, evolve
+- **Open Source Spirit:** Collaborate with a community of tech enthusiasts
 
-Join the Write For SiteBay Squad
+###  The SiteBay Writers' Profit Formula
 
-Got that fire? We pay for top-notch tutorials. Send us your best work for consideration. If it hits right, we'll credit your SiteBay account. That's cash money, folks.
+#### How We Turn Your Wisdom into Wealth
+- **Quality Pays:** Top-tier tutorials = Top-tier compensation
+- **Direct Account Credit:** Get paid straight to your SiteBay account
+- **No Gatekeeping:** If your content rocks, we'll make it rain 
 
-How We Roll
-Keep It 100
-Markdown Reigns Supreme: All our tutorials are in Markdown. It's clean and straightforward.
-Straight to the Point: Ditch the fluff. Keep readers in the know from the jump.
-SEO Games? Miss Us With That: Write clearly, write truthfully. No tricks.
-The Blueprint
-Intro
+###  The SiteBay Content Manifesto
 
-Start strong. What's the tutorial about, and why does it matter? Mentioning a tool or software? Link it.
+#### Writing Rules That Separate Pros from Amateurs
 
-SiteBay Style
-Talk Like You're Chilling With Your Peeps: Authentic vibes only.
-Break It Down: Use steps, lists, bullets. Make it digestible.
-The Legal Stuff
-Copyright: Your work for us stays with us.
-Get Paid: We agree on a rate, you share your wisdom, you get paid. Straight to your SiteBay account.
+1. **Markdown Magic** 
+   - Clean, simple, powerful documentation format
+   - No fancy tricks, just pure, readable content
 
-That's the gist. Keep it sleek, keep it informative, and let's enrich the internet together, one tutorial at a time.
+2. **Cut the Fluff, Serve the Meat**
+   - Every sentence must deliver value
+   - Readers' time is sacred – respect it
+
+3. **Authentic Voice is King**
+   - Write like you're explaining to a friend
+   - Technical doesn't mean boring
+   - Inject personality into your prose
+
+###  The Perfect Tutorial Blueprint
+
+#### Intro: Hook, Line, and Sinker
+- **Grab Attention:** Why should readers care?
+- **Context is Key:** What problem are you solving?
+- **Link Resources:** Make navigation seamless
+
+#### Style Guidelines
+- **Use Clear Steps**
+- **Leverage Bullet Points**
+- **Break Down Complex Concepts**
+- **Include Code Snippets**
+- **Add Screenshots/Visuals**
+
+###  The Legal Lowdown
+
+- **Copyright Transfer:** Content becomes SiteBay's asset
+- **Transparent Compensation:** Agreed rates, no surprises
+- **Instant Account Credit**

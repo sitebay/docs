@@ -1,5 +1,50 @@
 [
   {
+    "excerpt": "Master MySQL, the powerful database that powers over 80% of WordPress sites! Learn why this robust relational database is crucial for your site's performance, scalability, and security.",
+    "href": "https://www.sitebay.org/docs/guides/what-is-mysql/",
+    "lastModified": "2025-03-21T00:00:00Z",
+    "linkTitle": "What is MySQL? The Ultimate Guide to WordPress's Database Engine",
+    "publishDate": "2024-04-04T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu15867188605667351697.jpg",
+    "title": "What is MySQL? The Ultimate Guide to WordPress's Database Engine"
+  },
+  {
+    "excerpt": "Discover how SQLite is revolutionizing WordPress development! Learn why this lightweight database solution is becoming the secret weapon for developers seeking faster performance, simpler deployments, and hassle-free site management.",
+    "href": "https://www.sitebay.org/docs/guides/what-is-sqlite/",
+    "lastModified": "2025-03-21T00:00:00Z",
+    "linkTitle": "SQLite for WordPress: The Game-Changing Database Alternative You Need to Know About",
+    "publishDate": "2024-04-04T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu15867188605667351697.jpg",
+    "title": "SQLite for WordPress: The Game-Changing Database Alternative You Need to Know About"
+  },
+  {
+    "excerpt": "Discover why MariaDB is rapidly replacing MySQL for WordPress sites! Learn about its enhanced performance, advanced security features, and why leading hosting providers are making the switch to this powerful database engine.",
+    "href": "https://www.sitebay.org/docs/guides/what-is-mariadb/",
+    "lastModified": "2025-03-21T00:00:00Z",
+    "linkTitle": "MariaDB: The Next-Generation MySQL Alternative Powering Modern WordPress Sites",
+    "publishDate": "2024-04-04T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu15867188605667351697.jpg",
+    "title": "MariaDB: The Next-Generation MySQL Alternative Powering Modern WordPress Sites"
+  },
+  {
+    "excerpt": "Supercharge your WordPress search with Algolia plugins! Discover the top plugins that make implementation effortless, dramatically improve search relevance, and boost user engagement on your site.",
+    "href": "https://www.sitebay.org/docs/guides/a-guide-to-algolia-plugins/",
+    "lastModified": "2025-03-21T00:00:00Z",
+    "linkTitle": "10 Best Algolia Plugins to Transform Your WordPress Search Experience",
+    "publishDate": "2024-05-04T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu15867188605667351697.jpg",
+    "title": "10 Best Algolia Plugins to Transform Your WordPress Search Experience"
+  },
+  {
+    "excerpt": "Build lightning-fast search that converts visitors into customers! This step-by-step guide shows you exactly how to implement Algolia's powerful search solution on any website in under 60 minutes—even if you're not a developer.",
+    "href": "https://www.sitebay.org/docs/guides/create-search-with-algolia/",
+    "lastModified": "2025-03-21T00:00:00Z",
+    "linkTitle": "Build a Lightning-Fast Search Experience in 60 Minutes with Algolia",
+    "publishDate": "2024-05-13T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu15867188605667351697.jpg",
+    "title": "Build a Lightning-Fast Search Experience in 60 Minutes with Algolia"
+  },
+  {
     "excerpt": "Learn how to create and manage a staging site for testing WordPress changes with SiteBay’s powerful WordPress hosting on Kubernetes, featuring PostHog analytics and Grafana dashboards.",
     "href": "https://www.sitebay.org/docs/guides/sitebay-dashboard-staging-site/",
     "lastModified": "2024-04-30T00:00:00Z",
@@ -108,6 +153,15 @@
     "title": "Understanding \"People\" in PostHog Analytics"
   },
   {
+    "excerpt": "Unlock the secrets of remote WordPress development with advanced techniques on SiteBay. Transform your workflow and build feature-rich, dynamic sites with ease.",
+    "href": "https://www.sitebay.org/docs/guides/development/tips-and-tricks/advanced-wordpress-development-techniques/",
+    "lastModified": "2024-04-14T00:00:00Z",
+    "linkTitle": "Revolutionize Your WordPress: Advanced Remote Development Techniques Unleashed",
+    "publishDate": "2024-04-14T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu15867188605667351697.jpg",
+    "title": "Revolutionize Your WordPress: Advanced Remote Development Techniques Unleashed"
+  },
+  {
     "excerpt": "This guide will show you the seamless integration of WordPress with NGINX on a Kubernetes cluster, providing scalability, high availability, and enhanced performance for your website.",
     "href": "https://www.sitebay.org/docs/guides/troubleshooting-wordpress-on-kubernetes/",
     "lastModified": "2024-04-13T00:00:00Z",
@@ -124,59 +178,5 @@
     "publishDate": "2024-04-27T00:00:00Z",
     "thumbnail": "https://www.sitebay.org/docs/guides/benefits-of-wordpress-on-kubernetes/DeployNGINX_Linode_hu10419154750164224328.jpg",
     "title": "Elevate Your WordPress Site with Kubernetes on SiteBay"
-  },
-  {
-    "excerpt": "Discover the fastest route to deploying NGINX on a Kubernetes cluster with SiteBay, designed for quick setup and easy management.",
-    "href": "https://www.sitebay.org/docs/guides/kubernetes-fast-as-possible/",
-    "lastModified": "2024-04-13T00:00:00Z",
-    "linkTitle": "Deploy NGINX on Kubernetes: Quick and Easy Setup with SiteBay",
-    "publishDate": "2024-04-27T00:00:00Z",
-    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu15867188605667351697.jpg",
-    "title": "Deploy NGINX on Kubernetes: Quick and Easy Setup with SiteBay"
-  },
-  {
-    "excerpt": "How to restore your SiteBay site with unlimited size",
-    "href": "https://www.sitebay.org/docs/guides/all-in-one-wp-migration-with-import/",
-    "lastModified": "2024-04-04T00:00:00Z",
-    "linkTitle": "Restoring Your WordPress Site on SiteBay with All-in-One WP Migration",
-    "publishDate": "2024-03-04T00:00:00Z",
-    "thumbnail": "https://www.sitebay.org/docs/guides/all-in-one-wp-migration-with-import/team-fortress-rcon-console-small_hu9097319574279075839.jpg",
-    "title": "Restoring Your WordPress Site on SiteBay with All-in-One WP Migration"
-  },
-  {
-    "excerpt": "Explore why SiteBay is your go-to platform for WordPress development.",
-    "href": "https://www.sitebay.org/docs/guides/why-use-sitebay-for-development/",
-    "lastModified": "2024-04-04T00:00:00Z",
-    "linkTitle": "Why Choose SiteBay for WordPress Development?",
-    "publishDate": "2024-04-04T00:00:00Z",
-    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu15867188605667351697.jpg",
-    "title": "Why Choose SiteBay for WordPress Development?"
-  },
-  {
-    "excerpt": "Introduction to high availability WordPress",
-    "href": "https://www.sitebay.org/docs/guides/what-is-high-availability/",
-    "lastModified": "2024-04-04T00:00:00Z",
-    "linkTitle": "What is High Availability?",
-    "publishDate": "2024-04-04T00:00:00Z",
-    "thumbnail": "https://www.sitebay.org/docs/guides/what-is-high-availability/HighAvailability_hu14037400432256136585.jpg",
-    "title": "What is High Availability?"
-  },
-  {
-    "excerpt": "Discover how to leverage SiteBay’s powerful features for your WordPress hosting needs, including insights into PostHog analytics, Grafana dashboards, and more.",
-    "href": "https://www.sitebay.org/docs/guides/sitebay-template-sites/",
-    "lastModified": "2024-04-04T00:00:00Z",
-    "linkTitle": "Maximizing WordPress Hosting with SiteBay's Advanced Tools",
-    "publishDate": "2024-04-04T00:00:00Z",
-    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu15867188605667351697.jpg",
-    "title": "Maximizing WordPress Hosting with SiteBay's Advanced Tools"
-  },
-  {
-    "excerpt": "Discover how SiteBay utilizes Grafana for in-depth WordPress visitor insights on our Kubernetes-based hosting platform, featuring seamless integration with PostHog analytics.",
-    "href": "https://www.sitebay.org/docs/guides/grafana-for-wordpress/",
-    "lastModified": "2024-04-04T00:00:00Z",
-    "linkTitle": "Leveraging Grafana for WordPress Insights at SiteBay",
-    "publishDate": "2024-04-04T00:00:00Z",
-    "thumbnail": "https://www.sitebay.org/docs/guides/grafana-for-wordpress/container-sitebay-login-lish_hu1642287791881910236.jpg",
-    "title": "Leveraging Grafana for WordPress Insights at SiteBay"
   }
 ]

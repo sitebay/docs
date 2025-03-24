@@ -2,4 +2,3 @@
 title: Event
 slug: event
 ---
-

@@ -23,5 +23,3 @@ You can restore your site, create a new staging site, or view files from a previ
 1. You can **download** files in the right pane if you just want to recover a file but do not want to restore your site.
 
 1.  Click **Restore** to restore your site to this point.
-
-

@@ -6,7 +6,7 @@
     <description>Recent content in SiteBay on sitebay Guides &amp; Tutorials</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 24 May 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 21 Mar 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.sitebay.org/docs/contributors/sitebay/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Getting Started on the SiteBay Platform</title>
@@ -30,25 +30,32 @@
       <description>&lt;p&gt;Hey! Ready to level up your WordPress game with SiteBay? Our web server guides got you. We&amp;rsquo;re talking a seamless blend of WordPress hosting powered by Kubernetes magic, spiced up with insights from Posthog, and visualized through Grafana.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Databases</title>
+      <title>The Ultimate Guide to Databases: Power Your Applications with the Right Data Solution</title>
       <link>https://www.sitebay.org/docs/guides/databases/</link>
       <pubDate>Tue, 16 Apr 2024 00:00:00 +0000</pubDate>
       <guid>https://www.sitebay.org/docs/guides/databases/</guid>
-      <description>&lt;p&gt;Databases are crucial in the world of web development and hosting, especially when it comes to managing dynamic content and user data. They allow for the organized storage, retrieval, and manipulation of data, making them an essential part of many web applications and services.&lt;/p&gt;</description>
+      <description>&lt;h1 id=&#34;unlocking-the-power-of-databases-for-modern-web-applications&#34; &gt;Unlocking the Power of Databases for Modern Web Applications&lt;a href=&#34;#unlocking-the-power-of-databases-for-modern-web-applications&#34; aria-label=&#34;The Ultimate Guide to Databases: Power Your Applications with the Right Data Solution: Unlocking the Power of Databases for Modern Web Applications&#34;  class=&#34;group&#34;&gt;&lt;svg class=&#34;ml-2 inline-block w-5 h-5 text-brand group-hover:text-blue-400&#34;&gt;&lt;use href=&#34;#icon--hashtag&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h1&gt;&lt;p&gt;In today&amp;rsquo;s data-driven world, &lt;strong&gt;databases are the hidden engines&lt;/strong&gt; powering virtually every digital experience you encounter. They&amp;rsquo;re not just storage systems—they&amp;rsquo;re the critical infrastructure that enables everything from lightning-fast website performance to sophisticated user personalization and robust e-commerce operations.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>WordPress</title>
+      <title>MySQL for WordPress: Optimizing Database Performance for Lightning-Fast Sites</title>
+      <link>https://www.sitebay.org/docs/guides/databases/mysql/</link>
+      <pubDate>Thu, 25 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.sitebay.org/docs/guides/databases/mysql/</guid>
+      <description>&lt;h1 id=&#34;mysql-the-powerful-engine-behind-your-wordpress-site&#34; &gt;MySQL: The Powerful Engine Behind Your WordPress Site&lt;a href=&#34;#mysql-the-powerful-engine-behind-your-wordpress-site&#34; aria-label=&#34;MySQL for WordPress: Optimizing Database Performance for Lightning-Fast Sites: MySQL: The Powerful Engine Behind Your WordPress Site&#34;  class=&#34;group&#34;&gt;&lt;svg class=&#34;ml-2 inline-block w-5 h-5 text-brand group-hover:text-blue-400&#34;&gt;&lt;use href=&#34;#icon--hashtag&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;why-your-database-is-the-key-to-wordpress-performance&#34; &gt;Why Your Database Is the Key to WordPress Performance&lt;a href=&#34;#why-your-database-is-the-key-to-wordpress-performance&#34; aria-label=&#34;MySQL for WordPress: Optimizing Database Performance for Lightning-Fast Sites: Why Your Database Is the Key to WordPress Performance&#34;  class=&#34;group&#34;&gt;&lt;svg class=&#34;ml-2 inline-block w-5 h-5 text-brand group-hover:text-blue-400&#34;&gt;&lt;use href=&#34;#icon--hashtag&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;While most WordPress optimization discussions focus on caching, image compression, and CDNs, the true foundation of a high-performance WordPress site lies in its database. &lt;strong&gt;MySQL powers over 80% of all WordPress installations worldwide&lt;/strong&gt;, serving as the critical backbone that stores and delivers your content, user data, and site configuration.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title> WordPress: Your Gateway to Digital Empire Building</title>
       <link>https://www.sitebay.org/docs/guides/wordpress/</link>
       <pubDate>Mon, 29 Apr 2024 00:00:00 +0000</pubDate>
       <guid>https://www.sitebay.org/docs/guides/wordpress/</guid>
-      <description>&lt;p&gt;Yo, welcome to the WordPress section, where we break down everything about this awesome CMS platform that&amp;rsquo;s powering millions of websites across the globe. Whether you&amp;rsquo;re just starting out and setting up your first site, or you&amp;rsquo;re looking to level up your WordPress game with themes, plugins, and advanced features, we&amp;rsquo;ve got you covered.&lt;/p&gt;</description>
+      <description>&lt;h3 id=&#34;why-wordpress-because-ordinary-is-boring&#34; &gt;Why WordPress? Because Ordinary is Boring!&lt;a href=&#34;#why-wordpress-because-ordinary-is-boring&#34; aria-label=&#34; WordPress: Your Gateway to Digital Empire Building: Why WordPress? Because Ordinary is Boring!&#34;  class=&#34;group&#34;&gt;&lt;svg class=&#34;ml-2 inline-block w-5 h-5 text-brand group-hover:text-blue-400&#34;&gt;&lt;use href=&#34;#icon--hashtag&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;h4 id=&#34;the-wordpress-advantage&#34; &gt;The WordPress Advantage&lt;a href=&#34;#the-wordpress-advantage&#34; aria-label=&#34; WordPress: Your Gateway to Digital Empire Building: The WordPress Advantage&#34;  class=&#34;group&#34;&gt;&lt;svg class=&#34;ml-2 inline-block w-5 h-5 text-brand group-hover:text-blue-400&#34;&gt;&lt;use href=&#34;#icon--hashtag&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Global Dominance:&lt;/strong&gt; Powering millions of websites worldwide&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Unlimited Potential:&lt;/strong&gt; From blogs to e-commerce, anything is possible&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Flexible Ecosystem:&lt;/strong&gt; Themes, plugins, and endless customization&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&#xA;&lt;h3 id=&#34;your-comprehensive-wordpress-roadmap&#34; &gt;Your Comprehensive WordPress Roadmap&lt;a href=&#34;#your-comprehensive-wordpress-roadmap&#34; aria-label=&#34; WordPress: Your Gateway to Digital Empire Building: Your Comprehensive WordPress Roadmap&#34;  class=&#34;group&#34;&gt;&lt;svg class=&#34;ml-2 inline-block w-5 h-5 text-brand group-hover:text-blue-400&#34;&gt;&lt;use href=&#34;#icon--hashtag&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;h4 id=&#34;dive-into-wordpress-mastery&#34; &gt;Dive into WordPress Mastery&lt;a href=&#34;#dive-into-wordpress-mastery&#34; aria-label=&#34; WordPress: Your Gateway to Digital Empire Building: Dive into WordPress Mastery&#34;  class=&#34;group&#34;&gt;&lt;svg class=&#34;ml-2 inline-block w-5 h-5 text-brand group-hover:text-blue-400&#34;&gt;&lt;use href=&#34;#icon--hashtag&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;What You&amp;rsquo;ll Conquer:&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Cloudflare &#43; SiteBay</title>
       <link>https://www.sitebay.org/docs/guides/cloudflare/</link>
       <pubDate>Thu, 04 Apr 2024 00:00:00 +0000</pubDate>
       <guid>https://www.sitebay.org/docs/guides/cloudflare/</guid>
-      <description>&lt;p&gt;Utilizing Cloudflare in conjunction with SiteBay can dramatically improve the performance, security, and scalability of your WordPress sites. Cloudflare&amp;rsquo;s content delivery network (CDN) and web security services, paired with SiteBay&amp;rsquo;s optimized WordPress hosting environment, create a robust platform for managing and delivering your content globally.&lt;/p&gt;</description>
+      <description>&lt;h1 id=&#34;cloudflare--sitebay-the-ultimate-wordpress-powerhouse&#34; &gt;Cloudflare + SiteBay: The Ultimate WordPress Powerhouse&lt;a href=&#34;#cloudflare--sitebay-the-ultimate-wordpress-powerhouse&#34; aria-label=&#34;Cloudflare &amp;#43; SiteBay: Cloudflare &amp;#43; SiteBay: The Ultimate WordPress Powerhouse&#34;  class=&#34;group&#34;&gt;&lt;svg class=&#34;ml-2 inline-block w-5 h-5 text-brand group-hover:text-blue-400&#34;&gt;&lt;use href=&#34;#icon--hashtag&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;why-this-integration-is-a-game-changer-for-your-website&#34; &gt;Why This Integration Is a Game-Changer for Your Website&lt;a href=&#34;#why-this-integration-is-a-game-changer-for-your-website&#34; aria-label=&#34;Cloudflare &amp;#43; SiteBay: Why This Integration Is a Game-Changer for Your Website&#34;  class=&#34;group&#34;&gt;&lt;svg class=&#34;ml-2 inline-block w-5 h-5 text-brand group-hover:text-blue-400&#34;&gt;&lt;use href=&#34;#icon--hashtag&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Combining Cloudflare&amp;rsquo;s enterprise-grade network with SiteBay&amp;rsquo;s WordPress-optimized hosting creates a &lt;strong&gt;formidable technical alliance&lt;/strong&gt; that transforms ordinary websites into extraordinary digital experiences. This integration isn&amp;rsquo;t just an incremental improvement—it&amp;rsquo;s a complete performance and security revolution that gives your site capabilities most WordPress installations simply cannot match.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Understanding Common My SiteBay Errors</title>
@@ -58,18 +65,18 @@
       <description></description>
     </item>
     <item>
-      <title>How to Create a Search with Algolia</title>
+      <title>Build a Lightning-Fast Search Experience in 60 Minutes with Algolia</title>
       <link>https://www.sitebay.org/docs/guides/create-search-with-algolia/</link>
       <pubDate>Mon, 13 May 2024 00:00:00 +0000</pubDate>
       <guid>https://www.sitebay.org/docs/guides/create-search-with-algolia/</guid>
-      <description>&lt;h2 id=&#34;how-to-create-powerful-site-search-with-algolia&#34; &gt;How to Create Powerful Site Search with Algolia&lt;a href=&#34;#how-to-create-powerful-site-search-with-algolia&#34; aria-label=&#34;How to Create a Search with Algolia: How to Create Powerful Site Search with Algolia&#34;  class=&#34;group&#34;&gt;&lt;svg class=&#34;ml-2 inline-block w-5 h-5 text-brand group-hover:text-blue-400&#34;&gt;&lt;use href=&#34;#icon--hashtag&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Algolia provides lightning-fast, relevant, and customizable search capabilities that can be quickly integrated into any website or application. This guide walks you through the process of setting up Algolia, indexing your data, and embedding search functionality seamlessly.&lt;/p&gt;</description>
+      <description>&lt;h1 id=&#34;how-to-create-a-conversion-boosting-search-experience-with-algolia&#34; &gt;How to Create a Conversion-Boosting Search Experience with Algolia&lt;a href=&#34;#how-to-create-a-conversion-boosting-search-experience-with-algolia&#34; aria-label=&#34;Build a Lightning-Fast Search Experience in 60 Minutes with Algolia: How to Create a Conversion-Boosting Search Experience with Algolia&#34;  class=&#34;group&#34;&gt;&lt;svg class=&#34;ml-2 inline-block w-5 h-5 text-brand group-hover:text-blue-400&#34;&gt;&lt;use href=&#34;#icon--hashtag&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;why-standard-search-is-killing-your-conversions&#34; &gt;Why Standard Search Is Killing Your Conversions&lt;a href=&#34;#why-standard-search-is-killing-your-conversions&#34; aria-label=&#34;Build a Lightning-Fast Search Experience in 60 Minutes with Algolia: Why Standard Search Is Killing Your Conversions&#34;  class=&#34;group&#34;&gt;&lt;svg class=&#34;ml-2 inline-block w-5 h-5 text-brand group-hover:text-blue-400&#34;&gt;&lt;use href=&#34;#icon--hashtag&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Search isn&amp;rsquo;t just a feature—it&amp;rsquo;s the primary way many visitors navigate your site. Studies show that users who search are &lt;strong&gt;2-3 times more likely to convert&lt;/strong&gt; than those who browse. Yet most websites rely on default search functionality that:&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Installing and Using Elasticsearch Plugins</title>
+      <title>10 Best Algolia Plugins to Transform Your WordPress Search Experience</title>
       <link>https://www.sitebay.org/docs/guides/a-guide-to-algolia-plugins/</link>
       <pubDate>Sat, 04 May 2024 00:00:00 +0000</pubDate>
       <guid>https://www.sitebay.org/docs/guides/a-guide-to-algolia-plugins/</guid>
-      <description></description>
+      <description>&lt;h1 id=&#34;the-ultimate-guide-to-algolia-plugins-for-wordpress&#34; &gt;The Ultimate Guide to Algolia Plugins for WordPress&lt;a href=&#34;#the-ultimate-guide-to-algolia-plugins-for-wordpress&#34; aria-label=&#34;10 Best Algolia Plugins to Transform Your WordPress Search Experience: The Ultimate Guide to Algolia Plugins for WordPress&#34;  class=&#34;group&#34;&gt;&lt;svg class=&#34;ml-2 inline-block w-5 h-5 text-brand group-hover:text-blue-400&#34;&gt;&lt;use href=&#34;#icon--hashtag&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;why-your-default-wordpress-search-is-costing-you-users&#34; &gt;Why Your Default WordPress Search Is Costing You Users&lt;a href=&#34;#why-your-default-wordpress-search-is-costing-you-users&#34; aria-label=&#34;10 Best Algolia Plugins to Transform Your WordPress Search Experience: Why Your Default WordPress Search Is Costing You Users&#34;  class=&#34;group&#34;&gt;&lt;svg class=&#34;ml-2 inline-block w-5 h-5 text-brand group-hover:text-blue-400&#34;&gt;&lt;use href=&#34;#icon--hashtag&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;If your website visitors can&amp;rsquo;t find what they&amp;rsquo;re looking for, they&amp;rsquo;ll leave. It&amp;rsquo;s that simple. The default WordPress search function is notoriously limited—it&amp;rsquo;s slow, delivers irrelevant results, and lacks critical features like typo tolerance or filtering capabilities.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Collaborate with PostHog Notebooks on SiteBay</title>
@@ -156,13 +163,6 @@
       <description>&lt;p&gt;One of the most powerful features of SiteBay&amp;rsquo;s unmanaged service is the amount of control SiteBay users have over their account and the software installed on their systems. If you&amp;rsquo;re a business owner that does not have expertise with installing or maintaining software on Linux, or if you do have experience with Linux but don&amp;rsquo;t have the time to set up a new server, then contracting with a developer or administrator is a popular way to get your services up and running.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Comparing WordPress Databases: The 3 Most Popular Database Types</title>
-      <link>https://www.sitebay.org/docs/guides/list-of-databases/</link>
-      <pubDate>Thu, 25 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>https://www.sitebay.org/docs/guides/list-of-databases/</guid>
-      <description>&lt;p&gt;Databases are the powerhouse behind nearly every website, app, and online platform you interact with daily. From social media to online shopping, databases keep the digital world spinning. Let&amp;rsquo;s dive into what databases are, the types you&amp;rsquo;ll come across, and spotlight some of the most popular options out there.&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Mastering Process Monitoring in SiteBay with the ps aux Command</title>
       <link>https://www.sitebay.org/docs/guides/use-the-ps-aux-command-in-sitebay/</link>
       <pubDate>Thu, 25 Apr 2024 00:00:00 +0000</pubDate>
@@ -170,18 +170,18 @@
       <description>&lt;p&gt;Within the ecosystem of SiteBay&amp;rsquo;s WordPress hosting on Kubernetes, understanding the underlying Linux system processes is crucial for managing and troubleshooting your WordPress site. The ps aux command is a powerful tool that provides comprehensive details about the processes running on your Linux system, including those affecting your WordPress site hosted on SiteBay. This guide offers insights into the ps aux command, illustrating why it&amp;rsquo;s important for your SiteBay WordPress hosting management.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>MySQL Database</title>
-      <link>https://www.sitebay.org/docs/guides/databases/mysql/</link>
-      <pubDate>Thu, 25 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>https://www.sitebay.org/docs/guides/databases/mysql/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Transfer a WordPress Site to SiteBay&#39;s WordPress Hosting</title>
       <link>https://www.sitebay.org/docs/guides/transferring-a-wordpress-site-to-a-new-server/</link>
       <pubDate>Thu, 25 Apr 2024 00:00:00 +0000</pubDate>
       <guid>https://www.sitebay.org/docs/guides/transferring-a-wordpress-site-to-a-new-server/</guid>
       <description>&lt;p&gt;Transferring your WordPress site to SiteBay&amp;rsquo;s robust WordPress hosting environment, optimized with Kubernetes, Posthog analytics, and Grafana dashboards, ensures your website&amp;rsquo;s seamless performance and enhanced security. This guide aims to simplify the migration process, covering the key steps to ensure a smooth transition to SiteBay.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Ultimate Database Showdown: MySQL vs MariaDB vs SQLite for WordPress (2025 Comparison)</title>
+      <link>https://www.sitebay.org/docs/guides/list-of-databases/</link>
+      <pubDate>Thu, 25 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.sitebay.org/docs/guides/list-of-databases/</guid>
+      <description>&lt;h1 id=&#34;the-ultimate-wordpress-database-comparison-mysql-vs-mariadb-vs-sqlite&#34; &gt;The Ultimate WordPress Database Comparison: MySQL vs MariaDB vs SQLite&lt;a href=&#34;#the-ultimate-wordpress-database-comparison-mysql-vs-mariadb-vs-sqlite&#34; aria-label=&#34;Ultimate Database Showdown: MySQL vs MariaDB vs SQLite for WordPress (2025 Comparison): The Ultimate WordPress Database Comparison: MySQL vs MariaDB vs SQLite&#34;  class=&#34;group&#34;&gt;&lt;svg class=&#34;ml-2 inline-block w-5 h-5 text-brand group-hover:text-blue-400&#34;&gt;&lt;use href=&#34;#icon--hashtag&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;choosing-the-right-database-engine-for-your-wordpress-site&#34; &gt;Choosing the Right Database Engine for Your WordPress Site&lt;a href=&#34;#choosing-the-right-database-engine-for-your-wordpress-site&#34; aria-label=&#34;Ultimate Database Showdown: MySQL vs MariaDB vs SQLite for WordPress (2025 Comparison): Choosing the Right Database Engine for Your WordPress Site&#34;  class=&#34;group&#34;&gt;&lt;svg class=&#34;ml-2 inline-block w-5 h-5 text-brand group-hover:text-blue-400&#34;&gt;&lt;use href=&#34;#icon--hashtag&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Your choice of database engine is one of the most consequential decisions affecting your WordPress site&amp;rsquo;s performance, reliability, and scalability. While this &amp;ldquo;behind-the-scenes&amp;rdquo; technology often gets overlooked, it can make the difference between a lightning-fast, stable website and one that crumbles under traffic or frustrates users with slow load times.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Embracing the Advantages of Open Source Software with SiteBay</title>

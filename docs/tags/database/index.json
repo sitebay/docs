@@ -1,11 +1,29 @@
 [
   {
-    "excerpt": "Elasticsearch supports a wide variety of plugins which enable more powerful search features. Learn how to manage, install, and use them.",
-    "href": "https://www.sitebay.org/docs/guides/a-guide-to-algolia-plugins/",
-    "lastModified": "2024-05-24T00:00:00Z",
-    "linkTitle": "Installing and Using Elasticsearch Plugins",
-    "publishDate": "2024-05-04T00:00:00Z",
+    "excerpt": "Master MySQL, the powerful database that powers over 80% of WordPress sites! Learn why this robust relational database is crucial for your site's performance, scalability, and security.",
+    "href": "https://www.sitebay.org/docs/guides/what-is-mysql/",
+    "lastModified": "2025-03-21T00:00:00Z",
+    "linkTitle": "What is MySQL? The Ultimate Guide to WordPress's Database Engine",
+    "publishDate": "2024-04-04T00:00:00Z",
     "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu15867188605667351697.jpg",
-    "title": "Installing and Using Elasticsearch Plugins"
+    "title": "What is MySQL? The Ultimate Guide to WordPress's Database Engine"
+  },
+  {
+    "excerpt": "Discover how SQLite is revolutionizing WordPress development! Learn why this lightweight database solution is becoming the secret weapon for developers seeking faster performance, simpler deployments, and hassle-free site management.",
+    "href": "https://www.sitebay.org/docs/guides/what-is-sqlite/",
+    "lastModified": "2025-03-21T00:00:00Z",
+    "linkTitle": "SQLite for WordPress: The Game-Changing Database Alternative You Need to Know About",
+    "publishDate": "2024-04-04T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu15867188605667351697.jpg",
+    "title": "SQLite for WordPress: The Game-Changing Database Alternative You Need to Know About"
+  },
+  {
+    "excerpt": "Discover why MariaDB is rapidly replacing MySQL for WordPress sites! Learn about its enhanced performance, advanced security features, and why leading hosting providers are making the switch to this powerful database engine.",
+    "href": "https://www.sitebay.org/docs/guides/what-is-mariadb/",
+    "lastModified": "2025-03-21T00:00:00Z",
+    "linkTitle": "MariaDB: The Next-Generation MySQL Alternative Powering Modern WordPress Sites",
+    "publishDate": "2024-04-04T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu15867188605667351697.jpg",
+    "title": "MariaDB: The Next-Generation MySQL Alternative Powering Modern WordPress Sites"
   }
 ]

@@ -63,4 +63,4 @@ SiteBay's code server provides a robust environment for development, featuring t
 
 #### Conclusion
 
-Integrating WordPress CLI into your SiteBay workflow offers a powerful way to manage WordPress sites more efficiently. By using the code server's capabilities, such as PHP IntelliSense, and incorporating shell tricks, developers can achieve a high level of productivity and automation. 
+Integrating WordPress CLI into your SiteBay workflow offers a powerful way to manage WordPress sites more efficiently. By using the code server's capabilities, such as PHP IntelliSense, and incorporating shell tricks, developers can achieve a high level of productivity and automation.

@@ -34,4 +34,3 @@ Imagine having the ability to turn back time on your website—to a point before
 1. Verify that this time and these files match with your desired restore point, and click **restore site** 
 You can also create a staging site from this restore point. 
 Protip: Create a stage, then verify that everything is how you want it, then, sync your stage to your live site. Then delete your staging site.
-

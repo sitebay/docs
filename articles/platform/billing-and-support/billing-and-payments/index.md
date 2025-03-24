@@ -78,4 +78,3 @@ Credit Card expired or want to switch your payment method? Keep your information
 1.  Select **Billing** from the sidebar links.
 1.  Scroll to the **Credit or debit cards** box and click **Add Card** to enter your credit card number.
 1.  If you have multiple cards, click on the **More** button on the right to delete this card or make it default. We will try to charge your default card first.
-

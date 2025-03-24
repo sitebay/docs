@@ -33,4 +33,3 @@ Funnels are great for visualizing the steps your users take in your application 
 ### Retention
 
 The retention tool helps you understand how often users come back to your app after their initial visit. It shows you the behaviours of both new and returning users, enabling you to make decisions to boost user retention.
-

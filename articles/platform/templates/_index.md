@@ -11,4 +11,3 @@ cascade:
     weightSearchBoost: true
 icon: "cube"
 ---
-

@@ -45,7 +45,7 @@ Security, privacy, and compliance are important to us. To help you find answers 
 
 ### Infrastructure Status Inquiries
 
-For all emergent issues and planned maintenance within our infrastructure, our team will post to (and regularly update) the [SiteBay status page](https://status.sitebay.org/) until the issue has been resolved or maintenance completed. If you are experiencing a connectivity issue, or having troubles accessing one of our services, check this page for any system-wide outages. You can also subscribe to receive updates via email/SMS by clicking Subscribe To Updates in the top right corner of the page.
+For all emergent issues and planned maintenance within our infrastructure, our team will post to (and regularly update) the [SiteBay status page](https://www.sitebay.org/status/) until the issue has been resolved or maintenance completed. If you are experiencing a connectivity issue, or having troubles accessing one of our services, check this page for any system-wide outages. You can also subscribe to receive updates via email/SMS by clicking Subscribe To Updates in the top right corner of the page.
 
 ### Report Abuse On Our Platform
 

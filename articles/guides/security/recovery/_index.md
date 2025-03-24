@@ -1,13 +1,24 @@
 ---
-author:
-  name: SiteBay
-  email: support@sitebay.org
-description: "Dive into the essentials of system recovery with SiteBay, guiding you through planning and bouncing back from system compromises with ease."
-og_description: "This segment is all about reviving your WordPress site on SiteBay after a security mishap. Think of it as your playbook for those I wish I had a backup moments and understanding the moves if things go south. Backup and Restore: Master the art of regular site backups and how to rewind to a safer point in time. It's your site's very own DeLorean. Spotting Trouble: Identifying the signs of a breach. Heads up: unexpected pop-ups and unknown admin accounts are major no-nos. Step-by-step guidance to purify your site from any unwelcome visitors or code."
-keywords: ["sitebay system recovery", "system compromise recovery"]
+title: "WordPress Recovery: Bounce Back from Hacks Like a Pro"
+description: "Learn expert strategies to recover your WordPress site quickly after a hack or breach. Restore your site, secure it, and prevent future incidents."
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
-published: 2024-04-24
-title: System Recovery
-show_in_lists: true
+show_on_frontpage: true
+title_short: "Recovery"
+weight: 80
+icon: "life-ring"
 aliases: ['/security/recovery/']
 ---
+
+# WordPress Recovery: Bounce Back from Hacks Like a Pro
+
+When disaster strikes and your WordPress site gets hacked, fast recovery is critical. This guide provides step-by-step strategies to restore your site, secure vulnerabilities, and get back online quickly.
+
+## Rapid Restoration Techniques
+- **Immediate Backup:** Always back up your site regularly to ensure you can restore it quickly.
+- **Identify the Breach:** Use security tools to pinpoint the source of the hack.
+- **Clean and Restore:** Remove malicious code and restore from a clean backup.
+
+## Securing Your Site Post-Recovery
+- **Update Software:** Ensure WordPress, themes, and plugins are up-to-date.
+- **Enhance Security Measures:** Implement strong passwords, two-factor authentication, and a robust firewall.
+- **Regular Monitoring:** Keep a close eye on your site for any signs of a recurring breach.

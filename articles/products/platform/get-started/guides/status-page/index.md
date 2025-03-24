@@ -12,7 +12,7 @@ authors: ["SiteBay"]
 contributors: ["SiteBay"]
 ---
 
-The [Status Page](https://status.sitebay.org/) provides real-time system status and maintenance updates via email. All customers are encouraged to subscribe to status notifications to stay up-to-date with any events that may impact our services. When you sign up for status updates, you can fine-tune which service updates you receive. These different topic areas are referred to as *components*. If, for example, all your services are restricted to the Newark data center, you may only wish to subscribe to the Newark component.
+The [Status Page](https://www.sitebay.org/status/) provides real-time system status and maintenance updates via email. All customers are encouraged to subscribe to status notifications to stay up-to-date with any events that may impact our services. When you sign up for status updates, you can fine-tune which service updates you receive. These different topic areas are referred to as *components*. If, for example, all your services are restricted to the Newark data center, you may only wish to subscribe to the Newark component.
 
 You can also subscribe to individual incident notifications. In this case, you can be notified of new updates to an incident via email or SMS.
 
@@ -20,7 +20,7 @@ You can also subscribe to individual incident notifications. In this case, you c
 
 To subscribe to system status and maintenance updates, follow the instructions below.
 
-1. Navigate to the [SiteBay Status Page](https://status.sitebay.org/).
+1. Navigate to the [SiteBay Status Page](https://www.sitebay.org/status/).
 
 1. Click on the **Subscribe to Updates** button.
 
@@ -34,13 +34,13 @@ To subscribe to system status and maintenance updates, follow the instructions b
 
 ## Subscribe to RSS Updates
 
-Within your RSS aggregator, go through the process of adding a new RSS feed. When prompted, use the following URL for a raw XML list of recent incidents: `https://status.sitebay.org/history.rss`.
+Within your RSS aggregator, go through the process of adding a new RSS feed. When prompted, use the following URL for a raw XML list of recent incidents: `https://www.sitebay.org/status/history.rss`.
 
 ## Subscribe to an Incident
 
 To subscribe to updates for a specific incident:
 
-1. Navigate to the [SiteBay Status Page](https://status.sitebay.org/).
+1. Navigate to the [SiteBay Status Page](https://www.sitebay.org/status/).
 
 1. Find the incident you would like to follow and click on its heading. You are brought to that incident's page.
 
@@ -50,7 +50,7 @@ To subscribe to updates for a specific incident:
 
 You can update your component preferences or cancel your subscription to SiteBay status and maintenance updates at any time. To update your preferences or to unsubscribe:
 
-1. Navigate to the [SiteBay Status Page](https://status.sitebay.org/).
+1. Navigate to the [SiteBay Status Page](https://www.sitebay.org/status/).
 
 1. Click on the **Subscribe to Updates** button and enter your email address.
 

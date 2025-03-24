@@ -1,11 +1,20 @@
 [
   {
-    "excerpt": "This tutorial provides step-by-step instructions for creating and configuring powerful site search using Algolia.",
+    "excerpt": "Supercharge your WordPress search with Algolia plugins! Discover the top plugins that make implementation effortless, dramatically improve search relevance, and boost user engagement on your site.",
+    "href": "https://www.sitebay.org/docs/guides/a-guide-to-algolia-plugins/",
+    "lastModified": "2025-03-21T00:00:00Z",
+    "linkTitle": "10 Best Algolia Plugins to Transform Your WordPress Search Experience",
+    "publishDate": "2024-05-04T00:00:00Z",
+    "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu15867188605667351697.jpg",
+    "title": "10 Best Algolia Plugins to Transform Your WordPress Search Experience"
+  },
+  {
+    "excerpt": "Build lightning-fast search that converts visitors into customers! This step-by-step guide shows you exactly how to implement Algolia's powerful search solution on any website in under 60 minutes—even if you're not a developer.",
     "href": "https://www.sitebay.org/docs/guides/create-search-with-algolia/",
-    "lastModified": "2024-05-24T00:00:00Z",
-    "linkTitle": "How to Create a Search with Algolia",
+    "lastModified": "2025-03-21T00:00:00Z",
+    "linkTitle": "Build a Lightning-Fast Search Experience in 60 Minutes with Algolia",
     "publishDate": "2024-05-13T00:00:00Z",
     "thumbnail": "https://www.sitebay.org/docs/images/placeholder_hu15867188605667351697.jpg",
-    "title": "How to Create a Search with Algolia"
+    "title": "Build a Lightning-Fast Search Experience in 60 Minutes with Algolia"
   }
 ]

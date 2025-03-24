@@ -34,7 +34,7 @@ Incoming data is never limited.
 
 If you have gone over your quota, or you think you may before the end of the month, you can consider one of the following options to raise your pool total and avoid overages:
 
-[Upgrade your plan](/support/tutorials/) for more allowed monthly outgoing bandwidth.
+[Upgrade your plan](/docs/guides/) for more allowed monthly outgoing bandwidth.
 
 
 ## View Bandwidth Out
@@ -43,4 +43,4 @@ You can view your current outgoing bandwidth usage for your monthly cycle in Sit
 
 ## More Information
 
-Read the [Billing and Payments](/support/tutorials/billing-and-payments/) tutorial for an overview of SiteBay billing.
+Read the [Billing and Payments](/docs/guides/billing-and-payments/) tutorial for an overview of SiteBay billing.

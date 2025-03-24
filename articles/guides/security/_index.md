@@ -8,3 +8,4 @@ weight: 70
 icon: "lock"
 aliases: ['/security/']
 ---
+Stay ahead of potential threats and ensure your site's integrity with actionable insights and expert recommendations.

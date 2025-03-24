@@ -82,4 +82,3 @@ If there is a visible division between the inpainted area and the rest of your i
 For more in-depth guides by read below
 * [Advanced inpainting guide by RoiD1kan](/docs/guides/how-to-use-inpainting-roid1kan/)
 * [Soft inpainting guide](/docs/guides/how-to-use-soft-inpainting/)
-
