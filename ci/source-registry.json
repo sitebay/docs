@@ -926,7 +926,9 @@
       "files": [],
       "urls": [
         "https://github.com/pgvector/pgvector",
-        "https://www.postgresql.org/docs/current/textsearch-intro.html"
+        "https://www.postgresql.org/docs/current/textsearch-intro.html",
+        "https://www.postgresql.org/docs/current/sql-grant.html",
+        "https://www.postgresql.org/docs/current/sql-createextension.html"
       ]
     },
     "ollama-embeddings": {
@@ -947,6 +949,163 @@
       "urls": [
         "https://github.com/linode/docs/tree/fe2349568fa499a229a1a5e370929404d8e76287"
       ]
+    },
+    "sorti-current-core": {
+      "note": "Current mission states, observability and attempt-specific controls; product rename confirmed by the owner. This is source review, not a live deployment claim.",
+      "files": [
+        {
+          "path": "sorti/SORTI.md",
+          "sha256": "ffec9aeef64e4d5d387ce5b9521592e7b74ea6993482e805376aa45533a8bb4b",
+          "checked_at": "2026-10-08",
+          "checkout_head": "1edf6c174711e9aba776c7bf922c3f1d294887e5",
+          "working_tree_changed": false
+        },
+        {
+          "path": "sorti/packages/sorti-contract/src/mission.ts",
+          "sha256": "1fd86d5c364ee26605b9f7ca873d317b929464be2851fe4059758dbc8ec03b8e",
+          "checked_at": "2026-10-08",
+          "checkout_head": "1edf6c174711e9aba776c7bf922c3f1d294887e5",
+          "working_tree_changed": false
+        },
+        {
+          "path": "sorti/packages/sorti-contract/src/missionControl.ts",
+          "sha256": "bd4fc1fdbf6a347335a806cbb28b6a27f919a05ad79cc972e44f54f51cbec35f",
+          "checked_at": "2026-10-08",
+          "checkout_head": "1edf6c174711e9aba776c7bf922c3f1d294887e5",
+          "working_tree_changed": false
+        },
+        {
+          "path": "sorti/apps/sorti-agent/lib/tools/builtin/mission-observability-tools.ts",
+          "sha256": "55722dafea63559b33eab9dba553127d291f21f6bed026e51610860a2a6a8352",
+          "checked_at": "2026-10-08",
+          "checkout_head": "1edf6c174711e9aba776c7bf922c3f1d294887e5",
+          "working_tree_changed": false
+        },
+        {
+          "path": "sorti/apps/sorti/components/assistant/ui/mission/details/MissionControls.tsx",
+          "sha256": "5caa1a177921c44fbcc8ff76c68dedaddb4c26185e18e84b77613b05691ebf4b",
+          "checked_at": "2026-10-08",
+          "checkout_head": "1edf6c174711e9aba776c7bf922c3f1d294887e5",
+          "working_tree_changed": false
+        }
+      ],
+      "urls": []
+    },
+    "sorti-current-skills": {
+      "note": "Current shared skill navigation, revision conflict handling, read-only fallback and agent skill reads.",
+      "files": [
+        {
+          "path": "sorti/apps/sorti/lib/skillLibrary.ts",
+          "sha256": "24145da0520c9b81fa576da9e9212d5c533ee4f84f73544ca650556847dbee86",
+          "checked_at": "2026-10-08",
+          "checkout_head": "1edf6c174711e9aba776c7bf922c3f1d294887e5",
+          "working_tree_changed": true
+        },
+        {
+          "path": "sorti/apps/sorti/components/assistant/settings/skills/SkillsNavigator.tsx",
+          "sha256": "c6665f117f73b73ce312ccc80952f7cc44df5e644fcb662e3c9e16b1ffc13653",
+          "checked_at": "2026-10-08",
+          "checkout_head": "1edf6c174711e9aba776c7bf922c3f1d294887e5",
+          "working_tree_changed": true
+        },
+        {
+          "path": "sorti/apps/sorti/components/assistant/settings/skills/useSkillLibrary.ts",
+          "sha256": "db0c9a2cfc410d76504f9bb2a20b37b2b9946efc1227ca1b67d4c7621f06ef10",
+          "checked_at": "2026-10-08",
+          "checkout_head": "1edf6c174711e9aba776c7bf922c3f1d294887e5",
+          "working_tree_changed": true
+        },
+        {
+          "path": "sorti/apps/sorti-agent/lib/tools/builtin/read-skill-tool.ts",
+          "sha256": "6486a213ad54a875f64c65f016607e5e7b743c90dbe44950ec351100f3e803ca",
+          "checked_at": "2026-10-08",
+          "checkout_head": "1edf6c174711e9aba776c7bf922c3f1d294887e5",
+          "working_tree_changed": false
+        },
+        {
+          "path": "sorti/apps/sorti-agent/lib/skills/SkillRegistry.ts",
+          "sha256": "fe56534c6e2a8040a171672b8cffa109465019e45345c4692644bac65e00b926",
+          "checked_at": "2026-10-08",
+          "checkout_head": "1edf6c174711e9aba776c7bf922c3f1d294887e5",
+          "working_tree_changed": false
+        }
+      ],
+      "urls": []
+    },
+    "sorti-current-app": {
+      "note": "Current SiteBay site app identifiers, state and legal-action reads, recovery availability, and separate optional OAuth configuration. No backend change or live activation.",
+      "files": [
+        {
+          "path": "sitebay/app/factory/sorti_site_app.py",
+          "sha256": "0f0a1c9d2583639d2ac2d11eb86c66a447e2a6a83d3ea52a0e95d52fbb2cb0db",
+          "checked_at": "2026-10-08",
+          "checkout_head": "1343855ec59a7c105040cb396a5ba94a3114dad8",
+          "working_tree_changed": false
+        },
+        {
+          "path": "sitebay/app/api/site/legal_actions.py",
+          "sha256": "141699fae1649adbbd60641e801def4672fdcc33ca978a740fb9f7798398fbea",
+          "checked_at": "2026-10-08",
+          "checkout_head": "1343855ec59a7c105040cb396a5ba94a3114dad8",
+          "working_tree_changed": false
+        },
+        {
+          "path": "sitebay/app/services/site_situation.py",
+          "sha256": "5294943cfbd632b9c37c0e6e1073945ee70b9f20a1de5f67e8f9dbcf5232dc30",
+          "checked_at": "2026-10-08",
+          "checkout_head": "1343855ec59a7c105040cb396a5ba94a3114dad8",
+          "working_tree_changed": false
+        },
+        {
+          "path": "sitebay/app/services/sorti_mcp/config.py",
+          "sha256": "e837631bfe2ff0e3c37d49a95a3e55ae411764b6859cf91edd7ff680bf8e11e6",
+          "checked_at": "2026-10-08",
+          "checkout_head": "1343855ec59a7c105040cb396a5ba94a3114dad8",
+          "working_tree_changed": false
+        },
+        {
+          "path": "sorti/apps/sorti-agent/lib/mcp/byo/ByoMcpClient.ts",
+          "sha256": "83b058087a513d1a6fe91fd5be0832ec26c41f9168b797f79ed7afc874bbd77e",
+          "checked_at": "2026-10-08",
+          "checkout_head": "1edf6c174711e9aba776c7bf922c3f1d294887e5",
+          "working_tree_changed": false
+        }
+      ],
+      "urls": []
+    },
+    "sorti-current-signals": {
+      "note": "Signal channels and subscription behavior retained through the product rename.",
+      "files": [
+        {
+          "path": "sorti/apps/sorti-agent/lib/hooks/signals.ts",
+          "sha256": "5c93b3c4c1e49fc5a588cf23e638dcbd8f8403502e85c285ec80b82adce5f054",
+          "checked_at": "2026-10-08",
+          "checkout_head": "1edf6c174711e9aba776c7bf922c3f1d294887e5",
+          "working_tree_changed": false
+        },
+        {
+          "path": "sorti/apps/sorti-agent/lib/hooks/HookDefinition.ts",
+          "sha256": "b71a16dfee5e84884f911580b8055b064bac3733b864e60e831feece6bb77c2b",
+          "checked_at": "2026-10-08",
+          "checkout_head": "1edf6c174711e9aba776c7bf922c3f1d294887e5",
+          "working_tree_changed": false
+        },
+        {
+          "path": "sorti/apps/sorti-agent/lib/hooks/HookDispatcher.ts",
+          "sha256": "619bd685e5a2ce202684d23d7fa330274d31f11e5c69dad7ee4c14d9974aefbe",
+          "checked_at": "2026-10-08",
+          "checkout_head": "1edf6c174711e9aba776c7bf922c3f1d294887e5",
+          "working_tree_changed": false
+        },
+        {
+          "path": "sorti/packages/sorti-contract/src/hooks.ts",
+          "sha256": "2ebb948f786258818a4faf65946c30d1f82f7ae726f46a56585fa2d648a15192",
+          "checked_at": "2026-10-08",
+          "checkout_head": "1edf6c174711e9aba776c7bf922c3f1d294887e5",
+          "working_tree_changed": false
+        }
+      ],
+      "urls": []
     }
   },
   "completion_review_date": "2026-10-08",

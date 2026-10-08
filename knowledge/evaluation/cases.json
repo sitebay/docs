@@ -121,6 +121,48 @@
       "expected_paths": [
         "docs/marketplace-docs/guides/ollama/index.md"
       ]
+    },
+    {
+      "query": "SiteClaw renamed Sorti",
+      "source": "sitebay",
+      "expected_paths": [
+        "articles/sorti/siteclaw-to-sorti.md"
+      ]
+    },
+    {
+      "query": "manage team skills and collections",
+      "source": "sitebay",
+      "expected_paths": [
+        "articles/sorti/skills-and-collections.md"
+      ]
+    },
+    {
+      "query": "pause mission approvals",
+      "source": "sitebay",
+      "expected_paths": [
+        "articles/sorti/missions-and-approvals.md"
+      ]
+    },
+    {
+      "query": "where documentation database belongs",
+      "source": "sitebay",
+      "expected_paths": [
+        "articles/knowledge/service-ownership.md"
+      ]
+    },
+    {
+      "query": "get started Sorti",
+      "source": "sitebay",
+      "expected_paths": [
+        "articles/products/sorti/get-started/index.md"
+      ]
+    },
+    {
+      "query": "connect MCP services",
+      "source": "sitebay",
+      "expected_paths": [
+        "articles/sorti/connect-mcp-services.md"
+      ]
     }
   ]
 }

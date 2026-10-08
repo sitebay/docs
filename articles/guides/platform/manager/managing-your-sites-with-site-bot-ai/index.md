@@ -1,39 +1,45 @@
 ---
-slug: managing-your-sites-with-siteclaw-ai
-description: Select the intended site before requesting an inspection or change. Give the assistant a clear task
-  rather than a broad instruction to fix everything.
+slug: managing-your-sites-with-sorti-ai
+description: Inspect the selected site, request a scoped change, and verify the original operation before publishing.
 keywords:
 - ai
-- siteclaw
+- sorti
 tags:
 - SiteBay platform
 - dashboard
-- siteclaw
+- sorti
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
-modified: 2026-10-07
+modified: 2026-10-08
 modified_by:
   name: SiteBay
 published: 2024-04-21
-title: Ask the assistant to manage a site
+title: Ask Sorti to manage a site
 aliases:
 - /quick-answers/platform/managing-your-sites-with-siteclaw-ai/
+- /guides/managing-your-sites-with-siteclaw-ai/
 authors:
 - SiteBay
 contributors:
 - SiteBay
 doc_sources:
-- mcp-platform
-- sorti-runtime
+- sorti-current-core
+- sorti-current-app
 ---
 
-Select the intended site before requesting an inspection or change. Give the assistant a clear task rather than a broad instruction to fix everything.
+Select the intended site before asking Sorti for an inspection or change. Check the team and live or staging environment. The site application reports current state and available actions; an old screenshot is not a current operation menu.
 
-## Start with an inspection
+## Inspect before editing
 
-Ask for the current state and a proposed action. Check the selected team, site, and environment. Tool availability and permission checks still apply to assisted work.
+Ask Sorti to read the site state and explain any operation already running. Name the page, file, or behavior that needs attention. Keep the first request read-only when the cause is unclear.
 
-## Review the change
+> Inspect the selected staging site and explain why the contact form fails. Propose the smallest change; do not publish it.
 
-For a mutation, review the target and scope before approval. Ask for the operation result and verification. A queued request, a saved change, and a published deployment are different outcomes.
+## Follow the original request
 
-Read [What is Sorti?]({{< relref "sorti/what-is-sorti.md" >}}) and [How Sorti works]({{< relref "sorti/how-sorti-works.md" >}}) for the current session model.
+For a multi-step mission, inspect its progress and pending decisions. Resolve the original approval rather than issuing the same write again. When the result is uncertain, keep the operation ID and read its state before retrying.
+
+## Verify the result
+
+Check the changed page or file on the intended environment. A saved edit, a successful staging test, and a completed live promotion are different results. Ask for the verification evidence and remaining gaps before approving publication.
+
+Read [Work with your site in Sorti]({{< relref "sorti/work-with-your-site.md" >}}) for site actions and [Missions and approvals]({{< relref "sorti/missions-and-approvals.md" >}}) for execution controls.

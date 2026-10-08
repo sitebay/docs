@@ -57,6 +57,8 @@ jobs:
         run: node knowledge/src/evaluate.mjs --report .cache/retrieval.json
       - name: Validate published pages and links
         run: python ci/check-links.py --public-dir public --report .cache/publishing.json
+      - name: Verify legacy documentation redirects
+        run: python ci/check-redirects.py --public-dir public --report .cache/redirects.json
       - name: Verify every article review record
         run: python ci/content_review.py --report .cache/content-review.json
       - name: Validate every article without a baseline

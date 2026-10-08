@@ -30,6 +30,7 @@ Use this knowledge base to understand a task before changing a site or the Sorti
 | Find the right procedure | [Task map]({{< relref "knowledge/task-map.md" >}}) |
 | Understand component ownership | [System map]({{< relref "knowledge/system-map.md" >}}) |
 | Connect an assistant | [Documentation MCP]({{< relref "knowledge/read-with-mcp.md" >}}) |
+| Decide where the database belongs | [Service ownership]({{< relref "knowledge/service-ownership.md" >}}) |
 | Add semantic retrieval | [pgvector retrieval]({{< relref "knowledge/pgvector.md" >}}) |
 | Evaluate search results | [Retrieval quality]({{< relref "knowledge/retrieval-quality.md" >}}) |
 | Read external guides | [Linode library]({{< relref "knowledge/upstream-library.md" >}}) |

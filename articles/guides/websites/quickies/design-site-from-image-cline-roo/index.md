@@ -3,22 +3,22 @@ slug: design-site-from-image-cline-roo
 author:
   name: SiteBay
   email: support@sitebay.org
-description: Use a reference image to describe the layout and visual hierarchy, then implement and test the page
-  in a development environment.
+description: Use a reference image to describe the layout and visual hierarchy, then implement and test the
+  page in a development environment.
 keywords:
 - cline
 - roo
 - ai
 - website design
 - image to website
-- siteclaw
+- sorti
 tags:
 - web design
 - ai
 - cline
-- siteclaw
+- sorti
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
-modified: 2026-10-07
+modified: 2026-10-08
 modified_by:
   name: SiteBay
 published: 2025-03-16

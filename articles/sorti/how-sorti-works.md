@@ -19,31 +19,50 @@ license: '[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)'
 doc_sources:
 - sorti-runtime
 - sorti-canvas
-modified: 2026-10-07
+- sorti-current-core
+- sorti-current-app
+- sorti-current-skills
+- docs-knowledge
+modified: 2026-10-08
 ---
 
-The app, agent, and connected services exchange input, tool results, and state within a session.
+Sorti separates the host application, agent runtime, and connected services. A session carries the conversation and workspace context; each service remains responsible for the operations and data it owns.
 
 ## Request flow
 
-1. The app supplies the user request and current workspace context.
-2. The agent selects an available tool or delegates scoped work.
-3. The owning service checks the request and performs the operation.
-4. Results and events update the conversation, panels, and task state.
-5. The result is checked against the requested outcome.
+1. The app supplies the user request and the current workspace context.
+2. The agent inspects available tools and loads a relevant skill when needed.
+3. A direct operation uses its owning tool; larger scoped work can use a mission.
+4. The owning service checks identity, permissions, and current state before executing a write.
+5. Tool results and events update the conversation, panels, and mission records.
+6. The result is verified against the requested outcome.
 
-Session context can include the active site, provider, page, selection, open panels, and editor connection. Context helps identify the target; it does not replace authorization or a current revision check.
+Context can include the active site, environment, page, selection, panel, and editor connection. Inspect that context instead of assuming every visible surface belongs to the same target.
 
-## Direct actions and larger work
+## Applications own their state
 
-A focused request can use a direct tool call. Work spanning several steps can use a mission with a plan, progress, and verification. The requested action and applicable permissions determine the route; a friendly name for a task does not make it read-only.
+An MCP connection can advertise tools and resources. An application manifest describes its identity and panel resources; the host discovers those declarations rather than copying product-specific operations into every screen.
 
-Specialists provide focused instructions and tools for a domain. They operate inside the same system rather than acting as independent authorizations to change a site.
+For example, SiteBay's site application declares a state reader and an available-actions reader. The panel reflects the backend's current facts. A documentation MCP connection instead advertises bounded reference reads and no site-write tools.
+
+Read [Work with your site]({{< relref "sorti/work-with-your-site.md" >}}) for that application's behavior and [MCP connections]({{< relref "sorti/connect-mcp-services.md" >}}) for the transport choices.
+
+## Skills guide work; missions record it
+
+Skills are instruction documents, not tool implementations. The available-skills list advertises names and descriptions; `read_skill` loads the body and provides continuation offsets for long instructions. Team collections organize shared skills and require the library's own write permissions.
+
+A mission has a recorded status, plan progress, results, and potentially pending decisions. The read tool `mission_activity` helps distinguish work in progress from a blocked step, an owner decision, or a finished result. Controls address a specific execution attempt, not every task with a similar name.
+
+See [Skills and collections]({{< relref "sorti/skills-and-collections.md" >}}) and [Missions and approvals]({{< relref "sorti/missions-and-approvals.md" >}}) for those workflows.
 
 ## Results and failures
 
-A queued operation, accepted request, completed tool call, saved artifact, and published deployment are different states. Report the state actually returned by the owning service.
+An accepted request is not necessarily a completed operation. A source commit does not prove a deployment succeeded. A mission marked `completed_with_gaps` still has unmet items, and a control request marked `requested` has not necessarily settled.
 
-When an outcome is uncertain, read the original operation status or receipt before retrying. Preserve the site, session, operation ID, and relevant error when escalating.
+When an outcome is uncertain, inspect the original operation or receipt before retrying. Preserve the site, session, mission or operation ID, and relevant error. Do not replay an operation merely to obtain a clearer message.
 
-See [Panels and MCP]({{< relref "sorti/panels-and-mcp.md" >}}) for UI actions and [Canvas and workspace]({{< relref "sorti/canvas-and-workspace.md" >}}) for site context.
+## Reference and storage boundaries
+
+The documentation build produces pages, browser search files, and a source-line corpus. The reader can use that file directly, or an optional PostgreSQL index of the same revision. Its pgvector configuration belongs to the documentation service, not the Sorti app or SiteBay customer database.
+
+Use the [system map]({{< relref "knowledge/system-map.md" >}}) to locate the owning source before editing. Indexed documentation identifies reviewed behavior; it does not certify which revision is running in a particular environment.

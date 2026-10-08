@@ -32,5 +32,14 @@
   "articles/knowledge/pgvector.md": "/docs/knowledge/pgvector/",
   "articles/knowledge/_index.md": "/docs/knowledge/",
   "articles/knowledge/upstream-library.md": "/docs/knowledge/upstream-library/",
-  "articles/knowledge/system-map.md": "/docs/knowledge/system-map/"
+  "articles/knowledge/system-map.md": "/docs/knowledge/system-map/",
+  "articles/sorti/siteclaw-to-sorti.md": "/docs/sorti/siteclaw-to-sorti/",
+  "articles/sorti/missions-and-approvals.md": "/docs/sorti/missions-and-approvals/",
+  "articles/sorti/skills-and-collections.md": "/docs/sorti/skills-and-collections/",
+  "articles/sorti/work-with-your-site.md": "/docs/sorti/work-with-your-site/",
+  "articles/sorti/connect-mcp-services.md": "/docs/sorti/connect-mcp-services/",
+  "articles/knowledge/service-ownership.md": "/docs/knowledge/service-ownership/",
+  "articles/products/sorti/_index.md": "/docs/products/sorti/",
+  "articles/products/sorti/get-started/index.md": "/docs/products/sorti/get-started-sorti/",
+  "articles/products/sorti/signal-hooks/index.md": "/docs/products/sorti/signal-hooks/"
 }

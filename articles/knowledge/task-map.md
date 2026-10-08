@@ -19,6 +19,8 @@ doc_sources:
 - docs-knowledge
 - sorti-runtime
 - lifecycle
+- sorti-current-core
+- sorti-current-skills
 ---
 
 Choose the task, not the nearest product name. A saved file, a site restore, and a deployed release require different checks.
@@ -49,3 +51,13 @@ Choose the task, not the nearest product name. A saved file, a site restore, and
 Call `search_docs` with a concrete task and keep the default `sitebay` source. Read a returned ID with `read_doc`; follow `next_line` when the procedure continues. Cite the source path, revision, and lines. Inspect the current owning code and live tool schema before proposing a write.
 
 Use `source: "linode"` for external references. An Akamai provisioning procedure does not apply to a SiteBay site just because both guides mention WordPress or PostgreSQL.
+
+## Current Sorti procedures
+
+| Task | Procedure |
+| --- | --- |
+| Replace an old SiteClaw instruction | [Rename guide]({{< relref "sorti/siteclaw-to-sorti.md" >}}) |
+| Inspect a mission or pending approval | [Missions and approvals]({{< relref "sorti/missions-and-approvals.md" >}}) |
+| Organize shared team skills | [Skills and collections]({{< relref "sorti/skills-and-collections.md" >}}) |
+| Choose a documentation or product MCP connection | [MCP connections]({{< relref "sorti/connect-mcp-services.md" >}}) |
+| Decide where pgvector belongs | [Service ownership]({{< relref "knowledge/service-ownership.md" >}}) |

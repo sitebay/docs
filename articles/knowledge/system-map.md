@@ -19,6 +19,8 @@ doc_sources:
 - docs-knowledge
 - sorti-runtime
 - api-contract
+- sorti-current-core
+- sorti-current-skills
 ---
 
 The documentation repository explains the system. It does not own customer state or grant access to it.
@@ -47,3 +49,9 @@ A Sorti session can attach the reader through its `mcpServers` extension. The re
 Use `SORTI.md` in the current checkout to locate code. Read the relevant `AGENTS.md` and implementation before editing. Runtime schemas and server authorization determine what an operation accepts. A documentation hash identifies the text that was read; it does not certify a live deployment.
 
 Do not index an entire home directory as public knowledge. Credentials, customer files, internal reports, and repository instructions need separate access controls. This builder selects published documentation and an explicitly pinned public reference library.
+
+## Separate skills from reference retrieval
+
+The team skill library is part of Sorti and its authenticated team configuration. Skills provide reusable instructions and collections; the documentation reader supplies cited reference passages. Neither the browser Pagefind index nor the docs pgvector database is the skill library or mission ledger.
+
+For an existing MCP connection, no pgvector implementation change is required in the Sorti or SiteBay source tree. See [service ownership]({{< relref "knowledge/service-ownership.md" >}}) for the required process and database configuration.

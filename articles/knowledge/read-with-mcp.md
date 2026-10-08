@@ -19,6 +19,8 @@ doc_sources:
 - docs-knowledge
 - mcp-standard
 - sorti-byo
+- sorti-current-core
+- sorti-current-skills
 ---
 
 The documentation MCP server exposes reference reads, not shell commands or site-management writes. It works without a database; pgvector is optional.
@@ -64,3 +66,7 @@ A remote agent needs a reachable authenticated HTTPS endpoint; its loopback addr
 ## Verify
 
 List the four tools. Search for “How Sorti works,” read its ID, and compare the cited lines with the article. A write-tool request, unknown ID, arbitrary URL, or filesystem path must fail. Starting the service does not attach it to existing Sorti sessions.
+
+## Choose the service owner
+
+Keep reader deployment and database configuration in the documentation service. The Sorti session receives only the reader endpoint and its authentication, not database credentials. [Service ownership]({{< relref "knowledge/service-ownership.md" >}}) separates the optional database, embedding provider, and client setup.

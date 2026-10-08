@@ -17,6 +17,7 @@ bash knowledge/tests/test-postgres.sh
 npm run build:docs
 node knowledge/src/evaluate.mjs --report .cache/retrieval.json
 python ci/check-links.py --public-dir public --report .cache/publishing.json
+python ci/check-redirects.py --public-dir public --report .cache/redirects.json
 python ci/content_review.py --report .cache/content-review.json
 python ci/editorial.py --report .cache/editorial.json
 bash ci/install-vale.sh .cache/tools

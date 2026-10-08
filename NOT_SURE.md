@@ -2,7 +2,7 @@
 
 The original article refresh covers all 348 Markdown sources, including
 navigation and reusable fragments. The knowledge integration adds eight guides
-for 356 maintained Markdown sources in total. The former editorial baseline allowance is
+for 356 maintained Markdown sources before the current naming and workflow pass. The former editorial baseline allowance is
 removed. Source review, strict editorial checks, spelling, build, links,
 reference generation, and browser behavior are checked separately.
 
@@ -59,3 +59,19 @@ was downloaded, and no article text was sent to a remote embedding provider.
 The pgvector integration uses a disposable PostgreSQL database and deterministic
 fixture vectors. Real-model retrieval quality remains an operator acceptance
 check. The curated lexical regression is recorded separately.
+
+## Current Sorti article pass — October 8, 2026
+
+Seven new guides and landing pages cover the SiteClaw rename, site application,
+missions, shared skills, MCP connection choices, and documentation service
+ownership. The maintained source inventory is now 363 Markdown files. Changed
+articles were checked against the current source files recorded in the source
+registry. Unchanged articles retain their earlier review dates.
+
+The owner confirmed the product rename. The editor package still contains an
+older SiteClaw description, while its real sitebay.* setting identifiers are
+unchanged. Documentation now uses Sorti without renaming those identifiers.
+Shared skill editing and live mission controls depend on the deployed server
+and session capabilities; source presence is not production qualification.
+No SiteBay or Sorti source changes, production database migration, embedding
+model installation, or live reader activation were performed in this pass.
