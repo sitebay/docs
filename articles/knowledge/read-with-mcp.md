@@ -22,6 +22,7 @@ doc_sources:
 - sorti-current-core
 - sorti-current-skills
 - docs-infrastructure
+- llm-discovery
 ---
 
 The documentation MCP server exposes reference reads, not shell commands or site-management writes. It works without a database; pgvector is optional.
@@ -77,3 +78,17 @@ Keep reader deployment and database configuration in the documentation service. 
 The container deployment uses `DOCS_MCP_HOST=0.0.0.0` with exact allowed hosts and the existing token check. This is an explicit deployment setting; local readers remain loopback-only by default. `/healthz` reports liveness, while `/readyz` also checks the configured database snapshot.
 
 Use [the isolated Pulumi project]({{< relref "knowledge/deploy-with-pulumi.md" >}}) to prepare the dedicated database, import job, reader, and network policy. Packaging or a local test does not activate an existing Sorti session. Read [update and recovery]({{< relref "knowledge/update-and-recover.md" >}}) before replacing a running corpus.
+
+## Read without an MCP connection
+
+The generated website also offers a static reading route. Start with the **Index for agents** link, choose a task, and follow its Markdown page. No database, embedding model, or MCP connection is needed for those public files once the website artifact is deployed.
+
+Each authored page declares its Markdown version in the HTML head and offers **Read as Markdown**. The generated path appends `index.md` to a page ending in `/`. For example, the counter tutorial has `/docs/sorti/build-a-counter-panel/index.md`.
+
+`/docs/llms.txt` is a small task-oriented entry point. `/docs/llms-index.txt` lists every public document. `/docs/knowledge/documents.json` maps document IDs to canonical URLs, Markdown URLs, content hashes, review dates, task summaries where provided, and section line ranges. Fetch the relevant page rather than loading the entire corpus into context.
+
+The Markdown version comes from the rendered article. It includes expanded references, tables, and code without the website navigation. Its line numbers are **not** the original Markdown source lines. Use its source link or `read_doc` for citations to the original source; use the manifest's line ranges only with the rendered Markdown representation.
+
+The six practical walkthroughs include a **Task at a glance** section: goal, prerequisites, changes and limits, and verification. The same metadata is returned with their MCP document records. This helps a reader choose the correct procedure without treating an example prompt as permission to execute it.
+
+Publishing an agent index does not prove that a search engine has indexed the site, that an assistant will recommend it, or that the reader service is running. The current artifact must be deployed and reachable first.

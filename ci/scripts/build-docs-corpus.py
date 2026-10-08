@@ -38,7 +38,7 @@ def document(raw,namespace,path,url,revision,repository):
         'url':url,'topic':path.split('/')[1] if '/' in path else namespace,
         'authority':'sitebay-reference' if namespace=='sitebay' else 'external-reference',
         'license':str(meta.get('license') or 'See original repository and article'),
-        'authors':meta.get('authors',[]),'reviewed':str(meta.get('modified') or meta.get('published') or ''),
+        'authors':meta.get('authors',[]),'task':meta.get('task'),'reviewed':str(meta.get('modified') or meta.get('published') or ''),
         'basis':meta.get('doc_sources',[]),'source':{'repository':repository,'path':path,'revision':revision,
         'sha256':digest(raw),'url':f'https://github.com/{repository}/blob/{revision}/{path}' if revision else None},
         'raw':raw,'body_start':body_start,'chunks':chunks(raw,body_start,docid,title)}
@@ -84,10 +84,6 @@ def main():
         p.error('Keep the upstream reading library outside public/. Do not publish rebranded third-party articles.')
     data=build(ROOT,a.hugo,a.linode_repo);a.output.parent.mkdir(parents=True,exist_ok=True)
     temp=a.output.with_suffix('.tmp');temp.write_text(json.dumps(data,ensure_ascii=False,separators=(',',':'))+'\n');temp.replace(a.output)
-    if not a.linode_repo:
-        text='# SiteBay documentation\n\nRead-only reference. Verify live schemas and permissions before actions.\n\n'
-        text+='\n'.join(f'- [{d["title"]}]({d["url"]}): {d["description"]}' for d in data['documents'])+'\n'
-        (a.output.parent.parent/'llms.txt').write_text(text)
     print(json.dumps({'documents':len(data['documents']),'chunks':sum(len(d['chunks']) for d in data['documents']),'revision':data['revision'],'upstream_revision':data['upstream_revision']}))
     return 0
 if __name__=='__main__':raise SystemExit(main())

@@ -94,3 +94,13 @@ SSH push with public-key authentication failure; the noninteractive HTTPS read
 also failed. No infrastructure branch is claimed to be published remotely.
 The original infrastructure checkout's 148 pre-existing changed paths were
 hash-checked and left unchanged when the new project was placed.
+
+## LLM-readiness delivery boundary
+
+The October 8, 2026 public probe returned HTTP 523 for the docs homepage, Sorti
+section, practical tutorial, sitemap, llms.txt, and origin robots.txt. This is
+an observation from the development host, not proof of a worldwide outage.
+Root robots policy, CDN access for verified crawlers, indexed-page coverage,
+and actual AI citations could not be verified. No DNS, firewall, crawler
+training opt-in, deployment, or main-branch change was made. Readiness scoring
+is a versioned project checklist, not an external SEO rating or ranking promise.

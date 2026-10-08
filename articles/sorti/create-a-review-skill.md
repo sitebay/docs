@@ -21,6 +21,14 @@ tags:
 license: '[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)'
 doc_sources:
 - practical-team-skills
+task:
+  goal: Save and test one reusable staging-review procedure in the shared team library.
+  prerequisites: Connect SiteBay, select the intended team, confirm library write access, and check for an
+    existing equivalent skill.
+  effects: Saving changes a shared skill. Enabling it neither runs the procedure nor grants missing tools or
+    site access.
+  verification: Reopen the stored instructions and run a read-only review task. Reconcile concurrent edits
+    without discarding the draft.
 ---
 
 Turn a repeated review into a skill when the steps stay the same across tasks. This example creates a staging-page review that inspects a change and reports evidence without publishing it.

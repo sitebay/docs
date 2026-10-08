@@ -14,6 +14,8 @@
   {{ $js := resources.Get "js/docs-search.js" | fingerprint }}
   <script src="{{ $js.RelPermalink }}" defer></script>
   <link rel="alternate" type="application/json" title="Agent reference corpus" href="{{ "knowledge/corpus.json" | relURL }}">
+  {{ partial "docs/machine-metadata.html" . }}
+  {{ if .Params.no_index }}<meta name="robots" content="noindex">{{ end }}
   {{ block "head-meta-addons" . }}{{ end }}
 </head>
 <body class="docs-shell">
@@ -40,9 +42,11 @@
         {{ if not .IsHome }}<nav class="docs-breadcrumbs" aria-label="Breadcrumb" data-pagefind-ignore><a href="{{ site.Home.RelPermalink }}">Docs</a>{{ with .Parent }}{{ if not .IsHome }} / <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>{{ end }}{{ end }}</nav>{{ end }}
         {{ block "main" . }}<article class="prose prose-lg"><h1>{{ .Title }}</h1>{{ .Content }}</article>{{ end }}
       </section>
-      {{ if .IsPage }}<footer class="docs-page-tools" data-pagefind-ignore>
+      {{ if and .File (strings.Contains (replace .File.Filename "\\" "/") "/articles/") }}<footer class="docs-page-tools" data-pagefind-ignore>
         {{ with .Params.authors }}<span>By {{ delimit . ", " }}</span>{{ end }}
         {{ with .Params.modified }}<span>Updated {{ . }}</span>{{ end }}
+        {{ with .Store.Get "docsMarkdownURL" }}<a href="{{ . }}">Read as Markdown</a>{{ end }}
+        {{ with os.Getenv "HUGO_DOCS_SOURCE_REVISION" }}{{ if findRE `^[0-9a-f]{40}$` . }}<a data-docs-source href="https://github.com/sitebay/docs/blob/{{ . }}/articles/{{ $.File.Path }}">View source</a>{{ end }}{{ end }}
         {{ with .Params.license }}<span>{{ . | markdownify }}</span>{{ end }}
       </footer>{{ end }}
     </main>

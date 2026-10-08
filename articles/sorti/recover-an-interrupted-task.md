@@ -21,6 +21,14 @@ tags:
 license: '[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)'
 doc_sources:
 - practical-mission-controls
+task:
+  goal: Inspect the original mission and continue preserved work without repeating uncertain operations.
+  prerequisites: Find the original session, mission ID, available controls, pending decisions, and outstanding
+    operation receipts.
+  effects: Reading status does not resend a request. Pause, Stop, and Interrupt do not undo source changes
+    or already-issued external effects.
+  verification: Resolve outstanding outcomes, retain completed edits, and verify only the remaining work through
+    the supported continuation path.
 ---
 
 When a task stops making progress, inspect the original mission before starting another one. A paused executor, a pending approval, and a disconnected client need different responses.

@@ -21,6 +21,14 @@ tags:
 license: '[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)'
 doc_sources:
 - practical-site-workflows
+task:
+  goal: Review the release target, live-data drift, and recovery checkpoint before promotion.
+  prerequisites: Identify live and staging, inspect the saved change, and read the current available actions
+    and drift report.
+  effects: The review does not publish. Promotion can overwrite live changes; approval of a design is not approval
+    of protected-data loss.
+  verification: Follow the original operation IDs to an outcome, then check the live page. An initial committing_stage
+    response is not completion.
 ---
 
 A staging page can pass every visual check and still be unsafe to promote. Live may have changed since the staging copy was created. Review those changes before replacing live state.

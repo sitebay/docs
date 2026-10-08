@@ -370,5 +370,11 @@
     "url": {
         "required": false,
         "type": "text"
+    },
+    "task": {
+        "elements": false,
+        "required": false,
+        "type": "dict",
+        "description": "Optional public task summary. The export validator requires exactly goal, prerequisites, effects and verification as nonempty strings."
     }
 }

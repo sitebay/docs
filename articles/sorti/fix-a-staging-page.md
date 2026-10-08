@@ -21,6 +21,14 @@ license: '[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)'
 doc_sources:
 - practical-site-workflows
 - practical-canvas
+task:
+  goal: Reproduce one page problem on staging, save the reviewed fix, and test the saved page.
+  prerequisites: Confirm the site, staging address, selected page, and editor workspace. Check that no conflicting
+    site operation is running.
+  effects: A canvas preview does not save or publish. The persistent edit changes staging; live promotion is
+    a separate decision.
+  verification: Reopen the saved staging page, repeat the failure case, and check narrow and wide layouts.
+    Test external effects only with agreed test data.
 ---
 
 Use this workflow to fix one page without turning a small edit into a live release you have not reviewed. Start with a reproducible problem, work on staging, and verify the saved page rather than only its preview.

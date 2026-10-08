@@ -911,7 +911,8 @@
         },
         {
           "path": "sitebay/docs/ci/scripts/build-docs-corpus.py",
-          "sha256": "f6b1018771d3ef4a98f01cae30d28a0f76c093064c269dbec677a837d3498fcc"
+          "sha256": "4d5a89a80f2547cbf428c4875994492633120cdc13e80c318888e04217b589aa",
+          "previous_review_sha256": "f6b1018771d3ef4a98f01cae30d28a0f76c093064c269dbec677a837d3498fcc"
         },
         {
           "path": "sitebay/docs/knowledge/src/evaluate.mjs",
@@ -1348,6 +1349,45 @@
       "urls": [
         "https://code.visualstudio.com/api/advanced-topics/extension-host",
         "https://code.visualstudio.com/docs/editing/workspaces/workspace-trust"
+      ]
+    },
+    "llm-discovery": {
+      "reviewed_at": "2026-10-08",
+      "note": "Public rendered exports, raw versus rendered line coordinates, and task metadata. Local checks do not establish deployed search visibility.",
+      "files": [
+        {
+          "path": "sitebay/docs/ci/llm_export.py",
+          "sha256": "b052e966d7a84125ece1086ee1eb2c852b0c566c0adde9f6d0652e364b836620"
+        },
+        {
+          "path": "sitebay/docs/ci/llm_readiness.py",
+          "sha256": "c6ce55f3fc3309501ef7acbeff3f4d6e57f7c7f61b6b02254bc4edeaef6b78b4"
+        },
+        {
+          "path": "sitebay/docs/ci/scripts/build-docs-corpus.py",
+          "sha256": "4d5a89a80f2547cbf428c4875994492633120cdc13e80c318888e04217b589aa"
+        },
+        {
+          "path": "sitebay/docs/ci/scripts/build-docs.sh",
+          "sha256": "6ce0d32458d57fbd04b9e5f063c1f62ebe1e5d312d2f61c160bfcd18b0bbeac3"
+        },
+        {
+          "path": "sitebay/docs/layouts/partials/docs/machine-metadata.html",
+          "sha256": "25f3de9aff05d2d4c1718e996397d1ef1200d546df6bceac27b09dd234cba461"
+        },
+        {
+          "path": "sitebay/docs/layouts/partials/docs/task-summary.html",
+          "sha256": "168b5ab5d94abb51730c3da14980191e21ea97d7c55cb52e4799a0c02336f554"
+        },
+        {
+          "path": "sitebay/docs/layouts/_default/baseof.html",
+          "sha256": "5c1e7cb009a3492338279fdb2f49929e00c4d7161b356b6162bef73342566da7"
+        }
+      ],
+      "urls": [
+        "https://llmstxt.org/",
+        "https://developers.google.com/search/docs/appearance/ai-features",
+        "https://developers.openai.com/api/docs/bots"
       ]
     }
   },

@@ -23,6 +23,14 @@ doc_sources:
 - practical-editor-proxy
 - playwright-mcp-primary
 - vscode-host-primary
+task:
+  goal: Use the editor bridge to inspect a development page with an isolated Playwright browser.
+  prerequisites: Confirm the extension host, trusted workspace, intended session, working development-server
+    address, and required browser dependencies.
+  effects: The enabled proxy can start configured local processes. Browser form submissions and other external
+    effects need their own scope.
+  verification: List the actual browser tools, open the intended address, check the title and heading, then
+    perform the agreed interaction test.
 ---
 
 Use the SiteBay Agent Bridge when Sorti needs browser access to a development server reachable from your editor. The bridge can start a configured local MCP server and relay its tools to the agent.

@@ -135,3 +135,61 @@ SORTI_REPO=/path/to/sorti \
 `DOCS_REPO` can select another documentation checkout. These are pure parser and
 configuration checks, not a created panel, an active browser-proxy session, or a
 shared-library save. Public CI does not require the private Sorti checkout.
+
+## Agent reading and readiness
+
+`npm run build:docs` now exports rendered Markdown after Hugo and Pagefind.
+Each public authored URL ending in `/` has an `index.md` companion. The HTML
+head declares that alternate, and the footer exposes it to people. Shortcodes,
+relative links, and syntax-highlighted code are resolved from the actual article
+region. Navigation and line-number columns are not included in the Markdown.
+No external page is fetched by this exporter.
+
+`public/llms.txt` is a curated entry point, not a full-context dump.
+`public/llms-index.txt` provides the complete grouped list.
+`public/knowledge/documents.json` supplies hashes and section line ranges for
+rendered Markdown; `corpus.json` retains the original source and exact raw-source
+line coordinates. Never mix those coordinate systems in a citation. The explicit
+`task` front matter on the six walkthroughs feeds the visible summary, manifest,
+and MCP document metadata. No synthetic FAQ or fabricated ratings are added.
+
+```sh
+node knowledge/src/evaluate.mjs --report .cache/retrieval.json
+python ci/llm_readiness.py --retrieval-report .cache/retrieval.json \
+  --report .cache/llm-readiness.json --check
+```
+
+This is **our versioned checklist, not an industry SEO score or probability of
+being cited**. Ninety points cover locally testable artifacts. Five require
+public delivery evidence; five require actual search/citation measurements.
+Unknown checks do not earn points and are explicitly labelled unassessed. CI
+fails local regressions; it does not pretend to monitor the public origin.
+The page checks use proportions of authored pages, while the task-summary check
+covers the six named walkthroughs, not every article. Retrieval cases are curated
+lexical regressions, not a benchmark of an external LLM's answer quality.
+
+| Category | Points | What is tested |
+| --- | ---: | --- |
+| Crawl and identity | 20 | Static text, canonical URLs, sitemap coverage and modified dates |
+| Machine reading | 25 | Markdown, discovery links, bounded index, manifest and code/heading fidelity |
+| Provenance | 20 | Original hashes, article review records, JSON-LD and visible attribution |
+| Task usefulness | 25 | Descriptions, six task summaries, rename redirect and matching-revision retrieval |
+| Live validation | 10 | Public delivery and independently measured search inclusion |
+
+The `--live-report` option accepts a read-only probe JSON list of URLs and HTTP
+status codes. An HTTP success is only delivery, not indexing. A 5xx response
+needs origin/CDN investigation before claims about public search visibility.
+
+The docs deploy under `/docs/`. Root `/robots.txt`, DNS and CDN policy belong
+to the origin owner and are **not** configured by writing `/docs/robots.txt`.
+Verify access for Googlebot and OAI-SearchBot separately from training-crawler
+preferences. This change does not opt the site into training or modify crawler
+access. Public `text/markdown` content types and optional canonical HTTP Link
+headers need checking in the actual deployment; a local static export cannot
+establish those response headers. Deploy a fresh artifact rather than overlaying
+an old directory that might retain withdrawn Markdown files.
+
+Primary references: [Google AI search requirements](https://developers.google.com/search/docs/appearance/ai-features),
+[OpenAI crawlers](https://developers.openai.com/api/docs/bots), and the
+[llms.txt proposal](https://llmstxt.org/). Machine-reading files are useful for
+agents consuming the docs, not a special Google inclusion requirement.

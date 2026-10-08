@@ -5232,8 +5232,8 @@
     },
     "articles/knowledge/read-with-mcp.md": {
       "original_path": null,
-      "file_sha256": "4dc66b7382f35aa506a1ceab47fcdda3f918390d42c32b039b8c07822487ea26",
-      "body_sha256": "d8a3c0568063d3f5d5c190204d91127289d627bae4e83d8627a9233406b68cbb",
+      "file_sha256": "ac0f582c6abc633ec34a3eec6b826ff65aa5174d0b0e424eec033e1847794224",
+      "body_sha256": "66abfa53d47f2426a8d947995345bd69ab8bdf09ac0956438c67a31819cffa16",
       "original_body_sha256": null,
       "body_changed": true,
       "basis": [
@@ -5242,11 +5242,12 @@
         "sorti-byo",
         "sorti-current-core",
         "sorti-current-skills",
-        "docs-infrastructure"
+        "docs-infrastructure",
+        "llm-discovery"
       ],
-      "change": "Connect the deployed-reader procedure and clarify default versus container binding and ownership.",
+      "change": "Document rendered Markdown discovery, exact-source versus derived line coordinates, and task metadata without claiming live deployment.",
       "original_words": 0,
-      "updated_words": 489,
+      "updated_words": 752,
       "headless": false,
       "prior_file_sha256": "0254dd4ca2ddd51a328d09b751710f3a799113f83f2c893cc4c9b1874bef58da",
       "prior_review_change": "Add an original implementation-grounded guide for the documentation knowledge service.",
@@ -5543,94 +5544,94 @@
       "headless": false
     },
     "articles/sorti/fix-a-staging-page.md": {
-      "file_sha256": "1354d5920ffb5bcc2e13e0439351e459e9ed4e26421f8fdd767a6735d5b77c9c",
+      "file_sha256": "48e1f9a40f39ac1d65996656483a9fb8fde4db02f0d1968887c56e78561aa51e",
       "body_sha256": "e43750cf25df29928d49d85bb62c025ac63084f4a523823cc56fe8ff47ef3a22",
       "original_path": null,
       "original_body_sha256": null,
       "original_words": 0,
-      "body_changed": true,
+      "body_changed": false,
       "basis": [
         "practical-site-workflows",
         "practical-canvas"
       ],
-      "change": "New task tutorial with original examples reviewed against the current named implementation sources.",
+      "change": "Add source-supported task summary shared by visible HTML, Markdown and MCP metadata; original procedure retained.",
       "reviewed_at": "2026-10-08",
       "updated_words": 699,
       "headless": false
     },
     "articles/sorti/review-a-staging-release.md": {
-      "file_sha256": "8286ff8f821e1bd0df9e1540ef7cdf9d170c33250b188276426ce37b89e0e23f",
+      "file_sha256": "4d6dea090b89c742cd927a394ef3068122e62389e81edf275ef7ac34d476c4b1",
       "body_sha256": "5dba6e1c7f57669cc1d8d54bc09d2cd7f644e1430ad70822f41a9a0f7fb59207",
       "original_path": null,
       "original_body_sha256": null,
       "original_words": 0,
-      "body_changed": true,
+      "body_changed": false,
       "basis": [
         "practical-site-workflows"
       ],
-      "change": "New task tutorial with original examples reviewed against the current named implementation sources.",
+      "change": "Add source-supported task summary shared by visible HTML, Markdown and MCP metadata; original procedure retained.",
       "reviewed_at": "2026-10-08",
       "updated_words": 592,
       "headless": false
     },
     "articles/sorti/create-a-review-skill.md": {
-      "file_sha256": "d27fad88bd443d21a77043c80805eec2061b38d3384a749414df197509582c56",
+      "file_sha256": "c5a8cbcb8fafd5ec0867352e58bff304af809754556f26e6744fdcf2e7e49f60",
       "body_sha256": "d39e022a6835bffd62d088a69e80d017ddab646b33741a664815f64b2675073c",
       "original_path": null,
       "original_body_sha256": null,
       "original_words": 0,
-      "body_changed": true,
+      "body_changed": false,
       "basis": [
         "practical-team-skills"
       ],
-      "change": "New task tutorial with original examples reviewed against the current named implementation sources.",
+      "change": "Add source-supported task summary shared by visible HTML, Markdown and MCP metadata; original procedure retained.",
       "reviewed_at": "2026-10-08",
       "updated_words": 649,
       "headless": false
     },
     "articles/vscode/test-localhost-with-sorti.md": {
-      "file_sha256": "d312b9ceca43ab48f35cabe4fe5fed68000d5e8d803fb79a93fb2969d20e219a",
+      "file_sha256": "fe8990aaf7fbf987c62a8b93769d646a03794722fc4cdec554fb6f0b91d9c3f5",
       "body_sha256": "748c289e72570fa31bc1144dd471ea67f45ce64bf38a662678766cb3cb49b954",
       "original_path": null,
       "original_body_sha256": null,
       "original_words": 0,
-      "body_changed": true,
+      "body_changed": false,
       "basis": [
         "practical-editor-proxy",
         "playwright-mcp-primary",
         "vscode-host-primary"
       ],
-      "change": "New task tutorial with original examples reviewed against the current named implementation sources.",
+      "change": "Add source-supported task summary shared by visible HTML, Markdown and MCP metadata; original procedure retained.",
       "reviewed_at": "2026-10-08",
       "updated_words": 674,
       "headless": false
     },
     "articles/sorti/build-a-counter-panel.md": {
-      "file_sha256": "26f0bb019a8318529913e298e98585383d36243811702f194ba3886a97eb8a9a",
+      "file_sha256": "2f526268e69b56d4e14644602f1073bdd0207abcecbe0e1c830441a858172db8",
       "body_sha256": "7f5ef94f5dcdbcbd2dbf8eec411dcb658352aba2aa65adffb87518ddb378eb33",
       "original_path": null,
       "original_body_sha256": null,
       "original_words": 0,
-      "body_changed": true,
+      "body_changed": false,
       "basis": [
         "practical-forge-authoring"
       ],
-      "change": "New task tutorial with original examples reviewed against the current named implementation sources.",
+      "change": "Add source-supported task summary shared by visible HTML, Markdown and MCP metadata; original procedure retained.",
       "reviewed_at": "2026-10-08",
       "updated_words": 689,
       "headless": false
     },
     "articles/sorti/recover-an-interrupted-task.md": {
-      "file_sha256": "f2b9658bb751a15f0bb3ed7513deda63cc3c1d61b89c84c0e98cbf8663bd2ef4",
+      "file_sha256": "0007cd0f78a3809a4d1f1c379b8ca9396d01d291ff7e9a7c16e023a14f3e16ed",
       "body_sha256": "92279bb549cf92f44638c0d6eb943d5890766ad9f3ada18856ac8f58c7c54957",
       "original_path": null,
       "original_body_sha256": null,
       "original_words": 0,
-      "body_changed": true,
+      "body_changed": false,
       "basis": [
         "practical-mission-controls"
       ],
-      "change": "New task tutorial with original examples reviewed against the current named implementation sources.",
+      "change": "Add source-supported task summary shared by visible HTML, Markdown and MCP metadata; original procedure retained.",
       "reviewed_at": "2026-10-08",
       "updated_words": 705,
       "headless": false

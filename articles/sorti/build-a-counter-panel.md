@@ -21,6 +21,14 @@ tags:
 license: '[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)'
 doc_sources:
 - practical-forge-authoring
+task:
+  goal: Remix a counter panel whose Increase and Reset controls update the displayed state.
+  prerequisites: Read the live Forge workbench, select a suitable recipe, and use its exact tool names and
+    current primitive version.
+  effects: The example changes only its own app state. It does not demonstrate public export, external writes,
+    or durable shared storage.
+  verification: 'Validate and playtest, then exercise the actual controls and tool: 0, 1, 2, reset to 0, reset
+    again to 0. Check both layouts.'
 ---
 
 Build a counter to learn how a Sorti panel connects a view, state, and tool actions. Keep this first app local to its own state: no site changes, external API calls, or publication are needed.

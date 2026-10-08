@@ -25,7 +25,7 @@ contributor = "contributors"
 
 
 [frontmatter]
-lastmod = ["updated", "lastmod", "date", "publishDate"]
+lastmod = ["modified", "updated", "lastmod", "date", "publishDate"]
 publishDate = ["published", "publishDate", "date"]
 
 [params]

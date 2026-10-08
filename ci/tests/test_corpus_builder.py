@@ -54,6 +54,14 @@ class CorpusBuilderTests(unittest.TestCase):
             self.assertEqual(len(corpus['git_revision']),40)
             self.assertIn(corpus['git_revision'],corpus['documents'][0]['source']['url'])
 
+    def test_task_metadata_keeps_exact_original_lines(self):
+        raw='---\ntitle: Task\ntask:\n  goal: Read\n  prerequisites: Connect\n  effects: None\n  verification: Inspect\n---\n\nRead the original source.\n'
+        doc=builder.document(raw,'sitebay','articles/task.md','https://example.test/docs/task/','a'*40,'sitebay/docs')
+        self.assertEqual(doc['task']['goal'],'Read')
+        self.assertEqual(doc['raw'],raw)
+        for chunk in doc['chunks']:
+            self.assertEqual(chunk['text'],'\n'.join(raw.splitlines()[chunk['line_start']-1:chunk['line_end']]))
+
     def test_dirty_sources_do_not_claim_committed_citations(self):
         with tempfile.TemporaryDirectory() as folder:
             root=Path(folder); rows=self.make_repo(root)
