@@ -3,33 +3,51 @@ slug: recovering-from-a-wordpress-hack
 author:
   name: SiteBay
   email: support@sitebay.org
-description: 'Navigate through the recovery process with ease, using SiteBays tools to protect your data and recover your WordPress site from hacks.'
-og_description: 'Discover the essential steps for data protection and system recovery in the face of a WordPress hack with SiteBay’s guidance.'
-keywords: ["root compromise", "troubleshooting", "recovery", "security"]
-tags: ["security","resolving","My SiteBay"]
+description: Treat a suspected compromise as an investigation, not only a broken page to restore.
+keywords:
+- root compromise
+- troubleshooting
+- recovery
+- security
+tags:
+- security
+- resolving
+- My SiteBay
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
-aliases: ['/security/recovery/recovering-from-a-system-compromise/','/troubleshooting/compromise-recovery/','/security/recovering-from-a-system-compromise/']
-modified: 2024-04-26
+aliases:
+- /security/recovery/recovering-from-a-system-compromise/
+- /troubleshooting/compromise-recovery/
+- /security/recovering-from-a-system-compromise/
+modified: 2026-10-07
 modified_by:
   name: SiteBay
 published: 2024-04-26
-title: Recovering from a WordPress Hack
+title: Recover from a suspected compromise
+authors:
+- SiteBay
+contributors:
+- SiteBay
+doc_sources:
+- wp-security
+- lifecycle
 ---
 
-# Bounce Back: Recover Your WordPress Site Like a Pro
+Treat a suspected compromise as an investigation, not only a broken page to restore.
 
-Has your WordPress site been hit by a hack? Don't panic – our ultimate recovery guide will help you restore your site to its former glory in no time.
+## Preserve evidence
 
-## Step-by-Step Recovery Process
+Record the affected site, symptoms, timestamps, and recent changes. Preserve relevant logs and a copy of the current state before cleanup where possible. Keep that material private.
 
-1. **Access Your Dashboard:** Log in with your credentials to reach your SiteBay dashboard.
-2. **Locate the PIT Machine:** Navigate to the Point-in-Time (PIT) Machine tab to review available restoration points.
-3. **Select Your Restoration Point:** Choose the exact moment before the hack occurred using the intuitive calendar and timeline.
-4. **Initiate the Restore:** Click the restore button to begin the recovery process. The duration may vary based on your site's size.
-5. **Perform a Site Check-Up:** Once the process completes, verify that your site has been successfully restored and all functionalities are intact.
+## Contain and repair
 
-## Why Choose SiteBay's Recovery Tools?
+Coordinate with the hosting operator when access or shared infrastructure may be affected. Review accounts, credentials, plugins, themes, and modified files. Replace compromised software from trusted sources and address the entry point.
 
-- **Fast & Reliable:** Our PIT Machine quickly reverts your site to a secure, pre-hack state.
-- **Data Protection:** Secure your data by restoring from a clean backup, minimizing the risk of lingering vulnerabilities.
-- **User-Friendly Process:** Follow clear, actionable steps to get your site back online with minimal downtime.
+## Restore deliberately
+
+Choose a recovery point that predates the compromise, while accounting for newer orders, uploads, and content. A restore can discard legitimate changes and can reintroduce the same vulnerability if its cause remains.
+
+## Verify
+
+Check the public site, administration, integrations, and access. Rotate affected credentials from a trusted device and continue monitoring. A vulnerability scan is one input, not complete malware clearance.
+
+Use the [WordPress incident guide](https://wordpress.org/documentation/article/faq-my-site-was-hacked/) and [SiteBay support]({{< relref "products/platform/get-started/guides/support/index.md" >}}) when the scope is uncertain.

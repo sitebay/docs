@@ -1,45 +1,48 @@
 ---
 slug: how-to-use-sitebay-git-sync
-author:
-  name: SiteBay Community
-  email: support@sitebay.org
-description: 'How to use Git Sync to develop your WordPress site from anywhere.'
-keywords: ['git-sync']
-license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
-published: 2024-03-26
-modified: 2024-03-26
+authors:
+- SiteBay
+contributors:
+- SiteBay
 modified_by:
   name: SiteBay
-title: "How to Use SiteBay's Git Sync"
-h1_title: "Using Git Sync"
-contributor:
-  name: SiteBay
-tags: ["sitebay platform","development", "git sync"]
-aliases: ['/platform/git-sync/how-to-use-git-sync/']
+description: Connect a repository only after reviewing the existing site and repository contents. Git Sync changes
+  a working environment; it is not a passive export switch.
+keywords:
+- git-sync
+license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
+published: 2024-03-26
+modified: 2026-10-07
+title: Set up a Git-backed WordPress project
+h1_title: Set up a Git-backed WordPress project
+tags:
+- sitebay platform
+- development
+- git sync
+aliases:
+- /platform/git-sync/how-to-use-git-sync/
+doc_sources:
+- git-sync
+- wp-config
+- lifecycle
 ---
 
-Using Git Sync with your SiteBay WordPress site opens up a whole new world of development flexibility and efficiency. This feature allows you to keep your site in sync with your Git repository, making it easy to work on your site from anywhere and collaborate with others. Here's how to get started:
+Connect a repository only after reviewing the existing site and repository contents. Git Sync changes a working environment; it is not a passive export switch.
 
-Step 1: Enable Git Sync on Your SiteBay Site
+## Repository preparation
 
-First, you'll need to enable Git Sync in your SiteBay dashboard. This involves linking your WordPress site to your Git repository. SiteBay supports integration with popular Git services like GitHub, GitLab, and Bitbucket.
+Keep `wp-content/` at the root with the themes and plugins you intend to version. Do not add `wp-admin`, `wp-includes`, credential-bearing `wp-config.php`, database dumps or session configuration. Optional `wp-config-overrides.php` values are parsed as a small allowlisted set of literals; rejected values have explicit reasons.
 
-Step 2: Connect Your Repository
+A `.gitignore` should reflect the project's actual generated files and recovery policy. Ignoring uploads or backups keeps them out of Git, but does not verify an independent storage or recovery copy. Inspect both tracked and untracked files before the first connection.
 
-After enabling Git Sync, connect your SiteBay site to your Git repository by providing the repository URL and setting up the necessary access permissions. This will allow changes to be pushed and pulled between your site and the repository.
+## Connection and branch
 
-Step 3: Work Locally or Remotely
+Authorize the provider through the product, choose the intended site, and validate the repository. Confirm the branch that will feed live or staging. The process does not promise to reconcile every simultaneous local, WordPress-admin and agent edit without conflict.
 
-With your site connected to a Git repository, you can now work on your WordPress site's themes, plugins, and content either locally or remotely. Use Git commands to track changes, commit them to your repository, and push them to your SiteBay site.
+## Review a change
 
-Step 4: Sync Changes
+Commit a small scoped edit, record its hash and inspect the synchronization result. Check the actual WordPress page, not only a repository UI. Read health errors and any suspended/partial-state reason before retrying. A request that reached the server but lost its response can have an uncertain outcome.
 
-When you're ready to update your live SiteBay site with the changes made in your Git repository, simply push your commits. SiteBay's Git Sync will automatically update your site with the latest changes. If you make changes directly on your SiteBay site, you can also pull these changes back to your local environment to keep everything in sync.
+## Configuration and recovery
 
-Benefits of Using Git Sync
-Collaboration: Easily collaborate with team members without overwriting each other's work.
-Version Control: Keep track of all changes made to your site, allowing you to revert to previous versions if needed.
-Flexibility: Work on your site from anywhere, at any time, without needing direct access to your live site.
-Conclusion
-
-Git Sync is an essential tool for modern WordPress development, offering convenience, security, and collaboration opportunities. By following these steps, you can streamline your workflow, keep your site up-to-date, and work more efficiently with your team. Give Git Sync a try and experience the difference it can make in your WordPress development process.
+Follow [the current setup and configuration procedure]({{< relref "products/git-sync/get-started/index.md" >}}) for the accepted layout and overrides. Before a risky update, create and verify a suitable checkpoint. A file-only Git rollback cannot stand in for a combined WordPress database restore.

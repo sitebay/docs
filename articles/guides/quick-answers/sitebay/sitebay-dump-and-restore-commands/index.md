@@ -1,56 +1,45 @@
 ---
 slug: sitebay-dump-and-restore-commands
-title: "Quick Guide to SiteBay’s Backup and Restoration Commands"
-description: 'Explore how to utilize SiteBay’s backup and restore capabilities for your WordPress site, ensuring your data’s security and easy recovery.'
-keywords: ['SiteBay backup', 'WordPress restore', 'data backup', 'data recovery', 'WordPress hosting']
+title: Back up and restore the intended site
+description: A recovery procedure needs a known target, a verified backup and a way back from the restore itself.
+  File archives, Git commits and database dumps cover different kinds of state.
+keywords:
+- SiteBay backup
+- WordPress restore
+- data backup
+- data recovery
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
-authors: ["SiteBay"]
-contributors: ["SiteBay"]
+authors:
+- SiteBay
+contributors:
+- SiteBay
 published: 2024-04-04
+modified: 2026-10-07
 modified_by:
   name: SiteBay
+doc_sources:
+- shell-reference
+- wp-cli
+- lifecycle
+- git-sync
 ---
-external_resources:
 
-'Backup and Restore WordPress Site in SiteBay'
-'Managing WordPress Backups in SiteBay'
+A recovery procedure needs a known target, a verified backup and a way back from the restore itself. File archives, Git commits and database dumps cover different kinds of state.
 
-In the digital realm, especially for WordPress sites, ensuring your data's safety and recovery capabilities is paramount. SiteBay's backup and restore commands come in handy, allowing you to protect your valuable website content against data loss, hacking, or accidental deletions. This guide dives into the essence of these features, focusing on their application within the SiteBay environment.
+## Create a recovery point
 
-Understanding SiteBay's Backup and Restore
+Read the selected site's current state and available checkpoint/backup actions. Confirm whether the requested operation captures files, database state or both. Record the returned recovery identifier and wait for creation to complete; a button click is not proof that a usable copy exists.
 
-SiteBay streamlines the backup and restoration process for WordPress sites, employing intuitive commands that safeguard your data. Whether you're updating your site, testing new plugins, or safeguarding against unforeseen events, these tools are indispensable.
+## Prepare a restore
 
-The Necessity of Regular Backups
+Inspect the available restore window and the specific timestamp or commit. Review whether incoming content, uploads, orders or form submissions would be replaced. Keep a current recovery point before changing live data.
 
-Regular backups serve as a failsafe, ensuring that no matter what happens, your site's data can be retrieved and restored. SiteBay recommends setting a schedule that reflects your site’s update frequency and complexity.
+The higher-level `site_restore_to_point` workflow creates a pre-restore checkpoint and returns a rollback handle. The low-level PIT request does not independently provide that same protection. Use the supported operation exposed for the site rather than assuming a copied endpoint or generic shell import is equivalent.
 
-Setting Up Backups in SiteBay
+## Verify completion
 
-Backing up your WordPress site in SiteBay is straightforward. Scheduled backups can be configured through the SiteBay dashboard, where you can also set the frequency and the specific data you wish to include, such as databases, files, or a complete site backup.
+Wait for the restore operation to settle, then test pages, media, login and critical forms or commerce paths. Confirm both filesystem and database expectations. Keep the earlier recovery reference until the restored state has been accepted.
 
-Performing a Manual Backup
+## Keep an independent copy
 
-For immediate backup needs or before making changes to your site, you can manually trigger a backup through the SiteBay dashboard:
-
-Navigate to your SiteBay dashboard.
-Select your WordPress site.
-Locate the "Backups" section and click on "Create a new backup."
-Follow the prompts to specify the backup scope and initiate the process.
-Restoring Your WordPress Site
-
-Should the need arise, SiteBay allows you to restore your site from a previous backup with ease:
-
-Within the SiteBay dashboard, select the site you wish to restore.
-Go to the "Backups" section and choose the desired backup.
-Click on "Restore" and follow the on-screen instructions to complete the restoration process.
-
-SiteBay ensures minimal downtime, aiming to get your site back online as swiftly as possible.
-
-Best Practices for Backups and Restorations
-Regularly Schedule Backups: Depending on your site’s activity, schedule backups daily, weekly, or monthly.
-Test Restorations: Periodically test the restoration process to ensure your backups are functioning as expected.
-Store Backups Off-site: While SiteBay securely stores your backups, consider keeping a copy in an off-site location for added security.
-Conclusion
-
-With SiteBay’s backup and restore commands, securing your WordPress site's data becomes a less daunting task. Regular backups and knowing how to restore your site can save you from potential disasters, keeping your digital presence intact and running smoothly.
+Retain an authorized export outside the account or site being deleted. Check that it can be read and restored in a test environment. A retention period or an arbitrary point in the past is available only when the actual backup system reports it; this guide does not promise unlimited history.

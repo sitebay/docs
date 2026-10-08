@@ -1,0 +1,238 @@
+{
+  "scope": "Curated real-article task regressions; expected paths reviewed against the available corpus.",
+  "cases": [
+    {
+      "query": "How Sorti works",
+      "source": "sitebay",
+      "expected_paths": [
+        "articles/sorti/how-sorti-works.md"
+      ]
+    },
+    {
+      "query": "create a panel with Forge",
+      "source": "sitebay",
+      "expected_paths": [
+        "articles/sorti/forging-panels.md"
+      ]
+    },
+    {
+      "query": "connect VS Code",
+      "source": "sitebay",
+      "expected_paths": [
+        "articles/vscode/install.md",
+        "articles/vscode/setup.md"
+      ]
+    },
+    {
+      "query": "restore a site",
+      "source": "sitebay",
+      "expected_paths": [
+        "articles/products/time-machine/get-started-with-pit-machine/index.md"
+      ]
+    },
+    {
+      "query": "scan WordPress vulnerabilities",
+      "source": "sitebay",
+      "expected_paths": [
+        "articles/guides/security/vulnerabilities/scanning-your-wordpress-site-for-malware/index.md"
+      ]
+    },
+    {
+      "query": "SiteBay plan pricing",
+      "source": "sitebay",
+      "expected_paths": [
+        "articles/api/plan.md",
+        "articles/guides/quick-answers/sitebay-essentials/sitebay-plans/index.md"
+      ]
+    },
+    {
+      "query": "read docs with MCP",
+      "source": "sitebay",
+      "expected_paths": [
+        "articles/knowledge/read-with-mcp.md"
+      ]
+    },
+    {
+      "query": "pgvector semantic search",
+      "source": "sitebay",
+      "expected_paths": [
+        "articles/knowledge/pgvector.md"
+      ]
+    },
+    {
+      "query": "connect Shopify",
+      "source": "sitebay",
+      "expected_paths": [
+        "articles/products/shopify-link/get-started/index.md"
+      ]
+    },
+    {
+      "query": "select voice provider",
+      "source": "sitebay",
+      "expected_paths": [
+        "articles/voice/providers.md"
+      ]
+    },
+    {
+      "query": "where do I find the source code",
+      "source": "sitebay",
+      "expected_paths": [
+        "articles/knowledge/task-map.md",
+        "articles/knowledge/system-map.md"
+      ]
+    },
+    {
+      "query": "publish the documentation",
+      "source": "sitebay",
+      "expected_paths": [
+        "articles/knowledge/publishing.md"
+      ]
+    },
+    {
+      "query": "zznonexistentdocsreferenceqv9",
+      "source": "sitebay",
+      "expected_paths": [],
+      "expect_empty": true
+    },
+    {
+      "query": "pgvector",
+      "source": "linode",
+      "expected_paths": [
+        "docs/marketplace-docs/guides/pgvector/index.md"
+      ]
+    },
+    {
+      "query": "MCP Gateway",
+      "source": "linode",
+      "expected_paths": [
+        "docs/marketplace-docs/guides/akamai-mcp-gateway-client/index.md"
+      ]
+    },
+    {
+      "query": "Haystack",
+      "source": "linode",
+      "expected_paths": [
+        "docs/marketplace-docs/guides/haystack/index.md"
+      ]
+    },
+    {
+      "query": "Ollama",
+      "source": "linode",
+      "expected_paths": [
+        "docs/marketplace-docs/guides/ollama/index.md"
+      ]
+    },
+    {
+      "query": "Current Sorti workflows and connection identifiers",
+      "source": "sitebay",
+      "expected_paths": [
+        "articles/sorti/current-workflows.md"
+      ]
+    },
+    {
+      "query": "manage team skills and collections",
+      "source": "sitebay",
+      "expected_paths": [
+        "articles/sorti/skills-and-collections.md"
+      ]
+    },
+    {
+      "query": "pause mission approvals",
+      "source": "sitebay",
+      "expected_paths": [
+        "articles/sorti/missions-and-approvals.md"
+      ]
+    },
+    {
+      "query": "where documentation database belongs",
+      "source": "sitebay",
+      "expected_paths": [
+        "articles/knowledge/service-ownership.md"
+      ]
+    },
+    {
+      "query": "get started Sorti",
+      "source": "sitebay",
+      "expected_paths": [
+        "articles/products/sorti/get-started/index.md"
+      ]
+    },
+    {
+      "query": "connect MCP services",
+      "source": "sitebay",
+      "expected_paths": [
+        "articles/sorti/connect-mcp-services.md"
+      ]
+    },
+    {
+      "query": "deploy documentation reader Pulumi",
+      "source": "sitebay",
+      "expected_paths": [
+        "articles/knowledge/deploy-with-pulumi.md"
+      ]
+    },
+    {
+      "query": "update recover documentation snapshot",
+      "source": "sitebay",
+      "expected_paths": [
+        "articles/knowledge/update-and-recover.md"
+      ]
+    },
+    {
+      "query": "troubleshoot documentation MCP reads",
+      "source": "sitebay",
+      "expected_paths": [
+        "articles/knowledge/troubleshoot-reader.md"
+      ]
+    },
+    {
+      "query": "use documentation during a Sorti task",
+      "source": "sitebay",
+      "expected_paths": [
+        "articles/sorti/use-documentation-during-a-task.md"
+      ]
+    },
+    {
+      "query": "fix a staging page",
+      "source": "sitebay",
+      "expected_paths": [
+        "articles/sorti/fix-a-staging-page.md"
+      ]
+    },
+    {
+      "query": "review staging release before publishing",
+      "source": "sitebay",
+      "expected_paths": [
+        "articles/sorti/review-a-staging-release.md"
+      ]
+    },
+    {
+      "query": "create reusable review skill",
+      "source": "sitebay",
+      "expected_paths": [
+        "articles/sorti/create-a-review-skill.md"
+      ]
+    },
+    {
+      "query": "test localhost with editor bridge",
+      "source": "sitebay",
+      "expected_paths": [
+        "articles/vscode/test-localhost-with-sorti.md"
+      ]
+    },
+    {
+      "query": "build counter panel Forge",
+      "source": "sitebay",
+      "expected_paths": [
+        "articles/sorti/build-a-counter-panel.md"
+      ]
+    },
+    {
+      "query": "recover interrupted Sorti task",
+      "source": "sitebay",
+      "expected_paths": [
+        "articles/sorti/recover-an-interrupted-task.md"
+      ]
+    }
+  ]
+}

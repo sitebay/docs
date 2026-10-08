@@ -1,84 +1,47 @@
 ---
 slug: migrate-a-wordpressdotcom-site-to-sitebay
-author:
-  name: SiteBay
-  email: support@sitebay.org
-description: 'Shows how to export posts from a WordPress.com website and import them to WordPress on a SiteBay.'
-keywords: ["wordpress", "wordpress.com", "migrate", "website migration"]
-tags: ["sitebay platform","wordpress"]
+authors:
+- SiteBay
+description: Export WordPress.com content and import it into a prepared WordPress site. A content export is not
+  a full copy of its hosting environment.
+keywords:
+- wordpress
+- wordpress.com
+- migrate
+- website migration
+tags:
+- sitebay platform
+- wordpress
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
-modified: 2024-04-04
+modified: 2026-10-07
 modified_by:
   name: SiteBay
 published: 2024-04-04
-title: How to Migrate a WordPress.com Website to SiteBay
+title: Move content from WordPress.com
 external_resources:
- - '[WordPress.com: Moving to Self-Hosted WordPress](https://move.wordpress.com/)'
-aliases: ['/platform/migrate-to-sitebay/migrate-a-wordpressdotcom-site-to-sitebay/']
+- '[WordPress.com: Moving to Self-Hosted WordPress](https://move.wordpress.com/)'
+contributors:
+- SiteBay
+aliases:
+- /platform/migrate-to-sitebay/migrate-a-wordpressdotcom-site-to-sitebay/
+doc_sources:
+- wp-migration
 ---
 
-This tutorial describes how to export your content from WordPress.com and host your WordPress website on SiteBay.
+Export WordPress.com content and import it into a prepared WordPress site. A content export is not a full copy of its hosting environment.
 
+## Export the content
 
-{{< note >}}
-WordPress.com's export feature will export pages, posts, and comments from your site, but it will not export your themes and widgets. You will need to customize your new self-hosted WordPress site's appearance after completing your migration.
-{{< /note >}}
+Use the export workflow available in your WordPress.com dashboard. Review which content the export includes and retain the downloaded file privately. Keep the source online while the destination retrieves any linked media.
 
-## Migrate Your Website
+## Import and check
 
-### Create Your Site on SiteBay
+Use the destination's WordPress importer. Review author assignment and attachment options, then inspect posts, pages, categories, links, and media.
 
-Follow SiteBay's [Getting Started](/support/getting-started/) tutorial to create your first site with us. Choose a SiteBay plan with enough storage space to store the data from your current host.
+Themes, plugins, custom functionality, subscriptions, and provider-specific features may need separate setup. Do not assume they are reproduced by the content file.
 
+## Complete the move
 
+Test the destination and account for content added after export. Move or update the domain only after the destination is ready, and consider redirects from old URLs.
 
-### Export Your WordPress.com Content
-
-1.  Login to your WordPress.com dashboard and navigate to the `Settings` page. Choose the `Export` option from the `Settings` page:
-
-    ![WordPress.com Settings Page](wordpressdotcom-settings.png "Choose the Export option from the Settings page.")
-
-1.  Click `Export All`, then `Download` to download a compressed file of your content in XML form. A copy will also be emailed to you:
-
-    ![WordPress.com Export Page](wordpressdotcom-export.png "Click Export All to export your content to an XML file.")
-
-    To export posts, pages, or feedback from the site, press the down arrow to the right of the `Export All` button.
-
-1.  Unzip the file.
-
-### Import Your Content on your SiteBay hosted WordPress site
-
-1.  Visit your SiteBay hosted WordPress site from your browser and login with your WordPress credentials.
-
-1.  Navigate to the Import page of the Tools section. The WordPress importer plugin will be listed:
-
-    ![WordPress Tools Page](tools-import-wordpress.png "WordPress Importer plugin.")
-
-1.  Choose `Install Now` and then run this plugin. On the page that appears, click `Choose File` and locate the XML file you previously exported from WordPress.com to your computer:
-
-    ![WordPress Importer Plugin - Page 1](wordpress-importer-plugin-1.png "Import file dialog box.")
-
-1.  A page will appear that surfaces a few import options:
-
-    ![WordPress Importer Plugin - Page 1](wordpress-importer-plugin-2.png "Import file options show author and post options.")
-
-    You are able to assign your imported posts to:
-
-    -   Your previous WordPress.com user, which will also be imported
-    -   A brand new user that the import plugin will create
-    -   One of the WordPress users you've already created on your SiteBay as part of deploying your web server
-
-    **Be sure to enable** the *Download and import file attachment* option on this page.
-
-1.  Submit this form. Your content will now be imported.
-
-1.  Navigate to the `Permalinks` page in the `Settings` section:
-
-    ![WordPress Permalinks](wordpress-permalinks.png "WordPress permalinks day and name option.")
-
-1.  Choose the `Day and name` option and save the change. This option matches the permalink style used on WordPress.com.
-
-
-## Next Steps
-
-If you had subscribers on your WordPress.com site, you can also migrate them to your new self-hosted site. This requires that you install the Jetpack plugin and uses Jetpack's [subscription migration tool](https://jetpack.com/support/subscription-migration-tool/).
+Read [WordPress.com's export documentation](https://wordpress.com/support/export/) and the [migration checklist]({{< relref "platform/migrate-to-sitebay/best-practices-when-migrating-to-sitebay/index.md" >}}).

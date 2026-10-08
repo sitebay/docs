@@ -1,26 +1,34 @@
 ---
-title: "View Invoices and Payment History"
-description: "Review all invoices and payments on your SiteBay account."
+title: Read billing history
+description: Use the provider invoice history for the relevant subscription rather than inferring charges from Kubernetes
+  resources or Git activity.
 published: 2024-04-17
-modified: 2024-04-21
+modified: 2026-10-08
+authors:
+- SiteBay
+contributors:
+- SiteBay
+modified_by:
+  name: SiteBay
+keywords:
+- view billing history
+- sitebay documentation
+slug: view-history
+license: '[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)'
+doc_sources:
+- pricing
+- stripe-portal
+- teams
 ---
 
-All of your billing history, including previous invoices and payments, is accessible within the [My SiteBay](https://my.sitebay.org/account/billing) on the **Billing & Payment History** section within the **Billing Info** page (see [Accessing Billing Information](/docs/products/platform/billing/guides/access-billing/)). By default, all transactions (both invoices and payments) from the last *6 months* are displayed. To customize this, use the dropdown menus on the top right of this section.
+Use the provider invoice history for the relevant subscription rather than inferring charges from Kubernetes resources or Git activity.
 
-![Viewing Billing & Payment History in the My SiteBay](view-invoices.png)
+## Procedure
 
-**To view an itemized invoice,** find the invoice row on the list and click the corresponding invoice number. This opens up a new page that displays each service that was active during the billing period, along with the additional details listed below:
+Open an invoice and record its identifier, status, currency, billing period, line items, credits and tax/total fields. A charge, invoice and receipt are different records. Compare the provider state with the applied SiteBay team subscription.
 
-- **Description:** The type of service and the unique label you've given it.
-- **From:** The date the service started billing during this billing cycle. This could either be the date and time this billing cycle started *or* the date and time the service was added to the account.
-- **To:** The date the service ended billing during this billing cycle. This could either be the date and time this billing cycle ended *or* the date and time the service was removed from the account.
-- **Quantity:** The number of hours the service is being billed.
-- **Region:** The data center and region ID for the service.
-- **Unit Price:** The hourly rate for this service.
-- **Amount:** The cost for this service excluding taxes.
-- **Taxes:** The taxes that are charged for this service.
-- **Total:** The cost for this service including taxes.
+## Verify and retain evidence
 
-## Downloading Invoices (PDF and CSV)
+Use the downloads actually offered by the provider, and store records securely. Check the available date range, export formats, and payment status before reconciling records.
 
-An invoice or payment can be downloaded as either a PDF or a CSV file. To do this, open the invoice within the My SiteBay and select either the **Download CSV** or **Download PDF** button.
+See [team access and billing]({{< relref "products/platform/teams-and-billing/index.md" >}}) and [the current plan catalog]({{< relref "guides/quick-answers/sitebay-essentials/sitebay-plans/index.md" >}}) for scope and pricing units.

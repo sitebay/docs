@@ -3,28 +3,36 @@ slug: what-is-high-availability
 author:
   name: SiteBay
   email: support@sitebay.org
-description: 'Introduction to high availability WordPress'
-keywords: ["high availability", "hosting", "website"]
-tags: ["wordpress"]
+description: High availability reduces service interruption by avoiding single points of failure. It is different
+  from backup and disaster recovery.
+keywords:
+- high availability
+- hosting
+- website
+tags:
+- wordpress
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
 published: 2024-04-04
-modified: 2024-04-04
+modified: 2026-10-07
 modified_by:
   name: SiteBay
-title: 'What is High Availability?'
+title: Understand high availability
 image: HighAvailability.png
+authors:
+- SiteBay
+contributors:
+- SiteBay
+doc_sources:
+- platform-architecture
+- lifecycle
 ---
 
-## What is High Availability?
+High availability reduces service interruption by avoiding single points of failure. It is different from backup and disaster recovery.
 
-Ever wonder why some websites are almost always up, no matter what? That's 'cause they're rocking something called High Availability (HA). It's like having a backup plan for your backup plan, making sure the site or app keeps rolling no matter what.
+For a WordPress site, availability depends on the web application, database, storage, DNS, network, and external integrations. More than one application instance does not by itself protect all of these dependencies.
 
-HA's all about keeping your digital spot open for business 24/7, avoiding those awkward "Sorry, we're closed" moments online. It's like a team of superheroes, where if one hero gets tired, another jumps in to keep saving the day. No single hero's nap time puts the city—ahem, your site—at risk.
+## Check your requirements
 
-## What High Availability Isn't
+Define acceptable downtime and data loss separately. Ask which failures the hosting arrangement handles, how recovery works, and how it is tested. Verify recovery points before relying on them.
 
-High Availability doesn't mean your site's invincible. It's got a fancy goal of staying awake 99.999% of the time, but hey, nothing's perfect. What it does mean is that your site's built tough, ready to handle crowds without breaking a sweat.
-
-And when more folks show up wanting to check you out, HA systems can stretch out to serve everyone. It's like adding more lanes to a highway during rush hour. More space, less wait, everybody's happy.
-
-So, that's the deal with High Availability. It's your website's way of saying, "Come on in, we're always open," making sure visitors can always find what they need, whenever they need it.
+On SiteBay, inspect the site's current state through [the lifecycle tools]({{< relref "products/platform/site-lifecycle/index.md" >}}). A healthy status describes the current observation; it is not an uptime guarantee.

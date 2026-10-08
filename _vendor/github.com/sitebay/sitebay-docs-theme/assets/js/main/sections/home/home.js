@@ -1,13 +1,13 @@
 'use strict';
 
-import { isMobile, isTouchDevice } from '../../helpers/helpers';
-import { newSwiper } from '../../helpers/swipe';
 import {
 	newRequestCallback,
 	newRequestCallbackFactoryTarget,
-	RequestCallBackStatus,
 	SearchGroupIdentifier,
+	RequestCallBackStatus,
 } from '../../search/request';
+import { isMobile, isTouchDevice } from '../../helpers/helpers';
+import { newSwiper } from '../../helpers/swipe';
 
 var debug = 0 ? console.log.bind(console, '[home]') : function () {};
 
@@ -15,7 +15,7 @@ export function newHomeController(searchConfig, staticData) {
 	debug('newHomeController');
 
 	// The section we paginate on the home page.
-	// This maps to section.lvl0 in sitebay-merged.
+	// This maps to section.lvl0 in linode-merged.
 	const sectionLevel0s = ['blog', 'resources'];
 
 	// Avoid loading too much data when on mobile.
@@ -197,7 +197,6 @@ export function newHomeController(searchConfig, staticData) {
 				debug('init: nextTick');
 				// Set up placeholders for the dynamic carousels.
 				// The data will arrive on intersect.
-				console.log(sectionLevel0s)
 				sectionLevel0s.forEach((name) => {
 					let el = this.$refs[`carousel-${name}`];
 					let pager = newPager(tilesPageSize, el);
@@ -218,7 +217,6 @@ export function newHomeController(searchConfig, staticData) {
 
 		initCarousels: function () {
 			debug('initCarousels');
-			console.log(sectionLevel0s)
 			this.$nextTick(() => {
 				sectionLevel0s.forEach((name) => {
 					let factory = {

@@ -1,8 +1,28 @@
 ---
-title: Intermediate
-aliases: ['/audiences/intermediate/']
+title: Development guides
+aliases:
+- /audiences/intermediate/
+authors:
+- SiteBay
+contributors:
+- SiteBay
+description: Use staging, Git, and the editor for changes that need review and repeatable deployment.
+keywords:
+- intermediate
+- sitebay documentation
+published: 2025-03-18
+slug: intermediate
+license: '[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)'
+doc_sources:
+- git-sync
+modified: 2026-10-07
+layout: documentation-section
 ---
 
-*Key Wins:**
-- Advanced WordPress Features – Discover the powerful tools and features that WordPress has hidden up its sleeve. Learn how to leverage these to enhance your website's functionality and user experience.
-- Optimizing Your Site – Learn how to make your site faster and friendlier for both your visitors and search engines. We'll cover everything from caching to optimizing images, ensuring your site loads quickly and ranks well.
+Use staging, Git, and the editor for changes that need review and repeatable deployment.
+
+[Extend WordPress]({{< relref "guides/wordpress/beginners-guide-to-wordpress-part-2/index.md" >}}).
+
+[Connect Git Sync]({{< relref "products/git-sync/get-started/index.md" >}}).
+
+{{< section-links >}}

@@ -1,96 +1,54 @@
 ---
 slug: delete-file-command-line
-description: "Learn how to confidently delete files, directories, and more on your SiteBay WordPress hosting using the command line, ensuring a clean and organized site."
-keywords: ["remove files", "delete files", "SiteBay rm"]
+description: rm removes filesystem entries; it does not move them to a desktop recycle bin.
+keywords:
+- remove files
+- delete files
+- SiteBay rm
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
 published: 2024-04-03
-modified: 2024-04-14
+modified: 2026-10-07
 modified_by:
   name: SiteBay
-title: "File Management from the linux command line in Code Server: "
-tags: ["sitebay"]
-authors: ["SiteBay"]
-contributors: ["SiteBay"]
+title: Delete only the intended files
+tags:
+- sitebay
+authors:
+- SiteBay
+contributors:
+- SiteBay
+doc_sources:
+- shell-reference
+- wp-cli
+- lifecycle
+- git-sync
 ---
 
-# Beginner File Removal in WordPress tips
+`rm` removes filesystem entries; it does not move them to a desktop recycle bin. Recovery requires an available, verified backup and is not guaranteed by the presence of a Time Machine tab.
 
-{{< note respectIndent=false >}}
-For safety, our examples utilize filename.txt variations. Tailor these commands to your needs, replacing filename.txt with the specific file names you intend to delete.
-{{< /note >}}
+## Inspect first
 
-## Basics of rm for File Deletion
+```bash
+pwd
+ls -ld -- ./practice/example.txt
+```
 
-Delete a Single File: Simplify your space by removing individual files.
-rm filename.txt
+The path must be the file you intend to remove. A wildcard is expanded by the shell before `rm` runs, and a different working directory changes what it matches.
 
+## Delete an explicit practice file
 
-Bulk File Deletion: Efficiently clear out multiple files at once.
+```bash
+rm -i -- ./practice/example.txt
+```
 
-rm filename1.txt filename2.txt
+`-i` requests confirmation. `--` stops option parsing, so an option-like filename is not interpreted as a command flag. Use `rmdir` for an empty directory when recursive deletion is not needed. Avoid adding `-f` simply to hide an unexpected error.
 
+## Preview a cleanup selection
 
-Wipe All .txt Files: Remove every .txt file within your current directory for a clean sweep.
-rm *.txt
+```bash
+find ./practice -type f -name '*.tmp' -mtime +28 -print
+```
 
-## rm Options for Enhanced Control
-Interactive Mode -i
-Ensure accuracy by confirming each file deletion.
-rm -i filename.txt
+GNU find counts completed 24-hour periods for `-mtime`; check the boundary against your retention requirement. Review the selected list before authorizing deletion, and use a stable directory rather than a wildcard search root. Concurrent file changes can invalidate a previous preview.
 
-Force Deletion -f
-Streamline removals without prompts, ideal for scripts.
-rm -f filename.txt
-
-Verbose Output -v
-Gain insights with a detailed report of each deletion.
-rm -v filename*.txt
-
-Directory Deletion -d
-Remove empty directories 
-rm -d directoryname/
-
-
-Note: This works only for empty directories. For non-empty directories, incorporate the r flag.
-
-## Recursive Removal -r
-
-Clear a directory and its contents, for major cleanups.
-
-rm -r directoryname/
-
-Combining Options
-
-Mix options for tailored operations, like deleting all .png files with confirmation and a progress report.
-
-rm -iv *.png
-
-
-{{< output >}}
-remove filename01.png? y
-filename01.png removed
-remove filename02.png? y
-filename02.png removed
-...
-{{< /output >}}
-
-## Forceful Recursive Removal -rf
-
-Use this to bypass prompts when deleting non-empty directories
-
-rm -rf directoryname/
-
-## Pairing rm with Other Commands
-Clearing Out Old Files
-
-Combine find with rm to locate and delete files older than a specific period, displaying each file as it's removed.
-
-find directoryname* -type f -mtime +28 -exec rm '{}' ';' -print
-
-
-This command identifies all files matching your criteria, replacing {} with each found file. The semicolon ; concludes the command sequence for -exec, and -print is a find option, not part of the executed rm. 
-
-Summary
-
-Remember to be careful with options like -rf, to avoid unintended deletions.
-You can use PIT machine to restore unintentionally deleted files
+Deleting a plugin directory can leave WordPress database state behind. Use the plugin's supported uninstall procedure when that is the actual task, and take a recovery point before a production change.

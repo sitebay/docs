@@ -1,20 +1,41 @@
 ---
 slug: web-analytics
-description: 'Explaining insights in Grafana: dashboard components'
-keywords: ["posthog"]
+description: Use web analytics to inspect traffic, pages, and acquisition in the selected analytics project.
+keywords:
+- posthog
+- analytics
+- monitoring
+- sitebay
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
-modified: 2024-04-04
+modified: 2026-10-07
 modified_by:
   name: SiteBay
 published: 2024-04-04
-title: Grafana on SiteBay WordPress Hosting
-tags: ["sitebay"]
-authors: ["SiteBay"]
-contributors: ["SiteBay"]
+title: Read web analytics
+bible: true
+tags:
+- sitebay
+- posthog
+authors:
+- SiteBay
+contributors:
+- SiteBay
+doc_sources:
+- analytics-ui
 ---
 
-Grafana insights are the core components of dashboards
+Use web analytics to inspect traffic, pages, and acquisition in the selected analytics project.
 
-## Overview
+## Set the scope
 
-Insights in Grafana display your data through various information visualization components. These components include line graphs, bar charts, pie charts, funnels, retention tables, and other user analytics tools.
+Choose the site, date range, and filters before comparing metrics. Check whether test traffic, internal visits, or a second environment is included.
+
+## Investigate a change
+
+Start with the affected metric, then narrow by page or traffic source. Compare equivalent time periods. A difference in tracking, consent, or filtering can change the chart without a matching change in the underlying business.
+
+## Verify a conversion
+
+A visit is not a completed signup or purchase. Define and verify the event that represents the outcome, then use an insight to measure it.
+
+Save useful queries in a [Dashboard]({{< relref "products/posthog/dashboards/index.md" >}}) and document the interpretation in a notebook.

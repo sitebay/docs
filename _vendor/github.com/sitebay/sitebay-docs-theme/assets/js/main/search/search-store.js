@@ -1,13 +1,13 @@
-import { getCurrentLang, toDateString } from '../helpers/helpers';
-import { LRUMap } from '../helpers/lru';
-import { addLangToHref, newCreateHref } from '../navigation/index';
 import { newQuery, QueryHandler } from './query';
+import { toDateString } from '../helpers/helpers';
+import { LRUMap } from '../helpers/lru';
+import { newCreateHref } from '../navigation/index';
 import {
 	newRequestCallback,
 	newRequestCallbackFactories,
 	newRequestCallbackFactoryTarget,
-	RequestCallBackStatus,
 	SearchGroupIdentifier,
+	RequestCallBackStatus,
 } from './request';
 
 const debug = 0 ? console.log.bind(console, '[search-store]') : function () {};
@@ -60,8 +60,6 @@ const createSectionFacetsSorted = function (searchConfig, result) {
 };
 
 export function newSearchStore(searchConfig, params, Alpine) {
-	let cacheWarmerUrls = params.search_cachewarmer_urls;
-
 	let setResult = function (result, loaded = true) {
 		let facets = createSectionFacetsSorted(searchConfig, result);
 		this.sectionFacets = facets;
@@ -84,7 +82,7 @@ export function newSearchStore(searchConfig, params, Alpine) {
 		results.lastQueryID = result.queryID;
 	};
 
-	const searcher = new Searcher(searchConfig, results.blank, cacheWarmerUrls, resultCallback, debug);
+	const searcher = new Searcher(searchConfig, results.blank, resultCallback, debug);
 	let searchEffectMain = null;
 	const router = newCreateHref(searchConfig);
 	const queryHandler = new QueryHandler();
@@ -120,7 +118,7 @@ export function newSearchStore(searchConfig, params, Alpine) {
 		},
 
 		docsearchLink: function (ds) {
-			return `https://docsearch.sitebay.org/s/global-search/${this.query.lndq}?s=Akamai%20TechDocs&ds=${ds}`;
+			return `https://docsearch.akamai.com/s/global-search/${this.query.lndq}?s=Akamai%20TechDocs&ds=${ds}`;
 		},
 
 		shouldShowHydratedExplorer: function () {
@@ -298,7 +296,6 @@ export function newSearchStore(searchConfig, params, Alpine) {
 								},
 								{
 									query: query,
-									fileCacheID: sectionKey,
 								},
 							);
 						},
@@ -342,24 +339,15 @@ export function newSearchStore(searchConfig, params, Alpine) {
 						}, new Map());
 						markLoaded();
 					},
-					{
-						fileCacheID: 'sectionsmeta',
-					},
 				),
-				newRequestCallback(
-					createSectionRequest(null),
-					(result) => {
-						if (!result.index.endsWith('sitebay-merged')) {
-							throw `invalid state: ${result.index}`;
-						}
-						debug('withBlank.blank.result:', result);
-						this.results.blank.set(result, false);
-						markLoaded();
-					},
-					{
-						fileCacheID: 'explorer-blank',
-					},
-				),
+				newRequestCallback(createSectionRequest(null), (result) => {
+					if (!result.index.endsWith('linode-merged')) {
+						throw `invalid state: ${result.index}`;
+					}
+					debug('withBlank.blank.result:', result);
+					this.results.blank.set(result, false);
+					markLoaded();
+				}),
 			);
 		},
 	};
@@ -376,11 +364,7 @@ export function newSearchStore(searchConfig, params, Alpine) {
 
 		let hitsPerPage = 0;
 		let q = '';
-		// TODO(bep) we have removed the QA section from explorer/search, but the
-		// data is still there. The docType filter below can be remove when we have completed the migration.
-		let filters =
-			sectionConfig.filters ||
-			'NOT docType:community AND NOT docType:products AND NOT docType:api AND NOT docType:Marketplace';
+		let filters = sectionConfig.filters || '';
 		let facetFilters = [];
 		let attributesToHighlight = [];
 		let analyticsTags = [];
@@ -413,7 +397,7 @@ export function newSearchStore(searchConfig, params, Alpine) {
 	return store;
 }
 
-export function normalizeAlgoliaResult(result, lang = '') {
+export function normalizeAlgoliaResult(result) {
 	let index = result.index;
 	let queryID = result.queryID ? result.queryID : '';
 
@@ -459,10 +443,6 @@ export function normalizeAlgoliaResult(result, lang = '') {
 			hit.isExternalLink = hit.href.startsWith('http');
 		}
 
-		if (lang && lang !== 'en' && hit.href) {
-			hit.href = addLangToHref(hit.href, lang);
-		}
-
 		hit.firstPublishedDateString = '';
 		if (hit.firstPublishedTime) {
 			hit.firstPublishedDateString = toDateString(new Date(hit.firstPublishedTime * 1000));
@@ -480,7 +460,7 @@ export function normalizeAlgoliaResult(result, lang = '') {
 		};
 
 		if (!hit.thumbnailUrl) {
-			hit.thumbnailUrl = '/docs/media/images/SiteBay-Default-416x234.jpg';
+			hit.thumbnailUrl = '/docs/media/images/Linode-Default-416x234.jpg';
 		}
 
 		hit.tagsValues = function () {
@@ -587,13 +567,11 @@ const normalizeResult = function (self, result) {
 		return sections;
 	};
 
-	let lang = getCurrentLang();
-
-	normalizeAlgoliaResult(result, lang);
+	normalizeAlgoliaResult(result);
 };
 
 class SearchBatcher {
-	constructor(searchConfig, metaProvider, cacheWarmerUrls, resultCallback = (result) => {}) {
+	constructor(searchConfig, metaProvider, resultCallback = (result) => {}) {
 		const algoliaHost = `https://${searchConfig.app_id}-dsn.algolia.net`;
 		this.headers = {
 			'X-Algolia-Application-Id': searchConfig.app_id,
@@ -605,7 +583,6 @@ class SearchBatcher {
 		this.cacheEnabled = true;
 		this.metaProvider = metaProvider;
 		this.resultCallback = resultCallback;
-		this.cacheWarmerUrls = cacheWarmerUrls;
 		this.interval = () => {
 			return 100;
 		};
@@ -678,33 +655,6 @@ class SearchBatcher {
 		return { cacheMisses: cacheMisses, cacheMissesKeys: cacheMissesKeys };
 	}
 
-	async checkFileCache(fileCacheID) {
-		// Try the local file cache if found.
-		let fileCacheUrl = this.cacheWarmerUrls[fileCacheID];
-
-		if (fileCacheUrl) {
-			debug('fetch data from file cache:', fileCacheUrl);
-			const response = await fetch(fileCacheUrl, { credentials: 'same-origin' });
-
-			if (response.ok) {
-				let data = await response.json();
-				if (Array.isArray(data)) {
-					if (data.length > 0) {
-						// We currently don't want the branch nodes (in the explorer).
-						data = data.filter((item) => !item.isBranch);
-					}
-					data = {
-						hits: data,
-					};
-				}
-
-				normalizeResult(this, data);
-				return data;
-			}
-		}
-		return null;
-	}
-
 	async search(...requestCallbacks) {
 		debug('search, num requests:', requestCallbacks.length);
 		if (requestCallbacks.length === 0) {
@@ -736,21 +686,6 @@ class SearchBatcher {
 					rc.callback(cachedResult);
 					this.resultCallback(cachedResult);
 					continue;
-				}
-
-				if (!rc.isFiltered()) {
-					let fileCacheID = rc.getFileCacheID();
-					if (fileCacheID) {
-						let data = await this.checkFileCache(fileCacheID);
-						if (data) {
-							rc.callback(data);
-							this.resultCallback(data);
-							if (this.cacheEnabled) {
-								this.cache.set(rck, data);
-							}
-							continue;
-						}
-					}
 				}
 
 				requests.push(req);
@@ -807,8 +742,8 @@ class SearchBatcher {
 }
 
 class Searcher {
-	constructor(searchConfig, metaProvider, cacheWarmerUrls, resultCallback, debug = function () {}) {
-		this.batcher = new SearchBatcher(searchConfig, metaProvider, cacheWarmerUrls, resultCallback);
+	constructor(searchConfig, metaProvider, resultCallback, debug = function () {}) {
+		this.batcher = new SearchBatcher(searchConfig, metaProvider, resultCallback);
 	}
 
 	searchFactories(factories, query) {
@@ -847,8 +782,6 @@ class Searcher {
 
 export function getSearchConfig(params) {
 	let cfg = params.search_config;
-	console.log(cfg)
-	console.log('cfg')
 
 	cfg.sectionsSorted = Object.values(cfg.sections);
 	cfg.sectionsSorted.sort((a, b) => {

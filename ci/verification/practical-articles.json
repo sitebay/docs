@@ -1,0 +1,2905 @@
+{
+  "status": "passed",
+  "reviewed_at": "2026-10-08",
+  "tested_commit": "2539d638f1984e798d69184c9b021978696a10a3",
+  "tested_tree": "1f3cc2e85f6faf577e91e5b07a6ec44c9ec18c25",
+  "scope": "Six original practical tutorials, three navigation updates, source records, retrieval cases and example validation. No application or infrastructure implementation change.",
+  "articles": [
+    {
+      "path": "articles/sorti/fix-a-staging-page.md",
+      "title": "Fix a page on staging with Sorti",
+      "words": 699,
+      "sha256": "1354d5920ffb5bcc2e13e0439351e459e9ed4e26421f8fdd767a6735d5b77c9c"
+    },
+    {
+      "path": "articles/sorti/review-a-staging-release.md",
+      "title": "Review a staging release before publishing",
+      "words": 592,
+      "sha256": "8286ff8f821e1bd0df9e1540ef7cdf9d170c33250b188276426ce37b89e0e23f"
+    },
+    {
+      "path": "articles/sorti/create-a-review-skill.md",
+      "title": "Create a reusable site-review skill",
+      "words": 649,
+      "sha256": "d27fad88bd443d21a77043c80805eec2061b38d3384a749414df197509582c56"
+    },
+    {
+      "path": "articles/vscode/test-localhost-with-sorti.md",
+      "title": "Test localhost with Sorti and the editor bridge",
+      "words": 674,
+      "sha256": "d312b9ceca43ab48f35cabe4fe5fed68000d5e8d803fb79a93fb2969d20e219a"
+    },
+    {
+      "path": "articles/sorti/build-a-counter-panel.md",
+      "title": "Build a counter panel with Forge",
+      "words": 689,
+      "sha256": "26f0bb019a8318529913e298e98585383d36243811702f194ba3886a97eb8a9a"
+    },
+    {
+      "path": "articles/sorti/recover-an-interrupted-task.md",
+      "title": "Recover an interrupted Sorti task",
+      "words": 705,
+      "sha256": "f2b9658bb751a15f0bb3ed7513deda63cc3c1d61b89c84c0e98cbf8663bd2ef4"
+    }
+  ],
+  "counts": {
+    "new_articles": 6,
+    "new_article_words": 4008,
+    "updated_navigation_pages": 3,
+    "markdown_sources": 373,
+    "generated_pages": 635,
+    "public_documents": 350,
+    "public_chunks": 1341,
+    "combined_documents": 2804,
+    "combined_chunks": 26562
+  },
+  "source_snapshot": {
+    "sitebay/app/factory/sorti_site_app.py": {
+      "path": "sitebay/app/factory/sorti_site_app.py",
+      "sha256": "0f0a1c9d2583639d2ac2d11eb86c66a447e2a6a83d3ea52a0e95d52fbb2cb0db",
+      "checkout_head": "1343855ec59a7c105040cb396a5ba94a3114dad8",
+      "working_tree_modified": false
+    },
+    "sitebay/app/api/site/legal_actions.py": {
+      "path": "sitebay/app/api/site/legal_actions.py",
+      "sha256": "141699fae1649adbbd60641e801def4672fdcc33ca978a740fb9f7798398fbea",
+      "checkout_head": "1343855ec59a7c105040cb396a5ba94a3114dad8",
+      "working_tree_modified": false
+    },
+    "sitebay/app/services/site_situation.py": {
+      "path": "sitebay/app/services/site_situation.py",
+      "sha256": "5294943cfbd632b9c37c0e6e1073945ee70b9f20a1de5f67e8f9dbcf5232dc30",
+      "checkout_head": "1343855ec59a7c105040cb396a5ba94a3114dad8",
+      "working_tree_modified": false
+    },
+    "sitebay/app/api/infra/agent_intents_lifecycle.py": {
+      "path": "sitebay/app/api/infra/agent_intents_lifecycle.py",
+      "sha256": "4953604540fe834684a3eb89832506ca209a9e1232973e79207d6a3387de264f",
+      "checkout_head": "1343855ec59a7c105040cb396a5ba94a3114dad8",
+      "working_tree_modified": false
+    },
+    "sitebay/app/services/stage_promote_policy.py": {
+      "path": "sitebay/app/services/stage_promote_policy.py",
+      "sha256": "2599339923e7c61ee5765da9627c3a6dc873028b8d488eeed83d10ba9b0938e9",
+      "checkout_head": "1343855ec59a7c105040cb396a5ba94a3114dad8",
+      "working_tree_modified": false
+    },
+    "sitebay/app/api/site/stage_management.py": {
+      "path": "sitebay/app/api/site/stage_management.py",
+      "sha256": "dbfdc1d703aaff731a76064a5b16067ee2e9c81f67675ce0de1a8b184be6b9e8",
+      "checkout_head": "1343855ec59a7c105040cb396a5ba94a3114dad8",
+      "working_tree_modified": false
+    },
+    "sorti/apps/sorti-agent/lib/tools/canvas/types.ts": {
+      "path": "sorti/apps/sorti-agent/lib/tools/canvas/types.ts",
+      "sha256": "982ca88e8e5eecb0bbdb0e0b4264719183d7953104fcad11eac3b110fc4fa23c",
+      "checkout_head": "1edf6c174711e9aba776c7bf922c3f1d294887e5",
+      "working_tree_modified": false
+    },
+    "sorti/apps/sorti-agent/lib/tools/canvas/verifyPatch.ts": {
+      "path": "sorti/apps/sorti-agent/lib/tools/canvas/verifyPatch.ts",
+      "sha256": "fca57069952ce786f4c093b242b9796537fa5caf05b894c2cabacade675fcc12",
+      "checkout_head": "1edf6c174711e9aba776c7bf922c3f1d294887e5",
+      "working_tree_modified": false
+    },
+    "sorti/apps/sorti/lib/skillLibrary.ts": {
+      "path": "sorti/apps/sorti/lib/skillLibrary.ts",
+      "sha256": "24145da0520c9b81fa576da9e9212d5c533ee4f84f73544ca650556847dbee86",
+      "checkout_head": "1edf6c174711e9aba776c7bf922c3f1d294887e5",
+      "working_tree_modified": true
+    },
+    "sorti/apps/sorti/components/assistant/settings/skills/SkillLibraryEditor.tsx": {
+      "path": "sorti/apps/sorti/components/assistant/settings/skills/SkillLibraryEditor.tsx",
+      "sha256": "f2c747d764d35994854561491c68976bf776329216499da21976032b3adbb49e",
+      "checkout_head": "1edf6c174711e9aba776c7bf922c3f1d294887e5",
+      "working_tree_modified": true
+    },
+    "sorti/apps/sorti/components/assistant/settings/skills/SkillsNavigator.tsx": {
+      "path": "sorti/apps/sorti/components/assistant/settings/skills/SkillsNavigator.tsx",
+      "sha256": "c6665f117f73b73ce312ccc80952f7cc44df5e644fcb662e3c9e16b1ffc13653",
+      "checkout_head": "1edf6c174711e9aba776c7bf922c3f1d294887e5",
+      "working_tree_modified": true
+    },
+    "sorti/apps/sorti-agent/lib/tools/builtin/read-skill-tool.ts": {
+      "path": "sorti/apps/sorti-agent/lib/tools/builtin/read-skill-tool.ts",
+      "sha256": "6486a213ad54a875f64c65f016607e5e7b743c90dbe44950ec351100f3e803ca",
+      "checkout_head": "1edf6c174711e9aba776c7bf922c3f1d294887e5",
+      "working_tree_modified": false
+    },
+    "sorti/apps/sitebay-vscode/package.json": {
+      "path": "sorti/apps/sitebay-vscode/package.json",
+      "sha256": "186468e40c72a45bc1910535dfec7c51bb1acb968a30ca76a994d62dda2ed4c7",
+      "checkout_head": "1edf6c174711e9aba776c7bf922c3f1d294887e5",
+      "working_tree_modified": false
+    },
+    "sorti/apps/sitebay-vscode/src/extension.ts": {
+      "path": "sorti/apps/sitebay-vscode/src/extension.ts",
+      "sha256": "760a99dff6890749a277024da9e927a8785803f49b0d463210c8a4cd727de2d0",
+      "checkout_head": "1edf6c174711e9aba776c7bf922c3f1d294887e5",
+      "working_tree_modified": false
+    },
+    "sorti/apps/sitebay-vscode/src/mcpProxyHandler.ts": {
+      "path": "sorti/apps/sitebay-vscode/src/mcpProxyHandler.ts",
+      "sha256": "7041dd70d1225c79c3f8921bca3dd1bef828be13112cf587e549d76ec56bb66f",
+      "checkout_head": "1edf6c174711e9aba776c7bf922c3f1d294887e5",
+      "working_tree_modified": false
+    },
+    "sorti/apps/sorti-agent/skills/forge-authoring/SKILL.md": {
+      "path": "sorti/apps/sorti-agent/skills/forge-authoring/SKILL.md",
+      "sha256": "e1f6d14f73ffb907569e446d6c6f4f9dc0d00522a529742487c553d25cc5cad5",
+      "checkout_head": "1edf6c174711e9aba776c7bf922c3f1d294887e5",
+      "working_tree_modified": false
+    },
+    "sorti/packages/panel-primitives/src/index.ts": {
+      "path": "sorti/packages/panel-primitives/src/index.ts",
+      "sha256": "8901fe638519c18a6aa2a082f9b88cf1d703dde9834f4149a82983da9164b5bb",
+      "checkout_head": "1edf6c174711e9aba776c7bf922c3f1d294887e5",
+      "working_tree_modified": false
+    },
+    "sorti/packages/panel-author/src/compositions.ts": {
+      "path": "sorti/packages/panel-author/src/compositions.ts",
+      "sha256": "2cb1f91cb72c2b33d7cb916fb271f06efea8a0bc2a79a31d81224718ac407d47",
+      "checkout_head": "1edf6c174711e9aba776c7bf922c3f1d294887e5",
+      "working_tree_modified": false
+    },
+    "sorti/apps/sorti/components/assistant/ui/mission/details/MissionControls.tsx": {
+      "path": "sorti/apps/sorti/components/assistant/ui/mission/details/MissionControls.tsx",
+      "sha256": "5caa1a177921c44fbcc8ff76c68dedaddb4c26185e18e84b77613b05691ebf4b",
+      "checkout_head": "1edf6c174711e9aba776c7bf922c3f1d294887e5",
+      "working_tree_modified": false
+    },
+    "sorti/apps/sorti-agent/lib/tools/builtin/mission-observability-tools.ts": {
+      "path": "sorti/apps/sorti-agent/lib/tools/builtin/mission-observability-tools.ts",
+      "sha256": "55722dafea63559b33eab9dba553127d291f21f6bed026e51610860a2a6a8352",
+      "checkout_head": "1edf6c174711e9aba776c7bf922c3f1d294887e5",
+      "working_tree_modified": false
+    },
+    "sorti/packages/sorti-contract/src/mission.ts": {
+      "path": "sorti/packages/sorti-contract/src/mission.ts",
+      "sha256": "1fd86d5c364ee26605b9f7ca873d317b929464be2851fe4059758dbc8ec03b8e",
+      "checkout_head": "1edf6c174711e9aba776c7bf922c3f1d294887e5",
+      "working_tree_modified": false
+    }
+  },
+  "source_drift_at_completion": [],
+  "verification": {
+    "fresh_root_and_reader_dependency_install": true,
+    "publishing": {
+      "source_files": 373,
+      "inventory_pages": 354,
+      "checked_internal_links": 1713,
+      "issues": []
+    },
+    "review": {
+      "reviewed_sources": 373,
+      "issues": []
+    },
+    "editorial_findings": 0,
+    "spelling_findings": 0,
+    "redirects": {
+      "checked": 5,
+      "issues": [],
+      "routes": {
+        "/docs/products/siteclaw/": "/docs/products/sorti/",
+        "/docs/products/siteclaw/get-started-siteclaw/": "/docs/products/sorti/get-started-sorti/",
+        "/docs/products/siteclaw/get-started/": "/docs/products/sorti/get-started-sorti/",
+        "/docs/products/siteclaw/signal-hooks/": "/docs/products/sorti/signal-hooks/",
+        "/docs/guides/managing-your-sites-with-siteclaw-ai/": "/docs/guides/managing-your-sites-with-sorti-ai/"
+      }
+    },
+    "regression_tests": {
+      "python": 40,
+      "node_publishing": 4,
+      "node_reader": 15
+    },
+    "examples": {
+      "passed": true,
+      "checks": [
+        "Counter view fragment accepted by the actual primitive parser",
+        "Counter initial state and reducer JSON shapes match the reviewed authoring contract",
+        "Complete example skill accepted by the actual library parser",
+        "Editor settings keys and value types match the actual extension manifest"
+      ],
+      "scope": "Pure parser and configuration checks, not a created live panel, real browser-proxy session, or shared-library write."
+    },
+    "retrieval": {
+      "passed": true,
+      "cases": 29,
+      "passed_cases": 29,
+      "corpus_revision": "f666f8abecb762c1023dda842b9231355f415d8170fb59315cf734c4cc068456",
+      "documents": 350,
+      "results": [
+        {
+          "query": "How Sorti works",
+          "source": "sitebay",
+          "passed": true,
+          "expected_rank": 1,
+          "results": [
+            {
+              "path": "articles/sorti/how-sorti-works.md",
+              "line_start": 29,
+              "line_end": 30
+            },
+            {
+              "path": "articles/sorti/how-sorti-works.md",
+              "line_start": 42,
+              "line_end": 49
+            },
+            {
+              "path": "articles/knowledge/task-map.md",
+              "line_start": 39,
+              "line_end": 48
+            },
+            {
+              "path": "articles/sorti/_index.md",
+              "line_start": 31,
+              "line_end": 43
+            },
+            {
+              "path": "articles/products/site-bot/get-started/index.md",
+              "line_start": 31,
+              "line_end": 35
+            }
+          ],
+          "problems": []
+        },
+        {
+          "query": "create a panel with Forge",
+          "source": "sitebay",
+          "passed": true,
+          "expected_rank": 1,
+          "results": [
+            {
+              "path": "articles/sorti/forging-panels.md",
+              "line_start": 29,
+              "line_end": 36
+            },
+            {
+              "path": "articles/sorti/forging-panels.md",
+              "line_start": 27,
+              "line_end": 28
+            },
+            {
+              "path": "articles/sorti/forge-reference.md",
+              "line_start": 517,
+              "line_end": 615
+            },
+            {
+              "path": "articles/sorti/forge-reference.md",
+              "line_start": 934,
+              "line_end": 966
+            },
+            {
+              "path": "articles/sorti/build-a-counter-panel.md",
+              "line_start": 110,
+              "line_end": 114
+            }
+          ],
+          "problems": []
+        },
+        {
+          "query": "connect VS Code",
+          "source": "sitebay",
+          "passed": true,
+          "expected_rank": 1,
+          "results": [
+            {
+              "path": "articles/vscode/install.md",
+              "line_start": 31,
+              "line_end": 35
+            },
+            {
+              "path": "articles/vscode/commands.md",
+              "line_start": 22,
+              "line_end": 34
+            },
+            {
+              "path": "articles/vscode/settings.md",
+              "line_start": 23,
+              "line_end": 39
+            },
+            {
+              "path": "articles/vscode/install.md",
+              "line_start": 25,
+              "line_end": 30
+            },
+            {
+              "path": "articles/sorti/forge-reference.md",
+              "line_start": 841,
+              "line_end": 862
+            }
+          ],
+          "problems": []
+        },
+        {
+          "query": "restore a site",
+          "source": "sitebay",
+          "passed": true,
+          "expected_rank": 1,
+          "results": [
+            {
+              "path": "articles/products/time-machine/get-started-with-pit-machine/index.md",
+              "line_start": 43,
+              "line_end": 46
+            },
+            {
+              "path": "articles/products/platform/site-lifecycle/index.md",
+              "line_start": 56,
+              "line_end": 60
+            },
+            {
+              "path": "articles/guides/quick-answers/sitebay/sitebay-dump-and-restore-commands/index.md",
+              "line_start": 33,
+              "line_end": 38
+            },
+            {
+              "path": "articles/products/tools/get-started/index.md",
+              "line_start": 57,
+              "line_end": 59
+            },
+            {
+              "path": "articles/products/time-machine/get-started-with-pit-machine/index.md",
+              "line_start": 35,
+              "line_end": 36
+            }
+          ],
+          "problems": []
+        },
+        {
+          "query": "scan WordPress vulnerabilities",
+          "source": "sitebay",
+          "passed": true,
+          "expected_rank": 1,
+          "results": [
+            {
+              "path": "articles/guides/security/vulnerabilities/scanning-your-wordpress-site-for-malware/index.md",
+              "line_start": 31,
+              "line_end": 35
+            },
+            {
+              "path": "articles/guides/security/vulnerabilities/scanning-your-wordpress-site-for-malware/index.md",
+              "line_start": 64,
+              "line_end": 87
+            },
+            {
+              "path": "articles/wordpress-security-scanning.md",
+              "line_start": 31,
+              "line_end": 35
+            },
+            {
+              "path": "articles/guides/security/basics/securing-your-wordpress/index.md",
+              "line_start": 49,
+              "line_end": 53
+            },
+            {
+              "path": "articles/knowledge/task-map.md",
+              "line_start": 28,
+              "line_end": 38
+            }
+          ],
+          "problems": []
+        },
+        {
+          "query": "SiteBay plan pricing",
+          "source": "sitebay",
+          "passed": true,
+          "expected_rank": 1,
+          "results": [
+            {
+              "path": "articles/api/plan.md",
+              "line_start": 34,
+              "line_end": 39
+            },
+            {
+              "path": "articles/api/plan.md",
+              "line_start": 22,
+              "line_end": 25
+            },
+            {
+              "path": "articles/api/linode-types.md",
+              "line_start": 20,
+              "line_end": 21
+            },
+            {
+              "path": "articles/platform/api/getting-started-with-the-sitebay-api/index.md",
+              "line_start": 36,
+              "line_end": 44
+            },
+            {
+              "path": "articles/guides/quick-answers/sitebay-essentials/sitebay-plans/index.md",
+              "line_start": 34,
+              "line_end": 46
+            }
+          ],
+          "problems": []
+        },
+        {
+          "query": "read docs with MCP",
+          "source": "sitebay",
+          "passed": true,
+          "expected_rank": 1,
+          "results": [
+            {
+              "path": "articles/knowledge/read-with-mcp.md",
+              "line_start": 29,
+              "line_end": 41
+            },
+            {
+              "path": "articles/knowledge/upstream-library.md",
+              "line_start": 26,
+              "line_end": 31
+            },
+            {
+              "path": "articles/knowledge/read-with-mcp.md",
+              "line_start": 27,
+              "line_end": 28
+            },
+            {
+              "path": "articles/sorti/connect-mcp-services.md",
+              "line_start": 70,
+              "line_end": 74
+            },
+            {
+              "path": "articles/mcp/byo-mcp.md",
+              "line_start": 33,
+              "line_end": 38
+            }
+          ],
+          "problems": []
+        },
+        {
+          "query": "pgvector semantic search",
+          "source": "sitebay",
+          "passed": true,
+          "expected_rank": 1,
+          "results": [
+            {
+              "path": "articles/knowledge/pgvector.md",
+              "line_start": 43,
+              "line_end": 52
+            },
+            {
+              "path": "articles/knowledge/pgvector.md",
+              "line_start": 26,
+              "line_end": 27
+            },
+            {
+              "path": "articles/knowledge/troubleshoot-reader.md",
+              "line_start": 58,
+              "line_end": 63
+            },
+            {
+              "path": "articles/knowledge/_index.md",
+              "line_start": 26,
+              "line_end": 41
+            },
+            {
+              "path": "articles/knowledge/deploy-with-pulumi.md",
+              "line_start": 64,
+              "line_end": 68
+            }
+          ],
+          "problems": []
+        },
+        {
+          "query": "connect Shopify",
+          "source": "sitebay",
+          "passed": true,
+          "expected_rank": 1,
+          "results": [
+            {
+              "path": "articles/products/shopify-link/get-started/index.md",
+              "line_start": 35,
+              "line_end": 36
+            },
+            {
+              "path": "articles/products/shopify-link/get-started/index.md",
+              "line_start": 37,
+              "line_end": 40
+            },
+            {
+              "path": "articles/platform/shopify/_index.md",
+              "line_start": 21,
+              "line_end": 23
+            },
+            {
+              "path": "articles/guides/quick-answers/sitebay/connect-an-external-site-to-wordpress/index.md",
+              "line_start": 32,
+              "line_end": 38
+            },
+            {
+              "path": "articles/themes/shopify/index.md",
+              "line_start": 34,
+              "line_end": 37
+            }
+          ],
+          "problems": []
+        },
+        {
+          "query": "select voice provider",
+          "source": "sitebay",
+          "passed": true,
+          "expected_rank": 2,
+          "results": [
+            {
+              "path": "articles/voice-cloning/index.md",
+              "line_start": 26,
+              "line_end": 29
+            },
+            {
+              "path": "articles/voice/providers.md",
+              "line_start": 28,
+              "line_end": 31
+            },
+            {
+              "path": "articles/voice/providers.md",
+              "line_start": 32,
+              "line_end": 36
+            },
+            {
+              "path": "articles/voice-cloning/index.md",
+              "line_start": 24,
+              "line_end": 25
+            },
+            {
+              "path": "articles/voice/troubleshooting.md",
+              "line_start": 33,
+              "line_end": 35
+            }
+          ],
+          "problems": []
+        },
+        {
+          "query": "where do I find the source code",
+          "source": "sitebay",
+          "passed": true,
+          "expected_rank": 1,
+          "results": [
+            {
+              "path": "articles/knowledge/task-map.md",
+              "line_start": 49,
+              "line_end": 54
+            },
+            {
+              "path": "articles/guides/quick-answers/sitebay/how-to-use-grep/index.md",
+              "line_start": 48,
+              "line_end": 51
+            },
+            {
+              "path": "articles/guides/quick-answers/sitebay/how-to-use-grep/index.md",
+              "line_start": 52,
+              "line_end": 54
+            },
+            {
+              "path": "articles/guides/websites/quickies/fix-content-security-policy-web-worker-error/index.md",
+              "line_start": 37,
+              "line_end": 40
+            },
+            {
+              "path": "articles/knowledge/system-map.md",
+              "line_start": 49,
+              "line_end": 54
+            }
+          ],
+          "problems": []
+        },
+        {
+          "query": "publish the documentation",
+          "source": "sitebay",
+          "passed": true,
+          "expected_rank": 1,
+          "results": [
+            {
+              "path": "articles/knowledge/publishing.md",
+              "line_start": 42,
+              "line_end": 46
+            },
+            {
+              "path": "articles/knowledge/publishing.md",
+              "line_start": 24,
+              "line_end": 35
+            },
+            {
+              "path": "articles/knowledge/pgvector.md",
+              "line_start": 53,
+              "line_end": 73
+            },
+            {
+              "path": "articles/knowledge/deploy-with-pulumi.md",
+              "line_start": 42,
+              "line_end": 55
+            },
+            {
+              "path": "articles/docs-style.md",
+              "line_start": 45,
+              "line_end": 47
+            }
+          ],
+          "problems": []
+        },
+        {
+          "query": "zznonexistentdocsreferenceqv9",
+          "source": "sitebay",
+          "passed": true,
+          "expected_rank": null,
+          "results": [],
+          "problems": []
+        },
+        {
+          "query": "SiteClaw renamed Sorti",
+          "source": "sitebay",
+          "passed": true,
+          "expected_rank": 1,
+          "results": [
+            {
+              "path": "articles/sorti/siteclaw-to-sorti.md",
+              "line_start": 29,
+              "line_end": 30
+            },
+            {
+              "path": "articles/sorti/siteclaw-to-sorti.md",
+              "line_start": 31,
+              "line_end": 43
+            },
+            {
+              "path": "articles/sorti/what-is-sorti.md",
+              "line_start": 53,
+              "line_end": 57
+            },
+            {
+              "path": "articles/knowledge/task-map.md",
+              "line_start": 55,
+              "line_end": 63
+            },
+            {
+              "path": "articles/sorti/_index.md",
+              "line_start": 29,
+              "line_end": 30
+            }
+          ],
+          "problems": []
+        },
+        {
+          "query": "manage team skills and collections",
+          "source": "sitebay",
+          "passed": true,
+          "expected_rank": 1,
+          "results": [
+            {
+              "path": "articles/sorti/skills-and-collections.md",
+              "line_start": 28,
+              "line_end": 33
+            },
+            {
+              "path": "articles/sorti/skills-and-collections.md",
+              "line_start": 26,
+              "line_end": 27
+            },
+            {
+              "path": "articles/sorti/how-sorti-works.md",
+              "line_start": 50,
+              "line_end": 57
+            },
+            {
+              "path": "articles/knowledge/system-map.md",
+              "line_start": 55,
+              "line_end": 59
+            },
+            {
+              "path": "articles/sorti/what-is-sorti.md",
+              "line_start": 39,
+              "line_end": 46
+            }
+          ],
+          "problems": []
+        },
+        {
+          "query": "pause mission approvals",
+          "source": "sitebay",
+          "passed": true,
+          "expected_rank": 1,
+          "results": [
+            {
+              "path": "articles/sorti/missions-and-approvals.md",
+              "line_start": 36,
+              "line_end": 51
+            },
+            {
+              "path": "articles/sorti/missions-and-approvals.md",
+              "line_start": 58,
+              "line_end": 65
+            },
+            {
+              "path": "articles/products/sorti/get-started/index.md",
+              "line_start": 64,
+              "line_end": 69
+            },
+            {
+              "path": "articles/knowledge/task-map.md",
+              "line_start": 55,
+              "line_end": 63
+            },
+            {
+              "path": "articles/sorti/recover-an-interrupted-task.md",
+              "line_start": 64,
+              "line_end": 71
+            }
+          ],
+          "problems": []
+        },
+        {
+          "query": "where documentation database belongs",
+          "source": "sitebay",
+          "passed": true,
+          "expected_rank": 1,
+          "results": [
+            {
+              "path": "articles/knowledge/service-ownership.md",
+              "line_start": 29,
+              "line_end": 32
+            },
+            {
+              "path": "articles/knowledge/service-ownership.md",
+              "line_start": 39,
+              "line_end": 56
+            },
+            {
+              "path": "articles/knowledge/pgvector.md",
+              "line_start": 28,
+              "line_end": 42
+            },
+            {
+              "path": "articles/knowledge/pgvector.md",
+              "line_start": 26,
+              "line_end": 27
+            },
+            {
+              "path": "articles/knowledge/_index.md",
+              "line_start": 26,
+              "line_end": 41
+            }
+          ],
+          "problems": []
+        },
+        {
+          "query": "get started Sorti",
+          "source": "sitebay",
+          "passed": true,
+          "expected_rank": 1,
+          "results": [
+            {
+              "path": "articles/products/sorti/get-started/index.md",
+              "line_start": 70,
+              "line_end": 75
+            },
+            {
+              "path": "articles/products/sorti/get-started/index.md",
+              "line_start": 80,
+              "line_end": 82
+            },
+            {
+              "path": "articles/products/sorti/_index.md",
+              "line_start": 26,
+              "line_end": 32
+            },
+            {
+              "path": "articles/sorti/what-is-sorti.md",
+              "line_start": 47,
+              "line_end": 52
+            },
+            {
+              "path": "articles/sorti/_index.md",
+              "line_start": 31,
+              "line_end": 43
+            }
+          ],
+          "problems": []
+        },
+        {
+          "query": "connect MCP services",
+          "source": "sitebay",
+          "passed": true,
+          "expected_rank": 1,
+          "results": [
+            {
+              "path": "articles/sorti/connect-mcp-services.md",
+              "line_start": 40,
+              "line_end": 63
+            },
+            {
+              "path": "articles/guides/websites/quickies/playwright-mcp-chrome-extension/index.md",
+              "line_start": 23,
+              "line_end": 24
+            },
+            {
+              "path": "articles/knowledge/read-with-mcp.md",
+              "line_start": 53,
+              "line_end": 66
+            },
+            {
+              "path": "articles/2025-07-29-wordpress-mcp-server-claude-ai-integration.md",
+              "line_start": 41,
+              "line_end": 45
+            },
+            {
+              "path": "articles/guides/websites/quickies/playwright-mcp-chrome-extension/index.md",
+              "line_start": 25,
+              "line_end": 41
+            }
+          ],
+          "problems": []
+        },
+        {
+          "query": "deploy documentation reader Pulumi",
+          "source": "sitebay",
+          "passed": true,
+          "expected_rank": 1,
+          "results": [
+            {
+              "path": "articles/knowledge/deploy-with-pulumi.md",
+              "line_start": 42,
+              "line_end": 55
+            },
+            {
+              "path": "articles/knowledge/deploy-with-pulumi.md",
+              "line_start": 24,
+              "line_end": 25
+            },
+            {
+              "path": "articles/knowledge/read-with-mcp.md",
+              "line_start": 75,
+              "line_end": 79
+            },
+            {
+              "path": "articles/knowledge/service-ownership.md",
+              "line_start": 67,
+              "line_end": 71
+            },
+            {
+              "path": "articles/knowledge/update-and-recover.md",
+              "line_start": 54,
+              "line_end": 60
+            }
+          ],
+          "problems": []
+        },
+        {
+          "query": "update recover documentation snapshot",
+          "source": "sitebay",
+          "passed": true,
+          "expected_rank": 1,
+          "results": [
+            {
+              "path": "articles/knowledge/update-and-recover.md",
+              "line_start": 24,
+              "line_end": 25
+            },
+            {
+              "path": "articles/knowledge/update-and-recover.md",
+              "line_start": 32,
+              "line_end": 39
+            },
+            {
+              "path": "articles/knowledge/troubleshoot-reader.md",
+              "line_start": 64,
+              "line_end": 66
+            },
+            {
+              "path": "articles/knowledge/read-with-mcp.md",
+              "line_start": 75,
+              "line_end": 79
+            },
+            {
+              "path": "articles/knowledge/pgvector.md",
+              "line_start": 53,
+              "line_end": 73
+            }
+          ],
+          "problems": []
+        },
+        {
+          "query": "troubleshoot documentation MCP reads",
+          "source": "sitebay",
+          "passed": true,
+          "expected_rank": 1,
+          "results": [
+            {
+              "path": "articles/knowledge/troubleshoot-reader.md",
+              "line_start": 25,
+              "line_end": 26
+            },
+            {
+              "path": "articles/knowledge/troubleshoot-reader.md",
+              "line_start": 33,
+              "line_end": 47
+            },
+            {
+              "path": "articles/sorti/use-documentation-during-a-task.md",
+              "line_start": 59,
+              "line_end": 63
+            },
+            {
+              "path": "articles/knowledge/read-with-mcp.md",
+              "line_start": 27,
+              "line_end": 28
+            },
+            {
+              "path": "articles/knowledge/system-map.md",
+              "line_start": 43,
+              "line_end": 48
+            }
+          ],
+          "problems": []
+        },
+        {
+          "query": "use documentation during a Sorti task",
+          "source": "sitebay",
+          "passed": true,
+          "expected_rank": 1,
+          "results": [
+            {
+              "path": "articles/sorti/use-documentation-during-a-task.md",
+              "line_start": 25,
+              "line_end": 26
+            },
+            {
+              "path": "articles/sorti/use-documentation-during-a-task.md",
+              "line_start": 53,
+              "line_end": 58
+            },
+            {
+              "path": "articles/sorti/skills-and-collections.md",
+              "line_start": 73,
+              "line_end": 77
+            },
+            {
+              "path": "articles/sorti/_index.md",
+              "line_start": 31,
+              "line_end": 43
+            },
+            {
+              "path": "articles/sorti/what-is-sorti.md",
+              "line_start": 47,
+              "line_end": 52
+            }
+          ],
+          "problems": []
+        },
+        {
+          "query": "fix a staging page",
+          "source": "sitebay",
+          "passed": true,
+          "expected_rank": 1,
+          "results": [
+            {
+              "path": "articles/sorti/fix-a-staging-page.md",
+              "line_start": 26,
+              "line_end": 27
+            },
+            {
+              "path": "articles/sorti/fix-a-staging-page.md",
+              "line_start": 28,
+              "line_end": 37
+            },
+            {
+              "path": "articles/sorti/review-a-staging-release.md",
+              "line_start": 52,
+              "line_end": 61
+            },
+            {
+              "path": "articles/sorti/_index.md",
+              "line_start": 44,
+              "line_end": 54
+            },
+            {
+              "path": "articles/products/sorti/get-started/index.md",
+              "line_start": 80,
+              "line_end": 82
+            }
+          ],
+          "problems": []
+        },
+        {
+          "query": "review staging release before publishing",
+          "source": "sitebay",
+          "passed": true,
+          "expected_rank": 1,
+          "results": [
+            {
+              "path": "articles/sorti/review-a-staging-release.md",
+              "line_start": 28,
+              "line_end": 35
+            },
+            {
+              "path": "articles/sorti/review-a-staging-release.md",
+              "line_start": 52,
+              "line_end": 61
+            },
+            {
+              "path": "articles/sorti/_index.md",
+              "line_start": 44,
+              "line_end": 54
+            },
+            {
+              "path": "articles/guides/common-problems/2/index.md",
+              "line_start": 34,
+              "line_end": 35
+            },
+            {
+              "path": "articles/sorti/fix-a-staging-page.md",
+              "line_start": 81,
+              "line_end": 85
+            }
+          ],
+          "problems": []
+        },
+        {
+          "query": "create reusable review skill",
+          "source": "sitebay",
+          "passed": true,
+          "expected_rank": 1,
+          "results": [
+            {
+              "path": "articles/sorti/create-a-review-skill.md",
+              "line_start": 71,
+              "line_end": 76
+            },
+            {
+              "path": "articles/sorti/create-a-review-skill.md",
+              "line_start": 26,
+              "line_end": 27
+            },
+            {
+              "path": "articles/products/sorti/get-started/index.md",
+              "line_start": 80,
+              "line_end": 82
+            },
+            {
+              "path": "articles/sorti/_index.md",
+              "line_start": 44,
+              "line_end": 54
+            },
+            {
+              "path": "articles/sorti/skills-and-collections.md",
+              "line_start": 26,
+              "line_end": 27
+            }
+          ],
+          "problems": []
+        },
+        {
+          "query": "test localhost with editor bridge",
+          "source": "sitebay",
+          "passed": true,
+          "expected_rank": 1,
+          "results": [
+            {
+              "path": "articles/vscode/test-localhost-with-sorti.md",
+              "line_start": 28,
+              "line_end": 29
+            },
+            {
+              "path": "articles/vscode/test-localhost-with-sorti.md",
+              "line_start": 30,
+              "line_end": 37
+            },
+            {
+              "path": "articles/vscode/_index.md",
+              "line_start": 29,
+              "line_end": 31
+            },
+            {
+              "path": "articles/sorti/_index.md",
+              "line_start": 44,
+              "line_end": 54
+            },
+            {
+              "path": "articles/vscode/settings.md",
+              "line_start": 23,
+              "line_end": 39
+            }
+          ],
+          "problems": []
+        },
+        {
+          "query": "build counter panel Forge",
+          "source": "sitebay",
+          "passed": true,
+          "expected_rank": 1,
+          "results": [
+            {
+              "path": "articles/sorti/build-a-counter-panel.md",
+              "line_start": 26,
+              "line_end": 27
+            },
+            {
+              "path": "articles/sorti/build-a-counter-panel.md",
+              "line_start": 28,
+              "line_end": 37
+            },
+            {
+              "path": "articles/sorti/forge-reference.md",
+              "line_start": 517,
+              "line_end": 615
+            },
+            {
+              "path": "articles/sorti/_index.md",
+              "line_start": 55,
+              "line_end": 59
+            },
+            {
+              "path": "articles/sorti/forge-reference.md",
+              "line_start": 147,
+              "line_end": 169
+            }
+          ],
+          "problems": []
+        },
+        {
+          "query": "recover interrupted Sorti task",
+          "source": "sitebay",
+          "passed": true,
+          "expected_rank": 1,
+          "results": [
+            {
+              "path": "articles/sorti/recover-an-interrupted-task.md",
+              "line_start": 82,
+              "line_end": 86
+            },
+            {
+              "path": "articles/sorti/recover-an-interrupted-task.md",
+              "line_start": 72,
+              "line_end": 81
+            },
+            {
+              "path": "articles/sorti/_index.md",
+              "line_start": 44,
+              "line_end": 54
+            },
+            {
+              "path": "articles/sorti/fix-a-staging-page.md",
+              "line_start": 81,
+              "line_end": 85
+            },
+            {
+              "path": "articles/knowledge/task-map.md",
+              "line_start": 55,
+              "line_end": 63
+            }
+          ],
+          "problems": []
+        }
+      ],
+      "scope": "Curated lexical top-five regression and exact source-line verification. Not a semantic model quality claim."
+    },
+    "combined_retrieval": {
+      "passed": true,
+      "cases": 33,
+      "passed_cases": 33,
+      "corpus_revision": "2e2e9a9945d75707a19bfe2fc9c3bdd94e320de6ab84942011b468f0a6c69988",
+      "documents": 2804,
+      "results": [
+        {
+          "query": "How Sorti works",
+          "source": "sitebay",
+          "passed": true,
+          "expected_rank": 3,
+          "results": [
+            {
+              "path": "articles/knowledge/task-map.md",
+              "line_start": 39,
+              "line_end": 48
+            },
+            {
+              "path": "articles/sorti/_index.md",
+              "line_start": 31,
+              "line_end": 43
+            },
+            {
+              "path": "articles/sorti/how-sorti-works.md",
+              "line_start": 29,
+              "line_end": 30
+            },
+            {
+              "path": "articles/sorti/how-sorti-works.md",
+              "line_start": 42,
+              "line_end": 49
+            },
+            {
+              "path": "articles/products/site-bot/get-started/index.md",
+              "line_start": 31,
+              "line_end": 35
+            }
+          ],
+          "problems": []
+        },
+        {
+          "query": "create a panel with Forge",
+          "source": "sitebay",
+          "passed": true,
+          "expected_rank": 1,
+          "results": [
+            {
+              "path": "articles/sorti/forging-panels.md",
+              "line_start": 29,
+              "line_end": 36
+            },
+            {
+              "path": "articles/sorti/forge-reference.md",
+              "line_start": 517,
+              "line_end": 615
+            },
+            {
+              "path": "articles/sorti/forge-reference.md",
+              "line_start": 934,
+              "line_end": 966
+            },
+            {
+              "path": "articles/sorti/forging-panels.md",
+              "line_start": 43,
+              "line_end": 49
+            },
+            {
+              "path": "articles/sorti/build-a-counter-panel.md",
+              "line_start": 110,
+              "line_end": 114
+            }
+          ],
+          "problems": []
+        },
+        {
+          "query": "connect VS Code",
+          "source": "sitebay",
+          "passed": true,
+          "expected_rank": 1,
+          "results": [
+            {
+              "path": "articles/vscode/install.md",
+              "line_start": 31,
+              "line_end": 35
+            },
+            {
+              "path": "articles/vscode/commands.md",
+              "line_start": 22,
+              "line_end": 34
+            },
+            {
+              "path": "articles/vscode/settings.md",
+              "line_start": 23,
+              "line_end": 39
+            },
+            {
+              "path": "articles/vscode/install.md",
+              "line_start": 25,
+              "line_end": 30
+            },
+            {
+              "path": "articles/knowledge/service-ownership.md",
+              "line_start": 29,
+              "line_end": 32
+            }
+          ],
+          "problems": []
+        },
+        {
+          "query": "restore a site",
+          "source": "sitebay",
+          "passed": true,
+          "expected_rank": 1,
+          "results": [
+            {
+              "path": "articles/products/time-machine/get-started-with-pit-machine/index.md",
+              "line_start": 43,
+              "line_end": 46
+            },
+            {
+              "path": "articles/guides/quick-answers/sitebay/sitebay-dump-and-restore-commands/index.md",
+              "line_start": 33,
+              "line_end": 38
+            },
+            {
+              "path": "articles/products/tools/get-started/index.md",
+              "line_start": 57,
+              "line_end": 59
+            },
+            {
+              "path": "articles/products/time-machine/get-started-with-pit-machine/index.md",
+              "line_start": 35,
+              "line_end": 36
+            },
+            {
+              "path": "articles/guides/quick-answers/sitebay/sitebay-dashboard-history/index.md",
+              "line_start": 39,
+              "line_end": 43
+            }
+          ],
+          "problems": []
+        },
+        {
+          "query": "scan WordPress vulnerabilities",
+          "source": "sitebay",
+          "passed": true,
+          "expected_rank": 1,
+          "results": [
+            {
+              "path": "articles/guides/security/vulnerabilities/scanning-your-wordpress-site-for-malware/index.md",
+              "line_start": 31,
+              "line_end": 35
+            },
+            {
+              "path": "articles/guides/security/vulnerabilities/scanning-your-wordpress-site-for-malware/index.md",
+              "line_start": 64,
+              "line_end": 87
+            },
+            {
+              "path": "articles/wordpress-security-scanning.md",
+              "line_start": 31,
+              "line_end": 35
+            },
+            {
+              "path": "articles/guides/security/basics/securing-your-wordpress/index.md",
+              "line_start": 49,
+              "line_end": 53
+            },
+            {
+              "path": "articles/knowledge/task-map.md",
+              "line_start": 28,
+              "line_end": 38
+            }
+          ],
+          "problems": []
+        },
+        {
+          "query": "SiteBay plan pricing",
+          "source": "sitebay",
+          "passed": true,
+          "expected_rank": 3,
+          "results": [
+            {
+              "path": "articles/api/linode-types.md",
+              "line_start": 20,
+              "line_end": 21
+            },
+            {
+              "path": "articles/platform/api/getting-started-with-the-sitebay-api/index.md",
+              "line_start": 36,
+              "line_end": 44
+            },
+            {
+              "path": "articles/guides/quick-answers/sitebay-essentials/sitebay-plans/index.md",
+              "line_start": 34,
+              "line_end": 46
+            },
+            {
+              "path": "articles/api/plan.md",
+              "line_start": 22,
+              "line_end": 25
+            },
+            {
+              "path": "articles/api/plan.md",
+              "line_start": 34,
+              "line_end": 39
+            }
+          ],
+          "problems": []
+        },
+        {
+          "query": "read docs with MCP",
+          "source": "sitebay",
+          "passed": true,
+          "expected_rank": 1,
+          "results": [
+            {
+              "path": "articles/knowledge/read-with-mcp.md",
+              "line_start": 29,
+              "line_end": 41
+            },
+            {
+              "path": "articles/knowledge/read-with-mcp.md",
+              "line_start": 27,
+              "line_end": 28
+            },
+            {
+              "path": "articles/mcp/byo-mcp.md",
+              "line_start": 33,
+              "line_end": 38
+            },
+            {
+              "path": "articles/knowledge/troubleshoot-reader.md",
+              "line_start": 33,
+              "line_end": 47
+            },
+            {
+              "path": "articles/sorti/panels-and-mcp.md",
+              "line_start": 50,
+              "line_end": 56
+            }
+          ],
+          "problems": []
+        },
+        {
+          "query": "pgvector semantic search",
+          "source": "sitebay",
+          "passed": true,
+          "expected_rank": 1,
+          "results": [
+            {
+              "path": "articles/knowledge/pgvector.md",
+              "line_start": 43,
+              "line_end": 52
+            },
+            {
+              "path": "articles/knowledge/pgvector.md",
+              "line_start": 26,
+              "line_end": 27
+            },
+            {
+              "path": "articles/knowledge/troubleshoot-reader.md",
+              "line_start": 58,
+              "line_end": 63
+            },
+            {
+              "path": "articles/knowledge/_index.md",
+              "line_start": 26,
+              "line_end": 41
+            },
+            {
+              "path": "articles/knowledge/deploy-with-pulumi.md",
+              "line_start": 64,
+              "line_end": 68
+            }
+          ],
+          "problems": []
+        },
+        {
+          "query": "connect Shopify",
+          "source": "sitebay",
+          "passed": true,
+          "expected_rank": 1,
+          "results": [
+            {
+              "path": "articles/products/shopify-link/get-started/index.md",
+              "line_start": 35,
+              "line_end": 36
+            },
+            {
+              "path": "articles/products/shopify-link/get-started/index.md",
+              "line_start": 45,
+              "line_end": 49
+            },
+            {
+              "path": "articles/platform/shopify/_index.md",
+              "line_start": 21,
+              "line_end": 23
+            },
+            {
+              "path": "articles/guides/quick-answers/sitebay/connect-an-external-site-to-wordpress/index.md",
+              "line_start": 32,
+              "line_end": 38
+            },
+            {
+              "path": "articles/themes/shopify/index.md",
+              "line_start": 34,
+              "line_end": 37
+            }
+          ],
+          "problems": []
+        },
+        {
+          "query": "select voice provider",
+          "source": "sitebay",
+          "passed": true,
+          "expected_rank": 2,
+          "results": [
+            {
+              "path": "articles/voice-cloning/index.md",
+              "line_start": 26,
+              "line_end": 29
+            },
+            {
+              "path": "articles/voice/providers.md",
+              "line_start": 28,
+              "line_end": 31
+            },
+            {
+              "path": "articles/voice/providers.md",
+              "line_start": 32,
+              "line_end": 36
+            },
+            {
+              "path": "articles/voice/troubleshooting.md",
+              "line_start": 33,
+              "line_end": 35
+            },
+            {
+              "path": "articles/voice-cloning/index.md",
+              "line_start": 24,
+              "line_end": 25
+            }
+          ],
+          "problems": []
+        },
+        {
+          "query": "where do I find the source code",
+          "source": "sitebay",
+          "passed": true,
+          "expected_rank": 1,
+          "results": [
+            {
+              "path": "articles/knowledge/task-map.md",
+              "line_start": 49,
+              "line_end": 54
+            },
+            {
+              "path": "articles/guides/quick-answers/sitebay/how-to-use-grep/index.md",
+              "line_start": 48,
+              "line_end": 51
+            },
+            {
+              "path": "articles/guides/quick-answers/sitebay/how-to-use-grep/index.md",
+              "line_start": 52,
+              "line_end": 54
+            },
+            {
+              "path": "articles/guides/websites/quickies/fix-content-security-policy-web-worker-error/index.md",
+              "line_start": 37,
+              "line_end": 40
+            },
+            {
+              "path": "articles/knowledge/system-map.md",
+              "line_start": 49,
+              "line_end": 54
+            }
+          ],
+          "problems": []
+        },
+        {
+          "query": "publish the documentation",
+          "source": "sitebay",
+          "passed": true,
+          "expected_rank": 1,
+          "results": [
+            {
+              "path": "articles/knowledge/publishing.md",
+              "line_start": 42,
+              "line_end": 46
+            },
+            {
+              "path": "articles/knowledge/publishing.md",
+              "line_start": 24,
+              "line_end": 35
+            },
+            {
+              "path": "articles/knowledge/pgvector.md",
+              "line_start": 53,
+              "line_end": 73
+            },
+            {
+              "path": "articles/knowledge/deploy-with-pulumi.md",
+              "line_start": 42,
+              "line_end": 55
+            },
+            {
+              "path": "articles/docs-style.md",
+              "line_start": 45,
+              "line_end": 47
+            }
+          ],
+          "problems": []
+        },
+        {
+          "query": "zznonexistentdocsreferenceqv9",
+          "source": "sitebay",
+          "passed": true,
+          "expected_rank": null,
+          "results": [],
+          "problems": []
+        },
+        {
+          "query": "pgvector",
+          "source": "linode",
+          "passed": true,
+          "expected_rank": 1,
+          "results": [
+            {
+              "path": "docs/marketplace-docs/guides/pgvector/index.md",
+              "line_start": 58,
+              "line_end": 78
+            },
+            {
+              "path": "docs/guides/kubernetes/deploy-rag-pipeline-and-chatbot-on-apl/index.md",
+              "line_start": 115,
+              "line_end": 130
+            },
+            {
+              "path": "docs/marketplace-docs/guides/pgvector/index.md",
+              "line_start": 35,
+              "line_end": 42
+            },
+            {
+              "path": "docs/guides/kubernetes/deploy-rag-pipeline-and-chatbot-on-apl/index.md",
+              "line_start": 516,
+              "line_end": 554
+            },
+            {
+              "path": "docs/guides/akamai/solutions/deploy-rag-powered-chatbot-langchain-akamai-compute-instance/index.md",
+              "line_start": 207,
+              "line_end": 229
+            }
+          ],
+          "problems": []
+        },
+        {
+          "query": "MCP Gateway",
+          "source": "linode",
+          "passed": true,
+          "expected_rank": 1,
+          "results": [
+            {
+              "path": "docs/marketplace-docs/guides/akamai-mcp-gateway-client/index.md",
+              "line_start": 18,
+              "line_end": 19
+            },
+            {
+              "path": "docs/marketplace-docs/guides/akamai-mcp-gateway-client/index.md",
+              "line_start": 35,
+              "line_end": 44
+            },
+            {
+              "path": "docs/guides/kubernetes/how-to-deploy-istio-with-kubernetes/index.md",
+              "line_start": 430,
+              "line_end": 495
+            },
+            {
+              "path": "docs/marketplace-docs/guides/openclaw/index.md",
+              "line_start": 93,
+              "line_end": 110
+            },
+            {
+              "path": "docs/marketplace-docs/guides/hermes/index.md",
+              "line_start": 86,
+              "line_end": 102
+            }
+          ],
+          "problems": []
+        },
+        {
+          "query": "Haystack",
+          "source": "linode",
+          "passed": true,
+          "expected_rank": 1,
+          "results": [
+            {
+              "path": "docs/marketplace-docs/guides/haystack/index.md",
+              "line_start": 42,
+              "line_end": 92
+            },
+            {
+              "path": "docs/marketplace-docs/guides/haystack/index.md",
+              "line_start": 34,
+              "line_end": 39
+            },
+            {
+              "path": "docs/marketplace-docs/guides/_index.md",
+              "line_start": 15,
+              "line_end": 114
+            }
+          ],
+          "problems": []
+        },
+        {
+          "query": "Ollama",
+          "source": "linode",
+          "passed": true,
+          "expected_rank": 1,
+          "results": [
+            {
+              "path": "docs/marketplace-docs/guides/ollama/index.md",
+              "line_start": 19,
+              "line_end": 22
+            },
+            {
+              "path": "docs/marketplace-docs/guides/ollama/index.md",
+              "line_start": 70,
+              "line_end": 78
+            },
+            {
+              "path": "docs/guides/kubernetes/deploy-llm-for-ai-inferencing-on-apl/index.md",
+              "line_start": 265,
+              "line_end": 296
+            },
+            {
+              "path": "docs/guides/kubernetes/deploy-rag-pipeline-and-chatbot-on-apl/index.md",
+              "line_start": 555,
+              "line_end": 589
+            }
+          ],
+          "problems": []
+        },
+        {
+          "query": "SiteClaw renamed Sorti",
+          "source": "sitebay",
+          "passed": true,
+          "expected_rank": 1,
+          "results": [
+            {
+              "path": "articles/sorti/siteclaw-to-sorti.md",
+              "line_start": 29,
+              "line_end": 30
+            },
+            {
+              "path": "articles/sorti/siteclaw-to-sorti.md",
+              "line_start": 31,
+              "line_end": 43
+            },
+            {
+              "path": "articles/sorti/what-is-sorti.md",
+              "line_start": 53,
+              "line_end": 57
+            },
+            {
+              "path": "articles/knowledge/task-map.md",
+              "line_start": 55,
+              "line_end": 63
+            },
+            {
+              "path": "articles/products/sorti/get-started/index.md",
+              "line_start": 70,
+              "line_end": 75
+            }
+          ],
+          "problems": []
+        },
+        {
+          "query": "manage team skills and collections",
+          "source": "sitebay",
+          "passed": true,
+          "expected_rank": 1,
+          "results": [
+            {
+              "path": "articles/sorti/skills-and-collections.md",
+              "line_start": 28,
+              "line_end": 33
+            },
+            {
+              "path": "articles/sorti/skills-and-collections.md",
+              "line_start": 26,
+              "line_end": 27
+            },
+            {
+              "path": "articles/sorti/how-sorti-works.md",
+              "line_start": 50,
+              "line_end": 57
+            },
+            {
+              "path": "articles/knowledge/system-map.md",
+              "line_start": 55,
+              "line_end": 59
+            },
+            {
+              "path": "articles/sorti/what-is-sorti.md",
+              "line_start": 39,
+              "line_end": 46
+            }
+          ],
+          "problems": []
+        },
+        {
+          "query": "pause mission approvals",
+          "source": "sitebay",
+          "passed": true,
+          "expected_rank": 1,
+          "results": [
+            {
+              "path": "articles/sorti/missions-and-approvals.md",
+              "line_start": 36,
+              "line_end": 51
+            },
+            {
+              "path": "articles/sorti/missions-and-approvals.md",
+              "line_start": 58,
+              "line_end": 65
+            },
+            {
+              "path": "articles/products/sorti/get-started/index.md",
+              "line_start": 64,
+              "line_end": 69
+            },
+            {
+              "path": "articles/knowledge/task-map.md",
+              "line_start": 55,
+              "line_end": 63
+            },
+            {
+              "path": "articles/sorti/how-sorti-works.md",
+              "line_start": 50,
+              "line_end": 57
+            }
+          ],
+          "problems": []
+        },
+        {
+          "query": "where documentation database belongs",
+          "source": "sitebay",
+          "passed": true,
+          "expected_rank": 1,
+          "results": [
+            {
+              "path": "articles/knowledge/service-ownership.md",
+              "line_start": 29,
+              "line_end": 32
+            },
+            {
+              "path": "articles/knowledge/service-ownership.md",
+              "line_start": 39,
+              "line_end": 56
+            },
+            {
+              "path": "articles/knowledge/pgvector.md",
+              "line_start": 26,
+              "line_end": 27
+            },
+            {
+              "path": "articles/knowledge/pgvector.md",
+              "line_start": 28,
+              "line_end": 42
+            },
+            {
+              "path": "articles/knowledge/_index.md",
+              "line_start": 26,
+              "line_end": 41
+            }
+          ],
+          "problems": []
+        },
+        {
+          "query": "get started Sorti",
+          "source": "sitebay",
+          "passed": true,
+          "expected_rank": 1,
+          "results": [
+            {
+              "path": "articles/products/sorti/get-started/index.md",
+              "line_start": 70,
+              "line_end": 75
+            },
+            {
+              "path": "articles/products/sorti/get-started/index.md",
+              "line_start": 80,
+              "line_end": 82
+            },
+            {
+              "path": "articles/products/sorti/_index.md",
+              "line_start": 26,
+              "line_end": 32
+            },
+            {
+              "path": "articles/sorti/_index.md",
+              "line_start": 31,
+              "line_end": 43
+            },
+            {
+              "path": "articles/sorti/what-is-sorti.md",
+              "line_start": 47,
+              "line_end": 52
+            }
+          ],
+          "problems": []
+        },
+        {
+          "query": "connect MCP services",
+          "source": "sitebay",
+          "passed": true,
+          "expected_rank": 1,
+          "results": [
+            {
+              "path": "articles/sorti/connect-mcp-services.md",
+              "line_start": 40,
+              "line_end": 63
+            },
+            {
+              "path": "articles/knowledge/read-with-mcp.md",
+              "line_start": 53,
+              "line_end": 66
+            },
+            {
+              "path": "articles/2025-07-29-wordpress-mcp-server-claude-ai-integration.md",
+              "line_start": 41,
+              "line_end": 45
+            },
+            {
+              "path": "articles/guides/websites/quickies/playwright-mcp-chrome-extension/index.md",
+              "line_start": 23,
+              "line_end": 24
+            },
+            {
+              "path": "articles/guides/websites/quickies/playwright-mcp-chrome-extension/index.md",
+              "line_start": 25,
+              "line_end": 41
+            }
+          ],
+          "problems": []
+        },
+        {
+          "query": "deploy documentation reader Pulumi",
+          "source": "sitebay",
+          "passed": true,
+          "expected_rank": 1,
+          "results": [
+            {
+              "path": "articles/knowledge/deploy-with-pulumi.md",
+              "line_start": 56,
+              "line_end": 63
+            },
+            {
+              "path": "articles/knowledge/deploy-with-pulumi.md",
+              "line_start": 42,
+              "line_end": 55
+            },
+            {
+              "path": "articles/knowledge/read-with-mcp.md",
+              "line_start": 75,
+              "line_end": 79
+            },
+            {
+              "path": "articles/knowledge/update-and-recover.md",
+              "line_start": 54,
+              "line_end": 60
+            },
+            {
+              "path": "articles/knowledge/service-ownership.md",
+              "line_start": 67,
+              "line_end": 71
+            }
+          ],
+          "problems": []
+        },
+        {
+          "query": "update recover documentation snapshot",
+          "source": "sitebay",
+          "passed": true,
+          "expected_rank": 1,
+          "results": [
+            {
+              "path": "articles/knowledge/update-and-recover.md",
+              "line_start": 24,
+              "line_end": 25
+            },
+            {
+              "path": "articles/knowledge/update-and-recover.md",
+              "line_start": 32,
+              "line_end": 39
+            },
+            {
+              "path": "articles/knowledge/troubleshoot-reader.md",
+              "line_start": 64,
+              "line_end": 66
+            },
+            {
+              "path": "articles/knowledge/read-with-mcp.md",
+              "line_start": 75,
+              "line_end": 79
+            },
+            {
+              "path": "articles/knowledge/_index.md",
+              "line_start": 26,
+              "line_end": 41
+            }
+          ],
+          "problems": []
+        },
+        {
+          "query": "troubleshoot documentation MCP reads",
+          "source": "sitebay",
+          "passed": true,
+          "expected_rank": 1,
+          "results": [
+            {
+              "path": "articles/knowledge/troubleshoot-reader.md",
+              "line_start": 33,
+              "line_end": 47
+            },
+            {
+              "path": "articles/knowledge/troubleshoot-reader.md",
+              "line_start": 25,
+              "line_end": 26
+            },
+            {
+              "path": "articles/sorti/use-documentation-during-a-task.md",
+              "line_start": 59,
+              "line_end": 63
+            },
+            {
+              "path": "articles/knowledge/read-with-mcp.md",
+              "line_start": 27,
+              "line_end": 28
+            },
+            {
+              "path": "articles/knowledge/system-map.md",
+              "line_start": 43,
+              "line_end": 48
+            }
+          ],
+          "problems": []
+        },
+        {
+          "query": "use documentation during a Sorti task",
+          "source": "sitebay",
+          "passed": true,
+          "expected_rank": 1,
+          "results": [
+            {
+              "path": "articles/sorti/use-documentation-during-a-task.md",
+              "line_start": 25,
+              "line_end": 26
+            },
+            {
+              "path": "articles/sorti/use-documentation-during-a-task.md",
+              "line_start": 59,
+              "line_end": 63
+            },
+            {
+              "path": "articles/sorti/_index.md",
+              "line_start": 31,
+              "line_end": 43
+            },
+            {
+              "path": "articles/sorti/skills-and-collections.md",
+              "line_start": 73,
+              "line_end": 77
+            },
+            {
+              "path": "articles/sorti/what-is-sorti.md",
+              "line_start": 47,
+              "line_end": 52
+            }
+          ],
+          "problems": []
+        },
+        {
+          "query": "fix a staging page",
+          "source": "sitebay",
+          "passed": true,
+          "expected_rank": 1,
+          "results": [
+            {
+              "path": "articles/sorti/fix-a-staging-page.md",
+              "line_start": 26,
+              "line_end": 27
+            },
+            {
+              "path": "articles/sorti/fix-a-staging-page.md",
+              "line_start": 28,
+              "line_end": 37
+            },
+            {
+              "path": "articles/sorti/review-a-staging-release.md",
+              "line_start": 52,
+              "line_end": 61
+            },
+            {
+              "path": "articles/sorti/_index.md",
+              "line_start": 44,
+              "line_end": 54
+            },
+            {
+              "path": "articles/sorti/create-a-review-skill.md",
+              "line_start": 87,
+              "line_end": 93
+            }
+          ],
+          "problems": []
+        },
+        {
+          "query": "review staging release before publishing",
+          "source": "sitebay",
+          "passed": true,
+          "expected_rank": 1,
+          "results": [
+            {
+              "path": "articles/sorti/review-a-staging-release.md",
+              "line_start": 28,
+              "line_end": 35
+            },
+            {
+              "path": "articles/sorti/review-a-staging-release.md",
+              "line_start": 52,
+              "line_end": 61
+            },
+            {
+              "path": "articles/sorti/_index.md",
+              "line_start": 44,
+              "line_end": 54
+            },
+            {
+              "path": "articles/sorti/fix-a-staging-page.md",
+              "line_start": 81,
+              "line_end": 85
+            },
+            {
+              "path": "articles/guides/common-problems/2/index.md",
+              "line_start": 34,
+              "line_end": 35
+            }
+          ],
+          "problems": []
+        },
+        {
+          "query": "create reusable review skill",
+          "source": "sitebay",
+          "passed": true,
+          "expected_rank": 1,
+          "results": [
+            {
+              "path": "articles/sorti/create-a-review-skill.md",
+              "line_start": 26,
+              "line_end": 27
+            },
+            {
+              "path": "articles/sorti/create-a-review-skill.md",
+              "line_start": 28,
+              "line_end": 33
+            },
+            {
+              "path": "articles/products/sorti/get-started/index.md",
+              "line_start": 80,
+              "line_end": 82
+            },
+            {
+              "path": "articles/sorti/_index.md",
+              "line_start": 44,
+              "line_end": 54
+            },
+            {
+              "path": "articles/sorti/skills-and-collections.md",
+              "line_start": 26,
+              "line_end": 27
+            }
+          ],
+          "problems": []
+        },
+        {
+          "query": "test localhost with editor bridge",
+          "source": "sitebay",
+          "passed": true,
+          "expected_rank": 1,
+          "results": [
+            {
+              "path": "articles/vscode/test-localhost-with-sorti.md",
+              "line_start": 28,
+              "line_end": 29
+            },
+            {
+              "path": "articles/vscode/test-localhost-with-sorti.md",
+              "line_start": 30,
+              "line_end": 37
+            },
+            {
+              "path": "articles/vscode/_index.md",
+              "line_start": 29,
+              "line_end": 31
+            },
+            {
+              "path": "articles/vscode/settings.md",
+              "line_start": 23,
+              "line_end": 39
+            },
+            {
+              "path": "articles/sorti/_index.md",
+              "line_start": 44,
+              "line_end": 54
+            }
+          ],
+          "problems": []
+        },
+        {
+          "query": "build counter panel Forge",
+          "source": "sitebay",
+          "passed": true,
+          "expected_rank": 1,
+          "results": [
+            {
+              "path": "articles/sorti/build-a-counter-panel.md",
+              "line_start": 28,
+              "line_end": 37
+            },
+            {
+              "path": "articles/sorti/build-a-counter-panel.md",
+              "line_start": 110,
+              "line_end": 114
+            },
+            {
+              "path": "articles/sorti/forge-reference.md",
+              "line_start": 517,
+              "line_end": 615
+            },
+            {
+              "path": "articles/sorti/forge-reference.md",
+              "line_start": 147,
+              "line_end": 169
+            },
+            {
+              "path": "articles/sorti/_index.md",
+              "line_start": 55,
+              "line_end": 59
+            }
+          ],
+          "problems": []
+        },
+        {
+          "query": "recover interrupted Sorti task",
+          "source": "sitebay",
+          "passed": true,
+          "expected_rank": 1,
+          "results": [
+            {
+              "path": "articles/sorti/recover-an-interrupted-task.md",
+              "line_start": 82,
+              "line_end": 86
+            },
+            {
+              "path": "articles/sorti/recover-an-interrupted-task.md",
+              "line_start": 72,
+              "line_end": 81
+            },
+            {
+              "path": "articles/sorti/_index.md",
+              "line_start": 44,
+              "line_end": 54
+            },
+            {
+              "path": "articles/sorti/fix-a-staging-page.md",
+              "line_start": 81,
+              "line_end": 85
+            },
+            {
+              "path": "articles/knowledge/task-map.md",
+              "line_start": 55,
+              "line_end": 63
+            }
+          ],
+          "problems": []
+        }
+      ],
+      "scope": "Curated lexical top-five regression and exact source-line verification. Not a semantic model quality claim."
+    },
+    "browser": {
+      "passed": true,
+      "published_routes": 350,
+      "checked_routes": 350,
+      "pages": [
+        "/docs/",
+        "/docs/2025-07-29-wordpress-mcp-server-claude-ai-integration/",
+        "/docs/ai-dashboard/",
+        "/docs/api/",
+        "/docs/api/account/",
+        "/docs/api/application_password/",
+        "/docs/api/beta-programs/",
+        "/docs/api/databases/",
+        "/docs/api/domains/",
+        "/docs/api/event/",
+        "/docs/api/images/",
+        "/docs/api/invite/",
+        "/docs/api/longview/",
+        "/docs/api/networking/",
+        "/docs/api/plan/",
+        "/docs/api/region/",
+        "/docs/api/site-live/",
+        "/docs/api/site-stage/",
+        "/docs/api/site_live/",
+        "/docs/api/sitebay-instances/",
+        "/docs/api/sitebay-kubernetes-engine-lke/",
+        "/docs/api/sitebay-types/",
+        "/docs/api/support/",
+        "/docs/api/team/",
+        "/docs/api/template/",
+        "/docs/api/ticket/",
+        "/docs/api/utils/",
+        "/docs/avatars/",
+        "/docs/avatars/custom/",
+        "/docs/avatars/sketchfab/",
+        "/docs/avatars/visemes-explained/",
+        "/docs/canvas/",
+        "/docs/content/create-a-site-fast-as-possible/",
+        "/docs/content/features-fast-as-possible/",
+        "/docs/content/git-sync-fast-as-possible/",
+        "/docs/content/into-video/",
+        "/docs/docs-style/",
+        "/docs/feature-flags-creating/",
+        "/docs/games/sts2/",
+        "/docs/getting-started/choose-a-template/",
+        "/docs/guides/",
+        "/docs/guides/a-guide-to-algolia-plugins/",
+        "/docs/guides/affiliate-program/",
+        "/docs/guides/alias-frequently-used-commands/",
+        "/docs/guides/all-in-one-wp-migration-with-import/",
+        "/docs/guides/an-overview-of-common-cloud-manager-errors/",
+        "/docs/guides/an-overview-of-the-mysitebay-manager/",
+        "/docs/guides/audiences/",
+        "/docs/guides/audiences/beginner/",
+        "/docs/guides/audiences/foundational/",
+        "/docs/guides/audiences/intermediate/",
+        "/docs/guides/azure-openai-model-comparison-2025-why-o4-mini-is-the-clear-winner-for-agent-tasks/",
+        "/docs/guides/basic-wp-cli-commands/",
+        "/docs/guides/beginners-guide-to-wordpress-2/",
+        "/docs/guides/beginners-guide-to-wordpress/",
+        "/docs/guides/beginners-tutorial-to-php-wordpress-developers/",
+        "/docs/guides/benefits-of-sitebay/",
+        "/docs/guides/benefits-of-wordpress-on-kubernetes/",
+        "/docs/guides/clear-cache-shortguide/",
+        "/docs/guides/cloud-pricing-guide-startups-spot-vs-on-demand/",
+        "/docs/guides/cloudflare/",
+        "/docs/guides/cloudflare/get-started/",
+        "/docs/guides/code-server-linux-commands/",
+        "/docs/guides/common-problems/",
+        "/docs/guides/compress-files-using-the-command-line/",
+        "/docs/guides/concentrations/",
+        "/docs/guides/concentrations/scripting-automation-and-build-tools/",
+        "/docs/guides/concentrations/web-applications/",
+        "/docs/guides/concentrations/wordpress-development/",
+        "/docs/guides/connect-an-external-site-to-wordpress/",
+        "/docs/guides/create-search-with-algolia/",
+        "/docs/guides/databases/",
+        "/docs/guides/databases/algolia/",
+        "/docs/guides/databases/mysql/",
+        "/docs/guides/delete-file-command-line/",
+        "/docs/guides/design-site-from-image-cline-roo/",
+        "/docs/guides/development/",
+        "/docs/guides/development/php/",
+        "/docs/guides/development/tips-and-tricks/",
+        "/docs/guides/development/tips-and-tricks/advanced-wordpress-development-techniques/",
+        "/docs/guides/disaster-recovery-tutorial/",
+        "/docs/guides/fix-content-security-policy-web-worker-error/",
+        "/docs/guides/fix-dns-probe-finished-nxdomain/",
+        "/docs/guides/generative-ai/",
+        "/docs/guides/getting-started-with-site-bay/",
+        "/docs/guides/gpl-in-wordpress/",
+        "/docs/guides/grafana-analytics-fast-as-possible/",
+        "/docs/guides/grafana-for-wordpress/",
+        "/docs/guides/how-to-compress-wordpress-site-to-zip/",
+        "/docs/guides/how-to-copy-files-and-directories/",
+        "/docs/guides/how-to-install-code-server-extensions/",
+        "/docs/guides/how-to-migrate-your-site/",
+        "/docs/guides/how-to-use-basic-commands-for-wordpress-linux/",
+        "/docs/guides/how-to-use-cd/",
+        "/docs/guides/how-to-use-echo/",
+        "/docs/guides/how-to-use-git-sync/",
+        "/docs/guides/how-to-use-git/",
+        "/docs/guides/how-to-use-grep/",
+        "/docs/guides/how-to-use-inpainting-roid1kan/",
+        "/docs/guides/how-to-use-inpainting/",
+        "/docs/guides/how-to-use-soft-inpainting/",
+        "/docs/guides/how-to-use-the-sitebay-alias-command/",
+        "/docs/guides/http-get-request/",
+        "/docs/guides/introduction-to-git-sync/",
+        "/docs/guides/introduction-to-pit-machine/",
+        "/docs/guides/introduction-to-sitebay-concepts/",
+        "/docs/guides/introduction-to-sitebay-regions/",
+        "/docs/guides/kubernetes-fast-as-possible/",
+        "/docs/guides/kubernetes/",
+        "/docs/guides/languages/",
+        "/docs/guides/languages/go/",
+        "/docs/guides/languages/php/",
+        "/docs/guides/list-of-databases/",
+        "/docs/guides/managing-your-sites-with-sorti-ai/",
+        "/docs/guides/managing-your-staging-site-on-code-server/",
+        "/docs/guides/open-source-software-benefits/",
+        "/docs/guides/platform/",
+        "/docs/guides/platform/manager/",
+        "/docs/guides/playwright-mcp-chrome-extension/",
+        "/docs/guides/point-in-time-machine-wordpress/",
+        "/docs/guides/posthog-analytics-fast-as-possible/",
+        "/docs/guides/posthog-data-management/",
+        "/docs/guides/pros-and-cons-of-site-bay/",
+        "/docs/guides/quick-answers/",
+        "/docs/guides/quick-answers/sitebay-essentials/",
+        "/docs/guides/quick-answers/sitebay-platform/",
+        "/docs/guides/quick-answers/sitebay/",
+        "/docs/guides/quick-answers/websites/",
+        "/docs/guides/recovering-from-a-wordpress-hack/",
+        "/docs/guides/scanning-your-wordpress-site-for-malware/",
+        "/docs/guides/search/",
+        "/docs/guides/securing-your-wordpress/",
+        "/docs/guides/security/",
+        "/docs/guides/security/basics/",
+        "/docs/guides/security/monitoring/",
+        "/docs/guides/security/recovery/",
+        "/docs/guides/security/upgrading/",
+        "/docs/guides/security/vulnerabilities/",
+        "/docs/guides/set-up-subdomain-or-subdirectory-wordpress/",
+        "/docs/guides/setting-up-a-custom-email-with-cloudflare/",
+        "/docs/guides/shell-tricks-for-wordpress/",
+        "/docs/guides/shopify-link-wordpress/",
+        "/docs/guides/site-bay-android-app-introduction/",
+        "/docs/guides/site-bay-code-server-introduction/",
+        "/docs/guides/site-bot/",
+        "/docs/guides/sitebay-code-server/",
+        "/docs/guides/sitebay-create-a-site/",
+        "/docs/guides/sitebay-dashboard-history/",
+        "/docs/guides/sitebay-dashboard-overview/",
+        "/docs/guides/sitebay-dashboard-tools/",
+        "/docs/guides/sitebay-dump-and-restore-commands/",
+        "/docs/guides/sitebay-plans/",
+        "/docs/guides/sitebay-staging-sites/",
+        "/docs/guides/sitebay-team-members/",
+        "/docs/guides/sitebay-template-sites/",
+        "/docs/guides/sitebay-writers-formatting-tutorial/",
+        "/docs/guides/startup-cloud-credit-programs-comparison/",
+        "/docs/guides/student-free-plan-deals/",
+        "/docs/guides/tools-reference/",
+        "/docs/guides/tools-reference/basics/",
+        "/docs/guides/tools-reference/tools/",
+        "/docs/guides/transferring-a-wordpress-site-to-a-new-server/",
+        "/docs/guides/troubleshooting-wordpress-on-kubernetes/",
+        "/docs/guides/troubleshooting-wordpress-on-sitebay/",
+        "/docs/guides/troubleshooting/",
+        "/docs/guides/understanding-cloudflares-cdn/",
+        "/docs/guides/use-code-server-to-edit-files-in-sitebay/",
+        "/docs/guides/use-the-ps-aux-command-in-sitebay/",
+        "/docs/guides/using-the-terminal/",
+        "/docs/guides/using-xargs-with-examples/",
+        "/docs/guides/web-servers/",
+        "/docs/guides/websites/",
+        "/docs/guides/websites/quickies/",
+        "/docs/guides/what-is-high-availability/",
+        "/docs/guides/what-is-mariadb/",
+        "/docs/guides/what-is-mysql/",
+        "/docs/guides/what-is-open-source-software/",
+        "/docs/guides/what-is-posthog/",
+        "/docs/guides/what-is-session-replay/",
+        "/docs/guides/what-is-shopify-link/",
+        "/docs/guides/what-is-sitebay/",
+        "/docs/guides/what-is-sqlite/",
+        "/docs/guides/why-use-sitebay-for-development/",
+        "/docs/guides/wordpress-beginner-tips/",
+        "/docs/guides/wordpress-command-line-tips/",
+        "/docs/guides/wordpress-development-on-remote-devices/",
+        "/docs/guides/wordpress-logging-and-monitoring/",
+        "/docs/guides/wordpress/",
+        "/docs/guides/wp-cli-tutorial/",
+        "/docs/knowledge/",
+        "/docs/knowledge/deploy-with-pulumi/",
+        "/docs/knowledge/pgvector/",
+        "/docs/knowledge/publishing/",
+        "/docs/knowledge/read-with-mcp/",
+        "/docs/knowledge/retrieval-quality/",
+        "/docs/knowledge/service-ownership/",
+        "/docs/knowledge/system-map/",
+        "/docs/knowledge/task-map/",
+        "/docs/knowledge/troubleshoot-reader/",
+        "/docs/knowledge/update-and-recover/",
+        "/docs/knowledge/upstream-library/",
+        "/docs/mcp/byo-mcp/",
+        "/docs/platform/",
+        "/docs/platform/api/",
+        "/docs/platform/api/getting-started-with-the-sitebay-api/",
+        "/docs/platform/billing-and-support/",
+        "/docs/platform/billing-and-support/billing-and-payments/",
+        "/docs/platform/billing-and-support/how-sitebay-billing-works/",
+        "/docs/platform/billing-and-support/outgoing-bandwidth/",
+        "/docs/platform/billing-and-support/support/",
+        "/docs/platform/billing-and-support/tax-information/",
+        "/docs/platform/get-started/",
+        "/docs/platform/get-started/accounts-and-passwords/",
+        "/docs/platform/get-started/how-to-choose-a-sitebay-plan/",
+        "/docs/platform/get-started/how-to-pick-a-data-center/",
+        "/docs/platform/get-started/how-to-start-a-web-design-agency/",
+        "/docs/platform/get-started/sitebay-beginners-guide/",
+        "/docs/platform/git-sync/",
+        "/docs/platform/git-sync/best-ide-wordpress/",
+        "/docs/platform/git-sync/how-git-sync-works-with-point-in-time-machine/",
+        "/docs/platform/git-sync/how-to-use-sitebay-git-sync/",
+        "/docs/platform/migrate-to-sitebay/",
+        "/docs/platform/migrate-to-sitebay/best-practices-when-migrating-to-sitebay/",
+        "/docs/platform/migrate-to-sitebay/migrate-a-lamp-website-to-sitebay/",
+        "/docs/platform/migrate-to-sitebay/migrate-a-wordpressdotcom-site-to-sitebay/",
+        "/docs/platform/monitoring/",
+        "/docs/platform/monitoring/sitebay-status-page/",
+        "/docs/platform/recording/",
+        "/docs/platform/recording/sitebay-recordings-page/",
+        "/docs/platform/shopify/",
+        "/docs/platform/shopify/best-ide-wordpress/",
+        "/docs/platform/shopify/how-git-sync-works-with-point-in-time-machine/",
+        "/docs/platform/shopify/how-to-use-git-sync/",
+        "/docs/platform/templates/",
+        "/docs/platform/templates/how-to-use-sitebay-templates/",
+        "/docs/platform/templates/template-quickstart-photography-portfolio/",
+        "/docs/products/",
+        "/docs/products/code-server/",
+        "/docs/products/code-server/get-started-code-server/",
+        "/docs/products/git-sync/",
+        "/docs/products/git-sync/faqs/",
+        "/docs/products/git-sync/get-started-git-sync/",
+        "/docs/products/mcp/get-started-mcp/",
+        "/docs/products/mcp/mcp-agent-intents/",
+        "/docs/products/platform/",
+        "/docs/products/platform/accounts/",
+        "/docs/products/platform/accounts/faqs/",
+        "/docs/products/platform/accounts/guides/",
+        "/docs/products/platform/accounts/guides/cancel-account/",
+        "/docs/products/platform/accounts/guides/change-user-email/",
+        "/docs/products/platform/accounts/guides/manage-users/",
+        "/docs/products/platform/accounts/guides/reset-user-password/",
+        "/docs/products/platform/accounts/guides/user-permissions/",
+        "/docs/products/platform/api-reference/",
+        "/docs/products/platform/billing/",
+        "/docs/products/platform/billing/faqs/",
+        "/docs/products/platform/billing/guides/",
+        "/docs/products/platform/billing/guides/access-billing/",
+        "/docs/products/platform/billing/guides/make-a-payment/",
+        "/docs/products/platform/billing/guides/payment-methods/",
+        "/docs/products/platform/billing/guides/referral-program/",
+        "/docs/products/platform/billing/guides/stop-billing/",
+        "/docs/products/platform/billing/guides/tax-information/",
+        "/docs/products/platform/billing/guides/update-billing-contact-info/",
+        "/docs/products/platform/billing/guides/view-history/",
+        "/docs/products/platform/get-started/",
+        "/docs/products/platform/get-started/guides/",
+        "/docs/products/platform/get-started/guides/choose-a-data-center/",
+        "/docs/products/platform/get-started/guides/custom-email/",
+        "/docs/products/platform/get-started/guides/developer-access/",
+        "/docs/products/platform/get-started/guides/network-transfer/",
+        "/docs/products/platform/get-started/guides/resell-services/",
+        "/docs/products/platform/get-started/guides/status-page/",
+        "/docs/products/platform/get-started/guides/support/",
+        "/docs/products/platform/site-lifecycle/",
+        "/docs/products/platform/sitebay-architecture/",
+        "/docs/products/platform/teams-and-billing/",
+        "/docs/products/posthog/",
+        "/docs/products/posthog/dashboards/",
+        "/docs/products/posthog/data-management/",
+        "/docs/products/posthog/events/",
+        "/docs/products/posthog/feature-flags/",
+        "/docs/products/posthog/insights/",
+        "/docs/products/posthog/notebooks/",
+        "/docs/products/posthog/persons/",
+        "/docs/products/posthog/posthog-analytics/",
+        "/docs/products/posthog/session-replay/",
+        "/docs/products/posthog/surveys/",
+        "/docs/products/posthog/web-analytics/",
+        "/docs/products/shopify-link/",
+        "/docs/products/shopify-link/get-started-shopify-link/",
+        "/docs/products/site-bot/",
+        "/docs/products/site-bot/get-started/",
+        "/docs/products/sorti/",
+        "/docs/products/sorti/get-started-sorti/",
+        "/docs/products/sorti/signal-hooks/",
+        "/docs/products/templates/",
+        "/docs/products/templates/get-started-with-templates/",
+        "/docs/products/templates/tutorials/",
+        "/docs/products/theme/sitebay-theme/",
+        "/docs/products/time-machine/",
+        "/docs/products/time-machine/get-started-with-pit-machine/",
+        "/docs/products/tools/",
+        "/docs/products/tools/get-started-site-tools/",
+        "/docs/reference-architecture/",
+        "/docs/reference-architecture/auto-scaling-prometheus/",
+        "/docs/reference-architecture/auto-scaling-prometheus/diagrams/",
+        "/docs/release-notes/",
+        "/docs/session-replay/",
+        "/docs/sorti/",
+        "/docs/sorti/build-a-counter-panel/",
+        "/docs/sorti/canvas-and-workspace/",
+        "/docs/sorti/connect-mcp-services/",
+        "/docs/sorti/create-a-review-skill/",
+        "/docs/sorti/developing-sorti-panels/",
+        "/docs/sorti/fix-a-staging-page/",
+        "/docs/sorti/forge-reference/",
+        "/docs/sorti/forging-panels/",
+        "/docs/sorti/how-sorti-works/",
+        "/docs/sorti/missions-and-approvals/",
+        "/docs/sorti/panels-and-mcp/",
+        "/docs/sorti/recover-an-interrupted-task/",
+        "/docs/sorti/review-a-staging-release/",
+        "/docs/sorti/siteclaw-to-sorti/",
+        "/docs/sorti/skills-and-collections/",
+        "/docs/sorti/sorti-panel-runtime/",
+        "/docs/sorti/sorti-panel-server-contract/",
+        "/docs/sorti/testing-sorti-panels/",
+        "/docs/sorti/use-documentation-during-a-task/",
+        "/docs/sorti/what-is-sorti/",
+        "/docs/sorti/work-with-your-site/",
+        "/docs/templates/",
+        "/docs/templates/photography-blog/",
+        "/docs/themes/shopify/",
+        "/docs/themes/static/",
+        "/docs/themes/wordpress/",
+        "/docs/time-machine/",
+        "/docs/voice-cloning/",
+        "/docs/voice/",
+        "/docs/voice/providers/",
+        "/docs/voice/troubleshooting/",
+        "/docs/vscode/",
+        "/docs/vscode/commands/",
+        "/docs/vscode/install/",
+        "/docs/vscode/settings/",
+        "/docs/vscode/setup/",
+        "/docs/vscode/test-localhost-with-sorti/",
+        "/docs/vscode/troubleshooting/",
+        "/docs/web-analytics-getting-started/",
+        "/docs/wordpress-security-scanning/"
+      ],
+      "viewport_cases": [
+        {
+          "width": 320,
+          "route": "/docs/",
+          "overflow": false
+        },
+        {
+          "width": 320,
+          "route": "/docs/guides/",
+          "overflow": false
+        },
+        {
+          "width": 320,
+          "route": "/docs/sorti/",
+          "overflow": false
+        },
+        {
+          "width": 320,
+          "route": "/docs/sorti/forge-reference/",
+          "overflow": false
+        },
+        {
+          "width": 320,
+          "route": "/docs/api/site_live/",
+          "overflow": false
+        },
+        {
+          "width": 320,
+          "route": "/docs/products/posthog/notebooks/",
+          "overflow": false
+        },
+        {
+          "width": 320,
+          "route": "/docs/guides/student-free-plan-deals/",
+          "overflow": false
+        },
+        {
+          "width": 320,
+          "route": "/docs/knowledge/",
+          "overflow": false
+        },
+        {
+          "width": 320,
+          "route": "/docs/knowledge/pgvector/",
+          "overflow": false
+        },
+        {
+          "width": 320,
+          "route": "/docs/sorti/missions-and-approvals/",
+          "overflow": false
+        },
+        {
+          "width": 320,
+          "route": "/docs/sorti/skills-and-collections/",
+          "overflow": false
+        },
+        {
+          "width": 320,
+          "route": "/docs/knowledge/service-ownership/",
+          "overflow": false
+        },
+        {
+          "width": 320,
+          "route": "/docs/knowledge/deploy-with-pulumi/",
+          "overflow": false
+        },
+        {
+          "width": 320,
+          "route": "/docs/knowledge/troubleshoot-reader/",
+          "overflow": false
+        },
+        {
+          "width": 320,
+          "route": "/docs/sorti/fix-a-staging-page/",
+          "overflow": false
+        },
+        {
+          "width": 320,
+          "route": "/docs/sorti/review-a-staging-release/",
+          "overflow": false
+        },
+        {
+          "width": 320,
+          "route": "/docs/sorti/create-a-review-skill/",
+          "overflow": false
+        },
+        {
+          "width": 320,
+          "route": "/docs/vscode/test-localhost-with-sorti/",
+          "overflow": false
+        },
+        {
+          "width": 320,
+          "route": "/docs/sorti/build-a-counter-panel/",
+          "overflow": false
+        },
+        {
+          "width": 320,
+          "route": "/docs/sorti/recover-an-interrupted-task/",
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "route": "/docs/",
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "route": "/docs/guides/",
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "route": "/docs/sorti/",
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "route": "/docs/sorti/forge-reference/",
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "route": "/docs/api/site_live/",
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "route": "/docs/products/posthog/notebooks/",
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "route": "/docs/guides/student-free-plan-deals/",
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "route": "/docs/knowledge/",
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "route": "/docs/knowledge/pgvector/",
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "route": "/docs/sorti/missions-and-approvals/",
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "route": "/docs/sorti/skills-and-collections/",
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "route": "/docs/knowledge/service-ownership/",
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "route": "/docs/knowledge/deploy-with-pulumi/",
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "route": "/docs/knowledge/troubleshoot-reader/",
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "route": "/docs/sorti/fix-a-staging-page/",
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "route": "/docs/sorti/review-a-staging-release/",
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "route": "/docs/sorti/create-a-review-skill/",
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "route": "/docs/vscode/test-localhost-with-sorti/",
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "route": "/docs/sorti/build-a-counter-panel/",
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "route": "/docs/sorti/recover-an-interrupted-task/",
+          "overflow": false
+        }
+      ],
+      "navigation_click": true,
+      "errors": [],
+      "missing_assets": [],
+      "shards": 3,
+      "search_checks": [
+        {
+          "query": "Forge",
+          "results": 6,
+          "clicked": true
+        },
+        {
+          "query": "API key",
+          "results": 10,
+          "clicked": true
+        },
+        {
+          "query": "pgvector",
+          "results": 10,
+          "clicked": true
+        }
+      ],
+      "keyboard": true,
+      "search_reopen": true,
+      "no_javascript_reading": true,
+      "section_filter": true,
+      "scope": "Production export with real local Pagefind; unrelated external embeds replaced by fixtures."
+    }
+  },
+  "public_corpus_revision": "f666f8abecb762c1023dda842b9231355f415d8170fb59315cf734c4cc068456",
+  "combined_corpus_revision": "2e2e9a9945d75707a19bfe2fc9c3bdd94e320de6ab84942011b468f0a6c69988",
+  "upstream_revision": "fe2349568fa499a229a1a5e370929404d8e76287",
+  "not_exercised": [
+    "live staging edit or promotion",
+    "live Forge panel creation or minted reducer execution",
+    "shared team-skill save",
+    "live editor MCP browser session",
+    "Kubernetes or database deployment",
+    "registry image publication",
+    "website deployment",
+    "new PostgreSQL integration run"
+  ],
+  "boundaries": "The example view and complete skill were accepted by the actual Sorti parsers. Reducer programs were checked for contract shape, not invoked as live application tools. Article browser coverage uses the real local Pagefind export and fixtures for unrelated embeds. Source behavior is not deployed-environment acceptance.",
+  "log_sha256": {
+    "redirects.log": "e9dfe7cbb585714746abc5aa34013b98878cc0e4425d0e742b73b0f205ed95ad",
+    "browser.log": "f97b937d0f33aed5b5c32be731bf56dcb36196aa741d2e80afb5b236820167ff",
+    "retrieval.log": "3eef0cc37b25e7b1b712169dd10eba01e1a14b3ff73bb512b38413e61af282c0",
+    "knowledge.log": "ce5e77422b8613d3f0bb59a5f287fb2e8f3f41d8cb9ae631e176feb32b14b0eb",
+    "build.log": "985a77017a7e148aa8ca28ece2b474c0b3371763e74d1afb0e2123cb9c7e3037",
+    "publishing.log": "dc3ca9990a575fbcacc4c66d877f600858a56bbb03c0445897dd1ebc8553bc27",
+    "editorial.log": "65b326cbad368aad2cf76c6194512925a98c5dea94c119870f9d4f3a85ae4f46",
+    "python.log": "6c0e079112f7a0bec843d109df26dc3bc6561fda40ee17a7ef2c2350bec7184e",
+    "review.log": "60fbd40254793d7d542772b1ac4441c659c25635c62ba1e3275485a8d551f563",
+    "combined-build.log": "2618b27c79b187244445033437f5470953eb7bd9f4f1629be011698b88bccae7",
+    "examples.log": "e02387e6a5cf2f73baa7566f2e9c7f4f1968a8b4530593c05275daea4e224964",
+    "combined-retrieval.log": "bb789fcf21c326989e0a8db94e6d55548a8fddf1edaa02e75e2ad7e87761c302",
+    "knowledge-npm.log": "7d694bc0e9369d83b6bb9c365c89e04a063c98eb0a97483a953968a741885191",
+    "npm.log": "3db78a17eb3ad90333450269276b9165d8141c84460d1bb9aff8a7e1ced83116",
+    "spelling.log": "e64306d81d73654106257ae7edf0a86653334191db1f317254073a60d2df2485",
+    "node.log": "21b9e9773991b0eec3034b901d06820fb690bc318273134964c7f0a8ca3a6302",
+    "curated.log": "ca35bc1aa8d73ff8f8a970f9567258b0063bc08d4cf3ba149b648ae2d1114696"
+  }
+}

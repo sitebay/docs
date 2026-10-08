@@ -1,69 +1,62 @@
 ---
-title: Get Started
-title_meta: "Getting Started with the SiteBay API"
-description: "Get started with the SiteBay api. Learn to get an access token and learn about OpenAPI and swagger."
+title: Make your first SiteBay API request
+title_meta: Make your first SiteBay API request
+description: Begin with a non-mutating request before building an automation that creates, restores or deletes sites.
 tab_group_main:
-    weight: 60
+  weight: 60
 published: 2024-04-23
-modified: 2024-04-23
-aliases: ['/products/tools/sitebay-api/get-started/','/platform/api/getting-started-with-the-sitebay-api-new-manager/','/platform/api/getting-started-with-the-sitebay-api/','/guides/getting-started-with-the-sitebay-api/','/products/tools/sitebay-api/guides/build-final-query/']
-tags: ["managed hosting"]
+modified: 2026-10-07
+aliases:
+- /products/tools/sitebay-api/get-started/
+- /platform/api/getting-started-with-the-sitebay-api-new-manager/
+- /platform/api/getting-started-with-the-sitebay-api/
+- /guides/getting-started-with-the-sitebay-api/
+- /products/tools/sitebay-api/guides/build-final-query/
+tags:
+- managed hosting
+authors:
+- SiteBay
+contributors:
+- SiteBay
+modified_by:
+  name: SiteBay
+keywords:
+- get started
+- sitebay documentation
+slug: getting-started-with-the-sitebay-api
+license: '[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)'
+doc_sources:
+- api-contract
+- api-auth
+- pricing
 ---
 
+Begin with a non-mutating request before building an automation that creates, restores or deletes sites. Confirm that the account and team returned are the ones you intend to operate on.
 
-# Getting Started with the SiteBay API: A Comprehensive Guide
+## Read a public catalog
 
-The SiteBay API offers a wealth of options for developers looking to automate aspects of web hosting, site management, and integration of various online services. Whether you're running an agency or managing multiple websites, SiteBay's API can enhance your operational efficiency through automation. This article serves as an introduction to working with the SiteBay API, covering key functions, and providing guidance on how you can leverage this powerful tool.
-
-### Overview of the SiteBay API
-
-The SiteBay API provides endpoints covering a wide range of functionalities including site management, domain verification, user events, team collaboration, and payment processing. With thorough documentation available through swagger at [SiteBay API Docs](https://my.sitebay.org/docs) and an SDK available on [GitHub](https://github.com/sitebay/sitebay-sdk), developers have all the resources they need to start integrating the API quickly.
-
-### Essential API Functions
-
-Here's a breakdown of some essential categories and functions that you’ll frequently interact with when using the SiteBay API:
-
-#### Site Management
-- **Manage Live Sites**: Create, update, and delete live sites.
-- **Backup and Restore**: Handle point-in-time restores, file backups, and manage external paths.
-- **Staging Environments**: Set up and manage staging sites, including committing changes to live environments.
-
-#### Team Collaboration
-- **Team Management**: Create teams, manage members, and handle invites.
-- **Ticketing System**: Issue and track support tickets within your team.
-
-#### User and Account Management
-- **User Profiles**: Access and edit details for the current user or other users within your account.
-- **Shopify Store Integration**: Manage Shopify store details linked to your account.
-
-#### Billing and Payments
-- **Payment Processing**: Set up stripe checkout sessions for team purchases.
-- **Customer Portal**: Manage billing details and payment methods through the customer portal.
-
-#### Domain and Repository Management
-- **Domain Verification**: Check and verify domain ownership and configurations.
-- **Git Repository Integration**: Verify and manage git repository syncs related to your projects.
-
-### Getting Started: API Authentication and Setup
-
-Before you begin utilizing the SiteBay API, you'll have to set up authentication. SiteBay API uses Oauth2 for secure API access, which means you'll need to sign up for an agency plan.
-
-### Example: Creating a New Site
-
-To create a live site, you can use the `POST` method to `/f/api/v1/site_live`. Before making this request, ensure you are authorized with a valid access token.
-
-Here’s an example using cURL:
-```bash
-curl -X POST https://my.sitebay.org/f/api/v1/site_live \
--H 'Authorization: Bearer YOUR_ACCESS_TOKEN' \
--d 'site_name=example' \
--d 'region_id=1'
+```sh
+curl --fail-with-body --silent --show-error \
+  https://my.sitebay.org/f/api/v1/plan/pricing
 ```
 
-### Documentation and Support
+This returns suggested currency and the current plan catalog. Prices are minor units, not whole currency amounts. Public catalog access does not imply permission to change a subscription.
 
-Comprehensive API documentation is available, facilitating easy integration and troubleshooting. For developers looking for guidance, the support team is accessible via the ticketing system in the API, ensuring you can get help when you need it.
+## Read an authenticated resource
 
-### Conclusion
+Create a minimally scoped team key through the current signed-in account flow, or use an appropriate session credential. Store it securely in `SITEBAY_TOKEN`, then run:
 
-The SiteBay API offers robust capabilities for website and team management, making it invaluable for developers managing extensive web properties or deploying integrated services. With easy-to-follow documentation and robust endpoint security, you can start automating your workflows securely and efficiently. Begin by exploring the API, testing endpoints, and incorporating them into your projects to experience enhanced productivity and streamlined operations.
+```sh
+: "${SITEBAY_TOKEN:?Set a credential securely}"
+curl --fail-with-body --silent --show-error \
+  --header "Authorization: Bearer ${SITEBAY_TOKEN}" \
+  https://my.sitebay.org/f/api/v1/team
+```
+
+Do not paste a token into the URL, a public code snippet, a support ticket, or shell history. Read the response's collection shape and identifiers. Keep only the redacted evidence needed to debug the request.
+
+## Add an operation carefully
+
+Choose the route from [the API reference]({{< relref "api/_index.md" >}}). For a site mutation, first inspect its current state and legal actions. Check required request fields and the distinction between an accepted operation and completed work. Never replace a denied action with an unrelated shell command.
+
+Handle structured validation errors and authorization failures. Use documented idempotency support for retries and inspect state after a timeout. See [the integration guide]({{< relref "products/platform/api-reference/index.md" >}}) for details.

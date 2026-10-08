@@ -1,18 +1,26 @@
 ---
 slug: email-warning-shortguide
-description: 'Shortguide highlighting email restrictions on SiteBay WordPress hosting.'
+description: Hosting a website does not by itself configure a mailbox or authenticated outgoing email. Choose the
+  mail provider and test inbound delivery and WordPress notifications separately.
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
 published: 2024-04-24
-modified: 2024-04-24
+modified: 2026-10-07
 modified_by:
   name: SiteBay
-title: Email Port Blocking Alert
+title: Verify application email
 headless: true
 show_on_rss_feed: false
-authors: ["SiteBay"]
-contributors: ["SiteBay"]
+authors:
+- SiteBay
+contributors:
+- SiteBay
+keywords:
+- email port blocking alert
+- sitebay documentation
+doc_sources:
+- cloudflare-dns
 ---
 
-{{< note type="warning" title="Email restrictions on SiteBay WordPress Hosting" >}}
-To combat spam from our network, outbound connections on ports 25, 465, and 587 are restricted by default for some new accounts. This measure aims to prevent misuse of our services for spamming. If you need to send emails from your WordPress hosting environment, we advise checking our Email Policy and Setup guide for detailed instructions on compliant email practices and how to request lifting these port restrictions.
-{{< /note >}}
+Hosting a website does not by itself configure a mailbox or authenticated outgoing email. Choose the mail provider and test inbound delivery and WordPress notifications separately.
+
+[Set up domain email]({{< relref "guides/cloudflare/get-started/setting-up-a-custom-email-with-cloudflare/index.md" >}}) before relying on contact forms or password-reset delivery.

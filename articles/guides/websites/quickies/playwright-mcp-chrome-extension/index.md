@@ -3,93 +3,48 @@ slug: playwright-mcp-chrome-extension
 author:
   name: SiteBay
   email: support@sitebay.org
-title: "Setting Up a Playwright MCP Server with Chrome Extension Support"
-description: "A comprehensive guide to launching a Playwright MCP server with Chrome extension integration"
+title: Connect Playwright MCP to a browser
+description: Playwright MCP exposes browser actions to an MCP client. Extension mode connects to a running Chrome
+  or Edge browser through the Playwright extension.
+authors:
+- SiteBay
+contributors:
+- SiteBay
+keywords:
+- setting up a playwright mcp server with chrome extension support
+- sitebay documentation
+published: 2025-03-26
+license: '[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)'
+doc_sources:
+- playwright-mcp
+modified: 2026-10-07
 ---
 
-# Setting Up a Playwright MCP Server with Chrome Extension Support
+Playwright MCP exposes browser actions to an MCP client. Extension mode connects to a running Chrome or Edge browser through the Playwright extension.
 
-## Prerequisites
-- Node.js installed
-- Playwright installed globally [Microsoft Playwright](https://github.com/microsoft/playwright-mcp)
-- Chrome extension you want to use
-- Claude Desktop or Cline/Roo
+## Configure the client
 
-## Step 1: Launch Playwright Server with Chrome Extension
+Install the extension through the distribution linked by the [official project](https://github.com/microsoft/playwright-mcp). Review its permissions. A typical MCP server configuration for extension mode is:
 
-### Create Configuration File (config.json)
-```json
-{
-  "headless": false,
-  "args": [
-    "--disable-extensions-except=./path/to/extension",
-    "--load-extension=./path/to/extension"
-  ],
-  "userDataDir": "./my-profile"
-}
-```
-
-### Launch Command
-```bash
-npx playwright@latest launch-server --browser chromium --config=config.json
-```
-
-## Step 2: Getting the WebSocket Endpoint
-When you run the launch command, Playwright will output a WebSocket (WS) endpoint. It will look similar to:
-```
-ws://localhost:34143/49963c6a33d3f1d477555b60d045008d
-```
-
-## Step 3: Add to MCP Configuration
-Update your MCP settings (typically in `cline_mcp_settings.json`) with the following configuration:
 ```json
 {
   "mcpServers": {
-    "playwright-server": {
+    "playwright": {
       "command": "npx",
-      "args": [
-        "@playwright/mcp@latest",
-        "--vision"
-      ],
-      "env": {
-        "PLAYWRIGHT_WS_ENDPOINT": "ws://localhost:34143/49963c6a33d3f1d477555b60d045008d"
-      },
-      "disabled": false
+      "args": ["@playwright/mcp@latest", "--extension"]
     }
   }
 }
 ```
 
-## Step 4: Downloading Chrome Extension
+Use the configuration format required by your client. For a repeatable environment, replace `latest` with a version you have tested and approved.
 
-### Method 1: From Chrome Web Store
-1. Open Chrome Web Store
-2. Find the desired extension
-3. Click "Details" 
-4. Note the extension ID from the URL (e.g., `hdokiejnpimakedhajhdlcegeplioahd`)
+## Connect a test session
 
-### Method 2: Manually Extract from Chrome
-1. Open Chrome
-2. Go to `chrome://extensions/`
-3. Enable "Developer mode"
-4. Click "Pack extension"
-5. Select the extension folder
-6. Chrome will generate `.crx` and `.pem` files
+Use a separate browser profile with only the accounts needed for the task. Follow the extension's connection prompt and verify the selected tab before allowing automation.
 
-### Method 3: Download from GitHub/Source
-1. Find the extension's source repository
-2. Clone or download the repository
-3. Use the extension folder directly
+## Check the boundary
 
-### Path Configuration Tip
-Replace `./path/to/extension` in the `config.json` with the actual path to your extension folder.
+Browser automation can act with the session's logged-in permissions. Start with a read-only inspection; review form submissions, purchases, account changes, and destructive actions separately.
 
-## Additional Notes
-- Ensure the extension is compatible with the Chrome version used by Playwright
-- Some extensions may require additional configuration
-- Test the extension manually first to verify functionality
-
-## Troubleshooting
-- Check WebSocket endpoint is correctly copied
-- Verify extension path is correct
-- Ensure Playwright and Chrome versions are compatible
+Do not publish extension tokens or session data. Disconnect the browser when the task is complete.

@@ -1,84 +1,60 @@
 ---
 slug: how-to-use-basic-commands-for-wordpress-linux
-description: "Master the basics of navigating your WordPress site's server with these essential Linux commands."
-keywords: ["sitebay", "WordPress", "Linux commands", "navigate directories"]
+description: These examples are ordinary shell commands.
+keywords:
+- sitebay
+- WordPress
+- Linux commands
+- navigate directories
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
-modified: 2024-04-23
+modified: 2026-10-07
 modified_by:
   name: SiteBay
 published: 2024-04-22
-title: "Navigating Your WordPress Code Server with Linux Commands"
-title_meta: "Master Linux Commands for WordPress Hosting on SiteBay"
-tags: ["sitebay", "WordPress", "Linux"]
-authors: ["SiteBay"]
-contributors: ["SiteBay"]
+title: Navigate a WordPress workspace
+tags:
+- sitebay
+- WordPress
+- Linux
+authors:
+- SiteBay
+contributors:
+- SiteBay
+doc_sources:
+- shell-reference
+- code-server
 ---
 
-## Understanding the cd Command
+These examples are ordinary shell commands. They act on the filesystem visible to your current terminal, which may be a container or a managed workspace rather than the hosting node.
 
-On Linux systems,     cd stands as a fundamental command that alters your current directory within the terminal. This command is crucial for WordPress site management on SiteBay's Kubernetes-based hosting platform, offering several shortcuts and two main options for efficient directory navigation.
+## Inspect before editing
 
-## Executing the cd Command
+```bash
+pwd
+ls -la
+```
 
-To traverse directories with     cd, the syntax is straightforward:
-    cd [option] [directory]
+SiteBay's managed code-server source sets its workspace to `/home/coder/wordpress/wp-content`. Treat that as orientation, not a reason to create the path if it is missing. Open the intended site through its authenticated workspace link.
 
+## Move through directories
 
-For instance, navigating to /usr/local requires:
+```bash
+cd -- themes
+pwd
+cd ..
+```
 
-    cd /usr/local
+Run these only when the current directory actually contains `themes`. `cd` by itself goes home; `cd -` returns to the previous location. The old literal example `cd ~ or cd` is not valid shell syntax.
 
+## Work on a disposable example
 
-This example utilizes an absolute path. Yet, relative paths, based on your present location, are equally viable. If your current directory is /usr/local and you aim to move to /usr/local/share, simply use:
+```bash
+mkdir -p -- "$HOME/shell-practice"
+cd -- "$HOME/shell-practice" || exit 1
+printf '%s\n' 'sample' > example.txt
+cp -i -- example.txt example-copy.txt
+mv -i -- example-copy.txt renamed.txt
+cat -- renamed.txt
+```
 
-    cd share
-
-    cd Shortcuts
-
-    cd comes with several shortcuts to expedite directory navigation:
-
-Parent Directory: Move up one level with ..:
-
-    cd ..
-
-
-Multiple Levels Up: Stack .. to ascend multiple levels:
-
-    cd ../../..
-
-
-Root Directory: Navigate to the root from any location with /:
-
-    cd /
-
-
-Home Directory: Reach your home directory from anywhere with ~ or just     cd:
-
-    cd ~
-    cd
-
-
-Previous Location: Switch back to the last directory with -:
-
-    cd -
-
-
-This last shortcut toggles between two locations, revealing the absolute path of the last directory.
-
-    cd Options
-
-    cd includes two options, -L and -P, to manage how symbolic links are treated:
-
--L Option: Follows symbolic links to the directory they point to. This is the default action:
-
-    cd -L /var/example.com
-
-
--P Option: Ignores symbolic links, navigating to the physical directory structure:
-
-    cd -P /var/example.com
-
-
-If both -L and -P are specified, -P takes precedence, focusing on physical directories and bypassing symbolic links.
-
-By mastering these commands and options, managing your WordPress site's server on SiteBay becomes a streamlined process, ensuring efficient site administration and maintenance.
+This creates and edits only the named practice files. `cp` and `mv` can overwrite a destination; interactive mode gives a prompt when applicable. `rm` deletes rather than moving a file to a desktop trash folder. Check the actual target and permissions before using the same operations in a site.

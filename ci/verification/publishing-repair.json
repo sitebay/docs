@@ -1,0 +1,145 @@
+{
+  "reviewed_base": "f7bc8c1bb329ce5931c659cb050d85cec8de17c7",
+  "toolchain": {
+    "hugo": "0.139.0",
+    "node": "v22.23.3",
+    "go": "go version go1.22.4 linux/amd64"
+  },
+  "production_build": {
+    "exit_code": 0,
+    "generated_pages": 603
+  },
+  "python_regression_tests": {
+    "passed": 16
+  },
+  "node_regression_tests": {
+    "passed": 2
+  },
+  "go": {
+    "config_tests_passed": 2,
+    "admin_command_packages_compiled": 4
+  },
+  "publishing": {
+    "source_files": 348,
+    "inventory_pages": 329,
+    "checked_internal_links": 1935,
+    "issues": []
+  },
+  "browser": {
+    "scope": "served production export; remote services stubbed",
+    "pages": [
+      "/docs/sorti/",
+      "/docs/sorti/canvas-and-workspace/",
+      "/docs/sorti/developing-sorti-panels/",
+      "/docs/sorti/forge-reference/",
+      "/docs/sorti/forging-panels/",
+      "/docs/sorti/how-sorti-works/",
+      "/docs/sorti/panels-and-mcp/",
+      "/docs/sorti/sorti-panel-runtime/",
+      "/docs/sorti/sorti-panel-server-contract/",
+      "/docs/sorti/testing-sorti-panels/",
+      "/docs/sorti/what-is-sorti/",
+      "/docs/avatars/",
+      "/docs/avatars/custom/",
+      "/docs/avatars/sketchfab/",
+      "/docs/avatars/visemes-explained/",
+      "/docs/voice/",
+      "/docs/voice/providers/",
+      "/docs/voice/troubleshooting/",
+      "/docs/vscode/",
+      "/docs/vscode/commands/",
+      "/docs/vscode/install/",
+      "/docs/vscode/settings/",
+      "/docs/vscode/setup/",
+      "/docs/vscode/troubleshooting/",
+      "/docs/games/sts2/",
+      "/docs/mcp/byo-mcp/"
+    ],
+    "viewports": [
+      {
+        "width": 320,
+        "route": "/docs/sorti/",
+        "overflow": false
+      },
+      {
+        "width": 320,
+        "route": "/docs/sorti/forge-reference/",
+        "overflow": false
+      },
+      {
+        "width": 320,
+        "route": "/docs/guides/student-free-plan-deals/",
+        "overflow": false
+      },
+      {
+        "width": 1440,
+        "route": "/docs/sorti/",
+        "overflow": false
+      },
+      {
+        "width": 1440,
+        "route": "/docs/sorti/forge-reference/",
+        "overflow": false
+      },
+      {
+        "width": 1440,
+        "route": "/docs/guides/student-free-plan-deals/",
+        "overflow": false
+      }
+    ],
+    "errors": [],
+    "missingAssets": [],
+    "navigationClick": true,
+    "passed": true
+  },
+  "editorial": {
+    "pre_existing_findings": 677,
+    "new_findings": 0,
+    "baseline": "ci/editorial-baseline.json"
+  },
+  "index_plan": {
+    "app_id": "VJRR3OCA19",
+    "indices": [
+      {
+        "name": "sitebay-documentation",
+        "source": "index.json",
+        "replace": true
+      },
+      {
+        "name": "sitebay-documentation-sections",
+        "source": "data/sections/index.json",
+        "replace": false
+      },
+      {
+        "name": "sitebay-documentation-api",
+        "source": "api/index.json",
+        "replace": true
+      }
+    ]
+  },
+  "security_guide_source_fingerprints": [
+    {
+      "source": "sitebay/app/api/site/security.py",
+      "sha256": "61a136e5973f3fe0f21876c0ca8a12ed908810d76286470ce02de6d736fe7b83"
+    },
+    {
+      "source": "sitebay/app/services/security_scan_service.py",
+      "sha256": "df94c16d02d8abb26fab050f26d86cdca42821a6270483702f1b899dc2e7ef3b"
+    },
+    {
+      "source": "sorti/apps/sorti-agent/lib/mcp/panels/security/server.ts",
+      "sha256": "e1ce47275a3c56bb7c05bc90c3ab73b55ef6f988676d6aeba5b1d5529c687e08"
+    },
+    {
+      "source": "sorti/apps/sorti-agent/lib/mcp/panels/security/template.html",
+      "sha256": "8ec3e477df2c7c68d19dd78f6115399cc88147fc4b332413707d52914aab12f5"
+    }
+  ],
+  "not_performed": [
+    "production deployment",
+    "Algolia administration writes",
+    "customer security scan or plugin update",
+    "complete factual audit of every article"
+  ],
+  "qualification": "Local verification on the Sorti development host; browser remote services stubbed. Remote CI status is separate."
+}

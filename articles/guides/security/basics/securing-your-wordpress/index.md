@@ -1,51 +1,53 @@
 ---
 slug: securing-your-wordpress
-author:
-  name: SiteBay
-  email: support@sitebay.org
-description: 'Dive into the basics of securing your WordPress site on SiteBay, including setting up user accounts, configuring a firewall, securing SSH, and disabling unused network services like XMLRPC.'
-og_description: 'Kickstart your journey to a more secure WordPress site with SiteBay by configuring a firewall, securing SSH, and disabling unused network services such as XMLRPC.'
-keywords: ["security", "secure", "firewall", "quick start"]
-tags: ["wordpress","security"]
+description: Reduce risk through updates, limited access, trustworthy software, and a tested recovery path.
+keywords:
+- security
+- firewall
+- waf
+- malware
+- ssl
+- kubernetes security
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
-aliases: ['/securing-your-wordpress/']
-modified: 2024-04-19
+published: 2024-03-13
+modified: 2026-10-07
 modified_by:
   name: SiteBay
-published: 2024-04-17
-title: How to Secure Your WordPress
-h1_title: Securing Your WordPress
+title: Secure a WordPress site
+bible: true
+tags:
+- sitebay
+- security
+- infrastructure
+aliases:
+- /guides/security/basics/securing-your-wordpress/
+authors:
+- SiteBay
+contributors:
+- SiteBay
+doc_sources:
+- wp-security
+- vulnerability-scan
+- api-auth
+- lifecycle
 ---
 
-# Bulletproof Your WordPress
+Reduce risk through updates, limited access, trustworthy software, and a tested recovery path.
 
-In today's digital landscape, protecting your WordPress site is non-negotiable. This ultimate guide provides you with cutting-edge strategies to secure your site on SiteBay, ensuring that hackers are kept at bay and your data remains safe.
+## Review access
 
-## Lock Down with HTTP Password Authentication
+Give each person their own account and the permissions their work requires. Use unique passwords and enable the available additional authentication controls. Remove unused users and integration credentials.
 
-Take control with SiteBay's HTTP Password Auth. By setting up a robust authentication mechanism, you decide who can access your site. Simply log in with your credentials, switch on the HTTP Password Auth, and secure your access with a secret handshake that only you know.
+## Maintain the application
 
-## Supercharge Your Security with Wordfence
+Keep WordPress, themes, and plugins supported and updated. Remove components you no longer use. Obtain software from trusted publishers; do not install a modified premium plugin from an unknown download site.
 
-### Firewall Protection
+## Prepare recovery
 
-Wordfence offers a powerful web application firewall that intercepts malicious traffic before it reaches your site, ensuring that potential threats are neutralized swiftly.
+Protect both site files and the database. Check the available recovery points and test a restoration process before an incident. A Git repository is not a full backup of uploaded media or database content.
 
-### Advanced Malware Scanning
+## Inspect changes
 
-Regular scans with Wordfence detect malware, suspicious URLs, and backdoors. Stay one step ahead by catching vulnerabilities before they can cause damage.
+Use logs and vulnerability findings to investigate specific problems. Neither a successful login nor a scan with no reported findings proves the site cannot be compromised.
 
-### Enhanced Login Security
-
-Enable two-factor authentication to add an extra layer of protection to your login process. This ensures that even if your password is compromised, your site remains secure.
-
-### Live Traffic Monitoring
-
-Monitor your site's traffic in real-time to quickly spot and block suspicious activity. Wordfence's live traffic view gives you insights into who is visiting your site and what they are doing.
-
-## Reinforce with Cloudflare
-
-Cloudflare enhances your site's security by preventing DDoS attacks, securing data transactions, and improving performance. Use Cloudflare's firewall rules to specifically safeguard your wp-login.php page:  
-- **Set Up:** Log in to Cloudflare and navigate to the Firewall section.  
-- **Create Rule:** Define a rule that allows only your IP address to access your login page, blocking all other attempts.  
-- **Deploy:** Activate the rule to secure your login page from unauthorized access.
+Follow [WordPress hardening guidance](https://developer.wordpress.org/advanced-administration/security/hardening/) and the [SiteBay vulnerability workflow]({{< relref "guides/security/vulnerabilities/scanning-your-wordpress-site-for-malware/index.md" >}}).

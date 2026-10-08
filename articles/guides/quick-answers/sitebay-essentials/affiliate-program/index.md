@@ -1,40 +1,35 @@
 ---
 slug: affiliate-program
-description: "Get recurring credits when you invite users to SiteBay"
-keywords: ['affiliate program']
+description: Use the referral information associated with your signed-in account.
+keywords:
+- affiliate program
+- referral
+- earn credits
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
 published: 2024-04-04
+modified: 2026-10-08
 image: IntroAffiliateProgram.png
 modified_by:
   name: SiteBay
-title: "Maximizing Your Earnings with SiteBay's Affiliate Program"
-authors: ["SiteBay"]
-contributors: ["SiteBay"]
+title: SiteBay referrals and recorded rewards
+authors:
+- SiteBay
+contributors:
+- SiteBay
+doc_sources:
+- referrals
 ---
 
+Use the referral information associated with your signed-in account. A referral URL, a recorded signup, a paid plan, and a recorded payout are different stages; do not treat a click or invite email as earned credit.
 
-![SiteBay Affiliate Page](IntroAffiliateProgram.png "SiteBay Affiliate Page")
+## Find and share your link
 
-Welcome to SiteBay's Affiliate Program! If you're all about WordPress hosting on Kubernetes and love the idea of earning some extra cash, you're in the right spot. This program is designed for folks who are excited to share the awesomeness of SiteBay with their network. Whether you're a blogger, a social media influencer, or just someone with a lot of friends interested in web hosting, you can start earning today.
+Open the account's referral view and copy the link it provides. Check that it belongs to your account before sharing it with an intended audience. Do not send bulk unsolicited invitations or include private account data in the URL.
 
-## What is SiteBay's Affiliate Program?
+## Verify results
 
-SiteBay's Affiliate Program rewards you for referring new users to our platform. For every person you refer who signs up and subscribes to one of our plans, you'll receive recurring credits towards your SiteBay services. It's our way of saying thanks for spreading the word.
+The current account view distinguishes referred users, paid-plan information, and recorded payouts. Review the actual entry, amount and currency rather than adding a fixed hypothetical reward. The backend's referral attribution response can contain a null referrer when no attribution applies.
 
-## How Does It Work?
-1. Sign Up: First things first, you'll need to join the program. It's quick and easy. Just head to your My SiteBay dashboard and look for the Affiliate section in your settings page.
-1. Share Your Link: Once you're in, you'll get a unique referral link. Share this link with your friends, followers, or anyone you think would benefit from SiteBay's services.
-1. Earn Credits: For every new user that signs up through your link and subscribes to a paid plan, you'll earn credits. These credits can be used towards your own SiteBay services, making it a win-win.
+## Read current terms
 
-## Why Join?
-1. It's Profitable: You get a recurring 10% cut from every successful referral. The more you refer, the more you earn.
-1. Boost Your Site: Use your earnings to enhance your own SiteBay hosting plan or try out new features without spending extra.
-1. Support Your Network: By referring your friends to SiteBay, you're helping them find a robust and scalable WordPress hosting solution.
-
-## Tips for Success
-Share Your Experience: People trust personal experiences. Share how SiteBay has helped you or your business with WordPress hosting.
-Utilize Social Media: Leverage your social media platforms to reach a wider audience. Regular posts, stories, or tweets about SiteBay can increase your referrals.
-Create Content: Blog posts, videos, or tutorials about using SiteBay can attract viewers and potential referrals.
-Getting Started
-
-Ready to jump in? Head over to your SiteBay dashboard, find the Affiliate Program section, and start sharing your unique link. It's that simple.
+Check the account’s program terms for credits, commissions, minimum spend, and expiry dates. [Contact support]({{< relref "products/platform/get-started/guides/support/index.md" >}}) about a specific missing attribution or payout with its non-secret reference.

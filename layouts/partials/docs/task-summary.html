@@ -1,0 +1,11 @@
+{{ with .Params.task }}
+<section class="prose prose-lg max-w-content" data-task-summary aria-label="Task at a glance">
+  <h2 id="task-at-a-glance">Task at a glance</h2>
+  <dl>
+    <dt><strong>Goal</strong></dt><dd>{{ .goal }}</dd>
+    <dt><strong>Before you start</strong></dt><dd>{{ .prerequisites }}</dd>
+    <dt><strong>Changes and limits</strong></dt><dd>{{ .effects }}</dd>
+    <dt><strong>Verify</strong></dt><dd>{{ .verification }}</dd>
+  </dl>
+</section>
+{{ end }}

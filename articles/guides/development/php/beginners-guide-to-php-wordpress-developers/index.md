@@ -3,50 +3,60 @@ slug: beginners-tutorial-to-php-wordpress-developers
 author:
   name: SiteBay
   email: support@sitebay.org
-description: 'An introduction to the PHP language tailored for WordPress development on SiteBay. Learn the ropes of backend development to enhance your WordPress site.'
-keywords: ['php', 'wordpress', 'development', 'SiteBay']
+description: PHP implements much of WordPress's server-side behavior. Start with a small plugin in a development
+  site rather than editing core files.
+keywords:
+- php
+- wordpress
+- development
+- SiteBay
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
 published: 2024-04-04
+modified: 2026-10-07
 modified_by:
   name: SiteBay
 image: get-started-php.png
-title: "A Beginner's Tutorial to PHP for WordPress Development on SiteBay"
-h1_title: "Getting Started with PHP for WordPress on SiteBay"
+title: PHP for WordPress
 contributor:
   name: SiteBay
-link: https://www.sitebay.org/
+aliases:
+- /development/php/beginners-tutorial-to-php/
+authors:
+- SiteBay
+contributors:
+- SiteBay
+doc_sources:
+- wp-basics
 ---
-external_resources:
 
-'The WordPress Codex'
-aliases: ['/development/php/beginners-tutorial-to-php/']
-Introduction
+PHP implements much of WordPress's server-side behavior. Start with a small plugin in a development site rather than editing core files.
 
-PHP isn't just any programming language; it's the engine behind WordPress, powering all those dynamic features on your SiteBay hosted site. Imagine PHP as the hidden wizard, orchestrating every detail to bring your digital dreams to life.
+## Create a test plugin
 
-In this beginner's guide, we simplify PHP for WordPress development on SiteBay. You'll uncover the basics of PHP, craft your first plugin, and navigate common hurdles with ease. Ready to evolve into a PHP master? Follow us.
+Create `wp-content/plugins/sitebay-example/sitebay-example.php` in the selected development installation:
 
-Why PHP is Essential for WordPress on SiteBay
+```php
+<?php
+/**
+ * Plugin Name: SiteBay Example
+ * Description: Adds a test footer message in WordPress administration.
+ */
+if (!defined('ABSPATH')) {
+    exit;
+}
+add_filter('admin_footer_text', function ($text) {
+    return esc_html('Development site');
+});
+```
 
-Flexibility: PHP opens up endless customization options for your WordPress site, far beyond default themes and plugins.
-Power: Harness PHP to introduce unique functionalities, elevating your site's performance and user experience.
-Community: Join the vibrant community of WordPress developers on SiteBay, always ready to share insights and support.
+This changes the administration footer after activation. It does not modify posts or create a public page.
 
-Creating Your First Plugin
+## Check it
 
-Plugins are the apps that extend the functionality of your WordPress site, and PHP is your toolkit for making them. Here’s a straightforward guide to launching your first plugin:
+Run `php -l` against the file to check syntax, then activate the plugin on the development site. Open administration and verify the footer. Deactivate the plugin to remove the behavior.
 
-Craft a Plugin File: Navigate to wp-content/plugins in your WordPress directory on SiteBay and conjure a new PHP file.
-Declare Your Plugin: Use a text editor to insert a PHP comment at the top of your file, declaring your plugin’s name and description.
-Invoke PHP Magic: Inject PHP code to tailor your site. Begin with easy tasks like altering the admin footer text.
-Activate and Marvel: Access the WordPress dashboard, locate your plugin, and activate it to witness your creation come to life.
+## Add functionality safely
 
-PHP Pro Tips for Rookies
+Actions run at defined points; filters return modified values. Validate incoming data, check authorization for privileged operations, and escape output for its context. A nonce does not replace a capability check.
 
-Security First: Sanitize and validate all user inputs to fortify your site against intrusions.
-Leverage WordPress Codex: The Codex is your treasure trove, brimming with functions, hooks, and comprehensive guides.
-Pursue Mastery: The realm of PHP is vast. Continuously explore, learn, and refine your craft.
-
-Conclusion
-
-Venturing into PHP might seem overwhelming initially, but it unlocks a universe of customization for your SiteBay WordPress site. Remember, every master was once a novice. With dedication, you'll soon be designing custom plugins and themes like a pro. Welcome aboard the PHP journey!
+Use the [PHP tutorial](https://www.php.net/manual/en/tutorial.php) for the language and [WordPress plugin security](https://developer.wordpress.org/plugins/security/) for the application boundary.

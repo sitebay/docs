@@ -1,5 +1,5 @@
 {{ $public := "public" }}
-{{ $githubBasePath := "https://github.com/sitebay/docs/edit/develop/docs" }}
+{{ $githubBasePath := "https://github.com/linode/docs/edit/develop/docs" }}
 {{ if not hugo.IsServer }}
 {{/*  Netlify */}}
 {{ $public = "public/docs" }}

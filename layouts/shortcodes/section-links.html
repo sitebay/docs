@@ -1,0 +1,16 @@
+{{/* Derive child routes from Hugo, not from source directory names. */}}
+{{ $children := slice }}
+{{ range .Page.Pages.ByWeight }}
+  {{ if and .RelPermalink (not .Params.headless) (not (strings.Contains .Path "/_shortguides")) }}
+    {{ $children = $children | append . }}
+  {{ end }}
+{{ end }}
+{{ with $children }}
+<section aria-label="Guides in this section" class="docs-section-links">
+  <ul>
+    {{ range . }}
+    <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
+    {{ end }}
+  </ul>
+</section>
+{{ end }}

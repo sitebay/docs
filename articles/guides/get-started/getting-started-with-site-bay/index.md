@@ -1,62 +1,65 @@
 ---
-slug: getting-started
-author:
-  name: SiteBay
-  email: support@sitebay.org
-keywords: ["getting started", "intro", "basics", "first steps"]
-description: 'This tutorial will guide you through launching your first WordPress site with SiteBay, with the power of Kubernetes.'
-og_description: "Learn how to sign up, create a new WordPress site, and kickstart your journey with our Getting Started guide."
+slug: getting-started-with-site-bay
+description: Create a site in the correct team, verify that it is ready, and then connect the tools needed for your
+  workflow.
+keywords:
+- getting started
+- tutorial
+- first steps
+- setup sitebay
+- beginner guide
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
-aliases: ['/getting-started/']
-modified: 2024-06-08
+published: 2024-03-13
+modified: 2026-10-07
 modified_by:
   name: SiteBay
-published: 2024-04-04
-title: Get Started with SiteBay
-show_on_frontpage: true
-title_short: "Get Started"
-weight: 10
-icon: "book"
-show_on_rss_feed: false
+title: Get started with SiteBay
+bible: true
+tags:
+- sitebay
+- getting started
+- tutorial
+authors:
+- SiteBay
+contributors:
+- SiteBay
+doc_sources:
+- site-ui
+- lifecycle
+- regions
+- pricing
+- api-auth
+- mcp-platform
 ---
 
-![Getting Started with Site Bay](getting-started.png "Getting Started with Site Bay")
+Create a site in the correct team, verify that it is ready, and then connect the tools needed for your workflow. Keep the new site's test setup separate from an existing production migration.
 
-## Set Sail with Site Bay!
+## Create Your Account
 
-Let's get started with Site Bay, Powerful WordPress Hosting! This tutorial will help you sign up for an account on [My Site Bay](https://my.sitebay.org), our browser-based control panel where you can create, manage, and monitor your WordPress sites with the scalability of Kubernetes.
+Open the SiteBay sign-in/sign-up flow at `https://my.sitebay.org` and use the authentication method presented for the account. Keep verification links private. Read [accounts, passwords and MFA]({{< relref "platform/get-started/accounts-and-passwords/index.md" >}}) when configuring access.
 
-{{< note >}}
-On your phone? Our Getting Started Mobile Tutorial is perfect for on-the-go setup.
-{{< /note >}}
+## Deploy Your First Site
 
-## Let's Get Started
-1. First time with us? Sign up. It's super quick.
-1. Choose Your Plan: Get started with the free plan. Upgrade your plan from $19/month. 
+Select the owning team and review its current plan and site allowance. Choose an available region from the live catalog rather than a city copied from an old example. Select a blank WordPress starting point or an available ready-made site, enter the domain details requested by the current creation form, and review the proposed target.
 
-## Setting Up Your WordPress Site
-1. Log In: Head over to My SiteBay and log in with your details. GitHub fans, we've got a direct connect for you too.
-1. Select a Location: EU User? Choose your data center location in user settings to ensure fast loading times for your audience. By default it will be set to Washington.
-1. Create Your Site: Find "Create Site" on the sidebar and click it to begin.
+Submit creation once and preserve the returned site/operation identifier. Provisioning and DNS/HTTPS readiness can complete at different times. Wait for the site's ready state and inspect an error before retrying; there is no blanket sub-minute completion guarantee.
 
-1. DNS Setup: Go to your domain registrar and point a CNAME record to washington.cname.sitebay.org or frankfurt.cname.sitebay.org for EU users.
-![Cloudflare CNAME setup](cloudflare-cname-setup.png "Cloudflare CNAME setup")
+## Open the site and WP Admin
 
-{{< note >}}
-Testing things out? Use one of our test subdomains.
-{{< /note >}}
-1. Launch Time: Punch in your CNAME set up domain name, name your blog, set WordPress login details, and launch.
-![Make a new site](create-a-free-site.png "New site setup")
+Check the resulting URL in a browser. The current site view's **WP Admin** action requests a one-use, expiring SSO URL and opens it in a new tab. Use a fresh action if a grant expires or has already been consumed. Do not share the URL or paste its token into support logs.
 
-{{< note >}}
-WordPress devs, take your site to the next level with our Bi-directional Git Sync feature.
-{{< /note >}}
+Verify the site's title, content and administrator context. Creating a SiteBay team membership is not the same as adding a WordPress user in every site.
 
-Hang tight for about a minute while we prepare your site.
+## Choose development tools
 
-### Sneak Peek of Your Future 
+Open [code-server]({{< relref "products/code-server/get-started/index.md" >}}) for the authorized workspace or connect [Git Sync]({{< relref "products/git-sync/get-started/index.md" >}}) for repository-based development. For assistants, use [the current first-party MCP connection]({{< relref "products/mcp/get-started/index.md" >}}) and discover the advertised tools. Do not install a package merely because an old tutorial guessed its name.
 
-- **Session Recordings:** Watch how users interact with your site
-- **Advanced Analytics:** Track growth and engagement
-- **Git Sync:** Streamline your development workflow
-- **Unlimited Potential:** Your digital canvas awaits!
+Create and validate a recovery point before a risky change. A staging environment can help test changes but is distinct from the live canvas preview and can still call external services.
+
+## Connect a custom domain
+
+Use the site's current domain/nameserver setup instructions and preserve the existing DNS zone, including email records. Verify authoritative DNS, the requested hostname, HTTPS and redirects before considering the cutover complete. A saved DNS record does not mean every resolver or certificate endpoint has updated.
+
+## Check analytics and access
+
+Verify the correct analytics project, event capture and privacy configuration with a test visit. Do not assume that a new site records every visitor or that recordings are complete. Test important forms and any checkout in the appropriate test mode before launch, then record the accepted state and recovery handle.

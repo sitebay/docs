@@ -1,70 +1,41 @@
 ---
-title: Manage User Permissions
-title_meta: Manage User Permissions for a SiteBay User Account
-description: "Learn how to manage permissions and restrict user access on a SiteBay account."
+title: Understand team permissions
+description: SiteBay authorization is enforced by the server for each operation.
 published: 2024-04-21
-modified: 2024-04-24
-tags: ["sitebay platform","users","user permissions"]
+modified: 2026-10-07
+authors:
+- SiteBay
+contributors:
+- SiteBay
+modified_by:
+  name: SiteBay
+tags:
+- sitebay platform
+- users
+keywords:
+- user permissions
+- sitebay documentation
+slug: user-permissions
+license: '[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)'
+doc_sources:
+- account-ui
+- teams
+- api-auth
+- pricing
 ---
 
-Each user on an account can be given individualized permissions that provides unrestricted access to an account or limits their access to specific information or services. For example, you could give your core team members full unrestricted access, grant your accounts payable team access only to view and modify billing details, and limit an outside developer to only access specific WordPress Sites or other services.
+SiteBay authorization is enforced by the server for each operation. An old table of arbitrary per-resource billing, cluster, and object-storage toggles does not describe the current team member contract.
 
-{{< note >}}
-The permissions discussed within this guide apply to accessing the SiteBay platform through the My SiteBay, SiteBay API, and SiteBay CLI. If you wish to only provide someone with direct access to the internal system of a WordPress Site (or revoke their access), that can be accomplished through limited user accounts within your operating system. See [Create an Account for a Developer to Work on Your WordPress Site](/docs/products/platform/get-started/guides/developer-access/).
-{{< /note >}}
+## Owner and member
 
-## View and Set Permissions for a User
+The team member model exposes owner level 8 and member level 4. These values describe roles, not a license to bypass a route's authorization checks. A site action also depends on ownership, plan and runtime state. Read the site's available actions before enabling a mutation in a client.
 
-You can view and edit permissions for a user directly in the My SiteBay by following the instructions below.
+## Invitation and removal boundaries
 
-1. Log in to the [My SiteBay](https://my.sitebay.org) and click the **Account** link in the sidebar.
+Roster reads are available to authorized members. Pending invitation reads and invitation creation/revocation are owner-only. The owner can remove another member; a member may leave themselves. The owner cannot be removed through the membership endpoint.
 
-1. Navigate to the **Users & Grants** tab, which displays a list of existing users for the account.
+## API key permissions
 
-    ![Screenshot of the Users & Grants tab in the My SiteBay](list-of-users.png)
+API keys are scoped to a team and use the declared permission values `read`, `readwrite`, or `admin`. Choose the minimum permission needed. A key cannot create other keys, and key creation/revocation uses a signed-in session. Do not assume that a key's permission removes the user's team-membership requirements.
 
-1. Locate the user for which you wish to view or modify permissions and click the corresponding **User Permissions** link.
-
-    ![Screenshot of the link to edit a user's permissions.](user-permissions-link.png)
-
-1. Modify the settings as needed. Reference the [Permission Settings](#permission-settings) section below for more information on user permission settings.
-
-1. When you have finished configuring the user's permissions, click **Save**. The user's permissions are saved and become effective immediately.
-
-## Permission Settings
-
-### Full Account Access
-
-![Full Account Access](user-permissions-account-access.png)
-
-A user can either be given unrestricted (full) access to an account or they can be restricted by default. If **Full Account Access** is set to *ON*, the user has full access to the account and no further permission settings are available. When set to *OFF*, the user has no access and individual permissions can be granted using the other settings (covered below).
-
-### Create Services (Global Permissions)
-
-![Global Permissions](user-permissions-global-permissions.png)
-
-The **Global Permissions** settings enable users to add various types of services. There is a setting that corresponds to each type of service. For instance, to allow the user to add NodeBalancers, enable the *Can add NodeBalancers to this account* setting.
-
-{{< note >}}
-Granting access to settings denoted with a dollar sign ($) allows the user to perform actions that incur billing costs, such as adding or resizing a SiteBay WordPress Site.
-{{< /note >}}
-
-### Billing Access
-
-![Billing Access](user-permissions-billing-access.png)
-
-This section provides various levels of access to view or modify billing information:
-
-- **None**: The user is unable to view any billing information. This does not prevent a user from creating billable resources, which are instead applied as **Global Permissions** in the previous section.
-- **Read Only**: The user can [View Invoices](/docs/products/platform/billing/guides/view-history/) and [Access Billing Info](/docs/products/platform/billing/guides/access-billing/).
-- **Read-Write**: The user has full access to [Billing Information](/docs/products/platform/billing/guides/access-billing/), can make payments, edit billing information, view billing information, receive copies of all invoices, and receive email related to payments.
-
-### Specific Services
-
-![Specific Services](user-permissions-specific-access.png)
-
-A user can be granted individual permissions to each instance of a service, such as SiteBay WordPress Sites, Block Storage Volumes, NodeBalancers, and more. Unlike **Global Permissions**, **Specific Permissions** apply to individual resources -- not the service as a whole.
-
-- **None**: The user cannot view or otherwise interact with the selected resource.
-- **Read Only**: The user can view the resource and all of its associated information typically visible within the My SiteBay, But they cannot otherwise interact with it.
-- **Read-Write**: The user has full access to the selected resource and can make any changes that only an administrator is otherwise able to. This includes resource deletion, cloning, and all other applicable edits. The user also receives an email notification when a ticket is created or updated for this resource.
+Test an integration first with a harmless read, then handle authorization failures as an explicit boundary. Never translate a denied operation into an unrelated shell or database action. See [team access and billing]({{< relref "products/platform/teams-and-billing/index.md" >}}).

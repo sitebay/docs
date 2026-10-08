@@ -1,27 +1,45 @@
 ---
-description: "Learn how your SiteBay account's network transfer pool is calculated and billed."
-keywords: ["network","billing","account","transfer", "overage"]
+description: Review usage in the team that owns the site and compare it with that team's current plan.
+keywords:
+- network
+- billing
+- account
+- transfer
+- overage
 published: 2024-04-21
-modified: 2024-04-25
+modified: 2026-10-07
 modified_by:
   name: SiteBay
-title: "Network Transfer Usage and Costs"
-tags: ["sitebay platform"]
-aliases: ['/platform/billing-and-support/network-transfer-quota/', '/guides/network-transfer-quota/','/guides/network-transfer/']
-authors: ["SiteBay"]
-contributors: ["SiteBay"]
+title: Review traffic and plan usage
+tags:
+- sitebay platform
+aliases:
+- /platform/billing-and-support/network-transfer-quota/
+- /guides/network-transfer-quota/
+- /guides/network-transfer/
+authors:
+- SiteBay
+contributors:
+- SiteBay
+slug: network-transfer
+license: '[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)'
+doc_sources:
+- pricing
+- site-ui
 ---
 
-## Overview
+Review usage in the team that owns the site and compare it with that team's current plan.
 
-**Network transfer** is the exchange of data between two computers over the public internet or a private network. Other providers and publications may also refer to this as data transfer, ingress/egress, and bandwidth.
+## Check the period and units
 
-This traffic is broken down into inbound (ingress) and outbound (egress) network transfer. *Inbound network transfer* is data sent *to* your service, such as a file upload. *Outbound network transfer* is data sent *from* your service, such as a web page and its images, stylesheets, and JavaScript files.
+Identify which usage measure is shown, its unit, and the billing or measurement period. Visits, storage, and network transfer are different quantities; one chart does not describe all of them.
 
-## Transfer Allowance
+## Investigate a change
 
-The following SiteBay services consume network transfer and, in most cases, include a set amount of outbound network transfer allowance per month. The amount of transfer is displayed along with the pricing and plan details for each service. See SiteBay's [pricing page](https://www.sitebay.org/pricing) for exact amounts.
+Compare the increase with site history, large media files, automated traffic, or a campaign. Use relevant logs and analytics to narrow the cause before changing limits or deleting data.
 
-- **WordPress Sites:** Consume network transfer and include 1-20 TB of transfer allowance per month, depending on plan size.
+## Review the plan
 
-Read the [Billing and Payments](/docs/products/platform/billing/) guide for an overview of SiteBay billing.
+Check the plan's current included limits and the upgrade or additional-resource options presented to the team. Do not assume an old guide's transfer allowance or a promotional credit applies to the current subscription.
+
+See [Teams and billing]({{< relref "products/platform/teams-and-billing/index.md" >}}).

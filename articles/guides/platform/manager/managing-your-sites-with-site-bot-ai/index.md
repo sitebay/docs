@@ -1,46 +1,42 @@
 ---
-slug: managing-your-sites-with-site-bot-ai
-description: 'Quick tips to use our GPT powered bot to create and manage your WordPress site.'
-keywords: ["ai", "site-bot"]
-tags: ["SiteBay platform", "dashboard", "site bot"]
+slug: managing-your-sites-with-sorti-ai
+description: Inspect the selected site, request a scoped change, and verify the original operation before publishing.
+keywords:
+- ai
+- sorti
+tags:
+- SiteBay platform
+- dashboard
+- sorti
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
-modified: 2024-04-21
+modified: 2026-10-08
 modified_by:
   name: SiteBay
 published: 2024-04-21
-title: Managing Your Sites with Site Bot AI
-aliases: ['/quick-answers/platform/managing-your-sites-with-site-bot-ai']
-authors: ["SiteBay"]
-contributors: ["SiteBay"]
+title: Ask Sorti to manage a site
+authors:
+- SiteBay
+contributors:
+- SiteBay
+doc_sources:
+- sorti-current-core
+- sorti-current-app
 ---
 
-## Creating and Managing Your Website with Site Bot: A User-Friendly Guide
+Select the intended site before asking Sorti for an inspection or change. Check the team and live or staging environment. The site application reports current state and available actions; an old screenshot is not a current operation menu.
 
-Have you ever wished for a more straightforward way to deploy and manage your website without delving into complex coding or navigating through endless dashboard settings? Meet Site Bot – an innovative tool designed to simplify your website creation and maintenance process, making it accessible for anyone with a basic understanding of web management. This guide aims to introduce you to Site Bot's capabilities, especially focusing on its website creation feature.
+## Inspect before editing
 
-## What is Site Bot?
+Ask Sorti to read the site state and explain any operation already running. Name the page, file, or behavior that needs attention. Keep the first request read-only when the cause is unclear.
 
-Site Bot is a digital assistant that empowers you to deploy and manage your website through simple chat commands. Whether you're looking to create a new site, manage feature flags, or restore your website to a previous state, Site Bot offers a hassle-free solution. The only prerequisite is a ChatGPT Plus subscription, which unlocks access to this advanced service.
+> Inspect the selected staging site and explain why the contact form fails. Propose the smallest change; do not publish it.
 
-## Creating a WordPress Website with Site Bot
+## Follow the original request
 
-Creating a new website is a breeze with Site Bot. Here's a step-by-step walkthrough of how you can set up your site effortlessly:
+For a multi-step mission, inspect its progress and pending decisions. Resolve the original approval rather than issuing the same write again. When the result is uncertain, keep the operation ID and read its state before retrying.
 
-- Begin by navigating to the Site Bot chat interface through the provided link. This platform is where you'll interact with Site Bot to command your desired actions.
+## Verify the result
 
-- Request Site Bot to create your site by specifying your desired domain name (e.g., mysite.org), ensuring your CNAME is properly configured (e.g., pointing to washington.sitebay.org).
+Check the changed page or file on the intended environment. A saved edit, a successful staging test, and a completed live promotion are different results. Ask for the verification evidence and remaining gaps before approving publication.
 
-- Provide essential information such as your preferred username, password, blog name, etc., for Site Bot to initialize the creation process. If you're creating a WordPress site, you'll need to create an application password in your user settings, which you'll then communicate to Site Bot.
-
-## Examples of Commands You Can Issue to Site Bot:
-
-- Creating a New Free Site: Simply instruct Site Bot to create a new site with your desired parameters, for example, "Create a new free site, gpttest.sitebay.ca. Use username admin and password AStrongPassword"
-- Managing Feature Flags: Ask Site Bot to create or modify feature flags, such as "Create a feature flag that targets only Canada" or "Change my feature flag test2 from 50% to 100% targeting."
-
-- Upgrading Your Team: Need to upgrade your subscription plan? Ask for a checkout link, e.g., "I want to upgrade my team. Give me a checkout link for the Business Plan."
-
-- Creating WordPress Posts: Command Site Bot to create content on your SiteBay WordPress site, e.g., "Create a post on my SiteBay WordPress site about a dog named Sammy."
-
-- Restoring Your Website: Specify a restore point for your site, instructing whether to restore wp-content, delete extra files, etc., e.g., "Restore my site www.sitebay.org to a specific date but JUST restore the wp-content and delete extra files."
-
- - Session Recording Links: Obtain links to your site’s session recordings easily by requesting, "Get me a link to my site's last session recording."
+Read [Work with your site in Sorti]({{< relref "sorti/work-with-your-site.md" >}}) for site actions and [Missions and approvals]({{< relref "sorti/missions-and-approvals.md" >}}) for execution controls.

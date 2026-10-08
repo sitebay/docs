@@ -1,55 +1,93 @@
 name: CI Tests
 
-on: [pull_request]
+on:
+  pull_request:
+  push:
+    branches: [main, 'fix/**']
+  workflow_dispatch:
 
-env:
-  hugo_image_cache_name: hugo-generated-images
-  hugo_image_cache_path: /home/runner/work/docs-publishing/docs-publishing/docs-repo/resources/_gen/images/
+defaults:
+  run:
+    shell: bash
 
 jobs:
-  blueberry:
+  publishing:
+    name: Build, routes, links, search and browser
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
     steps:
-    - name: Checkout docs repo
-      uses: actions/checkout@v3
-    - name: Set up Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: '3.10.x'
-        architecture: 'x64'
-        cache: pip
-    - name: Install dependencies (Python)
-      run: |
-        pip install -r ./ci/requirements.txt
-    - name: blueberry
-      run: |
-        python ./ci/blueberry.py
-
-  vale:
-    name: Vale (spellchecker)
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - uses: errata-ai/vale-action@reviewdog
+      - uses: actions/checkout@v4
         with:
-          files: docs
-          vale_flags: "--glob=!docs/contributors/*"
-          fail_on_error: true
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: ci/requirements-publishing.txt
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - uses: actions/setup-go@v5
+        with:
+          go-version: '1.22.x'
+          cache-dependency-path: scripts/go.sum
+      - uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: '0.139.0'
+          extended: false
+      - name: Install validation and build dependencies
+        run: |
+          python -m pip install -r ci/requirements-publishing.txt
+          npm ci --ignore-scripts --no-audit --no-fund
+          npm --prefix knowledge ci --ignore-scripts --no-audit --no-fund
+      - name: Regression tests, including negative cases
+        run: |
+          python -m unittest discover -s ci/tests -v
+          node --test ci/tests/*.test.mjs
+          npm --prefix knowledge test
+          bash knowledge/tests/test-postgres.sh
+          (cd scripts && go test ./internal/searchconfig ./update_linode_docs_search_indices ./init_algolia_indices ./clean_linode_sections_index ./download_algolia_settings)
+      - name: Build the complete site
+        run: |
+          mkdir -p .cache
+          npm run build:docs 2>&1 | tee .cache/hugo-build.log
+      - name: Validate task retrieval and exact citations
+        run: node knowledge/src/evaluate.mjs --report .cache/retrieval.json
+      - name: Validate published pages and links
+        run: python ci/check-links.py --public-dir public --report .cache/publishing.json
+      - name: Verify legacy documentation redirects
+        run: python ci/check-redirects.py --public-dir public --report .cache/redirects.json
+      - name: Validate agent exports and local readiness
+        run: python ci/llm_readiness.py --retrieval-report .cache/retrieval.json --report .cache/llm-readiness.json --check
+      - name: Reject retired branding in source and generated content
+        run: python ci/current_brand.py --public-dir public --report .cache/current-brand.json
+      - name: Verify every article review record
+        run: python ci/content_review.py --report .cache/content-review.json
+      - name: Validate every article without a baseline
+        run: python ci/editorial.py --report .cache/editorial.json
+      - name: Check curated knowledge against source articles
+        run: python ci/scripts/build-knowledge-index.py --check
+      - name: Install pinned spelling checker
+        run: bash ci/install-vale.sh .cache/tools
+      - name: Check spelling in every article
+        run: python ci/check-spelling.py --vale .cache/tools/vale --report .cache/spelling.json
+      - name: Verify index destinations without credentials or writes
+        run: |
+          (cd scripts && go run ./update_linode_docs_search_indices --config ../config.toml --sourcedir ../public --dry-run) | tee .cache/index-plan.json
+      - name: Install Chromium
+        run: npx playwright install --with-deps chromium
+      - name: Exercise the production export in a browser
+        run: bash ci/browser-all.sh public .cache/browser
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: publishing-evidence
+          path: .cache
+          include-hidden-files: true
 
-  check-links:
-    name: Check Links (Markdown)
-    runs-on: ubuntu-latest
-    steps:
-    - name: Checkout docs repo
-      uses: actions/checkout@v3
-    - name: Set up Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: '3.10.x'
-        architecture: 'x64'
-        cache: pip
-    - name: Install dependencies (Python)
-      run: |
-        pip install -r ./ci/requirements.txt
-    - name: Run tests
-      run: python ./ci/check-links.py ${{ steps.files.outputs.all }}
+      - uses: actions/upload-artifact@v4
+        with:
+          name: docs-site-${{ github.sha }}
+          path: public

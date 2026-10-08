@@ -1,0 +1,29 @@
+{{ define "main" }}
+<article class="w-full docs-home">
+  <header class="mb-8">
+    <h1 class="font-semibold tracking-tight mb-6">{{ .Title }}</h1>
+    <div class="prose prose-sm md:prose-lg max-w-content">{{ .Content }}</div>
+  </header>
+  <section aria-labelledby="browse-docs">
+    <h2 id="browse-docs" class="mb-6">Browse by task</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      {{ range slice
+        (dict "path" "products/platform" "summary" "Create sites, manage access, and review team billing.")
+        (dict "path" "sorti" "summary" "Work with an assistant, canvas, panels, and reviewed changes.")
+        (dict "path" "products/git-sync" "summary" "Connect a repository and verify a deployment.")
+        (dict "path" "products/posthog" "summary" "Verify events and investigate analytics.")
+        (dict "path" "guides/security" "summary" "Maintain access, inspect findings, and plan recovery.")
+        (dict "path" "api" "summary" "Look up source-derived API operations and request fields.")
+      }}
+      {{ $summary := .summary }}
+      {{ with site.GetPage .path }}
+      <a href="{{ .RelPermalink }}" class="block border border-gray-200 rounded-lg p-6 hover:border-brand focus:ring-2 focus:ring-brand">
+        <h3 class="font-semibold text-lg mb-2">{{ .LinkTitle }}</h3>
+        <p>{{ $summary }}</p>
+      </a>
+      {{ end }}
+      {{ end }}
+    </div>
+  </section>
+</article>
+{{ end }}

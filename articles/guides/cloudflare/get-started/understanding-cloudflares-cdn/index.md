@@ -1,38 +1,44 @@
 ---
 slug: understanding-cloudflares-cdn
-description: 'Combine the capabilities of the Cloudflare and SiteBay platforms.'
-keywords: ["microsite", "cdn", "high availability"]
-tags: ["sitebay platform","cloudflare platform","web server","cdn"]
+description: A CDN can serve cached responses between visitors and the origin server. DNS, proxying, caching, and
+  the origin application's own behavior are separate parts of the request.
+keywords:
+- microsite
+- cdn
+- high availability
+tags:
+- sitebay platform
+- cloudflare platform
+- web server
+- cdn
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
-modified: 2024-04-13
+modified: 2026-10-07
 modified_by:
   name: SiteBay
 published: 2024-04-13
-title: Understanding Cloudflare's CDN
-aliases: ['/guides/cloudflare/get-started/understanding-cloudflares-cdn/']
-authors: ["SiteBay"]
-contributors: ["SiteBay"]
+title: Understand the CDN and origin
+aliases:
+- /guides/cloudflare/get-started/understanding-cloudflares-cdn/
+authors:
+- SiteBay
+contributors:
+- SiteBay
+doc_sources:
+- cloudflare-dns
 ---
 
-This document provides a simple guide to understanding Cloudflare's Content Delivery Network (CDN) with WordPress.
+A CDN can serve cached responses between visitors and the origin server. DNS, proxying, caching, and the origin application's own behavior are separate parts of the request.
 
-Cloudflare’s CDN drastically improves website loading speed by caching a site’s content and distributing it across a network of servers worldwide. This ensures that users worldwide get faster access to the website, regardless of their location. 
+## Check the request path
 
-## Cloudflare’s CDN on SiteBay WordPress Platform
+Confirm which domain record points to the site and whether traffic is proxied. Inspect the response headers and configured cache rules before assuming a response came from the origin.
 
-Basically it speeds up your WordPress website. It automatically caches your website and serves it to your visitors from their nearest server location. 
+## Protect personalized content
 
-## Advantages of Using Cloudflare’s CDN
+Do not cache account, administration, cart, or other user-specific responses under a public cache key. Review application headers and cache rules for each route you change.
 
-By using Cloudflare's CDN your WordPress site can load faster and provide a better user experience. This can lead to higher visitor engagement and improved SEO ranking.
+## Verify an update
 
-## Set up
+Test the origin result through the supported preview path, then the public URL. Purge only the affected cached resources where practical. A cache purge does not repair an incorrect origin response.
 
-### In Cloudflare
-Start by signing up for a Cloudflare account, add your website and change your domain name servers to Cloudflare. Once your Domain Name Server propagates, you can enable CDN settings inside your Cloudflare dashboard.
-Set your domain's CNAME to washington.sitebay.org
-
-If you want to disable the CDN, turn on development mode. 
-For big site updates, be sure to click clear cache.
-### In My SiteBay
-Create a new site with the domain you set up in Cloudflare. You are now using Cloudflare's free and fast CDN.
+Read [cache troubleshooting]({{< relref "guides/quick-answers/websites/clear-cache-shortguide/index.md" >}}) and [Cloudflare's purge guide](https://developers.cloudflare.com/cache/how-to/purge-cache/).

@@ -1,37 +1,59 @@
 ---
-title: Get Started
-title_meta: "Getting Started with the SiteBay Tools"
-description: "Get started with the SiteBay Tools. Learn to clear your cache, turn on development mode, change your domain and create external paths."
-tab_group_main:
-    weight: 60
-published: 2024-04-23
-modified: 2024-04-23
-image: ToolsPage.png
-tags: ["managed hosting"]
+slug: get-started-site-tools
+description: The site's **Tools** view exposes specific hosting settings.
+keywords:
+- site tools
+- cache
+- phpmyadmin
+- php version
+- sitebay dashboard
+license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
+published: 2024-03-13
+modified: 2026-10-08
+modified_by:
+  name: SiteBay
+title: Use site tools with the correct scope
+bible: true
+tags:
+- sitebay
+- tools
+- management
+aliases:
+- /quick-answers/sitebay/sitebay-dashboard-tools/
+authors:
+- SiteBay
+contributors:
+- SiteBay
+doc_sources:
+- site-ui
+- cloudflare-cache
+- lifecycle
+- wp-config
+- wp-cli
 ---
-# My SiteBay WordPress Hosting Site Tools
 
-## Optimize Your Site with External Paths
+The site's **Tools** view exposes specific hosting settings. Read the available controls for that site's domain/nameserver configuration; do not assume every toggle exists for every site or every provider plan.
 
-SiteBay Tools offer an impressive feature known as "External Paths." This function, primarily used to optimize search engine operations, lets users connect their external websites to a particular pathway or URL. 
+## Cache management
 
-The docs site you're on now is hosted on GitHub for free and then linked to our dogfooded site www.sitebay.org at /docs using this method. this feature enables website owners to link their docs site to their main website. Simply input the URL of your external site (like www.sitebay.org/docs), and identify a path (like /docs). Now, your docs site is accessible via www.sitebay.org/docs.
+Identify the cache layer before purging. Cloudflare edge content, a WordPress/object cache, a browser cache and a service worker can each retain different data. `wp cache flush` is not equivalent to purging Cloudflare.
 
-This feature enhances your SEO strategy, making your content more accessible to search engines so it improves your websites visibility.
+Use the smallest supported purge for the affected content, then request it again and inspect headers and the actual response. A provider accepting a purge request is not proof the target was cached or every client now sees a new version. Development Mode changes edge caching behavior; it does not repair stale origin files or a failed deployment.
 
-## Secure Your Website with HTTP Basic Authentication
+## External Paths
 
-Security is paramount for any website. SiteBay Tools help the user protect their website with HTTP basic authentication. With this feature, access to your site requires a username and password, making your website private and secure.
+An external path maps part of the site's URL space to an external origin. Confirm the source path, destination origin, redirects, asset URLs, authentication and cookie behavior. Only proxy an origin you are authorized to use. Moving content under a path is not a guaranteed SEO improvement.
 
-Once set, your site will be under the protection of HTTP Basic Authentication, accessible only with your unique credentials.
-## Domain Change
-Change your domain in a click, no fuss. Remember to set up your new domains CNAME properly before.
+## Domain and access settings
 
-## Delete site
-In the danger zone, you can delete your site.
+Use the current nameserver/domain setup workflow and preserve mail and verification records during a change. HTTP Basic Authentication can add a gate, but test its effect on WordPress REST requests, health checks, webhooks and the canvas. Changing a hostname is not merely renaming a label.
 
-## Development Mode and Cache Management
+## Database and PHP tools
 
-To avoid delays in seeing your website changes, SiteBay provides an option to enable "Development Mode." This feature allows you to bypass Cloudflare's cache, enabling immediate viewing of your website changes. 
+Use only the tools actually exposed for the authorized site. Where WP-CLI is provided, preview a database search-replace with its supported dry-run before applying it, and retain a private backup.
 
-"Clear Cache" forces Cloudflare to update your site's cache, retrieving the most recent files.
+Supported `wp-config-overrides.php` constants are allowlisted. A memory setting does not increase the plan's physical resources. Follow [managed repository configuration]({{< relref "products/git-sync/get-started/index.md" >}}).
+
+## Delete or restore
+
+These are destructive operations, not troubleshooting toggles. Review the current legal actions and recovery handle, then confirm the exact target. Site deletion can also remove staging and does not independently cancel its subscription. See [site lifecycle]({{< relref "products/platform/site-lifecycle/index.md" >}}).

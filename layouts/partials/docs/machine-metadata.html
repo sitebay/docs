@@ -1,0 +1,28 @@
+{{/* Only authored published pages have a generated Markdown representation. */}}
+{{ if and .File (strings.Contains (replace .File.Filename "\\" "/") "/articles/") (not .Params.headless) (not .Params.draft) (not .Params.no_index) }}
+  {{ $markdown := printf "%sindex.md" .Permalink }}
+  {{ if not (strings.HasSuffix .Permalink "/") }}{{ $markdown = printf "%s.md" .Permalink }}{{ end }}
+  {{ .Store.Set "docsMarkdownURL" $markdown }}
+  <link rel="alternate" type="text/markdown" title="Read this page as Markdown" href="{{ $markdown }}">
+  <link rel="describedby" type="text/plain" href="{{ "llms.txt" | absURL }}">
+  <link rel="alternate" type="application/json" title="Document metadata and section index" href="{{ "knowledge/documents.json" | absURL }}">
+  {{ $type := "CollectionPage" }}{{ if .IsPage }}{{ $type = "TechArticle" }}{{ end }}
+  {{ $publisher := dict "@type" "Organization" "name" "SiteBay" "url" "https://www.sitebay.org/" }}
+  {{ $schema := dict "@context" "https://schema.org" "@type" $type "@id" .Permalink "url" .Permalink "name" .Title "headline" .Title "description" .Description "inLanguage" site.Language.Lang "publisher" $publisher "mainEntityOfPage" .Permalink }}
+  {{ $authors := slice }}
+  {{ range .Params.authors }}
+    {{ $authorType := "Person" }}{{ if eq . "SiteBay" }}{{ $authorType = "Organization" }}{{ end }}
+    {{ $authors = $authors | append (dict "@type" $authorType "name" .) }}
+  {{ end }}
+  {{ if $authors }}{{ $schema = merge $schema (dict "author" $authors) }}{{ end }}
+  {{ with .Params.published }}{{ $schema = merge $schema (dict "datePublished" (printf "%s" .)) }}{{ end }}
+  {{ with .Params.modified }}{{ $schema = merge $schema (dict "dateModified" (printf "%s" .)) }}{{ end }}
+  {{ with .Params.license }}{{ range first 1 (findRE `https?://[^)\s]+` .) }}{{ $schema = merge $schema (dict "license" .) }}{{ end }}{{ end }}
+  {{ if eq .Section "sorti" }}{{ $schema = merge $schema (dict "about" (dict "@type" "SoftwareApplication" "name" "Sorti" "url" ("products/sorti/" | absURL))) }}{{ end }}
+  {{ with os.Getenv "HUGO_DOCS_SOURCE_REVISION" }}
+    {{ if findRE `^[0-9a-f]{40}$` . }}
+      {{ $schema = merge $schema (dict "isBasedOn" (printf "https://github.com/sitebay/docs/blob/%s/articles/%s" . $.File.Path)) }}
+    {{ end }}
+  {{ end }}
+  {{ printf `<script type="application/ld+json">%s</script>` ($schema | jsonify) | safeHTML }}
+{{ end }}

@@ -1,21 +1,29 @@
 ---
-title: Accounts
-description: "Learn how to manage your SiteBay user account, including adding multiple users and adjusting their permissions"
+title: Accounts and access
+description: Manage the SiteBay account and team access separately from WordPress users, repository permissions,
+  and external credentials.
 tab_group_main:
-    is_root: true
-    title: Overview
-    weight: 10
+  is_root: true
+  title: Overview
+  weight: 10
 published: 2024-04-21
-modified: 2024-04-23
-aliases: ['/guides/platform/accounts/']
+modified: 2026-10-07
+aliases:
+- /guides/platform/accounts/
+authors:
+- SiteBay
+contributors:
+- SiteBay
+keywords:
+- accounts
+- sitebay documentation
+slug: accounts
+license: '[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)'
+doc_sources:
+- teams
+layout: documentation-section
 ---
 
-A SiteBay account is your gateway to deploying and using SiteBay's products and services. If you're new to SiteBay, see the [Getting Started](/docs/products/platform/get-started/) guide to learn how to sign up for an account and deploy your first service.
+Manage the SiteBay account and team access separately from WordPress users, repository permissions, and external credentials.
 
-## Multiple Users
-
-Every account can have multiple users, each with their own permissions. This enables each person on your team (from account managers to developers) to use SiteBay with their own set of credentials and levels of access. See [Manage Users](/docs/products/platform/accounts/guides/manage-users/) and [Set User Permissions](/docs/products/platform/accounts/guides/user-permissions/).
-
-## Enhanced Security
-
-Protect your account with added security by using [two-factor authentication](/docs/products/platform/accounts/guides/2fa/) or logging in with a [third-party provider](/docs/products/platform/accounts/guides/third-party-authentication/). Each SiteBay account is also further protected by user-defined [security questions](/docs/products/platform/accounts/guides/user-security-controls/#security-questions) and [phone verification](/docs/products/platform/accounts/guides/user-security-controls/#phone-verification).
+{{< section-links >}}

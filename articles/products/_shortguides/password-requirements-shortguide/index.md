@@ -1,15 +1,26 @@
 ---
-# Shortguide: Password requirements and recommendations
-
 headless: true
 show_on_rss_feed: false
+authors:
+- SiteBay
+contributors:
+- SiteBay
+modified_by:
+  name: SiteBay
+title: SiteBay password requirements
+description: The SiteBay password validator requires at least 12 characters, an uppercase letter, a lowercase letter,
+  a number, and an accepted special character.
+keywords:
+- password requirements shortguide
+- sitebay documentation
+published: 2025-03-18
+slug: password-requirements-shortguide
+license: '[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)'
+doc_sources:
+- password-policy
+modified: 2026-10-07
 ---
 
-{{< note type="warning" title="Password requirements and recommendations" isCollapsible=true >}}
-Account passwords must be a minimum of 11 characters in length and be sufficiently complex. Each password is individually analyzed by an algorithmic tool to determine it's strength. When creating a password, follow the recommendations listed below:
+The SiteBay password validator requires at least 12 characters, an uppercase letter, a lowercase letter, a number, and an accepted special character. It also rejects certain common patterns and passwords containing the account email.
 
-- Password should be _at least_ 11 characters in length (though longer passwords are considered stronger).
-- Avoid using simple passwords based on dictionary words.
-- Use a mixture of unpredictable uppercase letters, lowercase letters, numbers, and symbols.
-- Avoid repeating characters (`aaa`), sequences (`abcd`), and keyboard patterns (`qwerty`).
-{{< /note >}}
+Use the validation message from the current form for the exact requirement and generate a unique password in a password manager. SiteBay and WordPress passwords are separate credentials. Do not paste either into a ticket or a shell-history example.

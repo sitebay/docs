@@ -3,56 +3,48 @@ slug: how-to-compress-wordpress-site-to-zip
 author:
   name: SiteBay
   email: support@sitebay.org
-description: 'This quickstart tutorial shows you how to migrate from your current host to SiteBay.'
-keywords: ["migration", "wordpress"]
-tags: ["my SiteBay","migrate"]
+description: A complete WordPress migration usually needs both the relevant files and a database export.
+keywords:
+- migration
+- wordpress
+tags:
+- migrate
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
-modified: 2024-04-20
+modified: 2026-10-07
 modified_by:
   name: SiteBay
 published: 2024-04-20
 image: migrate-wordpress.png
-title: How to Migrate your WordPress site
-h1_title: Migrating to SiteBay
+title: Package a WordPress migration export
+aliases:
+- /quick-answers/platform/how-to-compress-wordpress-site-to-zip/
+authors:
+- SiteBay
+contributors:
+- SiteBay
+doc_sources:
+- shell-reference
+- wp-cli
+- lifecycle
+- git-sync
 ---
 
-aliases: ['/quick-answers/platform/how-to-compress-wordpress-site-to-zip']
-Zipping your site's wp-content folder
+A complete WordPress migration usually needs both the relevant files and a database export. A ZIP of `wp-content` is not, by itself, a full-site backup, and a migration plugin's proprietary archive is not necessarily a ZIP file.
 
-Alright, so you wanna move your WordPress site to SiteBay? Cool. First thing's first, we gotta zip that site up. You might think it's all techy and complicated, but nah, it's easy. Let's break it down.
+## Prepare the export
 
-Step 1: Back It Up
+Confirm the source site and choose a quiet or controlled change window. Record its WordPress/PHP compatibility, plugin requirements and custom configuration without placing passwords in the archive notes. Use the source host's export tool or an authorized terminal.
 
-Before you do anything, back your site up. Like, all of it. This is just you making sure you got everything safe and sound before we start moving stuff around.
+## Package the files
 
-Step 2: Use a Plugin or Do It Manually
+Collect the intended themes, plugins and uploads with the tool appropriate to the destination. Include required dotfiles deliberately. Write the archive to a private directory outside the web-served tree so visitors cannot download it. Check available space before creating another full copy of large uploads.
 
-You can use a plugin like All-in-One WP Migration or Duplicator. These bad boys make it super easy to compress your whole site into one neat zip file. Just install one from your WordPress dashboard, and follow the steps. They'll guide you through it.
+## Export the database separately
 
-Or, if you're feeling techy, do it manually:
-Log into your WordPress site.
-Go to your cPanel or whatever your hosting uses.
-Find the "File Manager."
-Navigate to the "wp-content" folder. That's where all your themes, plugins, and uploads live.
-Right-click on it and choose "Compress."
-Select "Zip Archive" and name your file.
-Hit "Compress File(s)." Bam, you got yourself a zip.
-Step 3: Download Your Database
+With authorized WP-CLI access, `wp db export /private/path/site.sql` exports the configured database. Replace that illustrative path with a real private destination. The export contains potentially sensitive user and application data; transfer and retain it securely. Verify the export command succeeded and that the destination importer supports the format.
 
-Your site ain't just files; it's also your posts, comments, user info – all that good stuff is in your database. Here's how you snag it:
+## Validate on the destination
 
-Still in your cPanel, look for "phpMyAdmin."
-Find your WordPress database on the left. Click it.
-Go to the "Export" tab.
-Choose the "Quick" option.
-Make sure the format is set to "SQL."
-Hit "Go," and it'll download to your computer.
-Step 4: Bring It to SiteBay
+Create or select the authorized SiteBay target, import through its supported migration workflow, and test content, media, permalinks, forms and authentication before DNS cutover. Avoid overwriting newer orders or submissions generated during migration. Keep the original site and verified recovery copies until validation is complete.
 
-With your site and database all zipped up and ready, head over to SiteBay. We've got a smooth migration tool that'll take those files and set everything up on your new SiteBay WordPress hosting. Or, you can reach out to our support team at support@sitebay.org. We're here to help make this move as easy as pie.
-
-Step 5: Check Your Site
-
-Once everything's uploaded and set up, give your site a thorough check. Make sure everything looks good, all your pages are loading, and there ain't any missing images or broken links.
-
-And that's it! You've just moved your WordPress site to SiteBay. Welcome to the fam! If you hit any snags or have questions, our support team's got your back. Happy hosting with SiteBay!
+An import limit, plugin license or database incompatibility requires a supported migration path; renaming an archive to `.zip` or forcing a plugin upload does not convert its format.

@@ -1,53 +1,44 @@
 ---
 slug: notebooks
-description: "This guide shows you how to create notebooks to collaborate with friends."
-keywords: ["sitebay", "posthog", "analytics", "collaboration"]
-aliases: ['/quick-answers/sitebay/create-posthog-notebooks/', '/quick-answers/sitebay/collaborate-with-posthog-notebooks/']
-tags: ["analytics","sitebay"]
+description: Combine text and analytics references in a notebook to explain an investigation or record a decision.
+keywords:
+- sitebay
+- posthog
+- notebooks
+- collaboration
+aliases:
+- /quick-answers/sitebay/create-posthog-notebooks/
+- /quick-answers/sitebay/collaborate-with-posthog-notebooks/
+tags:
+- analytics
+- sitebay
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
-modified: 2024-04-15
+modified: 2026-10-07
 modified_by:
   name: SiteBay
 published: 2024-04-30
-title: "Collaborate with PostHog Notebooks on SiteBay"
-title_meta: "How to Collaborate with PostHog Notebooks on SiteBay"
-authors: ["SiteBay"]
-contributors: ["SiteBay"]
+title: Write an analytics notebook
+authors:
+- SiteBay
+contributors:
+- SiteBay
 image: posthog-notebooks.jpg
+doc_sources:
+- analytics-ui
 ---
 
-SiteBay integrates PostHog analytics, offering powerful insights into your WordPress site's user interactions. One of the standout features is PostHog Notebooks, which enables collaborative data analysis directly within your SiteBay environment. This guide walks you through creating and collaborating with PostHog Notebooks, enhancing your data-driven decisions.
+Combine text and analytics references in a notebook to explain an investigation or record a decision.
 
-Before You Begin
+## Start with the question
 
-Ensure your SiteBay WordPress hosting is set up and you've navigated to the PostHog dashboard. If you're new to PostHog, it's a versatile analytics platform that captures web interactions, enabling deep analysis and insights.
+Create a notebook in the intended project. Give it a descriptive title, state the question, and record the date range and filters used in the analysis.
 
-Make sure your team members have access to the PostHog dashboard on your SiteBay account. This ensures seamless collaboration.
+## Add evidence
 
-Create a New Notebook
+Insert the relevant insights, queries, dashboards, or other supported notebook blocks. Explain what each item shows and where the interpretation remains uncertain. Keep a link to the underlying query so another reader can inspect it.
 
-In the PostHog dashboard, find the "Notebooks" section. Click on "Create New Notebook" to start.
+## Save and share
 
-Give your notebook a meaningful title that reflects its purpose or the analysis you're intending to conduct.
+Check that edits have been saved before closing the notebook. Review the sharing settings and the recipient's access. Embedded data can change when its query is rerun, so distinguish a recorded conclusion from a later result.
 
-Begin adding insights by using PostHog's robust querying capabilities. You can analyze trends, funnels, user cohorts, and much more.
-
-Collaborate with Your Team
-
-Share your notebook with team members by clicking the "Share" button and entering their email addresses. This grants them access to view and edit the notebook.
-
-Utilize the commenting feature to discuss findings, ask questions, or propose hypotheses right within the notebook. This facilitates an interactive analysis process among team members.
-
-Update the notebook in real-time as your analysis progresses or as new data becomes available. This ensures that all collaborators are working with the latest insights.
-
-Leveraging PostHog Notebooks
-
-Iterative Analysis: Use notebooks for iterative exploration of data. Refine your queries based on previous insights to dive deeper into user behavior.
-
-Documentation: Notebooks serve as a valuable documentation tool. Record your hypotheses, analysis process, and conclusions for future reference or for new team members.
-
-Presentation: Prepare notebooks for presentation to stakeholders. Clearly laid out analysis and insights can help inform strategic decisions.
-
-Conclusion
-
-PostHog Notebooks on SiteBay empower you and your team to collaboratively dissect user data, uncover insights, and make informed decisions for your WordPress site. By using this powerful feature, you can foster a data-centric culture within your organization, enhancing both the user experience and your site's performance.
+A useful investigation ends with a decision or a specific next check, not just a collection of charts. See [Insights]({{< relref "products/posthog/insights/index.md" >}}) for query setup.

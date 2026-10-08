@@ -1,74 +1,54 @@
 ---
 slug: how-to-use-grep
-description: "Master text searching within your WordPress files using grep on SiteBay's code-server."
-keywords: ["SiteBay", "grep", "text search", "WordPress", "code-server"]
-aliases: ['/quick-answers/sitebay/how-to-use-grep/', '/quick-answers/how-to-use-grep/']
+description: Search the specific files you need rather than dumping private configuration or recursively scanning
+  an entire server.
+keywords:
+- grep
+- text search
+aliases:
+- /quick-answers/sitebay/how-to-use-grep/
+- /quick-answers/how-to-use-grep/
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
-modified: 2024-04-27
+modified: 2026-10-07
 modified_by:
   name: SiteBay
 published: 2024-04-04
-title: "Efficiently Find Text in Your WordPress Files with grep"
-tags: ["SiteBay", "WordPress", "Development Tools"]
-authors: ["SiteBay"]
-contributors: ["SiteBay"]
+title: Find text with grep
+tags:
+- SiteBay
+- Development
+authors:
+- SiteBay
+contributors:
+- SiteBay
+doc_sources:
+- shell-reference
+- code-server
 ---
 
+Search the specific files you need rather than dumping private configuration or recursively scanning an entire server.
 
-Search for specific text within your WordPress files. The grep command is a powerful tool that filters and displays text from files or command output, making it easier to pinpoint the information you need.
+## Literal text and line numbers
 
-## Searching Within Files
+```bash
+grep -nF -- 'wp_enqueue_script' functions.php
+grep -ni -- 'error' example.log
+```
 
-Basic Text Search: To look for a specific string in a file, use grep followed by the text you're searching for and the file path:
+`-F` treats the pattern as literal text. `-n` prints line numbers and `-i` ignores case. A pattern with regular-expression metacharacters needs either literal mode or intentional escaping.
 
-grep 'your-text' path/to/your/wordpress-file.php
+## Restrict recursive search
 
+```bash
+grep -rnF --include='*.php' -- 'wp_enqueue_script' themes/
+```
 
-Filtering Command Output: You can filter the output of another command through grep by using a pipe (|):
+Run from the verified `wp-content` directory or adjust the path to your workspace. Limit the file type and scope so the result is useful and does not include binary uploads or credentials.
 
-cat path/to/your/wordpress-file.php | grep 'specific-text'
+## Understand the result code
 
+A match normally exits 0; no match exits 1; an error uses a different nonzero status. “No matching lines” is not the same as “the file could not be read.” In a shell script with strict error handling, handle that distinction deliberately.
 
-This example shows how to display lines from a WordPress PHP file that contain 'specific-text'.
+## Logs and private data
 
-## Using Regular Expressions
-
-grep shines when used with regular expressions, allowing for complex pattern searches:
-
-grep -E 'pattern' path/to/your/wordpress-file.php
-
-
-For instance, searching for email addresses within your configuration files might look like this:
-
-grep -E "[[:alnum:]]+@[[:alnum:]]+\.[[:alpha:]]{2,}" wp-config.php
-
-## Practical Applications
-
-Monitoring Logs: Keep an eye on your WordPress site's access logs for specific IP addresses or error codes:
-
-tail -f /var/log/apache2/access.log | grep '192.168.1.1'
-
-
-Configurations: Verify specific settings within your WordPress or server configuration files without scrolling through the entire document.
-
-Security Audits: Quickly search for deprecated functions or security vulnerabilities within themes or plugins.
-
-Beyond Basics
-
-Case Insensitivity: Use the -i option to ignore case when searching:
-
-grep -i 'Error' path/to/log/file
-
-
-Line Numbering: The -n option displays the line numbers of each matching line:
-
-grep -n 'define(' wp-config.php
-
-
-Recursive Search: To search all files under a directory and its subdirectories, use the -r or -R option:
-
-grep -r 'wp_enqueue_script' wp-content/themes/
-
-## Conclusion
-
-grep is a good tool for WordPress developers, providing a streamlined method to sift through code, logs, and configurations. Mastering grep will enhance your efficiency, whether you're debugging, performing a security audit, or simply managing your WordPress site's content and configurations.
+Read logs through the site's supported view or an authorized terminal. Do not assume an access-log path exists inside code-server. Redact IP addresses or user information as appropriate before sharing logs, and never print all of `wp-config.php` merely to find a harmless setting. A regular-expression match alone is not a security audit.

@@ -3,31 +3,46 @@ slug: how-to-pick-a-data-center
 author:
   name: SiteBay
   email: support@sitebay.org
-description: 'How find which SiteBay data center you should choose.'
-keywords: ["data center", "datacenter", "speed"]
+contributors:
+- SiteBay
+description: How to find which SiteBay data center you should choose.
+keywords:
+- data center
+- datacenter
+- speed
+- kubernetes
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
-modified: 2024-04-04
+modified: 2026-10-08
 modified_by:
   name: SiteBay
-  published: 2024-04-24
-title: How to Pick a Data Center
+published: 2024-04-24
+title: Choose an available SiteBay region
+tags:
+- sitebay platform
+aliases:
+- /platform/how-to-pick-a-data-center/
+authors:
+- SiteBay
+doc_sources:
+- regions
+- api-contract
 ---
 
-tags: ["sitebay platform"]
-aliases: ['/platform/how-to-pick-a-data-center/']
+Choose from the region catalog returned by SiteBay rather than an old list of global locations. A provider having a data center in a city does not establish that your SiteBay plan can deploy there.
 
-So, you're setting up your website and you're hearing all this talk about data centers. Let me break it down real simple: a data center is like your website's home on the internet. And just like in the real world, location matters.
+## Read the catalog
 
-Why Location is Key
+```sh
+curl --fail-with-body --silent --show-error \
+  https://my.sitebay.org/f/api/v1/region
+```
 
-Think of it like this: the closer your website's home (data center) is to your visitors, the quicker they can stop by (load your site). If your data center is on the other side of the world, it's gonna take a minute for your site to show up on their screen. That's a bummer for everyone.
+The response is an array of region records. Use the returned ID or configured region name where the operation requires it; `GET /f/api/v1/region/{region_id}` reads one region and returns not found for an unknown ID. Omission of a region name during site creation uses the account's default region, not a guessed nearest city.
 
-What's Up with CDNs
+## Match the region to the workload
 
-Now, here's where it gets cool. SiteBay gives every site a Content Delivery Network (CDN). It's like having little outposts all over the world so your site loads fast, no matter where your visitors are. But here's the catch: CDNs are great for stuff that doesn't change much, like images and videos. For stuff that's always updating, like your latest blog posts, it still has to come from your main data center.
+Check deployment availability in the create-site flow. Consider your audience, required data location, and the latency of databases or services the site calls. An edge cache and an origin region serve different roles: a nearby cache does not move a dynamic WordPress database.
 
-Making the Right Choice
+## Confirm after creation
 
-Here's the deal: if you're in London but all your fans are in the US, you might wanna pick a data center closer to them to keep your site zippy. SiteBay lets you choose your data center, so you can make sure your site feels like it's right next door, even if it's oceans away.
-
-Remember, a fast site is a friendly site. Keep it close, keep it quick, and keep your visitors happy.
+Inspect the returned site record and readiness. Changing an existing site's region is not equivalent to changing a browser preference or a DNS record; plan a supported migration and verify the destination before cutover. Review the supported migration method and any expected downtime.

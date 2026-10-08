@@ -1,45 +1,50 @@
 ---
 slug: what-is-sitebay
-description: "Get to know SiteBay, the ultimate platform for WordPress hosting on Kubernetes, complete with analytics, performance monitoring, and more."
-keywords: ['sitebay', 'wordpress hosting', 'kubernetes', 'analytics', 'performance']
+description: SiteBay hosts WordPress sites and provides tools for editing, staging, recovery, analytics, and assistant-driven
+  work.
+keywords:
+- sitebay
+- wordpress hosting
+- ai-native
+- kubernetes
+- mcp
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
 published: 2024-03-13
-modified: 2024-03-13
+modified: 2026-10-07
 modified_by:
   name: SiteBay
-title: "What is SiteBay?"
-tags: ["sitebay", "wordpress", "hosting", "kubernetes", "analytics"]
-aliases: ['/quick-answers/sitebay-essentials/what-is-sitebay/']
-authors: ["SiteBay"]
-contributors: ["SiteBay"]
+title: What is SiteBay?
+bible: true
+tags:
+- sitebay
+- wordpress
+- hosting
+- ai
+aliases:
+- /quick-answers/sitebay-essentials/what-is-sitebay/
+authors:
+- SiteBay
+contributors:
+- SiteBay
+doc_sources:
+- platform-architecture
+- site-ui
+- lifecycle
+- mcp-platform
 ---
 
-SiteBay is a powerful WordPress hosting platform that's all about bringing reliability, performance, and cutting-edge features to users of all skill levels. Whether you're launching your first blog or managing a complex WordPress site, SiteBay provides the tools and technology you need to ensure your site runs smoothly, securely, and efficiently.
+SiteBay hosts WordPress sites and provides tools for editing, staging, recovery, analytics, and assistant-driven work.
 
-Powered by Kubernetes
+## What you can do
 
-At its core, SiteBay leverages Kubernetes, a modern container orchestration system, to manage your WordPress sites. This means your site benefits from high availability, scalability, and streamlined deployments. Whether you're experiencing a surge in traffic or deploying new features, Kubernetes ensures that your site remains online and responsive.
+Create a site from an available template, connect a domain, and open WordPress administration. Use code-server for file changes, Git Sync for repository-backed deployments, and a staging site to review changes before publishing them.
 
-Enhanced with Analytics and Performance Monitoring
+Time Machine provides available recovery points. Check the selected site, recovery time, and operation status before restoring. A recovery feature is not a guarantee that every change has been backed up.
 
-SiteBay integrates advanced analytics and performance monitoring tools like Posthog and Grafana. These tools give you deep insights into how users interact with your site and how your site performs under various conditions. With Posthog, you can track events, analyze funnels, and understand user behavior. Meanwhile, Grafana provides you with detailed analytics graphs and dashboards, offering visibility into visits, resource usage, and more.
+The dashboard includes PostHog analytics. Sorti adds a shared workspace where an assistant can use the tools allowed for your account and session.
 
-Easy Backups and Restorations
+## Start with one site
 
-Backing up and restoring your WordPress site is made simple with SiteBay. Our platform includes features that allow you to create backups and restore your site to a previous state with ease. Whether you need to rollback changes after an update or recover from an unexpected issue, SiteBay has got you covered.
+Select the team that owns the site and check its current plan. Then follow the [getting-started guide]({{< relref "guides/get-started/getting-started-with-site-bay/index.md" >}}).
 
-Regional Hosting Options
-
-Understanding the importance of data residency and latency, SiteBay offers hosting in multiple regions, including West US (Washington) and Central Europe (Frankfurt). This allows you to host your site closer to your audience, ensuring faster load times and a better user experience.
-
-Pricing Plans for Every Need
-
-SiteBay's pricing is straightforward and competitive, offering plans that cater to various needs, from small personal blogs to large business sites. Our plans are available in USD, EUR, and CAD, and you can choose monthly or yearly billing to best suit your budget.
-
-Migration Made Easy
-
-Migrating your existing WordPress site to SiteBay is hassle-free. We support standard migrations by just providing your old host's information, as well as migrations through zip files or from wp.com platforms. Our goal is to make the transition as smooth as possible, so you can start enjoying SiteBay's benefits without any downtime.
-
-Conclusion
-
-SiteBay is more than just a WordPress hosting platform; it's a comprehensive solution designed to make managing WordPress sites easier, safer, and more efficient. By combining the power of Kubernetes with advanced analytics, performance monitoring, and user-friendly features, SiteBay stands out as a top choice for WordPress users around the globe.
+For code changes, start with [Git Sync]({{< relref "products/git-sync/get-started/index.md" >}}). For assisted work, read [Sorti]({{< relref "sorti/_index.md" >}}).

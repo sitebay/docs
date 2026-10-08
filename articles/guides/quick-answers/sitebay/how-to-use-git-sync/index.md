@@ -1,53 +1,42 @@
 ---
 slug: how-to-use-git-sync
-description: "Learn how to keep your SiteBay WordPress site up to date with the latest changes from your Git repository using Git Sync."
-keywords: ["sitebay", "how to", "git sync", "wordpress hosting"]
-aliases: ['/quick-answers/sitebay/how-to-use-git-sync/']
+description: Start by identifying the site and branch you intend to change. Preserve any existing edits before connecting
+  or synchronizing a working directory.
+keywords:
+- sitebay
+- how to
+- git sync
+- wordpress hosting
+aliases:
+- /quick-answers/sitebay/how-to-use-git-sync/
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
-modified: 2024-04-04
+modified: 2026-10-07
 modified_by:
-  name: Angel
+  name: SiteBay
 published: 2024-04-19
-title: How to Use Git Sync on SiteBay
-title_meta: "Git Sync: Effortlessly Update Your SiteBay WordPress Site"
-tags: ["sitebay"]
-authors: ["SiteBay"]
-contributors: ["SiteBay"]
+title: Use Git Sync for a reviewed change
+title_meta: Use Git Sync for a reviewed change
+tags:
+- sitebay
+authors:
+- SiteBay
+contributors:
+- SiteBay
+doc_sources:
+- git-sync
+- lifecycle
 ---
 
-Keeping your SiteBay WordPress site synchronized with your Git repository ensures that updates and changes are seamlessly applied. Git Sync is a powerful tool that automates the process, allowing you to maintain the latest version of your site without manual uploads. This guide will walk you through setting up Git Sync for your SiteBay WordPress hosting, using a hypothetical SiteBay Speed Test as an example.
+Start by identifying the site and branch you intend to change. Preserve any existing edits before connecting or synchronizing a working directory.
 
-Setting Up Git Sync
+## Prepare
 
-Before diving into the specifics, ensure Git is installed on your local machine. If you haven't installed Git, visit the official Git website to download and install it.
+Review the local diff, commit the intended files, and inspect the remote commit and SiteBay health independently. If a conflict appears, resolve ownership of the edits; do not run an automatic pull or reset inside a dirty production checkout.
 
-Clone Your WordPress Site Repository: Start by cloning your WordPress site's repository to a local directory if you haven't done so already.
+## Inspect the result
 
-git clone https://github.com/yourusername/yourwordpresssite.git
+Read the operation's returned status and identifiers. A timed-out request may already have started, so check state before retrying a mutation. Do not overwrite another contributor's files simply because they are absent from your local branch.
 
+## Continue with the full procedure
 
-Configure Git Sync on SiteBay: Access your SiteBay dashboard to configure Git Sync. 
-Best Practices for Using Git Sync
-
-Use Branches Wisely: Develop on separate branches and merge to your main branch when ready to deploy. This keeps your production site stable.
-
-Exclude Sensitive Data: Ensure your .gitignore file is properly configured to exclude sensitive data, like configuration files, from being uploaded to the repository.
-
-Frequent Commits: Make small, frequent commits. This makes it easier to track changes and troubleshoot issues.
-
-Automate Testing: Integrate automated testing into your deployment process to catch issues before they reach production.
-
-Monitor Your Site: Keep an eye on your WordPress site after synchronization. While Git Sync is reliable, it's always good to manually verify that everything works as expected.
-
-Troubleshooting Git Sync Issues
-
-Encountering issues with Git Sync? Here are a few tips:
-
-Check the Logs: The Git Sync process logs can provide valuable insights into what went wrong. Access these logs through your SiteBay dashboard.
-
-
-Validate Your .gitignore: Incorrectly configured .gitignore files can lead to essential files being omitted from the sync or sensitive data being exposed.
-
-Manual Pull: In some cases, performing a manual pull from your local machine can help identify issues that aren't apparent through the SiteBay dashboard.
-
-Git Sync is a powerful feature of SiteBay's WordPress hosting, designed to make your developer workflow more efficient. By following this guide and adhering to best practices, you can ensure your WordPress site remains up-to-date with minimal effort.
+[Connect and verify Git Sync]({{< relref "products/git-sync/get-started/index.md" >}}) explains the `wp-content/` repository layout, private configuration, branch selection and recovery boundaries. For rollback planning, see [site lifecycle and restore operations]({{< relref "products/platform/site-lifecycle/index.md" >}}).

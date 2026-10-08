@@ -1,35 +1,43 @@
 ---
 slug: insights
-description: 'Explaining insights in PostHog: dashboard components'
-keywords: ["posthog"]
+description: An insight answers a specific question about your event data. Define the question before choosing a
+  chart.
+keywords:
+- posthog
+- insights
+- analytics
+- sitebay
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
-modified: 2024-04-04
+modified: 2026-10-07
 modified_by:
   name: SiteBay
 published: 2024-04-04
-title: PostHog Insights
-tags: ["sitebay"]
-aliases: ['/quick-answers/sitebay/insights/', '/products/posthog/product-analytics/']
-authors: ["SiteBay"]
-contributors: ["SiteBay"]
+title: Create an analytics insight
+tags:
+- sitebay
+aliases:
+- /quick-answers/sitebay/insights/
+- /products/posthog/product-analytics/
+authors:
+- SiteBay
+contributors:
+- SiteBay
+doc_sources:
+- analytics-ui
 ---
 
-PostHog insights are the core components of dashboards
+An insight answers a specific question about your event data. Define the question before choosing a chart.
 
-## Overview
+## Build the query
 
-Insights in PostHog display your data through various information visualization components. These components include line graphs, bar charts, pie charts, funnels, retention tables, and other user analytics tools.
+Select the analytics project and the event or action you want to measure. Set the date range, aggregation, filters, and breakdown. For a conversion question, define the steps and conversion window rather than comparing unrelated totals.
 
-## Key Components of PostHog insights
+## Check the result
 
-### Trends
+Inspect a small, known set of events. Confirm that the chart counts the intended action and that filters include the correct site and environment. Empty results can mean missing data or a filter mismatch, not necessarily no activity.
 
-"Trends" can help you identify how users interact with your product. It can show you overall event volume, unique users across several time frames, and break down the actions/events by properties.
+## Save the context
 
-### Funnels
+Give the insight a descriptive name. Include the event definition, important filters, and interpretation in the description or a notebook. Add the insight to a dashboard when it is useful for repeated review.
 
-Funnels are great for visualizing the steps your users take in your application or website. With funnels, you can see where your users are dropping off, and thus take actions to improve user retention and conversion rate.
-
-### Retention
-
-The retention tool helps you understand how often users come back to your app after their initial visit. It shows you the behaviours of both new and returning users, enabling you to make decisions to boost user retention.
+Continue with [Dashboards]({{< relref "products/posthog/dashboards/index.md" >}}) or [Notebooks]({{< relref "products/posthog/notebooks/index.md" >}}).

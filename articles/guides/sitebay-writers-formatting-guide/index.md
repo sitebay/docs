@@ -3,69 +3,49 @@ slug: sitebay-writers-formatting-tutorial
 author:
   name: SiteBay
   email: support@sitebay.org
-description: 'The SiteBay Tutorials style tutorial for article submissions'
-keywords: ["style tutorial", "format", "formatting", "how to write", "write for us", "write for sitebay", "sitebay support", "submissions"]
+description: Submit a focused change to sitebay/docs with the source and checks needed to review it.
+keywords:
+- style tutorial
+- format
+- formatting
+- how to write
+- write for us
+- write for sitebay
+- sitebay support
+- submissions
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
-aliases: ['/sitebay-writers-formatting-tutorial/', '/sitebay-writers-tutorial/', '/style-tutorial/']
+aliases:
+- /sitebay-writers-formatting-tutorial/
+- /sitebay-writers-tutorial/
+- /style-tutorial/
 modified_by:
   name: SiteBay
 published: 2024-04-15
-title: SiteBay Writer's Formatting Tutorial
+title: Contribute a documentation change
 show_on_rss_feed: false
+authors:
+- SiteBay
+contributors:
+- SiteBay
+doc_sources:
+- docs-style
+modified: 2026-10-07
 ---
 
-###  Why Write for SiteBay?
+Submit a focused change to `sitebay/docs` with the source and checks needed to review it.
 
-- **Get Paid to Share Knowledge:** Transform your tech skills into dollars
-- **Reach a Global Audience:** Impact WordPress users worldwide
-- **Build Your Personal Brand:** Become a recognized expert
+## Edit the source
 
-###  The GitHub Connection: Your Technical Playground
+Article Markdown lives under `articles/`, not in generated `docs/` or `public/` output. Preserve the existing URL, attribution, and license. Use `_index.md` for a section with child pages.
 
-#### GitHub 101: Your New Best Friend
-- **Pull Requests are Your Superpower:** Contribute, improve, evolve
-- **Open Source Spirit:** Collaborate with a community of tech enthusiasts
+## Write the procedure
 
-###  The SiteBay Writers' Profit Formula
+Start with the user's outcome. State prerequisites, describe the actual steps, and include a verification. Keep exact API names and useful examples, but remove filler and unsupported claims.
 
-#### How We Turn Your Wisdom into Wealth
-- **Quality Pays:** Top-tier tutorials = Top-tier compensation
-- **Direct Account Credit:** Get paid straight to your SiteBay account
-- **No Gatekeeping:** If your content rocks, we'll make it rain 
+Use [Documentation style]({{< relref "docs-style.md" >}}) for the shared conventions. Add a screenshot only when it was actually captured and helps explain the task.
 
-###  The SiteBay Content Manifesto
+## Check and submit
 
-#### Writing Rules That Separate Pros from Amateurs
+Run the repository's publishing, link, editorial, and regression checks described in `ci/README.md`. Include source references and note any operation you could not test. Open a pull request with the reason for the change.
 
-1. **Markdown Magic** 
-   - Clean, simple, powerful documentation format
-   - No fancy tricks, just pure, readable content
-
-2. **Cut the Fluff, Serve the Meat**
-   - Every sentence must deliver value
-   - Readers' time is sacred – respect it
-
-3. **Authentic Voice is King**
-   - Write like you're explaining to a friend
-   - Technical doesn't mean boring
-   - Inject personality into your prose
-
-###  The Perfect Tutorial Blueprint
-
-#### Intro: Hook, Line, and Sinker
-- **Grab Attention:** Why should readers care?
-- **Context is Key:** What problem are you solving?
-- **Link Resources:** Make navigation seamless
-
-#### Style Guidelines
-- **Use Clear Steps**
-- **Leverage Bullet Points**
-- **Break Down Complex Concepts**
-- **Include Code Snippets**
-- **Add Screenshots/Visuals**
-
-###  The Legal Lowdown
-
-- **Copyright Transfer:** Content becomes SiteBay's asset
-- **Transparent Compensation:** Agreed rates, no surprises
-- **Instant Account Credit**
+This contribution guide does not promise payment, account credits, or a transfer of copyright. Any separate arrangement must be established explicitly.

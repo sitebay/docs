@@ -1,24 +1,33 @@
 ---
-title: "Referral Program"
-description: "Learn how to join SiteBay's referral program and gain credits when you refer new users"
+title: SiteBay referrals and recorded rewards
+description: Use the referral information associated with your signed-in account.
 published: 2024-04-17
+modified: 2026-10-08
+authors:
+- SiteBay
+contributors:
+- SiteBay
+modified_by:
+  name: SiteBay
+keywords:
+- referral program
+- sitebay documentation
+slug: referral-program
+license: '[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)'
+doc_sources:
+- referrals
 ---
 
-When you refer a new user to SiteBay through our referral program, both you and the new user can receive a promotional credit. Here are the program details:
+Use the referral information associated with your signed-in account. A referral URL, a recorded signup, a paid plan, and a recorded payout are different stages; do not treat a click or invite email as earned credit.
 
--  **A new user receives a $100 60-day credit** when they sign up through a referral link. Before the credit is applied, they must add a valid payment method to their account.
+## Find and share your link
 
--  **The referrer receives a $25 non-expiring credit** once the new user has been active for 90-days and spends $25 or more on services (after their promotional credit has been used or has expired).
+Open the account's referral view and copy the link it provides. Check that it belongs to your account before sharing it with an intended audience. Do not send bulk unsolicited invitations or include private account data in the URL.
 
-To learn more about this program, visit the [Referral Program](https://www.sitebay.org/referral-program/) page on our website.
+## Verify results
 
-### Find Your Referral Link
+The current account view distinguishes referred users, paid-plan information, and recorded payouts. Review the actual entry, amount and currency rather than adding a fixed hypothetical reward. The backend's referral attribution response can contain a null referrer when no attribution applies.
 
-To activate the referral program and obtain a referral link, you must spend at least $25 with SiteBay, not including any promotional credits added to your account. Once activated, your referral link (including your unique referral code) can be viewed within the My SiteBay.
+## Read current terms
 
-1.  Log in to the [My SiteBay](https://my.sitebay.org).
-1.  Select the **My Profile** link by clicking on your username at the top of the page.
-1.  Select the **Referrals** tab.
-1.  The referral code and URL are listed within this section.
-
-You can provide the referral link to friends and colleagues as well as post it to your website and social media.
+Check the account’s program terms for credits, commissions, minimum spend, and expiry dates. [Contact support]({{< relref "products/platform/get-started/guides/support/index.md" >}}) about a specific missing attribution or payout with its non-secret reference.

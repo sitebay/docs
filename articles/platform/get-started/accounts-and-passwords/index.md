@@ -3,39 +3,48 @@ slug: accounts-and-passwords
 author:
   name: SiteBay
   email: support@sitebay.org
-description: Our tutorial to managing accounts and passwords.
-keywords: ["accounts", "passwords", "My SiteBay"]
-tags: ["sitebay platform","security"]
+contributors:
+- SiteBay
+description: Use a distinct account identity for SiteBay and each WordPress site.
+keywords:
+- accounts
+- passwords
+- My SiteBay
+tags:
+- sitebay platform
+- security
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
-aliases: ['/platform/accounts-and-passwords/','/accounts-and-passwords/']
-modified: 2024-04-23
+aliases:
+- /platform/accounts-and-passwords/
+- /accounts-and-passwords/
+modified: 2026-10-07
 modified_by:
   name: SiteBay
 published: 2024-04-03
-title: Accounts and Passwords
+title: Accounts, passwords, and MFA
+authors:
+- SiteBay
+doc_sources:
+- account-ui
+- teams
+- api-auth
+- pricing
 ---
 
-Email Addresses and Contact Information
+Use a distinct account identity for SiteBay and each WordPress site. A team invitation grants membership in SiteBay; it does not automatically create the same user in a site's WordPress database.
 
-Yo, when you sign up with SiteBay, the email and contact info you drop with us? That's super important. It's how we hit you up with updates, billing, and all that good stuff. So, make sure you keep it real and up to date, alright?
+## Sign-in methods
 
-Passwords
+The service supports authenticated sessions and a passwordless magic-link flow. Opening a requested magic link can create an account for an address that does not already have one. Treat the link as a credential and do not forward it to another person.
 
-Now, let's talk about keeping things locked tight. Your passwords? They're like the keys to your digital kingdom. Here's the deal:
+## Password management
 
-Strong Passwords: Make 'em tough to guess. Mix it up with letters, numbers, and symbols. And don't even think about using "password" as your password. Come on now.
-Mix It Up: The password for your SiteBay account should be different from your WordPress admin passwords. Like, if one key opens every lock, that's just asking for trouble.
-We Don’t Hold the Keys: For real, we don't keep a copy of your passwords. That means if you forget your WordPress admin password, it's a bit of a situation. We can't just pull it out of a hat for you.
-Suspect Something? Change It: If you ever feel like someone's messing with your account without your say-so, change that password, pronto. Don't wait.
-Setting and Resetting Your Password
+Use the current sign-in or account password form. Follow server-side validation rather than a copied minimum-length rule. Use a unique password stored in a password manager and change it when it is compromised. Avoid putting the password in command-line history, an example configuration, or a request URL.
 
-Setting Up: When you create your account or a new site, you'll set up a password. Remember the rules above and keep it secure.
+## Multi-factor authentication
 
-Forgot Your Password? It happens to the best of us. If it's your SiteBay account, you can reset it through the login page. For your WordPress site, you'll need to use the "Lost your password?" link on the login screen of your WordPress site.
+TOTP setup returns a secret and an authenticator URI/QR image, but setup alone does not enable the factor. The first valid code confirms it. A pending setup expires, and replacing an existing factor requires the supported disable/recovery process. API-key authentication cannot administer the user's factor.
 
-Security Tips
-Keep Your Info Private: Don't go sharing your password. And definitely don't write it down where folks can find it.
-Update Regularly: Change your passwords from time to time. It's like keeping your security fresh.
-Use a Password Manager: These apps keep your passwords locked down but easy for you to access when you need 'em.
+## Keep boundaries separate
 
-Managing your accounts and passwords is key to keeping your online presence secure. Take it seriously, and if you've got questions, SiteBay's support is here to help you out. Stay safe, stay secure.
+The account profile, billing contact, WordPress user email, and provider OAuth grants are separate records. Verify each one deliberately when changing ownership or recovering access. For teammate management, see [team access and billing]({{< relref "products/platform/teams-and-billing/index.md" >}}). For account recovery, use [password recovery]({{< relref "products/platform/accounts/guides/reset-user-password/index.md" >}}).

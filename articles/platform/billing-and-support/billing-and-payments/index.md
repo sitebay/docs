@@ -1,80 +1,43 @@
 ---
 slug: billing-and-payments
-author:
-  name: SiteBay
-  email: support@sitebay.org
-description: The tutorial to billing and payments.
-keywords: ["billing", "payments","cancel account"]
-license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
-aliases: ['/billing-and-payments/','/platform/billing-and-support/billing-and-payments/']
-modified: 2024-04-17
+authors:
+- SiteBay
+contributors:
+- SiteBay
 modified_by:
   name: SiteBay
+description: The tutorial to billing and payments.
+keywords:
+- billing
+- payments
+- cancel account
+license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
+aliases:
+- /billing-and-payments/
+- /platform/billing-and-support/billing-and-payments/
+modified: 2026-10-07
 published: 2024-04-28
-title: Billing Manager
+title: Billing and payments
 deprecated: true
-tags: ["sitebay platform"]
+tags:
+- sitebay platform
+doc_sources:
+- pricing
+- teams
 ---
 
+Start from the selected team and the billing provider associated with its subscription.
 
+## Establish the current state
 
-## SiteBay WordPress Hosting
+Read the team's plan and usage before making a change. The [current plan catalog]({{< relref "guides/quick-answers/sitebay-essentials/sitebay-plans/index.md" >}}) returns current plan names and price fields in minor units; it replaces fixed-price tables copied into older guides. Match the currency and monthly/yearly interval. Resource quotas and renewal dates must come from the active subscription, not an assumed 30-day cycle.
 
-Full details of our plan are on our [pricing page](https://www.sitebay.org/pricing)
+## Make the intended change
 
-Going over your plan's visits limit can result in a [Visits overage](/support/platform/billing-and-support/network-transfer-quota/#how-overages-work) charge.
+Open Billing for that team. For a new plan, review checkout before confirming. For an existing Stripe-backed account, use the customer portal returned to the authenticated user. Shopify billing follows the provider flow shown by the account. Do not create duplicate checkouts when a request is still pending.
 
-## Viewing Current Usage or Overage
+## Verify the result
 
-To view your current and predicted usage, follow the steps below. This shows you all visits and storage used so far in the month, down to the hour. We also try to predict if you are likely to go over your allowed plan visits.
+Refresh team billing after returning from the provider. Check the resulting plan, status, pending cancellation, and effective date. Retain the receipt. A checkout link or browser redirect is not proof of payment; sleeping or deleting a site is not subscription cancellation.
 
-1.  Log in to the [My SiteBay](http://my.sitebay.org).
-1.  Select **Billing** from the sidebar links.
-1.  Scroll to **Monthly Usage Cycle Summary**
-
-   **Current Overage Charges** is the current overage **Estimated Overage Charges** is the line of best fit of your overage based on your sites' visits.
-
-
-## Visits/storage overage
-
-Your existing active sites will stay active if you go over by a little, but may be deleted in cases of gross overage. You must wait for your cycle reset or upgrade your plan to continue adding new sites.
-
-## Tax Information
-
-Review our [Tax Information](/support/platform/billing-and-support/tax-information/) tutorial for information about which taxes SiteBay may charge.
-
-
-## Payment Methods
-
-We accept Visa, MasterCard, Discover, and American Express processed by Stripe.
-
-
-## Accessing Invoice History
-
-All of your billing history is stored if you want to see previous invoices:
-
-1.  Log in to [My SiteBay](http://my.sitebay.org).
-1.  Select **Billing** from the sidebar links.
-1.  Scroll to the very bottom to view your all your invoices
-
-Select an invoice to view the charges for a particular month. <!-- You can also download invoices in PDF format. -->
-
-## Referral Credits
-
-You can receive service credit by referring new users to SiteBay. When you refer someone who keeps their personal plan for 60 days, your account will be issued a 10% of that plan's cost in credit. Here's how to find your account referral link:
-
-1.  Log in to [My SiteBay](http://my.sitebay.org).
-1.  Select the **Affiliate Panel** in the sidebar.
-1.  Select the **Referrals** tab.
-1.  The referral code and URL are listed under the **Share your link** section. You can share the code with friends on social media and use the URL on your website.
-
-Referral service credits must be used on SiteBay plans, and cannot be refunded as cash.
-
-## Updating Credit Cards
-
-Credit Card expired or want to switch your payment method? Keep your information up to date to prevent interruptions. Here's how:
-
-1.  Log in to [My SiteBay](http://my.sitebay.org).
-1.  Select **Billing** from the sidebar links.
-1.  Scroll to the **Credit or debit cards** box and click **Add Card** to enter your credit card number.
-1.  If you have multiple cards, click on the **More** button on the right to delete this card or make it default. We will try to charge your default card first.
+For access boundaries, see [Teams, access, and billing]({{< relref "products/platform/teams-and-billing/index.md" >}}). For specific actions, see [payment methods]({{< relref "products/platform/billing/guides/payment-methods/index.md" >}}) and [stopping billing]({{< relref "products/platform/billing/guides/stop-billing/index.md" >}}).

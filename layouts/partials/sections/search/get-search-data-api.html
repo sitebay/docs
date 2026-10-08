@@ -1,0 +1,11 @@
+{{ $records := slice }}
+{{ range where site.RegularPages "Section" "api" }}
+  {{ if .Params.deprecated }}{{ continue }}{{ end }}
+  {{ $section := printf "api > %s" .Slug }}
+  {{ $records = $records | append (dict
+    "objectID" .RelPermalink "ordinal" 0 "href" .RelPermalink
+    "title" .Title "linkTitle" .LinkTitle "section" $section
+    "section.lvl0" "api" "section.lvl1" $section
+    "excerpt" .Description "content" .Plain) }}
+{{ end }}
+{{ return $records }}

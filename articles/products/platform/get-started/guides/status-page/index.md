@@ -1,63 +1,46 @@
 ---
-description: 'Learn how to subscribe to SiteBay system status and maintenance updates.'
-keywords: ['sitebay','maintenance','incident','system', 'status']
+description: Check the selected site's state before deciding whether a problem affects your application or the hosting
+  service.
+keywords:
+- sitebay
+- maintenance
+- incident
+- system
+- status
 published: 2024-04-20
-modified: 2024-04-23
+modified: 2026-10-08
 modified_by:
   name: SiteBay
-title: "Subscribe to SiteBay Status Updates"
-tags: ["sitebay platform"]
-aliases: ['/platform/sitebay-status-page/','/guides/sitebay-status-page/']
-authors: ["SiteBay"]
-contributors: ["SiteBay"]
+title: Check site and service status
+tags:
+- sitebay platform
+aliases:
+- /platform/sitebay-status-page/
+- /guides/sitebay-status-page/
+authors:
+- SiteBay
+contributors:
+- SiteBay
+slug: status-page
+license: '[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)'
+doc_sources:
+- site-ui
+- lifecycle
+- support
 ---
 
-The [Status Page](https://www.sitebay.org/status/) provides real-time system status and maintenance updates via email. All customers are encouraged to subscribe to status notifications to stay up-to-date with any events that may impact our services. When you sign up for status updates, you can fine-tune which service updates you receive. These different topic areas are referred to as *components*. If, for example, all your services are restricted to the Newark data center, you may only wish to subscribe to the Newark component.
+Check the selected site's state before deciding whether a problem affects your application or the hosting service.
 
-You can also subscribe to individual incident notifications. In this case, you can be notified of new updates to an incident via email or SMS.
+## Inspect the site
 
-## Subscribe to Email Updates
+Review its current status and recent operations. A deployment, migration, or restore can be accepted before it completes. Read that operation's result rather than submitting the same request repeatedly.
 
-To subscribe to system status and maintenance updates, follow the instructions below.
+## Compare the symptoms
 
-1. Navigate to the [SiteBay Status Page](https://www.sitebay.org/status/).
+Test the affected URL and, where appropriate, administration. Check whether the issue is specific to a page, account, network, or time period. A healthy platform status does not prove every plugin or external service is working.
 
-1. Click on the **Subscribe to Updates** button.
+## Escalate with evidence
 
-    ![Subscribe to SiteBay status updates.](status-page-subscribe.png)
+Use any service-status link currently provided in the dashboard. Check the incident’s affected services and latest update.
 
-1. In the form that appears, enter your email address and click the **Subscribe via email** button.
-
-1. You are brought to another web page with a list of components. Select which components you'd like to receive status updates for and then click the **Save** button.
-
-1. You will receive a confirmation email shortly. In that email, click the **Confirm subscription** button.
-
-## Subscribe to RSS Updates
-
-Within your RSS aggregator, go through the process of adding a new RSS feed. When prompted, use the following URL for a raw XML list of recent incidents: `https://www.sitebay.org/status/history.rss`.
-
-## Subscribe to an Incident
-
-To subscribe to updates for a specific incident:
-
-1. Navigate to the [SiteBay Status Page](https://www.sitebay.org/status/).
-
-1. Find the incident you would like to follow and click on its heading. You are brought to that incident's page.
-
-1. Click on the **Subscribe to Updates** button and provide your Email and/or telephone number.
-
-## Update Notification Preferences or Unsubscribe
-
-You can update your component preferences or cancel your subscription to SiteBay status and maintenance updates at any time. To update your preferences or to unsubscribe:
-
-1. Navigate to the [SiteBay Status Page](https://www.sitebay.org/status/).
-
-1. Click on the **Subscribe to Updates** button and enter your email address.
-
-1. You are brought to your Notification Subscription page. Update your preferences, as needed, and click on the **Update Preferences** button.
-
-1. If you would like to unsubscribe, click on the **Cancel Subscription** link in the Subscriber section of the page and follow the prompt.
-
-{{< note >}}
-You can unsubscribe from SMS notifications by replying to any text message notification with the word "STOP".
-{{< /note >}}
+Send [Support]({{< relref "products/platform/get-started/guides/support/index.md" >}}) the site, time, failing action, and operation identifier.

@@ -1,50 +1,54 @@
 ---
 slug: sitebay-dashboard-overview
-description: "Get acquainted with SiteBay's powerful WordPress hosting dashboard for managing your sites efficiently."
-keywords: ["sitebay", "WordPress hosting", "dashboard", "WordPress management"]
-aliases: ['/quick-answers/sitebay/sitebay-dashboard-overview/']
-bundles: ['sitebay-management']
-tags: ["WordPress", "sitebay", "dashboard"]
+description: The site view combines hosting controls with links to development and analytics tools. Select the site
+  first and verify that the active team is its owner before changing settings.
+keywords:
+- sitebay
+- dashboard
+aliases:
+- /quick-answers/sitebay/sitebay-dashboard-overview/
+tags:
+- WordPress
+- sitebay
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
+modified: 2026-10-07
 modified_by:
   name: SiteBay
 image: Dashboard.png
 published: 2024-03-17
-title: "Navigating Your SiteBay Dashboard"
-title_meta: "Master Your SiteBay Dashboard for WordPress Hosting"
-authors: ["SiteBay"]
-contributors: ["SiteBay"]
+title: Find the right SiteBay dashboard action
+bible: true
+authors:
+- SiteBay
+contributors:
+- SiteBay
+doc_sources:
+- site-ui
+- lifecycle
 ---
 
-Welcome to your SiteBay Dashboard, your one-stop shop for managing your WordPress hosting on Kubernetes. Whether you're setting up your first site or managing a network of WordPress sites, the SiteBay Dashboard provides intuitive access to your sites' performance, security settings, and much more.
+The site view combines hosting controls with links to development and analytics tools. Select the site first and verify that the active team is its owner before changing settings.
 
-## Dashboard Overview
+## Main Sections
 
-The SiteBay Dashboard is designed to simplify the management of your WordPress sites. It offers a clean, user-friendly interface that allows you to:
+The current site UI includes **Dashboard**, **Time Machine**, **Canvas**, **Code Server**, **Git**, **Logs**, **History**, and **Tools**. Staging and DNS controls are conditional: the staging tab depends on the site's state, and DNS records require the relevant nameserver-managed configuration.
 
-Monitor Site Performance: Keep an eye on your site's load times, uptime, and performance with integrated Grafana dashboards.
-Manage WordPress Sites: Easily access your WordPress admin panels, manage plugins and themes, and update WordPress core with a few clicks.
-Security and Backups: Set up security measures, including SSL certificates and automated backups, ensuring your site's data is safe and secure.
-Access Site Analytics: Utilize Posthog analytics to gain insights into your site's traffic and user behavior, helping you make informed decisions to grow your audience.
-Getting Started
+Use **WP Admin** to request a fresh one-use administrator login URL for an active site. Do not share it. **Investigate with SiteBay** opens the site-scoped investigation workspace; the chosen site is part of the context, not an instruction to change it.
 
-After signing in to your SiteBay account, you're greeted with the dashboard homepage. Here's a quick guide to navigating the dashboard:
+## Match the view to the question
 
-1. My Sites: A list of your WordPress sites hosted on SiteBay. Click on a site to access its specific dashboard, where you can manage settings, view analytics, and access development tools.
-1. Site Health: Overview of your site's performance metrics, including page load times and uptime, directly on your dashboard.
-1. Access Management: Manage user access to your dashboard, ensuring only authorized users can make changes to your sites.
-1. Settings: Configure global settings for your SiteBay account, including billing information, plan upgrades, and API access for advanced users.
-1. Advanced Features
-1. Staging Environments: Test changes in a safe environment with one-click staging site creation. Easily push changes to your live site with confidence.
-1. Visual Code Studio Integration: Develop and manage your WordPress site directly from the dashboard with pre-installed development tools.
-1. Custom Dashboards: Create custom Grafana dashboards to monitor specific metrics important to your site's success.
-1. Proxy Support: Integrate external services and tools seamlessly with your WordPress site for enhanced functionality.
-Next Steps
+| Question | Starting point |
+|---|---|
+| Is provisioning or an update complete? | Site state and current available actions |
+| Which files or database changes preceded a problem? | Time Machine and History |
+| What code is deployed from Git? | Git status and the actual application |
+| Which requests or application errors occurred? | Logs, scoped to the site and time |
+| How do visitors use the site? | The correct analytics project and capture configuration |
 
-Ready to dive deeper? Here are a few resources to help you get the most out of your SiteBay WordPress hosting:
+These views do not have identical data coverage. A missing replay is not proof of no visitors, and a History item is not a complete file/database backup.
 
-WordPress Best Practices: Tips and tricks for optimizing your WordPress site for speed and security.
-Managing WordPress Plugins and Themes: A guide to safely adding and updating plugins and themes on your SiteBay sites.
-Troubleshooting Common WordPress Issues: Solutions to common problems you may encounter while managing your WordPress sites on SiteBay.
+## Use actions deliberately
 
-Explore the SiteBay Dashboard today and discover how easy it is to manage your WordPress hosting.
+Confirm the target, input and recovery plan for deletion, domain changes, staging promotion or restore. Refresh state after a request settles. A disabled button or forbidden response is a boundary to investigate rather than bypass.
+
+Read [site tools]({{< relref "products/tools/get-started/index.md" >}}) for cache and domain scope, [code-server]({{< relref "products/code-server/get-started/index.md" >}}) for workspace access, and [Time Machine]({{< relref "products/time-machine/get-started-with-pit-machine/index.md" >}}) for recovery.

@@ -1,44 +1,42 @@
 ---
 slug: persons
-description: 'Understanding "People" in PostHog Analytics'
-keywords: ["PostHog", "WordPress", "analytics", "user engagement", "sitebay"]
+description: A person profile groups events and properties associated with an analytics identity. It is not automatically
+  the same as a WordPress account or a billing customer.
+keywords:
+- PostHog
+- users
+- analytics
+- sitebay
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
 published: 2024-04-18
-modified: 2024-04-18
+modified: 2026-10-07
 modified_by:
   name: SiteBay
-title: 'Understanding "People" in PostHog Analytics'
-tags: ["sitebay", "analytics", "PostHog", "WordPress"]
-authors: ["SiteBay"]
-contributors: ["SiteBay"]
+title: Inspect people in analytics
+tags:
+- sitebay
+- analytics
+- PostHog
+authors:
+- SiteBay
+contributors:
+- SiteBay
+doc_sources:
+- analytics-ui
 ---
 
+A person profile groups events and properties associated with an analytics identity. It is not automatically the same as a WordPress account or a billing customer.
 
-## What is "People" in PostHog?
+## Open a profile
 
-In PostHog, the "People" feature refers to the users who interact with your product or website. It is a section in the PostHog platform where individual user data is collected and displayed. This feature helps you understand who your users are, and how they interact with your product.
+Find a person through the people view or an event's identity. Review the identifiers, properties, and event history. Check whether the record belongs to the intended site and environment.
 
-## Key Features of "People"
-### 1. **User Profiles**
-Each user in PostHog is given a unique profile. This profile includes:
-   - **Events**: What actions the user has performed.
-   - **Properties**: Information like location, browser used, and other custom properties.
+## Investigate identity problems
 
-### 2. **Cohorts**
-You can group users into cohorts based on common characteristics or behaviors. This is helpful for targeted analysis and marketing.
+Compare the identifier before and after sign-in. Inconsistent identification can split one person's activity across profiles or associate activity incorrectly. Test the application's identification flow before changing or merging records.
 
-### 3. **Segments**
-Segment users based on specific criteria, enabling you to analyze different user behaviors and adapt your strategies accordingly.
+## Handle data carefully
 
-## How to Use "People" in PostHog
-### Step 1: Accessing People
-Navigate to the "People" section in your PostHog dashboard to start analyzing individual user data.
+Profile data may contain personal information. Limit access and collect only the properties needed for the analysis. Review the consequences before using any deletion or merge action.
 
-### Step 2: Analyzing User Profiles
-Click on any user to view their individual profile. Explore their events and properties to understand their interaction with your product.
-
-### Step 3: Creating Cohorts
-Create cohorts by selecting criteria that group users together. Use this for focused analysis or tailored marketing campaigns.
-
-### Step 4: Utilize Segmenting
-Segment your users to refine your insights further. This can help you identify which features are popular among different user groups.
+See [Events]({{< relref "products/posthog/events/index.md" >}}) to trace the records behind a profile.

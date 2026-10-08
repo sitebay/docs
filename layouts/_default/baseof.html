@@ -1,0 +1,59 @@
+{{ block "_baseof_start" . }}{{ end }}
+<!doctype html>
+<html id="ln-docs" lang="{{ site.Language.Lang }}">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ .Params.title_meta | default .Title }} | SiteBay Docs</title>
+  <meta name="description" content="{{ .Description | default site.Params.description }}">
+  <link rel="canonical" href="{{ .Permalink }}">
+  {{ $styles := resources.Get "css/styles.css" | css.PostCSS (dict "inlineImports" true) }}
+  {{ $styles = $styles | minify | fingerprint | resources.PostProcess }}
+  <link rel="stylesheet" href="{{ $styles.RelPermalink }}">
+  {{ $shell := resources.Get "css/docs-shell.css" | minify | fingerprint }}
+  <link rel="stylesheet" href="{{ $shell.RelPermalink }}">
+  {{ $js := resources.Get "js/docs-search.js" | fingerprint }}
+  <script src="{{ $js.RelPermalink }}" defer></script>
+  <link rel="alternate" type="application/json" title="Agent reference corpus" href="{{ "knowledge/corpus.json" | relURL }}">
+  {{ partial "docs/machine-metadata.html" . }}
+  {{ if .Params.no_index }}<meta name="robots" content="noindex">{{ end }}
+  {{ block "head-meta-addons" . }}{{ end }}
+</head>
+<body class="docs-shell">
+  <a class="docs-skip" href="#main__content">Skip to content</a>
+  <header class="docs-header">
+    <a class="docs-wordmark" href="{{ site.Home.RelPermalink }}">SiteBay <span>Docs</span></a>
+    <nav aria-label="Primary"><a href="{{ "guides/" | relURL }}">Guides</a><a href="{{ "sorti/" | relURL }}">Sorti</a><a href="{{ "api/" | relURL }}">API</a></nav>
+    <button type="button" class="docs-search-open" data-open-search aria-haspopup="dialog">Search docs <kbd>⌘ K</kbd></button>
+  </header>
+  <div class="docs-frame">
+    <aside class="docs-sidebar">
+      <details class="docs-menu" open><summary>Browse documentation</summary><nav aria-label="Documentation sections">
+        {{ range site.Sections.ByWeight }}
+        <details {{ if or (eq . $) (.IsAncestor $) }}open{{ end }}>
+          <summary><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></summary>
+          <ul>{{ range .Pages.ByTitle }}<li><a {{ if eq . $ }}aria-current="page"{{ end }} href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>{{ end }}</ul>
+        </details>
+        {{ end }}
+      </nav></details>
+      <a class="docs-machine-link" href="{{ "llms.txt" | relURL }}">Index for agents</a>
+    </aside>
+    <main class="docs-main">
+      <section id="main__content" class="main__content" data-pagefind-body data-pagefind-filter="topic:{{ .Section }}">
+        {{ if not .IsHome }}<nav class="docs-breadcrumbs" aria-label="Breadcrumb" data-pagefind-ignore><a href="{{ site.Home.RelPermalink }}">Docs</a>{{ with .Parent }}{{ if not .IsHome }} / <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>{{ end }}{{ end }}</nav>{{ end }}
+        {{ block "main" . }}<article class="prose prose-lg"><h1>{{ .Title }}</h1>{{ .Content }}</article>{{ end }}
+      </section>
+      {{ if and .File (strings.Contains (replace .File.Filename "\\" "/") "/articles/") }}<footer class="docs-page-tools" data-pagefind-ignore>
+        {{ with .Params.authors }}<span>By {{ delimit . ", " }}</span>{{ end }}
+        {{ with .Params.modified }}<span>Updated {{ . }}</span>{{ end }}
+        {{ with .Store.Get "docsMarkdownURL" }}<a href="{{ . }}">Read as Markdown</a>{{ end }}
+        {{ with os.Getenv "HUGO_DOCS_SOURCE_REVISION" }}{{ if findRE `^[0-9a-f]{40}$` . }}<a data-docs-source href="https://github.com/sitebay/docs/blob/{{ . }}/articles/{{ $.File.Path }}">View source</a>{{ end }}{{ end }}
+        {{ with .Params.license }}<span>{{ . | markdownify }}</span>{{ end }}
+      </footer>{{ end }}
+    </main>
+    <aside class="docs-toc"><details open><summary>On this page</summary>{{ .TableOfContents }}</details></aside>
+  </div>
+  <footer class="docs-footer">SiteBay documentation · Source-grounded guides for people and agents. <a href="{{ "docs-style/" | relURL }}">Writing standard</a></footer>
+  {{ partial "docs/search-dialog.html" . }}
+  <div style="display:none" aria-hidden="true">{{ partial "icons/navigation.html" . }}</div>
+</body>
+</html>

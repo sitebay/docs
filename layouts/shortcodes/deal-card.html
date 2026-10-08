@@ -1,0 +1,29 @@
+{{/* Article-supplied estimates, not fetched pricing or product ratings. */}}
+{{ $face := .Get "face" }}
+{{ $notional := .Get "notional" }}
+{{ if or (not $face) (not $notional) }}
+  {{ errorf "deal-card requires face and notional estimates at %s" .Position }}
+{{ end }}
+<aside class="not-prose my-6 rounded-lg border border-gray-300 p-4" aria-label="Estimated student deal value">
+  <dl class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+    {{ range $entry := slice
+      (dict "label" "Advertised value estimate" "value" $face "note" ($.Get "face_note") "stars" ($.Get "stars_face"))
+      (dict "label" "Practical value estimate" "value" $notional "note" ($.Get "notional_note") "stars" ($.Get "stars_real"))
+    }}
+    <div>
+      <dt class="font-semibold">{{ $entry.label }}</dt>
+      <dd class="mt-2 text-lg font-bold">{{ $entry.value }}</dd>
+      {{ with $entry.stars }}
+        {{ $score := int . }}
+        {{ if or (lt $score 0) (gt $score 5) }}
+          {{ errorf "deal-card ratings must be between 0 and 5 at %s" $.Position }}
+        {{ end }}
+        <dd aria-label="Editorial rating: {{ $score }} out of 5">
+          <span aria-hidden="true">{{ strings.Repeat $score "★" }}{{ strings.Repeat (sub 5 $score) "☆" }}</span>
+        </dd>
+      {{ end }}
+      {{ with $entry.note }}<dd class="mt-2 text-sm">{{ . }}</dd>{{ end }}
+    </div>
+    {{ end }}
+  </dl>
+</aside>

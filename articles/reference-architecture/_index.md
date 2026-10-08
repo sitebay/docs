@@ -1,15 +1,32 @@
-+++
-title = "Reference Architecture"
-description = "Reference architectures from SiteBay show how to arrange cloud infrastructure and services for a range of applications, through diagrams, abstracts, and tutorials. Learn how to architect high-availability applications, document management systems, CI/CD pipelines, and more."
+---
+title: Architecture references
+description: Understand which component owns a request, data, or deployment. A reference architecture does not establish
+  that every illustrated option is enabled.
+cascade:
+- date: 2024-04-17
+  keywordsAlgolia:
+  - reference architecture
+- layout: tabbed-section-layout
+  _target:
+    path: /reference-architecture/*/**
+authors:
+- SiteBay
+contributors:
+- SiteBay
+keywords:
+- reference architecture
+- sitebay documentation
+published: 2025-03-18
+slug: reference-architecture
+license: '[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)'
+doc_sources:
+- platform-architecture
+modified: 2026-10-07
+layout: documentation-section
+---
 
-[[cascade]]
-date = 2024-04-17
-keywordsAlgolia = ["reference architecture"]
+Understand which component owns a request, data, or deployment. A reference architecture does not establish that every illustrated option is enabled.
 
-[[cascade]]
-layout = "tabbed-section-layout"
-[cascade._target]
-path = "/reference-architecture/*/**"
-+++
+[SiteBay architecture]({{< relref "products/platform/architecture/index.md" >}}).
 
- <!--more-->
+{{< section-links >}}

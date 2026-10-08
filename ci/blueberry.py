@@ -1,22 +1,23 @@
 # -*- coding: utf-8 -*-
-import datetime
+import ntpath
 import inspect
 import itertools
 import json
-import ntpath
 import os
 import re
 import subprocess
 import sys
 import time
+import datetime
 import urllib.request
+from urllib.error import HTTPError, URLError
+from yaml import scanner
+
+import frontmatter
+
 from contextlib import ContextDecorator
 from operator import methodcaller
 from pathlib import Path
-from urllib.error import HTTPError, URLError
-
-import frontmatter
-from yaml import scanner
 
 # TODO:
 # Add flake8 to requirements and lint this file
@@ -82,24 +83,30 @@ def format_yaml(file_yaml, **kwargs):
     """
     filename = str(kwargs.get('filename'))
     for header, req in requirements.items():
-        if header in file_yaml.keys():
-            val, type = file_yaml[header], req['type']
-            if type == "link":
-                if not re.search(LINK_REGEX, val):
-                    return filename, \
-                    f"Invalid metadata format: {val}"
-            elif type == "list":
-                if not isinstance(val, list):
-                    return filename, \
-                           f"Invalid metadata format: {val} should be a list."
-            elif type == "bool":
-                if not isinstance(val, bool):
-                    return filename, \
-                           f"Invalid metadata format: {val} should be a boolean."
-            elif type == "date":
-                if not isinstance(val, datetime.date):
-                    return filename, \
-                           f"Invalid metadata format: {val} should be YYYY-MM-DD."
+        if header not in file_yaml:
+            continue
+        val, kind = file_yaml[header], req['type']
+        valid = True
+        if kind == 'link':
+            valid = isinstance(val, str) and bool(re.search(LINK_REGEX, val))
+        elif kind == 'list':
+            valid = isinstance(val, list)
+        elif kind == 'bool':
+            valid = isinstance(val, bool)
+        elif kind == 'date':
+            valid = isinstance(val, datetime.date)
+        elif kind in ('int', 'number'):
+            valid = isinstance(val, (int, float)) and not isinstance(val, bool)
+        elif kind in ('text', 'url'):
+            valid = isinstance(val, str)
+        elif kind == 'dict':
+            valid = isinstance(val, dict)
+        elif kind == 'person':
+            valid = isinstance(val, dict) and isinstance(val.get('name'), str)
+        elif kind == 'cascade':
+            valid = isinstance(val, dict) or (isinstance(val, list) and all(isinstance(x, dict) for x in val))
+        if not valid:
+            return filename, f"Invalid metadata format: {header} must be {kind}."
 
 @add_rule
 def valid_alias(file_yaml, **kwargs):
@@ -124,7 +131,7 @@ def lowercase_filename(filepath):
     """File name must be all lowercase."""
     # Handle Windows filepaths. See https://stackoverflow.com/q/8384737
     #filename = ntpath.basename(str(filepath))
-    filename, file_extension = os.path.splitext(str(filepath))
+    filename, file_extension = os.path.splitext(str(Path(filepath).relative_to(Path(WORKING_DIR))))
 
     # Cartesian product of filenames and extension
     # e.g. README.txt, README.md, CHANGELOG.txt, CHANGELOG.md ...
@@ -144,7 +151,7 @@ def lowercase_filename(filepath):
 @add_rule
 def lowercase_extension(filepath):
     """File extensions must be lowercase."""
-    filename, file_extension = os.path.splitext(str(filepath))
+    filename, file_extension = os.path.splitext(str(Path(filepath).relative_to(Path(WORKING_DIR))))
     if file_extension != file_extension.lower():
         return str(filepath), "File extensions must be lowercase."
 
@@ -174,16 +181,22 @@ def mixed_whitespace(line, **kwargs):
 def valid_image_links(line, **kwargs):
     """Checks any image link encountered to see if a matching file exists in the
     specified directory."""
-    match = IMAGE_LINK_REGEX.match(line)
-    pos = len(line)
-    if match:
-        image = match.group(2)
-        if image and image.endswith('/'):
+    from urllib.parse import unquote, urlsplit
+    for match in re.finditer(r'!\[.*?\]\(([^\s)]+)(?:\s+[^)]*)?\)', line):
+        image = match.group(1).strip('<>')
+        parsed = urlsplit(image)
+        if parsed.scheme in ('https', 'http', 'data') or image.startswith('//'):
+            continue
+        if image.endswith('/'):
             return kwargs.get('line_num'), image, "Images should not end with a slash."
-        elif image:
-            image_path = str(kwargs.get('filename'))[:-8] # Remove "index.md" from the end of the path
-            if not os.path.isfile(image_path + image):
-                return kwargs.get('line_num'), image, "Image link points to nonexistent file."
+        # Resolve a local resource relative to either an article or bundle file.
+        if image.startswith('/'):
+            # Public-root paths are checked against the rendered output separately.
+            continue
+        source = Path(str(kwargs.get('filename')))
+        candidate = source.parent / unquote(parsed.path)
+        if not candidate.is_file():
+            return kwargs.get('line_num'), image, "Image link points to nonexistent file."
 
 
 # -----------------------------------------------------------------------------
@@ -211,13 +224,13 @@ def find_files(path='.', ignore_paths = [], extensions=['MD', 'md'], recursive=F
 
     if ignore_paths:
         # Map() returns an array like:
-        # ['/home/travis/build/sitebay/docs/ignored_dir1/', '/home/travis/build/sitebay/docs/ignored_dir2']
+        # ['/home/travis/build/linode/docs/ignored_dir1/', '/home/travis/build/linode/docs/ignored_dir2']
         ignore_paths_resolved = list(map(lambda path: str(Path(path).resolve()), ignore_paths))
         # Map() returns an array like:
-        # ['^/home/travis/build/sitebay/docs/ignored_dir1/*', '^/home/travis/build/sitebay/docs/ignored_dir2*']
+        # ['^/home/travis/build/linode/docs/ignored_dir1/*', '^/home/travis/build/linode/docs/ignored_dir2*']
         ignore_paths_as_regexes = list(map(lambda path: "^{}.*".format(path), ignore_paths_resolved))
         # ignore_path_regex_or looks like:
-        # '(^/home/travis/build/sitebay/docs/ignored_dir1/*|^/home/travis/build/sitebay/docs/ignored_dir2*)'
+        # '(^/home/travis/build/linode/docs/ignored_dir1/*|^/home/travis/build/linode/docs/ignored_dir2*)'
         ignore_path_regex_or = '({})'.format("|".join(ignore_paths_as_regexes))
         list_of_files = list(filter(lambda path: not re.match(ignore_path_regex_or, str(path)), list_of_files))
 
@@ -319,7 +332,7 @@ class TestManager(object):
     # TODO:
     # Gracefully handle non-existent filepath
 
-    def __init__(self, input_dir='docs/', ignore_paths=['docs/api/', 'docs/headless/', 'docs/products/', 'docs/reference-architecture/', 'docs/release-notes/', 'docs/marketplace-docs/'], **kwargs):
+    def __init__(self, input_dir='articles/', ignore_paths=[], **kwargs):
         self.input_dir = input_dir
         self.files = find_files(path=input_dir, ignore_paths=ignore_paths, recursive=True)
 

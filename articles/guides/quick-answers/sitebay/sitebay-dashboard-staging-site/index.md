@@ -1,44 +1,50 @@
 ---
-slug: sitebay-dashboard-staging-site
-description: 'Learn how to create and manage a staging site for testing WordPress changes with SiteBay’s powerful WordPress hosting on Kubernetes, featuring PostHog analytics and Grafana dashboards.'
-keywords: ['staging site tutorial']
-tags: ['sitebay', 'wordpress', 'posthog', 'grafana']
+slug: sitebay-staging-sites
+description: Staging provides a separate environment for testing changes.
+keywords:
+- staging
+- testing
+- development environment
+- clone
+- wordpress staging
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
-published: 2024-04-30
-image: GNUMakeTutorial-LearntoAutomateTasks.jpg
+published: 2024-03-13
+modified: 2026-10-07
 modified_by:
   name: SiteBay
-title: "Mastering Staging Sites on SiteBay’s WordPress Hosting"
-title_meta: "Staging Site Management with SiteBay: A Step-by-Step Guide"
-authors: ["SiteBay"]
-contributors: ["SiteBay"]
+title: Create and review a staging site
+bible: true
+tags:
+- sitebay
+- staging
+- development
+aliases:
+- /quick-answers/sitebay/sitebay-dashboard-staging-site/
+authors:
+- SiteBay
+contributors:
+- SiteBay
+doc_sources:
+- site-ui
+- lifecycle
 ---
 
-Creating a staging site on SiteBay's WordPress hosting platform is a breeze, thanks to Kubernetes’ robust architecture and the integrated analytics and monitoring tools like PostHog and Grafana. Staging sites are essential for testing updates, themes, plugins, and custom code before pushing changes to your live WordPress site, ensuring a smooth visitor experience.
+Staging provides a separate environment for testing changes. It reduces some live-site risk but does not guarantee that copied plugins stop sending email, charging payments or calling external APIs.
 
-In this guide, we’ll walk through the steps to set up and manage a staging site on SiteBay, using the dashboard for an intuitive user experience.
+## How to Create a Staging Site
 
-Getting Started with Staging Sites
+Select the live site and inspect the staging action currently available. The UI exposes the staging tab conditionally, including when a staging copy already exists or the site is a testing site. Use the supported create action and wait for completion; do not assume a fixed URL pattern or password-protection policy without checking the resulting environment.
 
-Staging sites mirror your live WordPress site, serving as a safe testing ground for all changes. Here’s how you can set up a staging environment on SiteBay:
+Record the branch, source point and staging domain. Confirm that test credentials and external integrations are configured appropriately. A canvas preview is the live site's preview mode, not this staging clone.
 
-Access Your SiteBay Dashboard: Log in to your SiteBay dashboard to manage your WordPress hosting settings.
-Create a Staging Site: Look for the “Staging” option within the dashboard. With a simple click, you can initiate the creation of a staging environment that’s an exact replica of your live site.
-Utilize PostHog and Grafana: Monitor the performance and user interaction on your staging site using PostHog analytics directly integrated into your SiteBay dashboard. Access Grafana dashboards for detailed site metrics and performance insights.
-Managing Your Staging Site
+## Common Staging Workflows
 
-With your staging site up and running, here’s how to make the most of it:
+Test one plugin/theme change at a time and exercise the affected page, form or checkout. “The home page loads” and “no captured console errors” are not complete compatibility tests. When creating from a recovery point, choose a point the site actually reports as available.
 
-Test Updates and Changes: Implement any planned updates, including WordPress core updates, plugin installations, theme changes, or custom code modifications.
-Monitor with PostHog: Use PostHog’s features to analyze user behavior and interactions on your staging site. This data can help refine the user experience before going live.
-Optimize Performance with Grafana: Leverage Grafana’s powerful dashboards to monitor your staging site’s performance. Ensure your changes don’t negatively impact site speed or resource usage.
-Pushing Changes Live
+For Git-driven work, confirm the configured branch for each environment. A merge in Git and promotion of staging database/file state are distinct operations.
 
-After thoroughly testing on your staging site and ensuring everything works as expected:
+## Pushing Staging to Production
 
-Prepare for Live Deployment: Double-check all changes and ensure they meet your quality standards.
-Sync to Live Site: Use SiteBay’s dashboard to seamlessly push changes from your staging environment to the live site. This process is streamlined to avoid downtime and ensure a smooth transition.
-Post-Deployment Monitoring: Once live, continue monitoring your site with PostHog and Grafana to observe the impact of your changes on real-world user behavior and site performance.
-Conclusion
+Review the actual promotion options and the differences they affect. In particular, replacing database state can overwrite newer orders, registrations or content from live. Retain a suitable pre-promotion checkpoint and use the confirmation contract offered by the operation.
 
-SiteBay's WordPress hosting platform makes it easy to leverage staging sites, ensuring that updates and changes can be tested thoroughly before affecting your live website. By integrating tools like PostHog for analytics and Grafana for performance monitoring, SiteBay provides a comprehensive environment for developing, testing, and optimizing
+Wait for promotion to finish, inspect live state, and test critical behavior. Do not automatically delete staging or claim an instant rollback until the result and recovery plan are accepted. See [site lifecycle]({{< relref "products/platform/site-lifecycle/index.md" >}}) and [editing staging]({{< relref "guides/code-server/managing-your-staging-site-on-code-server/index.md" >}}).

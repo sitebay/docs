@@ -1,0 +1,4 @@
+{{ define "_baseof_start" }}{{ .Page.Store.Set "_baseof_main_layout" "standard" }}{{ end }}
+{{ define "main" }}
+<article class="prose prose-sm md:prose-lg max-w-content w-full"><h1>{{ .Title }}</h1>{{ .Content }}</article>
+{{ end }}

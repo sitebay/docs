@@ -2,9 +2,8 @@
   x-data="{ hits: [] }"
   x-show="hits.length"
   x-transition.opacity
-  class="px-6"
   x-init="$store.nav.recommendations.fetch(lnPageInfo.href, hits)">
-  <div class="space-y-8 px-6">
+  <div class="space-y-8">
     <template x-for="item in hits">
       <a
         class="a--block bg-white block rounded-md md:flex md:items-center"

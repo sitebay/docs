@@ -8,9 +8,8 @@
       "@tailwindcss/forms": "github.com/sitebay/sitebay-docs-theme",
       "@tailwindcss/typography": "github.com/sitebay/sitebay-docs-theme",
       "autoprefixer": "github.com/sitebay/sitebay-docs-theme",
-      "cypress": "github.com/sitebay/sitebay-docs-theme",
-      "cypress-axe": "github.com/sitebay/sitebay-docs-theme",
-      "cypress-html-validate": "github.com/sitebay/sitebay-docs-theme",
+      "axe-core": "github.com/sitebay/sitebay-docs-theme",
+      "core-js": "github.com/sitebay/sitebay-docs-theme",
       "html-validate": "github.com/sitebay/sitebay-docs-theme",
       "postcss": "github.com/sitebay/sitebay-docs-theme",
       "postcss-cli": "github.com/sitebay/sitebay-docs-theme",
@@ -19,7 +18,6 @@
       "tailwindcss": "github.com/sitebay/sitebay-docs-theme"
     }
   },
-  "dependencies": {},
   "devDependencies": {
     "@babel/cli": "^7.24.7",
     "@babel/core": "^7.24.7",
@@ -31,6 +29,8 @@
     "cypress-axe": "^1.5.0",
     "cypress-html-validate": "^6.1.0",
     "html-validate": "^8.20.1",
+    "pagefind": "1.5.2",
+    "playwright": "1.60.0",
     "postcss": "^8.4.38",
     "postcss-cli": "^11.0.0",
     "prettier": "^3.3.2",
@@ -38,5 +38,10 @@
     "tailwindcss": "^3.4.4"
   },
   "name": "sitebay-docs",
-  "version": "0.1.0"
+  "version": "0.1.0",
+  "scripts": {
+    "build:docs": "bash ci/scripts/build-docs.sh",
+    "test:knowledge": "npm --prefix knowledge test",
+    "docs:read": "node knowledge/src/cli.mjs"
+  }
 }

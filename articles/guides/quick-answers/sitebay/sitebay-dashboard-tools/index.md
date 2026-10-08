@@ -1,43 +1,42 @@
 ---
 slug: sitebay-dashboard-tools
-description: 'SiteBay Dashboard Tools: External Paths, HTTP Basic Authentication, Cloudflare Dev Mode, Clear Cache, Change Domain, Delete Site.'
-keywords: ["sitebay", "dashboard", "tools", "http basic auth", "cloudflare", "clear cache", "change domain", "delete site"]
+description: Choose the action for the actual layer you need to change.
+keywords:
+- sitebay
+- dashboard
+- tools
+- http basic auth
+- cloudflare
+- clear cache
+- change domain
+- delete site
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
-modified: 2024-04-04
+modified: 2026-10-07
 modified_by:
   name: SiteBay
 published: 2024-04-04
-title: Maximizing Efficiency with SiteBay's Dashboard Tools
-tags: ["sitebay"]
-authors: ["SiteBay"]
-contributors: ["SiteBay"]
+title: Dashboard tools
+bible: true
+tags:
+- sitebay
+authors:
+- SiteBay
+contributors:
+- SiteBay
+doc_sources:
+- site-ui
+- cloudflare-cache
+- lifecycle
 ---
 
-SiteBay's Dashboard is packed with powerful tools designed to give you full control over your WordPress hosting environment. These tools are tailored to streamline your site management process, ensuring that your website remains robust, secure, and highly available. Let's dive into what each tool offers and how you can use them to enhance your site's performance.
+Choose the action for the actual layer you need to change. The current Tools view includes external paths, domain/access settings and conditional cache/security controls; nameserver-managed sites expose different controls from a simple external-domain connection.
 
-## External Paths
+## Select the task
 
-Integrate external support sites into your main website for improved SEO. This feature allows you to make documentation or support content available on your main domain, such as www.yoursite.com/support, enhancing user experience and site cohesion.
+For stale content, inspect the origin and cache headers before choosing a purge. For a domain change, preserve the existing DNS and email records and verify HTTPS after cutover. For an external path, test redirects, assets, authentication and cookies against the authorized origin.
 
-## HTTP Basic Authentication
+## Respect the target
 
-Protect your site with HTTP Basic Authentication, requiring a username and password for access. This layer of security is crucial for keeping your site private during development or when you need to restrict access to certain parts of your site.
+Deleting a site or restoring its database is separate from a cache purge or subscription cancellation. Review the site's current state, available action and recovery path. A button closing after submission does not prove completion.
 
-## Change Domain
-
-Easily change your site's domain name. Whether you're rebranding or moving to a new domain, this tool simplifies the process, ensuring that your transition is as smooth as possible.
-
-## Delete Site
-
-When it's time to remove a site, whether for cleanup or because a project has come to an end, this tool enables you to do so directly from the dashboard. It ensures that your site is properly and securely deleted from the server.
-
-Utilizing these dashboard tools effectively can greatly enhance your site management workflow on SiteBay. From security features like HTTP Basic Authentication to performance optimizations such as clearing the cache or using Cloudflare Developer Mode, each tool is designed to provide you with a seamless and efficient hosting experience.
-
-## Testing sites
-### Cloudflare Developer Mode
-
-Activate Cloudflare Developer Mode directly from the dashboard to temporarily bypass the cache. This is incredibly useful when making changes to your site that you want to see immediately without waiting for cached content to refresh.
-
-### Clear Cache
-
-Effortlessly clear your site's cache from the dashboard. This is essential for ensuring that your visitors see the most recent version of your site, especially after making updates or changes to your content.
+[The site tools guide]({{< relref "products/tools/get-started/index.md" >}}) explains the current scope and verification steps. For terminal work use [the authenticated workspace]({{< relref "products/code-server/get-started/index.md" >}}), not a guessed general shell endpoint.

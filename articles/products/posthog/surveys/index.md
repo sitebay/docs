@@ -1,40 +1,41 @@
 ---
 slug: surveys
-description: "This guide shows you how to integrate Posthog surveys into your WordPress site hosted on SiteBay."
-keywords: ["posthog", "surveys", "wordpress", "SiteBay"]
+description: Use a survey to collect focused feedback from a defined audience.
+keywords:
+- posthog
+- surveys
+- feedback
+- sitebay
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
-modified: 2024-04-20
+modified: 2026-10-07
 modified_by:
   name: SiteBay
 published: 2024-04-20
-title: "Integrating Posthog Surveys on Your WordPress Site"
-title_meta: "How to Add Posthog Surveys to Your WordPress Site"
-tags: ["sitebay"]
-aliases: ['/quick-answers/sitebay/integrate-posthog-surveys-on-wordpress/']
-authors: ["SiteBay"]
-contributors: ["SiteBay"]
+title: Create a survey
+tags:
+- sitebay
+aliases:
+- /quick-answers/sitebay/integrate-posthog-surveys-on-wordpress/
+authors:
+- SiteBay
+contributors:
+- SiteBay
+doc_sources:
+- analytics-ui
 ---
 
-Want to get real feedback directly from your users? Adding Posthog surveys to your WordPress site hosted on SiteBay can give you valuable insights into what your audience thinks and wants. Here's a quick guide on setting up Posthog surveys, making sure you're gathering feedback in a snap.
+Use a survey to collect focused feedback from a defined audience.
 
-## Create and Embed Surveys
+## Draft the questions
 
-In My SiteBay, navigate to the 'Surveys' or 'Feedback' section.
-Create a new survey and customize it to your liking.
+Choose a template or create the survey questions supported by your project. Ask one clear question at a time. Avoid requesting passwords, payment details, or other information the survey does not need.
 
-Edit the page or post where you want the survey to appear.
-Add a Custom HTML block to your page or post.
-Paste the Posthog survey embed code into the Custom HTML block.
-Update or publish your page or post.
+## Set display conditions
 
-That's it! Your survey should now be live on your site, ready to collect feedback from your users.
+Review the target URL, device conditions, event conditions, or linked feature flag used by the survey. Preview it on the intended page and check that it does not obstruct the task being measured.
 
-Why Use Posthog with SiteBay?
+## Publish and review
 
-Integrating Posthog with your WordPress site hosted on SiteBay offers several advantages:
+Launch the survey only after the preview and targeting are correct. Verify a test response, then review results with the audience and collection period in mind. Stop or archive the survey when the research is complete.
 
-Insights at Your Fingertips: Quickly gauge user satisfaction, gather feedback, and understand how users interact with your site.
-Optimize Your Site: Use the feedback to improve your content, design, and user experience.
-Easy Integration: The Posthog WordPress plugin simplifies the integration, allowing you to focus on what matters—your content and your users.
-
-Whether you’re looking to improve your product, content, or user experience, Posthog surveys can provide the insights you need to make informed decisions. And with SiteBay's powerful WordPress hosting, you’re all set to engage with your audience like never before.
+Record the findings in a [Notebook]({{< relref "products/posthog/notebooks/index.md" >}}), including any limits in who was able to respond.

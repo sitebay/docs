@@ -1,64 +1,57 @@
 ---
 slug: sitebay-plans
-description: 'An overview of SiteBay WordPress hosting plans: Micro, Starter, and Business.'
-keywords: ['WordPress hosting', 'SiteBay', 'hosting plans', 'web hosting']
+description: Read current SiteBay plan prices and limits, interpret minor units, and verify a team billing change.
+keywords:
+- pricing
+- plans
+- free tier
+- agency plan
+- billing
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
-published: 2024-03-04
-modified: 2024-03-04
+published: 2024-03-13
+modified: 2026-10-08
 modified_by:
   name: SiteBay
-title: "SiteBay WordPress Hosting Plans"
-tags: ["sitebay", "WordPress hosting", "hosting plans"]
-aliases: ['/quick-answers/sitebay-essentials/sitebay-plans/']
-authors: ["SiteBay"]
-contributors: ["SiteBay"]
+title: SiteBay plans and current prices
+bible: true
+tags:
+- sitebay
+- pricing
+- billing
+aliases:
+- /quick-answers/sitebay-essentials/sitebay-plans/
+authors:
+- SiteBay
+contributors:
+- SiteBay
+doc_sources:
+- pricing
+- teams
 ---
 
-Choosing the right WordPress hosting plan is crucial for your website's success. At SiteBay, we offer three tailored plans designed to match your specific needs: Micro, Starter, and Business. Each plan is optimized for WordPress, ensuring your site runs smoothly on our Kubernetes-based platform. Let's dive into the details of what each plan offers.
+SiteBay groups site ownership and plan limits by team. Select the team that owns the site before comparing a plan or opening checkout; do not assume that a price shown for one team or currency applies to another.
 
-Micro Plan
+## Read the current catalog
 
-Ideal for small businesses or personal sites, the Micro plan offers a great balance of resources at an affordable price. It includes:
+The public pricing endpoint is the source for the available plan names, prices, and allowances:
 
-1 site
-12,000 visits/month
-8 GB storage
+```sh
+curl --fail-with-body --silent --show-error \
+  https://my.sitebay.org/f/api/v1/plan/pricing
+```
 
-This plan is perfect if you're just starting out or have a site with moderate traffic. At $19 USD/month, it's designed to provide the essentials without breaking the bank.
+The response has `suggested_currency` and a `plans` object keyed by plan slug. Each plan can include `name`, `description`, `max_visits`, `max_storage`, `max_bandwidth`, `max_sites`, and `code_server`, along with monthly and yearly price fields for USD, CAD, and EUR. **Price fields are minor units (cents), not whole currency units.** Preserve the unit and billing interval when displaying them. Do not silently convert storage or bandwidth values into a different unit without the matching API definition.
 
-Starter Plan
+The suggested currency is derived from the request's country headers. It is a presentation suggestion, not proof of a payment method's country or the final tax amount. The catalog intentionally excludes Stripe price IDs.
 
-Our Starter plan is suited for growing sites, such as small blogs or local businesses looking to expand their online presence. It includes:
+## Compare the whole plan
 
-1 site
-30,000 visits/month
-20 GB storage
+Check included site capacity, current team usage, code-server eligibility, the selected currency, and the requested billing interval. A free-site entitlement and paid plan site capacity are different fields; neither should be inferred from the label “free.” A running site's resources, backup availability, and current legal actions must also be checked on that site.
 
-Priced at $25 USD/month, the Starter plan offers more room for your site to grow, supporting increased traffic and content.
+Use the catalog for current prices and checkout for the final amount and renewal terms.
 
-Business Plan
+## Review before paying
 
-For sites demanding more resources, the Business plan provides ample support with enhanced features, including:
+Open Billing for the intended team, choose the plan and interval, and review the provider's checkout total before confirming. Record the accepted currency and renewal terms. A generated checkout URL is not a completed payment, and returning from checkout is not proof that the subscription change has been applied: refresh the team's billing state.
 
-5 sites
-150,000 visits/month
-40 GB storage
-
-At $120 USD/month, this plan caters to businesses needing high performance, multiple sites, and storage.
-
-Features Across All Plans
-
-All SiteBay plans come with robust features to enhance your WordPress experience:
-
-Kubernetes-based Hosting: Enjoy the scalability, reliability, and security of Kubernetes.
-Session Replay & Analytics: Utilize SiteBay's integration with Posthog for detailed user analytics and session replays.
-Grafana Dashboards: Monitor your site's performance with custom Nginx analytics and potential future custom dashboards.
-Free Migrations: Easily migrate your site to SiteBay with our free migration service.
-VSCode Web Server: Develop and manage your WordPress site with a VSCode web server, featuring pre-installed development extensions.
-Choosing the Right Plan
-
-Selecting the right hosting plan depends on your site's current needs and future growth. Consider your expected traffic, the number of sites you manage, and storage requirements. Remember, you can start with one plan and easily upgrade as your site grows.
-
-For more information on our plans, features, and to get started, visit our pricing page.
-
-Note: Prices and features are accurate as of March 2024 and are subject to change. Visit our website for the most current information.
+For invoices, payment methods, and cancellation terms, use the billing provider shown by the account. Stripe-backed accounts use a customer portal; linked Shopify billing has its own flow. Do not cancel or delete sites merely to test a billing change.

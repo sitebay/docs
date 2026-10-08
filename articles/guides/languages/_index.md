@@ -1,7 +1,23 @@
-Welcome to SiteBay's Language Universe
+---
+title: Programming languages
+authors:
+- SiteBay
+contributors:
+- SiteBay
+description: Use the language and runtime supported by the application. WordPress development starts with PHP, while
+  browser behavior also uses HTML, CSS, and JavaScript.
+keywords:
+- languages
+- sitebay documentation
+published: 2025-03-18
+slug: languages
+license: '[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)'
+doc_sources:
+- wp-basics
+modified: 2026-10-07
+layout: documentation-section
+---
 
-Yo, when you're diving into the world of web development with SiteBay, you're stepping into a universe where language isn't just about speaking—it's about coding. In this part of the SiteBay universe, we're gonna show you the ropes of different programming languages, each with its own flavor and style, all tailored to amp up your website or app to the next level.
+Use the language and runtime supported by the application. WordPress development starts with PHP, while browser behavior also uses HTML, CSS, and JavaScript.
 
-Whether you're all about that sleek and efficient vibe of PHP for WordPress development, getting down with the interactive coolness of JavaScript, or exploring the vast landscapes of Python for backend magic, we've got you covered. Each language section in our library is stacked with tutorials, tips, and tricks that'll help you master the art of coding in the language that vibes with you the most.
-
-So, pick your language, dive into the tutorials, and start translating your ideas into reality. With SiteBay, you're not just learning to code; you're gearing up to bring your digital dreams to life. Let's get it!
+{{< section-links >}}

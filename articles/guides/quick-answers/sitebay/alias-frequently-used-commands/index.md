@@ -1,58 +1,59 @@
 ---
 slug: alias-frequently-used-commands
-description: 'Learn how to streamline your WordPress management tasks in SiteBay using aliases for frequently used commands. This guide explains creating and removing aliases for efficiency.'
-keywords: ["WordPress", "alias", "command line", "SiteBay"]
+description: An alias expands a command name in an interactive shell. Use it for a transparent shortcut, not to
+  hide destructive actions behind a harmless-looking name.
+keywords:
+- WordPress
+- alias
+- command line
+- SiteBay
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
 published: 2024-04-04
-modified: 2024-04-04
+modified: 2026-10-07
 modified_by:
   name: SiteBay
-title: 'Alias Frequently Used Commands in SiteBay'
-tags: ["sitebay"]
-aliases: ['/quick-answers/sitebay/alias-frequently-used-commands/']
-authors: ["SiteBay"]
-contributors: ["SiteBay"]
+title: Create useful Bash aliases
+tags:
+- sitebay
+aliases:
+- /quick-answers/sitebay/alias-frequently-used-commands/
+authors:
+- SiteBay
+contributors:
+- SiteBay
+doc_sources:
+- shell-reference
+- code-server
 ---
-What is an Alias?
 
-An alias in SiteBay simplifies your WordPress management by creating shortcuts for the commands you use most. It’s like having speed dial for your website management tasks.
+An alias expands a command name in an interactive shell. Use it for a transparent shortcut, not to hide destructive actions behind a harmless-looking name.
 
-List Existing Aliases
+## List Existing Aliases
 
-To see the aliases you’ve already set up, simply type:
+```bash
 alias
+type gst
+```
 
-Managing Aliases in WordPress Hosting
+`type` shows whether a name is an alias, function, builtin or executable. A command that works in one terminal may have a different definition in another.
 
-In SiteBay, aliases can be particularly useful for WordPress commands that you find yourself using often. Depending on your shell (Bash, Z shell (ZSH), or fish), the place to set these aliases varies:
+## Create Temporary Alias
 
-Bash: ~/.bashrc
-ZSH: ~/.zshrc
-fish: ~/.config/fish/config.fish
-Create a Temporary Alias
+```bash
+alias gst='git status --short'
+alias gdiff='git diff --'
+```
 
-To quickly create an alias for a session, use the syntax alias shortcut="command to run". For instance, to easily navigate to your WordPress site's root directory:
-alias wpRoot="cd /var/www/html/mysite.com"
+Enter the definition and usage on separate prompt lines. These aliases last for that shell session. Quoting keeps the intended replacement together.
 
-Remove an Alias
+## Create Permanent Alias
 
-To remove an alias within the same session, type:
-unalias wpRoot
+For interactive Bash, place reviewed definitions in `~/.bashrc`, then open a new terminal or source that file. Zsh and fish use their own startup files and syntax; do not paste a Bash configuration into another shell blindly. Avoid repeatedly appending the same definitions.
 
-Create a Permanent Alias
+## Remove Alias
 
-For aliases you want to keep across sessions, add them to your shell's configuration file:
-# Add this to your ~/.bashrc or equivalent file
-alias wpUpdate="wp core update"
+```bash
+unalias gst
+```
 
-
-After adding, apply the changes:
-source ~/.bashrc
-
-Example: Alias for WordPress Commands
-
-Aliasing WordPress CLI commands can save time. For instance, updating WordPress core with a simple command:
-alias wpUpdate="wp core update"
-
-
-Remember, while aliases can greatly increase your efficiency, they rely on the environment you've set them up in. If you switch to a new machine or environment, you'll need to recreate your aliases there.
+For shortcuts with arguments, use a function instead of expecting an alias to behave like a parameterized command. Avoid auto-update aliases that silently change WordPress, a database, or the operating system. Check the intended site and recovery point before those operations.

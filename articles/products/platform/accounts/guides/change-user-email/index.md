@@ -1,45 +1,48 @@
 ---
-description: "Instructions on updating the email address on an account so that you can receive email notifications."
-keywords: ["email address", "email addresses", "address", "addresses"]
-tags: ["sitebay platform","My SiteBay","email"]
+description: Your SiteBay sign-in email and a billing provider's invoice contact are different records. Updating
+  one does not establish that the other changed.
+keywords:
+- email address
+- email addresses
+- address
+- addresses
+tags:
+- sitebay platform
+- My SiteBay
+- email
 published: 2024-04-21
 image: L_ChangeYourEmail.png
-title: Change Your Email Address
-title_meta: Change Your Email Address on a SiteBay Account
-aliases: ['/quick-answers/platform/how-to-change-your-email/','/guides/how-to-change-your-email/']
-authors: ["SiteBay"]
-contributors: ["SiteBay"]
+title: Change account email
+title_meta: Change account email
+aliases:
+- /quick-answers/platform/how-to-change-your-email/
+- /guides/how-to-change-your-email/
+authors:
+- SiteBay
+contributors:
+- SiteBay
+modified_by:
+  name: SiteBay
+slug: change-user-email
+license: '[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)'
+doc_sources:
+- account-ui
+- teams
+- api-auth
+- pricing
+modified: 2026-10-08
 ---
 
-SiteBay uses the contact information on file in your account to notify and bill you. Keep this information current to prevent service interruptions. It's especially important to keep your email address current.
+Your SiteBay sign-in email and a billing provider's invoice contact are different records. Updating one does not establish that the other changed.
 
-The **Billing Info** and **User & Grants** pages have email address fields. The email addresses saved on these pages receive different notifications, as described in the following sections. If you are the only user, you should enter your email address on both pages. If there are multiple users, verify that the primary account holder's email address is current on the **Billing Info** page.
+## Update the intended record
 
-## Modify Billing Contact Email
+Use your own account/profile settings for your sign-in identity and follow any verification shown there. Keep the existing session available until the new address has been confirmed. Changing a teammate’s permissions is separate from changing their sign-in identity.
 
-See [Update Billing Contact Information](/docs/products/platform/billing/guides/update-billing-contact-info/)
+For billing contact changes, use [billing contact information]({{< relref "products/platform/billing/guides/update-billing-contact-info/index.md" >}}). For a team invitation, ask the owner to revoke an incorrect invitation and create one for the intended recipient rather than forwarding its capability link to another person.
 
-## Modify User Account Email
+## Verify access
 
-Use the **Users & Grants** page to modify the email address associated with a user account. The email addresses listed on this page receive IP whitelist warnings, password reset messages, and support tickets for services that their associated users have permission to access. Users with limited account access can also receive invoices and receipts if granted access to that information.
+Check the account record and successful delivery to the intended address. Keep the account email, WordPress administrator email, and Shopify shop contact separate in your change record. A Shopify linking flow can require matching account/shop email values; read its error before changing either account.
 
-{{< note >}}
-Only full account access users can receive threshold notification emails.
-{{< /note >}}
-
-Here's how to change a user's email from the **Users & Grants** page:
-
-1. Click the **Account** link in the sidebar.
-1. Click the **Users & Grants** tab.
-1. Click the **User Profile** link for the desired user.
-1. Enter the updated email address in the **Email** field.
-
-    ![Modify the email address associated with your user account](accounts-my-profile-change-email.png "Modify the email address associated with your user account")
-
-1. Click **Save**.
-
-The user's email address is now updated.
-
-{{< note >}}
-If you do not have full account access, you can view your user profile settings and update your email address by clicking on your username at the top of the My SiteBay screen and selecting **Display**.
-{{< /note >}}
+When you cannot access the original address or the UI does not offer the change, [contact support]({{< relref "products/platform/get-started/guides/support/index.md" >}}). Never send a password, session cookie, MFA secret, or API key in the request.

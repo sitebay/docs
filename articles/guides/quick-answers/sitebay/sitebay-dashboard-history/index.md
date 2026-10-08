@@ -1,37 +1,43 @@
 ---
 slug: sitebay-dashboard-history
-description: "Explore your site's past events and restore your site to previous states using SiteBay's Point-in-Time (PIT) machine."
-keywords: ["sitebay", "sitebay dashboard", "site history", "site restoration"]
-aliases: ['/quick-answers/sitebay/site-history-and-restoration/', '/quick-answers/sitebay/using-pit-machine-for-site-restoration/']
+description: The **History** tab reads the activity log scoped to the site's ID.
+keywords:
+- sitebay
+- sitebay dashboard
+- site history
+- site restoration
+aliases:
+- /quick-answers/sitebay/site-history-and-restoration/
+- /quick-answers/sitebay/using-pit-machine-for-site-restoration/
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
-modified: 2024-04-04
+modified: 2026-10-08
 modified_by:
   name: SiteBay
 published: 2024-04-17
-title: "Navigating Your Site's History with SiteBay Dashboard"
-title_meta: "How to Use SiteBay Dashboard for Site History and Restoration"
-tags: ["sitebay"]
-authors: ["SiteBay"]
-contributors: ["SiteBay"]
+title: Read site history and recovery evidence
+tags:
+- sitebay
+authors:
+- SiteBay
+contributors:
+- SiteBay
+doc_sources:
+- site-ui
+- lifecycle
 ---
 
-Managing your WordPress site involves keeping track of changes and being able to revert to previous states when necessary. SiteBay's dashboard offers a comprehensive view of your site's history, including updates, modifications, and other events. This guide will introduce you to navigating your site's history and utilizing the Point-in-Time (PIT) machine for site restoration on SiteBay.
+The **History** tab reads the activity log scoped to the site's ID. Use it to relate a reported incident to recorded actions, not as proof that every file or database edit is recoverable.
 
-## Accessing Your Site's History
+## Inspect an incident
 
-SiteBay's dashboard provides a detailed log of your site's activities, allowing you to monitor changes and identify when specific updates were made. Here's how to access it:
+Confirm the site and time zone, narrow the period around the problem, and identify the action, actor and available event reference. Compare that entry with the current site state and logs. A request being recorded can precede completion or failure.
 
-Log into your SiteBay dashboard.
-Navigate to the "History" or "Activity Log" section.
-Here, you'll see a chronological list of events, including site updates, plugin installations, content changes, and more.
+## Investigate the data change
 
-## Restoring Your Site with the PIT Machine
+Open **Time Machine** for the separate file history, database activity and checkpoint view. Current internal Git-backed browsing does not require an external Git connection. Identify the smallest affected scope rather than restoring the whole site simply because an activity occurred nearby.
 
-Mistakes happen, and sometimes you need to roll back your site to a previous state. SiteBay's PIT machine makes this process straightforward:
+## Restore only after review
 
-In the SiteBay dashboard, locate the "Restoration" or "PIT Machine" section.
-Select the date and time you want to restore your site to. This can be based on a specific event or update from your site's history.
-Confirm the restoration. SiteBay will revert your site to the selected state, preserving your data up to that point.
+Use an actually available recovery point, retain a current protective checkpoint and account for incoming live content. After the supported operation settles, test the site and preserve the recovery handle until accepted.
 
-## Tips 
-Utilize Staging Environments: Before making changes, use a staging site to test updates. This can prevent the need for restorations. You can even make a stage from a past point-in-time, down to the minute.
+See [the Time Machine workflow]({{< relref "products/time-machine/get-started-with-pit-machine/index.md" >}}). Choose a recovery point that is available for the site.
