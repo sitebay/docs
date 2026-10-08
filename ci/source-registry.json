@@ -56,7 +56,9 @@
         },
         {
           "path": "sitebay/app/api/__init__.py",
-          "sha256": "9a1a632ebc07c57a75f0841cfcb35e2367c051f9b9401471261157dc155f253f"
+          "sha256": "6fd7340c595cb7c034a85cc96a8179b45e19495c44478c049c5e4ed6534c7904",
+          "previous_review_sha256": "9a1a632ebc07c57a75f0841cfcb35e2367c051f9b9401471261157dc155f253f",
+          "reviewed_at": "2026-10-08"
         },
         {
           "path": "sitebay/app/api/site/__init__.py",
@@ -1357,11 +1359,15 @@
       "files": [
         {
           "path": "sitebay/docs/ci/llm_export.py",
-          "sha256": "b052e966d7a84125ece1086ee1eb2c852b0c566c0adde9f6d0652e364b836620"
+          "sha256": "080ed1c91cce9990a85fb845c0a0d24b6b4b0c8fbcfc5329f733c5ab35291a80",
+          "previous_review_sha256": "b052e966d7a84125ece1086ee1eb2c852b0c566c0adde9f6d0652e364b836620",
+          "reviewed_at": "2026-10-08"
         },
         {
           "path": "sitebay/docs/ci/llm_readiness.py",
-          "sha256": "c6ce55f3fc3309501ef7acbeff3f4d6e57f7c7f61b6b02254bc4edeaef6b78b4"
+          "sha256": "296f0f9d7ce8201c5f7ce4e4de1d7775cc3f9a854696c078f11921036b74bd06",
+          "previous_review_sha256": "c6ce55f3fc3309501ef7acbeff3f4d6e57f7c7f61b6b02254bc4edeaef6b78b4",
+          "reviewed_at": "2026-10-08"
         },
         {
           "path": "sitebay/docs/ci/scripts/build-docs-corpus.py",
@@ -1369,7 +1375,9 @@
         },
         {
           "path": "sitebay/docs/ci/scripts/build-docs.sh",
-          "sha256": "6ce0d32458d57fbd04b9e5f063c1f62ebe1e5d312d2f61c160bfcd18b0bbeac3"
+          "sha256": "65d57f53d6439c2c9378def0e8446a350df1bfe163771d0f26b01d8c7f4ae77f",
+          "previous_review_sha256": "6ce0d32458d57fbd04b9e5f063c1f62ebe1e5d312d2f61c160bfcd18b0bbeac3",
+          "reviewed_at": "2026-10-08"
         },
         {
           "path": "sitebay/docs/layouts/partials/docs/machine-metadata.html",
@@ -1388,6 +1396,48 @@
         "https://llmstxt.org/",
         "https://developers.google.com/search/docs/appearance/ai-features",
         "https://developers.openai.com/api/docs/bots"
+      ]
+    },
+    "current-platform-activation": {
+      "reviewed_at": "2026-10-08",
+      "note": "Router additions reviewed against source. Mission runtime needs owner installation; Forge domains require enabled provider and owner-reviewed actions. No activation performed.",
+      "files": [
+        {
+          "path": "sitebay/app/api/__init__.py",
+          "sha256": "6fd7340c595cb7c034a85cc96a8179b45e19495c44478c049c5e4ed6534c7904",
+          "checkout_head": "1343855ec59a7c105040cb396a5ba94a3114dad8",
+          "working_tree_modified": true
+        },
+        {
+          "path": "sitebay/app/api/platform/mission_runtime.py",
+          "sha256": "1c44d5d1baf85fc05ea8765d5cf3b20562884378f507750efd1734416ec948af",
+          "checkout_head": "1343855ec59a7c105040cb396a5ba94a3114dad8",
+          "working_tree_modified": true
+        },
+        {
+          "path": "sitebay/app/services/mission_runtime/installation.py",
+          "sha256": "b948bf614088c18bb5e9eb82bb7ce306f1438cb488183ae9035453fc1d7c2e94",
+          "checkout_head": "1343855ec59a7c105040cb396a5ba94a3114dad8",
+          "working_tree_modified": true
+        },
+        {
+          "path": "sitebay/app/api/platform/forge_domains.py",
+          "sha256": "d748fa516521420b5f60c5964b644555ba572aa2b2cbcaa022ad3d2c6c547c9a",
+          "checkout_head": "1343855ec59a7c105040cb396a5ba94a3114dad8",
+          "working_tree_modified": true
+        },
+        {
+          "path": "sitebay/app/services/forge_domains.py",
+          "sha256": "a1f70179e758feaa719c3cb7a243be41313a46c4f0a846d7a437e0134485acd0",
+          "checkout_head": "1343855ec59a7c105040cb396a5ba94a3114dad8",
+          "working_tree_modified": true
+        },
+        {
+          "path": "sitebay/app/core/config.py",
+          "sha256": "6d3d2aff7caddb45397f00bd18e3419acb892b5b46cf6e1917fd570ad8464382",
+          "checkout_head": "1343855ec59a7c105040cb396a5ba94a3114dad8",
+          "working_tree_modified": true
+        }
       ]
     }
   },

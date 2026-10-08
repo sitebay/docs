@@ -33,7 +33,6 @@
   "articles/knowledge/_index.md": "/docs/knowledge/",
   "articles/knowledge/upstream-library.md": "/docs/knowledge/upstream-library/",
   "articles/knowledge/system-map.md": "/docs/knowledge/system-map/",
-  "articles/sorti/siteclaw-to-sorti.md": "/docs/sorti/siteclaw-to-sorti/",
   "articles/sorti/missions-and-approvals.md": "/docs/sorti/missions-and-approvals/",
   "articles/sorti/skills-and-collections.md": "/docs/sorti/skills-and-collections/",
   "articles/sorti/work-with-your-site.md": "/docs/sorti/work-with-your-site/",
@@ -51,5 +50,6 @@
   "articles/sorti/create-a-review-skill.md": "/docs/sorti/create-a-review-skill/",
   "articles/vscode/test-localhost-with-sorti.md": "/docs/vscode/test-localhost-with-sorti/",
   "articles/sorti/build-a-counter-panel.md": "/docs/sorti/build-a-counter-panel/",
-  "articles/sorti/recover-an-interrupted-task.md": "/docs/sorti/recover-an-interrupted-task/"
+  "articles/sorti/recover-an-interrupted-task.md": "/docs/sorti/recover-an-interrupted-task/",
+  "articles/sorti/current-workflows.md": "/docs/sorti/current-workflows/"
 }

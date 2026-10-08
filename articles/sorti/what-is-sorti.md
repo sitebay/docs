@@ -28,7 +28,7 @@ doc_sources:
 modified: 2026-10-08
 ---
 
-Sorti is SiteBay's assistant workspace, previously called SiteClaw. It combines conversation with applications, panels, files, and visible task progress. Use it to inspect a system, request a defined change, and check the result in the same workspace.
+Sorti is SiteBay's assistant workspace. It combines conversation with applications, panels, files, and visible task progress. Use it to inspect a system, request a defined change, and check the result in the same workspace.
 
 ## Choose the surface for the task
 
@@ -54,4 +54,4 @@ Start with [Get started with Sorti]({{< relref "products/sorti/get-started/index
 
 A queued request, a completed tool call, a saved file, and a published deployment are different outcomes. Read the operation's result and verify the behavior that matters to the task. Opening a mission report does not start it, and stopping an attempt does not undo remote effects.
 
-Older SiteClaw instructions are mapped in [SiteClaw is now Sorti]({{< relref "sorti/siteclaw-to-sorti.md" >}}). Capabilities described here are checked against current source; a particular server may still require an update or a separate connection before exposing them.
+Choose a task in [Current Sorti workflows]({{< relref "sorti/current-workflows.md" >}}). Capabilities described here are checked against current source; a particular server may still require an update or a separate connection before exposing them.

@@ -26,14 +26,14 @@ doc_sources:
 modified: 2026-10-08
 ---
 
-Use Sorti to inspect a workspace, request a defined task, and verify the result. SiteClaw is the former product name; current guides use Sorti and preserve older links as redirects.
+Use Sorti to inspect a workspace, request a defined task, and verify the result.
 
 ## Start here
 
 | Task | Guide |
 | --- | --- |
 | Start an assisted workflow | [Get started with Sorti]({{< relref "products/sorti/get-started/index.md" >}}) |
-| Follow an older tutorial | [SiteClaw is now Sorti]({{< relref "sorti/siteclaw-to-sorti.md" >}}) |
+| Choose a procedure | [Current Sorti workflows]({{< relref "sorti/current-workflows.md" >}}) |
 | Inspect or change a site | [Work with your site]({{< relref "sorti/work-with-your-site.md" >}}) |
 | Inspect progress or a pending decision | [Missions and approvals]({{< relref "sorti/missions-and-approvals.md" >}}) |
 | Reuse team procedures | [Skills and collections]({{< relref "sorti/skills-and-collections.md" >}}) |

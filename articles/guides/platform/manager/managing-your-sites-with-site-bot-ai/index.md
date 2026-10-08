@@ -14,9 +14,6 @@ modified_by:
   name: SiteBay
 published: 2024-04-21
 title: Ask Sorti to manage a site
-aliases:
-- /quick-answers/platform/managing-your-sites-with-siteclaw-ai/
-- /guides/managing-your-sites-with-siteclaw-ai/
 authors:
 - SiteBay
 contributors:

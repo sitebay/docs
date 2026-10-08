@@ -14,3 +14,5 @@ fi
 node ci/scripts/build-pagefind.mjs "$output"
 
 "${PYTHON:-python3}" ci/llm_export.py --public-dir "$output"
+
+"${PYTHON:-python3}" ci/legacy_routes.py --public-dir "$output"

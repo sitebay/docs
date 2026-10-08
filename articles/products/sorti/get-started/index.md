@@ -26,10 +26,6 @@ tags:
 - ai
 - voice
 - chatgpt
-aliases:
-- /quick-answers/sitebay-essentials/siteclaw/
-- /products/siteclaw/get-started/
-- /products/siteclaw/get-started-siteclaw/
 authors:
 - SiteBay
 contributors:
@@ -41,7 +37,7 @@ doc_sources:
 - docs-knowledge
 ---
 
-Sorti is the current name for SiteClaw. It combines conversation with a workspace where you can inspect sites, panels, files, and task progress. Start with a read-only inspection before requesting your first change.
+Sorti combines conversation with a workspace where you can inspect sites, panels, files, and task progress. Start with a read-only inspection before requesting your first change.
 
 ## Select the workspace
 
@@ -71,7 +67,7 @@ Use [Missions and approvals]({{< relref "sorti/missions-and-approvals.md" >}}) f
 
 Use [Skills and collections]({{< relref "sorti/skills-and-collections.md" >}}) for reusable team instructions. Use the [documentation reader]({{< relref "knowledge/read-with-mcp.md" >}}) to search maintained procedures and read their source citations. Neither feature grants new tool permissions.
 
-For site operations, follow [Work with your site]({{< relref "sorti/work-with-your-site.md" >}}). For an old tutorial or screenshot, read [SiteClaw is now Sorti]({{< relref "sorti/siteclaw-to-sorti.md" >}}) before translating any configuration names.
+For site operations, follow [Work with your site]({{< relref "sorti/work-with-your-site.md" >}}). Use [Current Sorti workflows]({{< relref "sorti/current-workflows.md" >}}) to choose a procedure and verify the exact configuration names.
 
 ## Verify before publishing
 

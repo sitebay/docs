@@ -31,8 +31,6 @@ doc_sources:
 - sorti-hooks
 - sorti-panels
 - sorti-current-signals
-aliases:
-- /products/siteclaw/signal-hooks/
 ---
 
 A signal carries a named event and payload into the session hook bus. Hooks receive only the channels they explicitly subscribe to.
@@ -73,6 +71,6 @@ Template fields can use `{{channel}}`, `{{payload}}`, `{{site}}`, and `{{timesta
 
 ## Keep channel names stable
 
-The SiteClaw-to-Sorti product rename does not rename signal channels. Keep `git_changed`, `editor_signal`, and other producer-defined names intact. The registry is a naming convention, not a payload-validation service. Version an incompatible payload instead of silently changing what existing hooks receive.
+Product wording does not change signal channels. Keep `git_changed`, `editor_signal`, and other producer-defined names intact. The registry is a naming convention, not a payload-validation service. Version an incompatible payload instead of silently changing what existing hooks receive.
 
 Inspect the producer and the hook subscription when an event is missing. Test one harmless notification, then check which channel and payload arrived. A session signal is not a receipt that a deployment or external workflow completed.

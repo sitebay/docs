@@ -104,3 +104,18 @@ Root robots policy, CDN access for verified crawlers, indexed-page coverage,
 and actual AI citations could not be verified. No DNS, firewall, crawler
 training opt-in, deployment, or main-branch change was made. Readiness scoring
 is a versioned project checklist, not an external SEO rating or ranking promise.
+
+## Current Sorti documentation pass
+
+The retired product name has been removed from active article text, metadata,
+source paths, agent index introductions, and editable SVG labels. Compatibility
+route maps and historical verification records retain old identifiers; they are
+not authored reference text. The build keeps those aliases out of the raw MCP
+corpus. The text scanner does not establish the absence of words inside every
+raster image. No deployed product, database, DNS, or release was changed.
+
+The latest SiteBay router additions expose shared mission and Forge-domain
+services only through their owning installation and activation gates. The docs
+now distinguish those source additions from live availability. Pinned original
+contributions retain their historical scope, rather than claiming their old
+software settings are universal current recommendations.

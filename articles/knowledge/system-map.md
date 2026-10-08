@@ -22,6 +22,7 @@ doc_sources:
 - sorti-current-core
 - sorti-current-skills
 - docs-infrastructure
+- current-platform-activation
 ---
 
 The documentation repository explains the system. It does not own customer state or grant access to it.
@@ -57,3 +58,9 @@ Do not index an entire home directory as public knowledge. Credentials, customer
 The team skill library is part of Sorti and its authenticated team configuration. Skills provide reusable instructions and collections; the documentation reader supplies cited reference passages. Neither the browser Pagefind index nor the docs pgvector database is the skill library or mission ledger.
 
 For an existing MCP connection, no pgvector implementation change is required in the Sorti or SiteBay source tree. See [service ownership]({{< relref "knowledge/service-ownership.md" >}}) for the required process and database configuration.
+
+## Backend activation is separate from documentation
+
+The current SiteBay router includes the shared mission runtime and Forge domain services. The shared runtime requires its owner installation before use; importing its route does not create an active shared service. Forge custom domains require the deployment flag and an installed provider, and their publication and DNS actions require owner review rather than generic MCP access.
+
+Those operational services do not use the docs retrieval database as their mission ledger. Check [Current Sorti workflows]({{< relref "sorti/current-workflows.md" >}}) and the owning deployment before treating a source-supported feature as available.

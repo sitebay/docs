@@ -61,6 +61,8 @@ jobs:
         run: python ci/check-redirects.py --public-dir public --report .cache/redirects.json
       - name: Validate agent exports and local readiness
         run: python ci/llm_readiness.py --retrieval-report .cache/retrieval.json --report .cache/llm-readiness.json --check
+      - name: Reject retired branding in source and generated content
+        run: python ci/current_brand.py --public-dir public --report .cache/current-brand.json
       - name: Verify every article review record
         run: python ci/content_review.py --report .cache/content-review.json
       - name: Validate every article without a baseline

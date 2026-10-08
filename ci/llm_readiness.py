@@ -90,7 +90,7 @@ RUBRIC = {
     "rename": (
         "Task usefulness",
         5,
-        "Sorti rename is explicit and legacy redirects verified",
+        "Current Sorti identity and legacy redirects verified",
     ),
     "retrieval": (
         "Task usefulness",
@@ -325,18 +325,18 @@ def audit(
         (
             d
             for d in docs
-            if d["source"]["path"] == "articles/sorti/siteclaw-to-sorti.md"
+            if d["source"]["path"] == "articles/sorti/current-workflows.md"
         ),
         {},
     )
     record(
         "rename",
         bool(rename)
-        and "SiteClaw" in rename.get("raw", "")
+        and "siteclaw" not in rename.get("raw", "").lower()
         and "Sorti" in rename.get("raw", "")
         and alias
         and alias.get("href") == target,
-        "SiteClaw rename and redirect",
+        "Current Sorti workflow and compatibility redirect",
     )
     r = load(retrieval, {}) if retrieval else {}
     # Evaluator labels its corpus revision; never reuse a green result from another corpus.
@@ -397,7 +397,7 @@ def audit(
         totals[c["category"]]["earned"] += c["earned"]
         totals[c["category"]]["possible"] += c["possible"]
     return {
-        "rubric": "sitebay-documentation-llm-readiness-v1",
+        "rubric": "sitebay-documentation-llm-readiness-v2",
         "not_a_ranking_score": True,
         "scope": "Built documentation and bounded lexical retrieval; no causal claim about AI search ranking.",
         "corpus_revision": corpus["revision"],

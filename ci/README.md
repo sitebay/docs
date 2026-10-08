@@ -193,3 +193,21 @@ Primary references: [Google AI search requirements](https://developers.google.co
 [OpenAI crawlers](https://developers.openai.com/api/docs/bots), and the
 [llms.txt proposal](https://llmstxt.org/). Machine-reading files are useful for
 agents consuming the docs, not a special Google inclusion requirement.
+
+## Current product wording
+
+Use Sorti in all authored product copy, paths, labels and agent indexes.
+`ci/current_brand.py` rejects retired branding in active text and generated
+HTML/Markdown/JSON/SVG. It does not claim to OCR every raster image.
+
+Legacy bookmarks live in `data/legacy-doc-routes.json`, not article front matter.
+The build writes noindex compatibility redirects after the reference corpus,
+so old aliases do not become source text returned by MCP. All eight redirect
+destinations are checked. Build in a fresh destination when replacing an older
+artifact; old article output is not silently deleted. Historical verification
+records and Git history retain their original wording.
+
+The readiness rubric is now `sitebay-documentation-llm-readiness-v2`: its identity
+check requires current-only product text and working compatibility redirects,
+rather than migration wording. The weights are unchanged; scores from different
+rubric versions must not be silently compared.

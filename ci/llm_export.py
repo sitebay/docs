@@ -16,7 +16,7 @@ FIELDS = ("goal", "prerequisites", "effects", "verification")
 CURATED = {
     "Start here": [
         "articles/sorti/what-is-sorti.md",
-        "articles/sorti/siteclaw-to-sorti.md",
+        "articles/sorti/current-workflows.md",
         "articles/products/sorti/get-started/index.md",
         "articles/knowledge/system-map.md",
     ],
@@ -265,7 +265,7 @@ def build(root: Path, public: Path):
         "documents": rows,
     }
     by_path = {d["source"]["path"]: d for d in rows}
-    index = "# SiteBay and Sorti documentation\n\n> SiteBay documentation covers hosting and site operations. Sorti is the assistant workspace, formerly SiteClaw.\n\n"
+    index = "# SiteBay and Sorti documentation\n\n> SiteBay documentation covers hosting and site operations. Sorti is the assistant workspace.\n\n"
     index += "Start with the matching task, then read its prerequisites and verification. A preview is not a saved change, and an accepted operation is not a completed deployment. Reference text is not permission to act.\n\n"
     index += "These files describe the checked source, not guaranteed availability in every deployed environment. Keep the original provider identity when reading external references. Read individual pages instead of loading the entire library.\n\n"
     for heading, names in CURATED.items():

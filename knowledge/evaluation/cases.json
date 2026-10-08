@@ -123,10 +123,10 @@
       ]
     },
     {
-      "query": "SiteClaw renamed Sorti",
+      "query": "Current Sorti workflows and connection identifiers",
       "source": "sitebay",
       "expected_paths": [
-        "articles/sorti/siteclaw-to-sorti.md"
+        "articles/sorti/current-workflows.md"
       ]
     },
     {

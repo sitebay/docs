@@ -10,12 +10,12 @@ redirects = importlib.util.module_from_spec(spec); spec.loader.exec_module(redir
 
 class CurrentSortiTests(unittest.TestCase):
     def test_current_brand_metadata(self):
-        for p in (ROOT/'articles').rglob('*.md'):
-            meta = yaml.safe_load(p.read_text().split('---', 2)[1])
-            if p.name == 'siteclaw-to-sorti.md': continue
-            text = json.dumps({k: meta.get(k) for k in ['title','description','tags','keywords','slug']}, default=str)
-            self.assertNotIn('siteclaw', text.lower(), str(p))
-        self.assertEqual(list((ROOT/'articles/products/siteclaw').rglob('*.md')), [])
+        for p in (ROOT/'articles').rglob('*'):
+            if p.is_file() and p.suffix in ('.md','.json','.svg'):
+                self.assertNotIn('siteclaw', p.read_text().lower(), str(p))
+                self.assertNotIn('siteclaw', p.relative_to(ROOT).as_posix().lower())
+        expected=json.loads((ROOT/'ci/expected-redirects.json').read_text())
+        self.assertEqual(expected,json.loads((ROOT/'data/legacy-doc-routes.json').read_text()))
     def test_machine_identifiers_survive_brand_change(self):
         settings = (ROOT/'articles/vscode/settings.md').read_text()
         for key in ['sitebay.roomName','sitebay.serverUrl','sitebay.mcpProxy.enabled']:

@@ -1554,7 +1554,7 @@
     },
     "articles/guides/platform/manager/managing-your-sites-with-site-bot-ai/index.md": {
       "original_path": "articles/guides/platform/manager/managing-your-sites-with-site-bot-ai/index.md",
-      "file_sha256": "ee9e0261738b4becc18cd59d69052da4ad5be4a0001f2e060a7ced6b07425201",
+      "file_sha256": "d1b3b456c84c226ad2ecfe1d478a77aed8012ff2c48a07a3a551afa238014d54",
       "body_sha256": "2e7a52d598288043d53fe7eb27deee249687d755449a410010d13392ab752556",
       "original_body_sha256": "683af4fbf9750203f8155e6fbda4c3198ebc57d5d93508ccd598d7651a0a18af",
       "body_changed": true,
@@ -1562,7 +1562,7 @@
         "sorti-current-core",
         "sorti-current-app"
       ],
-      "change": "Replace the former SiteClaw canonical slug and generic assistant steps with current Sorti site and mission procedures.",
+      "change": "Move retired-name URL aliases to the isolated compatibility map; no active reference text contains the old brand.",
       "original_words": 459,
       "updated_words": 199,
       "headless": false,
@@ -4725,8 +4725,8 @@
     },
     "articles/sorti/_index.md": {
       "original_path": "articles/sorti/_index.md",
-      "file_sha256": "3fc8b1f1ddae283488d0208155421a9df456e01e8ae5ab60c9893860c498b40e",
-      "body_sha256": "77fbf23c21f673f34ac2fdf83868ddbed597607196c07b7882f7a7c9824b5eb5",
+      "file_sha256": "4ac4c02f3fd1357ecd8841e52caaf2270df7ff650ba559db22170443b9f534bb",
+      "body_sha256": "29ec941f1703f0bb221ffa9f1ac5611fb7093200ccf824b572ca52e6ce8d903e",
       "original_body_sha256": "36e298c43239eb2fbe73915afbc3aab4b2d9130fac5471e90d0ecef9f375bccc",
       "body_changed": true,
       "basis": [
@@ -4735,9 +4735,9 @@
         "sorti-current-skills",
         "docs-knowledge"
       ],
-      "change": "Link the new task tutorials from the existing product and editor navigation.",
+      "change": "Use only Sorti product wording and link the task-oriented current workflow guide.",
       "original_words": 508,
-      "updated_words": 293,
+      "updated_words": 275,
       "headless": false,
       "prior_file_sha256": "22456f551f01a68851f1dc2bb725409cd760d3b3d7430bc322c10ea4200a9b73",
       "prior_review_change": "Replace stale section marketing with a short purpose and current navigation.",
@@ -4883,8 +4883,8 @@
     },
     "articles/sorti/what-is-sorti.md": {
       "original_path": "articles/sorti/what-is-sorti.md",
-      "file_sha256": "13a2909e31eb8f792f798ccfe19d8b0534f989ce38589251ca0bf903fff96757",
-      "body_sha256": "906732df1f8c87e10d229d775144d07ae92aafd5cfa57ce35bc5da8eb35160ad",
+      "file_sha256": "650804705f8379617fdd40eae738f99ae8c6afc45eb470b4a2215e027f308ea7",
+      "body_sha256": "d4e6c9f0831abcbfe62fd57ae8fabd93107f589ba26fe107e4ee87fc041eb65c",
       "original_body_sha256": "a2735f3bffd045dd36c33349e7a94d2247dafa38fb9bd45b88f4f37d8790756d",
       "body_changed": true,
       "basis": [
@@ -4896,9 +4896,9 @@
         "sorti-current-skills",
         "docs-knowledge"
       ],
-      "change": "Expand the guide against current implementation and connect the new task-first Sorti articles.",
+      "change": "Use only Sorti product wording and link the task-oriented current workflow guide.",
       "original_words": 566,
-      "updated_words": 392,
+      "updated_words": 386,
       "headless": false,
       "prior_file_sha256": "66c5105393fdb2511c126182a149a63d71a807fe94bd52c04b8e959c1bf481c8",
       "prior_review_change": "Consolidate the procedure around the current source contract.",
@@ -5189,8 +5189,8 @@
     },
     "articles/knowledge/task-map.md": {
       "original_path": null,
-      "file_sha256": "9587e68a50dc640d6a5847eae057ae498687164f88ede3920137f9e1599ebe83",
-      "body_sha256": "f97c116cd9371b98103dab78a984e305b0d1531331dc5478fce196832c88661f",
+      "file_sha256": "1f068cc52a8f901f8168886420c1bfe60b2d8106ab59407db1042ec33af26d5b",
+      "body_sha256": "e4a395e7a51cfad5a7bddcde1f92375b8ebc83fd74b9044bc794198067cf89e9",
       "original_body_sha256": null,
       "body_changed": true,
       "basis": [
@@ -5200,7 +5200,7 @@
         "sorti-current-core",
         "sorti-current-skills"
       ],
-      "change": "Expand the guide against current implementation and connect the new task-first Sorti articles.",
+      "change": "Use only Sorti product wording and link the task-oriented current workflow guide.",
       "original_words": 0,
       "updated_words": 411,
       "headless": false,
@@ -5210,8 +5210,8 @@
     },
     "articles/knowledge/system-map.md": {
       "original_path": null,
-      "file_sha256": "7e80b2a9c74c785e5af471f244ffb4c879bea1368892210462658602a8f349e9",
-      "body_sha256": "59cc02940347dcb65a365f8807ac108da824ec813e03de9da11556c981c48268",
+      "file_sha256": "bf45195e1b36b1f60a5eccdd9fc81511b81d0f6477c38f574dd5c71e4bece0f8",
+      "body_sha256": "eb1d4092429f61d0106838bdb178fc720c9922a73bdbb95b41998c2b49c994b5",
       "original_body_sha256": null,
       "body_changed": true,
       "basis": [
@@ -5220,11 +5220,12 @@
         "api-contract",
         "sorti-current-core",
         "sorti-current-skills",
-        "docs-infrastructure"
+        "docs-infrastructure",
+        "current-platform-activation"
       ],
-      "change": "Connect the deployed-reader procedure and clarify default versus container binding and ownership.",
+      "change": "Document newly mounted runtime/domain services and their separate installation/activation boundaries.",
       "original_words": 0,
-      "updated_words": 395,
+      "updated_words": 491,
       "headless": false,
       "prior_file_sha256": "ccfcd2faffd60d71b1bc277906699b4d43e6960e4350cfaa29b4d1065ee1c3c3",
       "prior_review_change": "Add an original implementation-grounded guide for the documentation knowledge service.",
@@ -5320,8 +5321,8 @@
     },
     "articles/products/sorti/get-started/index.md": {
       "original_path": "articles/products/siteclaw/get-started/index.md",
-      "file_sha256": "866a964bb4fb35373d1ec5d8a1c4c4c5407fd79bd85fdd2d636d8440f10aae15",
-      "body_sha256": "4859830e2799799a3d940081a5b54c5719c2df3b63edba9b5e440820e02fdcab",
+      "file_sha256": "08f3fdf2e15ac62daaee23b9a699cc1a60818ea1ef02b991bd189e11aeae97a9",
+      "body_sha256": "ed623eef704bf3105756549a4b41fb25ec9a4cf9d2d2f9a827ce1345d1458c3d",
       "original_body_sha256": "6a1d0a9641bf7aa0f4524edbbffd8b8195531329a537d8dd77f96177535417fc",
       "body_changed": true,
       "basis": [
@@ -5330,9 +5331,9 @@
         "sorti-canvas",
         "docs-knowledge"
       ],
-      "change": "Link the new task tutorials from the existing product and editor navigation.",
+      "change": "Use only Sorti product wording and link the task-oriented current workflow guide.",
       "original_words": 676,
-      "updated_words": 428,
+      "updated_words": 419,
       "headless": false,
       "prior_file_sha256": "0c7fbd5bf7bad94d3b26fe8eabd55957f453b22a3664f7646bc67bfa71c24eee",
       "prior_review_change": "Keep the legacy entry route while pointing to the maintained workspace workflow.",
@@ -5340,8 +5341,8 @@
     },
     "articles/products/sorti/signal-hooks/index.md": {
       "original_path": "articles/products/siteclaw/signal-hooks/index.md",
-      "file_sha256": "254b7d143130c4f11e1c6d36a4e3443f4393895ef73412dbb1a7ecd022c33333",
-      "body_sha256": "e5df668abf7f9e2aa333efc593456d047ce6fd45095f0321c6d984f155663158",
+      "file_sha256": "d44086681337f73b7e23989dea36f9c89825995384b5f7cf9a25908747b49610",
+      "body_sha256": "ecd52e38fcdff03f7ba17249f038a88a885bb6ee53c288a86092f53bdc2a7653",
       "original_body_sha256": "24ae120bd820bd736bc7a80a3eb17b76ae2d966f7d2070c0d7734036cbbf8c5e",
       "body_changed": true,
       "basis": [
@@ -5349,32 +5350,13 @@
         "sorti-panels",
         "sorti-current-signals"
       ],
-      "change": "Move the former SiteClaw product guide to Sorti, preserve its published URL as an alias, and review the current workflow.",
+      "change": "Use only Sorti product wording and link the task-oriented current workflow guide.",
       "original_words": 756,
-      "updated_words": 314,
+      "updated_words": 312,
       "headless": false,
       "prior_file_sha256": "52d8fd5a5526ae68667052d241c0bc87be39fcca072dae2252dc7a4361a14530",
       "prior_review_change": "Remove the fake universal notification and unsigned-payment example; explain subscription, approval, and delivery scope.",
       "reviewed_at": "2026-10-08"
-    },
-    "articles/sorti/siteclaw-to-sorti.md": {
-      "original_path": null,
-      "original_body_sha256": null,
-      "original_words": 0,
-      "file_sha256": "21058307b0aaeb13cd9f931d98ae83bd83cab6376ae0938aee765246e847abe2",
-      "body_sha256": "dc71d7cd37364c30e4db340cd64ba2d2b36623cd19cc38c8d369efc9294ff441",
-      "body_changed": true,
-      "basis": [
-        "sorti-current-core",
-        "sorti-current-app",
-        "docs-knowledge",
-        "sorti-current-skills",
-        "editor-bridge"
-      ],
-      "change": "Expand the guide against current implementation and connect the new task-first Sorti articles.",
-      "reviewed_at": "2026-10-08",
-      "updated_words": 388,
-      "headless": false
     },
     "articles/sorti/missions-and-approvals.md": {
       "original_path": null,
@@ -5465,16 +5447,16 @@
       "original_path": null,
       "original_body_sha256": null,
       "original_words": 0,
-      "file_sha256": "f6abb62321eae2e1dc234785e6e71c8fd0e68c34fab35fe7bd1b0f01fe6bd805",
-      "body_sha256": "45a83983473fadc54648d8de1b096d7478fb817f57f5a72a666a36518b70c07b",
+      "file_sha256": "5e9889e25c2c0f2930b7d68dcff04f0a67edea0929e899167ed879b9cd50775a",
+      "body_sha256": "ed5dfb90b74fc1e166434b1045316df7c4596856062db6b89c0d72458768f5df",
       "body_changed": true,
       "basis": [
         "sorti-current-core",
         "sorti-current-app"
       ],
-      "change": "Add the current Sorti product landing page and preserve the former section URL.",
+      "change": "Use only Sorti product wording and link the task-oriented current workflow guide.",
       "reviewed_at": "2026-10-08",
-      "updated_words": 72,
+      "updated_words": 69,
       "headless": false
     },
     "articles/knowledge/deploy-with-pulumi.md": {
@@ -5635,6 +5617,27 @@
       "reviewed_at": "2026-10-08",
       "updated_words": 705,
       "headless": false
+    },
+    "articles/sorti/current-workflows.md": {
+      "original_path": null,
+      "original_body_sha256": null,
+      "original_words": 0,
+      "file_sha256": "a034841bb240aef88b35fff1a5b5a75a10f267d251c13259450ef6603736b5e0",
+      "body_sha256": "82755807294010364a9ee552534884ce85222cfd260ca7a7ef73de3f2950e33e",
+      "body_changed": true,
+      "basis": [
+        "sorti-current-core",
+        "sorti-current-app",
+        "docs-knowledge",
+        "sorti-current-skills",
+        "editor-bridge",
+        "current-platform-activation"
+      ],
+      "change": "Replace migration-oriented naming with a current task guide and source-verified platform activation boundaries.",
+      "reviewed_at": "2026-10-08",
+      "updated_words": 502,
+      "headless": false,
+      "previous_path": "articles/sorti/siteclaw-to-sorti.md"
     }
   },
   "completion_review_date": "2026-10-08"
