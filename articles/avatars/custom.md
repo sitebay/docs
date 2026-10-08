@@ -28,4 +28,4 @@ Use GLB files built for realtime characters rather than high-poly renders. Prefe
 
 If an import is blocked, choose a model with a stronger viseme badge or use the Sketchfab browser's filtered results.
 
-See [Sketchfab Avatars](/articles/avatars/sketchfab/) for finding compatible models and [Visemes Explained](/articles/avatars/visemes-explained/) for what the badges mean.
+See [Sketchfab Avatars](/docs/avatars/sketchfab/) for finding compatible models and [Visemes Explained](/docs/avatars/visemes-explained/) for what the badges mean.

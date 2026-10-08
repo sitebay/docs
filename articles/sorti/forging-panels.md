@@ -16,7 +16,7 @@ step, no deploy, no code review, because there is no code — a forged panel
 is data all the way down.
 
 This article explains the ideas. For the exact vocabulary (every op,
-expression, and budget), see the [forge reference](/articles/sorti/forge-reference/),
+expression, and budget), see the [forge reference](/docs/sorti/forge-reference/),
 which is generated from the same document the forge's own authoring agent
 reads.
 
@@ -111,9 +111,9 @@ whose source you could never see.
 
 ## Where to go next
 
-- [Forge reference](/articles/sorti/forge-reference/) — the exact op and
+- [Forge reference](/docs/sorti/forge-reference/) — the exact op and
   expression vocabulary, generated from the canonical in-product skill.
-- [Developing Sorti Panels](/articles/sorti/developing-sorti-panels/) — the
+- [Developing Sorti Panels](/docs/sorti/developing-sorti-panels/) — the
   first-party panel workflow (when you're writing code, not forging).
-- [Panels and MCP](/articles/sorti/panels-and-mcp/) — how panels ride MCP
+- [Panels and MCP](/docs/sorti/panels-and-mcp/) — how panels ride MCP
   resources and tools underneath.

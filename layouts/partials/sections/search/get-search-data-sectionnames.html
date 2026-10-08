@@ -1,0 +1,8 @@
+{{/* Keep local search coverage aligned with the configured content navigation. */}}
+{{ $sectionNames := slice "" }}
+{{ range site.Params.search_config2.sections }}
+  {{ with .hugo_section }}
+    {{ if ne . "api" }}{{ $sectionNames = $sectionNames | append . }}{{ end }}
+  {{ end }}
+{{ end }}
+{{ return ($sectionNames | uniq) }}

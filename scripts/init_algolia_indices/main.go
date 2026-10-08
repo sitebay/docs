@@ -1,33 +1,31 @@
-//usr/bin/env go run -mod=readonly "$0" "$@"; exit "$?"
+// usr/bin/env go run -mod=readonly "$0" "$@"; exit "$?"
 package main
 
 import (
-	"os"
-	"log"
-	"fmt"
 	"encoding/json"
+	"fmt"
+	"github.com/sitebay/docs/scripts/internal/searchconfig"
 	"io/ioutil"
+	"log"
+	"os"
 	"strings"
 
+	"github.com/alexflint/go-arg"
+	"github.com/algolia/algoliasearch-client-go/v3/algolia/opt"
+	"github.com/algolia/algoliasearch-client-go/v3/algolia/search"
 	"github.com/pelletier/go-toml"
 	"github.com/pelletier/go-toml/query"
-	"github.com/alexflint/go-arg"
-	"github.com/algolia/algoliasearch-client-go/v3/algolia/search"
-	"github.com/algolia/algoliasearch-client-go/v3/algolia/opt"
 )
 
 var (
 	version = "v0.5"
 )
 
-const (
-	defaultAppID = "KGUN8FAIPF"
-)
-
 type config struct {
-	IndexSuffix string `help:"The suffix that is currently being used for the Algolia indices in config.toml. For example, for an index named 'linode-documentation-development-preview', the suffix is '-development-preview'). This is used to map the non-suffixed index names from algolia_settings.json to the current configuration."`
-	AppKey    string `arg:"env:ALGOLIA_ADMIN_API_KEY"`
-	AppID     string `arg:"env:ALGOLIA_APP_ID"`
+	ConfigFile  string `arg:"--config" default:"../../config.toml" help:"site-owned Hugo config"`
+	IndexSuffix string `help:"The suffix that is currently being used for the Algolia indices in config.toml. For example, for an index named 'sitebay-documentation-development-preview', the suffix is '-development-preview'). This is used to map the non-suffixed index names from algolia_settings.json to the current configuration."`
+	AppKey      string `arg:"env:ALGOLIA_ADMIN_API_KEY"`
+	AppID       string `arg:"env:ALGOLIA_APP_ID"`
 }
 
 func (config) Version() string {
@@ -35,7 +33,7 @@ func (config) Version() string {
 }
 
 type algoliaIndex struct {
-	name    string // The name of the index in Algolia.
+	name string // The name of the index in Algolia.
 }
 
 // This program uploads settings for each index in config.toml. If corresponding settings
@@ -44,39 +42,42 @@ type algoliaIndex struct {
 //
 // Usage:
 //
-//     ALGOLIA_ADMIN_API_KEY=<mysecret> init_algolia_indices
-//
+//	ALGOLIA_ADMIN_API_KEY=<mysecret> init_algolia_indices
 func main() {
 	log.SetPrefix("algolia: ")
 	log.SetFlags(log.Flags() &^ (log.Ldate | log.Ltime))
 
 	var cfg config
 	p := arg.MustParse(&cfg)
+	project, err := searchconfig.Load(cfg.ConfigFile)
+	if err != nil {
+		log.Fatal(err)
+	}
 
 	if cfg.AppKey == "" {
 		p.Fail("An Algolia admin API key must be provided either in the ALGOLIA_ADMIN_API_KEY OS environment variable or in --appkey.")
 
 	}
 	if cfg.AppID == "" {
-		cfg.AppID = defaultAppID
+		cfg.AppID = project.AppID
 	}
 	client := search.NewClient(cfg.AppID, cfg.AppKey)
 
 	// Load saved settings into memory
-    jsonFile, err := os.Open("../../algolia_settings.json")
-    if err != nil {
-        fmt.Println(err)
-    }
-    defer jsonFile.Close()
+	jsonFile, err := os.Open("../../algolia_settings.json")
+	if err != nil {
+		fmt.Println(err)
+	}
+	defer jsonFile.Close()
 
-    byteValue, _ := ioutil.ReadAll(jsonFile)
+	byteValue, _ := ioutil.ReadAll(jsonFile)
 	var algoliaSettings map[string]search.Settings
-    json.Unmarshal([]byte(byteValue), &algoliaSettings)
+	json.Unmarshal([]byte(byteValue), &algoliaSettings)
 
 	// Load config.toml, iterate through index configs. Upload the corresponding saved settings
 	// for each index in the config file to Algolia. Uploading the settings for index will
 	// passively create that index in Algolia if it doesn't exist already.
-	configToml, _ := toml.LoadFile("../../config.toml")
+	configToml := project.Tree
 
 	metaIndex := configToml.Get("params.search_config.meta_index").(string)
 	index := client.InitIndex(metaIndex)

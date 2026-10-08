@@ -125,7 +125,7 @@ def lowercase_filename(filepath):
     """File name must be all lowercase."""
     # Handle Windows filepaths. See https://stackoverflow.com/q/8384737
     #filename = ntpath.basename(str(filepath))
-    filename, file_extension = os.path.splitext(str(filepath))
+    filename, file_extension = os.path.splitext(str(Path(filepath).relative_to(Path(WORKING_DIR))))
 
     # Cartesian product of filenames and extension
     # e.g. README.txt, README.md, CHANGELOG.txt, CHANGELOG.md ...
@@ -145,7 +145,7 @@ def lowercase_filename(filepath):
 @add_rule
 def lowercase_extension(filepath):
     """File extensions must be lowercase."""
-    filename, file_extension = os.path.splitext(str(filepath))
+    filename, file_extension = os.path.splitext(str(Path(filepath).relative_to(Path(WORKING_DIR))))
     if file_extension != file_extension.lower():
         return str(filepath), "File extensions must be lowercase."
 
@@ -320,7 +320,7 @@ class TestManager(object):
     # TODO:
     # Gracefully handle non-existent filepath
 
-    def __init__(self, input_dir='docs/', ignore_paths=['docs/api/', 'docs/headless/', 'docs/products/', 'docs/reference-architecture/', 'docs/release-notes/', 'docs/marketplace-docs/'], **kwargs):
+    def __init__(self, input_dir='articles/', ignore_paths=[], **kwargs):
         self.input_dir = input_dir
         self.files = find_files(path=input_dir, ignore_paths=ignore_paths, recursive=True)
 

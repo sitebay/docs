@@ -1,0 +1,18 @@
+/* The wordmark is a wide 149 x 20 asset, not a square logomark. Applying the
+   common 38px mobile image height expands it beyond a 320px viewport. */
+.c-site-header__primary .c-identity__text .c-identity__image {
+  width: 149px;
+  height: 20px;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+/* Keep long inline API/type names readable without widening the document.
+   Fenced code retains its separate horizontally scrollable presentation. */
+.prose :not(pre) > code {
+  overflow-wrap: anywhere;
+  white-space: normal;
+}
+
+/* Long literal JSON and API paths in generated prose need a wrap opportunity. */
+.prose { overflow-wrap: anywhere; }

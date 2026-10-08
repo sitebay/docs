@@ -1,4 +1,5 @@
 ---
+layout: documentation-section
 title: "Avatars"
 description: "Use a SiteBay assistant avatar with speech and lip sync."
 tags: ["sitebay", "avatars", "voice"]
@@ -25,6 +26,6 @@ SiteBay supports three practical tiers:
 
 Upload or select a GLB avatar in Avatar Studio, then choose it for your assistant. Keep geometry lightweight enough for mobile, and include stable mouth and eye controls when possible.
 
-See [Bring Your Own Avatar](/articles/avatars/custom/) for import steps, [Sketchfab Avatars](/articles/avatars/sketchfab/) for filtered model search, and [Visemes Explained](/articles/avatars/visemes-explained/) for lip-sync quality.
+See [Bring Your Own Avatar](/docs/avatars/custom/) for import steps, [Sketchfab Avatars](/docs/avatars/sketchfab/) for filtered model search, and [Visemes Explained](/docs/avatars/visemes-explained/) for lip-sync quality.
 
 See [Voice Agent](/docs/voice/) for how voice sessions deliver avatar cues.

@@ -47,3 +47,6 @@ hugo_stats.json
 redirects.conf
 scripts/duplicates.csv
 algolia_out/
+
+# Hugo-generated editor metadata contains machine-local module paths.
+/assets/jsconfig.json

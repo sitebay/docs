@@ -1,0 +1,17 @@
+{{ define "main" }}
+<article class="w-full">
+  {{/* Product documentation must remain readable before any remote search
+       response, including when its new section has not been indexed yet. */}}
+  <div class="content prose prose-sm md:prose-lg max-w-content">
+    {{ .Content }}
+  </div>
+  <section class="mt-8" aria-labelledby="section-guides">
+    <h2 id="section-guides">In this section</h2>
+    <ul class="mt-4 space-y-3">
+      {{ range .RegularPages.ByWeight }}
+      <li><a class="text-brand underline" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
+      {{ end }}
+    </ul>
+  </section>
+</article>
+{{ end }}

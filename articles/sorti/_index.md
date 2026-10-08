@@ -1,4 +1,5 @@
 ---
+layout: documentation-section
 title: "Sorti"
 description: "A practical guide to Sorti, the SiteBay agent workspace for building, inspecting, and operating sites."
 tags: ["sorti", "sitebay", "ai"]
@@ -82,3 +83,8 @@ Use these pages if you are:
 - Writing docs for users who need to operate Sorti day to day.
 - Building an MCP server or panel that should plug into Sorti.
 - Explaining how the assistant, canvas, and SiteBay backend fit together.
+
+## Related integrations
+
+- [Build your own MCP for Sorti]({{< relref "mcp/byo-mcp.md" >}}).
+- [Play Slay the Spire 2 with Sorti]({{< relref "games/sts2.md" >}}).

@@ -1,5 +1,7 @@
 ---
 title: Play Slay the Spire 2 with Sorti
+published: 2026-10-07
+
 ---
 
 # Play Slay the Spire 2 with Sorti

@@ -21,4 +21,4 @@ In code-server, use the Extensions view or the matching `code-server --install-e
 - Keep the extension installed in the workspace where Sorti should operate.
 - Do not install a stale VSIX if SiteBay provides a newer one.
 
-After installing, open [Setup](/articles/vscode/setup/) to connect the bridge to SiteBay.
+After installing, open [Setup](/docs/vscode/setup/) to connect the bridge to SiteBay.

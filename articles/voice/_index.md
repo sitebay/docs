@@ -1,4 +1,5 @@
 ---
+layout: documentation-section
 title: "Voice Agent"
 description: "How SiteBay voice sessions work on mobile, web, and VS Code."
 tags: ["sitebay", "voice", "sorti"]
@@ -23,7 +24,7 @@ If you also use the SiteBay VS Code bridge, the extension can send the file you 
 4. The voice service synthesizes audio.
 5. Avatar cues are delivered so the assistant face can move with speech.
 
-Custom avatars work best when the GLB includes speech visemes or compatible facial blend shapes. See [Visemes Explained](/articles/avatars/visemes-explained/) before importing a custom avatar.
+Custom avatars work best when the GLB includes speech visemes or compatible facial blend shapes. See [Visemes Explained](/docs/avatars/visemes-explained/) before importing a custom avatar.
 
 ## Troubleshooting
 

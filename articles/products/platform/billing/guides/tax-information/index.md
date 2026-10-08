@@ -24,7 +24,7 @@ Here's the current breakdown of where we collect taxes and how much. Keep in min
 
 | Country | Tax Rate | What it is | When we started |
 | -- | -- | -- | -- |
-| [Canada](#canada) (see below) | | | |
+| Canada | | | |
 | United Kingdom | 20% | [VAT](https://www.gov.uk/vat-rates) | July 1, 2024 |
 | United States | 0% | | | |
 

@@ -1,7 +1,8 @@
-//usr/bin/env go run -mod=readonly "$0" "$@"; exit "$?"
+// usr/bin/env go run -mod=readonly "$0" "$@"; exit "$?"
 package main
 
 import (
+	"github.com/sitebay/docs/scripts/internal/searchconfig"
 	"log"
 
 	"github.com/alexflint/go-arg"
@@ -13,15 +14,11 @@ var (
 	version = "v0.6"
 )
 
-const (
-	defaultAppID = "KGUN8FAIPF"
-	index        = "linode-documentation-sections"
-)
-
 type config struct {
-	Filters string `arg:"required" help:"filter to delete by (see https://www.algolia.com/doc/api-reference/api-methods/delete-by/)"`
-	AppKey  string `arg:"env:ALGOLIA_ADMIN_API_KEY"`
-	AppID   string `arg:"env:ALGOLIA_APP_ID"`
+	ConfigFile string `arg:"--config" default:"../../config.toml" help:"site-owned Hugo config"`
+	Filters    string `arg:"required" help:"filter to delete by (see https://www.algolia.com/doc/api-reference/api-methods/delete-by/)"`
+	AppKey     string `arg:"env:ALGOLIA_ADMIN_API_KEY"`
+	AppID      string `arg:"env:ALGOLIA_APP_ID"`
 }
 
 func (config) Version() string {
@@ -32,8 +29,7 @@ func (config) Version() string {
 //
 // Usage:
 //
-//     ALGOLIA_ADMIN_API_KEY=<mysecret> clean_linode_sections_index --filters section:docs
-//
+//	ALGOLIA_ADMIN_API_KEY=<mysecret> clean_linode_sections_index --filters section:docs
 func main() {
 	log.SetPrefix("algolia: ")
 	log.SetFlags(log.Flags() &^ (log.Ldate | log.Ltime))
@@ -41,17 +37,21 @@ func main() {
 	var cfg config
 
 	p := arg.MustParse(&cfg)
+	project, err := searchconfig.Load(cfg.ConfigFile)
+	if err != nil {
+		log.Fatal(err)
+	}
 
 	if cfg.AppKey == "" {
 		p.Fail("An Algolia admin API key must be provided either in the ALGOLIA_ADMIN_API_KEY OS environment variable or in --appkey.")
 	}
 	if cfg.AppID == "" {
-		cfg.AppID = defaultAppID
+		cfg.AppID = project.AppID
 	}
 
 	client := search.NewClient(cfg.AppID, cfg.AppKey)
 
-	index := client.InitIndex(index)
+	index := client.InitIndex(project.MetaIndex)
 
 	log.Printf("DeleteBy %q", cfg.Filters)
 

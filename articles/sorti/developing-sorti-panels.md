@@ -16,8 +16,8 @@ view-model, and every user action goes through a typed tool.
 Use this workflow for first-party Sorti panels. If you want a panel built
 *inside* a session — no code, assembled by the agent from state, reducer
 tools, and a bound scene — that is the forge instead: see
-[Forging Panels](/articles/sorti/forging-panels/) for the concepts and the
-[Forge Reference](/articles/sorti/forge-reference/) for the exact vocabulary.
+[Forging Panels](/docs/sorti/forging-panels/) for the concepts and the
+[Forge Reference](/docs/sorti/forge-reference/) for the exact vocabulary.
 
 ## Start from the panel standard
 

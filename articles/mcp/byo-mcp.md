@@ -1,5 +1,7 @@
 ---
 title: Build your own MCP for Sorti
+published: 2026-10-07
+
 ---
 
 # Build your own MCP for Sorti

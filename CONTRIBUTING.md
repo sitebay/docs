@@ -1,3 +1,7 @@
+> For the current verified build and publishing checks, start with
+> [ci/README.md](ci/README.md). That toolchain takes precedence over the older
+> installation examples below.
+
 # In this Guide
 
 - [How to download and install the SiteBay Docs library](#installing-the-docs-library)

@@ -11,4 +11,4 @@ modified_by:
 
 Don't worry about manually paying invoices. When your monthly bill generates, we automatically charge your default payment method within a few hours. 
 
-If you need to change where the money comes from, just head over and update your [Payment Methods](/docs/products/platform/billing/guides/payment-methods/#view-and-change-the-default-payment-method).
+If you need to change where the money comes from, just head over and update your [Payment Methods](/docs/products/platform/billing/guides/payment-methods/#change-your-default-card).

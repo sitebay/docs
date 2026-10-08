@@ -174,31 +174,31 @@
     path = "github.com/sitebay/sitebay-website-partials"
 
     [[module.imports.mounts]]
-      source = "dist/wordpress/header.html"
+      source = "header.html"
       target = "layouts/partials/linode-header.html"
 
     [[module.imports.mounts]]
-      source = "dist/wordpress/footer.html"
+      source = "footer.html"
       target = "layouts/partials/linode-footer.html"
 
     [[module.imports.mounts]]
-      source = "dist/css/header.css"
+      source = "header.css"
       target = "assets/linode/header.css"
 
     [[module.imports.mounts]]
-      source = "dist/css/footer.css"
+      source = "footer.css"
       target = "assets/linode/footer.css"
 
     [[module.imports.mounts]]
-      source = "dist/js/header.js"
+      source = "header.js"
       target = "assets/linode/header.js"
 
     [[module.imports.mounts]]
-      source = "dist/js/footer-inline.js"
+      source = "footer-inline.js"
       target = "assets/linode/footer-inline.js"
 
     [[module.imports.mounts]]
-      source = "dist/js/attribution-inline.js"
+      source = "attribution-inline.js"
       target = "assets/linode/attribution-inline.js"
 
   # JS components packaged as Hugo Modules.

@@ -22,7 +22,7 @@
 
   {{/* Scaled viewport */}}
   <div class="sb-viewport relative overflow-hidden bg-gray-50 dark:bg-gray-950" style="height:420px;">
-    <div class="sb-frame-scaler" style="width:1280px; transform:scale(0.72); transform-origin:top left; position:absolute; top:0; left:0;">
+    <div class="sb-frame-scaler" inert aria-hidden="true" style="width:1280px; transform:scale(0.72); transform-origin:top left; position:absolute; top:0; left:0;">
 
       {{ if eq $page "heroku" }}
         {{/* ── HEROKU DASHBOARD MOCKUP ── */}}
@@ -215,7 +215,7 @@
                 (dict "label" "Sites"       "active" false "icon" "🌐")
                 (dict "label" "Analytics"   "active" false "icon" "📊")
                 (dict "label" "Git Sync"    "active" false "icon" "🔄")
-                (dict "label" "Time Machine""active" false "icon" "⏱")
+                (dict "label" "Time Machine" "active" false "icon" "⏱")
                 (dict "label" "Team"        "active" false "icon" "👥")
                 (dict "label" "Billing"     "active" false "icon" "💳")
               }}
@@ -318,7 +318,7 @@
 
   {{/* CTA bar */}}
   <div class="sb-cta flex items-center justify-between px-5 py-3 bg-indigo-50 dark:bg-indigo-950 border-t border-indigo-100 dark:border-indigo-900">
-    <p class="text-sm text-indigo-700 dark:text-indigo-300 font-medium m-0">This is what your {{ if eq $page "team" }}team management panel{{ else if eq $page "heroku" }}Heroku app dashboard{{ else }}dashboard{{ end }} looks like.</p>
+    <p class="text-sm text-indigo-700 dark:text-indigo-300 font-medium m-0">Illustrative {{ if eq $page "team" }}team management{{ else if eq $page "heroku" }}Heroku dashboard{{ else }}dashboard{{ end }} preview; not a live account.</p>
     <a href="{{ $ctaURL }}" class="text-sm font-semibold bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 rounded-lg no-underline transition-colors">{{ $cta }} →</a>
   </div>
 

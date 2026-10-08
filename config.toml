@@ -29,6 +29,11 @@ lastmod = ["updated", "lastmod", "date", "publishDate"]
 publishDate = ["published", "publishDate", "date"]
 
 [params]
+
+# SiteBay configuration retained from the pre-sync theme.
+onetrust_script_src = "https://www.sitebay.org/ns/ot/202410.1.0/prod/scripttemplates/otSDKStub.js"
+onetrust_domain_script = "01922358-0e47-73fa-9452-fa124177d6d6"
+adobe_launch_script = "https://assets.adobedtm.com/fcfd3580c848/f9e7661907ee/launch-2fb69de42220.min.js"
 page_title_suffix = "sitebay Docs"
 description = "Guides and tutorials on the sitebay platform, Linux basics, and software installation and configuration."
 # Date and time formatting, see https://gohugo.io/functions/format/
@@ -58,7 +63,7 @@ hits_per_page = 4
 
 [[params.search_config.sections]]
 name = "products"
-index = "sidebay-documentation"
+index = "sitebay-documentation"
 index_by_pubdate = "sitebay-documentation-sorted"
 title = "Products"
 filters = "section.lvl0:products"
@@ -174,3 +179,167 @@ anchor = "smart"
   [security.funcs]
     getenv = ['^HUGO_']
 
+
+# Site-owned runtime search configuration. Do not inherit the upstream tenant.
+# The legacy search_config above also serves the admin utilities; CI checks
+# their shared application and index identities before any publishing job.
+[params.search_config2]
+_merge = "none"
+app_id = "VJRR3OCA19"
+api_key = "149b346e18683fc205d94bfe2d4e03de"
+meta_index = "sitebay-documentation-sections"
+index_prefix = ""
+click_analytics = true
+explorer_max_leafnodes = 50
+hits_per_page = 10
+
+[params.search_config2.recommendations]
+app_id = "VJRR3OCA19"
+api_key = "149b346e18683fc205d94bfe2d4e03de"
+target_index = "sitebay-merged"
+
+[params.search_config2.sections_merged]
+name = "merged"
+index = "sitebay-merged"
+index_by_pubdate = "sitebay-merged-sorted"
+title = "All"
+noun = "All"
+hits_per_page = 20
+filtering_facets = [
+  { name = "docType", title = "Doc Type" },
+  { name = "category", title = "Category" },
+  { name = "tags", title = "Tags", isTags = true }
+]
+
+[params.search_config2.sections]
+_merge = "none"
+
+[params.search_config2.sections.guides]
+name = "guides"
+hugo_section = "guides"
+index = "sitebay-documentation"
+weight = 100
+title = "Guides & Tutorials"
+noun = "Guide"
+filters = "section.lvl0:guides"
+explorer_icon = "#icon-explorer--guides"
+
+[params.search_config2.sections.products]
+name = "products"
+hugo_section = "products"
+index = "sitebay-documentation"
+weight = 99
+title = "Products"
+noun = "Guide"
+filters = "section.lvl0:products"
+explorer_icon = "#icon-explorer--products"
+
+[params.search_config2.sections.sorti]
+name = "sorti"
+hugo_section = "sorti"
+index = "sitebay-documentation"
+weight = 98
+title = "Sorti"
+noun = "Guide"
+filters = "section.lvl0:sorti"
+explorer_icon = "#icon-explorer--guides"
+
+[params.search_config2.sections.avatars]
+name = "avatars"
+hugo_section = "avatars"
+index = "sitebay-documentation"
+weight = 97
+title = "Avatars"
+noun = "Guide"
+filters = "section.lvl0:avatars"
+explorer_icon = "#icon-explorer--guides"
+
+[params.search_config2.sections.voice]
+name = "voice"
+hugo_section = "voice"
+index = "sitebay-documentation"
+weight = 96
+title = "Voice"
+noun = "Guide"
+filters = "section.lvl0:voice"
+explorer_icon = "#icon-explorer--guides"
+
+[params.search_config2.sections.vscode]
+name = "vscode"
+hugo_section = "vscode"
+index = "sitebay-documentation"
+weight = 95
+title = "VS Code Bridge"
+noun = "Guide"
+filters = "section.lvl0:vscode"
+explorer_icon = "#icon-explorer--guides"
+
+[params.search_config2.sections.themes]
+name = "themes"
+hugo_section = "themes"
+index = "sitebay-documentation"
+weight = 94
+title = "Themes"
+noun = "Guide"
+filters = "section.lvl0:themes"
+explorer_icon = "#icon-explorer--guides"
+
+[params.search_config2.sections.games]
+name = "games"
+hugo_section = "games"
+index = "sitebay-documentation"
+weight = 93
+title = "Games"
+noun = "Guide"
+filters = "section.lvl0:games"
+explorer_icon = "#icon-explorer--guides"
+
+[params.search_config2.sections.mcp]
+name = "mcp"
+hugo_section = "mcp"
+index = "sitebay-documentation"
+weight = 92
+title = "MCP"
+noun = "Guide"
+filters = "section.lvl0:mcp"
+explorer_icon = "#icon-explorer--guides"
+
+[params.search_config2.sections.platform]
+name = "platform"
+hugo_section = "platform"
+index = "sitebay-documentation"
+weight = 91
+title = "Platform"
+noun = "Guide"
+filters = "section.lvl0:platform"
+explorer_icon = "#icon-explorer--guides"
+
+[params.search_config2.sections.data]
+name = "data"
+hugo_section = "data"
+index = "sitebay-documentation"
+weight = 90
+title = "Data"
+noun = "Guide"
+filters = "section.lvl0:data"
+explorer_icon = "#icon-explorer--guides"
+
+[params.search_config2.sections.getting-started]
+name = "getting-started"
+hugo_section = "getting-started"
+index = "sitebay-documentation"
+weight = 89
+title = "Getting Started"
+noun = "Guide"
+filters = "section.lvl0:getting-started"
+explorer_icon = "#icon-explorer--guides"
+
+[params.search_config2.sections.api]
+name = "api"
+hugo_section = "api"
+index = "sitebay-documentation-api"
+weight = 88
+title = "API"
+noun = "Guide"
+filters = "section.lvl0:api"
+explorer_icon = "#icon-explorer--api"

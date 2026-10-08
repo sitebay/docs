@@ -37,7 +37,7 @@ A card can be declined for many different reasons. Banks often do not pass along
 
 ## How do I remove a credit card from my account?
 
-You can manage your payment methods, including credit cards, from the Manage Plan Link on My SiteBay. This will lead you to your Stripe Checkout management page. To learn how to remove a credit card, see [Remove a Payment Method](/docs/products/platform/billing/guides/payment-methods/#remove-a-payment-method). Keep in mind you must have at least one valid payment method on file. If you are attempting to delete your only payment method, you must add a new payment method first.
+You can manage your payment methods, including credit cards, from the Manage Plan Link on My SiteBay. This will lead you to your Stripe Checkout management page. To learn how to remove a credit card, see [Remove a Payment Method](/docs/products/platform/billing/guides/payment-methods/#remove-a-card). Keep in mind you must have at least one valid payment method on file. If you are attempting to delete your only payment method, you must add a new payment method first.
 
 ## Can I make a payment in another currency?
 

@@ -1,55 +1,81 @@
 name: CI Tests
 
-on: [pull_request]
+on:
+  pull_request:
+  push:
+    branches: [main, 'fix/**']
+  workflow_dispatch:
 
-env:
-  hugo_image_cache_name: hugo-generated-images
-  hugo_image_cache_path: /home/runner/work/docs-publishing/docs-publishing/docs-repo/resources/_gen/images/
+defaults:
+  run:
+    shell: bash
 
 jobs:
-  blueberry:
+  publishing:
+    name: Build, routes, links, search and browser
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
     steps:
-    - name: Checkout docs repo
-      uses: actions/checkout@v3
-    - name: Set up Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: '3.10.x'
-        architecture: 'x64'
-        cache: pip
-    - name: Install dependencies (Python)
-      run: |
-        pip install -r ./ci/requirements.txt
-    - name: blueberry
-      run: |
-        python ./ci/blueberry.py
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: ci/requirements-publishing.txt
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - uses: actions/setup-go@v5
+        with:
+          go-version: '1.22.x'
+          cache-dependency-path: scripts/go.sum
+      - uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: '0.139.0'
+          extended: false
+      - name: Install validation and build dependencies
+        run: |
+          python -m pip install -r ci/requirements-publishing.txt
+          npm ci --ignore-scripts --no-audit --no-fund
+      - name: Regression tests, including negative cases
+        run: |
+          python -m unittest discover -s ci/tests -v
+          node --test ci/tests/*.test.mjs
+          (cd scripts && go test ./internal/searchconfig ./update_linode_docs_search_indices ./init_algolia_indices ./clean_linode_sections_index ./download_algolia_settings)
+      - name: Build the complete site
+        run: |
+          mkdir -p .cache
+          hugo --destination public 2>&1 | tee .cache/hugo-build.log
+      - name: Validate published pages and links
+        run: python ci/check-links.py --public-dir public --report .cache/publishing.json
+      - name: Reject new editorial debt, reporting existing findings
+        run: python ci/editorial.py --baseline ci/editorial-baseline.json --report .cache/editorial.json
+      - name: Verify index destinations without credentials or writes
+        run: |
+          (cd scripts && go run ./update_linode_docs_search_indices --config ../config.toml --sourcedir ../public --dry-run) | tee .cache/index-plan.json
+      - name: Install Chromium
+        run: npx playwright install --with-deps chromium
+      - name: Exercise the production export in a browser
+        run: node ci/browser-smoke.cjs public .cache/browser
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: publishing-evidence
+          path: .cache
+          include-hidden-files: true
 
   vale:
-    name: Vale (spellchecker)
+    name: Vale (changed article spelling)
+    if: github.event_name == 'pull_request'
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - uses: errata-ai/vale-action@reviewdog
         with:
-          files: docs
-          vale_flags: "--glob=!docs/contributors/*"
+          files: articles
+          vale_flags: '--glob=!articles/headless/*'
           fail_on_error: true
-
-  check-links:
-    name: Check Links (Markdown)
-    runs-on: ubuntu-latest
-    steps:
-    - name: Checkout docs repo
-      uses: actions/checkout@v3
-    - name: Set up Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: '3.10.x'
-        architecture: 'x64'
-        cache: pip
-    - name: Install dependencies (Python)
-      run: |
-        pip install -r ./ci/requirements.txt
-    - name: Run tests
-      run: python ./ci/check-links.py ${{ steps.files.outputs.all }}

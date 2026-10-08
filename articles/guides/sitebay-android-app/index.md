@@ -21,7 +21,7 @@ title: "Early Access: SiteBay Android App"
 ###  The GitHub Connection: Your Technical Playground
 
 #### GitHub 101: Your New Best Friend
-- **Not a GitHub Pro?** No worries! We've got a [Beginner's Tutorial](link-to-github-tutorial)
+- **Not a GitHub Pro?** No worries! Start with [Git basics]({{< relref "guides/quick-answers/sitebay/how-to-use-git/index.md" >}}).
 - **Pull Requests are Your Superpower:** Contribute, improve, evolve
 - **Open Source Spirit:** Collaborate with a community of tech enthusiasts
 

@@ -1,0 +1,8 @@
+{
+  "revision": "f7bc8c1bb329ce5931c659cb050d85cec8de17c7",
+  "reason": "The original checks scanned generated docs, not articles. Preserve and report legacy editorial findings while refusing any new finding; publishing checks have no baseline or exceptions.",
+  "relocations": {
+    "docs/games/sts2.md": "articles/games/sts2.md",
+    "docs/mcp/byo-mcp.md": "articles/mcp/byo-mcp.md"
+  }
+}

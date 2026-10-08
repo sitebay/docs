@@ -19,7 +19,7 @@ date: 2024-04-21
 
 ## Security Controls
 
-- [Security Controls for User Accounts](/docs/products/platform/accounts/guides/user-security-controls/): Understand the available security features of a SiteBay account.
+- [Accounts and Passwords]({{< relref "platform/get-started/accounts-and-passwords/index.md" >}}): Find account sign-in and password guidance.
 
 ## Additional User Settings
 

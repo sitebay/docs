@@ -47,7 +47,7 @@ weight: 46
 
 This is the exact vocabulary the forge's own authoring specialist works
 from — the same document, republished. Concepts and background live in
-[Forging Panels](/articles/sorti/forging-panels/). Sections addressed to
+[Forging Panels](/docs/sorti/forging-panels/). Sections addressed to
 the authoring agent (mission tools, checkpoints, verification) describe
 in-product behavior you'll see forge missions follow.
 

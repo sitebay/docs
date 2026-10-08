@@ -28,7 +28,7 @@ Forgot your password? Or just want to rotate it? Easy.
 2. Drop in your username.
 
     {{< note >}}
-    Forgot your username too? See [Recovering a Lost Username](/docs/products/platform/accounts/guides/manage-users/#recovering-a-lost-username).
+    For account-access help, see [Support]({{< relref "products/platform/get-started/guides/support/index.md" >}}).
     {{< /note >}}
 
 3. Hit **Reset password**.

@@ -84,9 +84,9 @@ Learn to use Algolia's analytics tools to monitor search performance and make da
 
 Dive into our detailed tutorials and guides to harness the full power of Algolia:
 
-- [A Guide to Algolia Plugins](./a-guide-to-algolia-plugins/) - Discover the best plugins to integrate Algolia with your WordPress site
-- [Create Search with Algolia](./create-search-with-algolia/) - Step-by-step instructions for implementing custom search experiences
-- [Install Algolia on Debian/Ubuntu](./install_algolia_debian_ubuntu/) - Technical guide for server-side implementation
+- [A Guide to Algolia Plugins]({{< relref "guides/databases/algolia/a-guide-to-algolia-plugins/index.md" >}}) - Discover the best plugins to integrate Algolia with your WordPress site
+- [Create Search with Algolia]({{< relref "guides/databases/algolia/create-search-with-algolia/index.md" >}}) - Step-by-step instructions for implementing custom search experiences
+- [Install Algolia on Debian/Ubuntu]({{< relref "guides/databases/algolia/install_algolia_debian_ubuntu/index.md" >}}) - Technical guide for server-side implementation
 
 ## Transform Your Website's Searchability Today
 

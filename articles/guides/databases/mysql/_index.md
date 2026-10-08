@@ -91,9 +91,9 @@ As your site grows, your database grows with it:
 
 Explore our comprehensive guides to master MySQL for WordPress:
 
-- [What is MySQL?](./what-is-mysql/) - Understanding the fundamentals
-- [What is MariaDB?](./what-is-mariadb/) - Exploring MySQL's enhanced fork
-- [What is SQLite?](./what-is-sqlite/) - When a lightweight alternative makes sense
-- [List of Databases](./list-of-databases/) - Comparing database options
+- [What is MySQL?]({{< relref "guides/databases/mysql/what-is-mysql/index.md" >}}) - Understanding the fundamentals
+- [What is MariaDB?]({{< relref "guides/databases/mysql/what-is-mariadb/index.md" >}}) - Exploring MySQL's enhanced fork
+- [What is SQLite?]({{< relref "guides/databases/mysql/what-is-sqlite/index.md" >}}) - When a lightweight alternative makes sense
+- [List of Databases]({{< relref "guides/databases/mysql/list-of-databases/index.md" >}}) - Comparing database options
 
 Whether you're managing a small blog or a high-traffic enterprise WordPress site, understanding and optimizing MySQL is essential for delivering exceptional user experiences. SiteBay's platform provides the perfect foundation for MySQL performance, enabling your WordPress site to achieve its full potential.

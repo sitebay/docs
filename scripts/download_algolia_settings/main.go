@@ -1,29 +1,27 @@
-//usr/bin/env go run -mod=readonly "$0" "$@"; exit "$?"
+// usr/bin/env go run -mod=readonly "$0" "$@"; exit "$?"
 package main
 
 import (
-	"log"
 	"encoding/json"
+	"github.com/sitebay/docs/scripts/internal/searchconfig"
 	"io/ioutil"
+	"log"
 	"strings"
 
-	"github.com/pelletier/go-toml"
-	"github.com/pelletier/go-toml/query"
 	"github.com/alexflint/go-arg"
 	"github.com/algolia/algoliasearch-client-go/v3/algolia/search"
+	"github.com/pelletier/go-toml"
+	"github.com/pelletier/go-toml/query"
 )
 
 var (
 	version = "v0.5"
 )
 
-const (
-	defaultAppID = "KGUN8FAIPF"
-)
-
 type config struct {
-	AppKey    string `arg:"env:ALGOLIA_ADMIN_API_KEY"`
-	AppID     string `arg:"env:ALGOLIA_APP_ID"`
+	ConfigFile string `arg:"--config" default:"../../config.toml" help:"site-owned Hugo config"`
+	AppKey     string `arg:"env:ALGOLIA_ADMIN_API_KEY"`
+	AppID      string `arg:"env:ALGOLIA_APP_ID"`
 }
 
 func (config) Version() string {
@@ -42,30 +40,33 @@ func (config) Version() string {
 //
 // Usage:
 //
-//     ALGOLIA_ADMIN_API_KEY=<mysecret> download_algolia_settings --sourcedir ../../public
-//
+//	ALGOLIA_ADMIN_API_KEY=<mysecret> download_algolia_settings --sourcedir ../../public
 func main() {
 	log.SetPrefix("algolia: ")
 	log.SetFlags(log.Flags() &^ (log.Ldate | log.Ltime))
 
 	var cfg config
 	p := arg.MustParse(&cfg)
+	project, err := searchconfig.Load(cfg.ConfigFile)
+	if err != nil {
+		log.Fatal(err)
+	}
 
 	if cfg.AppKey == "" {
 		p.Fail("An Algolia admin API key must be provided either in the ALGOLIA_ADMIN_API_KEY OS environment variable or in --appkey.")
 
 	}
 	if cfg.AppID == "" {
-		cfg.AppID = defaultAppID
+		cfg.AppID = project.AppID
 	}
 
 	client := search.NewClient(cfg.AppID, cfg.AppKey)
 
-	configToml, _ := toml.LoadFile("../../config.toml")
+	configToml := project.Tree
 	indices := []string{configToml.Get("params.search_config.meta_index").(string)}
 
 	sectionsQuery, _ := query.Compile("$.params.search_config.sections[?(ifDownloadSettings)]")
-	sectionsQuery.SetFilter("ifDownloadSettings", func(node interface{}) bool{
+	sectionsQuery.SetFilter("ifDownloadSettings", func(node interface{}) bool {
 		if tree, ok := node.(*toml.Tree); ok {
 			return tree.Has("download_settings") && tree.Get("download_settings").(bool)
 		}

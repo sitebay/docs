@@ -1,4 +1,5 @@
 ---
+layout: documentation-section
 title: "SiteBay Agent Bridge"
 description: "Use the headless VS Code bridge with Sorti sessions."
 tags: ["sitebay", "vscode", "sorti"]
@@ -19,4 +20,4 @@ The extension does not add chat panels or avatars. Sorti and SiteClaw handle the
 - Restore checkpoints created during an agent session.
 - Connect code-server workspaces to the active SiteBay session.
 
-Next: [Install The Bridge](/articles/vscode/install/) or review [Bridge Commands](/articles/vscode/commands/).
+Next: [Install The Bridge](/docs/vscode/install/) or review [Bridge Commands](/docs/vscode/commands/).
