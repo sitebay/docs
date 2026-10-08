@@ -12,16 +12,17 @@ authors: ["SiteBay"]
 contributors: ["SiteBay"]
 ---
 
-## Overview
+Network transfer (or bandwidth) is basically the data moving in and out of your Kubernetes-powered WordPress sites. 
 
-**Network transfer** is the exchange of data between two computers over the public internet or a private network. Other providers and publications may also refer to this as data transfer, ingress/egress, and bandwidth.
+- **Inbound (Ingress):** People uploading files to your site.
+- **Outbound (Egress):** Your site serving up pages, images, and CSS to visitors. 
 
-This traffic is broken down into inbound (ingress) and outbound (egress) network transfer. *Inbound network transfer* is data sent *to* your service, such as a file upload. *Outbound network transfer* is data sent *from* your service, such as a web page and its images, stylesheets, and JavaScript files.
+## What You Get For Free
 
-## Transfer Allowance
+Almost all SiteBay services come with a generous monthly allowance for outbound transfer. We don't charge for inbound transfer at all. 
 
-The following SiteBay services consume network transfer and, in most cases, include a set amount of outbound network transfer allowance per month. The amount of transfer is displayed along with the pricing and plan details for each service. See SiteBay's [pricing page](https://www.sitebay.org/pricing) for exact amounts.
+- **WordPress Sites:** Depending on the size of the plan you choose, you get anywhere from 1 to 20 TB of free outbound transfer every month.
 
-- **WordPress Sites:** Consume network transfer and include 1-20 TB of transfer allowance per month, depending on plan size.
+If you somehow blow past that limit, we'll bill you for the overages, but you have to be pushing a massive amount of traffic to hit it. You can track your usage right in your built-in PostHog analytics dashboard to keep an eye on things.
 
-Read the [Billing and Payments](/docs/products/platform/billing/) guide for an overview of SiteBay billing.
+For exact overage costs and current allowances, check the [SiteBay Pricing Page](https://www.sitebay.org/pricing).

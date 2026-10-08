@@ -1,44 +1,58 @@
 ---
-slug: sitebay-dashboard-staging-site
-description: 'Learn how to create and manage a staging site for testing WordPress changes with SiteBay’s powerful WordPress hosting on Kubernetes, featuring PostHog analytics and Grafana dashboards.'
-keywords: ['staging site tutorial']
-tags: ['sitebay', 'wordpress', 'posthog', 'grafana']
+slug: sitebay-staging-sites
+description: "Safely test code, plugins, and design changes using SiteBay's integrated Staging environments."
+keywords: ['staging', 'testing', 'development environment', 'clone', 'wordpress staging']
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
-published: 2024-04-30
-image: GNUMakeTutorial-LearntoAutomateTasks.jpg
+published: 2024-03-13
+modified: 2026-03-12
 modified_by:
   name: SiteBay
-title: "Mastering Staging Sites on SiteBay’s WordPress Hosting"
-title_meta: "Staging Site Management with SiteBay: A Step-by-Step Guide"
+title: "Staging Sites: Safe Testing Environments"
+bible: true
+tags: ["sitebay", "staging", "development"]
+aliases: ['/quick-answers/sitebay/sitebay-dashboard-staging-site/']
 authors: ["SiteBay"]
 contributors: ["SiteBay"]
 ---
 
-Creating a staging site on SiteBay's WordPress hosting platform is a breeze, thanks to Kubernetes’ robust architecture and the integrated analytics and monitoring tools like PostHog and Grafana. Staging sites are essential for testing updates, themes, plugins, and custom code before pushing changes to your live WordPress site, ensuring a smooth visitor experience.
+# Staging Sites: Safe Testing Environments
 
-In this guide, we’ll walk through the steps to set up and manage a staging site on SiteBay, using the dashboard for an intuitive user experience.
+Developing or updating a live production site is inherently risky. A single plugin conflict or syntax error can result in a "White Screen of Death" for your users.
 
-Getting Started with Staging Sites
+SiteBay eliminates this risk with one-click **Staging Environments**. A Staging Site is an exact, isolated replica of your production environment where you can safely test changes before making them live.
 
-Staging sites mirror your live WordPress site, serving as a safe testing ground for all changes. Here’s how you can set up a staging environment on SiteBay:
+## How to Create a Staging Site
 
-Access Your SiteBay Dashboard: Log in to your SiteBay dashboard to manage your WordPress hosting settings.
-Create a Staging Site: Look for the “Staging” option within the dashboard. With a simple click, you can initiate the creation of a staging environment that’s an exact replica of your live site.
-Utilize PostHog and Grafana: Monitor the performance and user interaction on your staging site using PostHog analytics directly integrated into your SiteBay dashboard. Access Grafana dashboards for detailed site metrics and performance insights.
-Managing Your Staging Site
+You can create a staging clone through the dashboard, or by instructing your AI agent via the SiteBay MCP or SiteClaw.
 
-With your staging site up and running, here’s how to make the most of it:
+1.  Navigate to your production site's dashboard.
+2.  Click the **Staging** tab.
+3.  Click **Create Staging Site**.
 
-Test Updates and Changes: Implement any planned updates, including WordPress core updates, plugin installations, theme changes, or custom code modifications.
-Monitor with PostHog: Use PostHog’s features to analyze user behavior and interactions on your staging site. This data can help refine the user experience before going live.
-Optimize Performance with Grafana: Leverage Grafana’s powerful dashboards to monitor your staging site’s performance. Ensure your changes don’t negatively impact site speed or resource usage.
-Pushing Changes Live
+SiteBay will clone the production database and all `wp-content` files into a completely separate container. The staging site will be assigned a temporary URL (e.g., `staging-mysite.sitebay.org`) and is password-protected by default to prevent search engines from indexing duplicate content.
 
-After thoroughly testing on your staging site and ensuring everything works as expected:
+## Common Staging Workflows
 
-Prepare for Live Deployment: Double-check all changes and ensure they meet your quality standards.
-Sync to Live Site: Use SiteBay’s dashboard to seamlessly push changes from your staging environment to the live site. This process is streamlined to avoid downtime and ensure a smooth transition.
-Post-Deployment Monitoring: Once live, continue monitoring your site with PostHog and Grafana to observe the impact of your changes on real-world user behavior and site performance.
-Conclusion
+### 1. The Plugin Update Test
+Before clicking "Update All" on your plugins in production, clone the site to staging. Run the updates there. If the staging site loads fine and your PostHog logs don't show any new console errors, you know it's safe to perform the updates on production.
 
-SiteBay's WordPress hosting platform makes it easy to leverage staging sites, ensuring that updates and changes can be tested thoroughly before affecting your live website. By integrating tools like PostHog for analytics and Grafana for performance monitoring, SiteBay provides a comprehensive environment for developing, testing, and optimizing
+### 2. Time Machine Clones
+You do not have to clone the *current* state of your production site. You can use the **Point-in-Time Machine** to spin up a staging site from a specific moment in the past. This is invaluable for debugging issues that occurred yesterday but are no longer easily reproducible.
+
+### 3. Git-Driven Staging
+By combining Staging with **Git Sync**, you can create a robust CI/CD pipeline:
+*   Production Site runs the `main` branch.
+*   Staging Site runs the `development` branch.
+*   Work locally or on staging, push to `development` to see the changes live on the staging URL. Once approved, merge `development` into `main` via GitHub/GitLab to automatically deploy to production.
+
+## Pushing Staging to Production
+
+Once you are satisfied with the changes on your staging site, you can merge them back to production.
+
+1.  In the Staging tab, click **Push to Production**.
+2.  You will be prompted to choose what to merge:
+    *   **Files Only:** Overwrites production's `wp-content` with staging's `wp-content`. Best for design or code changes.
+    *   **Database Only:** Overwrites the production database. *Warning: This will erase any new WooCommerce orders or user signups that occurred on production while you were working on staging.*
+    *   **Both:** Overwrites the entire production environment.
+
+*Note: Before any push to production, SiteBay automatically takes a Point-in-Time snapshot, ensuring you can instantly revert if the merge has unintended consequences.*

@@ -1,4 +1,4 @@
-{{/* See: https://github.com/sitebay/sitebay-docs-theme/issues/837 */}}
+{{/* See: https://github.com/linode/linode-docs-theme/issues/837 */}}
 {{- $statusCode := 301 -}}
 ruleName,path,result.redirectURL,result.statusCode
 {{ "" }}

@@ -1,8 +1,6 @@
 ---
 slug: template-quickstart-photography-portfolio
-author:
-  name: SiteBay
-  email: support@sitebay.org
+authors: ["SiteBay"]
 description: 'Start your own photography blog'
 og_description: 'Start your own photography blog from our easy to use template in minutes with SiteBay'
 keywords: ['template', 'photography', 'blog']
@@ -13,21 +11,26 @@ modified_by:
   name: SiteBay
 title: "How to Get Started with our Photography Portfolio Template"
 h1_title: "Photography Portfolio Quickstart"
-contributor:
-  name: SiteBay
+contributors: ["SiteBay"]
 ---
-external_resources:
 
-'Getting Started'
+# Photography Portfolio Quickstart
 
-Are you a photographer looking to start your own blog to showcase your work? With SiteBay's easy-to-use template, you can get your photography blog up and running in just minutes.
+Are you a photographer looking to showcase your work without wrestling with server config? We get it. You want to spend time editing photos, not tweaking PHP settings.
 
-Our template is designed specifically for photographers, with a sleek and modern design that puts your images front and center. The template is easy to customize and comes with a variety of features to help you create a professional-looking blog.
+With SiteBay's Photography Portfolio template, you can launch a blazingly fast, visually stunning gallery in minutes. Because we run on an AI-native Kubernetes platform, your heavy image loads are handled with scale and speed right out of the box.
 
-To get started, simply sign up for a SiteBay account and select the photography template. From there, you can begin adding your own images and content to create a unique and personalized blog. You can also customize the design and layout of your blog to suit your personal style and preferences.
+### Why This Template Rocks
 
-One of the best features of the SiteBay template is its ease of use. Whether you're a seasoned blogger or just starting out, you'll find our template user-friendly and intuitive. With a simple drag-and-drop interface, you can quickly add and rearrange your content to create a beautiful and engaging blog.
+- **Image-First Design**: The layout puts your high-res photos front and center.
+- **Kubernetes Speed**: We serve your media fast. Real fast. No sluggish load times that make visitors bounce.
+- **Built-in Security**: SiteClaw is active from day one, keeping your portfolio safe from scrapers and automated attacks.
+- **Analytics Ready**: PostHog is integrated, so you can see exactly which photos people are lingering on.
 
-In addition to its user-friendly design, the SiteBay template also includes a variety of helpful features to make your photography blog a success. You can easily add and organize your images into galleries and collections, and use tags and categories to make it easy for visitors to find the content they're looking for. You can also connect your blog to social media to reach a wider audience and engage with your followers.
+### Getting Started
 
-So why wait? Start your own photography blog today with SiteBay's easy-to-use template. In just minutes, you can have a professional-looking blog that showcases your work and attracts new visitors. Sign up now and start sharing your photography with the world!
+1. **Spin It Up**: Log into your SiteBay dashboard, hit "New Site", and select the Photography template.
+2. **Make It Yours**: Swap in your own logo, update the about page, and start uploading your galleries.
+3. **Go Live**: Connect your domain and you're done.
+
+You don't need to be a DevOps engineer to have enterprise-grade hosting. Grab the template, upload your best shots, and let SiteBay handle the rest.

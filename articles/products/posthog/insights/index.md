@@ -1,35 +1,43 @@
 ---
 slug: insights
-description: 'Explaining insights in PostHog: dashboard components'
-keywords: ["posthog"]
+description: 'PostHog insights and visualization on SiteBay.'
+keywords: ["posthog", "insights", "analytics", "sitebay"]
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
-modified: 2024-04-04
+modified: 2025-12-04
 modified_by:
   name: SiteBay
 published: 2024-04-04
-title: PostHog Insights
+title: Insights
 tags: ["sitebay"]
 aliases: ['/quick-answers/sitebay/insights/', '/products/posthog/product-analytics/']
 authors: ["SiteBay"]
 contributors: ["SiteBay"]
 ---
 
-PostHog insights are the core components of dashboards
+# Insights
 
-## Overview
+Data is great, but actionable insights are what actually move the needle. SiteBay's PostHog integration gives you powerful ways to query and visualize what's happening on your WordPress site without writing complex SQL.
 
-Insights in PostHog display your data through various information visualization components. These components include line graphs, bar charts, pie charts, funnels, retention tables, and other user analytics tools.
+## What You Can Build
 
-## Key Components of PostHog insights
+| Insight Type | Why you need it |
+|------|-----|
+| **Trends** | See if your primary KPIs are moving up or down over time. |
+| **Funnels** | Find out exactly where people abandon their shopping carts. |
+| **Retention** | Stop guessing and see if users are actually coming back. |
+| **Paths** | Map out the crazy, winding journeys users take across your site. |
+| **Stickiness** | See how often people engage with a specific feature. |
+| **Lifecycle** | Break down your traffic into new, returning, and resurrected users. |
 
-### Trends
+## Creating an Insight
 
-"Trends" can help you identify how users interact with your product. It can show you overall event volume, unique users across several time frames, and break down the actions/events by properties.
+1. Hit **Analytics > Insights > New** in your SiteBay control panel.
+2. Pick the type of insight you want to build.
+3. Choose the events or actions you want to track.
+4. Set your date range.
+5. Slice the data by adding breakdowns (like sorting by device type or country).
+6. Save it to a dashboard so you don't lose it.
 
-### Funnels
+## The SiteClaw Advantage
 
-Funnels are great for visualizing the steps your users take in your application or website. With funnels, you can see where your users are dropping off, and thus take actions to improve user retention and conversion rate.
-
-### Retention
-
-The retention tool helps you understand how often users come back to your app after their initial visit. It shows you the behaviours of both new and returning users, enabling you to make decisions to boost user retention.
+Don't want to log in and build charts? We got you. Open the **SiteClaw** mobile app and let the built-in AI assistant generate insights for you on the fly. You can ask questions like *"What's the drop-off rate on my main funnel this week compared to last week?"* and get an instant, easy-to-read summary.

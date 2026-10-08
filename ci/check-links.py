@@ -1,11 +1,10 @@
 #!/usr/bin/env python
-import argparse
 import os
-import re
 import sys
-import textwrap
-
+import re
 import frontmatter
+import textwrap
+import argparse
 
 # Define command-line arguements
 parser = argparse.ArgumentParser(description='Check links within Markdown.')
@@ -357,8 +356,8 @@ def check_internal_links_markdown(guides, assets):
                 link = match.group(3)
                 link_unmodified = link
 
-                # Log issue if link contains "sitebay.org/docs/"
-                if "sitebay.org/docs/" in link:
+                # Log issue if link contains "linode.com/docs/"
+                if "linode.com/docs/" in link:
                     issues.append(Issue(link_unmodified,'docs-domain-name'))
                     continue
                 # Ignore links that start with common protocols

@@ -3,10 +3,12 @@ slug: how-to-choose-a-sitebay-plan
 author:
   name: SiteBay
   email: support@sitebay.org
+contributors:
+  - SiteBay
 description: 'Decide which SiteBay WordPress hosting plan is right for you.'
-keywords: ["choose", "help", "plan", "visits"]
+keywords: ["choose", "help", "plan", "visits", "AI-native", "kubernetes"]
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
-modified: 2024-04-20
+modified: 2025-05-15
 modified_by:
   name: SiteBay
 published: 2024-04-04
@@ -15,63 +17,60 @@ tags: ["sitebay platform"]
 aliases: ['/platform/how-to-choose-a-sitebay-plan/']
 ---
 
-SiteBay offers four plan types: Micro, Starter, Business, and Enterprise. All our cool features? You get 'em with any plan you pick. But let's break it down so you can choose what's best for your vibe.
+SiteBay offers four plan types: Micro, Starter, Business, and Enterprise. Every plan runs on our robust Kubernetes infrastructure, meaning you get a blazing-fast, auto-scaling, AI-native WordPress platform right out of the box. 
 
-When you're looking at plans, think about how many folks you expect to visit your site each month and how much stuff (like photos and videos) you want to store. This guide's here to walk you through SiteBay's plans, show you what each one's good for, and help you pick the right one.
+When you're comparing plans, look at how many monthly visitors you expect and how much storage you need for your media. 
 
 {{< note >}}
-Feeling like you need to switch things up later? No sweat. You can change your plans anytime on My SiteBay. Check out the Change a Plan tutorial if you need a hand.
+Need to upgrade later? No sweat. You can scale your Kubernetes resources anytime from your SiteBay dashboard.
 {{< /note >}}
 
-Custom Enterprise Quotes
+## Custom Enterprise Quotes
 
-Got big dreams? We can set you up with a private cluster. Just hit up our support team to talk details.
+Need a private Kubernetes cluster or massive custom resources? We can set you up. Hit up our support team to hash out the details.
 
-Choosing a Plan for Your WordPress Sites
+## Choosing Your Plan
 
-Both our Micro and Starter plans are cool for one site. Got more? You might wanna look at our Business plan or something bigger.
+Both our Micro and Starter plans are great for running a single site. Running a portfolio of sites? Step up to Business or higher. 
 
-1. Micro
+### 1. Micro
+Perfect for low-traffic sites and side projects.
+**Best for:**
+- Personal portfolios
+- Brand new blogs
 
-Pick the Micro plan if your site's just chilling with light traffic.
+### 2. Starter
+Ideal for small businesses or growing personal sites.
+**Best for:**
+- Local business sites
+- Active blogs
+- Niche review sites
 
-Use Cases
-Showing off your portfolio
-Small blogs that are just getting started
-2. Starter
+### 3. Business
+For the pros. You get more juice to handle higher traffic and multiple WordPress installs.
+**Best for:**
+- Mid-sized businesses scaling up
+- High-traffic blogs
+- Managing a small agency portfolio
 
-This one's great for small businesses or personal sites making a bit more noise.
+### 4. Enterprise
+For heavy hitters needing VIP treatment and max performance.
+**Best for:**
+- Massive blog networks
+- High-volume WooCommerce stores
+- Sites requiring dedicated support
 
-Use Cases
-Local businesses getting the word out
-Blogs sharing what's up
-Review sites telling you what's hot and what's not
-3. Business
+## Plans Overview
 
-Stepping up to Business means you're getting serious.
+| Plan       | Visits per month | Storage |
+|------------|------------------|---------|
+| Micro      | 12,000           | 8GB     |
+| Starter    | 30,000           | 20GB    |
+| Business   | 150,000          | 40GB    |
+| Enterprise | 500,000          | 50GB    |
 
-Use Cases
-Small to medium businesses growing their reach
-Blogs that are buzzing with visitors
-Handling multiple sites without breaking a sweat
-4. Enterprise
+And hey, regardless of your plan, you get access to all our AI features. You can manage your infrastructure via the **SiteBay MCP Server** using Claude, track your usage via our built-in **PostHog** dashboard, or ask questions on the go with the **SiteClaw** mobile app's ChatGPT assistant. 
 
-Go big or go home, right? Enterprise is for those wanting the VIP treatment.
+## Pricing
 
-Use Cases
-Businesses that need us on speed dial
-Big blog networks handling serious traffic
-Plans Overview
-Plan	Visits per month	Storage
-Micro	12,000	8GB
-Starter	30,000	20GB
-Business	150,000	40GB
-Enterprise	500,000	50GB
-
-For the full scoop on what you get with each plan, check out the SiteBay Pricing page.
-
-Pricing
-
-We keep it 100 with pricing in Canadian and US Dollars, plus Euros. See all the numbers at SiteBay Pricing.
-
-Thinking about moving your hosting to us? We've got you. We'll do the heavy lifting for free.
+We price in CAD, USD, and EUR. Check out the exact numbers on our [SiteBay Pricing](/) page. Moving from another host? We do free migrations, so let us do the heavy lifting.

@@ -15,7 +15,7 @@ var (
 
 const (
 	defaultAppID = "KGUN8FAIPF"
-	index        = "sitebay-documentation-sections"
+	index        = "linode-documentation-sections"
 )
 
 type config struct {

@@ -1,79 +1,59 @@
 ---
 slug: all-in-one-wp-migration-with-import
-description: ' WordPress Backup & Restore Secrets: The Ultimate Guide to Bulletproof Site Recovery!'
-keywords: ["wordpress migration strategy", "site backup mastery", "wordpress disaster recovery", "seamless site restoration", "wordpress plugin optimization"]
-tags: ["wordpress", "backup", "restore", "site migration", "digital resilience"]
+description: 'Backup and restore WordPress sites with All-in-One WP Migration.'
+keywords: ["wordpress migration", "backup", "restore", "wp migration"]
+tags: ["wordpress", "backup", "restore", "migration"]
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
-modified: 2024-04-04
+modified: 2024-12-04
 modified_by:
   name: SiteBay
 published: 2024-03-04
-title: " All-in-One WP Migration: Your WordPress Resurrection Toolkit"
+title: "All-in-One WP Migration"
 authors: ["SiteBay"]
 contributors: ["SiteBay"]
 ---
 
-##  WordPress Rescue Mission: Never Lose a Single Byte of Your Digital Empire!
+Backup and restore WordPress sites with a single plugin.
 
-Listen up, digital warriors!  Imagine losing years of content, design work, and hard-earned digital real estate in the blink of an eye. Terrifying, right? Enter the All-in-One WP Migration plugin – your ultimate insurance policy against digital apocalypse.
+## Install
 
-### Why Backup Matters: Your Digital Life Depends on It 
+1. Plugins → Add New
+2. Search "All-in-One WP Migration"
+3. Install and activate
 
-**The Brutal Truth:**
-- 60% of small businesses FAIL after losing critical data
-- Websites can vanish in seconds
-- Restoration can be a nightmare... OR CAN IT?
+## Export (Backup)
 
-### Your Bulletproof Migration Strategy 
+1. All-in-One WP Migration → Export
+2. Click **Export To** → **File**
+3. Download `.wpress` file
 
-####  Pre-Migration Checklist
-- **Plugin Preparation**
-  - Install All-in-One WP Migration
-  - Activate with zero technical skills
-- **Backup Strategy**
-  - Create comprehensive site backup
-  - Store in multiple secure locations
+## Import (Restore)
 
-#### 🧩 Restoration Magic: Step-by-Step Breakdown
+1. All-in-One WP Migration → Import
+2. Click **Import From** → **File**
+3. Upload `.wpress` backup
+4. Confirm overwrite
 
-1. **Access Your Restoration Command Center**
-   - Navigate to WordPress dashboard
-   - Locate All-in-One WP Migration plugin
-   - Select "Import"
+## What Gets Transferred
 
-2. **Upload Your Digital Safety Net**
-   - Click "Import From" > "File"
-   - Select your .wpress backup file
-   - Support for massive file sizes!
+- Database
+- Media files
+- Plugins
+- Themes
+- Settings
 
-3. **Sit Back and Watch the Magic **
-   - Automated restoration process
-   - Transfers EVERYTHING:
-     * Database
-     * Media files
-     * Plugins
-     * Themes
-   - Progress tracking included
+## File Size Limits
 
-###  Pro-Level Restoration Hacks
+| Version | Limit |
+|---------|-------|
+| Free | 512MB |
+| Premium | Unlimited |
 
-#### Overcoming Size Limitations
-- **Standard Version Limits?** No Problem!
-  - Premium version available
-  - "File Extension" plugin to the rescue
-  - Unlimited restoration potential
+Use "File Extension" add-on for larger imports.
 
-#### Post-Restoration Power Moves
-- **Site Integrity Check**
-  - Verify every page
-  - Test all functionalities
-- **Security Reinforcement**
-  - Change WordPress admin password
-  - Update all credentials
+## After Restore
 
-###  Bonus: Migration Insider Tips
-
-- **Regular Backups:** Your New Religion
-- **Diversify Backup Locations**
-- **Test Restore Periodically**
-- **Keep Plugins Updated**
+- Test all pages
+- Verify functionality
+- Update admin password
+- Check permalinks (Settings → Permalinks → Save)

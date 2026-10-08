@@ -9,37 +9,39 @@ title_meta: Change Your Email Address on a SiteBay Account
 aliases: ['/quick-answers/platform/how-to-change-your-email/','/guides/how-to-change-your-email/']
 authors: ["SiteBay"]
 contributors: ["SiteBay"]
+modified_by:
+  name: SiteBay
 ---
 
-SiteBay uses the contact information on file in your account to notify and bill you. Keep this information current to prevent service interruptions. It's especially important to keep your email address current.
+We use your email to send you important stuff—like billing receipts, Kubernetes cluster alerts, or heads-ups from the SiteBay MCP Server. Keep it updated so you don't miss anything critical.
 
-The **Billing Info** and **User & Grants** pages have email address fields. The email addresses saved on these pages receive different notifications, as described in the following sections. If you are the only user, you should enter your email address on both pages. If there are multiple users, verify that the primary account holder's email address is current on the **Billing Info** page.
+You can set emails in two spots: **Billing Info** (for invoices) and **Users & Grants** (for account alerts). If it's just you, update both. If you've got a team, make sure the primary account holder's email is right on the billing page.
 
-## Modify Billing Contact Email
+## Update Billing Email
 
-See [Update Billing Contact Information](/docs/products/platform/billing/guides/update-billing-contact-info/)
+Check out the [Update Billing Contact Information](/docs/products/platform/billing/guides/update-billing-contact-info/) guide for this one.
 
-## Modify User Account Email
+## Update User Account Email
 
-Use the **Users & Grants** page to modify the email address associated with a user account. The email addresses listed on this page receive IP whitelist warnings, password reset messages, and support tickets for services that their associated users have permission to access. Users with limited account access can also receive invoices and receipts if granted access to that information.
+Your user email gets the day-to-day stuff: password resets, support ticket replies, and access alerts.
 
 {{< note >}}
-Only full account access users can receive threshold notification emails.
+Only users with full account access get the big threshold and billing notification emails.
 {{< /note >}}
 
-Here's how to change a user's email from the **Users & Grants** page:
+To swap out a user's email:
 
-1. Click the **Account** link in the sidebar.
-1. Click the **Users & Grants** tab.
-1. Click the **User Profile** link for the desired user.
-1. Enter the updated email address in the **Email** field.
+1. Click **Account** in the sidebar.
+2. Hit the **Users & Grants** tab.
+3. Click the **User Profile** link for the user you want to update.
+4. Drop the new email into the **Email** field.
 
     ![Modify the email address associated with your user account](accounts-my-profile-change-email.png "Modify the email address associated with your user account")
 
-1. Click **Save**.
+5. Smash **Save**.
 
-The user's email address is now updated.
+You're all set.
 
 {{< note >}}
-If you do not have full account access, you can view your user profile settings and update your email address by clicking on your username at the top of the My SiteBay screen and selecting **Display**.
+If you don't have full admin rights, you can still change your own email. Just click your username at the top of My SiteBay and select **Display** to tweak your profile.
 {{< /note >}}

@@ -1,61 +1,47 @@
 ---
 slug: introduction-to-sitebay-regions
-description: This guide introduces our regions washington and frankfurt
-keywords: ["sitebay", "wordpress hosting", "regions"]
-tags: ["sitebay"]
+description: "Understand SiteBay's global infrastructure regions and how to choose the right location for your WordPress site."
+keywords: ['regions', 'data centers', 'locations', 'us west', 'eu central', 'latency']
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
-modified: 2024-04-24
+published: 2024-03-13
+modified: 2026-03-12
 modified_by:
   name: SiteBay
-published: 2024-04-24
-title: Introduction to SiteBay Regions
-aliases: ['/quick-answers/sitebay-essentials/introduction-to-sitebay-regions/']
+title: "SiteBay Global Regions"
+bible: true
+tags: ["sitebay", "infrastructure", "regions"]
 authors: ["SiteBay"]
 contributors: ["SiteBay"]
 ---
 
-SiteBay provides a robust and adaptable WordPress hosting environment on Kubernetes, featuring key integrations like Posthog for analytics and Grafana for insights. Understanding SiteBay's regional offerings is crucial for optimizing your site's performance and availability. This guide introduces our primary regions, washington (westus2) and frankfurt (dewestcentral), and outlines the steps to select the best region for your needs.
+# SiteBay Global Regions
 
-Selecting Your SiteBay Region
+The physical location of your server plays a critical role in your site's performance. The closer your server is to your primary audience, the lower the latency (the time it takes for data to travel from the server to the user's browser).
 
-When launching a WordPress site on SiteBay, choosing the right region is pivotal. It affects your site's response times, SEO, and compliance with data protection regulations. Here’s how you can decide:
+SiteBay's Kubernetes infrastructure spans multiple global regions, allowing you to deploy your WordPress sites exactly where your users are.
 
-Proximity to Your Audience
+## Available Regions
 
-Select a region closest to the majority of your site's visitors. Washington is ideal for audiences in North America, while Frankfurt better serves European visitors. Closer data centers mean lower latency and faster page load times.
+When creating a new site, you must select a region. SiteBay currently operates out of two primary data center hubs, with expansion planned.
 
-Data Sovereignty
+### 1. US West (North America)
+*   **Location:** Seattle, Washington, USA
+*   **Best For:** Audiences located in North America, South America, and parts of the Pacific Rim.
+*   **Code:** `na` (e.g., sites resolve to `*.na.sitebay.org` before custom domains are attached).
 
-Certain projects require adherence to specific data protection laws, like GDPR in Europe. Choosing a region that aligns with these laws ensures compliance and secures user data.
+### 2. EU Central (Europe)
+*   **Location:** Frankfurt, Germany
+*   **Best For:** Audiences located in Europe, the UK, the Middle East, and Africa.
+*   **Code:** `eu` (e.g., sites resolve to `*.eu.sitebay.org`).
 
-Scalability and Availability
+## How to Choose a Region
 
-Both Washington and Frankfurt regions support scalable WordPress hosting, allowing you to adjust resources based on traffic. High availability configurations ensure your site remains online, even in the face of server outages.
+1.  **Analyze Your Traffic:** Use tools like Google Analytics or SiteBay's built-in PostHog integration to see where the majority of your visitors live.
+2.  **Target the Majority:** Select the region closest to that geographical center. If 80% of your sales come from the US, choose US West, even if you are personally located in Europe.
+3.  **Data Sovereignty (GDPR):** If you operate a business in the European Union and are legally required to keep user data within European borders, you *must* select the EU Central region. SiteBay's database and Point-in-Time backup storage are strictly confined to the region you select.
 
-Features and Tools in Each Region
+## Edge Caching and Regions
 
-SiteBay's regions offer a suite of tools to manage and optimize your WordPress site:
+While choosing the right server region is important for dynamic requests (like adding to a cart or logging in), SiteBay mitigates latency for static content globally.
 
-Posthog Analytics: Capture detailed analytics and user behavior insights across both regions to make informed decisions and improve your site's UX.
-
-Grafana Dashboards: Access customized dashboards for real-time monitoring of website performance, visitor data, and system health.
-
-Kubernetes-based Hosting: Leverage the power of Kubernetes for scalable, resilient hosting solutions, ensuring your site can handle traffic spikes without downtime.
-
-Data Backups and Recovery: Use SiteBay's tools for regular backups and point-in-time recovery options, ensuring data safety and minimal disruption.
-
-Getting Started
-
-To launch your WordPress site in your chosen region, follow these steps:
-
-Sign Up with SiteBay: Create your account and choose your preferred region during the setup process.
-
-Deploy Your WordPress Site: Use the SiteBay dashboard to configure and deploy your WordPress site. You can select from various plans tailored to different needs, from small blogs to large e-commerce sites.
-
-Optimize Your Site: Utilize Posthog for analytics and Grafana dashboards to monitor and optimize your site's performance.
-
-Scale as Needed: Adjust your hosting resources directly from the SiteBay dashboard as your site grows or experiences traffic fluctuations.
-
-Conclusion
-
-Understanding the significance of region selection and utilizing the comprehensive tools and features SiteBay offers can impact your WordPress site's performance and user experience. Whether you choose Washington or Frankfurt, SiteBay ensures your site is fast, secure, and scalable.
+SiteBay utilizes **Cloudflare** as its edge network. This means that static assets (images, CSS, JavaScript, and fully cached HTML pages) are distributed to hundreds of data centers worldwide. A user in Tokyo visiting a site hosted in US West will still load images from a server in Tokyo, ensuring blazing-fast load times regardless of the primary region.

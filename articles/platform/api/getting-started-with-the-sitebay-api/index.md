@@ -8,62 +8,49 @@ published: 2024-04-23
 modified: 2024-04-23
 aliases: ['/products/tools/sitebay-api/get-started/','/platform/api/getting-started-with-the-sitebay-api-new-manager/','/platform/api/getting-started-with-the-sitebay-api/','/guides/getting-started-with-the-sitebay-api/','/products/tools/sitebay-api/guides/build-final-query/']
 tags: ["managed hosting"]
+authors: ["SiteBay"]
+contributors: ["SiteBay"]
+modified_by:
+  name: SiteBay
 ---
 
+# Getting Started with the SiteBay API
 
-# Getting Started with the SiteBay API: A Comprehensive Guide
+Want to script your way through SiteBay? The SiteBay API gives you complete programmatic control over your AI-native WordPress platform. Since we run on Kubernetes, spinning up and managing sites is lightning fast, and our API lets you wire all that power directly into your own tools.
 
-The SiteBay API offers a wealth of options for developers looking to automate aspects of web hosting, site management, and integration of various online services. Whether you're running an agency or managing multiple websites, SiteBay's API can enhance your operational efficiency through automation. This article serves as an introduction to working with the SiteBay API, covering key functions, and providing guidance on how you can leverage this powerful tool.
+Whether you're building custom dashboards, automating agency workflows, or hooking into the SiteBay MCP Server to let AI agents manage your infrastructure, our API is your front door.
 
-### Overview of the SiteBay API
+### The Basics
 
-The SiteBay API provides endpoints covering a wide range of functionalities including site management, domain verification, user events, team collaboration, and payment processing. With thorough documentation available through swagger at [SiteBay API Docs](https://my.sitebay.org/docs) and an SDK available on [GitHub](https://github.com/sitebay/sitebay-sdk), developers have all the resources they need to start integrating the API quickly.
+The SiteBay API covers everything you need:
+- **Site Management**: Spin up, scale, and delete WordPress sites on our Kubernetes clusters.
+- **Backups & Restores**: Trigger point-in-time restores or grab file backups.
+- **Staging**: Push changes back and forth between staging and production without breaking a sweat.
+- **Team Ops**: Manage access, send invites, and handle support tickets.
 
-### Essential API Functions
+You can check out the full Swagger documentation at [my.sitebay.org/docs](https://my.sitebay.org/docs) or grab our SDK over on [GitHub](https://github.com/sitebay/sitebay-sdk).
 
-Here's a breakdown of some essential categories and functions that you’ll frequently interact with when using the SiteBay API:
+### Authentication
 
-#### Site Management
-- **Manage Live Sites**: Create, update, and delete live sites.
-- **Backup and Restore**: Handle point-in-time restores, file backups, and manage external paths.
-- **Staging Environments**: Set up and manage staging sites, including committing changes to live environments.
+We use OAuth2 for API access. To get started, you'll need to generate an access token from your SiteBay dashboard. Just grab your token, and you're ready to make requests.
 
-#### Team Collaboration
-- **Team Management**: Create teams, manage members, and handle invites.
-- **Ticketing System**: Issue and track support tickets within your team.
+### Quick Example: Spin Up a Site
 
-#### User and Account Management
-- **User Profiles**: Access and edit details for the current user or other users within your account.
-- **Shopify Store Integration**: Manage Shopify store details linked to your account.
+Ready to launch a new live site? Just hit the `/f/api/v1/site_live` endpoint. 
 
-#### Billing and Payments
-- **Payment Processing**: Set up stripe checkout sessions for team purchases.
-- **Customer Portal**: Manage billing details and payment methods through the customer portal.
+Here's how you do it with cURL:
 
-#### Domain and Repository Management
-- **Domain Verification**: Check and verify domain ownership and configurations.
-- **Git Repository Integration**: Verify and manage git repository syncs related to your projects.
-
-### Getting Started: API Authentication and Setup
-
-Before you begin utilizing the SiteBay API, you'll have to set up authentication. SiteBay API uses Oauth2 for secure API access, which means you'll need to sign up for an agency plan.
-
-### Example: Creating a New Site
-
-To create a live site, you can use the `POST` method to `/f/api/v1/site_live`. Before making this request, ensure you are authorized with a valid access token.
-
-Here’s an example using cURL:
 ```bash
 curl -X POST https://my.sitebay.org/f/api/v1/site_live \
--H 'Authorization: Bearer YOUR_ACCESS_TOKEN' \
--d 'site_name=example' \
--d 'region_id=1'
+  -H 'Authorization: Bearer YOUR_ACCESS_TOKEN' \
+  -d 'site_name=my-awesome-site' \
+  -d 'region_id=1'
 ```
 
-### Documentation and Support
+Boom. Your new WordPress site is provisioning on Kubernetes.
 
-Comprehensive API documentation is available, facilitating easy integration and troubleshooting. For developers looking for guidance, the support team is accessible via the ticketing system in the API, ensuring you can get help when you need it.
+### Hooking up AI with SiteBay MCP Server
 
-### Conclusion
+If you're using Claude or other AI agents, don't miss the SiteBay MCP Server. It bridges the gap between your AI assistant and the SiteBay API, letting you just *tell* the AI to manage your sites, run updates, or check logs. It's the ultimate way to experience an AI-native platform.
 
-The SiteBay API offers robust capabilities for website and team management, making it invaluable for developers managing extensive web properties or deploying integrated services. With easy-to-follow documentation and robust endpoint security, you can start automating your workflows securely and efficiently. Begin by exploring the API, testing endpoints, and incorporating them into your projects to experience enhanced productivity and streamlined operations.
+Dive into the docs, grab your token, and start building!

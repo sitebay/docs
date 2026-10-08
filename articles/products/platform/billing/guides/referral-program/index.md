@@ -1,24 +1,33 @@
 ---
 title: "Referral Program"
-description: "Learn how to join SiteBay's referral program and gain credits when you refer new users"
+description: "Earn credits by referring users."
 published: 2024-04-17
+modified: 2025-12-04
+authors: ["SiteBay"]
+contributors: ["SiteBay"]
+modified_by:
+  name: SiteBay
 ---
 
-When you refer a new user to SiteBay through our referral program, both you and the new user can receive a promotional credit. Here are the program details:
+Love hosting your WordPress sites on our AI-native Kubernetes platform? Tell your friends and get paid for it. 
 
--  **A new user receives a $100 60-day credit** when they sign up through a referral link. Before the credit is applied, they must add a valid payment method to their account.
+## The Rewards
 
--  **The referrer receives a $25 non-expiring credit** once the new user has been active for 90-days and spends $25 or more on services (after their promotional credit has been used or has expired).
+| Who | Gets What |
+|-----|-----------|
+| **Your friend** | Gets a $100 credit right away (expires in 60 days). |
+| **You** | Get a $25 credit once they spend $25 and stay active for 90 days. |
 
-To learn more about this program, visit the [Referral Program](https://www.sitebay.org/referral-program/) page on our website.
+## The Rules
 
-### Find Your Referral Link
+- You need to have already spent at least $25 on SiteBay out of your own pocket (promo credits don't count).
+- Your friend needs to add a valid payment method when they sign up.
 
-To activate the referral program and obtain a referral link, you must spend at least $25 with SiteBay, not including any promotional credits added to your account. Once activated, your referral link (including your unique referral code) can be viewed within the My SiteBay.
+## Grab Your Link
 
-1.  Log in to the [My SiteBay](https://my.sitebay.org).
-1.  Select the **My Profile** link by clicking on your username at the top of the page.
-1.  Select the **Referrals** tab.
-1.  The referral code and URL are listed within this section.
+1. Log into [my.sitebay.org](https://my.sitebay.org) and click your username at the top.
+2. Hit **My Profile**.
+3. Go to the **Referrals** tab.
+4. Copy your unique referral URL.
 
-You can provide the referral link to friends and colleagues as well as post it to your website and social media.
+Post it on Twitter, drop it in your team's Slack, or text it to a friend.

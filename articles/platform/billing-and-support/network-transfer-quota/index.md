@@ -1,46 +1,41 @@
 ---
 slug: outgoing-bandwidth
-author:
+authors: ["SiteBay"]
+contributors: ["SiteBay"]
+modified_by:
   name: SiteBay
-  email: support@sitebay.org
 description: "Learn how your Site's outgoing data transfer is calculated."
 keywords: ["network","billing","account","transfer", "overage"]
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
 published: 2024-04-21
 modified: 2024-04-03
-modified_by:
-  name: SiteBay
 title: "Outgoing Bandwidth"
-contributor:
-  name: SiteBay
 tags: ["sitebay platform"]
 aliases: ['/platform/billing-and-support/outgoing-bandwidth/']
 ---
 
-Your *Outgoing Bandwidth* is the total data uploaded from your site in a monthly cycle. 
+Your *Outgoing Bandwidth* is the total amount of data sent from your site during a monthly billing cycle. 
 
+## Outgoing Bandwidth reset
 
-## Outgoing Bandwitdh reset
-
-Your quota is reset at the beginning of each monthly cycle.
-
+Your bandwidth quota resets at the start of every new monthly cycle.
 
 ### How Overages Work
 
-You are not charged for bandwidth overages, but user sites that greatly exceed their monthly cycle allowed bandwidth may be throttled. We expect less than 0.5% of sites will ever get to this point. 
-Incoming data is never limited.
+We don't charge you for bandwidth overages. However, if your site goes way over its allowed monthly bandwidth, we might have to throttle it to keep our Kubernetes clusters running smoothly for everyone. Honestly, we expect less than 0.5% of sites will ever hit this point. 
+
+Incoming data? Never limited. Bring it on.
 
 ### How to Mitigate Overages
 
-If you have gone over your quota, or you think you may before the end of the month, you can consider one of the following options to raise your pool total and avoid overages:
+If you're blowing past your quota, or you see a huge traffic spike coming (maybe you're tracking it in PostHog), you have options to avoid getting throttled:
 
-[Upgrade your plan](/docs/guides/) for more allowed monthly outgoing bandwidth.
-
+[Upgrade your plan](/docs/guides/) to get a higher monthly outgoing bandwidth allowance.
 
 ## View Bandwidth Out
 
-You can view your current outgoing bandwidth usage for your monthly cycle in SiteBay Insites.
+You can check out your current outgoing bandwidth usage for the month right inside SiteBay Insites.
 
 ## More Information
 
-Read the [Billing and Payments](/docs/guides/billing-and-payments/) tutorial for an overview of SiteBay billing.
+Read the [Billing and Payments](/docs/guides/billing-and-payments/) tutorial for a full rundown of how billing works here at SiteBay.

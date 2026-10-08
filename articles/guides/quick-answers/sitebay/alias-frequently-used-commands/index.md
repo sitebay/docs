@@ -1,58 +1,67 @@
 ---
 slug: alias-frequently-used-commands
-description: 'Learn how to streamline your WordPress management tasks in SiteBay using aliases for frequently used commands. This guide explains creating and removing aliases for efficiency.'
+description: 'Create shell aliases for frequently used WordPress commands in SiteBay.'
 keywords: ["WordPress", "alias", "command line", "SiteBay"]
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
 published: 2024-04-04
-modified: 2024-04-04
+modified: 2024-12-04
 modified_by:
   name: SiteBay
-title: 'Alias Frequently Used Commands in SiteBay'
+title: 'Alias Frequently Used Commands'
 tags: ["sitebay"]
 aliases: ['/quick-answers/sitebay/alias-frequently-used-commands/']
 authors: ["SiteBay"]
 contributors: ["SiteBay"]
 ---
-What is an Alias?
 
-An alias in SiteBay simplifies your WordPress management by creating shortcuts for the commands you use most. It’s like having speed dial for your website management tasks.
+Aliases create shortcuts for commands you use often.
 
-List Existing Aliases
+## List Existing Aliases
 
-To see the aliases you’ve already set up, simply type:
+```bash
 alias
+```
 
-Managing Aliases in WordPress Hosting
+## Config File Locations
 
-In SiteBay, aliases can be particularly useful for WordPress commands that you find yourself using often. Depending on your shell (Bash, Z shell (ZSH), or fish), the place to set these aliases varies:
+| Shell | File |
+|-------|------|
+| Bash | `~/.bashrc` |
+| ZSH | `~/.zshrc` |
+| fish | `~/.config/fish/config.fish` |
 
-Bash: ~/.bashrc
-ZSH: ~/.zshrc
-fish: ~/.config/fish/config.fish
-Create a Temporary Alias
+## Create Temporary Alias
 
-To quickly create an alias for a session, use the syntax alias shortcut="command to run". For instance, to easily navigate to your WordPress site's root directory:
+```bash
 alias wpRoot="cd /var/www/html/mysite.com"
+```
 
-Remove an Alias
+## Remove Alias
 
-To remove an alias within the same session, type:
+```bash
 unalias wpRoot
+```
 
-Create a Permanent Alias
+## Create Permanent Alias
 
-For aliases you want to keep across sessions, add them to your shell's configuration file:
-# Add this to your ~/.bashrc or equivalent file
+Add to your shell config file:
+
+```bash
 alias wpUpdate="wp core update"
+```
 
+Apply changes:
 
-After adding, apply the changes:
+```bash
 source ~/.bashrc
+```
 
-Example: Alias for WordPress Commands
+## Common WordPress Aliases
 
-Aliasing WordPress CLI commands can save time. For instance, updating WordPress core with a simple command:
+```bash
 alias wpUpdate="wp core update"
+alias wpPlugins="wp plugin list"
+alias wpThemes="wp theme list"
+```
 
-
-Remember, while aliases can greatly increase your efficiency, they rely on the environment you've set them up in. If you switch to a new machine or environment, you'll need to recreate your aliases there.
+Aliases are environment-specific. Recreate them on new machines.

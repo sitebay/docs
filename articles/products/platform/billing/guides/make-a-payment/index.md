@@ -1,9 +1,14 @@
 ---
 title: "Make a Payment"
-description: "Learn what payment methods SiteBay accepts and how to view, add, and remove them."
+description: "How payments work."
 published: 2024-04-17
+modified: 2025-12-04
+authors: ["SiteBay"]
+contributors: ["SiteBay"]
+modified_by:
+  name: SiteBay
 ---
 
-## Pay Your Bill
+Don't worry about manually paying invoices. When your monthly bill generates, we automatically charge your default payment method within a few hours. 
 
-When an invoice is generated, the default payment method on the account is automatically charged within a few hours. See [View and Change the Default Payment Method](/docs/products/platform/billing/guides/payment-methods/#view-and-change-the-default-payment-method) for instructions on changing the default payment method.
+If you need to change where the money comes from, just head over and update your [Payment Methods](/docs/products/platform/billing/guides/payment-methods/#view-and-change-the-default-payment-method).

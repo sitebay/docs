@@ -10,26 +10,27 @@ title_meta: Reset Your User Password on the SiteBay Platform
 aliases: ['/quick-answers/platform/how-to-change-your-password/', '/guides/how-to-change-your-password/']
 authors: ["SiteBay"]
 contributors: ["SiteBay"]
+modified_by:
+  name: SiteBay
 ---
 
-Creating strong passwords is essential to protecting your SiteBay and your SiteBay [My SiteBay](http://my.sitebay.org) account. If you suspect that an unauthorized user has gained access to one of your accounts, you should change the password immediately.
+Keep your stuff locked down. Whether you're logging into the web dashboard, the SiteClaw mobile app, or authenticating via the SiteBay MCP Server, you need a solid password to protect your Kubernetes-powered WordPress sites.
+
+If you think someone snagged your password, change it immediately.
 
 {{< content "password-requirements-shortguide" >}}
 
-## Changing or Resetting Your My SiteBay Password
+## How to Reset Your Password
 
-If you want to change your password, or you forgot your password and need a new one, you can accomplish these tasks through the *Forgot Password* webpage. Here's how:
+Forgot your password? Or just want to rotate it? Easy.
 
-1.  Visit the [Forgot Password](https://my.sitebay.org/forgot/password) webpage.
-
-1.  Enter your username in the **Username** field.
+1. Head over to the [Forgot Password](https://my.sitebay.org/forgot/password) page.
+2. Drop in your username.
 
     {{< note >}}
-    If you've forgotten your My SiteBay username, see [Recovering a Lost Username](/docs/products/platform/accounts/guides/manage-users/#recovering-a-lost-username).
+    Forgot your username too? See [Recovering a Lost Username](/docs/products/platform/accounts/guides/manage-users/#recovering-a-lost-username).
     {{< /note >}}
 
-1.  Click the **Reset password** button.
-
-1.  Check your email for a message containing further instructions.
-
-1.  Follow the instructions in the email message to reset your password.
+3. Hit **Reset password**.
+4. Check your inbox. We'll send you an email with a secure reset link.
+5. Click the link, type in your new password, and you're back in business.

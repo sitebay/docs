@@ -1,7 +1,8 @@
 ---
-author:
+authors: ["SiteBay"]
+contributors: ["SiteBay"]
+modified_by:
   name: SiteBay
-  email: support@sitebay.org
 description: 'Use SiteBay''s Bi-directional Git Sync to develop locally.'
 keywords: ['git-sync']
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
@@ -11,28 +12,24 @@ show_in_lists: true
 aliases: ['/platform/git-sync/']
 ---
 
-Git Sync is a powerful feature offered by SiteBay, designed to simplify the workflow for developers and content creators who prefer to develop their WordPress sites locally before pushing changes live. This guide aims to break down the Git Sync process, making it easy for even those new to the concept to get started.
+Git Sync is a core feature on SiteBay, built to make your life way easier. If you prefer building and testing your WordPress sites locally before pushing them live to our Kubernetes infrastructure, this is exactly what you need. It's straightforward, fast, and takes the headache out of deployments.
 
-What is Git Sync?
+### What is Git Sync?
 
-Git Sync allows you to synchronize your WordPress site's themes, plugins, and even content between your local development environment and your live SiteBay site. This bi-directional synchronization ensures that any changes made locally can be seamlessly pushed to your live site and vice versa.
+Git Sync lets you link your WordPress site's themes, plugins, and custom code directly between your local setup and your live SiteBay environment. It's a bi-directional sync. This means when you push code from your local machine, it updates the live site. And if someone updates a plugin from the live WordPress admin panel, you can pull that change right back to your local repo.
 
-Getting Started with Git Sync
+### Getting Started with Git Sync
 
-Enable Git Sync on SiteBay: The first step is to enable Git Sync for your SiteBay site. This can be done through the SiteBay dashboard, where you'll find the option to connect your site to a Git repository.
+- **Enable Git Sync:** Head over to the SiteBay dashboard and flip Git Sync on. This lets our AI-native platform know you're ready to connect a repo.
+- **Connect Your Repo:** Plug in your Git repository. We play nice with GitHub, GitLab, and Bitbucket. Just drop in your URL, approve the permissions, and you're linked.
+- **Develop Locally:** Start coding. Add plugins, fix up your theme, or use the **SiteBay MCP Server** locally to speed up your workflow. Git tracks every change you make.
+- **Push Changes to Live:** Happy with your code? Just run a `git push`. SiteBay catches it and instantly deploys your updates to your live site.
+- **Pull Changes from Live:** If a client or teammate makes a change directly on the live site, just run a `git pull` locally to stay in sync.
 
-Connect Your Repository: You'll need to connect your SiteBay site to a Git repository. SiteBay supports integration with major Git hosting services like GitHub, GitLab, and Bitbucket. Simply enter your repository's URL and provide the necessary access permissions.
+### Why You Need Git Sync
 
-Develop Locally: With Git Sync enabled, you can start developing your site locally. Whether you're adding new plugins, updating themes, or tweaking your site's content, all changes can be tracked through your Git repository.
+- **Real Version Control:** No more "theme-final-v2-really-final.zip". Git tracks everything, so you can branch features and easily revert mistakes.
+- **Smooth Collaboration:** Your whole team can work on the same site without accidentally wiping out someone else's code.
+- **Built-in Backup:** Your Git repository acts as an automatic, versioned backup of your entire codebase. 
 
-Push Changes to Live: Once you're satisfied with the changes made locally, you can push them to your live SiteBay site directly from your Git repository. This can be done using standard Git commands like git push.
-
-Pull Changes from Live: If changes are made directly on the live site (perhaps through the WordPress dashboard), you can pull these changes back to your local environment to keep everything in sync.
-
-Benefits of Using Git Sync
-Version Control: Git Sync leverages the power of Git for version control, allowing you to track changes, create branches, and even revert to previous versions if needed.
-Collaboration: Multiple developers can work on the same project simultaneously without overwriting each other's work, making team collaboration smoother.
-Backup: Changes synced through Git serve as an additional layer of backup, providing peace of mind that your work is safely versioned.
-Conclusion
-
-Git Sync is an invaluable tool for anyone looking to streamline their WordPress development process. By integrating your SiteBay site with a Git repository, you can enjoy the benefits of version control, easy collaboration, and secure backups, all while developing in the comfort of your local environment. Start using Git Sync today and take your WordPress development to the next level.
+Git Sync is built for modern WordPress development. Connect your repo and experience a workflow that's actually built for developers.

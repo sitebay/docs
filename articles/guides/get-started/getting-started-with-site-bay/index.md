@@ -1,62 +1,60 @@
 ---
-slug: getting-started
-author:
-  name: SiteBay
-  email: support@sitebay.org
-keywords: ["getting started", "intro", "basics", "first steps"]
-description: 'This tutorial will guide you through launching your first WordPress site with SiteBay, with the power of Kubernetes.'
-og_description: "Learn how to sign up, create a new WordPress site, and kickstart your journey with our Getting Started guide."
+slug: getting-started-with-site-bay
+description: "Your first steps on the SiteBay platform: Creating an account, deploying your first site, and exploring the AI-native tools."
+keywords: ['getting started', 'tutorial', 'first steps', 'setup sitebay', 'beginner guide']
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
-aliases: ['/getting-started/']
-modified: 2024-06-08
+published: 2024-03-13
+modified: 2026-03-12
 modified_by:
   name: SiteBay
-published: 2024-04-04
-title: Get Started with SiteBay
-show_on_frontpage: true
-title_short: "Get Started"
-weight: 10
-icon: "book"
-show_on_rss_feed: false
+title: "Getting Started with SiteBay"
+bible: true
+tags: ["sitebay", "getting started", "tutorial"]
+authors: ["SiteBay"]
+contributors: ["SiteBay"]
 ---
 
-![Getting Started with Site Bay](getting-started.png "Getting Started with Site Bay")
+# Getting Started with SiteBay
 
-## Set Sail with Site Bay!
+Welcome to SiteBay, the world's first AI-native WordPress hosting platform. Whether you are migrating a high-traffic WooCommerce store or starting a brand new blog, this guide will walk you through your first steps on the platform.
 
-Let's get started with Site Bay, Powerful WordPress Hosting! This tutorial will help you sign up for an account on [My Site Bay](https://my.sitebay.org), our browser-based control panel where you can create, manage, and monitor your WordPress sites with the scalability of Kubernetes.
+## Step 1: Create Your Account
 
-{{< note >}}
-On your phone? Our Getting Started Mobile Tutorial is perfect for on-the-go setup.
-{{< /note >}}
+1.  Navigate to [my.sitebay.org/register](https://my.sitebay.org/register).
+2.  Sign up using your email address, or use Single Sign-On (SSO) via GitHub or Google.
+3.  Once logged in, you will land on the **SiteBay Dashboard**, your central control plane for all infrastructure.
 
-## Let's Get Started
-1. First time with us? Sign up. It's super quick.
-1. Choose Your Plan: Get started with the free plan. Upgrade your plan from $19/month. 
+## Step 2: Deploy Your First Site
 
-## Setting Up Your WordPress Site
-1. Log In: Head over to My SiteBay and log in with your details. GitHub fans, we've got a direct connect for you too.
-1. Select a Location: EU User? Choose your data center location in user settings to ensure fast loading times for your audience. By default it will be set to Washington.
-1. Create Your Site: Find "Create Site" on the sidebar and click it to begin.
+SiteBay runs every WordPress installation in its own secure, isolated Kubernetes container.
 
-1. DNS Setup: Go to your domain registrar and point a CNAME record to washington.cname.sitebay.org or frankfurt.cname.sitebay.org for EU users.
-![Cloudflare CNAME setup](cloudflare-cname-setup.png "Cloudflare CNAME setup")
+1.  Click the **Create Site** button in the dashboard.
+2.  **Choose a Starting Point:** If you want a blank canvas, select *New WordPress Install*. If you want a pre-designed foundation, browse our *Templates*.
+3.  **Name Your Site:** Give it a temporary name (e.g., `my-first-site`). This creates a free `my-first-site.sitebay.org` URL for testing.
+4.  **Select a Region:** Choose the data center closest to your target audience (e.g., US West or EU Central).
+5.  Click **Deploy**. Your isolated container, database, and edge network routing will be provisioned in under 60 seconds.
 
-{{< note >}}
-Testing things out? Use one of our test subdomains.
-{{< /note >}}
-1. Launch Time: Punch in your CNAME set up domain name, name your blog, set WordPress login details, and launch.
-![Make a new site](create-a-free-site.png "New site setup")
+## Step 3: Explore the Tools
 
-{{< note >}}
-WordPress devs, take your site to the next level with our Bi-directional Git Sync feature.
-{{< /note >}}
+Once your site is active, explore the integrated toolset that makes SiteBay unique:
 
-Hang tight for about a minute while we prepare your site.
+*   **WP Admin SSO:** Click "Log in to WordPress" from the dashboard to securely enter your WP Admin without needing a password.
+*   **Code Server:** Click the "IDE" button to launch VS Code directly in your browser. This is connected directly to your site's `wp-content` directory.
+*   **PostHog Analytics:** Navigate to the Analytics tab to see live Session Replays and traffic data—no plugin installation required.
 
-### Sneak Peek of Your Future 
+## Step 4: Connect the AI Ecosystem
 
-- **Session Recordings:** Watch how users interact with your site
-- **Advanced Analytics:** Track growth and engagement
-- **Git Sync:** Streamline your development workflow
-- **Unlimited Potential:** Your digital canvas awaits!
+SiteBay is built for human and AI collaboration. To get the most out of the platform:
+
+1.  **Generate an API Key:** Go to Profile > API Keys and generate a new token.
+2.  **Install the MCP Server:** If you use Claude Desktop, install the `@sitebay/sitebay-mcp` server. This allows Claude to manage your sites, edit code, and query your database via natural language.
+3.  **Download SiteClaw:** Get the mobile app for iOS or Android to manage your infrastructure and talk to your 3D AI assistant on the go.
+
+## Step 5: Go Live
+
+When you are ready to launch your site to the public:
+
+1.  Navigate to the **Domains** tab for your site.
+2.  Add your custom domain (e.g., `www.myawesomesite.com`).
+3.  Update your DNS records at your registrar to point to the provided SiteBay IP address.
+4.  SiteBay will automatically provision a free, auto-renewing Let's Encrypt SSL certificate as soon as the DNS propagates.

@@ -1,0 +1,98 @@
+{{/*
+  deal-card shortcode
+  Renders a compact rating + value strip for student developer deals.
+
+  Params:
+    face        – advertised dollar value string, e.g. "$312 over 2 years"
+    notional    – realistic value a typical student extracts, e.g. "$80"
+    stars_face  – 1–5 integer, advertised/marketing value
+    stars_real  – 1–5 integer, actual practical value for a typical student
+    face_note   – (optional) tooltip text explaining face value
+    notional_note – (optional) tooltip text explaining notional value
+*/}}
+
+{{ $face         := .Get "face"         | default "—" }}
+{{ $notional     := .Get "notional"     | default "—" }}
+{{ $starsF       := .Get "stars_face"   | default 3 | int }}
+{{ $starsR       := .Get "stars_real"   | default 3 | int }}
+{{ $faceNote     := .Get "face_note"    | default "The advertised or list-price value of this perk." }}
+{{ $notionalNote := .Get "notional_note"| default "What a typical student developer realistically extracts from this deal." }}
+
+<div class="sb-deal-card not-prose my-4 rounded-xl border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 overflow-hidden text-sm">
+
+  <div class="grid grid-cols-2 divide-x divide-gray-100 dark:divide-gray-800">
+
+    {{/* ── Face Value ── */}}
+    <div class="px-5 py-4">
+      <div class="flex items-center gap-1.5 mb-2">
+        <span class="text-xs font-semibold uppercase tracking-wide text-gray-400 dark:text-gray-500">Face Value</span>
+        <span
+          class="sb-tooltip-trigger cursor-default text-gray-300 dark:text-gray-600 hover:text-gray-500 transition-colors"
+          title="{{ $faceNote }}"
+          aria-label="{{ $faceNote }}">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-3.5 h-3.5 inline">
+            <path fill-rule="evenodd" d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14Zm.75-10a.75.75 0 0 0-1.5 0v.57a.75.75 0 0 0 1.5 0V5Zm-1.5 3a.75.75 0 0 1 .75-.75h.01a.75.75 0 0 1 .75.75v2.5a.75.75 0 0 1-1.5 0V8Z" clip-rule="evenodd"/>
+          </svg>
+        </span>
+      </div>
+      <div class="text-xl font-bold text-gray-800 dark:text-gray-100 mb-2">{{ $face }}</div>
+      <div class="flex gap-0.5" aria-label="Face value rating: {{ $starsF }} out of 5">
+        {{ range $i := seq 1 5 }}
+          {{ if le $i $starsF }}
+            <svg class="w-4 h-4 text-amber-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+          {{ else }}
+            <svg class="w-4 h-4 text-gray-200 dark:text-gray-700" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+          {{ end }}
+        {{ end }}
+        <span class="ml-1 text-xs text-gray-400 dark:text-gray-500 self-center">{{ $starsF }}/5</span>
+      </div>
+    </div>
+
+    {{/* ── Notional Value ── */}}
+    <div class="px-5 py-4">
+      <div class="flex items-center gap-1.5 mb-2">
+        <span class="text-xs font-semibold uppercase tracking-wide text-indigo-400 dark:text-indigo-500">What You'll Actually Use</span>
+        <span
+          class="sb-tooltip-trigger cursor-default text-gray-300 dark:text-gray-600 hover:text-gray-500 transition-colors"
+          title="{{ $notionalNote }}"
+          aria-label="{{ $notionalNote }}">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-3.5 h-3.5 inline">
+            <path fill-rule="evenodd" d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14Zm.75-10a.75.75 0 0 0-1.5 0v.57a.75.75 0 0 0 1.5 0V5Zm-1.5 3a.75.75 0 0 1 .75-.75h.01a.75.75 0 0 1 .75.75v2.5a.75.75 0 0 1-1.5 0V8Z" clip-rule="evenodd"/>
+          </svg>
+        </span>
+      </div>
+      <div class="text-xl font-bold text-indigo-600 dark:text-indigo-400 mb-2">{{ $notional }}</div>
+      <div class="flex gap-0.5" aria-label="Practical value rating: {{ $starsR }} out of 5">
+        {{ range $i := seq 1 5 }}
+          {{ if le $i $starsR }}
+            <svg class="w-4 h-4 text-indigo-500" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+          {{ else }}
+            <svg class="w-4 h-4 text-gray-200 dark:text-gray-700" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+          {{ end }}
+        {{ end }}
+        <span class="ml-1 text-xs text-gray-400 dark:text-gray-500 self-center">{{ $starsR }}/5</span>
+      </div>
+    </div>
+
+  </div>
+
+  {{/* Delta bar — visual gap between hype and reality */}}
+  {{ $delta := sub $starsF $starsR }}
+  {{ if gt $delta 0 }}
+  <div class="px-5 py-2 bg-amber-50 dark:bg-amber-950 border-t border-amber-100 dark:border-amber-900 flex items-center gap-2">
+    <svg class="w-3.5 h-3.5 text-amber-500 flex-shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3.75m-9.303 3.376c-.866 1.5.217 3.374 1.948 3.374h14.71c1.73 0 2.813-1.874 1.948-3.374L13.949 3.378c-.866-1.5-3.032-1.5-3.898 0L2.697 16.126ZM12 15.75h.007v.008H12v-.008Z"/></svg>
+    <span class="text-xs text-amber-700 dark:text-amber-400">
+      {{ if eq $delta 1 }}Slight gap between marketing and reality.
+      {{ else if eq $delta 2 }}Moderate hype — useful but the sticker value overstates it.
+      {{ else }}Big gap — heavily marketed, but real student utility is limited.
+      {{ end }}
+    </span>
+  </div>
+  {{ else if lt $delta 0 }}
+  <div class="px-5 py-2 bg-emerald-50 dark:bg-emerald-950 border-t border-emerald-100 dark:border-emerald-900 flex items-center gap-2">
+    <svg class="w-3.5 h-3.5 text-emerald-500 flex-shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"/></svg>
+    <span class="text-xs text-emerald-700 dark:text-emerald-400">Hidden gem — underrated relative to its advertised value.</span>
+  </div>
+  {{ end }}
+
+</div>

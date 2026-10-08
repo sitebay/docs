@@ -1,54 +1,48 @@
 ---
 slug: dashboards
-description: 'Discover how to harness PostHog dashboards for comprehensive insights into your WordPress site visitors on SiteBay, optimizing your content strategy with data-driven decisions.'
+description: 'PostHog dashboards on SiteBay.'
 keywords: ["PostHog", "WordPress", "SiteBay", "analytics", "dashboards"]
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
 published: 2024-04-30
-modified: 2024-04-30
+modified: 2025-12-04
 modified_by:
   name: SiteBay
-title: 'Maximizing WordPress Insights with PostHog Dashboards on SiteBay'
-tags: ["sitebay", "PostHog", "WordPress hosting", "visitor analytics"]
+title: 'Dashboards'
+tags: ["sitebay", "PostHog", "analytics"]
 aliases: ['/quick-answers/sitebay/dashboards/']
 authors: ["SiteBay"]
 contributors: ["SiteBay"]
 ---
 
-Introduction to PostHog Dashboards
+# PostHog Dashboards
 
-PostHog dashboards are powerful tools for WordPress site owners on SiteBay, offering deep insights into visitor behavior and site performance. With PostHog, you can track how visitors interact with your site, identify popular content, and uncover opportunities to enhance the user experience.
+Data is useless if you can't make sense of it. That's why SiteBay gives you totally customizable **PostHog Dashboards** to visualize all your WordPress site metrics in one place.
 
-Setting Up PostHog on SiteBay
+## Building Your View
 
-Integrating PostHog with your WordPress site on SiteBay is straightforward. By using SiteBay's hosting environment, you can easily install PostHog through plugins or directly into your site's code, ensuring seamless analytics tracking.
+Want to see your most important numbers right when you log in? Here's how to build a dashboard:
 
-Why Use PostHog?
+1. Go to **Analytics > Dashboards > New** in your SiteBay control panel.
+2. Throw in some tiles (charts, tables, big number KPIs).
+3. Drag them around until it looks good.
+4. Save it and share it with your team.
 
-PostHog offers WordPress site owners on SiteBay the ability to:
+## Tile Types You Can Use
 
-Monitor real-time visitor activity
-Analyze trends over time
-Create custom events and actions
-Track conversion funnels and user journeys
-Generate detailed reports and dashboards
-Creating Your First Dashboard
+| Type | What it's good for |
+|------|----------|
+| **Trend** | Seeing if things are going up or down over time. |
+| **Funnel** | Figuring out where people are bailing in your checkout flow. |
+| **Retention** | Checking if users actually come back. |
+| **Table** | Looking at the raw, unfiltered data. |
+| **Number** | That one massive KPI you obsess over. |
 
-Log into PostHog: Start by accessing your PostHog account. SiteBay users can easily navigate through their dashboard to set up PostHog with a few clicks.
+## The AI Edge
 
-Collect Data: Before creating a dashboard, ensure your WordPress site is sending data to PostHog. You can verify this by checking the 'Events' section in PostHog.
+Don't want to build a dashboard? No sweat. Use the **SiteBay MCP Server** to have your AI agent pull the data for you, or just open the **SiteClaw** mobile app to get a quick, AI-generated summary of your top metrics while you're grabbing coffee.
 
-Customize Your Dashboard: Click on 'Dashboards' in the PostHog sidebar, then 'New Dashboard'. Name your dashboard and start adding insights by selecting 'Add new panel'. Choose from various charts, including trends, funnels, sessions, and more.
+## Pro Tips
 
-Analyze and Iterate: Use your dashboard to monitor key metrics. Over time, adjust your content strategy based on the insights gathered from visitor behavior.
-
-Advanced Tips for SiteBay Users
-
-Integrate with Grafana: For advanced visualization, consider integrating PostHog data into Grafana dashboards available through SiteBay, enabling more complex data analysis and sharing across your team.
-
-Leverage Feature Flags: Use PostHog's feature flags to test new features on your WordPress site without impacting all users. Monitor performance and roll out changes based on data-driven decisions.
-
-Set Up Heatmaps: Understand how users interact with your site through PostHog's heatmap tool, identifying areas of high engagement and potential friction points.
-
-Conclusion
-
-For WordPress site owners on SiteBay, PostHog dashboards are invaluable for unlocking visitor insights and optimizing site performance. By analyzing data collected through PostHog, you can make informed decisions to improve your site's content, design, and user experience, driving better engagement and growth.
+- Pin the dashboards you care about most to your sidebar.
+- Set up default date ranges so you don't have to keep adjusting them.
+- Share read-only links with your clients or team members so they can see the wins without breaking anything.

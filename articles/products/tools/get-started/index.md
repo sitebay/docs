@@ -1,37 +1,57 @@
 ---
-title: Get Started
-title_meta: "Getting Started with the SiteBay Tools"
-description: "Get started with the SiteBay Tools. Learn to clear your cache, turn on development mode, change your domain and create external paths."
-tab_group_main:
-    weight: 60
-published: 2024-04-23
-modified: 2024-04-23
-image: ToolsPage.png
-tags: ["managed hosting"]
+slug: get-started-site-tools
+description: "A comprehensive guide to SiteBay's dashboard tools: Caching, Database Management, and PHP Configuration."
+keywords: ['site tools', 'cache', 'phpmyadmin', 'php version', 'sitebay dashboard']
+license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
+published: 2024-03-13
+modified: 2026-03-12
+modified_by:
+  name: SiteBay
+title: "Site Tools: Managing Your Environment"
+bible: true
+tags: ["sitebay", "tools", "management"]
+aliases: ['/quick-answers/sitebay/sitebay-dashboard-tools/']
+authors: ["SiteBay"]
+contributors: ["SiteBay"]
 ---
-# My SiteBay WordPress Hosting Site Tools
 
-## Optimize Your Site with External Paths
+# Site Tools: Managing Your Environment
 
-SiteBay Tools offer an impressive feature known as "External Paths." This function, primarily used to optimize search engine operations, lets users connect their external websites to a particular pathway or URL. 
+While SiteBay manages the complex underlying Kubernetes infrastructure, you retain complete control over your WordPress environment through the **Site Tools** section of the dashboard (and via the MCP/SiteClaw apps).
 
-The docs site you're on now is hosted on GitHub for free and then linked to our dogfooded site www.sitebay.org at /docs using this method. this feature enables website owners to link their docs site to their main website. Simply input the URL of your external site (like www.sitebay.org/docs), and identify a path (like /docs). Now, your docs site is accessible via www.sitebay.org/docs.
+These tools allow you to perform essential maintenance, database management, and performance tuning without needing to SSH into a server.
 
-This feature enhances your SEO strategy, making your content more accessible to search engines so it improves your websites visibility.
+## 1. Cache Management
 
-## Secure Your Website with HTTP Basic Authentication
+SiteBay employs a powerful, multi-layered caching system at the edge (Cloudflare) and at the server level (Redis object caching).
 
-Security is paramount for any website. SiteBay Tools help the user protect their website with HTTP basic authentication. With this feature, access to your site requires a username and password, making your website private and secure.
+*   **Clear Cache:** If you make significant design changes or update critical plugins, you may need to purge the cache. You can do this with one click in the Site Tools dashboard.
+*   **AI Access:** Agents using the `sitebay_site_shell_command` tool can automatically clear the cache (via `wp cache flush`) after deploying code changes.
 
-Once set, your site will be under the protection of HTTP Basic Authentication, accessible only with your unique credentials.
-## Domain Change
-Change your domain in a click, no fuss. Remember to set up your new domains CNAME properly before.
+## 2. Database Management (phpMyAdmin)
 
-## Delete site
-In the danger zone, you can delete your site.
+For direct database access, SiteBay provides a secure, single-sign-on (SSO) integration with **phpMyAdmin**.
 
-## Development Mode and Cache Management
+*   **Zero Credentials:** You do not need to hunt down database usernames or passwords. Clicking the "Open phpMyAdmin" button securely authenticates you and opens the interface in a new tab.
+*   **Capabilities:** Run raw SQL queries, export/import tables, or manually modify `wp_options` for deep troubleshooting.
+*   *Note: For programmatic database access, agents and developers can also use the integrated Code Server terminal to run `wp db query` commands.*
 
-To avoid delays in seeing your website changes, SiteBay provides an option to enable "Development Mode." This feature allows you to bypass Cloudflare's cache, enabling immediate viewing of your website changes. 
+## 3. PHP Configuration
 
-"Clear Cache" forces Cloudflare to update your site's cache, retrieving the most recent files.
+SiteBay allows you to easily manage the PHP runtime for your site.
+
+*   **Version Switching:** Upgrade or downgrade your PHP version (e.g., from 8.1 to 8.2) with a single click. SiteBay will safely restart the PHP-FPM container with the new version.
+*   **Workers & Memory:** Depending on your plan, you can adjust the number of PHP workers and the memory limit (`memory_limit`) to accommodate resource-heavy plugins (like complex WooCommerce setups or heavy page builders).
+
+## 4. Search and Replace
+
+When changing primary domains or migrating a site, you often need to update URLs serialized deep within the database.
+
+*   **The Tool:** The Site Tools dashboard includes a powerful, regex-capable Search and Replace tool that safely scans your database and updates URLs without breaking serialized PHP arrays.
+*   **Dry Run:** Always use the "Dry Run" feature first to see exactly how many tables and rows will be affected before committing the change.
+
+## 5. Environment Variables
+
+Manage sensitive keys (like third-party API tokens) securely without hardcoding them into `wp-config.php`.
+
+*   Add key-value pairs in the dashboard, and SiteBay will inject them as environment variables into your container, making them accessible via `getenv()` in PHP.

@@ -1,10 +1,10 @@
 ---
-title: Grant a Developer Access a WordPress Site or SiteBay Account
-description: Shows how to create an account with access restrictions for developers and maintainers.
-keywords: ["accounts", "passwords", "sitebay manager", "manager", "security"]
-tags: ["ssh","sitebay platform","drupal","security","mysql","wordpress"]
+title: Developer Access
+description: Create limited access for developers.
+keywords: ["accounts", "security"]
+tags: ["sitebay platform","security"]
 published: 2024-04-26
-modified: 2024-03-14
+modified: 2025-12-04
 modified_by:
   name: SiteBay
 aliases: ['/platform/create-limited-developer-account/','/guides/create-limited-developer-account/']
@@ -12,39 +12,33 @@ authors: ["SiteBay"]
 contributors: ["SiteBay"]
 ---
 
-One of the most powerful features of SiteBay's unmanaged service is the amount of control SiteBay users have over their account and the software installed on their systems. If you're a business owner that does not have expertise with installing or maintaining software on Linux, or if you do have experience with Linux but don't have the time to set up a new server, then contracting with a developer or administrator is a popular way to get your services up and running.
+Need a contractor or a teammate to work on your WordPress sites, check PostHog analytics, or connect via the SiteBay MCP Server? Don't hand over your main password. Create a restricted user instead.
 
-## What to Keep Track of when Hiring a Developer
+## How to Add a Developer User
 
-When you hire someone to work on your SiteBay, there are a variety of ways to grant access to your SiteBay account, the WordPress Sites on it, and the system and applications on those instances. Recording which of these credentials you've shared is important in the event that you need to end your contract with your developer.
+1. Head to [my.sitebay.org](https://my.sitebay.org), click **Account**, then **Users & Grants**.
+2. Hit **Add a User**.
+3. Drop in their email address.
+4. Under Account Access, make sure you pick **Limited** (not Full!).
+5. Tweak their specific permissions and hit save.
 
-This guide explains and answers some of the most frequently asked questions about account access. The sections are separated in order of granularity, starting with service-level access at the top, and working towards application-specific access.
+## Common Permission Setups
 
-For security and privacy, [SiteBay Support](/docs/products/platform/get-started/guides/support/) is not able to troubleshoot issues related to users and application access. 
+| What to give them | What it does |
+|-------------------|--------------|
+| **Full access** | *Don't use this for devs!* Lets them do whatever they want, including spending your money. |
+| **Specific sites** | Restricts them to managing only the WordPress pods you select. |
+| **Billing** | Lets them view or edit billing info (usually keep this off for devs). |
+| **Read-only** | Great if they just need to look at configs or stats without breaking anything. |
 
-{{< note >}}
-The following sections include commands that show how to manipulate credentials on your WordPress Sites, and these commands use `exampleUser` in place of your users' names. Replace `exampleUser` with whatever you would like to name your users.
-{{< /note >}}
+## How to Kick Them Out
 
-## My SiteBay Access
+Contract over? Revoke their access immediately:
+1. Go to **Account** → **Users & Grants**.
+2. Find the developer's user profile and hit **Delete**.
 
-Access to the My SiteBay provides high-level methods for controlling your WordPress Sites and SiteBay billing, including but not limited to: powering WordPress Sites down, powering them on, removing services, and adding services. The My SiteBay does not have interfaces for manipulating the files and software on your systems--instead, that access is governed by service-specific credentials outlined in the next sections.
+## Quick Security Reminders
 
-### Who Has Access to My SiteBay Account?
-
-Log in to the My SiteBay and navigate to the [**Users and Permissions**](https://my.sitebay.org/account/users) section of the **Account** tab. You may be prompted to reauthenticate your password. This section will display all of your SiteBay account's users.
-
-If you're not sure whether you're logged in as the account administrator, look for a `No` in the **Restricted** column of your username's row in the User Manager.
-
-### Add a User to the SiteBay Account
-
-Keep your account administrator credentials secret. When hiring an external individual or agency to work on your site or application, create a *restricted* user and assign specific access to the account. Learn more about how to manage users and permissions and how to recover a lost username in our [Accounts and Passwords](/docs/products/platform/accounts/guides/manage-users/#users-and-permissions) guide.
-
-
-### Revoke a User's Access to the SiteBay Account
-
-1. If you suspect that the user may have access to the My SiteBay password, [change that first](/docs/products/platform/accounts/guides/manage-users/#changing-your-sitebay-manager-password).
-
-1. Log in to the [My SiteBay](https://my.sitebay.org/) and click [**Users and Permissions**](https://my.sitebay.org/account/users) in the **Account** tab. You may be prompted to reauthenticate your password.
-
-1. Locate the user in the Username column, and click the three dots and select **Delete** to remove the user. Click **Delete** to confirm deletion.
+- Never DM someone your admin password.
+- Always use the restricted roles feature.
+- Remind your devs they can use the SiteClaw mobile app to check server status on the go if you give them the right permissions.

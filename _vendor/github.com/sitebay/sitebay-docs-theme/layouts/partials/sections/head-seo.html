@@ -1,9 +1,9 @@
 {{ $description := "" }}
 {{ if eq .Section "api" }}
   {{ if $.IsNode }}
-    {{ $description = "SiteBay API reference and examples." }}
+    {{ $description = "Linode API reference and examples." }}
   {{ else }}
-    {{ $description = printf "SiteBay API reference and examples for %s endpoints." .Title }}
+    {{ $description = printf "Linode API reference and examples for %s endpoints." .Title }}
   {{ end }}
 {{ else }}
   {{ $description = .Param "description" }}
@@ -30,13 +30,9 @@
 {{/* If a social media image is set in the frontmatter */}}
 {{ with .Params.image }}
   {{ if eq (printf "%T" .) "string" }}
-  {{ $imageResource := $.Resources.GetMatch . }}
-  {{ if $imageResource }}
-  {{ printf "Debug: Image param type" }}
     <meta
       property="og:image"
       content="{{ ($.Resources.GetMatch .).Permalink }}" />
-    {{ end }}
   {{ else }}
     {{ with .file }}
       <meta property="og:image" content="{{ . }}" />
@@ -81,7 +77,7 @@
 {{ end }}
 
 
-<meta name="twitter:site" content="@sitebay" />
+<meta name="twitter:site" content="@linode" />
 
 {{ range .OutputFormats -}}
   <link

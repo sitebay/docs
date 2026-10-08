@@ -1,0 +1,325 @@
+{{/* browser-mockup shortcode
+   Usage: {{< browser-mockup page="dashboard" url="my.sitebay.org/team" cta="Try it free" cta_url="/signup" >}}
+   page param selects which built-in mockup to render.
+   Supported pages: dashboard, team, heroku (default: dashboard)
+*/}}
+{{ $page := .Get "page" | default "dashboard" }}
+{{ $url  := .Get "url"  | default "my.sitebay.org" }}
+{{ $cta  := .Get "cta"  | default "Try it free" }}
+{{ $ctaURL := .Get "cta_url" | default "/signup" }}
+
+<div class="sb-browser-mockup not-prose my-8 rounded-xl overflow-hidden shadow-2xl border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900">
+
+  {{/* Chrome bar */}}
+  <div class="sb-chrome flex items-center gap-2 px-4 py-3 bg-gray-100 dark:bg-gray-800 border-b border-gray-200 dark:border-gray-700 select-none">
+    <span class="h-3 w-3 rounded-full bg-red-400"></span>
+    <span class="h-3 w-3 rounded-full bg-yellow-400"></span>
+    <span class="h-3 w-3 rounded-full bg-green-400"></span>
+    <div class="ml-3 flex-1 max-w-sm bg-white dark:bg-gray-700 rounded-md px-3 py-1 text-xs text-gray-500 dark:text-gray-400 font-mono truncate border border-gray-300 dark:border-gray-600">
+      {{ $url }}
+    </div>
+  </div>
+
+  {{/* Scaled viewport */}}
+  <div class="sb-viewport relative overflow-hidden bg-gray-50 dark:bg-gray-950" style="height:420px;">
+    <div class="sb-frame-scaler" style="width:1280px; transform:scale(0.72); transform-origin:top left; position:absolute; top:0; left:0;">
+
+      {{ if eq $page "heroku" }}
+        {{/* ── HEROKU DASHBOARD MOCKUP ── */}}
+        <div style="font-family:'Salesforce Sans','Helvetica Neue',helvetica,arial,sans-serif; background:#fff; min-height:580px; display:flex; flex-direction:column;">
+
+          {{/* Global top nav */}}
+          <header style="height:50px; background:#fff; border-bottom:1px solid #CFD7E6; display:flex; align-items:center; padding:0 20px; gap:16px; flex-shrink:0; position:sticky; top:0; z-index:10;">
+            {{/* Logo */}}
+            <div style="display:flex; align-items:center; gap:10px; flex-shrink:0;">
+              <svg width="22" height="22" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="28" height="28" rx="6" fill="#79589F"/>
+                <path d="M8 21V7h3v5.5c1.2-1.4 2.8-2 4.5-2C18.6 10.5 21 13 21 16.5S18.6 22.5 15.5 22.5c-1.7 0-3.3-.6-4.5-2V21H8zm7-2c1.9 0 3-1.3 3-2.5S16.9 14 15 14s-3 1.3-3 2.5S13.1 19 15 19z" fill="#fff"/>
+              </svg>
+              <span style="font-size:15px; font-weight:700; color:#3F3F44; letter-spacing:-0.2px;">heroku</span>
+            </div>
+            {{/* Search */}}
+            <div style="flex:1; max-width:480px;">
+              <div style="background:#F7F8FB; border:1px solid #CFD7E6; border-radius:4px; padding:6px 12px; font-size:13px; color:#96A3B6; display:flex; align-items:center; gap:8px;">
+                <svg width="14" height="14" fill="none" stroke="#96A3B6" stroke-width="2" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+                Jump to Favorites, Apps, Pipelines, Spaces...
+              </div>
+            </div>
+            {{/* Right: notifications + avatar */}}
+            <div style="display:flex; align-items:center; gap:14px; margin-left:auto;">
+              <div style="position:relative;">
+                <svg width="18" height="18" fill="none" stroke="#596981" stroke-width="2" viewBox="0 0 24 24"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg>
+                <span style="position:absolute; top:-3px; right:-3px; width:8px; height:8px; background:#DE0A0A; border-radius:50%; border:1.5px solid #fff;"></span>
+              </div>
+              <div style="width:28px; height:28px; border-radius:50%; background:linear-gradient(135deg,#79589F,#8ECDEA); display:flex; align-items:center; justify-content:center; color:#fff; font-size:11px; font-weight:700;">AJ</div>
+            </div>
+          </header>
+
+          {{/* Sub-nav / app tabs */}}
+          <div style="background:#fff; border-bottom:1px solid #CFD7E6; padding:0 24px; display:flex; align-items:flex-end; gap:0; flex-shrink:0;">
+            {{ $tabs := slice
+              (dict "label" "Personal" "active" true)
+              (dict "label" "team-acme" "active" false)
+              (dict "label" "team-labs" "active" false)
+            }}
+            {{ range $tabs }}
+            <div style="padding:12px 16px 10px; font-size:13px; font-weight:{{ if .active }}600{{ else }}400{{ end }}; color:{{ if .active }}#79589F{{ else }}#596981{{ end }}; border-bottom:{{ if .active }}2px solid #79589F{{ else }}2px solid transparent{{ end }}; cursor:pointer; white-space:nowrap;">
+              {{ .label }}
+            </div>
+            {{ end }}
+            <div style="margin-left:auto; padding:10px 0; display:flex; align-items:center; gap:8px;">
+              <button style="background:#79589F; color:#fff; border:none; border-radius:4px; padding:5px 14px; font-size:13px; font-weight:600; cursor:pointer; height:32px;">New app</button>
+              <button style="background:#fff; color:#79589F; border:1px solid #79589F; border-radius:4px; padding:5px 14px; font-size:13px; font-weight:600; cursor:pointer; height:32px;">New pipeline</button>
+            </div>
+          </div>
+
+          {{/* Main content */}}
+          <main style="flex:1; background:#F7F8FB; padding:24px 24px;">
+
+            {{/* Filter bar */}}
+            <div style="display:flex; align-items:center; gap:10px; margin-bottom:20px;">
+              <div style="flex:1; max-width:300px; background:#fff; border:1px solid #CFD7E6; border-radius:4px; padding:6px 12px; font-size:13px; color:#96A3B6; display:flex; align-items:center; gap:8px;">
+                <svg width="13" height="13" fill="none" stroke="#96A3B6" stroke-width="2" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+                Search apps and add-ons
+              </div>
+              <select style="height:32px; border:1px solid #CFD7E6; border-radius:4px; padding:0 28px 0 10px; font-size:13px; color:#3F3F44; background:#fff; appearance:none; cursor:pointer;">
+                <option>Sort by recently viewed</option>
+              </select>
+              <button style="height:32px; border:1px solid #CFD7E6; border-radius:4px; padding:0 12px; font-size:13px; color:#596981; background:#fff; cursor:pointer; display:flex; align-items:center; gap:6px;">
+                <svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><line x1="4" y1="6" x2="20" y2="6"/><line x1="4" y1="12" x2="14" y2="12"/><line x1="4" y1="18" x2="10" y2="18"/></svg>
+                Filter
+              </button>
+            </div>
+
+            {{/* App cards grid */}}
+            <div style="display:grid; grid-template-columns:repeat(3,1fr); gap:14px;">
+
+              {{ $apps := slice
+                (dict "name" "acme-web-prod"    "stack" "heroku-24" "region" "United States" "status" "on"  "type" "web"     "dynos" "web: 1 Standard-1X")
+                (dict "name" "acme-api-server"  "stack" "heroku-24" "region" "United States" "status" "on"  "type" "api"     "dynos" "web: 2 Standard-2X")
+                (dict "name" "acme-worker"       "stack" "heroku-24" "region" "Europe"        "status" "on"  "type" "worker"  "dynos" "worker: 1 Standard-1X")
+                (dict "name" "acme-staging"      "stack" "heroku-24" "region" "United States" "status" "on"  "type" "web"     "dynos" "web: 1 Eco")
+                (dict "name" "acme-analytics"    "stack" "heroku-24" "region" "United States" "status" "off" "type" "worker"  "dynos" "No dynos running")
+                (dict "name" "portfolio-alex"    "stack" "heroku-22" "region" "United States" "status" "on"  "type" "web"     "dynos" "web: 1 Eco")
+              }}
+
+              {{ range $apps }}
+              <div style="background:#fff; border:1px solid #EEF1F6; border-radius:6px; padding:16px 18px; cursor:pointer; transition:box-shadow .15s;">
+                <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:10px;">
+                  <div>
+                    <div style="font-size:14px; font-weight:600; color:#79589F; margin-bottom:2px;">{{ .name }}</div>
+                    <div style="font-size:11px; color:#96A3B6;">{{ .region }}</div>
+                  </div>
+                  <span style="display:inline-flex; align-items:center; gap:4px; font-size:11px; font-weight:600; padding:2px 8px; border-radius:3px; background:{{ if eq .status "on" }}#E6F9EE{{ else }}#F7F8FB{{ end }}; color:{{ if eq .status "on" }}#00870A{{ else }}#596981{{ end }}; border:1px solid {{ if eq .status "on" }}#9FDAB0{{ else }}#CFD7E6{{ end }};">
+                    <span style="width:6px; height:6px; border-radius:50%; background:{{ if eq .status "on" }}#00870A{{ else }}#96A3B6{{ end }};"></span>
+                    {{ if eq .status "on" }}running{{ else }}off{{ end }}
+                  </span>
+                </div>
+                <div style="font-size:12px; color:#596981; display:flex; align-items:center; gap:6px; margin-bottom:6px;">
+                  <svg width="12" height="12" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+                  {{ .dynos }}
+                </div>
+                <div style="font-size:11px; color:#96A3B6;">Stack: {{ .stack }}</div>
+              </div>
+              {{ end }}
+
+            </div>
+
+          </main>
+        </div>
+
+      {{ else if eq $page "team" }}
+        {{/* ── TEAM / USER MANAGEMENT MOCKUP ── */}}
+        <div style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; background:#f9fafb; min-height:580px; padding:32px 40px;">
+
+          {{/* Header row */}}
+          <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:24px;">
+            <div>
+              <h1 style="font-size:22px; font-weight:700; color:#111827; margin:0 0 4px;">Team Members</h1>
+              <p style="font-size:13px; color:#6b7280; margin:0;">Manage who has access to your sites and their roles.</p>
+            </div>
+            <div style="display:flex; gap:10px; align-items:center;">
+              <span style="background:#ecfdf5; color:#059669; border:1px solid #a7f3d0; padding:4px 12px; border-radius:9999px; font-size:12px; font-weight:600;">Free — 3 / 5 members used</span>
+              <button style="background:#6366f1; color:#fff; border:none; padding:8px 18px; border-radius:8px; font-size:13px; font-weight:600; cursor:pointer;">+ Invite Member</button>
+            </div>
+          </div>
+
+          {{/* Table */}}
+          <div style="background:#fff; border:1px solid #e5e7eb; border-radius:12px; overflow:hidden;">
+            <table style="width:100%; border-collapse:collapse; font-size:14px;">
+              <thead>
+                <tr style="background:#f3f4f6; border-bottom:1px solid #e5e7eb;">
+                  <th style="text-align:left; padding:12px 16px; color:#374151; font-weight:600;">User</th>
+                  <th style="text-align:left; padding:12px 16px; color:#374151; font-weight:600;">Role</th>
+                  <th style="text-align:left; padding:12px 16px; color:#374151; font-weight:600;">Sites Access</th>
+                  <th style="text-align:left; padding:12px 16px; color:#374151; font-weight:600;">Status</th>
+                  <th style="padding:12px 16px;"></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr style="border-bottom:1px solid #f3f4f6;">
+                  <td style="padding:14px 16px;">
+                    <div style="display:flex; align-items:center; gap:10px;">
+                      <div style="width:34px; height:34px; border-radius:50%; background:#6366f1; color:#fff; display:flex; align-items:center; justify-content:center; font-weight:700; font-size:13px;">A</div>
+                      <div><div style="font-weight:600; color:#111827;">Alex Johnson</div><div style="font-size:12px; color:#9ca3af;">alex@acmecorp.io</div></div>
+                    </div>
+                  </td>
+                  <td style="padding:14px 16px;"><span style="background:#ede9fe; color:#7c3aed; padding:3px 10px; border-radius:9999px; font-size:12px; font-weight:600;">Owner</span></td>
+                  <td style="padding:14px 16px; color:#374151;">All sites</td>
+                  <td style="padding:14px 16px;"><span style="background:#d1fae5; color:#065f46; padding:3px 10px; border-radius:9999px; font-size:12px; font-weight:600;">Active</span></td>
+                  <td style="padding:14px 16px; color:#9ca3af; font-size:12px;">—</td>
+                </tr>
+                <tr style="border-bottom:1px solid #f3f4f6;">
+                  <td style="padding:14px 16px;">
+                    <div style="display:flex; align-items:center; gap:10px;">
+                      <div style="width:34px; height:34px; border-radius:50%; background:#f59e0b; color:#fff; display:flex; align-items:center; justify-content:center; font-weight:700; font-size:13px;">M</div>
+                      <div><div style="font-weight:600; color:#111827;">Maria Chen</div><div style="font-size:12px; color:#9ca3af;">maria@acmecorp.io</div></div>
+                    </div>
+                  </td>
+                  <td style="padding:14px 16px;"><span style="background:#fef3c7; color:#92400e; padding:3px 10px; border-radius:9999px; font-size:12px; font-weight:600;">Editor</span></td>
+                  <td style="padding:14px 16px; color:#374151;">acme-blog, acme-shop</td>
+                  <td style="padding:14px 16px;"><span style="background:#d1fae5; color:#065f46; padding:3px 10px; border-radius:9999px; font-size:12px; font-weight:600;">Active</span></td>
+                  <td style="padding:14px 16px; text-align:right;"><a style="color:#6366f1; font-size:12px; text-decoration:none;">Edit</a></td>
+                </tr>
+                <tr>
+                  <td style="padding:14px 16px;">
+                    <div style="display:flex; align-items:center; gap:10px;">
+                      <div style="width:34px; height:34px; border-radius:50%; background:#6b7280; color:#fff; display:flex; align-items:center; justify-content:center; font-weight:700; font-size:13px;">T</div>
+                      <div><div style="font-weight:600; color:#111827;">Tyler Osei</div><div style="font-size:12px; color:#9ca3af;">tyler@acmecorp.io</div></div>
+                    </div>
+                  </td>
+                  <td style="padding:14px 16px;"><span style="background:#f3f4f6; color:#374151; padding:3px 10px; border-radius:9999px; font-size:12px; font-weight:600;">Viewer</span></td>
+                  <td style="padding:14px 16px; color:#374151;">acme-blog</td>
+                  <td style="padding:14px 16px;"><span style="background:#fef9c3; color:#854d0e; padding:3px 10px; border-radius:9999px; font-size:12px; font-weight:600;">Invite Pending</span></td>
+                  <td style="padding:14px 16px; text-align:right;"><a style="color:#ef4444; font-size:12px; text-decoration:none;">Revoke</a></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <p style="margin-top:14px; font-size:12px; color:#9ca3af;">Free plan allows up to 5 team members. <a href="#" style="color:#6366f1; text-decoration:none;">Upgrade to Business</a> for unlimited seats.</p>
+        </div>
+
+      {{ else }}
+        {{/* ── DEFAULT: MAIN DASHBOARD MOCKUP ── */}}
+        <div style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; display:flex; background:#f9fafb; min-height:580px;">
+
+          {{/* Sidebar */}}
+          <nav style="width:220px; background:#1e1b4b; padding:20px 0; flex-shrink:0;">
+            <div style="padding:0 20px 20px; border-bottom:1px solid #312e81;">
+              <span style="color:#fff; font-weight:800; font-size:16px; letter-spacing:-0.5px;">SiteBay</span>
+            </div>
+            <ul style="list-style:none; margin:16px 0 0; padding:0;">
+              {{ $navItems := slice
+                (dict "label" "Dashboard"   "active" true  "icon" "🏠")
+                (dict "label" "Sites"       "active" false "icon" "🌐")
+                (dict "label" "Analytics"   "active" false "icon" "📊")
+                (dict "label" "Git Sync"    "active" false "icon" "🔄")
+                (dict "label" "Time Machine""active" false "icon" "⏱")
+                (dict "label" "Team"        "active" false "icon" "👥")
+                (dict "label" "Billing"     "active" false "icon" "💳")
+              }}
+              {{ range $navItems }}
+              <li style="padding:8px 20px; {{ if .active }}background:#312e81; border-left:3px solid #818cf8;{{ end }}">
+                <span style="color:{{ if .active }}#c7d2fe{{ else }}#a5b4fc{{ end }}; font-size:13px; font-weight:{{ if .active }}600{{ else }}400{{ end }};">
+                  {{ .icon }}&nbsp;&nbsp;{{ .label }}
+                </span>
+              </li>
+              {{ end }}
+            </ul>
+          </nav>
+
+          {{/* Main content */}}
+          <main style="flex:1; padding:28px 32px; overflow:auto;">
+
+            {{/* Top bar */}}
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:28px;">
+              <div>
+                <h1 style="font-size:22px; font-weight:700; color:#111827; margin:0 0 3px;">Good morning, Alex 👋</h1>
+                <p style="font-size:13px; color:#6b7280; margin:0;">Here's what's happening with your sites.</p>
+              </div>
+              <button style="background:#6366f1; color:#fff; border:none; padding:9px 20px; border-radius:8px; font-size:13px; font-weight:600; cursor:pointer;">+ New Site</button>
+            </div>
+
+            {{/* Stats row */}}
+            <div style="display:grid; grid-template-columns:repeat(4,1fr); gap:16px; margin-bottom:28px;">
+              {{ $stats := slice
+                (dict "label" "Sites"        "val" "3"       "sub" "1 free, 2 paid"     "color" "#6366f1")
+                (dict "label" "Visitors (7d)" "val" "12,840"  "sub" "↑ 8% vs last week" "color" "#10b981")
+                (dict "label" "Storage Used"  "val" "2.1 GB"  "sub" "of 10 GB"          "color" "#f59e0b")
+                (dict "label" "Uptime"        "val" "99.98%"  "sub" "last 30 days"       "color" "#3b82f6")
+              }}
+              {{ range $stats }}
+              <div style="background:#fff; border:1px solid #e5e7eb; border-radius:12px; padding:18px 20px;">
+                <p style="font-size:12px; color:#6b7280; margin:0 0 6px; text-transform:uppercase; letter-spacing:.05em;">{{ .label }}</p>
+                <p style="font-size:24px; font-weight:700; color:{{ .color }}; margin:0 0 4px;">{{ .val }}</p>
+                <p style="font-size:12px; color:#9ca3af; margin:0;">{{ .sub }}</p>
+              </div>
+              {{ end }}
+            </div>
+
+            {{/* Sites table */}}
+            <div style="background:#fff; border:1px solid #e5e7eb; border-radius:12px; overflow:hidden;">
+              <div style="padding:16px 20px; border-bottom:1px solid #f3f4f6; display:flex; justify-content:space-between; align-items:center;">
+                <h2 style="font-size:15px; font-weight:600; color:#111827; margin:0;">Your Sites</h2>
+                <a style="font-size:13px; color:#6366f1; text-decoration:none;">View all →</a>
+              </div>
+              <table style="width:100%; border-collapse:collapse; font-size:13px;">
+                <thead>
+                  <tr style="background:#f9fafb; border-bottom:1px solid #e5e7eb;">
+                    <th style="text-align:left; padding:10px 20px; color:#374151; font-weight:600;">Site</th>
+                    <th style="text-align:left; padding:10px 16px; color:#374151; font-weight:600;">Plan</th>
+                    <th style="text-align:left; padding:10px 16px; color:#374151; font-weight:600;">Region</th>
+                    <th style="text-align:left; padding:10px 16px; color:#374151; font-weight:600;">Status</th>
+                    <th style="padding:10px 16px;"></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr style="border-bottom:1px solid #f3f4f6;">
+                    <td style="padding:14px 20px;">
+                      <div style="font-weight:600; color:#111827;">acme-blog</div>
+                      <div style="font-size:11px; color:#9ca3af;">acme-blog.sitebay.org</div>
+                    </td>
+                    <td style="padding:14px 16px;"><span style="background:#ede9fe; color:#7c3aed; padding:3px 10px; border-radius:9999px; font-size:11px; font-weight:600;">Free</span></td>
+                    <td style="padding:14px 16px; color:#374151;">🇺🇸 US East</td>
+                    <td style="padding:14px 16px;"><span style="background:#d1fae5; color:#065f46; padding:3px 10px; border-radius:9999px; font-size:11px; font-weight:600;">● Live</span></td>
+                    <td style="padding:14px 16px; text-align:right;"><a style="color:#6366f1; font-size:12px; text-decoration:none;">Manage</a></td>
+                  </tr>
+                  <tr style="border-bottom:1px solid #f3f4f6;">
+                    <td style="padding:14px 20px;">
+                      <div style="font-weight:600; color:#111827;">acme-shop</div>
+                      <div style="font-size:11px; color:#9ca3af;">shop.acmecorp.io</div>
+                    </td>
+                    <td style="padding:14px 16px;"><span style="background:#dbeafe; color:#1d4ed8; padding:3px 10px; border-radius:9999px; font-size:11px; font-weight:600;">Business</span></td>
+                    <td style="padding:14px 16px; color:#374151;">🇬🇧 EU West</td>
+                    <td style="padding:14px 16px;"><span style="background:#d1fae5; color:#065f46; padding:3px 10px; border-radius:9999px; font-size:11px; font-weight:600;">● Live</span></td>
+                    <td style="padding:14px 16px; text-align:right;"><a style="color:#6366f1; font-size:12px; text-decoration:none;">Manage</a></td>
+                  </tr>
+                  <tr>
+                    <td style="padding:14px 20px;">
+                      <div style="font-weight:600; color:#111827;">staging-acme</div>
+                      <div style="font-size:11px; color:#9ca3af;">staging-acme.sitebay.org</div>
+                    </td>
+                    <td style="padding:14px 16px;"><span style="background:#fef3c7; color:#92400e; padding:3px 10px; border-radius:9999px; font-size:11px; font-weight:600;">Personal</span></td>
+                    <td style="padding:14px 16px; color:#374151;">🇺🇸 US East</td>
+                    <td style="padding:14px 16px;"><span style="background:#f3f4f6; color:#374151; padding:3px 10px; border-radius:9999px; font-size:11px; font-weight:600;">● Staging</span></td>
+                    <td style="padding:14px 16px; text-align:right;"><a style="color:#6366f1; font-size:12px; text-decoration:none;">Manage</a></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+          </main>
+        </div>
+      {{ end }}
+
+    </div>{{/* end scaler */}}
+  </div>{{/* end viewport */}}
+
+  {{/* CTA bar */}}
+  <div class="sb-cta flex items-center justify-between px-5 py-3 bg-indigo-50 dark:bg-indigo-950 border-t border-indigo-100 dark:border-indigo-900">
+    <p class="text-sm text-indigo-700 dark:text-indigo-300 font-medium m-0">This is what your {{ if eq $page "team" }}team management panel{{ else if eq $page "heroku" }}Heroku app dashboard{{ else }}dashboard{{ end }} looks like.</p>
+    <a href="{{ $ctaURL }}" class="text-sm font-semibold bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 rounded-lg no-underline transition-colors">{{ $cta }} →</a>
+  </div>
+
+</div>

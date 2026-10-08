@@ -1,26 +1,34 @@
 ---
-title: "View Invoices and Payment History"
-description: "Review all invoices and payments on your SiteBay account."
+title: "View Billing History"
+description: "View invoices and payments."
 published: 2024-04-17
-modified: 2024-04-21
+modified: 2025-12-04
+authors: ["SiteBay"]
+contributors: ["SiteBay"]
+modified_by:
+  name: SiteBay
 ---
 
-All of your billing history, including previous invoices and payments, is accessible within the [My SiteBay](https://my.sitebay.org/account/billing) on the **Billing & Payment History** section within the **Billing Info** page (see [Accessing Billing Information](/docs/products/platform/billing/guides/access-billing/)). By default, all transactions (both invoices and payments) from the last *6 months* are displayed. To customize this, use the dropdown menus on the top right of this section.
+Want to see exactly what you've been paying for your AI-native WordPress setups? Your billing history has everything.
 
-![Viewing Billing & Payment History in the My SiteBay](view-invoices.png)
+## How to get there
 
-**To view an itemized invoice,** find the invoice row on the list and click the corresponding invoice number. This opens up a new page that displays each service that was active during the billing period, along with the additional details listed below:
+Go to [my.sitebay.org/account/billing](https://my.sitebay.org/account/billing) and scroll down to **Billing & Payment History**.
 
-- **Description:** The type of service and the unique label you've given it.
-- **From:** The date the service started billing during this billing cycle. This could either be the date and time this billing cycle started *or* the date and time the service was added to the account.
-- **To:** The date the service ended billing during this billing cycle. This could either be the date and time this billing cycle ended *or* the date and time the service was removed from the account.
-- **Quantity:** The number of hours the service is being billed.
-- **Region:** The data center and region ID for the service.
-- **Unit Price:** The hourly rate for this service.
-- **Amount:** The cost for this service excluding taxes.
-- **Taxes:** The taxes that are charged for this service.
-- **Total:** The cost for this service including taxes.
+By default, we show you the last 6 months. Use the dropdown filters if you need to dig further back.
 
-## Downloading Invoices (PDF and CSV)
+## Invoice Details
 
-An invoice or payment can be downloaded as either a PDF or a CSV file. To do this, open the invoice within the My SiteBay and select either the **Download CSV** or **Download PDF** button.
+Click on any invoice number to break it down. You'll see:
+- What services you ran (like specific Kubernetes pods or storage)
+- The date ranges for each charge
+- How many hours it was active
+- The unit price
+- Any taxes applied
+- The grand total
+
+## Download for your records
+
+Need to hand things off to your accountant or expense it?
+- **Download PDF** — Great for official records or submitting expenses.
+- **Download CSV** — Perfect if you want to crunch the numbers in a spreadsheet.

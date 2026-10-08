@@ -6,7 +6,7 @@ aliases: ['/quick-answers/sitebay/how-to-use-git-sync/']
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
 modified: 2024-04-04
 modified_by:
-  name: Angel
+  name: SiteBay
 published: 2024-04-19
 title: How to Use Git Sync on SiteBay
 title_meta: "Git Sync: Effortlessly Update Your SiteBay WordPress Site"

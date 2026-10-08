@@ -1,45 +1,100 @@
 ---
 slug: how-to-use-sitebay-git-sync
-author:
-  name: SiteBay Community
-  email: support@sitebay.org
+authors: ["SiteBay"]
+contributors: ["SiteBay"]
+modified_by:
+  name: SiteBay
 description: 'How to use Git Sync to develop your WordPress site from anywhere.'
 keywords: ['git-sync']
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
 published: 2024-03-26
 modified: 2024-03-26
-modified_by:
-  name: SiteBay
 title: "How to Use SiteBay's Git Sync"
 h1_title: "Using Git Sync"
-contributor:
-  name: SiteBay
 tags: ["sitebay platform","development", "git sync"]
 aliases: ['/platform/git-sync/how-to-use-git-sync/']
 ---
 
-Using Git Sync with your SiteBay WordPress site opens up a whole new world of development flexibility and efficiency. This feature allows you to keep your site in sync with your Git repository, making it easy to work on your site from anywhere and collaborate with others. Here's how to get started:
+Using Git Sync on SiteBay totally changes the game for WordPress development. Since SiteBay is an AI-native platform built on Kubernetes, connecting your codebase directly to a Git repo gives you incredible flexibility, speed, and rock-solid version control. Here's how to get it running.
 
-Step 1: Enable Git Sync on Your SiteBay Site
+### Step 1: Enable Git Sync on Your SiteBay Site
 
-First, you'll need to enable Git Sync in your SiteBay dashboard. This involves linking your WordPress site to your Git repository. SiteBay supports integration with popular Git services like GitHub, GitLab, and Bitbucket.
+First up, you need to flip the switch for Git Sync in your SiteBay dashboard. This tells our platform to start tracking your WordPress site's files via Git. We support all the major players: GitHub, GitLab, and Bitbucket.
 
-Step 2: Connect Your Repository
+### Step 2: Connect Your Repository
 
-After enabling Git Sync, connect your SiteBay site to your Git repository by providing the repository URL and setting up the necessary access permissions. This will allow changes to be pushed and pulled between your site and the repository.
+Once enabled, just drop in your repository URL and set up the access permissions. This links your SiteBay environment to your repo so changes can flow securely in both directions.
 
-Step 3: Work Locally or Remotely
+### Step 3: Work Locally or Remotely
 
-With your site connected to a Git repository, you can now work on your WordPress site's themes, plugins, and content either locally or remotely. Use Git commands to track changes, commit them to your repository, and push them to your SiteBay site.
+Now the fun part. You can code locally in your favorite IDE, pull in the **SiteBay MCP Server** for some AI assistance, or work with your team remotely. Whenever you add a plugin, tweak a theme, or push custom code, just use your standard Git commands to track the changes and commit them.
 
-Step 4: Sync Changes
+### Step 4: Sync Changes
 
-When you're ready to update your live SiteBay site with the changes made in your Git repository, simply push your commits. SiteBay's Git Sync will automatically update your site with the latest changes. If you make changes directly on your SiteBay site, you can also pull these changes back to your local environment to keep everything in sync.
+Ready to go live? Just run a `git push`. SiteBay's Git Sync catches the push and automatically updates your live WordPress site on our Kubernetes clusters. 
 
-Benefits of Using Git Sync
-Collaboration: Easily collaborate with team members without overwriting each other's work.
-Version Control: Keep track of all changes made to your site, allowing you to revert to previous versions if needed.
-Flexibility: Work on your site from anywhere, at any time, without needing direct access to your live site.
-Conclusion
+What if someone makes a change directly in the WordPress dashboard (like updating a plugin)? No problem. Because the sync is bi-directional, you can simply pull those changes down to your local machine to keep your repo perfectly matched with reality. 
 
-Git Sync is an essential tool for modern WordPress development, offering convenience, security, and collaboration opportunities. By following these steps, you can streamline your workflow, keep your site up-to-date, and work more efficiently with your team. Give Git Sync a try and experience the difference it can make in your WordPress development process.
+### Why You Should Be Using Git Sync
+
+- **Collaboration:** Stop stepping on each other's toes. Multiple devs can work on the same project smoothly.
+- **Version Control:** If something breaks—say, SiteClaw flags a bad plugin update—you have a full history of your code and can easily roll back.
+- **Flexibility:** Work from anywhere, anytime, without needing clunky FTP access to your live server.
+
+Git Sync is a must-have for modern, professional WordPress development. Hook it up and see how much faster you can move.
+
+### Repo Layout
+
+Your git-sync repo should contain a `wp-content/` directory at the root. SiteBay manages WordPress core and your database — you only commit content.
+
+```
+your-repo/
+├── wp-content/
+│   ├── plugins/
+│   ├── themes/
+│   └── mu-plugins/         # optional
+├── wp-config-overrides.php # optional, allowlisted constants only
+└── .gitignore
+```
+
+**Do not commit:** `wp-includes/`, `wp-admin/`, `wp-config.php`, or anything with DB credentials. These are managed by SiteBay and will be rejected.
+
+### Starter `.gitignore`
+
+Media uploads are handled by SiteBay's MinIO storage, so you don't need them in git. Cache and log files will bloat your repo. Drop this at the root:
+
+```gitignore
+# SiteBay manages these — don't commit
+wp-content/uploads/
+wp-content/cache/
+wp-content/upgrade/
+wp-content/backup*/
+wp-content/advanced-cache.php
+wp-content/object-cache.php
+
+# Logs
+wp-content/*.log
+wp-content/debug.log
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+```
+
+### `wp-config-overrides.php` (optional)
+
+For PHP-level settings (debug flags, memory limits, revisions), drop a `wp-config-overrides.php` at your repo root. SiteBay reads an allowlisted subset — database constants, keys, and salts are rejected automatically to protect your site's isolation.
+
+```php
+<?php
+define('WP_DEBUG', true);
+define('WP_DEBUG_LOG', true);
+define('WP_MEMORY_LIMIT', '512M');
+define('WP_POST_REVISIONS', 10);
+define('DISALLOW_FILE_EDIT', true);
+```
+
+Supported constants cover debug, memory, revisions, autosave, trash, file-edit locks, and auto-update behavior. Anything touching `DB_*`, `AUTH_*`, `*_SALT`, `WP_HOME`, `WP_SITEURL`, or path constants is silently dropped — those stay under SiteBay's control.

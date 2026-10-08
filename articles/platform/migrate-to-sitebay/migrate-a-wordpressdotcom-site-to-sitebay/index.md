@@ -1,8 +1,6 @@
 ---
 slug: migrate-a-wordpressdotcom-site-to-sitebay
-author:
-  name: SiteBay
-  email: support@sitebay.org
+authors: ["SiteBay"]
 description: 'Shows how to export posts from a WordPress.com website and import them to WordPress on a SiteBay.'
 keywords: ["wordpress", "wordpress.com", "migrate", "website migration"]
 tags: ["sitebay platform","wordpress"]
@@ -14,71 +12,44 @@ published: 2024-04-04
 title: How to Migrate a WordPress.com Website to SiteBay
 external_resources:
  - '[WordPress.com: Moving to Self-Hosted WordPress](https://move.wordpress.com/)'
+contributors: ["SiteBay"]
 aliases: ['/platform/migrate-to-sitebay/migrate-a-wordpressdotcom-site-to-sitebay/']
 ---
 
-This tutorial describes how to export your content from WordPress.com and host your WordPress website on SiteBay.
+# Migrate from WordPress.com to SiteBay
 
+Outgrown the limitations of WordPress.com? It happens. When you're ready for real control, migrating your content to SiteBay’s AI-native Kubernetes platform is the next logical step. You'll get blazingly fast performance and the freedom to install whatever themes and plugins you want.
 
 {{< note >}}
-WordPress.com's export feature will export pages, posts, and comments from your site, but it will not export your themes and widgets. You will need to customize your new self-hosted WordPress site's appearance after completing your migration.
+The built-in WordPress.com export tool grabs your pages, posts, and comments, but it leaves your themes and widgets behind. You’ll need to set up your design again once you land on SiteBay.
 {{< /note >}}
 
-## Migrate Your Website
+## Making the Move
 
-### Create Your Site on SiteBay
+### Step 1: Spin Up Your SiteBay Environment
 
-Follow SiteBay's [Getting Started](/support/getting-started/) tutorial to create your first site with us. Choose a SiteBay plan with enough storage space to store the data from your current host.
+Log into your My SiteBay dashboard and launch a new WordPress site. Thanks to our Kubernetes infrastructure, your new server will be provisioned and ready in seconds. Ensure you pick a plan with enough storage for all your existing media.
 
+### Step 2: Grab Your Content from WordPress.com
 
+1. Jump into your WordPress.com dashboard, head to `Settings`, and hit the `Export` option.
+2. Click `Export All`, then `Download`. You'll get a zip file packed with XML files containing your site's DNA. (They'll email you a backup link too).
+3. Unzip that file on your local machine.
 
-### Export Your WordPress.com Content
+### Step 3: Import to SiteBay
 
-1.  Login to your WordPress.com dashboard and navigate to the `Settings` page. Choose the `Export` option from the `Settings` page:
+1. Log into your fresh SiteBay WordPress admin panel.
+2. Go to `Tools > Import`. Look for the WordPress option at the bottom of the list and hit `Install Now`, then `Run Importer`.
+3. Click `Choose File` and select the XML file you unzipped earlier. 
+4. **Crucial Step**: When the next screen asks, make sure you check the box for *Download and import file attachments*. This ensures all your images come over. Assign the posts to an existing user (you) and hit submit.
 
-    ![WordPress.com Settings Page](wordpressdotcom-settings.png "Choose the Export option from the Settings page.")
+### Step 4: Fix Your Links
 
-1.  Click `Export All`, then `Download` to download a compressed file of your content in XML form. A copy will also be emailed to you:
+WordPress.com uses a specific URL structure. Let's make sure we match it so you don't break your SEO.
 
-    ![WordPress.com Export Page](wordpressdotcom-export.png "Click Export All to export your content to an XML file.")
-
-    To export posts, pages, or feedback from the site, press the down arrow to the right of the `Export All` button.
-
-1.  Unzip the file.
-
-### Import Your Content on your SiteBay hosted WordPress site
-
-1.  Visit your SiteBay hosted WordPress site from your browser and login with your WordPress credentials.
-
-1.  Navigate to the Import page of the Tools section. The WordPress importer plugin will be listed:
-
-    ![WordPress Tools Page](tools-import-wordpress.png "WordPress Importer plugin.")
-
-1.  Choose `Install Now` and then run this plugin. On the page that appears, click `Choose File` and locate the XML file you previously exported from WordPress.com to your computer:
-
-    ![WordPress Importer Plugin - Page 1](wordpress-importer-plugin-1.png "Import file dialog box.")
-
-1.  A page will appear that surfaces a few import options:
-
-    ![WordPress Importer Plugin - Page 1](wordpress-importer-plugin-2.png "Import file options show author and post options.")
-
-    You are able to assign your imported posts to:
-
-    -   Your previous WordPress.com user, which will also be imported
-    -   A brand new user that the import plugin will create
-    -   One of the WordPress users you've already created on your SiteBay as part of deploying your web server
-
-    **Be sure to enable** the *Download and import file attachment* option on this page.
-
-1.  Submit this form. Your content will now be imported.
-
-1.  Navigate to the `Permalinks` page in the `Settings` section:
-
-    ![WordPress Permalinks](wordpress-permalinks.png "WordPress permalinks day and name option.")
-
-1.  Choose the `Day and name` option and save the change. This option matches the permalink style used on WordPress.com.
-
+1. Go to `Settings > Permalinks` in your SiteBay WordPress admin.
+2. Select the `Day and name` option. This perfectly mirrors the WordPress.com setup. Save your changes.
 
 ## Next Steps
 
-If you had subscribers on your WordPress.com site, you can also migrate them to your new self-hosted site. This requires that you install the Jetpack plugin and uses Jetpack's [subscription migration tool](https://jetpack.com/support/subscription-migration-tool/).
+With your content moved over, it's time to make the site yours. Install a killer theme, set up your plugins, and flip on the SiteBay features. We highly recommend activating SiteClaw for automated security and PostHog for deep user analytics right out of the gate.

@@ -1,0 +1,219 @@
+[
+  {
+    "title": "Getting Started with SiteBay",
+    "description": "Your first steps on the SiteBay platform: Creating an account, deploying your first site, and exploring the AI-native tools.",
+    "path": "guides/get-started/getting-started-with-site-bay",
+    "file": "articles/guides/get-started/getting-started-with-site-bay/index.md",
+    "content": ""
+  },
+  {
+    "title": "Dashboard Overview: The PostHog Control Plane",
+    "description": "A comprehensive tour of the SiteBay Dashboard, our deeply customized instance of PostHog that serves as your central control plane.",
+    "path": "guides/platform/manager/an-overview-of-the-mysitebay-manager",
+    "file": "articles/guides/platform/manager/an-overview-of-the-mysitebay-manager/index.md",
+    "content": ""
+  },
+  {
+    "title": "Git Sync",
+    "description": "Auto-sync WordPress with Git.",
+    "path": "guides/quick-answers/sitebay-essentials/introduction-to-git-sync",
+    "file": "articles/guides/quick-answers/sitebay-essentials/introduction-to-git-sync/index.md",
+    "content": ""
+  },
+  {
+    "title": "Point-in-Time Machine",
+    "description": "Point-in-time backups and restore.",
+    "path": "guides/quick-answers/sitebay-essentials/introduction-to-pit-machine",
+    "file": "articles/guides/quick-answers/sitebay-essentials/introduction-to-pit-machine/index.md",
+    "content": ""
+  },
+  {
+    "title": "SiteBay Global Regions",
+    "description": "Understand SiteBay's global infrastructure regions and how to choose the right location for your WordPress site.",
+    "path": "guides/quick-answers/sitebay-essentials/introduction-to-sitebay-regions",
+    "file": "articles/guides/quick-answers/sitebay-essentials/introduction-to-sitebay-regions/index.md",
+    "content": ""
+  },
+  {
+    "title": "SiteBay Pricing Plans",
+    "description": "Overview of SiteBay's pricing plans, from the free Developer tier to robust Agency solutions.",
+    "path": "guides/quick-answers/sitebay-essentials/sitebay-plans",
+    "file": "articles/guides/quick-answers/sitebay-essentials/sitebay-plans/index.md",
+    "content": ""
+  },
+  {
+    "title": "Session Replay",
+    "description": "Watch recordings of user sessions.",
+    "path": "guides/quick-answers/sitebay-essentials/what-is-session-replay",
+    "file": "articles/guides/quick-answers/sitebay-essentials/what-is-session-replay/index.md",
+    "content": ""
+  },
+  {
+    "title": "Shopify Link",
+    "description": "Add WordPress blog to Shopify at /a/blog.",
+    "path": "guides/quick-answers/sitebay-essentials/what-is-shopify-link",
+    "file": "articles/guides/quick-answers/sitebay-essentials/what-is-shopify-link/index.md",
+    "content": ""
+  },
+  {
+    "title": "What is SiteBay?",
+    "description": "SiteBay is the world's first AI-native WordPress hosting platform, engineered for a future where bots and humans build the web together.",
+    "path": "guides/quick-answers/sitebay-essentials/what-is-sitebay",
+    "file": "articles/guides/quick-answers/sitebay-essentials/what-is-sitebay/index.md",
+    "content": ""
+  },
+  {
+    "title": "How to Migrate to SiteBay",
+    "description": "A comprehensive guide to migrating an existing WordPress site to SiteBay's Kubernetes infrastructure.",
+    "path": "guides/quick-answers/sitebay/how-to-migrate-your-site",
+    "file": "articles/guides/quick-answers/sitebay/how-to-migrate-your-site/index.md",
+    "content": ""
+  },
+  {
+    "title": "Creating a Site on SiteBay",
+    "description": "Learn how to instantly deploy a new AI-native WordPress environment on the SiteBay platform.",
+    "path": "guides/quick-answers/sitebay/sitebay-create-a-site",
+    "file": "articles/guides/quick-answers/sitebay/sitebay-create-a-site/index.md",
+    "content": ""
+  },
+  {
+    "title": "Dashboard Overview",
+    "description": "SiteBay dashboard overview.",
+    "path": "guides/quick-answers/sitebay/sitebay-dashboard-overview",
+    "file": "articles/guides/quick-answers/sitebay/sitebay-dashboard-overview/index.md",
+    "content": ""
+  },
+  {
+    "title": "Staging Sites: Safe Testing Environments",
+    "description": "Safely test code, plugins, and design changes using SiteBay's integrated Staging environments.",
+    "path": "guides/quick-answers/sitebay/sitebay-dashboard-staging-site",
+    "file": "articles/guides/quick-answers/sitebay/sitebay-dashboard-staging-site/index.md",
+    "content": ""
+  },
+  {
+    "title": "Dashboard Tools",
+    "description": "SiteBay Dashboard Tools: External Paths, HTTP Auth, Cloudflare, Cache, Domain, Delete.",
+    "path": "guides/quick-answers/sitebay/sitebay-dashboard-tools",
+    "file": "articles/guides/quick-answers/sitebay/sitebay-dashboard-tools/index.md",
+    "content": ""
+  },
+  {
+    "title": "Security on SiteBay",
+    "description": "How SiteBay secures your WordPress infrastructure at the edge, server, and application layers.",
+    "path": "guides/security/basics/securing-your-wordpress",
+    "file": "articles/guides/security/basics/securing-your-wordpress/index.md",
+    "content": ""
+  },
+  {
+    "title": "Integrated IDE: Code Server",
+    "description": "Develop directly on your WordPress servers with SiteBay's integrated Code Server (VS Code in the browser).",
+    "path": "products/code-server/get-started",
+    "file": "articles/products/code-server/get-started/index.md",
+    "content": ""
+  },
+  {
+    "title": "Git Sync: Version Control for WordPress",
+    "description": "Master Git Sync on SiteBay: Bi-directional code synchronization between your WordPress environments and your Git repositories.",
+    "path": "products/git-sync/get-started",
+    "file": "articles/products/git-sync/get-started/index.md",
+    "content": ""
+  },
+  {
+    "title": "SiteBay MCP Server: AI Infrastructure Control",
+    "description": "Give your AI agents the keys to the server. The SiteBay MCP server enables direct infrastructure control for Claude and other LLMs.",
+    "path": "products/mcp/get-started",
+    "file": "articles/products/mcp/get-started/index.md",
+    "content": ""
+  },
+  {
+    "title": "SiteBay API Reference",
+    "description": "SiteBay REST API reference: authentication, base URL, key endpoints for managing sites, teams, billing, and infrastructure.",
+    "path": "products/platform/api-reference",
+    "file": "articles/products/platform/api-reference/index.md",
+    "content": ""
+  },
+  {
+    "title": "SiteBay Infrastructure Architecture",
+    "description": "How SiteBay's infrastructure works under the hood: Kubernetes, CephFS, MariaDB, Celery workers, and the full deployment pipeline.",
+    "path": "products/platform/architecture",
+    "file": "articles/products/platform/architecture/index.md",
+    "content": ""
+  },
+  {
+    "title": "Site Lifecycle and Statuses",
+    "description": "Understanding SiteBay site statuses, the state machine that governs site operations, and what each status means.",
+    "path": "products/platform/site-lifecycle",
+    "file": "articles/products/platform/site-lifecycle/index.md",
+    "content": ""
+  },
+  {
+    "title": "Teams and Billing",
+    "description": "How SiteBay's team and billing model works: teams own sites, plans set resource quotas, and Stripe handles payments.",
+    "path": "products/platform/teams-and-billing",
+    "file": "articles/products/platform/teams-and-billing/index.md",
+    "content": ""
+  },
+  {
+    "title": "PostHog Analytics on SiteBay",
+    "description": "The definitive guide to SiteBay's deep PostHog integration: Product analytics, session replay, feature flags, and AI-driven insights.",
+    "path": "products/posthog/get-started",
+    "file": "articles/products/posthog/get-started/index.md",
+    "content": "## Core Capabilities\n\n### 1. Session Replay\nStop guessing what users are doing and watch them do it. Session Replay captures mouse movements, clicks, scrolls, and network requests.\n\n*   **Debugging:** When a user reports a bug, you can watch the exact session where it occurred.\n*   **Privacy-First:** SiteBay's PostHog configuration automatically masks sensitive information like passwords, credit card numbers, and PII before it ever leaves the browser.\n*   **Console Logs:** Replays include frontend JavaScript console errors, making it trivial for developers (or AI agents) to pinpoint client-side issues.\n\n### 2. Deep Web Analytics & Funnels\nTrack the entire user journey through your WordPress site or WooCommerce store.\n\n*   **Funnels:** Visualize drop-off rates between steps (e.g., Landing Page \u2192 Add to Cart \u2192 Checkout \u2192 Purchase).\n*   **User Paths:** Understand the most common routes users take through your site.\n*   **Retention:** Measure how often users return over days, weeks, or months.\n\n### 3. Feature Flags & A/B Testing\nDeploy code with confidence using built-in feature flags.\n\n*   **Targeted Rollouts:** Release a new theme or plugin update to only 10% of your users to monitor stability.\n*   **A/B Testing:** Test different headlines, pricing structures, or layouts and let PostHog mathematically determine the winner.\n*   **Instant Rollbacks:** If a new feature causes errors, disable it instantly via the SiteBay Dashboard or SiteClaw app without redeploying code.\n\n---\n\n## The AI Advantage\n\nBecause PostHog is integrated at the platform level, SiteBay's AI tools have unprecedented access to your analytics context.\n\n*   **MCP Proxying:** The `sitebay_posthog_proxy` tool allows Claude and other agents to pull live analytics data. You can instruct your agent to *\"Summarize yesterday's site errors and cross-reference them with Session Replays.\"*\n*   **Proactive Alerts in SiteClaw:** The SiteClaw mobile assistant can proactively notify you of anomalous behavior, such as a sudden spike in rage clicks or a drop in conversion rates, accompanied by direct links to the relevant Session Replays.\n\n## Accessing Your Data\n\nYou can access your PostHog dashboard through multiple channels:\n\n1.  **SiteBay Dashboard:** Navigate to **Analytics > PostHog** in your SiteBay Manager.\n2.  **SiteClaw Mobile:** View critical metrics and recent session replays directly from the app.\n3.  **Direct PostHog Login:** For advanced querying and dashboard creation, you can log in directly to your dedicated PostHog instance via SiteBay's Single Sign-On (SSO).\n\nSiteBay transforms WordPress from a static content manager into a dynamic, data-driven application platform."
+  },
+  {
+    "title": "Session Replay",
+    "description": "PostHog session recordings on SiteBay.",
+    "path": "products/posthog/session-replay",
+    "file": "articles/products/posthog/session-replay/index.md",
+    "content": ""
+  },
+  {
+    "title": "Web Analytics",
+    "description": "Web analytics with PostHog on SiteBay.",
+    "path": "products/posthog/web-analytics",
+    "file": "articles/products/posthog/web-analytics/index.md",
+    "content": ""
+  },
+  {
+    "title": "Shopify Link: Headless Commerce",
+    "description": "Shopify Link allows you to seamlessly integrate Shopify's headless commerce capabilities into your SiteBay WordPress platform.",
+    "path": "products/shopify-link/get-started",
+    "file": "articles/products/shopify-link/get-started/index.md",
+    "content": ""
+  },
+  {
+    "title": "SiteClaw: Mobile App & ChatGPT Assistant",
+    "description": "SiteClaw is the mobile AI assistant and ChatGPT custom GPT for SiteBay, providing voice and chat-based infrastructure management.",
+    "path": "products/siteclaw/get-started",
+    "file": "articles/products/siteclaw/get-started/index.md",
+    "content": ""
+  },
+  {
+    "title": "SiteBay Templates",
+    "description": "Launch beautifully designed, pre-configured WordPress sites instantly using SiteBay Templates.",
+    "path": "products/templates/get-started-with-templates",
+    "file": "articles/products/templates/get-started-with-templates/index.md",
+    "content": ""
+  },
+  {
+    "title": "The AI-Native WordPress Theme",
+    "description": "The SiteBay WordPress Theme is engineered from the ground up for AI agents, utilizing a robust CSS token system and utility classes.",
+    "path": "products/theme/get-started",
+    "file": "articles/products/theme/get-started/index.md",
+    "content": ""
+  },
+  {
+    "title": "Point-in-Time Machine",
+    "description": "SiteBay's Point-in-Time Machine gives you continuous, minute-by-minute backups for your WordPress sites.",
+    "path": "products/time-machine/get-started-with-pit-machine",
+    "file": "articles/products/time-machine/get-started-with-pit-machine/index.md",
+    "content": ""
+  },
+  {
+    "title": "Site Tools: Managing Your Environment",
+    "description": "A comprehensive guide to SiteBay's dashboard tools: Caching, Database Management, and PHP Configuration.",
+    "path": "products/tools/get-started",
+    "file": "articles/products/tools/get-started/index.md",
+    "content": ""
+  }
+]

@@ -1,30 +1,32 @@
 ---
-title: "Access Billing Information"
-description: "View billing information, including checking your account balancing and accrued charges."
+title: "Access Billing"
+description: "View billing information."
 published: 2024-04-17
+modified: 2025-12-04
+authors: ["SiteBay"]
+contributors: ["SiteBay"]
+modified_by:
+  name: SiteBay
 ---
 
-Most information and settings pertaining to billing are located within the [Billing Info](https://my.sitebay.org/account/billing) page of the My SiteBay. Follow the instructions below to access this page:
+Need to check your invoices or see what your Kubernetes clusters are costing you this month? Here's where to find all your billing details.
 
-1. Log in to the [My SiteBay](https://my.sitebay.org) on a user account with one of the following permissions. See [Setting User Permissions](/docs/products/platform/accounts/guides/user-permissions/) for more details.
+## Where to find it
 
-    - **Full account access** (unrestricted).
-    - Restricted user with *Read-Write* permissions under **Billing Access**. Users with *Read Only* permissions are able to see most billing information but they are not able to make changes.
+Head over to [my.sitebay.org/account/billing](https://my.sitebay.org/account/billing), or just click **Account** → **Billing Info** in the sidebar.
 
-1. Click on the **Account** link on the left menu, which displays the [Billing Info](https://my.sitebay.org/account/billing) page.
+## Who can see this?
 
-![The Billing Info page showing an example customer with a $24 negative balance and $9 of accrued charges.](account-billing.png)
+- **Full access users**: You can see everything.
+- **Restricted users**: You need to have either **Read-Write** or **Read Only** Billing Access turned on in your user permissions.
 
-This page contains several sections:
+## What's on the page
 
-- **Account Balance:** The current balance on the account. This includes any past due amounts from unpaid invoices as well as any positive balance remaining from credits or promo codes. In the screenshot above, the account has a positive balance of $10.
-
-- **Promotions:** If there is an active promo/coupon applied to the account, it will be displayed here along with the remaining balance and any expiration date. If there are no active promotions, this section is hidden.
-
-- **Accrued Charges:** The charges that have accrued since your last invoice. This updates frequently to include the hourly charges (up to the monthly cap) for all paid services on the account, as well as any other charges. In the screenshot above, the account has accrued $8.51 of charges since the last invoice. See the [Billing Overview](/docs/products/platform/billing/) guide for help understanding these charges.
-
-- **Billing Contact:** The name, address, phone number, and email address for the primary billing contact on the account. See [Update Billing Contact Information](/docs/products/platform/billing/guides/update-billing-contact-info/).
-
-- **Payment Methods:** The payment methods that have been added to the account.
-
-- **Billing & Payment History:** Displays a list of previous invoices and payments, along with links to view or download each entry. See [View Invoices and Payment History](/docs/products/platform/billing/guides/view-history/)
+| Section | What it shows |
+|---------|---------------|
+| **Account Balance** | What you owe right now, plus any credits you have. |
+| **Promotions** | Any active promo codes you've scored. |
+| **Accrued Charges** | Unbilled charges since your last invoice. |
+| **Billing Contact** | Your name, address, and where we send the receipts. |
+| **Payment Methods** | The credit cards or Google Pay accounts you have on file. |
+| **Billing History** | All your past invoices and payments. |

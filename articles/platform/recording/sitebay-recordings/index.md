@@ -1,8 +1,6 @@
 ---
 slug: sitebay-recordings-page
-author:
-  name: SiteBay Community
-  email: support@sitebay.org
+authors: ["SiteBay"]
 description: 'Learn about SiteBay''s recordings page.'
 keywords: ['sitebay','maintenance','incident','system', 'recordings']
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
@@ -11,50 +9,37 @@ modified: 2024-04-20
 modified_by:
   name: SiteBay
 title: "SiteBay Recordings"
-contributor:
-  name: SiteBay
+contributors: ["SiteBay"]
 tags: ["sitebay platform"]
 aliases: ['/platform/sitebay-recordings-page/']
 ---
 
-The SiteBay recordings Page thanks to PostHog, My SiteBay provides real-time recordings of how user's use your SiteBay hosted WordPress site.
+# SiteBay Recordings Powered by PostHog
 
-User observability is a powerful tool for understanding how users interact with your website or application. By tracking and analyzing user behavior, you can gain valuable insights into how users navigate your site, what features they use, and where they encounter problems or obstacles.
+User observability isn't just a buzzword; it's how you actually understand if your site is working. My SiteBay integrates deeply with PostHog to provide real-time session recordings of how users interact with your AI-native WordPress sites.
 
-One way to implement user observability is through recordings. This involves capturing detailed information about user interactions, such as clicks, scrolls, and keystrokes. These recordings can then be played back and analyzed to understand how users are interacting with your site.
+### See Exactly What Your Users See
 
-There are many benefits to using recordings for user observability. For one, recordings provide a detailed, objective view of user behavior. This can help you identify problems or opportunities that you might not have noticed otherwise.
+Analytics numbers are great, but they don't tell the whole story. Session recordings capture the actual clicks, scrolls, and mouse movements of your visitors. 
 
-Recordings can also help you understand the context in which users are interacting with your site. For example, you can see how users are navigating your site, what other tabs or windows they have open, and what devices they are using. This can provide valuable insights into user behavior and help you optimize your site for different user scenarios.
+- **Find the friction**: See where users get stuck on your checkout page.
+- **Validate your design**: Watch how people navigate your new menu.
+- **Debug like a wizard**: Watch the exact steps a user took before encountering an error.
 
-In addition, recordings can be a valuable tool for user research and user testing. By watching recordings of real users interacting with your site, you can get a better understanding of their needs, preferences, and pain points. This can help you make more informed decisions about design and development.
-By tracking and analyzing user behavior, you can make more informed decisions about your site.
+### Deep Dive with PostHog Insights
 
-## Posthog Recordings
+Once you're in the My SiteBay dashboard, head over to the Insights tab. Because your site runs on our optimized Kubernetes infrastructure, we can seamlessly pipe this data without slowing down your frontend.
 
-This amazing tool allows you to track and understand your users' behavior like never before. You can record their interactions on your website or web application and store the data in a database for later analysis.
+From Insights, you can see the high-level metrics: who is visiting, how long they stay, and what pages they hit. But the real power is when you drill down into individual recordings to see the *why* behind the data.
 
-With Posthog Recordings, you can replay the actions of individual users on your site. This gives you a better understanding of how your users are interacting with your feature, and allows you to identify areas of the user experience that need improvement.
+### Analyze with Cohorts
 
-But that's not all. Posthog Recordings is also great for conducting user research and user testing. You can see exactly how users are using your site, and make changes based on their behavior.
+Not all users are the same. With PostHog's Cohorts feature, you can group users based on their behavior or properties. 
 
-So if you want the best analytics tool on the market, look no further than Posthog Recordings. Trust me, you won't be disappointed. It's the greatest.
+- Group users who abandoned their cart.
+- Group users who use a specific feature.
+- Group your most active commenters.
 
-## PostHog Insights
+Once you have your cohorts, you can filter your session recordings to only watch how these specific groups interact with your site. It's targeted, actionable data that helps you iterate faster. 
 
-First, log in to your My SiteBay and go to the Insights tab.
-From here, you can see a variety of different metrics and graphs that show you how users are interacting with your site.
-You can see how many users are visiting your site, how long they are staying, and which pages they are viewing.
-
-## Cohorts
-
-The Cohorts section allows you to track and understand the behavior of different groups of users on your site.
-
-First, log in to your Posthog account and go to the Cohorts tab.
-From here, you can see a variety of different metrics and graphs that show you how different groups of users are interacting with your site.
-You can see how many users are in each group, how long they are staying on your site, and which pages they are viewing.
-
-Next, you can use the filters at the top of the page to create your own custom cohorts. For example, you can filter by user properties, events, or date range to create groups of users with specific characteristics. This allows you to see data for specific groups of users and get a more detailed understanding of their behavior.
-
-Finally, you can use the Cohorts feature to compare the behavior of different groups of users. Just select the cohorts you want to compare and Posthog will show you a side-by-side comparison of the data.
-This allows you to see how different groups of users are interacting with your site and identify any differences in their behavior.
+Turn on PostHog in your SiteBay dashboard today and stop guessing what your users are doing.

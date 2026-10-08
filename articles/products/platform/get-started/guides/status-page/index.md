@@ -12,52 +12,30 @@ authors: ["SiteBay"]
 contributors: ["SiteBay"]
 ---
 
-The [Status Page](https://www.sitebay.org/status/) provides real-time system status and maintenance updates via email. All customers are encouraged to subscribe to status notifications to stay up-to-date with any events that may impact our services. When you sign up for status updates, you can fine-tune which service updates you receive. These different topic areas are referred to as *components*. If, for example, all your services are restricted to the Newark data center, you may only wish to subscribe to the Newark component.
+When things break or we're doing routine maintenance on our Kubernetes clusters, we post updates immediately to the [SiteBay Status Page](https://www.sitebay.org/status/). 
 
-You can also subscribe to individual incident notifications. In this case, you can be notified of new updates to an incident via email or SMS.
+If you're relying on us for your AI-native WordPress hosting, you should definitely subscribe so you're never caught off-guard. You can even filter the updates so you only get pinged about the specific data centers you're actually using.
 
-## Subscribe to Email Updates
+## Get Updates via Email or SMS
 
-To subscribe to system status and maintenance updates, follow the instructions below.
-
-1. Navigate to the [SiteBay Status Page](https://www.sitebay.org/status/).
-
-1. Click on the **Subscribe to Updates** button.
+1. Go to the [SiteBay Status Page](https://www.sitebay.org/status/).
+2. Hit the **Subscribe to Updates** button at the top.
 
     ![Subscribe to SiteBay status updates.](status-page-subscribe.png)
 
-1. In the form that appears, enter your email address and click the **Subscribe via email** button.
+3. Enter your email or phone number.
+4. Pick which components (data centers or services) you care about, then click **Save**.
+5. Check your inbox or phone for a confirmation message and verify it.
 
-1. You are brought to another web page with a list of components. Select which components you'd like to receive status updates for and then click the **Save** button.
+*(Note: If you ever want to stop getting text messages, just reply "STOP" to one of the alerts.)*
 
-1. You will receive a confirmation email shortly. In that email, click the **Confirm subscription** button.
+## Just Want the RSS Feed?
 
-## Subscribe to RSS Updates
+If you prefer using an RSS reader, or you want to pipe the updates into a Slack channel, use this URL: `https://www.sitebay.org/status/history.rss`.
 
-Within your RSS aggregator, go through the process of adding a new RSS feed. When prompted, use the following URL for a raw XML list of recent incidents: `https://www.sitebay.org/status/history.rss`.
+## Track a Specific Incident
 
-## Subscribe to an Incident
-
-To subscribe to updates for a specific incident:
-
-1. Navigate to the [SiteBay Status Page](https://www.sitebay.org/status/).
-
-1. Find the incident you would like to follow and click on its heading. You are brought to that incident's page.
-
-1. Click on the **Subscribe to Updates** button and provide your Email and/or telephone number.
-
-## Update Notification Preferences or Unsubscribe
-
-You can update your component preferences or cancel your subscription to SiteBay status and maintenance updates at any time. To update your preferences or to unsubscribe:
-
-1. Navigate to the [SiteBay Status Page](https://www.sitebay.org/status/).
-
-1. Click on the **Subscribe to Updates** button and enter your email address.
-
-1. You are brought to your Notification Subscription page. Update your preferences, as needed, and click on the **Update Preferences** button.
-
-1. If you would like to unsubscribe, click on the **Cancel Subscription** link in the Subscriber section of the page and follow the prompt.
-
-{{< note >}}
-You can unsubscribe from SMS notifications by replying to any text message notification with the word "STOP".
-{{< /note >}}
+If there's currently an outage and you just want to know when it's fixed (without subscribing to everything forever):
+1. Go to the status page and click on the specific incident.
+2. Hit **Subscribe to Updates** right on that page.
+3. Drop in your email or phone number.
