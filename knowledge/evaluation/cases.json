@@ -1,0 +1,126 @@
+{
+  "scope": "Curated real-article task regressions; expected paths reviewed against the available corpus.",
+  "cases": [
+    {
+      "query": "How Sorti works",
+      "source": "sitebay",
+      "expected_paths": [
+        "articles/sorti/how-sorti-works.md"
+      ]
+    },
+    {
+      "query": "create a panel with Forge",
+      "source": "sitebay",
+      "expected_paths": [
+        "articles/sorti/forging-panels.md"
+      ]
+    },
+    {
+      "query": "connect VS Code",
+      "source": "sitebay",
+      "expected_paths": [
+        "articles/vscode/install.md",
+        "articles/vscode/setup.md"
+      ]
+    },
+    {
+      "query": "restore a site",
+      "source": "sitebay",
+      "expected_paths": [
+        "articles/products/time-machine/get-started-with-pit-machine/index.md"
+      ]
+    },
+    {
+      "query": "scan WordPress vulnerabilities",
+      "source": "sitebay",
+      "expected_paths": [
+        "articles/guides/security/vulnerabilities/scanning-your-wordpress-site-for-malware/index.md"
+      ]
+    },
+    {
+      "query": "SiteBay plan pricing",
+      "source": "sitebay",
+      "expected_paths": [
+        "articles/api/plan.md",
+        "articles/guides/quick-answers/sitebay-essentials/sitebay-plans/index.md"
+      ]
+    },
+    {
+      "query": "read docs with MCP",
+      "source": "sitebay",
+      "expected_paths": [
+        "articles/knowledge/read-with-mcp.md"
+      ]
+    },
+    {
+      "query": "pgvector semantic search",
+      "source": "sitebay",
+      "expected_paths": [
+        "articles/knowledge/pgvector.md"
+      ]
+    },
+    {
+      "query": "connect Shopify",
+      "source": "sitebay",
+      "expected_paths": [
+        "articles/products/shopify-link/get-started/index.md"
+      ]
+    },
+    {
+      "query": "select voice provider",
+      "source": "sitebay",
+      "expected_paths": [
+        "articles/voice/providers.md"
+      ]
+    },
+    {
+      "query": "where do I find the source code",
+      "source": "sitebay",
+      "expected_paths": [
+        "articles/knowledge/task-map.md",
+        "articles/knowledge/system-map.md"
+      ]
+    },
+    {
+      "query": "publish the documentation",
+      "source": "sitebay",
+      "expected_paths": [
+        "articles/knowledge/publishing.md"
+      ]
+    },
+    {
+      "query": "zznonexistentdocsreferenceqv9",
+      "source": "sitebay",
+      "expected_paths": [],
+      "expect_empty": true
+    },
+    {
+      "query": "pgvector",
+      "source": "linode",
+      "expected_paths": [
+        "docs/marketplace-docs/guides/pgvector/index.md"
+      ]
+    },
+    {
+      "query": "MCP Gateway",
+      "source": "linode",
+      "expected_paths": [
+        "docs/marketplace-docs/guides/akamai-mcp-gateway-client/index.md"
+      ]
+    },
+    {
+      "query": "Haystack",
+      "source": "linode",
+      "expected_paths": [
+        "docs/marketplace-docs/guides/haystack/index.md"
+      ]
+    },
+    {
+      "query": "Ollama",
+      "source": "linode",
+      "expected_paths": [
+        "docs/marketplace-docs/guides/ollama/index.md"
+      ]
+    }
+  ]
+}

@@ -109,6 +109,7 @@ corpus. Private operational references require their own access boundary.
 
 ```sh
 npm --prefix knowledge test
+node knowledge/src/evaluate.mjs --report .cache/retrieval.json
 bash knowledge/tests/test-postgres.sh
 SORTI_REPO=/path/to/sorti /path/to/sorti/node_modules/.bin/tsx \
   knowledge/tests/sorti-client.integration.ts
@@ -119,3 +120,8 @@ that container. The Sorti integration imports the actual BYO client but does
 not modify the checkout or activate a running session. Browser verification
 uses the real Pagefind output, checks search clicks and filters, and verifies
 that reading remains usable with JavaScript disabled.
+
+The retrieval regression checks task queries against expected source paths in
+the first five results and verifies the returned source lines. Run it with
+`--upstream` and a combined `DOCS_CORPUS` to include the pinned Linode cases.
+These are lexical regressions, not a claim about an untested embedding model.

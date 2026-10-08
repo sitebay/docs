@@ -51,3 +51,11 @@ The original Linode reference corpus is built separately with its attribution
 and license metadata. It is not a rebranded public article import. Existing
 Algolia indexes remain untouched. Retired uploader workflows do not validate
 an external production delivery path; publishing remains a separate action.
+
+## Completion checks
+
+The local Ollama catalog was not reachable during the final checks. No model
+was downloaded, and no article text was sent to a remote embedding provider.
+The pgvector integration uses a disposable PostgreSQL database and deterministic
+fixture vectors. Real-model retrieval quality remains an operator acceptance
+check. The curated lexical regression is recorded separately.

@@ -15,6 +15,7 @@ npm --prefix knowledge test
 bash knowledge/tests/test-postgres.sh
 (cd scripts && go test ./internal/searchconfig ./update_linode_docs_search_indices ./init_algolia_indices ./clean_linode_sections_index ./download_algolia_settings)
 npm run build:docs
+node knowledge/src/evaluate.mjs --report .cache/retrieval.json
 python ci/check-links.py --public-dir public --report .cache/publishing.json
 python ci/content_review.py --report .cache/content-review.json
 python ci/editorial.py --report .cache/editorial.json
@@ -110,3 +111,7 @@ together. `knowledge/README.md` documents MCP, CLI, PostgreSQL roles, optional
 embeddings, and the separately pinned Linode reference collection. The old
 Algolia-writing workflows are retained under `ci/legacy-workflows/`, not active
 Actions. CI uploads the verified website artifact; it does not deploy it.
+
+On hosts with a crowded shared temporary filesystem, set `TMPDIR` to a private
+directory on a disk with free space and inodes before browser checks. Do not
+delete other processes’ temporary files. Browser errors still fail the check.

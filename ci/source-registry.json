@@ -882,7 +882,8 @@
       "files": [
         {
           "path": "sitebay/docs/knowledge/src/corpus.mjs",
-          "sha256": "9c24a8abb1946c898faf6fd10a4ef217793b2e4d2a712587024272c9bc2bbb87"
+          "sha256": "df1a2827e733eeee8dd6162cb10a7084a3340ae58f4d4e4de997f1f8de4c61c7",
+          "previous_review_sha256": "9c24a8abb1946c898faf6fd10a4ef217793b2e4d2a712587024272c9bc2bbb87"
         },
         {
           "path": "sitebay/docs/knowledge/src/service.mjs",
@@ -890,7 +891,8 @@
         },
         {
           "path": "sitebay/docs/knowledge/src/pg-store.mjs",
-          "sha256": "afd16eb8a8f6c0177db90acb0f0c38876eb15109ab82caf9808dc7053e1ad767"
+          "sha256": "1c8825ad0671363f0a60149b93a800a7b8ae9bd0e7cba59e48fb8517da6e64d5",
+          "previous_review_sha256": "afd16eb8a8f6c0177db90acb0f0c38876eb15109ab82caf9808dc7053e1ad767"
         },
         {
           "path": "sitebay/docs/knowledge/src/import.mjs",
@@ -903,10 +905,14 @@
         {
           "path": "sitebay/docs/ci/scripts/build-docs-corpus.py",
           "sha256": "f6b1018771d3ef4a98f01cae30d28a0f76c093064c269dbec677a837d3498fcc"
+        },
+        {
+          "path": "sitebay/docs/knowledge/src/evaluate.mjs",
+          "sha256": "8d38a2a3f3f7bd6543069eab8966a32640999869d054af25535cfbabafbb3fbf"
         }
       ],
       "urls": [],
-      "completion_note": "Reviewed the final implementation: exact source lines, readonly handlers, corpus-scoped database hash checks, bounded embedding adapter, and separate operator imports. Verified with real database and protocol tests; no live activation."
+      "completion_note": "Validated metadata/source identity, complete database snapshots, original line citations, and curated task-query regressions. These do not establish live model relevance."
     },
     "mcp-standard": {
       "note": "Protocol transport contract; SDK handles stdio and Streamable HTTP.",

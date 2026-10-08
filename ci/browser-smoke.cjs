@@ -165,6 +165,19 @@ async function screenshot(page, options) {
     await page.locator('[data-close-search]').click();
     await page.locator('#docs-search-dialog').waitFor({state:'hidden'});
     report.searchKeyboard = true;
+    // Dismiss synchronously before debounce, then reopen without retyping.
+    await page.locator('[data-open-search]').click();
+    await page.locator('#docs-topic').selectOption('');
+    await page.evaluate(() => {
+      const input=document.querySelector('#docs-query');
+      input.value='Forge';input.dispatchEvent(new Event('input',{bubbles:true}));
+      document.querySelector('[data-close-search]').click();
+    });
+    await page.locator('[data-open-search]').click();
+    await page.waitForFunction(() => [...document.querySelectorAll('#docs-search-results a')].some(a=>a.href.includes('/sorti/forge')));
+    await page.locator('[data-close-search]').click();
+    report.searchReopen = true;
+
     const offline = await browser.newContext({javaScriptEnabled:false});
     const offlinePage = await offline.newPage();
     await offlinePage.goto(origin + '/docs/knowledge/task-map/');

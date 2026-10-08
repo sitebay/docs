@@ -28,13 +28,13 @@ def combine(reports: list[dict], expected: set[str]) -> dict:
         raise ValueError('Required real search queries were not checked')
     if any(not case.get('clicked') or case.get('results', 0) < 1 for case in searches):
         raise ValueError('A real search query or result click failed')
-    for field in ('searchKeyboard', 'searchSectionFilter', 'noJavaScriptReading'):
+    for field in ('searchKeyboard', 'searchSectionFilter', 'noJavaScriptReading', 'searchReopen'):
         if not any(report.get(field) is True for report in reports):
             raise ValueError(f'Missing browser verification: {field}')
     return {'passed': True, 'published_routes': len(expected), 'checked_routes': sum(counts.values()),
             'pages': sorted(counts), 'viewport_cases': viewports, 'navigation_click': True,
             'errors': [], 'missing_assets': [], 'shards': len(reports),
-            'search_checks': searches, 'keyboard': True,
+            'search_checks': searches, 'keyboard': True, 'search_reopen': True,
             'no_javascript_reading': any(report.get('noJavaScriptReading') for report in reports),
             'section_filter': any(report.get('searchSectionFilter') for report in reports),
             'scope': 'Production export with real local Pagefind; unrelated external embeds replaced by fixtures.'}

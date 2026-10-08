@@ -53,6 +53,8 @@ jobs:
         run: |
           mkdir -p .cache
           npm run build:docs 2>&1 | tee .cache/hugo-build.log
+      - name: Validate task retrieval and exact citations
+        run: node knowledge/src/evaluate.mjs --report .cache/retrieval.json
       - name: Validate published pages and links
         run: python ci/check-links.py --public-dir public --report .cache/publishing.json
       - name: Verify every article review record
