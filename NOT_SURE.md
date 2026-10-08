@@ -75,3 +75,22 @@ Shared skill editing and live mission controls depend on the deployed server
 and session capabilities; source presence is not production qualification.
 No SiteBay or Sorti source changes, production database migration, embedding
 model installation, or live reader activation were performed in this pass.
+
+## Documentation infrastructure activation
+
+The new `pulumi-aks/docs-knowledge/` project and reader packaging are prepared
+separately from the parent infrastructure stack. The current session could not
+read its configured Kubernetes credentials. The infrastructure repository
+reserves apply/rollout operations for the owner; no permission workaround or
+cluster write was attempted. Live CNPG compatibility, storage, network policy,
+CA reconciliation, registry publication, DNS, TLS ingress, and session activation
+remain operator checks. The one-instance default is rebuildable search storage,
+not HA or an off-cluster backup. Optional semantic retrieval still requires a
+selected real model; local test vectors are not a relevance benchmark.
+
+The infrastructure commit is retained in the isolated local clone and its new
+project files are copied into `~/pulumi-aks/docs-knowledge/`. GitLab rejected the
+SSH push with public-key authentication failure; the noninteractive HTTPS read
+also failed. No infrastructure branch is claimed to be published remotely.
+The original infrastructure checkout's 148 pre-existing changed paths were
+hash-checked and left unchanged when the new project was placed.

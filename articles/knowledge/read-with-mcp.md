@@ -21,6 +21,7 @@ doc_sources:
 - sorti-byo
 - sorti-current-core
 - sorti-current-skills
+- docs-infrastructure
 ---
 
 The documentation MCP server exposes reference reads, not shell commands or site-management writes. It works without a database; pgvector is optional.
@@ -57,7 +58,7 @@ Set a randomly generated token of at least 32 bytes in `DOCS_MCP_TOKEN`, then st
 node knowledge/src/server.mjs --http
 ```
 
-It binds to `127.0.0.1` and defaults to port 8788. For a Sorti agent on the same host, add a session `mcpServers` entry with name `sitebay_docs`, URL `http://127.0.0.1:8788/byo`, and the token as `authToken`. Capabilities are discovered at the origin-root well-known URL.
+By default, it binds to `127.0.0.1` and defaults to port 8788. For a Sorti agent on the same host, add a session `mcpServers` entry with name `sitebay_docs`, URL `http://127.0.0.1:8788/byo`, and the token as `authToken`. Capabilities are discovered at the origin-root well-known URL.
 
 The `/byo/mcp` endpoint supports the current Sorti JSON-RPC client. Standard Streamable HTTP clients use `/mcp`. Keep credentials in the client secret configuration, not a committed example.
 
@@ -70,3 +71,9 @@ List the four tools. Search for “How Sorti works,” read its ID, and compare 
 ## Choose the service owner
 
 Keep reader deployment and database configuration in the documentation service. The Sorti session receives only the reader endpoint and its authentication, not database credentials. [Service ownership]({{< relref "knowledge/service-ownership.md" >}}) separates the optional database, embedding provider, and client setup.
+
+## Deploy a persistent reader
+
+The container deployment uses `DOCS_MCP_HOST=0.0.0.0` with exact allowed hosts and the existing token check. This is an explicit deployment setting; local readers remain loopback-only by default. `/healthz` reports liveness, while `/readyz` also checks the configured database snapshot.
+
+Use [the isolated Pulumi project]({{< relref "knowledge/deploy-with-pulumi.md" >}}) to prepare the dedicated database, import job, reader, and network policy. Packaging or a local test does not activate an existing Sorti session. Read [update and recovery]({{< relref "knowledge/update-and-recover.md" >}}) before replacing a running corpus.

@@ -163,6 +163,34 @@
       "expected_paths": [
         "articles/sorti/connect-mcp-services.md"
       ]
+    },
+    {
+      "query": "deploy documentation reader Pulumi",
+      "source": "sitebay",
+      "expected_paths": [
+        "articles/knowledge/deploy-with-pulumi.md"
+      ]
+    },
+    {
+      "query": "update recover documentation snapshot",
+      "source": "sitebay",
+      "expected_paths": [
+        "articles/knowledge/update-and-recover.md"
+      ]
+    },
+    {
+      "query": "troubleshoot documentation MCP reads",
+      "source": "sitebay",
+      "expected_paths": [
+        "articles/knowledge/troubleshoot-reader.md"
+      ]
+    },
+    {
+      "query": "use documentation during a Sorti task",
+      "source": "sitebay",
+      "expected_paths": [
+        "articles/sorti/use-documentation-during-a-task.md"
+      ]
     }
   ]
 }

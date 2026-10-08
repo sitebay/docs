@@ -41,5 +41,9 @@
   "articles/knowledge/service-ownership.md": "/docs/knowledge/service-ownership/",
   "articles/products/sorti/_index.md": "/docs/products/sorti/",
   "articles/products/sorti/get-started/index.md": "/docs/products/sorti/get-started-sorti/",
-  "articles/products/sorti/signal-hooks/index.md": "/docs/products/sorti/signal-hooks/"
+  "articles/products/sorti/signal-hooks/index.md": "/docs/products/sorti/signal-hooks/",
+  "articles/knowledge/deploy-with-pulumi.md": "/docs/knowledge/deploy-with-pulumi/",
+  "articles/knowledge/update-and-recover.md": "/docs/knowledge/update-and-recover/",
+  "articles/knowledge/troubleshoot-reader.md": "/docs/knowledge/troubleshoot-reader/",
+  "articles/sorti/use-documentation-during-a-task.md": "/docs/sorti/use-documentation-during-a-task/"
 }

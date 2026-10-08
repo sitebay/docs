@@ -20,6 +20,7 @@ doc_sources:
 - pgvector-primary
 - ollama-embeddings
 - sorti-byo
+- docs-infrastructure
 ---
 
 Use pgvector when the documentation reader needs database-backed or semantic retrieval. Browser Pagefind search and the in-memory MCP reader work without it. The reader belongs to `sitebay/docs`; no pgvector code change in `~/sorti` or `~/sitebay` is required for the existing connection path.
@@ -108,3 +109,7 @@ Startup checks the snapshot revision, counts, and configured model. The result r
 Evaluate known questions and source citations, not just whether the service returns rows. Deterministic vectors in the regression suite verify database mechanics, not a real model's relevance. Keep the previous corpus and database snapshot during a reader change; old snapshots are not deleted automatically.
 
 For HTTP authentication and Sorti setup, follow [Connect the documentation reader]({{< relref "knowledge/read-with-mcp.md" >}}). The database, persistent reader process, and published website have separate deployment steps; see [service ownership]({{< relref "knowledge/service-ownership.md" >}}).
+
+## Provision with the infrastructure project
+
+The separate `pulumi-aks/docs-knowledge/` project can provision the dedicated database and managed roles, then import the packaged corpus before starting its reader. It does not modify the SiteBay customer database or install an embedding model. See [Pulumi deployment]({{< relref "knowledge/deploy-with-pulumi.md" >}}) for configuration, network prerequisites, and the owner-operated rollout.

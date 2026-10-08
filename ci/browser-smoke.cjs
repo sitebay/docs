@@ -104,7 +104,7 @@ async function screenshot(page, options) {
     if (shard[0] === 0) {
     for (const width of [320,1440]) {
       await page.setViewportSize({width,height:1000});
-      for (const route of ['/docs/', '/docs/guides/', '/docs/sorti/', '/docs/sorti/forge-reference/', '/docs/api/site_live/', '/docs/products/posthog/notebooks/', '/docs/guides/student-free-plan-deals/', '/docs/knowledge/', '/docs/knowledge/pgvector/', '/docs/sorti/missions-and-approvals/', '/docs/sorti/skills-and-collections/', '/docs/knowledge/service-ownership/']) {
+      for (const route of ['/docs/', '/docs/guides/', '/docs/sorti/', '/docs/sorti/forge-reference/', '/docs/api/site_live/', '/docs/products/posthog/notebooks/', '/docs/guides/student-free-plan-deals/', '/docs/knowledge/', '/docs/knowledge/pgvector/', '/docs/sorti/missions-and-approvals/', '/docs/sorti/skills-and-collections/', '/docs/knowledge/service-ownership/', '/docs/knowledge/deploy-with-pulumi/', '/docs/knowledge/troubleshoot-reader/']) {
         await page.goto(origin + route, {waitUntil:'networkidle'});
         const overflow = await page.evaluate(() => document.documentElement.scrollWidth > innerWidth + 1);
         report.viewports.push({width,route,overflow});

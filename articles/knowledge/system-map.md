@@ -21,6 +21,7 @@ doc_sources:
 - api-contract
 - sorti-current-core
 - sorti-current-skills
+- docs-infrastructure
 ---
 
 The documentation repository explains the system. It does not own customer state or grant access to it.
@@ -33,6 +34,7 @@ The documentation repository explains the system. It does not own customer state
 | Browser search | Search files shipped with the static site | Pagefind and `assets/js/docs-search.js` |
 | Agent reader | Search, source-line reads, and document metadata | `sitebay/docs/knowledge/src/` |
 | Optional retrieval database | Full-text and vector lookup for a fixed snapshot | `knowledge/sql/001-knowledge.sql` |
+| Retrieval infrastructure | Dedicated database, import Job, reader and network policy | `pulumi-aks/docs-knowledge/` |
 | Sorti application | Conversation, canvas, panels, and workspace | `sorti/apps/sorti` |
 | Sorti agent | Session context, tool coordination, and results | `sorti/apps/sorti-agent` |
 | Shared contracts | Cross-component events and payloads | `sorti/packages/sorti-contract` |

@@ -34,6 +34,9 @@ Use this knowledge base to understand a task before changing a site or the Sorti
 | Add semantic retrieval | [pgvector retrieval]({{< relref "knowledge/pgvector.md" >}}) |
 | Evaluate search results | [Retrieval quality]({{< relref "knowledge/retrieval-quality.md" >}}) |
 | Read external guides | [Linode library]({{< relref "knowledge/upstream-library.md" >}}) |
+| Deploy a persistent reader | [Pulumi deployment]({{< relref "knowledge/deploy-with-pulumi.md" >}}) |
+| Replace or recover a snapshot | [Update and recovery]({{< relref "knowledge/update-and-recover.md" >}}) |
+| Diagnose search or connection errors | [Reader troubleshooting]({{< relref "knowledge/troubleshoot-reader.md" >}}) |
 | Ship a matching site and index | [Build and publish]({{< relref "knowledge/publishing.md" >}}) |
 
 ## Reference, not authorization

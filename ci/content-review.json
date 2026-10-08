@@ -4725,8 +4725,8 @@
     },
     "articles/sorti/_index.md": {
       "original_path": "articles/sorti/_index.md",
-      "file_sha256": "5e972231f7587cdd563bcd07ec9cc093bf5061bd8f406b113ebb9ab27730fbac",
-      "body_sha256": "86e860161e13ec4b8da3502c2fe1e39a07d308249553ea114a67955c9800a1ea",
+      "file_sha256": "34a636029d4b9c802ea5424f1dfda91d2445ef9b2bca96a5571520c10e3c8f0b",
+      "body_sha256": "a43ab6229b41cd03b69e8b6c891b48c596102e644283bd50e229d04cb596c8d8",
       "original_body_sha256": "36e298c43239eb2fbe73915afbc3aab4b2d9130fac5471e90d0ecef9f375bccc",
       "body_changed": true,
       "basis": [
@@ -4735,9 +4735,9 @@
         "sorti-current-skills",
         "docs-knowledge"
       ],
-      "change": "Expand the guide against current implementation and connect the new task-first Sorti articles.",
+      "change": "Connect the deployed-reader procedure and clarify default versus container binding and ownership.",
       "original_words": 508,
-      "updated_words": 175,
+      "updated_words": 191,
       "headless": false,
       "prior_file_sha256": "22456f551f01a68851f1dc2bb725409cd760d3b3d7430bc322c10ea4200a9b73",
       "prior_review_change": "Replace stale section marketing with a short purpose and current navigation.",
@@ -5171,16 +5171,16 @@
     },
     "articles/knowledge/_index.md": {
       "original_path": null,
-      "file_sha256": "16f8e43e535c822f3ab563a41203d7449f81571f0c47282a4783c8c00abcad80",
-      "body_sha256": "47a8a3109c8774855aa7ea6e4ce0f4a0e04ffbbea48f6f37374429b5c41e0bc3",
+      "file_sha256": "3daa9679b0012d1580fb7c6cc50a4595824b1fcee510b8d47adb1cdd7840d2a1",
+      "body_sha256": "d94b9c342592004433f667bb78410a7cee18869fe9f256ae96cdb742d790085f",
       "original_body_sha256": null,
       "body_changed": true,
       "basis": [
         "docs-knowledge"
       ],
-      "change": "Expand the guide against current implementation and connect the new task-first Sorti articles.",
+      "change": "Connect the deployed-reader procedure and clarify default versus container binding and ownership.",
       "original_words": 0,
-      "updated_words": 177,
+      "updated_words": 216,
       "headless": false,
       "prior_file_sha256": "694f0d6af0dfd1208ebe933a76b9a6ad777f614d6320d137ae0dbeb0803e5c1e",
       "prior_review_change": "Add an original implementation-grounded guide for the documentation knowledge service.",
@@ -5209,8 +5209,8 @@
     },
     "articles/knowledge/system-map.md": {
       "original_path": null,
-      "file_sha256": "5a7ccc6d25fb38b771e0eeca6b292abcc4f8798c8368c2381ed55d60125764fb",
-      "body_sha256": "44d5c2f1f96b17f329951a68626873d4adff0813d2334d11d874ac128014cbcd",
+      "file_sha256": "7e80b2a9c74c785e5af471f244ffb4c879bea1368892210462658602a8f349e9",
+      "body_sha256": "59cc02940347dcb65a365f8807ac108da824ec813e03de9da11556c981c48268",
       "original_body_sha256": null,
       "body_changed": true,
       "basis": [
@@ -5218,11 +5218,12 @@
         "sorti-runtime",
         "api-contract",
         "sorti-current-core",
-        "sorti-current-skills"
+        "sorti-current-skills",
+        "docs-infrastructure"
       ],
-      "change": "Expand the guide against current implementation and connect the new task-first Sorti articles.",
+      "change": "Connect the deployed-reader procedure and clarify default versus container binding and ownership.",
       "original_words": 0,
-      "updated_words": 380,
+      "updated_words": 395,
       "headless": false,
       "prior_file_sha256": "ccfcd2faffd60d71b1bc277906699b4d43e6960e4350cfaa29b4d1065ee1c3c3",
       "prior_review_change": "Add an original implementation-grounded guide for the documentation knowledge service.",
@@ -5230,8 +5231,8 @@
     },
     "articles/knowledge/read-with-mcp.md": {
       "original_path": null,
-      "file_sha256": "babfc05bcac970a0c378758f69e5737468fb44544a244c994e611b1b508a97d6",
-      "body_sha256": "ed276866545d42894a68c45869c817e42ca44f0fab32532e69029be9376344f9",
+      "file_sha256": "4dc66b7382f35aa506a1ceab47fcdda3f918390d42c32b039b8c07822487ea26",
+      "body_sha256": "d8a3c0568063d3f5d5c190204d91127289d627bae4e83d8627a9233406b68cbb",
       "original_body_sha256": null,
       "body_changed": true,
       "basis": [
@@ -5239,11 +5240,12 @@
         "mcp-standard",
         "sorti-byo",
         "sorti-current-core",
-        "sorti-current-skills"
+        "sorti-current-skills",
+        "docs-infrastructure"
       ],
-      "change": "Expand the guide against current implementation and connect the new task-first Sorti articles.",
+      "change": "Connect the deployed-reader procedure and clarify default versus container binding and ownership.",
       "original_words": 0,
-      "updated_words": 402,
+      "updated_words": 489,
       "headless": false,
       "prior_file_sha256": "0254dd4ca2ddd51a328d09b751710f3a799113f83f2c893cc4c9b1874bef58da",
       "prior_review_change": "Add an original implementation-grounded guide for the documentation knowledge service.",
@@ -5251,19 +5253,20 @@
     },
     "articles/knowledge/pgvector.md": {
       "original_path": null,
-      "file_sha256": "7f0b0131e4de8a4052c8ea763ef3668ff5eee40a00c3f477ea55d3d20b80339b",
-      "body_sha256": "f7137ddf4fe58f2cc5654fcb84e7091b348149ed77e22042419cf31035dccfd0",
+      "file_sha256": "b381a6424ffc94b5f30fd2f880609765b90c40498e4f4b7278509479eb48b7bd",
+      "body_sha256": "e1f427914905864c71344167ba952d3d34bbd4b5a7239cc876d60179bfa19999",
       "original_body_sha256": null,
       "body_changed": true,
       "basis": [
         "docs-knowledge",
         "pgvector-primary",
         "ollama-embeddings",
-        "sorti-byo"
+        "sorti-byo",
+        "docs-infrastructure"
       ],
-      "change": "Expand the guide against current implementation and connect the new task-first Sorti articles. Clarify that the embedding-model collision applies to an already imported corpus revision.",
+      "change": "Connect the deployed-reader procedure and clarify default versus container binding and ownership.",
       "original_words": 0,
-      "updated_words": 848,
+      "updated_words": 908,
       "headless": false,
       "prior_file_sha256": "eab2fa89637a93e22b935b23cd0cee6397f6907db26bae53dc04f68fdf34927d",
       "prior_review_change": "Add an original implementation-grounded guide for the documentation knowledge service.",
@@ -5441,18 +5444,19 @@
       "original_path": null,
       "original_body_sha256": null,
       "original_words": 0,
-      "file_sha256": "a4d3e82524cfa137a4571ef0d97ebb0b856be3e9534d6a1c8af424a88cd8b2d2",
-      "body_sha256": "f7b4ef91e76a7d836d20f6669d04cd90255d46b9cd2394797afe5afa9e8ac249",
+      "file_sha256": "d26d65415e99a86e431c2c7ddf43f66e7c67446b6b4586ab842845d8eec29fcb",
+      "body_sha256": "fdf1b42237c4ee47bc794889ccfdaef1997fa5e6baae9678284b6d130de25c3d",
       "body_changed": true,
       "basis": [
         "docs-knowledge",
         "sorti-byo",
         "sorti-current-app",
-        "pgvector-primary"
+        "pgvector-primary",
+        "docs-infrastructure"
       ],
-      "change": "New source-grounded guide: Where the documentation database belongs",
+      "change": "Connect the deployed-reader procedure and clarify default versus container binding and ownership.",
       "reviewed_at": "2026-10-08",
-      "updated_words": 545,
+      "updated_words": 619,
       "headless": false
     },
     "articles/products/sorti/_index.md": {
@@ -5469,6 +5473,72 @@
       "change": "Add the current Sorti product landing page and preserve the former section URL.",
       "reviewed_at": "2026-10-08",
       "updated_words": 72,
+      "headless": false
+    },
+    "articles/knowledge/deploy-with-pulumi.md": {
+      "original_path": null,
+      "file_sha256": "9e6198aec03c0927e701ae41d8f65d87e263afeccedd1de9d76e1c5a147a9e33",
+      "body_sha256": "5af743cb531c0d30e839d810e62705c57e8dd1e264697eb2a45bafd863712475",
+      "original_body_sha256": null,
+      "original_words": 0,
+      "body_changed": true,
+      "basis": [
+        "docs-infrastructure",
+        "docs-knowledge"
+      ],
+      "change": "New procedure checked against the documentation service and isolated infrastructure project.",
+      "reviewed_at": "2026-10-08",
+      "updated_words": 606,
+      "headless": false
+    },
+    "articles/knowledge/update-and-recover.md": {
+      "original_path": null,
+      "file_sha256": "d87489b87b053eebb231a1c28738d6c90dc5064d2847e2ee861c74b49296b19e",
+      "body_sha256": "f7f2b8e2d31b88deb3d4983ac45e5874480a5a9dd1f67801e4e41484b1b83f42",
+      "original_body_sha256": null,
+      "original_words": 0,
+      "body_changed": true,
+      "basis": [
+        "docs-infrastructure",
+        "docs-knowledge"
+      ],
+      "change": "New procedure checked against the documentation service and isolated infrastructure project.",
+      "reviewed_at": "2026-10-08",
+      "updated_words": 541,
+      "headless": false
+    },
+    "articles/knowledge/troubleshoot-reader.md": {
+      "original_path": null,
+      "file_sha256": "b3c7063c06a04ff3908e26de659e2931c86dfed91931ef56a71ca40144cb3231",
+      "body_sha256": "daf9ce8156a25027b67147c51652480e5e56f723d18d077dfad7f2a4bc9c1bb6",
+      "original_body_sha256": null,
+      "original_words": 0,
+      "body_changed": true,
+      "basis": [
+        "docs-infrastructure",
+        "docs-knowledge",
+        "sorti-byo"
+      ],
+      "change": "New procedure checked against the documentation service and isolated infrastructure project.",
+      "reviewed_at": "2026-10-08",
+      "updated_words": 573,
+      "headless": false
+    },
+    "articles/sorti/use-documentation-during-a-task.md": {
+      "original_path": null,
+      "file_sha256": "ea53284fe5e47dff837aea6c1321dc486a9279ffdffa023078d48f5e6c42d6aa",
+      "body_sha256": "4fa1c8906ce72a017d5650d199f380cbfaa8f858f7d3540aeaf49b40cb5befa3",
+      "original_body_sha256": null,
+      "original_words": 0,
+      "body_changed": true,
+      "basis": [
+        "docs-knowledge",
+        "sorti-byo",
+        "sorti-current-skills"
+      ],
+      "change": "New procedure checked against the documentation service and isolated infrastructure project.",
+      "reviewed_at": "2026-10-08",
+      "updated_words": 503,
       "headless": false
     }
   },

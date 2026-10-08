@@ -22,6 +22,7 @@ doc_sources:
 - sorti-byo
 - sorti-current-app
 - pgvector-primary
+- docs-infrastructure
 weight: 25
 ---
 
@@ -62,3 +63,9 @@ The web artifact can be served independently from the MCP process. The reader ne
 Changing `~/sitebay` is only necessary for an intentionally different integration, such as making the SiteBay backend host or provision the docs service. Changing `~/sorti` is only necessary for product-level behavior such as making the reader a default connection. Neither change is required to use the existing MCP configuration path.
 
 Follow [pgvector setup]({{< relref "knowledge/pgvector.md" >}}) for the database and [MCP setup]({{< relref "knowledge/read-with-mcp.md" >}}) for the client connection. Keep the database migration, service activation, and website publication as separate operations with separate checks.
+
+## Infrastructure project
+
+The Kubernetes resources now have a dedicated project in `pulumi-aks/docs-knowledge/`. Its database is separate from the platform database, and its Pulumi state is separate from the parent stack. The reader implementation and image packaging remain in `sitebay/docs`.
+
+Follow [Deploy with Pulumi]({{< relref "knowledge/deploy-with-pulumi.md" >}}) for the required owner configuration and acceptance checks. The infrastructure definition is not evidence that the cluster, reader image, public hostname, or embedding provider has been activated.

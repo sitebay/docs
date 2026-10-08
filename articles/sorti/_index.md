@@ -38,6 +38,7 @@ Use Sorti to inspect a workspace, request a defined task, and verify the result.
 | Inspect progress or a pending decision | [Missions and approvals]({{< relref "sorti/missions-and-approvals.md" >}}) |
 | Reuse team procedures | [Skills and collections]({{< relref "sorti/skills-and-collections.md" >}}) |
 | Connect an external service | [MCP connections]({{< relref "sorti/connect-mcp-services.md" >}}) |
+| Read a procedure before acting | [Use documentation during a task]({{< relref "sorti/use-documentation-during-a-task.md" >}}) |
 | Understand the implementation | [How Sorti works]({{< relref "sorti/how-sorti-works.md" >}}) |
 
 ## Build on Sorti

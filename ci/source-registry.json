@@ -887,7 +887,8 @@
         },
         {
           "path": "sitebay/docs/knowledge/src/service.mjs",
-          "sha256": "44dc8f941845324030434e301c3686ad25ad1ba7316b78f9ffc471ceea33e692"
+          "sha256": "7a0745e7baf8661b61c98bf18ca656c722ae959e59f8c20b84dd05c9fb20df09",
+          "previous_review_sha256": "44dc8f941845324030434e301c3686ad25ad1ba7316b78f9ffc471ceea33e692"
         },
         {
           "path": "sitebay/docs/knowledge/src/pg-store.mjs",
@@ -896,11 +897,13 @@
         },
         {
           "path": "sitebay/docs/knowledge/src/import.mjs",
-          "sha256": "a724077f31c59b937a13995e2f01ea5a48b2aa6d3b28e85e7215f305f646ce5a"
+          "sha256": "5959c6e48a8df8562c23849202fdb52ba4ab17bd942b3bef17e153564390f6bb",
+          "previous_review_sha256": "a724077f31c59b937a13995e2f01ea5a48b2aa6d3b28e85e7215f305f646ce5a"
         },
         {
           "path": "sitebay/docs/knowledge/src/http.mjs",
-          "sha256": "2365fe132e72a253aca3ccd01fdfe8850073c6eb87bb759fbac35ead5acace3f"
+          "sha256": "fa4f2c23f752f5d6bf719d26a0e09b975afe065ffd3bd3ec554127a3805e4c75",
+          "previous_review_sha256": "2365fe132e72a253aca3ccd01fdfe8850073c6eb87bb759fbac35ead5acace3f"
         },
         {
           "path": "sitebay/docs/ci/scripts/build-docs-corpus.py",
@@ -909,10 +912,27 @@
         {
           "path": "sitebay/docs/knowledge/src/evaluate.mjs",
           "sha256": "8d38a2a3f3f7bd6543069eab8966a32640999869d054af25535cfbabafbb3fbf"
+        },
+        {
+          "path": "sitebay/docs/knowledge/src/deployment.mjs",
+          "sha256": "a5632a4cc31724b36e94db2b1cf432d41e1a7d4983dd33b5de8a7ccb15fad932"
+        },
+        {
+          "path": "sitebay/docs/knowledge/src/server.mjs",
+          "sha256": "377490f3e398b016047ad6099738b9615a8a1003f448c3d2a3c8d0e70087498d"
+        },
+        {
+          "path": "sitebay/docs/knowledge/deploy/package-reader.mjs",
+          "sha256": "690cb5a1cfc84813aea4ec14f81e6a2defb023fa6990c8648b8b74ade9c2ca9b"
+        },
+        {
+          "path": "sitebay/docs/knowledge/deploy/Dockerfile",
+          "sha256": "c4f95b845eb133963d068a03f627a3d46f3c2fd589eabd59004b363cea0edc28"
         }
       ],
       "urls": [],
-      "completion_note": "Validated metadata/source identity, complete database snapshots, original line citations, and curated task-query regressions. These do not establish live model relevance."
+      "completion_note": "Validated metadata/source identity, complete database snapshots, original line citations, and curated task-query regressions. These do not establish live model relevance.",
+      "deployment_note": "Expected corpus pin, explicit container bind, readiness checks and allowlisted image context validated separately from live activation."
     },
     "mcp-standard": {
       "note": "Protocol transport contract; SDK handles stdio and Streamable HTTP.",
@@ -1106,6 +1126,48 @@
         }
       ],
       "urls": []
+    },
+    "docs-infrastructure": {
+      "note": "Isolated Pulumi project. Locally tested definition, not a live cluster deployment.",
+      "revision": "34eff661f3f1e04b96024ad23f5de154ffa714af",
+      "reviewed_at": "2026-10-08",
+      "files": [
+        {
+          "path": "pulumi-aks/docs-knowledge/__main__.py",
+          "sha256": "cb48a997b04f461dc7e5d50213a616e6715d611e910ad1a1d2f610df25dc9c0d",
+          "revision": "34eff661f3f1e04b96024ad23f5de154ffa714af"
+        },
+        {
+          "path": "pulumi-aks/docs-knowledge/manifests.py",
+          "sha256": "89c1ea8d006ffa7ebd74df90a064f4bb1ba9a5e10477033c8ff619c7272cb68f",
+          "revision": "34eff661f3f1e04b96024ad23f5de154ffa714af"
+        },
+        {
+          "path": "pulumi-aks/docs-knowledge/settings.py",
+          "sha256": "0efb22f47cb46c8c4cc45ec03a994249db2f5439b0498e7dcbb7b632ebcee5e4",
+          "revision": "34eff661f3f1e04b96024ad23f5de154ffa714af"
+        },
+        {
+          "path": "pulumi-aks/docs-knowledge/bootstrap.sql",
+          "sha256": "0880bc5ff681a45f2e8b12bbb4d0014585affc17db20609b18d0e98a7454f754",
+          "revision": "34eff661f3f1e04b96024ad23f5de154ffa714af"
+        },
+        {
+          "path": "pulumi-aks/docs-knowledge/README.md",
+          "sha256": "69723b5e51bfbab89bdfa27d64241360ea310b445cd58ad041ce4c70fb58fb77",
+          "revision": "34eff661f3f1e04b96024ad23f5de154ffa714af"
+        },
+        {
+          "path": "pulumi-aks/docs-knowledge/image-lock.json",
+          "sha256": "c9839ee549b68653ef99e766ca6c89a0b332bc2d1329f961588302a6199ddc88",
+          "revision": "34eff661f3f1e04b96024ad23f5de154ffa714af"
+        }
+      ],
+      "urls": [
+        "https://cloudnative-pg.io/docs/1.28/bootstrap/",
+        "https://cloudnative-pg.io/docs/1.28/declarative_role_management/",
+        "https://cloudnative-pg.io/docs/1.28/networking/"
+      ]
     }
   },
   "completion_review_date": "2026-10-08",
