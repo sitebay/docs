@@ -1,42 +1,44 @@
 ---
 slug: persons
-description: 'PostHog People/Users tracking on SiteBay.'
-keywords: ["PostHog", "users", "analytics", "sitebay"]
+description: 'Understanding "People" in PostHog Analytics'
+keywords: ["PostHog", "WordPress", "analytics", "user engagement", "sitebay"]
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
 published: 2024-04-18
-modified: 2025-12-04
+modified: 2024-04-18
 modified_by:
   name: SiteBay
-title: 'People'
-tags: ["sitebay", "analytics", "PostHog"]
+title: 'Understanding "People" in PostHog Analytics'
+tags: ["sitebay", "analytics", "PostHog", "WordPress"]
 authors: ["SiteBay"]
 contributors: ["SiteBay"]
 ---
 
-# People Tracking
 
-Numbers on a chart are fine, but eventually, you need to know *who* is actually using your site. Because SiteBay runs your WordPress site on our optimized Kubernetes stack, we can track individual user journeys from their first click to their hundredth purchase.
+## What is "People" in PostHog?
 
-## The Anatomy of a User
+In PostHog, the "People" feature refers to the users who interact with your product or website. It is a section in the PostHog platform where individual user data is collected and displayed. This feature helps you understand who your users are, and how they interact with your product.
 
-When you look up a person in PostHog, you get the full picture:
-- **Events**: Every single action they've taken on your site.
-- **Properties**: Where they live, what browser they use, or any custom data (like their WooCommerce lifetime value).
-- **Sessions**: A neat history of every time they've visited.
+## Key Features of "People"
+### 1. **User Profiles**
+Each user in PostHog is given a unique profile. This profile includes:
+   - **Events**: What actions the user has performed.
+   - **Properties**: Information like location, browser used, and other custom properties.
 
-## Grouping People (Cohorts)
+### 2. **Cohorts**
+You can group users into cohorts based on common characteristics or behaviors. This is helpful for targeted analysis and marketing.
 
-Stop treating all traffic the same. You can group users into Cohorts based on exactly what they do:
-- "People who added to cart but didn't buy in the last 7 days"
-- "Power users who log in every day"
-- "Mobile visitors from Canada"
+### 3. **Segments**
+Segment users based on specific criteria, enabling you to analyze different user behaviors and adapt your strategies accordingly.
 
-## How to Find Someone
+## How to Use "People" in PostHog
+### Step 1: Accessing People
+Navigate to the "People" section in your PostHog dashboard to start analyzing individual user data.
 
-1. Open your SiteBay dashboard and go to **Analytics > People**.
-2. Click on any user to open their profile.
-3. Scroll through their timeline to see exactly what they've been up to.
+### Step 2: Analyzing User Profiles
+Click on any user to view their individual profile. Explore their events and properties to understand their interaction with your product.
 
-## The AI Shortcut
+### Step 3: Creating Cohorts
+Create cohorts by selecting criteria that group users together. Use this for focused analysis or tailored marketing campaigns.
 
-If you don't have time to dig through user profiles, use the **SiteBay MCP Server** or the **SiteClaw** mobile app. You can just ask your AI agent, "Hey, build a list of all the users who experienced a checkout error yesterday and summarize what browsers they were using." 
+### Step 4: Utilize Segmenting
+Segment your users to refine your insights further. This can help you identify which features are popular among different user groups.

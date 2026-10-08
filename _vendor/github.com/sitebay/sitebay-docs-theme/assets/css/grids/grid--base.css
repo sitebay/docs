@@ -9,18 +9,18 @@
 }
 
 .grid--base {
-  --num-rows: 3; /* Number of grid rows including the Linode menu header. */
+  --num-rows: 3; /* Number of grid rows including the SiteBay menu header. */
   --row-explorer: 2; /* The grid row for the left side explorer menu. */
   --row-main: 3; /* The grid row for the main content. */
   --col-navbar: 1; /* The grid column for the top navbar. */
-  --height-linode-menu-row: 81px;
+  --height-sitebay-menu-row: 61px;
   --height-navbar-row: 45px;
   --width-left-column: 240px;
   --width-right-column: 240px;
   display: grid;
   grid-auto-rows: minmax(var(--height-navbar-row), auto);
   grid-template-columns: minmax(0, 1fr);
-  grid-template-rows: var(--height-linode-menu-row) repeat(
+  grid-template-rows: var(--height-sitebay-menu-row) repeat(
       var(--num-rows),
       auto
     );
@@ -56,7 +56,7 @@
     --height-navbar-row: 45px;
     --width-left-column: 255px;
     --width-right-column: 255px;
-    --height-linode-menu-row: 76px;
+    --height-sitebay-menu-row: 76px;
   }
 
   .is-explorer-open .grid--base {
@@ -74,11 +74,11 @@
 
 @screen lg {
   .grid--base {
-    --height-linode-menu-row: 113px;
+    --height-sitebay-menu-row: 113px;
   }
 }
 
-.grid--base #linode-menus {
+.grid--base #sitebay-menus {
   grid-column: 1 / -1;
 }
 
@@ -173,15 +173,15 @@
 
 /* Alt header height if message banner is present */
 html.has-banner .grid--base {
-  --height-linode-menu-row: 111px; /* 61 + 50 */
+  --height-sitebay-menu-row: 111px; /* 61 + 50 */
 }
 @screen md {
   html.has-banner .grid--base {
-    --height-linode-menu-row: 126px; /* 76 + 50 */
+    --height-sitebay-menu-row: 126px; /* 76 + 50 */
   }
 }
 @screen lg {
   html.has-banner .grid--base {
-    --height-linode-menu-row: 163px; /* 113 + 50 */
+    --height-sitebay-menu-row: 163px; /* 113 + 50 */
   }
 }

@@ -3,18 +3,13 @@
 
 headless: true
 show_on_rss_feed: false
-authors: ["SiteBay"]
-contributors: ["SiteBay"]
-modified_by:
-  name: SiteBay
 ---
 
 {{< note type="warning" title="Password requirements and recommendations" isCollapsible=true >}}
-We take security seriously here at SiteBay. When you're setting up your account (or locking down the **SiteBay MCP Server**), your password needs to be at least 11 characters long and tough to guess. Our backend tools will flag it if it's too weak. 
+Account passwords must be a minimum of 11 characters in length and be sufficiently complex. Each password is individually analyzed by an algorithmic tool to determine it's strength. When creating a password, follow the recommendations listed below:
 
-To keep your WordPress platform safe, follow these tips:
-- Go for 11 characters minimum, but longer is always better.
-- Don't just use a single dictionary word (like "password" or "sitebay").
-- Mix it up: throw in some unpredictable uppercase letters, lowercase letters, numbers, and symbols.
-- Skip the repeats (`aaa`), easy sequences (`1234`), and lazy keyboard patterns (`qwerty`).
+- Password should be _at least_ 11 characters in length (though longer passwords are considered stronger).
+- Avoid using simple passwords based on dictionary words.
+- Use a mixture of unpredictable uppercase letters, lowercase letters, numbers, and symbols.
+- Avoid repeating characters (`aaa`), sequences (`abcd`), and keyboard patterns (`qwerty`).
 {{< /note >}}

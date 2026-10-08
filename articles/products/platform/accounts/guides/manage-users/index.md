@@ -1,37 +1,55 @@
 ---
-title: "Manage Users"
-description: "Add, edit, remove users on your account."
+title: "Manage Users on a SiteBay Account"
+description: "Learn how to view, edit, and manage users on a SiteBay account."
 published: 2024-04-21
-modified: 2025-12-04
-authors: ["SiteBay"]
-contributors: ["SiteBay"]
-modified_by:
-  name: SiteBay
-aliases: ['/platform/accounts-and-passwords/','/accounts-and-passwords/','/guides/accounts-and-passwords/']
+aliases: ['/platform/accounts-and-passwords/','/accounts-and-passwords/','/platform/manager/accounts-and-passwords/','/platform/manager/accounts-and-passwords-classic-manager/','/platform/manager/accounts-and-passwords-new-manager/', '/guides/accounts-and-passwords/']
 ---
 
-Got a team? You can easily add them to your SiteBay account and control exactly what they can touch—whether that's spinning up new WordPress pods, checking PostHog analytics, or messing with the SiteBay MCP Server settings.
+You can grant other people access to your My SiteBay account by creating *users* and assigning *permissions* to restrict access to certain areas of the control panel. Adding users and configuring permissions is useful for groups that need to grant all team members access to My SiteBay, or organizations that just want their billing department to have a separate account to receive invoices and billing information.
 
-## View Your Team
+{{< note >}}
+A single user was automatically created for your account when you signed up for SiteBay. If you are the only person accessing My SiteBay, you do not need to create any additional users on your account.
+{{< /note >}}
 
-Head to **Account** → **Users & Grants** to see everyone who has access.
+## View All Users
 
-## Add a New User
+1. Log in to the [My SiteBay](https://my.sitebay.org) and select **Account** from the sidebar menu.
 
-1. Click **Add a User**.
-2. Drop in their email address.
-3. Decide if they get **Full** access (can do anything) or **Limited** access (you pick their permissions).
-4. Hit **Submit**.
+1. Navigate to the **Users & Grants** tab to display all users on the account. *Your user account must have full unrestricted access to view this page.*
 
-We'll shoot them an email to set up their password and get logged in. If they want to manage things on the go, remind them to download the SiteClaw mobile app.
+![Screenshot of Users and Grants page in the My SiteBay](view-users.png)
+
+Each user is listed in the table along with its username, email address, and the level of account access (*full* or *limited*).
+
+## Add a User
+
+To provide another person with access to your SiteBay account, you can create another user. Each user can be created with full unrestricted access or limited restricted access. For more details on user permissions, see [Set User Permissions](/docs/products/platform/accounts/guides/user-permissions/).
+
+1. Navigate to the **Users & Grants** page in the My SiteBay. See [View All Users](#view-all-users).
+
+1. Click the **Add a User** button to open the new user panel.
+
+1. Enter the **Email** for the user.
+
+1. Toggle the **Account Access** button to give the user full or limited access to account features.
+
+1. Click **Submit**. The user will receive an email with instructions on creating a password and logging in to the account.
+
+If you granted the user full access, the account is created and no further action is required. If you granted the user limited access, continue with [setting user permissions](/docs/products/platform/accounts/guides/user-permissions/).
+
+
+In a couple minutes, you'll receive an email message with any My SiteBay users that correspond to that email. If you do not receive information about any users, then you may have registered your account with a different email.
 
 ## Remove a User
 
-Someone left the team? Kick them out:
+You can permanently remove a user account from My SiteBay. Here's how:
 
-1. Go to **Users & Grants**.
-2. Find the user, hit **Delete**, and confirm. 
+1. Navigate to the **Users & Grants** page in the My SiteBay. See [View All Users](#view-all-users).
+1. Click the **Delete** link for the desired user. A warning appears asking you to confirm that you want to delete the user.
+1. Click **Delete** in the warning to confirm deletion.
 
-## Change Email
+The user is removed and is no longer able to access My SiteBay.
 
-Need to change someone's email? Have them update it in their profile, or reach out to our support team if they're locked out.
+## Change an Email
+
+1. Please contact customer support to change your login email

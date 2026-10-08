@@ -70,7 +70,7 @@
       <div>
         <div
           class="mt-4 md:space-x-4 space-y-4 md:space-y-0 w-full flex flex-col md:flex-row text-white text-2xl tracking-tight">
-          {{ .data.hero_text | markdownify }}
+          Create a WP site for free to try out these guides
         </div>
       </div>
     </div>
@@ -353,30 +353,6 @@
 {{/* TODO1 remove me */}}
 {{ define "home/products-banner" }}
   <div class="border-l-4 border-blue-400 bg-blue-100 p-6 mb-8 w-full xl:w-3/4">
-    <div class="flex">
-      <div class="ml-3">
-        <h3 class="text-2xl font-semibold mb-2">
-          Product docs and API reference are now on Akamai TechDocs
-        </h3>
-        <ul class="list-disc pl-4 text-xl space-y-1">
-          <li>
-            <a
-              href="https://techdocs.akamai.com/cloud-computing/docs/"
-              class="text-normal text-blue-700 hover:text-blue-600"
-              >Product docs</a
-            >
-          </li>
-          <li>
-            <a
-              href="https://techdocs.akamai.com/linode-api/reference/api"
-              target="_blank"
-              class="text-normal text-blue-700 hover:text-blue-600"
-              >API reference</a
-            >
-          </li>
-        </ul>
-      </div>
-    </div>
   </div>
 {{ end }}
 
@@ -388,7 +364,7 @@
       :class="{'auto-rows-fr gap-y-4': showMore}">
       {{ range $i, $e := .cards }}
         <a
-          class="col-span-1 a--block not-prose cursor-pointer flex flex-col group border p-4 rounded-md hover:shadow-md border-gray-300 m-0"
+          class="rounded-lg col-span-1 a--block not-prose cursor-pointer flex flex-col group border p-4 rounded-md hover:shadow-md border-gray-300 m-0"
           href="{{ .href }}">
           <h3
             class="text-2xl tracking-tight pt-0 pb-2 my-0 text-titlecolor group-hover:text-gray-600">

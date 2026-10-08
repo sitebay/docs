@@ -1,68 +1,64 @@
 ---
 slug: sitebay-plans
-description: "Overview of SiteBay's pricing plans, from the free Developer tier to robust Agency solutions."
-keywords: ['pricing', 'plans', 'free tier', 'agency plan', 'billing']
+description: 'An overview of SiteBay WordPress hosting plans: Micro, Starter, and Business.'
+keywords: ['WordPress hosting', 'SiteBay', 'hosting plans', 'web hosting']
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
-published: 2024-03-13
-modified: 2026-03-12
+published: 2024-03-04
+modified: 2024-03-04
 modified_by:
   name: SiteBay
-title: "SiteBay Pricing Plans"
-bible: true
-tags: ["sitebay", "pricing", "billing"]
+title: "SiteBay WordPress Hosting Plans"
+tags: ["sitebay", "WordPress hosting", "hosting plans"]
 aliases: ['/quick-answers/sitebay-essentials/sitebay-plans/']
 authors: ["SiteBay"]
 contributors: ["SiteBay"]
 ---
 
-# SiteBay Pricing Plans
+Choosing the right WordPress hosting plan is crucial for your website's success. At SiteBay, we offer three tailored plans designed to match your specific needs: Micro, Starter, and Business. Each plan is optimized for WordPress, ensuring your site runs smoothly on our Kubernetes-based platform. Let's dive into the details of what each plan offers.
 
-SiteBay's pricing is designed to scale with you—from your first experimental side project to high-traffic enterprise applications. All plans are billed per-site, with discounts available for bulk agency usage.
+Micro Plan
 
-Because SiteBay is built on Kubernetes, upgrading a plan is completely seamless. There is no server migration required; your site simply receives a higher resource allocation limit instantly.
+Ideal for small businesses or personal sites, the Micro plan offers a great balance of resources at an affordable price. It includes:
 
-## 1. The Free Tier (Developer)
+1 site
+12,000 visits/month
+8 GB storage
 
-SiteBay believes developers should have a playground to experiment with AI-native WordPress hosting at no cost.
+This plan is perfect if you're just starting out or have a site with moderate traffic. At $19 USD/month, it's designed to provide the essentials without breaking the bank.
 
-*   **Price:** $0 / month
-*   **Ideal For:** Personal blogs, portfolio sites, testing AI integrations (MCP/SiteClaw).
-*   **Resources:** Shared CPU, 1GB RAM.
-*   **Limitations:** Includes a non-intrusive SiteBay branding badge in the footer. Cannot use custom domains (sites remain on `*.sitebay.org`).
+Starter Plan
 
-## 2. Personal Plan
+Our Starter plan is suited for growing sites, such as small blogs or local businesses looking to expand their online presence. It includes:
 
-The perfect starting point for professional, production-ready websites.
+1 site
+30,000 visits/month
+20 GB storage
 
-*   **Price:** $19 / month (billed annually)
-*   **Ideal For:** Small business sites, standard blogs, headless Shopify frontends.
-*   **Features Unlocked:** Custom domains, automated SSL, removal of SiteBay branding.
-*   **Resources:** Dedicated container limits ensuring consistent performance.
-*   **Support:** Standard ticket-based support.
+Priced at $25 USD/month, the Starter plan offers more room for your site to grow, supporting increased traffic and content.
 
-## 3. Business Plan
+Business Plan
 
-Engineered for high-traffic sites and dynamic applications that require more database and PHP processing power.
+For sites demanding more resources, the Business plan provides ample support with enhanced features, including:
 
-*   **Price:** $49 / month (billed annually)
-*   **Ideal For:** Active e-commerce (WooCommerce), membership sites (LMS), and heavy traffic publishers.
-*   **Features Unlocked:** Priority support, increased PHP workers, extended Point-in-Time backup retention (30 days).
-*   **Resources:** 2x CPU allocation, 4GB RAM.
+5 sites
+150,000 visits/month
+40 GB storage
 
-## 4. Agency / Enterprise
+At $120 USD/month, this plan caters to businesses needing high performance, multiple sites, and storage.
 
-For teams managing multiple sites or requiring custom infrastructure configurations.
+Features Across All Plans
 
-*   **Price:** Custom (Volume-based pricing)
-*   **Ideal For:** Web design agencies, large enterprises, and SaaS platforms.
-*   **Features Unlocked:** White-label dashboard access, custom unified billing, dedicated account manager, custom API rate limits for heavy MCP usage.
-*   **Team Management:** Advanced RBAC (Role-Based Access Control) for inviting team members and clients to specific sites.
+All SiteBay plans come with robust features to enhance your WordPress experience:
 
-## Billing and Currencies
+Kubernetes-based Hosting: Enjoy the scalability, reliability, and security of Kubernetes.
+Session Replay & Analytics: Utilize SiteBay's integration with Posthog for detailed user analytics and session replays.
+Grafana Dashboards: Monitor your site's performance with custom Nginx analytics and potential future custom dashboards.
+Free Migrations: Easily migrate your site to SiteBay with our free migration service.
+VSCode Web Server: Develop and manage your WordPress site with a VSCode web server, featuring pre-installed development extensions.
+Choosing the Right Plan
 
-SiteBay uses Stripe for secure payment processing. We currently accept payments in:
-*   USD (US Dollar)
-*   EUR (Euro)
-*   CAD (Canadian Dollar)
+Selecting the right hosting plan depends on your site's current needs and future growth. Consider your expected traffic, the number of sites you manage, and storage requirements. Remember, you can start with one plan and easily upgrade as your site grows.
 
-*Note: All paid plans include full access to the SiteBay MCP Server, SiteClaw Mobile app, Code Server, and the native PostHog analytics integration.*
+For more information on our plans, features, and to get started, visit our pricing page.
+
+Note: Prices and features are accurate as of March 2024 and are subject to change. Visit our website for the most current information.

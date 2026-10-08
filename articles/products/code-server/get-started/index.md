@@ -1,53 +1,55 @@
 ---
-slug: get-started-code-server
-description: "Develop directly on your WordPress servers with SiteBay's integrated Code Server (VS Code in the browser)."
-keywords: ['code server', 'vs code', 'ide', 'development', 'browser ide', 'sitebay features']
-license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
-published: 2024-03-13
-modified: 2026-03-12
-modified_by:
-  name: SiteBay
-title: "Integrated IDE: Code Server"
-bible: true
-tags: ["sitebay", "development", "ide", "tools"]
-authors: ["SiteBay"]
-contributors: ["SiteBay"]
+title: Get Started
+title_meta: "Getting Started with Code Server (Manage and Develop your Wordpress in your browser on SiteBay)"
+description: "Manage and Develop your Wordpress in your browser on SiteBay."
+tab_group_main:
+    weight: 20
+published: 2024-04-04
+modified: 2024-04-04
+image: CodeServer.png
+keywords: ["code-server", "wp-cli"]
+tags: ["sitebay platform","kubernetes","My SiteBay"]
 ---
 
-# Integrated IDE: Code Server
+## Using Code Server (VSCode) on My SiteBay: A Simple Guide
 
-Traditional WordPress development often requires a complex local environment (like Docker, XAMPP, or Local by Flywheel), followed by pushing changes over FTP or Git. 
+Ever thought about using your favorite editor, VSCode, directly on your website? With My SiteBay, it's not just a thought anymore; it's a reality! And yes, it's as cool as it sounds. 
 
-SiteBay streamlines this by providing a fully-featured, cloud-based IDE natively attached to every WordPress site: **Code Server**.
+## What is Code Server?
 
-Code Server is essentially Microsoft's Visual Studio Code running securely on your SiteBay Kubernetes infrastructure, accessible directly through your web browser.
+Code Server allows you to run Visual Studio Code (that's VSCode for short) on a remote server. This means you can access and code on your website from anywhere, just as if you were working locally. It's super handy for making quick edits, full-on development, or just showing off your coding skills on the go.
 
-## The Cloud-Native Development Experience
+## Extensions
 
-By moving the IDE to the cloud, you eliminate the "it works on my machine" problem. 
+One of the best parts of VSCode is the extensions, and they work flawlessly on My SiteBay. Want to hear something even cooler? You can install Vim! Yes, you can turn your browser into a coding powerhouse with the legendary Vim capabilities, making coding not just efficient but also kinda fun.
 
-*   **Zero Setup:** Click a button in the SiteBay Dashboard, and within seconds, you have a VS Code instance loaded with your site's exact file system, PHP version, and environment variables.
-*   **Direct Access:** Edit your theme files, tweak custom plugins, or modify `wp-config.php` securely, knowing you are working on the actual environment.
-*   **Integrated Terminal:** Code Server includes a fully functional Linux terminal. You can run WP-CLI commands (`wp plugin install ...`), Composer (`composer require ...`), or npm scripts directly on your server.
+## Preinstalled: IntelliSense and Snippets for WordPress
 
-## Features
+Now, here's something for the WordPress enthusiasts:
 
-Since it's built on VS Code, you get the features you expect from a modern IDE:
-*   IntelliSense syntax highlighting and auto-completion for PHP, JavaScript, CSS, and HTML.
-*   A robust extension ecosystem (install linters, Git tools, and theme formatters).
-*   Global search and replace across your entire `wp-content` directory.
-*   Built-in Git interface for managing commits and pushes via SiteBay's Git Sync integration.
+- WordPress Hooks IntelliSense:  This gem provides you with IntelliSense for WordPress hooks. It's like having a coding buddy who whispers the right hooks to use and when.
 
-## Secure by Default
+- WordPress Snippets: Imagine having a treasure chest of ready-to-use code snippets at your disposal. That's what this extension is—a massive time-saver.
 
-Security is paramount when exposing a file system to the web. 
-*   **Isolated Environments:** Your Code Server instance runs in its own secure, sandboxed container, attached only to your specific site's volume.
-*   **Ephemeral:** The IDE container spins down when not in use to save resources and reduce the attack surface.
-*   **Authentication:** Access to Code Server is heavily protected behind SiteBay's primary authentication layer and requires explicit launch permissions from the dashboard.
+The best part? IntelliSense is pre-installed. Yes, you read that right. You can just Shift + Click on a function, and bam! You're taken to its definition. It's like magic but for coding.
+Why It's Awesome for You
 
-## Mobile and Agent Workflows
+Whether you're a seasoned developer or just starting, using Code Server on My SiteBay makes things incredibly straightforward. It's like having the power of your entire development setup in your web browser. No more switching between tools, no more getting lost in tabs. Everything you need for developing on your WordPress site is right there, in one place.
+Getting Started
 
-The Code Server isn't just for desktop browsers.
+1. Log in to your My SiteBay account.
+1. Navigate to your site's dashboard.
+1. Launch the Code Server from the provided link—no installations, no setups.
 
-*   **SiteClaw Mobile Integration:** The SiteClaw app includes an embedded Code Server WebView, allowing you to make emergency code edits directly from your phone while on the go.
-*   **Agent Parity:** The same underlying access that powers Code Server is exposed to the **SiteBay MCP Server**. If an AI agent struggles to edit a file via the standard MCP API, a human developer can instantly open Code Server, view the exact file state, and correct the agent's work seamlessly.
+And just like that, you're ready to code from anywhere, anytime.
+
+## Wrap-Up
+
+For those who've felt coding on a website feels somewhat distant or abstract, My SiteBay brings it all home—literally, into your browser. With these powerful tools and extensions at your fingertips, the sky's the limit for what you can create and achieve on your site.
+
+So, what are you waiting for? Start exploring, installing, and enjoying the seamless coding experience today!
+
+
+## Next Steps
+
+Now that you have a site and code-server running in your browser, go to our other guides to learn more

@@ -1,51 +1,51 @@
 ---
 slug: securing-your-wordpress
-description: "How SiteBay secures your WordPress infrastructure at the edge, server, and application layers."
-keywords: ['security', 'firewall', 'waf', 'malware', 'ssl', 'kubernetes security']
+author:
+  name: SiteBay
+  email: support@sitebay.org
+description: 'Dive into the basics of securing your WordPress site on SiteBay, including setting up user accounts, configuring a firewall, securing SSH, and disabling unused network services like XMLRPC.'
+og_description: 'Kickstart your journey to a more secure WordPress site with SiteBay by configuring a firewall, securing SSH, and disabling unused network services such as XMLRPC.'
+keywords: ["security", "secure", "firewall", "quick start"]
+tags: ["wordpress","security"]
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
-published: 2024-03-13
-modified: 2026-03-12
+aliases: ['/securing-your-wordpress/']
+modified: 2024-04-19
 modified_by:
   name: SiteBay
-title: "Security on SiteBay"
-bible: true
-tags: ["sitebay", "security", "infrastructure"]
-aliases: ['/guides/security/basics/securing-your-wordpress/']
-authors: ["SiteBay"]
-contributors: ["SiteBay"]
+published: 2024-04-17
+title: How to Secure Your WordPress
+h1_title: Securing Your WordPress
 ---
 
-# Security on SiteBay: Defense in Depth
+# Bulletproof Your WordPress
 
-WordPress powers over 40% of the web, making it a primary target for automated botnets and malicious actors. At SiteBay, we believe security should not rely on installing bloatware plugins. Instead, we implement a **defense-in-depth** strategy at the infrastructure level.
+In today's digital landscape, protecting your WordPress site is non-negotiable. This ultimate guide provides you with cutting-edge strategies to secure your site on SiteBay, ensuring that hackers are kept at bay and your data remains safe.
 
-## Layer 1: Edge Security (Cloudflare)
+## Lock Down with HTTP Password Authentication
 
-Before traffic even reaches our servers, it must pass through our enterprise-grade edge network, powered by Cloudflare.
+Take control with SiteBay's HTTP Password Auth. By setting up a robust authentication mechanism, you decide who can access your site. Simply log in with your credentials, switch on the HTTP Password Auth, and secure your access with a secret handshake that only you know.
 
-*   **DDoS Protection:** Our network automatically detects and mitigates massive Distributed Denial of Service attacks, absorbing the traffic at the edge so your origin server never notices a spike in load.
-*   **Web Application Firewall (WAF):** We deploy custom firewall rules specifically designed to block common WordPress vulnerabilities (like SQL injections, cross-site scripting, and xmlrpc.php abuse) before they touch your application.
-*   **Automated SSL:** All traffic is encrypted in transit. SSL certificates are provisioned automatically via Let's Encrypt and renewed indefinitely.
+## Supercharge Your Security with Wordfence
 
-## Layer 2: Kubernetes Isolation
+### Firewall Protection
 
-Traditional shared hosting puts hundreds of websites on a single server, meaning if one site gets hacked, the entire server is compromised. SiteBay eliminates this vector.
+Wordfence offers a powerful web application firewall that intercepts malicious traffic before it reaches your site, ensuring that potential threats are neutralized swiftly.
 
-*   **Container Sandboxing:** Every SiteBay WordPress site runs in its own tightly isolated Kubernetes pod. It has its own dedicated filesystem and processes.
-*   **Read-Only Core:** The core WordPress files and the infrastructure configuration files are marked as read-only. Even if an attacker exploits a vulnerability in a theme, they cannot modify the core system or install persistent backdoors.
-*   **Database Isolation:** Databases are run on separate, dedicated infrastructure and are not accessible from the public internet—only your specific WordPress pod can connect to its corresponding database.
+### Advanced Malware Scanning
 
-## Layer 3: Application & AI Security
+Regular scans with Wordfence detect malware, suspicious URLs, and backdoors. Stay one step ahead by catching vulnerabilities before they can cause damage.
 
-We secure the day-to-day operations and application management.
+### Enhanced Login Security
 
-*   **Single Sign-On (SSO):** Access to your WP Admin, phpMyAdmin, and Code Server is protected by SiteBay's primary authentication layer. We recommend enforcing Multi-Factor Authentication (MFA) on your SiteBay account.
-*   **Malware Scanning:** Our systems actively scan `wp-content` for known malware signatures and suspicious file modifications.
-*   **Point-in-Time Recovery:** True security means resilience against failure. If an attack does occur (e.g., via a zero-day exploit in a plugin), our continuous Point-in-Time Machine allows you to instantly revert the site to the minute before the breach occurred.
+Enable two-factor authentication to add an extra layer of protection to your login process. This ensures that even if your password is compromised, your site remains secure.
 
-## Security for AI Agents
+### Live Traffic Monitoring
 
-With the introduction of the **SiteBay MCP Server** and **SiteClaw**, AI agents can interact directly with your infrastructure.
+Monitor your site's traffic in real-time to quickly spot and block suspicious activity. Wordfence's live traffic view gives you insights into who is visiting your site and what they are doing.
 
-*   **Scope Limitation:** Agents inherit the strict permissions of the user API key they are authenticated with. They cannot bypass Kubernetes isolation.
-*   **Audit Trails:** Every command executed by an AI agent (whether running WP-CLI commands, editing files via search/replace, or managing backups) is logged and visible within the SiteBay dashboard and the SiteClaw timeline.
+## Reinforce with Cloudflare
+
+Cloudflare enhances your site's security by preventing DDoS attacks, securing data transactions, and improving performance. Use Cloudflare's firewall rules to specifically safeguard your wp-login.php page:  
+- **Set Up:** Log in to Cloudflare and navigate to the Firewall section.  
+- **Create Rule:** Define a rule that allows only your IP address to access your login page, blocking all other attempts.  
+- **Deploy:** Activate the rule to secure your login page from unauthorized access.

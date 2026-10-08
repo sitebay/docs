@@ -1,49 +1,45 @@
 ---
 slug: what-is-sitebay
-description: "SiteBay is the world's first AI-native WordPress hosting platform, engineered for a future where bots and humans build the web together."
-keywords: ['sitebay', 'wordpress hosting', 'ai-native', 'kubernetes', 'mcp']
+description: "Get to know SiteBay, the ultimate platform for WordPress hosting on Kubernetes, complete with analytics, performance monitoring, and more."
+keywords: ['sitebay', 'wordpress hosting', 'kubernetes', 'analytics', 'performance']
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
 published: 2024-03-13
-modified: 2026-03-12
+modified: 2024-03-13
 modified_by:
   name: SiteBay
 title: "What is SiteBay?"
-bible: true
-tags: ["sitebay", "wordpress", "hosting", "ai"]
+tags: ["sitebay", "wordpress", "hosting", "kubernetes", "analytics"]
 aliases: ['/quick-answers/sitebay-essentials/what-is-sitebay/']
 authors: ["SiteBay"]
 contributors: ["SiteBay"]
 ---
 
-# What is SiteBay?
+SiteBay is a powerful WordPress hosting platform that's all about bringing reliability, performance, and cutting-edge features to users of all skill levels. Whether you're launching your first blog or managing a complex WordPress site, SiteBay provides the tools and technology you need to ensure your site runs smoothly, securely, and efficiently.
 
-Forget what you know about traditional shared hosting. SiteBay is the world's first **AI-native WordPress platform**. 
+Powered by Kubernetes
 
-We didn't just bolt an AI chatbot onto a legacy cPanel server. We rebuilt the entire hosting stack from the bare metal up, engineering a high-performance Kubernetes environment specifically designed for a world where Large Language Models (LLMs) and human developers collaborate to build, scale, and maintain the web.
+At its core, SiteBay leverages Kubernetes, a modern container orchestration system, to manage your WordPress sites. This means your site benefits from high availability, scalability, and streamlined deployments. Whether you're experiencing a surge in traffic or deploying new features, Kubernetes ensures that your site remains online and responsive.
 
-## The AI Ecosystem
+Enhanced with Analytics and Performance Monitoring
 
-SiteBay treats AI agents as first-class citizens. Your bots need the same robust tooling that your senior engineers demand:
+SiteBay integrates advanced analytics and performance monitoring tools like Posthog and Grafana. These tools give you deep insights into how users interact with your site and how your site performs under various conditions. With Posthog, you can track events, analyze funnels, and understand user behavior. Meanwhile, Grafana provides you with detailed analytics graphs and dashboards, offering visibility into visits, resource usage, and more.
 
-*   **SiteBay MCP Server:** We've open-sourced a Model Context Protocol (MCP) server that gives Claude and other agents direct, programmatic access to your infrastructure. They can spin up environments, run WP-CLI commands, and write code—all via natural language.
-*   **SiteClaw Mobile:** An Expo-powered iOS and Android app that puts a 3D, voice-activated AI assistant in your pocket. Manage your fleet of sites while walking to get coffee.
-*   **SiteClaw Assistant:** Our custom ChatGPT integration that handles everything from spinning up staging clones to translating a screenshot into a fully coded CSS theme update.
-*   **AI-Native Theme:** We ship every site with a hyper-minimal, token-driven WordPress theme built on utility classes. It's designed specifically so AI agents can reason about and modify your global design system without breaking the cascade.
+Easy Backups and Restorations
 
-## Uncompromising Infrastructure
+Backing up and restoring your WordPress site is made simple with SiteBay. Our platform includes features that allow you to create backups and restore your site to a previous state with ease. Whether you need to rollback changes after an update or recover from an unexpected issue, SiteBay has got you covered.
 
-All the AI tooling in the world doesn't matter if the underlying server is slow. SiteBay delivers enterprise-grade, cloud-native performance by default:
+Regional Hosting Options
 
-*   **Kubernetes Isolation:** Every site runs in its own dedicated, sandboxed container. No noisy neighbors, no shared resources dragging down your TTFB (Time to First Byte).
-*   **The PostHog Control Plane:** Your dashboard *is* PostHog. We've deeply integrated session replay, funnel analytics, and feature flags directly into the infrastructure.
-*   **Git Sync:** True CI/CD for WordPress. Push to your GitHub `main` branch, and the container automatically pulls the changes. 
-*   **Point-in-Time Machine:** Continuous, minute-by-minute backups leveraging database binlogs. If a deployment goes sideways, slide the timeline back three minutes and restore instantly with zero data loss.
-*   **Integrated Code Server:** A full VS Code environment running securely in your browser, attached directly to your container's filesystem.
+Understanding the importance of data residency and latency, SiteBay offers hosting in multiple regions, including West US (Washington) and Central Europe (Frankfurt). This allows you to host your site closer to your audience, ensuring faster load times and a better user experience.
 
-## Who Built This For?
+Pricing Plans for Every Need
 
-1.  **AI-Forward Developers:** Engineers who want to automate the boring parts of WordPress management and leverage agents for heavy lifting.
-2.  **Modern Agencies:** Teams running massive fleets of client sites that require absolute stability, instant rollbacks, and deep analytics without the plugin bloat.
-3.  **Headless Innovators:** Developers using WordPress as a robust backend CMS to drive Shopify headless commerce or custom React frontends.
+SiteBay's pricing is straightforward and competitive, offering plans that cater to various needs, from small personal blogs to large business sites. Our plans are available in USD, EUR, and CAD, and you can choose monthly or yearly billing to best suit your budget.
 
-SiteBay is the bridge between the battle-tested reliability of WordPress and the bleeding edge of AI-driven development.
+Migration Made Easy
+
+Migrating your existing WordPress site to SiteBay is hassle-free. We support standard migrations by just providing your old host's information, as well as migrations through zip files or from wp.com platforms. Our goal is to make the transition as smooth as possible, so you can start enjoying SiteBay's benefits without any downtime.
+
+Conclusion
+
+SiteBay is more than just a WordPress hosting platform; it's a comprehensive solution designed to make managing WordPress sites easier, safer, and more efficient. By combining the power of Kubernetes with advanced analytics, performance monitoring, and user-friendly features, SiteBay stands out as a top choice for WordPress users around the globe.

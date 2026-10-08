@@ -15,6 +15,7 @@ interface Request {
  interface RequestMeta {
 	query: Query;
 	pronto: boolean;
+	fileCacheID: string;
 }
 
 
@@ -35,6 +36,7 @@ interface RequestCallback {
 	meta?: RequestMeta;
 
 	isFiltered(): boolean;
+	getFileCacheID(): string;
 }
 
 export enum RequestCallBackStatus {
@@ -73,7 +75,13 @@ export const newRequestCallback = function(
 				return false;
 			}
 			return meta.query.isFiltered();
-		},	
+		},
+		getFileCacheID: function(): string {
+			if (!meta) {
+				return '';
+			}
+			return  meta.fileCacheID;
+		}
 	};
 };
 

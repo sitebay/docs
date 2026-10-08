@@ -1,50 +1,50 @@
 ---
 slug: wordpress-command-line-tips
-description: 'WP-CLI tips for SiteBay.'
-keywords: ["terminal", "command line", "wp", "cli"]
+description: 'Unleash the power of the WP CLI: Your ultimate guide to mastering WordPress management from the command line with SiteBay hosting.'
+keywords: ["terminal", "command line", "shell", "tips", "tricks", "wp", "cli"]
 aliases: ['/quick-answers/sitebay/sitebay-command-line-tips/','/quick-answers/sitebay-command-line-tips/']
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
 published: 2024-04-13
-modified: 2025-12-04
+modified: 2024-04-17
 modified_by:
   name: SiteBay
-title: 'WP-CLI Tips'
+title: 'Command Line Mastery in VS Code Server'
 tags: ["sitebay"]
 authors: ["SiteBay"]
 contributors: ["SiteBay"]
 ---
 
-# WP-CLI Tips
+# Managing WordPress via CLI on Code Server
 
-Use in Code Server terminal (Ctrl+`).
+## Essential Terminal Commands for Navigating WordPress on SiteBay
 
-## Navigation
+- **Navigating Command History**: Simply use the **Up arrow** on your keyboard to cycle through previously used commands. Press **Enter** to execute the chosen command.
+- **Interrupt Processes**: Use **CTRL+C** to stop any ongoing processes and return to the prompt.
+- **Autocomplete Feature**: Press the **TAB** key to autocomplete commands and file paths, a handy tool that saves time.
 
-| Key | Action |
-|-----|--------|
-| ↑ | Previous command |
-| TAB | Autocomplete |
-| Ctrl+C | Stop process |
-| Ctrl+A | Start of line |
-| Ctrl+E | End of line |
-| Ctrl+W | Delete word before cursor |
-| Ctrl+U | Clear line |
+## Simple Command Line Editing
 
-## Common Commands
+- Move left by one word: **ESC+B**
+- Move right by one word: **ESC+F**
+- Jump to the start of the line: **CTRL+A**
+- Leap to the end of the line: **CTRL+E**
+- Erase the word behind the cursor: **CTRL+W**
+- Clear the current line: **CTRL+U**
 
-```bash
-# List plugins
-wp plugin list
+## Instant Command Correction and Re-execution
 
-# Install and activate plugin
-wp plugin install query-monitor --activate
+Enhance your efficiency with these quick fixes:
 
-# Deactivate plugin
-wp plugin deactivate query-monitor
+### Correcting Typos Easily
 
-# Update all plugins
-wp plugin update --all
+To correct a typo in your previous command, especially useful in long lines:
+    wp plugin install query-monitor –activate ^query-monitor^debug-bar
 
-# Clear cache
-wp cache flush
-```
+### Changing a Command Action Quickly
+
+If you need to change an action in a command without retyping the entire line:
+    wp plugin deactivate debug-bar ^deactivate^activate
+
+Using these streamlined command line inputs can enhance your productivity and simplify your WordPress management tasks on SiteBay.
+
+Note: Replace `^old^new` in the commands with the actual syntax required for command correction in your environment, as this notation is used here for illustrative purposes.

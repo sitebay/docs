@@ -1,50 +1,69 @@
 ---
-slug: get-started-shopify-link
-description: "Shopify Link allows you to seamlessly integrate Shopify's headless commerce capabilities into your SiteBay WordPress platform."
-keywords: ['shopify', 'ecommerce', 'headless', 'woocommerce alternative', 'shopify link', 'sitebay integrations']
-license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
-published: 2024-03-13
-modified: 2026-03-12
-modified_by:
-  name: SiteBay
-title: "Shopify Link: Headless Commerce"
-bible: true
-tags: ["sitebay", "ecommerce", "shopify", "integrations"]
-aliases: ['/quick-answers/sitebay-essentials/what-is-shopify-link/']
-authors: ["SiteBay"]
-contributors: ["SiteBay"]
+title: Get Started
+title_meta: "Getting Started with the SiteBay Shopify Link"
+description: "Learn how to get up and running with the SiteBay Shopify Link"
+image: ShopifyStore.png
+tab_group_main:
+    weight: 20
+published: 2024-03-29
+aliases: ['/products/shop-link/get-started/']
+modified: 2024-06-06
 ---
 
-# Shopify Link: Headless Commerce
+![Shopify Link](ShopifyStore.png "Shopify Link")
+This guide will help you get started with installing and enabling the SiteBay Shopify Link, configuring your settings, and accessing your blog and PostHog features on SiteBay.
 
-While WordPress is exceptional at content management, running a high-volume, enterprise-grade e-commerce store directly on WordPress (e.g., via WooCommerce) often introduces significant database bloat, security risks, and performance bottlenecks.
+## Step 1: Install the SiteBay Shopify Link
 
-SiteBay solves this with **Shopify Link**—a native integration that bridges the best of both worlds: WordPress's unmatched CMS capabilities with Shopify's robust, headless commerce engine.
+The first step is to install the SiteBay Shopify Link on your Shopify store. Follow these steps to get it set up:
 
-## The Headless Architecture
+- Login to your Shopify Admin: Go to your Shopify store admin dashboard.
+- Visit the App Store: Navigate to the Shopify App Store and search for "WordPress SEO Blog by SiteBay" or [click here](https://apps.shopify.com/wordpress-seo-blog).
+- Install the App: Click on the "Add app" button to install the SiteBay Shopify Link on your store.
+- Authorize the App: Follow the prompts to authorize the app to access your store's data.
 
-Shopify Link uses the Shopify Storefront API to decouple the backend inventory and checkout management from the frontend presentation.
+## Step 2: Enable the Slider in Theme Settings
 
-*   **The Backend (Shopify):** You manage products, inventory, shipping, taxes, and customer orders entirely within your Shopify Admin dashboard. Shopify handles all PCI compliance and payment processing securely.
-*   **The Frontend (SiteBay / WordPress):** Your products are synchronized into your WordPress site as custom post types or custom blocks. You build your product pages, landing pages, and blogs using WordPress, the block editor, or the SiteBay AI-Friendly Theme. 
-*   **The Checkout:** When a user clicks "Buy Now" or "Checkout" on your SiteBay site, they are seamlessly handed off to Shopify's highly optimized, secure checkout flow.
+Once the SiteBay Shopify Link is installed, you need to enable it in your theme settings:
 
-## Core Benefits
+- Go to Online Store > Themes: In your Shopify admin, click on "Online Store" and then "Themes".
+- Customize Your Theme: Find your current theme and click on "Customize".
+- Open Theme Settings: In the theme editor, look for "Theme Settings" and click on it.
+- Enable the SiteBay Slider: Find the slider option labeled "Enable SiteBay Shopify Link" and toggle it to "On" and click Save in the top right corner.
 
-1.  **Extreme Performance:** Because WordPress is no longer calculating complex cart logic or searching through massive `wp_postmeta` tables for product attributes, your site remains blazing fast. Cache hit rates stay near 100%.
-2.  **Unhackable Payments:** By offloading checkout to Shopify, credit card data never touches your WordPress server. This vastly reduces your PCI compliance burden and liability.
-3.  **Content + Commerce:** You can use WordPress's superior SEO tools and flexible content editor to drive traffic, while relying on Shopify to convert that traffic into sales.
+## Step 3: Enter Your Site URL on my.sitebay.org
 
-## Integrating with AI
+To complete the setup, you need to configure your site URL on the SiteBay settings page:
 
-Because Shopify Link connects your site to the Shopify API, SiteBay's AI tools are inherently commerce-aware.
+- Visit SiteBay: Go to my.sitebay.org and log in to your account.
+- Navigate to Settings: Click on "Settings" in the top menu.
+- Enter Your Site URL: In the settings page, find the field labeled "Site URL" and enter the URL of your Shopify store.
+- Save Changes: Click "Save" to update your settings.
 
-*   **MCP Integration:** Using the `sitebay_shopify_proxy` tool on the SiteBay MCP Server, your Claude agent can query your inventory, generate product descriptions, or analyze sales trends directly from your IDE context.
-*   **SiteClaw/SiteClaw:** You can ask your AI assistants questions like: *"Which products had the highest conversion rate from our blog yesterday?"* The platform cross-references Shopify sales data with SiteBay's PostHog analytics to provide deep, actionable insights.
+## Step 4: Access Your Blog
 
-## Setup
+After completing the setup, your blog will be available at /a/blog on your Shopify store. For example, if your store's URL is https://yourstore.myshopify.com, your blog will be accessible at https://yourstore.myshopify.com/a/blog.
 
-1.  Create a standard Shopify account (the "Starter" or "Basic" headless plan is sufficient).
-2.  Generate a Storefront API access token in your Shopify Admin.
-3.  In the SiteBay Dashboard, navigate to **Integrations > Shopify Link** and paste your token.
-4.  SiteBay automatically installs the necessary integration plugins and begins syncing your product catalog to your WordPress instance.
+## Step 5: View Recordings and Other PostHog Features
+
+You can now access recordings and other PostHog features directly on SiteBay:
+
+- Login to SiteBay: Go to my.sitebay.org and log in.
+- Navigate to Your Dashboard: In your dashboard, you will find various analytics and features provided by PostHog.
+- View Recordings: Click on the "Recordings" tab to view session recordings of your site visitors.
+- Explore Other Features: Utilize other PostHog features like heatmaps, funnels, and user analytics to gain insights into your store's performance.
+
+Congratulations! You've successfully set up the SiteBay Shopify Link and can now leverage its powerful features to enhance your Shopify store. If you have any questions or need further assistance, feel free to reach out to our support team.
+
+## Q&A
+- Can I have multiple shops?
+- Yes, you can have multiple shops with multiple installs. They will automatically share the same resources as your base plan at no extra charge per shop.
+
+- What happens if I go over my visits?
+- Your sites will sleep, and you will no longer receive analytics data and your blog proxy will stop working.
+
+- How can I upgrade?
+- [In your team's plan settings](https://my.sitebay.org/settings/team) you can upgrade at any time if you go over your visits and reactivate your features.
+
+- How can I uninstall the app or cancel my plan?
+- In your Shopify Admin admin.shopify.com/store/YOURMYSHOPIFYDOMAIN/settings/apps/app_installations find our WordPress SEO Blog by SiteBay and click the dropdown menu (...) then click uninstall to stop future charges. Your non-free resources will be deleted at the end of your billing cycle.

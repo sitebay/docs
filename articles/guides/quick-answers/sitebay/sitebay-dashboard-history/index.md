@@ -1,40 +1,37 @@
 ---
 slug: sitebay-dashboard-history
-description: "View site history and restore to previous states with PIT machine."
+description: "Explore your site's past events and restore your site to previous states using SiteBay's Point-in-Time (PIT) machine."
 keywords: ["sitebay", "sitebay dashboard", "site history", "site restoration"]
 aliases: ['/quick-answers/sitebay/site-history-and-restoration/', '/quick-answers/sitebay/using-pit-machine-for-site-restoration/']
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
-modified: 2024-12-04
+modified: 2024-04-04
 modified_by:
   name: SiteBay
 published: 2024-04-17
-title: "Site History"
+title: "Navigating Your Site's History with SiteBay Dashboard"
+title_meta: "How to Use SiteBay Dashboard for Site History and Restoration"
 tags: ["sitebay"]
 authors: ["SiteBay"]
 contributors: ["SiteBay"]
 ---
 
-Track changes and restore your site to any previous state.
+Managing your WordPress site involves keeping track of changes and being able to revert to previous states when necessary. SiteBay's dashboard offers a comprehensive view of your site's history, including updates, modifications, and other events. This guide will introduce you to navigating your site's history and utilizing the Point-in-Time (PIT) machine for site restoration on SiteBay.
 
-## Access History
+## Accessing Your Site's History
 
-1. Log into SiteBay dashboard
-2. Go to **History** tab
-3. View chronological list of events:
-   - Site updates
-   - Plugin installations
-   - Content changes
+SiteBay's dashboard provides a detailed log of your site's activities, allowing you to monitor changes and identify when specific updates were made. Here's how to access it:
 
-## Restore with PIT Machine
+Log into your SiteBay dashboard.
+Navigate to the "History" or "Activity Log" section.
+Here, you'll see a chronological list of events, including site updates, plugin installations, content changes, and more.
 
-1. Go to **Restoration** or **PIT Machine**
-2. Select date and time
-3. Confirm restoration
+## Restoring Your Site with the PIT Machine
 
-Your site reverts to the selected state.
+Mistakes happen, and sometimes you need to roll back your site to a previous state. SiteBay's PIT machine makes this process straightforward:
 
-## Tips
+In the SiteBay dashboard, locate the "Restoration" or "PIT Machine" section.
+Select the date and time you want to restore your site to. This can be based on a specific event or update from your site's history.
+Confirm the restoration. SiteBay will revert your site to the selected state, preserving your data up to that point.
 
-- Test changes on staging first
-- Create staging from any past point-in-time (down to the minute)
-- Review history before major updates
+## Tips 
+Utilize Staging Environments: Before making changes, use a staging site to test updates. This can prevent the need for restorations. You can even make a stage from a past point-in-time, down to the minute.

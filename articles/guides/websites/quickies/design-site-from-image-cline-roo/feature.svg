@@ -43,6 +43,6 @@
   
   <!-- Labels -->
   <text x="225" y="430" font-family="Arial" font-size="16" fill="#4b5563" text-anchor="middle">Design Image</text>
-  <text x="450" y="320" font-family="Arial" font-size="16" fill="#4b5563" text-anchor="middle">Cline/Roo + SiteClaw</text>
+  <text x="450" y="320" font-family="Arial" font-size="16" fill="#4b5563" text-anchor="middle">Cline/Roo + SiteBot</text>
   <text x="675" y="430" font-family="Arial" font-size="16" fill="#4b5563" text-anchor="middle">Live Website</text>
 </svg>

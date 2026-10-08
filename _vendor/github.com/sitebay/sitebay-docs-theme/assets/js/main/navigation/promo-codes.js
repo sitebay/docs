@@ -3,7 +3,7 @@
 var debug = 0 ? console.log.bind(console, '[promo-codes]') : function () {};
 
 export function newPromoCodesController(isTest) {
-	let endpoint = 'https://www.linode.com/wp-json/linode/v1/promo-data';
+	let endpoint = 'https://www.sitebay.org/wp-json/sitebay/v1/promo-data';
 	if (isTest) {
 		// localhost or Netlify.
 		// Use local resource to work around CORS issues.
@@ -21,7 +21,7 @@ export function newPromoCodesController(isTest) {
 			code: {},
 		},
 		signupURL: function (withPromo) {
-			const baseURL = 'https://login.linode.com/signup';
+			const baseURL = 'https://my.sitebay.org/signup';
 			let promo = this.promoCode();
 			if (withPromo && promo) {
 				return baseURL + '?promo=' + promo;

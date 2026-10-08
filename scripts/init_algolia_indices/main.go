@@ -21,11 +21,11 @@ var (
 )
 
 const (
-	defaultAppID = "KGUN8FAIPF"
+	defaultAppID = "VJRR3OCA19"
 )
 
 type config struct {
-	IndexSuffix string `help:"The suffix that is currently being used for the Algolia indices in config.toml. For example, for an index named 'linode-documentation-development-preview', the suffix is '-development-preview'). This is used to map the non-suffixed index names from algolia_settings.json to the current configuration."`
+	IndexSuffix string `help:"The suffix that is currently being used for the Algolia indices in config.toml. For example, for an index named 'sitebay-documentation-development-preview', the suffix is '-development-preview'). This is used to map the non-suffixed index names from algolia_settings.json to the current configuration."`
 	AppKey    string `arg:"env:ALGOLIA_ADMIN_API_KEY"`
 	AppID     string `arg:"env:ALGOLIA_APP_ID"`
 }

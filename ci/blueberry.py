@@ -1,23 +1,22 @@
 # -*- coding: utf-8 -*-
-import ntpath
+import datetime
 import inspect
 import itertools
 import json
+import ntpath
 import os
 import re
 import subprocess
 import sys
 import time
-import datetime
 import urllib.request
-from urllib.error import HTTPError, URLError
-from yaml import scanner
-
-import frontmatter
-
 from contextlib import ContextDecorator
 from operator import methodcaller
 from pathlib import Path
+from urllib.error import HTTPError, URLError
+
+import frontmatter
+from yaml import scanner
 
 # TODO:
 # Add flake8 to requirements and lint this file
@@ -212,13 +211,13 @@ def find_files(path='.', ignore_paths = [], extensions=['MD', 'md'], recursive=F
 
     if ignore_paths:
         # Map() returns an array like:
-        # ['/home/travis/build/linode/docs/ignored_dir1/', '/home/travis/build/linode/docs/ignored_dir2']
+        # ['/home/travis/build/sitebay/docs/ignored_dir1/', '/home/travis/build/sitebay/docs/ignored_dir2']
         ignore_paths_resolved = list(map(lambda path: str(Path(path).resolve()), ignore_paths))
         # Map() returns an array like:
-        # ['^/home/travis/build/linode/docs/ignored_dir1/*', '^/home/travis/build/linode/docs/ignored_dir2*']
+        # ['^/home/travis/build/sitebay/docs/ignored_dir1/*', '^/home/travis/build/sitebay/docs/ignored_dir2*']
         ignore_paths_as_regexes = list(map(lambda path: "^{}.*".format(path), ignore_paths_resolved))
         # ignore_path_regex_or looks like:
-        # '(^/home/travis/build/linode/docs/ignored_dir1/*|^/home/travis/build/linode/docs/ignored_dir2*)'
+        # '(^/home/travis/build/sitebay/docs/ignored_dir1/*|^/home/travis/build/sitebay/docs/ignored_dir2*)'
         ignore_path_regex_or = '({})'.format("|".join(ignore_paths_as_regexes))
         list_of_files = list(filter(lambda path: not re.match(ignore_path_regex_or, str(path)), list_of_files))
 

@@ -16,7 +16,7 @@ var (
 )
 
 const (
-	defaultAppID = "KGUN8FAIPF"
+	defaultAppID = "VJRR3OCA19"
 )
 
 type config struct {
@@ -61,12 +61,12 @@ func main() {
 
 	indices := []algoliaIndex{
 		algoliaIndex{
-			name:    "linode-documentation" + cfg.IndexSuffix,
+			name:    "sitebay-documentation" + cfg.IndexSuffix,
 			source:  "index.json",
 			replace: true,
 		},
 		algoliaIndex{
-			name: "linode-documentation-sections" + cfg.IndexSuffix,
+			name: "sitebay-documentation-sections" + cfg.IndexSuffix,
 
 			source: "data/sections/index.json",
 			// This index is shared between Hugo and WordPress,
@@ -78,7 +78,7 @@ func main() {
 			replace: false,
 		},
 		algoliaIndex{
-			name:    "linode-documentation-api" + cfg.IndexSuffix,
+			name:    "sitebay-documentation-api" + cfg.IndexSuffix,
 			source:  "api/index.json",
 			replace: true,
 		},

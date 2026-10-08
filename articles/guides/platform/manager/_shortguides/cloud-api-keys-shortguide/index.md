@@ -4,7 +4,7 @@ description: 'Shortguide that shows you how to create and manage API keys in Sit
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
 modified: 2020-07-22
 modified_by:
-  name: SiteBay
+  name: Heather Zoppetti
 published: 2020-07-22
 title: How to Create and Manage API Keys in SiteBay
 keywords: ["SiteBay", "API keys", "authentication"]

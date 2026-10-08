@@ -1,4 +1,4 @@
-{{ $twitterLink := printf "https://twitter.com/share?url=%s&via=linode&text=%s" .page.Permalink (.page.Title | truncate 30 ) }}
+{{ $twitterLink := printf "https://twitter.com/share?url=%s&via=sitebay&text=%s" .page.Permalink (.page.Title | truncate 30 ) }}
 {{ $faceBookLink := printf "http://www.facebook.com/sharer.php?u=%s" .page.Permalink }}
 {{ $hackerNewsLink := printf "https://news.ycombinator.com/submitlink?u=%s&t=%s" .page.Permalink .page.Title }}
 

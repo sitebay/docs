@@ -30,7 +30,7 @@
       {{/* The default static title and SEO meta markup. */}}
       <title>
         {{ .Params.title_meta | default .Title }} |
-        {{ site.Params.page_title_suffix | default "Linode" }}
+        {{ site.Params.page_title_suffix | default "SiteBay" }}
       </title>
 
       {{/* See https://turbo.hotwired.dev/handbook/drive#setting-a-root-location */}}
@@ -53,6 +53,9 @@
     <style>
       [x-cloak] {
         display: none !important;
+      }
+      .is-translating {
+        opacity: 0 !important;
       }
     </style>
   </head>
@@ -92,17 +95,17 @@
 
 
       <header
-        id="linode-menus"
+        id="sitebay-menus"
         class="z-20"
         data-turbo-permanent
         data-turbo="false">
-        {{ partial "linode-header.html" }}
+        {{ partial "sitebay-header.html" }}
       </header>
 
       {{/* Top navbar */}}
       <nav
         id="navbar"
-        class="bg-white w-full box-border sticky top-0 z-10 border-b-gray">
+        class="bg-white w-full box-border sticky top-0 z-10 border-b-gray border-shadow">
         <div id="navbar__icons--left" class="h-full flex justify-start">
           <div
             x-data="lncNav"
@@ -146,7 +149,7 @@
       </nav>
 
       {{/* Main content area. */}}
-      <main class="main bg-white h-full min-h-screen">
+      <main class="main bg-white h-full min-h-screen hide-on-lang-nav">
         <div class="main__inner">
           {{ if site.Params.enable_leak_checker }}
             {{ partial "helpers/leak-checker.html" }}
@@ -205,11 +208,14 @@
 
       {{/* Common Linide footer */}}
       <div id="footer" class="border-t-gray z-50" x-ignore>
-        {{ partial "linode-footer.html" }}
+        {{ partial "sitebay-footer.html" }}
       </div>
 
       {{/* Scripts etc. added before body end. */}}
       {{ partial "sections/before-body-end.html" . }}
     </div>
   </body>
+  <template id="language-switcher-template">
+    {{ partial "sections/navigation/language-switcher.html" . }}
+  </template>
 </html>

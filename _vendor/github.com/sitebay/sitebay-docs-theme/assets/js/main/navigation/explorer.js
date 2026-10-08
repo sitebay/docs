@@ -4,8 +4,8 @@ import { isMobile, scrollToActiveExplorerNode } from '../helpers/helpers';
 import {
 	newRequestCallback,
 	newRequestCallbackFactoryTarget,
-	SearchGroupIdentifier,
 	RequestCallBackStatus,
+	SearchGroupIdentifier,
 } from '../search/request';
 
 var debug = 0 ? console.log.bind(console, '[explorer-node]') : function () {};
@@ -22,7 +22,7 @@ const explorerCommon = {
 		}
 	},
 
-	activateHydration: function (permanent = false) {
+	activateHydration: function (permanent = true) {
 		this.$store.search.explorer.showHydratedExplorer = true;
 		if (permanent) {
 			this.$store.search.explorer.showAlwaysHydratedExplorer = permanent;
@@ -33,6 +33,9 @@ const explorerCommon = {
 export function newSearchExplorerInitial() {
 	return {
 		...explorerCommon,
+
+		// Keep track of sidebar sections to prevent duplication
+		processedSections: new Set(),
 
 		onClickStaticLeafNode: function (e, href, objectID) {
 			debug('onClickStaticLeafNode', href, objectID);
@@ -48,6 +51,11 @@ export function newSearchExplorerInitial() {
 				objectID: objectID || href,
 			};
 
+			// Track sections we've clicked to prevent duplication in hydrated view
+			if (key && (key.toLowerCase() === 'api' || key.toLowerCase() === 'products')) {
+				this.processedSections.add(key.toLowerCase());
+			}
+
 			this.$store.nav.analytics.handler.clickHit(hit, 'DOCS: Explorer');
 		},
 
@@ -56,7 +64,18 @@ export function newSearchExplorerInitial() {
 		// Open was that node's open state when the event was triggered.
 		hydrateAndSwitchOpenStateForKey(key, open) {
 			debug('hydrateAndSwitchOpenStateForKey', key, open);
+			
+			// Store processed section to prevent duplication
+			if (key && (key.toLowerCase() === 'api' || key.toLowerCase() === 'products')) {
+				this.processedSections.add(key.toLowerCase());
+			}
+			
 			this.$store.search.explorer.keyOpenStack.push({ key: key, open: open });
+			
+			// Pass processed sections information to the store
+			if (this.processedSections.size > 0) {
+				this.$store.search.explorer.processedSections = [...this.processedSections];
+			}
 		},
 
 		onRender(e) {
@@ -65,6 +84,11 @@ export function newSearchExplorerInitial() {
 			}
 			scrollToActiveExplorerNode();
 		},
+		
+		shouldShowHydratedExplorer() {
+			// Override to ensure proper transition between states
+			return this.$store.search.shouldShowHydratedExplorer();
+		}
 	};
 }
 
@@ -86,75 +110,29 @@ export function newSearchExplorerHydrated(searchConfig) {
 			facets: [],
 		},
 
-		// Flag to indicate if the explorer has been activated.
-		activated: false,
-
 		isActive: function () {
 			return this.isOpen() && this.$store.search.shouldShowHydratedExplorerAndIsHydrated();
 		},
 
-		init: function () {
-			let isInit = false;
-			let activate = () => {
-				if (isInit) {
+		init: async function () {
+			debug('newSearchExplorerHydrated.init');
+			const handleKeyOpenStack = () => {
+				let stack = this.$store.search.explorer.keyOpenStack;
+				debug('handleKeyOpenStack', stack.length);
+				if (!stack.length) {
 					return;
 				}
-				isInit = true;
-				this.doActivate();
-				this.activated = true;
+				let nn = stack.pop();
+				let open = !nn.open;
+				let n = this.explorer.facets.find((n) => n.key === nn.key);
+				if (n && n.open != open) {
+					n.open = open;
+					if (open) {
+						openNodeAndCloseTheOthers(n, this.explorer.facets);
+					}
+				}
+				this.activateHydration();
 			};
-
-			this.$watch('$store.search.results.main.result', (value) => {
-				activate();
-			});
-
-			this.$watch('$store.search.explorer.keyOpenStack', (value) => {
-				activate();
-				if (this.$store.search.explorer.hydrated) {
-					this.handleKeyOpenStack();
-				}
-			});
-
-			this.$watch(' $store.search.explorer.hydrated', (value) => {
-				this.handleKeyOpenStack();
-			});
-
-			this.doInit();
-		},
-
-		handleKeyOpenStack: function () {
-			if (!this.activated) {
-				return;
-			}
-			let stack = this.$store.search.explorer.keyOpenStack;
-			debugDev('handleKeyOpenStack', stack.length, this.explorer.facets.length);
-			if (!stack.length || !this.explorer.facets.length) {
-				return;
-			}
-
-			let nn = stack.pop();
-			let open = !nn.open;
-			let n = this.explorer.facets.find((n) => n.key === nn.key);
-			if (n && n.open != open) {
-				n.open = open;
-				if (open) {
-					openNodeAndCloseTheOthers(n, this.explorer.facets);
-				}
-			}
-			this.activateHydration();
-		},
-
-		doInit: function () {
-			debug('newSearchExplorerHydrated.doActivate');
-
-			this.$watch('$store.search.results.main.sectionFacets', (value) => {
-				debug('watch $store.search.results.main.sectionFacets');
-				updateFacetState(this.explorer.facets, value);
-			});
-		},
-
-		doActivate: function () {
-			debug('newSearchExplorerHydrated.doInit');
 
 			this.$store.search.withExplorerData((data) => {
 				let facets = data.blank.sectionFacets;
@@ -174,21 +152,61 @@ export function newSearchExplorerHydrated(searchConfig) {
 					n.id = n.href.replace(/\W/g, '_');
 				});
 				this.explorer.facets = facets;
+				// Filter root nodes and specifically handle api/products duplicates
+				const apiKeys = ['api', 'API'];
+				const productKeys = ['products', 'Products'];
+				
+				// Track if we've seen api or products nodes
+				let seenApi = false;
+				let seenProducts = false;
+				
 				let rootNodes = this.explorer.facets.filter(
-					(n) => n.level === 1 && n.key !== 'bundles' && n.key != 'community',
+					(n) => {
+						// Skip bundles and community
+						if (n.level !== 1 || n.key === 'bundles' || n.key === 'community') {
+							return false;
+						}
+						
+						// Handle API nodes - only include the first one
+						if (apiKeys.includes(n.key)) {
+							if (seenApi) {
+								return false;
+							}
+							seenApi = true;
+							return true;
+						}
+						
+						// Handle Products nodes - only include the first one
+						if (productKeys.includes(n.key)) {
+							if (seenProducts) {
+								return false;
+							}
+							seenProducts = true;
+							return true;
+						}
+						
+						// Include all other level 1 nodes
+						return true;
+					}
 				);
 
-				// Manually add the product and api section with count -1 to signal a static link.
-				rootNodes.push({
-					key: 'products',
-					count: -1,
-					level: 1,
-				});
-				rootNodes.push({
-					key: 'api',
-					count: -1,
-					level: 1,
-				});
+				//// Check if 'products' and 'api' are not already in the rootNodes
+				//if (!rootNodes.find(n => n.key === 'products')) {
+				//	rootNodes.push({
+				//		key: 'products',
+				//		count: -1,
+				//		level: 1,
+				//	});
+				//}
+
+				//// Check if 'api' is not already in the rootNodes
+				//if (!rootNodes.find(n => n.key === 'api')) {
+				//	rootNodes.push({
+				//		key: 'api',
+				//		count: -1,
+				//		level: 1,
+				//	});
+				//}
 
 				// Apply explorer_icon and weight from searchConfig.sections.
 				rootNodes.forEach((n) => {
@@ -214,9 +232,18 @@ export function newSearchExplorerHydrated(searchConfig) {
 
 				this.explorer.rootNodes = rootNodes;
 
+				this.$watch('$store.search.results.main.sectionFacets', (value) => {
+					debug('watch $store.search.results.main.sectionFacets');
+					updateFacetState(this.explorer.facets, value);
+				});
+
+				this.$watch('$store.search.explorer.keyOpenStack', (value) => {
+					debug('$store.search.explorer.keyOpenStack', value);
+					handleKeyOpenStack();
+				});
+
 				this.openAndCloseNodes();
 				this.$store.search.explorer.hydrated = true;
-				debugDev('hydrated');
 			}, createExplorerNodeRequest);
 		},
 
@@ -261,7 +288,18 @@ export function newSearchExplorerHydrated(searchConfig) {
 				closeLevel(1, this.explorer.facets);
 			} else {
 				let hrefSection = pageInfo.hrefSection;
-				debug('openAndCloseNodes.hrefSection', hrefSection);
+				if (pageInfo.section === 'api') {
+					// The API section is currently a little special.
+					hrefSection = pageInfo.href;
+				} else if (pageInfo.href === '/docs/sections/') {
+					// E.g. blog, marketplace. These are static only on the first level.
+					// We need to open up the second level.
+					hrefSection = decodeURI(window.location.pathname);
+
+					// We don't have a static representation of these nodes.
+					this.activateHydration(true);
+				}
+				debugDev('openAndCloseNodes.hrefSection', hrefSection);
 				let currentNode = this.findNode(hrefSection);
 				if (currentNode) {
 					currentNode.open = currentNode.count > 0;
@@ -281,6 +319,7 @@ export function newSearchExplorerNode(searchConfig, node) {
 
 	let ctrl = {
 		node: node,
+		counter: 0,
 		state: {
 			childNodes: [],
 			pages: [], // Includes only visible pages.
@@ -434,6 +473,7 @@ export function newSearchExplorerNode(searchConfig, node) {
 						{
 							pronto: true,
 							query: query,
+							fileCacheID: self.node.key,
 						},
 					);
 				},
@@ -504,7 +544,7 @@ const findChildren = function (href, nodes) {
 };
 
 const openNodeAndCloseTheOthers = function (node, nodes) {
-	debug('openNodeAndCloseTheOthers', node.href);
+	debugDev('openNodeAndCloseTheOthers', node.href);
 	for (let i = 0; i < nodes.length; i++) {
 		let n = nodes[i];
 		if (node.href.startsWith(n.href)) {
@@ -513,7 +553,7 @@ const openNodeAndCloseTheOthers = function (node, nodes) {
 			n.open = false;
 		}
 		if (n.open) {
-			debug('openNodeAndCloseTheOthers.open', n.href);
+			debugDev('openNodeAndCloseTheOthers.open', n.href);
 		}
 	}
 };

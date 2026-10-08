@@ -143,7 +143,7 @@ class SvgViewer {
 }
 
 export function newSVGViewerController(opts) {
-	let { diagramDescriptionID, svgHref } = opts;
+	let { diagramDescriptionID } = opts;
 	let diagramDescriptionEl = document.getElementById(diagramDescriptionID);
 
 	return {
@@ -168,7 +168,7 @@ export function newSVGViewerController(opts) {
 			this.svgViewer.panDirection(direction);
 		},
 
-		init: async function () {
+		init: function () {
 			this.$watch('showModal', (val) => {
 				debug('showModal', val);
 				this.svgViewer.reset();
@@ -187,13 +187,9 @@ export function newSVGViewerController(opts) {
 				}
 			});
 
-			let response = await fetch(svgHref);
-			let svgText = await response.text();
-
 			this.$nextTick(() => {
 				let container = this.$el;
 				let svg = this.$el.querySelector('.svg-container');
-				svg.innerHTML = svgText;
 
 				if (!isMobile()) {
 					let bullets = svg.querySelectorAll('.bullet');

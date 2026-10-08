@@ -9,7 +9,7 @@ var debug = 0 ? console.log.bind(console, '[navbar]') : function () {};
 const queryHandler = new QueryHandler();
 
 export const getScrollPosNavbar = function () {
-	let h = window.getComputedStyle(document.getElementById('grid')).getPropertyValue('--height-linode-menu-row');
+	let h = window.getComputedStyle(document.getElementById('grid')).getPropertyValue('--height-sitebay-menu-row');
 	return parseInt(h, 10) - 1;
 };
 
@@ -73,7 +73,7 @@ const applyUIState = function (self, init = false) {
 	setClassAndWatch(self.$store.nav.pinned, '$store.nav.pinned', 'topbar-pinned');
 };
 
-export function newNavController() {
+export function newNavController(weglot_api_key) {
 	return {
 		init: function () {
 			applyUIState(this, true);

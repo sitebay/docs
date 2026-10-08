@@ -27,19 +27,19 @@
     "elements": false,
     "required": false,
     "type": "list",
-    "description": "A list of guide bundle taxonomies that a guide should belong to (e.g. 'gaming', 'security'). Bundles are listed at https://www.linode.com/docs/bundles/"
+    "description": "A list of guide bundle taxonomies that a guide should belong to (e.g. 'gaming', 'security'). Bundles are listed at https://www.sitebay.org/docs/bundles/"
   },
   "classic_manager_link": {
 	  "elements": false,
 	  "required": false,
 	  "type": "text",
-	  "description": "In a guide which features copy or screenshots of the new Cloud Manager, this provides a link to the older guide written for the Linode Classic Manager, if an older/classic version of the guide was previously written. The link will be included within the Linode Classic Manager banner message at the bottom of the guide. The link must be a string using the alias format (platform/example-guide-classic-manager). Both the classic_manager_link and cloud_manager_link should be used between corresponding guides to create a bi-directional link. Must use alias-style relative links (e.g. platform/manager/dns-manager-classic-manager/)."
+	  "description": "In a guide which features copy or screenshots of the new Cloud Manager, this provides a link to the older guide written for the SiteBay Classic Manager, if an older/classic version of the guide was previously written. The link will be included within the SiteBay Classic Manager banner message at the bottom of the guide. The link must be a string using the alias format (platform/example-guide-classic-manager). Both the classic_manager_link and cloud_manager_link should be used between corresponding guides to create a bi-directional link. Must use alias-style relative links (e.g. platform/manager/dns-manager-classic-manager/)."
   },
   "cloud_manager_link": {
 	  "elements": false,
 	  "required": false,
 	  "type": "text",
-	  "description": "In a guide which features copy or screenshots of the Linode Classic Manager, this provides a link to a guide written for the new Cloud Manager, if a new version of the guide has been written. The link will be included within the Cloud Manager banner message at the top of the guide. The link must be a string using the alias format (platform/example-guide). Both the classic_manager_link and cloud_manager_link should be used between corresponding guides to create a bi-directional link. Must use alias-style relative links (e.g. platform/manager/dns-manager/)."
+	  "description": "In a guide which features copy or screenshots of the SiteBay Classic Manager, this provides a link to a guide written for the new Cloud Manager, if a new version of the guide has been written. The link will be included within the Cloud Manager banner message at the top of the guide. The link must be a string using the alias format (platform/example-guide). Both the classic_manager_link and cloud_manager_link should be used between corresponding guides to create a bi-directional link. Must use alias-style relative links (e.g. platform/manager/dns-manager/)."
   },
   "concentrations": {
     "elements": false,
@@ -62,7 +62,7 @@
         "elements": false,
         "required": false,
         "type": "text",
-        "description": "Adds a banner to guide announcing Linode Dedicated CPU instances."
+        "description": "Adds a banner to guide announcing SiteBay Dedicated CPU instances."
   },
   "deprecated": {
     "elements": false,
@@ -222,7 +222,7 @@
     "elements": false,
     "required": false,
     "type": "bool",
-    "description": "If true, this guide will be displayed on the landing page at linode.com/docs/."
+    "description": "If true, this guide will be displayed on the landing page at sitebay.org/docs/."
   },
   "show_on_rss_feed": {
     "elements": false,

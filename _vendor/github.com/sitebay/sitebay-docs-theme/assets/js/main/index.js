@@ -5,30 +5,32 @@ import intersect from 'jslibs/alpinejs/v3/intersect/dist/module.esm.js';
 import persist from 'jslibs/alpinejs/v3/persist/dist/module.esm.js';
 import { bridgeTurboAndAlpine } from './alpine-turbo-bridge';
 import {
-	alpineRegisterMagicHelpers,
 	alpineRegisterDirectiveSVG,
+	alpineRegisterMagicHelpers,
 	newDisqus,
 	newDropdownsController,
 	newTabsController,
 } from './components/index';
-import { toggleBooleanClass, scrollToActiveExplorerNode } from './helpers/helpers';
+import { setIsTranslating, toggleBooleanClass } from './helpers/helpers';
 import { leackChecker } from './helpers/leak-checker';
 import {
+	newBreadcrumbsController,
+	newLanguageSwitcherController,
 	newNavController,
-	newPromoCodesController,
-	newToCController,
 	newPaginatorController,
-	newSearchExplorerInitial,
+	newPromoCodesController,
 	newSearchExplorerHydrated,
+	newSearchExplorerInitial,
 	newSearchExplorerNode,
+	newToCController
 } from './navigation/index';
 import { newNavStore } from './navigation/nav-store';
 // AlpineJS controllers and helpers.
-import { newSearchFiltersController, newSearchInputController, newSearchStore, getSearchConfig } from './search/index';
+import { newFileIssueButton } from './navigation/file-issue-button';
+import { newSVGViewerController } from './navigation/svg-viewer';
+import { getSearchConfig, newSearchFiltersController, newSearchInputController, newSearchStore } from './search/index';
 import { newHomeController } from './sections/home/home';
 import { newSectionsController } from './sections/sections/index';
-import { newSVGViewerController } from './navigation/svg-viewer';
-import { newFileIssueButton } from './navigation/file-issue-button';
 
 // Set up the search configuration (as defined in config.toml).
 const searchConfig = getSearchConfig(params);
@@ -83,13 +85,15 @@ const searchConfig = getSearchConfig(params);
 	// Register AlpineJS controllers.
 	{
 		// Search and navigation.
-		Alpine.data('lncNav', () => newNavController());
+		Alpine.data('lncNav', () => newNavController(params.weglot_api_key));
+		Alpine.data('lncLanguageSwitcher', newLanguageSwitcherController(params.weglot_api_key));
 		Alpine.data('lncSearchFilters', () => newSearchFiltersController(searchConfig));
 		Alpine.data('lncSearchInput', newSearchInputController);
 		Alpine.data('lncSearchExplorerNode', (node = {}) => newSearchExplorerNode(searchConfig, node));
 		Alpine.data('lncSearchExplorerInitial', () => newSearchExplorerInitial());
 		Alpine.data('lncSearchExplorerHydrated', () => newSearchExplorerHydrated(searchConfig));
 		Alpine.data('lncToc', newToCController);
+		Alpine.data('lncBreadcrumbs', () => newBreadcrumbsController(searchConfig));
 		Alpine.data('lncDropdowns', newDropdownsController);
 		Alpine.data('lncTabs', newTabsController);
 		Alpine.data('lncDisqus', newDisqus);
@@ -156,6 +160,13 @@ const searchConfig = getSearchConfig(params);
 	};
 
 	document.addEventListener('turbo:load', function (event) {
+		// Update any static links to the current language.
+		//let lang = getCurrentLang();
+		//if (lang && lang !== 'en') {
+		//	addLangToLinks(lang, document.getElementById('sitebay-menus'));
+		//	addLangToLinks(lang, document.getElementById('footer'));
+		//}
+
 		if (window.turbolinksLoaded) {
 			// Make sure we only fire one event to GTM.
 			// The navigation events gets handled by turbo:render
@@ -164,10 +175,25 @@ const searchConfig = getSearchConfig(params);
 
 		toggleBooleanClass('turbo-loaded', document.documentElement, true);
 
+		// Init language links.
+		//let languageSwitcherTarget = document.getElementById('weglot_here');
+
+		//let languageSwitcherTemplate = document.getElementById('language-switcher-template');
+		//let languageSwitcherSource = document.importNode(languageSwitcherTemplate.content, true);
+		//languageSwitcherTarget.replaceChildren(languageSwitcherSource);
+
 		window.turbolinksLoaded = true;
 		setTimeout(function () {
 			pushDataLayer('docs_load');
 		}, 2000);
+	});
+
+	document.addEventListener('turbo:before-render', function (event) {
+		let body = event.detail.newBody;
+
+		// This hides the relevant elements for a second if the user has selected a language different from the default one.
+		// This should avoid the static and untranslated content showing.
+		setIsTranslating(body.querySelectorAll('.hide-on-lang-nav'));
 	});
 
 	document.addEventListener('turbo:render', function (event) {

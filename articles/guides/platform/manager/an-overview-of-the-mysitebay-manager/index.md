@@ -1,65 +1,63 @@
 ---
-slug: an-overview-of-the-mysitebay-manager
-description: "A comprehensive tour of the SiteBay Dashboard, our deeply customized instance of PostHog that serves as your central control plane."
-keywords: ['dashboard', 'manager', 'control panel', 'ui', 'posthog', 'sitebay features']
+slug: an-overview-of-mysitebay
+description: "an-overview-of-mysitebay"
+keywords: ["classic manager","My SiteBay","sitebay"]
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
-published: 2024-03-13
-modified: 2026-03-12
+aliases: ['/platform/manager/an-overview-of-mysitebay/', '/guides/an-overview-of-mysitebay/']
+published: 2024-04-20
+modified: 2024-04-20
 modified_by:
   name: SiteBay
-title: "Dashboard Overview: The PostHog Control Plane"
-bible: true
-tags: ["sitebay", "dashboard", "platform", "posthog"]
-aliases: ['/quick-answers/sitebay/sitebay-dashboard-overview/']
+image: AnOverviewofMySiteBay.png
+title: "An Overview of the SiteBay Dashboard"
+tags: ["sitebay platform","My SiteBay"]
 authors: ["SiteBay"]
 contributors: ["SiteBay"]
 ---
+Welcome to SiteBay's Dashboard
 
-# Dashboard Overview: The PostHog Control Plane
+The SiteBay Dashboard is your central hub for managing powerful WordPress hosting. It's designed to streamline your web hosting experience, enabling you to manage infrastructure, user accounts, billing, and support tickets all from one place. With SiteBay, you can effortlessly manage WordPress instances, handle Kubernetes clusters, configure backups, deploy applications, monitor event notifications, manage storage, and much more—all through an interface built on our robust API.
 
-If you're expecting a traditional, clunky cPanel or a generic WordPress hosting dashboard, you're in for a surprise. The **SiteBay Dashboard** ([my.sitebay.org](https://my.sitebay.org)) isn't just a basic control panel—it's actually a deeply customized, heavily engineered instance of **PostHog**.
+What You'll Find in This Guide
 
-We realized that managing infrastructure and analyzing user data shouldn't be two separate workflows. By building our entire control plane directly on top of PostHog, we've unified your server operations with your product analytics into one seamless experience.
+This guide introduces you to the SiteBay Dashboard's comprehensive features and services. Topics include:
 
-## Why We Built on PostHog
+A tour of each section of the Dashboard, complete with related guides.
+Locations of frequently used features.
+Tips to enhance your SiteBay Dashboard experience.
+Managing Your WordPress Sites
 
-Most hosting companies give you a dashboard to click "Restart PHP" and maybe show you some rudimentary bandwidth graphs. We flipped the script.
+Easily create and manage your WordPress sites, view detailed analytics, and optimize performance—all from the Dashboard.
 
-Because our dashboard *is* PostHog, every action you take, every deployment, and every user interaction is treated as a first-class data event. This means your AI agents (via the MCP) and your human team are looking at the exact same, insanely detailed telemetry.
+Managing Site Data
 
-## The Global Overview
+Access detailed reports on site performance, user traffic, and resource usage to make informed decisions about your site.
 
-When you drop into the dashboard, you're greeted with your **Sites List**—but it's supercharged with real-time analytics.
+Enhancing Site Performance
 
-*   **Status Indicators:** Instantly verify if your Kubernetes pods are active, provisioning, or suspended.
-*   **Quick Actions:** Launch WP Admin via SSO, spin up the Code Server IDE, or jump straight to the frontend URL without missing a beat.
-*   **Live Pulse:** Alongside your server status, you immediately see the pulse of your traffic and active session replays.
+Learn how to optimize your site's performance with integrated tools and services, such as caching and CDN integration.
 
-## Site-Specific Management
+Monitoring and Alerts
 
-Diving into a specific site opens up a unified workspace where infrastructure controls live side-by-side with your data.
+Set up custom alerts for site performance metrics, ensuring you're always informed about the health of your site.
 
-### 1. The Command Center (Overview & Tools)
-This is where the magic happens for day-to-day operations.
-*   **Infrastructure Controls:** Need to restart your PHP container, clear edge caches, or gracefully suspend the site? It's right here.
-*   **Deep Access:** Secure, SSO-driven access to your raw database via phpMyAdmin.
-*   **Environment Variables:** Inject your API keys and secrets directly into the container—no more messing around with `wp-config.php` over FTP.
+Advanced Features for Developers
 
-### 2. Time Machine & Git Sync
-Your safety net and your deployment pipeline.
-*   **Point-in-Time Restore:** A visual timeline of your database and file state. Slide back to any minute and restore instantly.
-*   **Git Operations:** Link your GitHub, GitLab, or Bitbucket. Push to deploy, or commit your server-side changes straight back to your repo.
+SiteBay provides developers with advanced tools and services to enhance WordPress site management:
 
-### 3. Analytics & Feature Flags
-This is where the PostHog engine really flexes.
-*   **Session Replays:** Watch exactly what your users are doing. When someone reports a bug, just pull up the tape.
-*   **Funnels & Paths:** See exactly where users are dropping off in your WooCommerce checkout flow.
-*   **Feature Flags:** Rolling out a massive theme update? Wrap it in a feature flag and push it to 10% of your audience first. If it crashes, roll it back with a toggle.
+Kubernetes Integration: Automate deployment, scaling, and management of containerized applications.
+CI/CD Pipelines: Streamline your development process with continuous integration and continuous deployment.
+API Access: Utilize SiteBay's API for custom integrations and automation.
+Account Management and Billing
 
-## Account, Billing & AI
+The Dashboard simplifies account and billing management:
 
-The dashboard is also the gateway for your team and your bots.
-*   **Team Management:** Granular Role-Based Access Control (RBAC). Invite the client to see the analytics, but lock them out of the infrastructure controls.
-*   **API Keys:** Spin up secure tokens to authenticate your SiteBay MCP Server, granting Claude direct access to your infrastructure.
+Track Usage and Billing: Monitor your usage and view detailed billing information to keep your account in good standing.
+Manage Payment Methods: Easily add or update your payment methods for hassle-free transactions.
+Support and Tickets: Access support resources and submit tickets directly through the Dashboard.
+Customizing Your Dashboard Experience
+Dark Mode: Toggle between light and dark themes for a personalized Dashboard appearance.
+Accessibility Features: SiteBay is committed to making the Dashboard accessible to everyone, adhering to WCAG 2.0 Level AA standards.
+Conclusion
 
-By turning PostHog into the operating system for your hosting, SiteBay gives you a level of visibility and control that traditional hosts can't touch.
+SiteBay's Dashboard is your all-in-one solution for managing powerful WordPress hosting. Whether you're a business owner, a developer, or a digital marketer, the Dashboard provides the tools and insights you need to succeed online. Explore the Dashboard today and discover how SiteBay can elevate your WordPress hosting experience.

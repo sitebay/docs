@@ -2,28 +2,38 @@
 title: Recording
 show_in_lists: true
 aliases: ['/platform/recording/']
-authors: ["SiteBay"]
-contributors: ["SiteBay"]
-modified_by:
-  name: SiteBay
 ---
 
-# Session Recording
+Have you ever wished you could go back in time and see exactly what happened on your website? With SiteBay's recording feature, it's like having a time machine for your site. This tool is all about helping you understand your audience better and making sure your site is always on point. Let me break it down for you, real simple, so you can see just how cool this feature is.
 
-Ever wish you could just look over your user's shoulder to see exactly what they're clicking on? With SiteBay's integrated recording features, you can. We hook your Kubernetes-hosted WordPress site directly into PostHog, giving you a literal time machine for user sessions.
+What's Recording All About?
 
-### Why You Need Session Replays
+Recording with SiteBay is like having a CCTV camera for your website. It lets you see how visitors interact with your site. You can watch what they click on, how they scroll, and even where they get stuck. It's all about giving you the insights to make your site better.
 
-- **Stop Guessing**: Analytics tell you *what* happened. Recordings show you *why*. See exactly where users rage-click, scroll past your CTA, or get confused by a form.
-- **Crush Bugs Fast**: "It doesn't work" is the worst feedback. With session replays, you can watch the exact path a user took before the site broke.
-- **Optimize Like a Pro**: See how real humans navigate your layout and adjust your UX to match actual behavior, not just your best guess.
+Why Should You Care?
 
-### Getting Started
+Understand Your Audience: By watching how real people navigate your site, you can understand what they like and what they don’t. This means you can make changes that your audience will love.
 
-Because SiteBay is an AI-native platform, we make observability zero-friction.
+Fix Problems Fast: Ever get feedback that something on your site isn't working, but you can't figure out what's wrong? With recordings, you can see the problem firsthand and get it fixed, quick.
 
-1. **Enable PostHog**: Flip the switch in your SiteBay dashboard to deploy the PostHog integration directly to your Kubernetes cluster.
-2. **Watch the Magic**: Real user sessions start flowing in.
-3. **Analyze**: Use PostHog's filtering to find sessions where errors occurred or where users dropped off during checkout.
+Improve Your Site: See where people are dropping off or what's making them click. Use that knowledge to tweak your site, keep people around longer, and maybe even boost your sales or sign-ups.
 
-It's straightforward, it's real, and it changes how you build for the web. Stop flying blind and start watching how your site actually performs in the wild.
+How to Get Started
+
+Getting started with recordings on SiteBay is easy. Here's how:
+
+Sign Up: First things first, make sure you're signed up for SiteBay. You'll need an account to access the recording feature.
+
+Enable Recording: Find the recording feature in your SiteBay dashboard. Turn it on with just a click.
+
+Start Watching: Once you've got some visitors on your site, you can start watching the recordings. Sit back, grab some popcorn, and see what your visitors are up to.
+
+Tips for Using Recordings
+
+Look for Patterns: Don't just watch one recording. Look at several to see if there are any common issues or behaviors.
+
+Focus on Key Pages: Pay special attention to important pages like your homepage, product pages, or checkout process.
+
+Take Action: Don’t just watch – act. Use what you learn to make your site better.
+
+Recording is a powerful tool in your SiteBay toolbox. It gives you a whole new way to understand your visitors and make your site the best it can be. So why not give it a try? You might be surprised at what you find.

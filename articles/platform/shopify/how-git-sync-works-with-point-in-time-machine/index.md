@@ -1,6 +1,8 @@
 ---
 slug: how-git-sync-works-with-point-in-time-machine
-authors: ["SiteBay"]
+author:
+  name: SiteBay Community
+  email: support@sitebay.org
 description: 'Learn how SiteBay''s Point-in-Time Machine interacts with Git Sync'
 keywords: ['git-sync', 'pit-machine']
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
@@ -10,31 +12,25 @@ modified_by:
   name: SiteBay
 title: "How Git Sync Works With PIT Machine"
 h1_title: "Restoring your Git Sync Enabled Site"
-contributors: ["SiteBay"]
+contributor:
+  name: SiteBay
 tags: ["sitebay platform","development", "git sync"]
 aliases: ['/platform/git-sync/how-git-sync-works-with-point-in-time-machine/']
 ---
 
 ![How to Use SiteBay's Git Sync](how-git-sync-works-with-point-in-time-machine.png "How to Use SiteBay's Git Sync")
 
-# Restoring your Git Sync Enabled Site
+Do you have a WordPress site set up with our Bi-Directional Git Sync? It also works with our Point-in-Time machine to restore your database and files to any point, down to the minute.
 
-If you're running a modern WordPress stack, you're probably using our Bi-Directional Git Sync. But what happens when you need to roll back? Don't sweat it. Git Sync plays perfectly with our Point-in-Time (PIT) Machine, letting you restore your database and files down to the exact minute without breaking your repo history.
 
 ## How We Restore Your WordPress Files
 
-When you trigger a restore using the PIT Machine from My SiteBay, we leverage the raw power of our Kubernetes infrastructure to seamlessly execute a **git revert** on your connected repository. 
+When you restore your Git Sync Enabled WordPress site Using the PIT Machine from My SiteBay, the **git revert** command is run on your repo. 
+The revert command creates a commit with the reverse patch to cancel it out. This way,  no history is overwritten. If you decide you didn't want to restore after, you can use the PIT machine to go back to the point just before you did the initial restore.
 
-Here is what's happening under the hood:
-Instead of force-pushing or overwriting history (which is a nightmare for teams), the revert command creates a new commit containing the exact reverse patch of the changes you want to undo. History is preserved. If you realize the restore was a mistake, you can just use the PIT machine again to bounce right back to where you were before the restore. 
-
-When you pick a time in the PIT Machine:
-1. We locate the exact commit hash for that moment.
-2. We revert the `HEAD` commit back to the state of the target commit hash. This walks back every change made since your restore point.
-3. We generate a brand new commit that matches the old state and sync it to your environment. 
-
-You get your site back to the way it was, without losing the paper trail.
+When you restore your site to a time in SiteBay's PIT Machine, we will find the commit hash for your repo at that point. 
+Then, we revert everything from the HEAD commit (the state of your current site's repo) back to the restore's commit hash, meaning it will recreate that commit state in the tree. This would be like if every commit after your selected restore point had been walked back to the repo state at the restore point. We then commit the current tree, and it will create a brand new commit equivalent to the commit you restored. This way, you don't have to worry about losing data from any point-in-time.
 
 {{< note >}}
-Always use the Point-in-Time Machine in the SiteBay dashboard for restores. If you try to manually run git reverts locally and push them up, your database won't roll back with your files, leaving you with a mismatched content folder and database. Let our automated systems handle the heavy lifting.
+We recommend using the Point-in-Time Machine for restoring your site. If you try to issue git revert commands from your local repo, your database will not be restored and your content folder and database may be incompatible with eachother.
 {{< /note >}}
