@@ -1,0 +1,6 @@
+{{- $url := urls.Parse (.Destination | strings.TrimPrefix "./") -}}
+{{- $src := .Destination -}}
+{{- $image := .PageInner.Resources.GetMatch $url.Path -}}
+{{- if $image }}{{ $src = $image.RelPermalink }}{{ end -}}
+{{- if not $image }}{{ if and (not $url.IsAbs) (not (strings.HasPrefix $src "/")) }}{{ $src = $src | relURL }}{{ end }}{{ end -}}
+<figure><a href="{{ $src }}"><img src="{{ $src }}" alt="{{ .PlainText }}" {{ with .Title }}title="{{ . }}"{{ end }} loading="lazy" decoding="async"{{ if and $image (ne $image.MediaType.SubType "svg") }} width="{{ $image.Width }}" height="{{ $image.Height }}"{{ end }}></a>{{ with .Title }}<figcaption>{{ . }}</figcaption>{{ end }}</figure>

@@ -50,3 +50,5 @@ algolia_out/
 
 # Hugo-generated editor metadata contains machine-local module paths.
 /assets/jsconfig.json
+
+!knowledge/sql/*.sql

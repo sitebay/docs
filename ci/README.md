@@ -10,8 +10,11 @@ npm ci --ignore-scripts --no-audit --no-fund
 python -m pip install -r ci/requirements-publishing.txt
 python -m unittest discover -s ci/tests -v
 node --test ci/tests/*.test.mjs
+npm --prefix knowledge ci --ignore-scripts --no-audit --no-fund
+npm --prefix knowledge test
+bash knowledge/tests/test-postgres.sh
 (cd scripts && go test ./internal/searchconfig ./update_linode_docs_search_indices ./init_algolia_indices ./clean_linode_sections_index ./download_algolia_settings)
-hugo --destination public
+npm run build:docs
 python ci/check-links.py --public-dir public --report .cache/publishing.json
 python ci/content_review.py --report .cache/content-review.json
 python ci/editorial.py --report .cache/editorial.json
@@ -32,7 +35,7 @@ article. Editorial validation is strict: **there is no baseline allowance**.
 local verification. The browser suite serves the production export on loopback,
 loads every authored page route across three fresh browser processes, and checks
 representative narrow and wide layouts. The final coverage report rejects
-missing, duplicate, or failed routes. Remote services are fixtures; this is not a live-service acceptance test.
+missing, duplicate, or failed routes. Browser search uses the real Pagefind index. External embeds use fixtures; this is not a live customer-service acceptance test.
 
 ## Source and output
 
@@ -82,9 +85,10 @@ source-authorized checkout; GitHub CI does not require those private repositorie
 
 ## Search and theme updates
 
-Root `config.toml` owns SiteBay's search identities. Admin utilities share a
-loader and reject conflicting application/index settings. The updater's
-`--dry-run` prints destinations without credentials or writes.
+The active website uses Pagefind built from the same corpus as the reader.
+It does not call Algolia. Legacy index settings and utilities remain for
+compatibility and rollback inspection; their `--dry-run` prints destinations
+without credentials or writes. They are not the active publication path.
 
 Site-specific templates and assets override vendored defaults. The theme's
 website-partials mounts must match the pinned dependency's actual files.
@@ -98,3 +102,11 @@ The full article refresh stays on its review branch. The temporary rollback on
 `main` remains in place until the completed work is explicitly accepted.
 A local test pass is not a production deployment, a live API write, or a native
 app-store qualification. `NOT_SURE.md` records the remaining operational scope.
+
+## Read-only knowledge service
+
+`npm run build:docs` creates HTML, Pagefind, a source-line corpus, and `llms.txt`
+together. `knowledge/README.md` documents MCP, CLI, PostgreSQL roles, optional
+embeddings, and the separately pinned Linode reference collection. The old
+Algolia-writing workflows are retained under `ci/legacy-workflows/`, not active
+Actions. CI uploads the verified website artifact; it does not deploy it.

@@ -876,6 +876,71 @@
         }
       ],
       "urls": []
+    },
+    "docs-knowledge": {
+      "note": "Implementation in this review branch; reference retrieval is separate from operator imports and deployment.",
+      "files": [
+        {
+          "path": "sitebay/docs/knowledge/src/corpus.mjs",
+          "sha256": "9c24a8abb1946c898faf6fd10a4ef217793b2e4d2a712587024272c9bc2bbb87"
+        },
+        {
+          "path": "sitebay/docs/knowledge/src/service.mjs",
+          "sha256": "44dc8f941845324030434e301c3686ad25ad1ba7316b78f9ffc471ceea33e692"
+        },
+        {
+          "path": "sitebay/docs/knowledge/src/pg-store.mjs",
+          "sha256": "afd16eb8a8f6c0177db90acb0f0c38876eb15109ab82caf9808dc7053e1ad767"
+        },
+        {
+          "path": "sitebay/docs/knowledge/src/import.mjs",
+          "sha256": "a724077f31c59b937a13995e2f01ea5a48b2aa6d3b28e85e7215f305f646ce5a"
+        },
+        {
+          "path": "sitebay/docs/knowledge/src/http.mjs",
+          "sha256": "2365fe132e72a253aca3ccd01fdfe8850073c6eb87bb759fbac35ead5acace3f"
+        },
+        {
+          "path": "sitebay/docs/ci/scripts/build-docs-corpus.py",
+          "sha256": "f6b1018771d3ef4a98f01cae30d28a0f76c093064c269dbec677a837d3498fcc"
+        }
+      ],
+      "urls": [],
+      "completion_note": "Reviewed the final implementation: exact source lines, readonly handlers, corpus-scoped database hash checks, bounded embedding adapter, and separate operator imports. Verified with real database and protocol tests; no live activation."
+    },
+    "mcp-standard": {
+      "note": "Protocol transport contract; SDK handles stdio and Streamable HTTP.",
+      "files": [],
+      "urls": [
+        "https://modelcontextprotocol.io/specification/2025-11-25/basic/transports"
+      ]
+    },
+    "pgvector-primary": {
+      "note": "Primary pgvector/PostgreSQL references; database mechanics and model relevance are separate checks.",
+      "files": [],
+      "urls": [
+        "https://github.com/pgvector/pgvector",
+        "https://www.postgresql.org/docs/current/textsearch-intro.html"
+      ]
+    },
+    "ollama-embeddings": {
+      "note": "Explicit embedding adapter; no model is downloaded by the service.",
+      "files": [],
+      "urls": [
+        "https://docs.ollama.com/api/embed"
+      ]
+    },
+    "linode-upstream": {
+      "note": "Original references at the pinned revision, not rebranded article copies.",
+      "files": [
+        {
+          "path": "sitebay/docs/knowledge/upstream-lock.json",
+          "sha256": "f077ee969b10906dd5a5670f60bb6eb5413dc16c986f4ff5a19a5fbb360cecfd"
+        }
+      ],
+      "urls": [
+        "https://github.com/linode/docs/tree/fe2349568fa499a229a1a5e370929404d8e76287"
+      ]
     }
   },
   "completion_review_date": "2026-10-08",

@@ -30,6 +30,7 @@ skipped=0
 while IFS= read -r -d '' source; do
     relative="${source#"$temp_dir/$upstream_theme/"}"
     case "$relative" in
+        layouts/index.json|layouts/tech-guides-assets/*|layouts/partials/get-basepath.html) skipped=$((skipped + 1)); continue ;;
         assets/css/*|assets/js/*|assets/images/*|layouts/*) ;;
         *) skipped=$((skipped + 1)); continue ;;
     esac

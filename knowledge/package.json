@@ -1,0 +1,16 @@
+{
+  "name": "@sitebay/docs-knowledge",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "serve": "node src/server.mjs",
+    "query": "node src/cli.mjs search"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.32.1",
+    "pg": "8.23.1"
+  }
+}

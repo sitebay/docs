@@ -29,6 +29,7 @@
     "cypress-axe": "^1.5.0",
     "cypress-html-validate": "^6.1.0",
     "html-validate": "^8.20.1",
+    "pagefind": "1.5.2",
     "playwright": "1.60.0",
     "postcss": "^8.4.38",
     "postcss-cli": "^11.0.0",
@@ -37,5 +38,10 @@
     "tailwindcss": "^3.4.4"
   },
   "name": "sitebay-docs",
-  "version": "0.1.0"
+  "version": "0.1.0",
+  "scripts": {
+    "build:docs": "bash ci/scripts/build-docs.sh",
+    "test:knowledge": "npm --prefix knowledge test",
+    "docs:read": "node knowledge/src/cli.mjs"
+  }
 }

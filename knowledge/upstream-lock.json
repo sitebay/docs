@@ -1,0 +1,10 @@
+{
+  "repository": "linode/docs",
+  "remote": "https://github.com/linode/docs.git",
+  "branch": "develop",
+  "revision": "fe2349568fa499a229a1a5e370929404d8e76287",
+  "checked_at": "2026-10-08",
+  "policy": "Read original Markdown at the pinned revision. Preserve attribution and licenses. External provider instructions are not SiteBay operational contracts.",
+  "adopted_presentation": ["layouts/partials/helpers/script-src.html targetPath support"],
+  "excluded": ["Akamai URL migration", "index.json replacement", "alias removal", "provider settings and credentials"]
+}

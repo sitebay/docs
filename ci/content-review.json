@@ -5169,6 +5169,128 @@
       "original_words": 127,
       "updated_words": 128,
       "headless": false
+    },
+    "articles/knowledge/_index.md": {
+      "original_path": null,
+      "file_sha256": "694f0d6af0dfd1208ebe933a76b9a6ad777f614d6320d137ae0dbeb0803e5c1e",
+      "body_sha256": "a7a6248c24630cb0d90b9bc50c3d02a949298ee69be5bee48cb93c48d63cf73a",
+      "original_body_sha256": null,
+      "body_changed": true,
+      "basis": [
+        "docs-knowledge"
+      ],
+      "change": "Add an original implementation-grounded guide for the documentation knowledge service.",
+      "original_words": 0,
+      "updated_words": 164,
+      "headless": false
+    },
+    "articles/knowledge/task-map.md": {
+      "original_path": null,
+      "file_sha256": "059de6b874b0f0081597a68847d275862bd39484b0c22850e77ad3f50fbcafd6",
+      "body_sha256": "b6e17d474cfe8962c2b0f25e91c0f39c62b0c194f4f2e179a35fa9c3f05e770b",
+      "original_body_sha256": null,
+      "body_changed": true,
+      "basis": [
+        "docs-knowledge",
+        "sorti-runtime",
+        "lifecycle"
+      ],
+      "change": "Add an original implementation-grounded guide for the documentation knowledge service.",
+      "original_words": 0,
+      "updated_words": 329,
+      "headless": false
+    },
+    "articles/knowledge/system-map.md": {
+      "original_path": null,
+      "file_sha256": "ccfcd2faffd60d71b1bc277906699b4d43e6960e4350cfaa29b4d1065ee1c3c3",
+      "body_sha256": "27359fb5573a561971ef6bbfaf2dbda1d7598a5252148d038d281be9e3ef1961",
+      "original_body_sha256": null,
+      "body_changed": true,
+      "basis": [
+        "docs-knowledge",
+        "sorti-runtime",
+        "api-contract"
+      ],
+      "change": "Add an original implementation-grounded guide for the documentation knowledge service.",
+      "original_words": 0,
+      "updated_words": 300,
+      "headless": false
+    },
+    "articles/knowledge/read-with-mcp.md": {
+      "original_path": null,
+      "file_sha256": "0254dd4ca2ddd51a328d09b751710f3a799113f83f2c893cc4c9b1874bef58da",
+      "body_sha256": "3e58b1141ed7466d52c0b1123110153e937a55c0597366eefc229a800db53f27",
+      "original_body_sha256": null,
+      "body_changed": true,
+      "basis": [
+        "docs-knowledge",
+        "mcp-standard",
+        "sorti-byo"
+      ],
+      "change": "Add an original implementation-grounded guide for the documentation knowledge service.",
+      "original_words": 0,
+      "updated_words": 359,
+      "headless": false
+    },
+    "articles/knowledge/pgvector.md": {
+      "original_path": null,
+      "file_sha256": "eab2fa89637a93e22b935b23cd0cee6397f6907db26bae53dc04f68fdf34927d",
+      "body_sha256": "138cf2fe5c9c86132735bcb4d40f008eb68fab92d4aad5de1f4f90e7b9c1cadf",
+      "original_body_sha256": null,
+      "body_changed": true,
+      "basis": [
+        "docs-knowledge",
+        "pgvector-primary",
+        "ollama-embeddings"
+      ],
+      "change": "Add an original implementation-grounded guide for the documentation knowledge service.",
+      "original_words": 0,
+      "updated_words": 339,
+      "headless": false
+    },
+    "articles/knowledge/retrieval-quality.md": {
+      "original_path": null,
+      "file_sha256": "7c172025eae2ff6387cde2b18afe8be6eb01e11071320259a775fc23ed468f15",
+      "body_sha256": "362a2a2e4000dfc913a70b158937f4f965e8ccf52550e8663b3c57d6af35de2c",
+      "original_body_sha256": null,
+      "body_changed": true,
+      "basis": [
+        "docs-knowledge",
+        "pgvector-primary"
+      ],
+      "change": "Add an original implementation-grounded guide for the documentation knowledge service.",
+      "original_words": 0,
+      "updated_words": 256,
+      "headless": false
+    },
+    "articles/knowledge/upstream-library.md": {
+      "original_path": null,
+      "file_sha256": "aa39957966372376959c56e2e4f04a01db2440f01ae97e911682eb44d6028d52",
+      "body_sha256": "b54ecc617164227b07b9253c017174e31fdac1940a538ca22a11f3bbc1b819bd",
+      "original_body_sha256": null,
+      "body_changed": true,
+      "basis": [
+        "docs-knowledge",
+        "linode-upstream"
+      ],
+      "change": "Add an original implementation-grounded guide for the documentation knowledge service.",
+      "original_words": 0,
+      "updated_words": 200,
+      "headless": false
+    },
+    "articles/knowledge/publishing.md": {
+      "original_path": null,
+      "file_sha256": "9e2048617ffd33d2614dce5b0b00063527ef82e12cdedc6ee624a8cbc09a5f9a",
+      "body_sha256": "f0da84a3c109d7e570691effb05cc5c6179b679c066c0272a11704e285843070",
+      "original_body_sha256": null,
+      "body_changed": true,
+      "basis": [
+        "docs-knowledge"
+      ],
+      "change": "Add an original implementation-grounded guide for the documentation knowledge service.",
+      "original_words": 0,
+      "updated_words": 205,
+      "headless": false
     }
   },
   "completion_review_date": "2026-10-08"

@@ -1,0 +1,30 @@
+{{ $js := . }}
+{{ $defer := true }}
+{{ $async := false }}
+{{ $params := dict }}
+{{ $targetPath := "" }}
+{{ $sourceMap := cond (ne hugo.Environment "development") "" "inline" }}
+{{ if reflect.IsMap $ }}
+  {{ $js = .js }}
+  {{ $targetPath = .targetPath | default "" }}
+  {{ if .nodefer }}
+    {{ $defer = false }}
+  {{ end }}
+  {{ if .async }}
+    {{ $defer = false }}
+    {{ $async = true }}
+  {{ end }}
+  {{ with .params }}
+    {{ $params = . }}
+  {{ end }}
+{{ end }}
+{{ $opts := dict "sourceMap" $sourceMap "minify" (ne hugo.Environment "development") "target" "es2017" "params" $params "targetPath" $targetPath }}
+{{ $js := $js | js.Build $opts }}
+{{- if  (ne hugo.Environment "development") }}
+  {{ $js = $js | fingerprint }}
+{{ end -}}
+<script
+  src="{{ $js.RelPermalink }}"
+  {{ if  (ne hugo.Environment "development") }}
+    integrity="{{ $js.Data.Integrity }}"
+  {{ end }}{{ if $defer }}defer{{ end }}{{ if $async }}async{{ end }}></script>

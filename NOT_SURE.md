@@ -1,7 +1,8 @@
 # Verification boundaries
 
-The complete documentation refresh covers all 348 Markdown sources, including
-navigation and reusable fragments. The former editorial baseline allowance is
+The original article refresh covers all 348 Markdown sources, including
+navigation and reusable fragments. The knowledge integration adds eight guides
+for 356 maintained Markdown sources in total. The former editorial baseline allowance is
 removed. Source review, strict editorial checks, spelling, build, links,
 reference generation, and browser behavior are checked separately.
 
@@ -35,3 +36,18 @@ Private source bytes remain outside this documentation repository. Public
 review metadata contains paths, hashes, and relevant source URLs only. The
 rollback on `main` remains separate from the completed refresh branch; merging
 or releasing the candidate requires an explicit acceptance action.
+
+
+## Knowledge-service activation
+
+The reader, PostgreSQL importer, Pagefind build, and original knowledge guides
+are implemented in the review branch. Tests use a disposable database and an
+actual Sorti BYO client. No persistent reader was attached to a live Sorti
+session, and no customer database, remote embedding account, or production
+search index was changed. A real embedding model still needs operator selection
+and relevance evaluation; deterministic test vectors do not establish that.
+
+The original Linode reference corpus is built separately with its attribution
+and license metadata. It is not a rebranded public article import. Existing
+Algolia indexes remain untouched. Retired uploader workflows do not validate
+an external production delivery path; publishing remains a separate action.

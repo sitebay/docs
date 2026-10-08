@@ -3092,3 +3092,6 @@ deckbuilder
 dedupe
 upsert
 server_url
+
+Pagefind
+Ollama

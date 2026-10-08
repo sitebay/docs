@@ -10,12 +10,21 @@ spec.loader.exec_module(module)
 class BrowserCoverageTests(unittest.TestCase):
     def report(self, pages):
         return {'passed': True, 'pages': pages, 'viewports': [{'width': 320, 'route': '/docs/a/', 'overflow': False}],
-                'navigationClick': True, 'errors': [], 'missingAssets': []}
+                'navigationClick': True, 'errors': [], 'missingAssets': [],
+                'searchChecks': [{'query': q, 'results': 1, 'clicked': True} for q in ['Forge', 'API key', 'pgvector']],
+                'searchKeyboard': True, 'searchSectionFilter': True, 'noJavaScriptReading': True}
 
     def test_complete_coverage_passes(self):
         result = module.combine([self.report(['/docs/a/']), self.report(['/docs/b/'])], {'/docs/a/', '/docs/b/'})
         self.assertTrue(result['passed'])
         self.assertEqual(result['checked_routes'], 2)
+
+    def test_search_and_accessibility_evidence_is_required(self):
+        for field, value in [('searchChecks', []), ('searchKeyboard', False),
+                             ('searchSectionFilter', False), ('noJavaScriptReading', False)]:
+            with self.subTest(field=field):
+                with self.assertRaises(ValueError):
+                    module.combine([{**self.report(['/docs/a/']), field: value}], {'/docs/a/'})
 
     def test_missing_duplicate_and_failed_reports_fail(self):
         for reports, expected in [

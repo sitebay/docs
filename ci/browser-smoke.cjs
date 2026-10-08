@@ -1,5 +1,5 @@
 // Serve the actual production export on loopback. Remote services are stubbed:
-// this checks rendering/navigation, not live search or customer APIs.
+// browser search uses the real built Pagefind index, not remote fixtures.
 const fs = require('node:fs');
 const path = require('node:path');
 const http = require('node:http');
@@ -11,7 +11,7 @@ const root = path.resolve(__dirname, '..');
 const output = path.resolve(process.argv[2] || path.join(root, 'public'));
 const evidence = path.resolve(process.argv[3] || path.join(root, '.cache/browser'));
 const expected = JSON.parse(fs.readFileSync(path.join(root, 'ci/expected-pages.json'), 'utf8'));
-const mime = {'.html':'text/html', '.js':'text/javascript', '.css':'text/css', '.json':'application/json', '.svg':'image/svg+xml', '.png':'image/png', '.jpg':'image/jpeg', '.woff2':'font/woff2', '.xml':'application/xml'};
+const mime = {'.html':'text/html', '.js':'text/javascript', '.css':'text/css', '.json':'application/json', '.svg':'image/svg+xml', '.png':'image/png', '.jpg':'image/jpeg', '.woff2':'font/woff2', '.xml':'application/xml', '.wasm':'application/wasm', '.txt':'text/plain'};
 const server = http.createServer((request, response) => {
   try {
     const parsed = new URL(request.url, 'http://localhost');
@@ -25,6 +25,17 @@ const server = http.createServer((request, response) => {
   } catch { response.writeHead(400).end(); }
 });
 
+// Chromium may transiently fail a capture after layout changes. Retry only
+// that protocol error once; a second failure still fails the entire gate.
+async function screenshot(page, options) {
+  try { return await page.screenshot({...options, animations:'disabled'}); }
+  catch (error) {
+    if (!error.message.includes('Unable to capture screenshot')) throw error;
+    await page.evaluate(() => new Promise(resolve => requestAnimationFrame(() => requestAnimationFrame(resolve))));
+    return page.screenshot({...options, animations:'disabled'});
+  }
+}
+
 (async () => {
   fs.mkdirSync(evidence, {recursive:true});
   await new Promise(resolve => server.listen(0, '127.0.0.1', resolve));
@@ -32,7 +43,7 @@ const server = http.createServer((request, response) => {
   const options = {headless:true};
   if (process.env.PLAYWRIGHT_EXECUTABLE_PATH) options.executablePath = process.env.PLAYWRIGHT_EXECUTABLE_PATH;
   let browser;
-  const report = {scope:'served production export; remote services stubbed', pages:[], viewports:[], errors:[], missingAssets:[], externalRequests:[], errorStacks:[]};
+  const report = {scope:'served production export; real Pagefind search; unrelated external embeds stubbed', pages:[], viewports:[], errors:[], missingAssets:[], externalRequests:[], errorStacks:[]};
   try {
     assert(fs.existsSync(path.join(output,'index.html')), 'Build the production site before browser verification');
     browser = await chromium.launch(options);
@@ -93,7 +104,7 @@ const server = http.createServer((request, response) => {
     if (shard[0] === 0) {
     for (const width of [320,1440]) {
       await page.setViewportSize({width,height:1000});
-      for (const route of ['/docs/', '/docs/guides/', '/docs/sorti/', '/docs/sorti/forge-reference/', '/docs/api/site_live/', '/docs/products/posthog/notebooks/', '/docs/guides/student-free-plan-deals/']) {
+      for (const route of ['/docs/', '/docs/guides/', '/docs/sorti/', '/docs/sorti/forge-reference/', '/docs/api/site_live/', '/docs/products/posthog/notebooks/', '/docs/guides/student-free-plan-deals/', '/docs/knowledge/', '/docs/knowledge/pgvector/']) {
         await page.goto(origin + route, {waitUntil:'networkidle'});
         const overflow = await page.evaluate(() => document.documentElement.scrollWidth > innerWidth + 1);
         report.viewports.push({width,route,overflow});
@@ -103,7 +114,7 @@ const server = http.createServer((request, response) => {
             items:[...document.querySelectorAll('body *')].filter(el=>el.scrollWidth>el.clientWidth+2 && el.clientWidth>0).map(el=>({tag:el.tagName,cls:el.className,sw:el.scrollWidth,cw:el.clientWidth,overflow:getComputedStyle(el).overflowX,text:el.textContent.slice(0,85)})).slice(0,20)
           }));
           report.overflowElements = await page.evaluate(() => [...document.querySelectorAll('body *')].map(el => ({tag:el.tagName,cls:el.className,right:Math.round(el.getBoundingClientRect().right),width:Math.round(el.getBoundingClientRect().width)})).filter(el => el.right > innerWidth + 1 && el.width > 0).slice(0,16));
-          await page.screenshot({path:path.join(evidence,'overflow.png')});
+          await screenshot(page, {path:path.join(evidence,'overflow.png')});
         }
         assert(!overflow, `Horizontal overflow: ${width} ${route}`);
         if (route.includes('student-free-plan-deals')) {
@@ -115,13 +126,53 @@ const server = http.createServer((request, response) => {
           assert.equal((await benefit.textContent()).trim(), 'Compare the actual benefit');
           assert.equal(await page.locator('.sb-browser-mockup').count(), 0);
         }
-        await page.screenshot({path:path.join(evidence, `${width}-${route.split('/').filter(Boolean).slice(1).join('-') || 'home'}.png`),fullPage:false});
+        await screenshot(page, {path:path.join(evidence, `${width}-${route.split('/').filter(Boolean).slice(1).join('-') || 'home'}.png`),fullPage:false});
       }
     }
     await page.goto(origin + '/docs/sorti/', {waitUntil:'networkidle'});
     await page.locator('.prose a').filter({hasText:'How Sorti works'}).first().click();
     await page.waitForURL('**/docs/sorti/how-sorti-works/');
     report.navigationClick = true;
+    report.searchChecks = [];
+    await page.setViewportSize({width:1440,height:1000});
+    for (const query of ['Forge', 'API key', 'pgvector']) {
+      await page.goto(origin + '/docs/', {waitUntil:'networkidle'});
+      await page.locator('[data-open-search]').click();
+      await page.locator('#docs-query').fill(query);
+      await page.waitForFunction(() => document.querySelector('#docs-search-results a') !== null);
+      const results = await page.locator('#docs-search-results a').allTextContents();
+      assert(results.some(text => text.toLowerCase().includes(query.toLowerCase())), `Search missed ${query}`);
+      assert(!results.some(text => text === 'Search Results'), 'Wrong search result titles');
+      await page.locator('#docs-search-results a').first().click();
+      await page.waitForLoadState('domcontentloaded');
+      assert(page.url().startsWith(origin + '/docs/'), 'Search result left the site');
+      assert(await page.locator('main h1').isVisible());
+      report.searchChecks.push({query,results:results.length,clicked:true});
+    }
+    await page.goto(origin + '/docs/', {waitUntil:'networkidle'});
+    await page.locator('[data-open-search]').click();
+    await page.locator('#docs-query').fill('retrieval');
+    await page.locator('#docs-topic').selectOption('knowledge');
+    await page.waitForFunction(() => document.querySelector('#docs-search-results a') !== null);
+    const filtered = await page.locator('#docs-search-results a').evaluateAll(nodes => nodes.map(n=>n.getAttribute('href')));
+    assert(filtered.length > 0 && filtered.every(url=>url.includes('/docs/knowledge/')), 'Section filter escaped knowledge');
+    await page.keyboard.press('Escape');
+    await page.locator('#docs-search-dialog').waitFor({state:'hidden'});
+    assert(await page.locator('[data-open-search]').evaluate(el => el === document.activeElement), 'Closing search lost keyboard focus');
+    await page.keyboard.press('Control+k');
+    await page.locator('#docs-query').waitFor({state:'visible'});
+    assert(await page.locator('#docs-query').evaluate(el => el === document.activeElement), 'Keyboard shortcut did not focus search');
+    await page.locator('[data-close-search]').click();
+    await page.locator('#docs-search-dialog').waitFor({state:'hidden'});
+    report.searchKeyboard = true;
+    const offline = await browser.newContext({javaScriptEnabled:false});
+    const offlinePage = await offline.newPage();
+    await offlinePage.goto(origin + '/docs/knowledge/task-map/');
+    assert((await offlinePage.locator('main').innerText()).includes('Site operations'));
+    await offline.close();
+    report.noJavaScriptReading = true;
+    report.searchSectionFilter = true;
+    assert(!report.externalRequests.some(req => req.host.includes('algolia')), 'Pagefind site still called Algolia');
     }
     assert.deepEqual([...new Set(report.errors)], [], 'Browser exceptions');
     assert.deepEqual([...new Set(report.missingAssets)], [], 'Missing local resources');
