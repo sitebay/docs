@@ -41,6 +41,17 @@ Use Sorti to inspect a workspace, request a defined task, and verify the result.
 | Read a procedure before acting | [Use documentation during a task]({{< relref "sorti/use-documentation-during-a-task.md" >}}) |
 | Understand the implementation | [How Sorti works]({{< relref "sorti/how-sorti-works.md" >}}) |
 
+## Practical walkthroughs
+
+| Task | Tutorial |
+| --- | --- |
+| Repair one page without publishing | [Fix a staging page]({{< relref "sorti/fix-a-staging-page.md" >}}) |
+| Review live changes before promotion | [Review a staging release]({{< relref "sorti/review-a-staging-release.md" >}}) |
+| Reuse a review procedure | [Create a review skill]({{< relref "sorti/create-a-review-skill.md" >}}) |
+| Test a local development page | [Test localhost with the editor bridge]({{< relref "vscode/test-localhost-with-sorti.md" >}}) |
+| Learn state and controls | [Build a counter panel]({{< relref "sorti/build-a-counter-panel.md" >}}) |
+| Continue after an interruption | [Recover an interrupted task]({{< relref "sorti/recover-an-interrupted-task.md" >}}) |
+
 ## Build on Sorti
 
 Read [the Forge workflow]({{< relref "sorti/forging-panels.md" >}}) for panel authoring, [canvas and workspace]({{< relref "sorti/canvas-and-workspace.md" >}}) for context, and [the knowledge base]({{< relref "knowledge/_index.md" >}}) for cited procedures and source ownership.

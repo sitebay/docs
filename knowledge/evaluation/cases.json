@@ -191,6 +191,48 @@
       "expected_paths": [
         "articles/sorti/use-documentation-during-a-task.md"
       ]
+    },
+    {
+      "query": "fix a staging page",
+      "source": "sitebay",
+      "expected_paths": [
+        "articles/sorti/fix-a-staging-page.md"
+      ]
+    },
+    {
+      "query": "review staging release before publishing",
+      "source": "sitebay",
+      "expected_paths": [
+        "articles/sorti/review-a-staging-release.md"
+      ]
+    },
+    {
+      "query": "create reusable review skill",
+      "source": "sitebay",
+      "expected_paths": [
+        "articles/sorti/create-a-review-skill.md"
+      ]
+    },
+    {
+      "query": "test localhost with editor bridge",
+      "source": "sitebay",
+      "expected_paths": [
+        "articles/vscode/test-localhost-with-sorti.md"
+      ]
+    },
+    {
+      "query": "build counter panel Forge",
+      "source": "sitebay",
+      "expected_paths": [
+        "articles/sorti/build-a-counter-panel.md"
+      ]
+    },
+    {
+      "query": "recover interrupted Sorti task",
+      "source": "sitebay",
+      "expected_paths": [
+        "articles/sorti/recover-an-interrupted-task.md"
+      ]
     }
   ]
 }

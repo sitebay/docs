@@ -76,3 +76,7 @@ For site operations, follow [Work with your site]({{< relref "sorti/work-with-yo
 ## Verify before publishing
 
 Inspect the actual changed page or file and repeat the relevant user interaction. Ask for failed checks and unverified items as well as passing results. Review the target and operation again before publication or recovery.
+
+## Try a focused workflow
+
+Start with [a staging-page repair]({{< relref "sorti/fix-a-staging-page.md" >}}), [a reusable review skill]({{< relref "sorti/create-a-review-skill.md" >}}), or [a small counter panel]({{< relref "sorti/build-a-counter-panel.md" >}}). Each tutorial separates the requested result from its verification and any later publication.

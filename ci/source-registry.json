@@ -1172,6 +1172,183 @@
         "https://cloudnative-pg.io/docs/1.28/declarative_role_management/",
         "https://cloudnative-pg.io/docs/1.28/networking/"
       ]
+    },
+    "practical-site-workflows": {
+      "reviewed_at": "2026-10-08",
+      "note": "Current implementation basis for original task examples. Source behavior is not deployed-customer acceptance. No private source bytes copied.",
+      "files": [
+        {
+          "path": "sitebay/app/factory/sorti_site_app.py",
+          "sha256": "0f0a1c9d2583639d2ac2d11eb86c66a447e2a6a83d3ea52a0e95d52fbb2cb0db",
+          "checkout_head": "1343855ec59a7c105040cb396a5ba94a3114dad8",
+          "working_tree_modified": false
+        },
+        {
+          "path": "sitebay/app/api/site/legal_actions.py",
+          "sha256": "141699fae1649adbbd60641e801def4672fdcc33ca978a740fb9f7798398fbea",
+          "checkout_head": "1343855ec59a7c105040cb396a5ba94a3114dad8",
+          "working_tree_modified": false
+        },
+        {
+          "path": "sitebay/app/services/site_situation.py",
+          "sha256": "5294943cfbd632b9c37c0e6e1073945ee70b9f20a1de5f67e8f9dbcf5232dc30",
+          "checkout_head": "1343855ec59a7c105040cb396a5ba94a3114dad8",
+          "working_tree_modified": false
+        },
+        {
+          "path": "sitebay/app/api/infra/agent_intents_lifecycle.py",
+          "sha256": "4953604540fe834684a3eb89832506ca209a9e1232973e79207d6a3387de264f",
+          "checkout_head": "1343855ec59a7c105040cb396a5ba94a3114dad8",
+          "working_tree_modified": false
+        },
+        {
+          "path": "sitebay/app/services/stage_promote_policy.py",
+          "sha256": "2599339923e7c61ee5765da9627c3a6dc873028b8d488eeed83d10ba9b0938e9",
+          "checkout_head": "1343855ec59a7c105040cb396a5ba94a3114dad8",
+          "working_tree_modified": false
+        },
+        {
+          "path": "sitebay/app/api/site/stage_management.py",
+          "sha256": "dbfdc1d703aaff731a76064a5b16067ee2e9c81f67675ce0de1a8b184be6b9e8",
+          "checkout_head": "1343855ec59a7c105040cb396a5ba94a3114dad8",
+          "working_tree_modified": false
+        }
+      ]
+    },
+    "practical-canvas": {
+      "reviewed_at": "2026-10-08",
+      "note": "Current implementation basis for original task examples. Source behavior is not deployed-customer acceptance. No private source bytes copied.",
+      "files": [
+        {
+          "path": "sorti/apps/sorti-agent/lib/tools/canvas/types.ts",
+          "sha256": "982ca88e8e5eecb0bbdb0e0b4264719183d7953104fcad11eac3b110fc4fa23c",
+          "checkout_head": "1edf6c174711e9aba776c7bf922c3f1d294887e5",
+          "working_tree_modified": false
+        },
+        {
+          "path": "sorti/apps/sorti-agent/lib/tools/canvas/verifyPatch.ts",
+          "sha256": "fca57069952ce786f4c093b242b9796537fa5caf05b894c2cabacade675fcc12",
+          "checkout_head": "1edf6c174711e9aba776c7bf922c3f1d294887e5",
+          "working_tree_modified": false
+        }
+      ]
+    },
+    "practical-team-skills": {
+      "reviewed_at": "2026-10-08",
+      "note": "Current implementation basis for original task examples. Source behavior is not deployed-customer acceptance. No private source bytes copied.",
+      "files": [
+        {
+          "path": "sorti/apps/sorti/lib/skillLibrary.ts",
+          "sha256": "24145da0520c9b81fa576da9e9212d5c533ee4f84f73544ca650556847dbee86",
+          "checkout_head": "1edf6c174711e9aba776c7bf922c3f1d294887e5",
+          "working_tree_modified": true
+        },
+        {
+          "path": "sorti/apps/sorti/components/assistant/settings/skills/SkillLibraryEditor.tsx",
+          "sha256": "f2c747d764d35994854561491c68976bf776329216499da21976032b3adbb49e",
+          "checkout_head": "1edf6c174711e9aba776c7bf922c3f1d294887e5",
+          "working_tree_modified": true
+        },
+        {
+          "path": "sorti/apps/sorti/components/assistant/settings/skills/SkillsNavigator.tsx",
+          "sha256": "c6665f117f73b73ce312ccc80952f7cc44df5e644fcb662e3c9e16b1ffc13653",
+          "checkout_head": "1edf6c174711e9aba776c7bf922c3f1d294887e5",
+          "working_tree_modified": true
+        },
+        {
+          "path": "sorti/apps/sorti-agent/lib/tools/builtin/read-skill-tool.ts",
+          "sha256": "6486a213ad54a875f64c65f016607e5e7b743c90dbe44950ec351100f3e803ca",
+          "checkout_head": "1edf6c174711e9aba776c7bf922c3f1d294887e5",
+          "working_tree_modified": false
+        }
+      ]
+    },
+    "practical-editor-proxy": {
+      "reviewed_at": "2026-10-08",
+      "note": "Current implementation basis for original task examples. Source behavior is not deployed-customer acceptance. No private source bytes copied.",
+      "files": [
+        {
+          "path": "sorti/apps/sitebay-vscode/package.json",
+          "sha256": "186468e40c72a45bc1910535dfec7c51bb1acb968a30ca76a994d62dda2ed4c7",
+          "checkout_head": "1edf6c174711e9aba776c7bf922c3f1d294887e5",
+          "working_tree_modified": false
+        },
+        {
+          "path": "sorti/apps/sitebay-vscode/src/extension.ts",
+          "sha256": "760a99dff6890749a277024da9e927a8785803f49b0d463210c8a4cd727de2d0",
+          "checkout_head": "1edf6c174711e9aba776c7bf922c3f1d294887e5",
+          "working_tree_modified": false
+        },
+        {
+          "path": "sorti/apps/sitebay-vscode/src/mcpProxyHandler.ts",
+          "sha256": "7041dd70d1225c79c3f8921bca3dd1bef828be13112cf587e549d76ec56bb66f",
+          "checkout_head": "1edf6c174711e9aba776c7bf922c3f1d294887e5",
+          "working_tree_modified": false
+        }
+      ]
+    },
+    "practical-forge-authoring": {
+      "reviewed_at": "2026-10-08",
+      "note": "Current implementation basis for original task examples. Source behavior is not deployed-customer acceptance. No private source bytes copied.",
+      "files": [
+        {
+          "path": "sorti/apps/sorti-agent/skills/forge-authoring/SKILL.md",
+          "sha256": "e1f6d14f73ffb907569e446d6c6f4f9dc0d00522a529742487c553d25cc5cad5",
+          "checkout_head": "1edf6c174711e9aba776c7bf922c3f1d294887e5",
+          "working_tree_modified": false
+        },
+        {
+          "path": "sorti/packages/panel-primitives/src/index.ts",
+          "sha256": "8901fe638519c18a6aa2a082f9b88cf1d703dde9834f4149a82983da9164b5bb",
+          "checkout_head": "1edf6c174711e9aba776c7bf922c3f1d294887e5",
+          "working_tree_modified": false
+        },
+        {
+          "path": "sorti/packages/panel-author/src/compositions.ts",
+          "sha256": "2cb1f91cb72c2b33d7cb916fb271f06efea8a0bc2a79a31d81224718ac407d47",
+          "checkout_head": "1edf6c174711e9aba776c7bf922c3f1d294887e5",
+          "working_tree_modified": false
+        }
+      ]
+    },
+    "practical-mission-controls": {
+      "reviewed_at": "2026-10-08",
+      "note": "Current implementation basis for original task examples. Source behavior is not deployed-customer acceptance. No private source bytes copied.",
+      "files": [
+        {
+          "path": "sorti/apps/sorti/components/assistant/ui/mission/details/MissionControls.tsx",
+          "sha256": "5caa1a177921c44fbcc8ff76c68dedaddb4c26185e18e84b77613b05691ebf4b",
+          "checkout_head": "1edf6c174711e9aba776c7bf922c3f1d294887e5",
+          "working_tree_modified": false
+        },
+        {
+          "path": "sorti/apps/sorti-agent/lib/tools/builtin/mission-observability-tools.ts",
+          "sha256": "55722dafea63559b33eab9dba553127d291f21f6bed026e51610860a2a6a8352",
+          "checkout_head": "1edf6c174711e9aba776c7bf922c3f1d294887e5",
+          "working_tree_modified": false
+        },
+        {
+          "path": "sorti/packages/sorti-contract/src/mission.ts",
+          "sha256": "1fd86d5c364ee26605b9f7ca873d317b929464be2851fe4059758dbc8ec03b8e",
+          "checkout_head": "1edf6c174711e9aba776c7bf922c3f1d294887e5",
+          "working_tree_modified": false
+        }
+      ]
+    },
+    "playwright-mcp-primary": {
+      "reviewed_at": "2026-10-08",
+      "note": "Official server README: isolated profiles, headless flag, installation prerequisites. SiteBay proxy defaults are sourced separately.",
+      "urls": [
+        "https://github.com/microsoft/playwright-mcp"
+      ]
+    },
+    "vscode-host-primary": {
+      "reviewed_at": "2026-10-08",
+      "note": "Official extension-host placement and workspace-trust behavior.",
+      "urls": [
+        "https://code.visualstudio.com/api/advanced-topics/extension-host",
+        "https://code.visualstudio.com/docs/editing/workspaces/workspace-trust"
+      ]
     }
   },
   "completion_review_date": "2026-10-08",

@@ -116,3 +116,22 @@ Actions. CI uploads the verified website artifact; it does not deploy it.
 On hosts with a crowded shared temporary filesystem, set `TMPDIR` to a private
 directory on a disk with free space and inodes before browser checks. Do not
 delete other processes’ temporary files. Browser errors still fail the check.
+
+
+## Practical tutorial examples
+
+The optional check below uses a reviewed Sorti checkout to parse the tutorial's
+view fragment and complete skill document with the real implementation parsers.
+It also checks the editor JSON settings against the extension manifest.
+
+```sh
+SORTI_REPO=/path/to/sorti \
+  /path/to/sorti/node_modules/.bin/tsx \
+  --tsconfig /path/to/sorti/apps/sorti/tsconfig.json \
+  ci/scripts/check-practical-examples.mts
+```
+
+`EXAMPLE_REPORT` optionally selects a JSON report path. Run from the docs repo;
+`DOCS_REPO` can select another documentation checkout. These are pure parser and
+configuration checks, not a created panel, an active browser-proxy session, or a
+shared-library save. Public CI does not require the private Sorti checkout.

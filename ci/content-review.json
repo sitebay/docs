@@ -4725,8 +4725,8 @@
     },
     "articles/sorti/_index.md": {
       "original_path": "articles/sorti/_index.md",
-      "file_sha256": "34a636029d4b9c802ea5424f1dfda91d2445ef9b2bca96a5571520c10e3c8f0b",
-      "body_sha256": "a43ab6229b41cd03b69e8b6c891b48c596102e644283bd50e229d04cb596c8d8",
+      "file_sha256": "3fc8b1f1ddae283488d0208155421a9df456e01e8ae5ab60c9893860c498b40e",
+      "body_sha256": "77fbf23c21f673f34ac2fdf83868ddbed597607196c07b7882f7a7c9824b5eb5",
       "original_body_sha256": "36e298c43239eb2fbe73915afbc3aab4b2d9130fac5471e90d0ecef9f375bccc",
       "body_changed": true,
       "basis": [
@@ -4735,9 +4735,9 @@
         "sorti-current-skills",
         "docs-knowledge"
       ],
-      "change": "Connect the deployed-reader procedure and clarify default versus container binding and ownership.",
+      "change": "Link the new task tutorials from the existing product and editor navigation.",
       "original_words": 508,
-      "updated_words": 191,
+      "updated_words": 293,
       "headless": false,
       "prior_file_sha256": "22456f551f01a68851f1dc2bb725409cd760d3b3d7430bc322c10ea4200a9b73",
       "prior_review_change": "Replace stale section marketing with a short purpose and current navigation.",
@@ -5055,17 +5055,18 @@
     },
     "articles/vscode/_index.md": {
       "original_path": "articles/vscode/_index.md",
-      "file_sha256": "97ff962378273d2e2a779b5a9cbc9e8e97dc6218d4c61c414103632667beb9db",
-      "body_sha256": "a9e66342e5196d43b694d587b2b2d760412d15f1ca5069cde9776cbe50c43c45",
+      "file_sha256": "eaa767f58e42e981481df372448fa070c389b572c1aab8c71895aff4d0498a01",
+      "body_sha256": "e1238365a7e2dff77633324ec1d29e6e8541f0e76ece670b5ed8988ca934f16f",
       "original_body_sha256": "914a1be1fedc575a27f24ddff5f6183dd973404cdb2c2c417208858cad522fe4",
       "body_changed": true,
       "basis": [
         "editor-bridge"
       ],
-      "change": "Replace stale section marketing with a short purpose and current navigation.",
+      "change": "Link the new task tutorials from the existing product and editor navigation.",
       "original_words": 129,
-      "updated_words": 25,
-      "headless": false
+      "updated_words": 58,
+      "headless": false,
+      "reviewed_at": "2026-10-08"
     },
     "articles/vscode/commands.md": {
       "original_path": "articles/vscode/commands.md",
@@ -5318,8 +5319,8 @@
     },
     "articles/products/sorti/get-started/index.md": {
       "original_path": "articles/products/siteclaw/get-started/index.md",
-      "file_sha256": "9a4b1387a1978daec4185ed9c0974d696ea8bf7f0651e031bf49f4e1a8cc55ea",
-      "body_sha256": "c032fa7909cb82e50e280e5419d75eb8a5ed9641bc33f6bce826fe709f2961c0",
+      "file_sha256": "866a964bb4fb35373d1ec5d8a1c4c4c5407fd79bd85fdd2d636d8440f10aae15",
+      "body_sha256": "4859830e2799799a3d940081a5b54c5719c2df3b63edba9b5e440820e02fdcab",
       "original_body_sha256": "6a1d0a9641bf7aa0f4524edbbffd8b8195531329a537d8dd77f96177535417fc",
       "body_changed": true,
       "basis": [
@@ -5328,9 +5329,9 @@
         "sorti-canvas",
         "docs-knowledge"
       ],
-      "change": "Move the former SiteClaw product guide to Sorti, preserve its published URL as an alias, and review the current workflow.",
+      "change": "Link the new task tutorials from the existing product and editor navigation.",
       "original_words": 676,
-      "updated_words": 387,
+      "updated_words": 428,
       "headless": false,
       "prior_file_sha256": "0c7fbd5bf7bad94d3b26fe8eabd55957f453b22a3664f7646bc67bfa71c24eee",
       "prior_review_change": "Keep the legacy entry route while pointing to the maintained workspace workflow.",
@@ -5539,6 +5540,99 @@
       "change": "New procedure checked against the documentation service and isolated infrastructure project.",
       "reviewed_at": "2026-10-08",
       "updated_words": 503,
+      "headless": false
+    },
+    "articles/sorti/fix-a-staging-page.md": {
+      "file_sha256": "1354d5920ffb5bcc2e13e0439351e459e9ed4e26421f8fdd767a6735d5b77c9c",
+      "body_sha256": "e43750cf25df29928d49d85bb62c025ac63084f4a523823cc56fe8ff47ef3a22",
+      "original_path": null,
+      "original_body_sha256": null,
+      "original_words": 0,
+      "body_changed": true,
+      "basis": [
+        "practical-site-workflows",
+        "practical-canvas"
+      ],
+      "change": "New task tutorial with original examples reviewed against the current named implementation sources.",
+      "reviewed_at": "2026-10-08",
+      "updated_words": 699,
+      "headless": false
+    },
+    "articles/sorti/review-a-staging-release.md": {
+      "file_sha256": "8286ff8f821e1bd0df9e1540ef7cdf9d170c33250b188276426ce37b89e0e23f",
+      "body_sha256": "5dba6e1c7f57669cc1d8d54bc09d2cd7f644e1430ad70822f41a9a0f7fb59207",
+      "original_path": null,
+      "original_body_sha256": null,
+      "original_words": 0,
+      "body_changed": true,
+      "basis": [
+        "practical-site-workflows"
+      ],
+      "change": "New task tutorial with original examples reviewed against the current named implementation sources.",
+      "reviewed_at": "2026-10-08",
+      "updated_words": 592,
+      "headless": false
+    },
+    "articles/sorti/create-a-review-skill.md": {
+      "file_sha256": "d27fad88bd443d21a77043c80805eec2061b38d3384a749414df197509582c56",
+      "body_sha256": "d39e022a6835bffd62d088a69e80d017ddab646b33741a664815f64b2675073c",
+      "original_path": null,
+      "original_body_sha256": null,
+      "original_words": 0,
+      "body_changed": true,
+      "basis": [
+        "practical-team-skills"
+      ],
+      "change": "New task tutorial with original examples reviewed against the current named implementation sources.",
+      "reviewed_at": "2026-10-08",
+      "updated_words": 649,
+      "headless": false
+    },
+    "articles/vscode/test-localhost-with-sorti.md": {
+      "file_sha256": "d312b9ceca43ab48f35cabe4fe5fed68000d5e8d803fb79a93fb2969d20e219a",
+      "body_sha256": "748c289e72570fa31bc1144dd471ea67f45ce64bf38a662678766cb3cb49b954",
+      "original_path": null,
+      "original_body_sha256": null,
+      "original_words": 0,
+      "body_changed": true,
+      "basis": [
+        "practical-editor-proxy",
+        "playwright-mcp-primary",
+        "vscode-host-primary"
+      ],
+      "change": "New task tutorial with original examples reviewed against the current named implementation sources.",
+      "reviewed_at": "2026-10-08",
+      "updated_words": 674,
+      "headless": false
+    },
+    "articles/sorti/build-a-counter-panel.md": {
+      "file_sha256": "26f0bb019a8318529913e298e98585383d36243811702f194ba3886a97eb8a9a",
+      "body_sha256": "7f5ef94f5dcdbcbd2dbf8eec411dcb658352aba2aa65adffb87518ddb378eb33",
+      "original_path": null,
+      "original_body_sha256": null,
+      "original_words": 0,
+      "body_changed": true,
+      "basis": [
+        "practical-forge-authoring"
+      ],
+      "change": "New task tutorial with original examples reviewed against the current named implementation sources.",
+      "reviewed_at": "2026-10-08",
+      "updated_words": 689,
+      "headless": false
+    },
+    "articles/sorti/recover-an-interrupted-task.md": {
+      "file_sha256": "f2b9658bb751a15f0bb3ed7513deda63cc3c1d61b89c84c0e98cbf8663bd2ef4",
+      "body_sha256": "92279bb549cf92f44638c0d6eb943d5890766ad9f3ada18856ac8f58c7c54957",
+      "original_path": null,
+      "original_body_sha256": null,
+      "original_words": 0,
+      "body_changed": true,
+      "basis": [
+        "practical-mission-controls"
+      ],
+      "change": "New task tutorial with original examples reviewed against the current named implementation sources.",
+      "reviewed_at": "2026-10-08",
+      "updated_words": 705,
       "headless": false
     }
   },
