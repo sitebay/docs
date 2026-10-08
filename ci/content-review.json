@@ -5251,8 +5251,8 @@
     },
     "articles/knowledge/pgvector.md": {
       "original_path": null,
-      "file_sha256": "4c971cdf9ed30202282bd501a4e17a88deb79255ea5a658dd55ee742ff829a65",
-      "body_sha256": "3e93a3df42632c2c9ac2846a506f4e51cec3582ba69d613de9f8b49473339539",
+      "file_sha256": "7f0b0131e4de8a4052c8ea763ef3668ff5eee40a00c3f477ea55d3d20b80339b",
+      "body_sha256": "f7137ddf4fe58f2cc5654fcb84e7091b348149ed77e22042419cf31035dccfd0",
       "original_body_sha256": null,
       "body_changed": true,
       "basis": [
@@ -5261,7 +5261,7 @@
         "ollama-embeddings",
         "sorti-byo"
       ],
-      "change": "Expand the guide against current implementation and connect the new task-first Sorti articles.",
+      "change": "Expand the guide against current implementation and connect the new task-first Sorti articles. Clarify that the embedding-model collision applies to an already imported corpus revision.",
       "original_words": 0,
       "updated_words": 848,
       "headless": false,

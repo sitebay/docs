@@ -47,7 +47,7 @@ Set `DOCS_EMBED_URL`, `DOCS_EMBED_MODEL`, and `DOCS_EMBED_DIMENSIONS` for both t
 
 The importer does not install or download a model. It sends document text to the configured provider during an explicit import; the reader sends search text during semantic or hybrid queries. Remote embedding export requires `DOCS_ALLOW_REMOTE_EMBEDDINGS=true` and a non-local HTTPS endpoint. Use `DOCS_EMBED_TOKEN` only when the provider requires authentication.
 
-Choose the mode before the first import. A snapshot imported without embeddings cannot be silently overwritten with a different model later. The current implementation requires a separate database for a different embedding model, including a change from no model to a model for the same corpus revision.
+Choose the mode before the first import. A snapshot imported without embeddings cannot be silently overwritten with a different model later. To index different embeddings for that same corpus revision, use a separately indexed database rather than modifying the existing snapshot. This includes adding a model to a revision previously imported without embeddings.
 
 ## Build and import a snapshot
 

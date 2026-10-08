@@ -76,8 +76,9 @@ fails instead of pretending to use vectors.
 
 For real embeddings, configure an Ollama `/api/embed` endpoint with
 `DOCS_EMBED_URL`, `DOCS_EMBED_MODEL`, and `DOCS_EMBED_DIMENSIONS`. The same model
-and dimensions must be used for import and query. This implementation uses a
-separate database for a different model. Local models are not installed or
+and dimensions must be used for import and query. Reimporting an existing
+corpus revision with a different model is rejected; use a separate database
+when comparing models for the same snapshot. Local models are not installed or
 downloaded automatically. Non-local embedding export requires
 `DOCS_ALLOW_REMOTE_EMBEDDINGS=true` and HTTPS. Optional provider authentication
 uses `DOCS_EMBED_TOKEN`. Keep all credentials outside Git.
