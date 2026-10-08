@@ -5,6 +5,7 @@ const path = require('node:path');
 const http = require('node:http');
 const assert = require('node:assert/strict');
 const { chromium } = require('playwright');
+const { execFileSync } = require('node:child_process');
 
 const root = path.resolve(__dirname, '..');
 const output = path.resolve(process.argv[2] || path.join(root, 'public'));
@@ -60,15 +61,39 @@ const server = http.createServer((request, response) => {
     page.on('response', response => {
       if (response.url().startsWith(origin) && response.status() >= 400) report.missingAssets.push(new URL(response.url()).pathname);
     });
-    for (const route of Object.values(expected)) {
-      const response = await page.goto(origin + route, {waitUntil:'domcontentloaded'});
-      assert.equal(response.status(), 200, route);
-      assert(await page.locator('main, .prose').count(), `Missing reading surface: ${route}`);
-      report.pages.push(route);
-    }
+    const allRoutes = JSON.parse(execFileSync(process.env.PYTHON || 'python3', ['ci/scripts/list-page-routes.py'], {cwd:root,encoding:'utf8'}));
+    assert(allRoutes.length >= Object.keys(expected).length, 'Unexpectedly small publication inventory');
+    const shard = (process.env.DOCS_PAGE_SHARD || '0/1').split('/').map(Number);
+    assert(Number.isInteger(shard[0]) && Number.isInteger(shard[1]) && shard[1] > 0 && shard[0] >= 0 && shard[0] < shard[1], 'Invalid page shard');
+    report.shard = shard;
+    report.totalPublishedRoutes = allRoutes.length;
+    const routes = allRoutes.filter((_, index) => index % shard[1] === shard[0]);
+    let nextRoute = 0;
+    // Separate pages permit bounded parallel reading without shared UI state.
+    await Promise.all(Array.from({length:2}, async () => {
+      const reader = await context.newPage();
+      reader.on('pageerror', error => report.errors.push(error.message));
+      reader.on('response', response => {
+        if (response.url().startsWith(origin) && response.status() >= 400) report.missingAssets.push(new URL(response.url()).pathname);
+      });
+      try {
+        while (nextRoute < routes.length) {
+          const route = routes[nextRoute++];
+          const response = await reader.goto(origin + route, {waitUntil:'domcontentloaded'});
+          assert.equal(response.status(), 200, route);
+          assert(await reader.locator('main').count(), `Missing reading surface: ${route}`);
+          const content = await reader.locator('main').innerText();
+          assert(content.trim().length > 30, `Blank documentation page: ${route}`);
+          assert(await reader.locator('main h1').count() >= 1, `Missing page title: ${route}`);
+          report.pages.push(route);
+        }
+      } finally { await reader.close(); }
+    }));
+    report.pages.sort();
+    if (shard[0] === 0) {
     for (const width of [320,1440]) {
       await page.setViewportSize({width,height:1000});
-      for (const route of ['/docs/sorti/', '/docs/sorti/forge-reference/', '/docs/guides/student-free-plan-deals/']) {
+      for (const route of ['/docs/', '/docs/guides/', '/docs/sorti/', '/docs/sorti/forge-reference/', '/docs/api/site_live/', '/docs/products/posthog/notebooks/', '/docs/guides/student-free-plan-deals/']) {
         await page.goto(origin + route, {waitUntil:'networkidle'});
         const overflow = await page.evaluate(() => document.documentElement.scrollWidth > innerWidth + 1);
         report.viewports.push({width,route,overflow});
@@ -82,16 +107,22 @@ const server = http.createServer((request, response) => {
         }
         assert(!overflow, `Horizontal overflow: ${width} ${route}`);
         if (route.includes('student-free-plan-deals')) {
-          assert.equal(await page.locator('.sb-browser-mockup').count(), 3);
-          assert(await page.getByLabel('Estimated student deal value').count() > 0);
+          // The heading contains a separately labelled permalink, so its
+          // accessible name includes more than the visible heading text.
+          const benefit = page.locator('main h2#compare-the-actual-benefit');
+          assert.equal(await benefit.count(), 1);
+          assert(await benefit.isVisible(), 'Offer comparison heading is hidden');
+          assert.equal((await benefit.textContent()).trim(), 'Compare the actual benefit');
+          assert.equal(await page.locator('.sb-browser-mockup').count(), 0);
         }
-        await page.screenshot({path:path.join(evidence, `${width}-${route.split('/').filter(Boolean).at(-1)}.png`),fullPage:false});
+        await page.screenshot({path:path.join(evidence, `${width}-${route.split('/').filter(Boolean).slice(1).join('-') || 'home'}.png`),fullPage:false});
       }
     }
     await page.goto(origin + '/docs/sorti/', {waitUntil:'networkidle'});
     await page.locator('.prose a').filter({hasText:'How Sorti works'}).first().click();
     await page.waitForURL('**/docs/sorti/how-sorti-works/');
     report.navigationClick = true;
+    }
     assert.deepEqual([...new Set(report.errors)], [], 'Browser exceptions');
     assert.deepEqual([...new Set(report.missingAssets)], [], 'Missing local resources');
     report.passed = true;

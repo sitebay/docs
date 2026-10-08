@@ -1,28 +1,31 @@
 ---
 slug: cloud-api-keys-shortguide
-description: 'Shortguide that shows you how to create and manage API keys in SiteBay.'
+description: Create and store a key through the account API-key workflow.
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
-modified: 2020-07-22
+modified: 2026-10-07
 modified_by:
   name: SiteBay
 published: 2020-07-22
-title: How to Create and Manage API Keys in SiteBay
-keywords: ["SiteBay", "API keys", "authentication"]
+title: Use a scoped API key
+keywords:
+- SiteBay
+- API keys
+- authentication
 headless: true
 show_on_rss_feed: false
-tags: ["sitebay platform","authentication"]
-aliases: ['/platform/manager/cloud-api-keys-shortguide/']
-authors: ["SiteBay"]
-contributors: ["SiteBay"]
+tags:
+- sitebay platform
+- authentication
+aliases:
+- /platform/manager/cloud-api-keys-shortguide/
+authors:
+- SiteBay
+contributors:
+- SiteBay
+doc_sources:
+- api-auth
 ---
 
-API keys are essential for securely interacting with SiteBay's services through our API, allowing for automated site management and integration with other tools. Whether you're developing custom applications or automating routine tasks, API keys provide the access needed to manage your WordPress sites programmatically.
+Create and store a key through the account API-key workflow. Use only the permissions needed for the integration. An API key does not bypass site or team authorization. Keep it out of browser code, screenshots, and repository files.
 
-To create and manage your API keys in SiteBay, follow these steps:
-
-Access Your SiteBay Dashboard: Log in to your SiteBay account and navigate to the dashboard.
-Generate New API Key: Look for the API Keys section. Here, you'll find options to create a new API key. Click on Create API Key to start the process.
-Configure API Key Permissions: Assign a descriptive name to your new API key and set the appropriate permissions. Whether you need read-only access or full administrative rights, you can tailor the API key to suit your specific needs.
-Secure Your API Key: Once generated, make sure to copy your new API key and store it in a secure location. Remember, for security reasons, you won't be able to see this API key again in the dashboard. If you lose it, you'll need to generate a new one.
-
-With your new API key, you're ready to start automating your SiteBay workflows, deploying sites, managing configurations, and much more. Dive into our API Documentation for detailed guides and examples on how to use your API key to its full potential.
+[Open the guide]({{< relref "platform/api/getting-started-with-the-sitebay-api/index.md" >}}).

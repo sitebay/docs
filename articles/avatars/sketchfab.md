@@ -1,26 +1,37 @@
 ---
-title: "Sketchfab Avatars"
-description: "Find and import lip-sync-ready avatars from Sketchfab."
-tags: ["sitebay", "avatars", "sketchfab"]
+title: Choose a Sketchfab avatar
+description: Use the avatar search and import flow to find a model whose license and speech controls fit your use.
+tags:
+- sitebay
+- avatars
+- sketchfab
 published: 2026-04-28
+authors:
+- SiteBay
+contributors:
+- SiteBay
+keywords:
+- sketchfab avatars
+- sitebay documentation
+slug: sketchfab
+license: '[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)'
+doc_sources:
+- avatar-contract
+modified: 2026-10-07
 ---
 
-# Sketchfab Avatars
+Use the avatar search and import flow to find a model whose license and speech controls fit your use.
 
-Avatar Studio can search downloadable Sketchfab models and scan each result before import. The default search favors characters that mention visemes, blend shapes, or ARKit support.
+## Review the candidate
 
-## Choose A Model
+Inspect the preview, creator, source link, and license. Download permission alone does not grant every use or remove attribution requirements. The import flow checks supported licenses and carries attribution into the imported asset.
 
-Search for a character, then wait for the scan badge on each card. The import button becomes useful once the scan finishes.
+## Inspect the downloaded model
 
-Models without recognizable mouth controls are hidden by default. Turn on **Show models without visemes** only when you want to import a model that will use basic audio-driven mouth movement.
+Check the actual GLB and its manifest. A converted download can differ from the model shown on the listing, including its mouth controls. Do not treat a search result mentioning lip sync as verification.
 
-## What The Scan Checks
+## Preview before selecting
 
-The scanner looks for common mouth morph targets, ARKit-style face blend shapes, jaw controls, and basic model metadata. It stores the scan result so repeated searches do not need to inspect the same model again.
+Test a short phrase, inspect the framing, and confirm the imported avatar is selected. If access is refused, check the connected catalog credentials rather than repeatedly changing the model ID.
 
-## If Import Fails
-
-Try a more specific search such as "visemes", "blendshapes", or "arkit". Some Sketchfab downloads are unavailable, too large, or packaged in a way the browser cannot inspect.
-
-For the best voice avatar, pick a model with an **Excellent** or **Good** badge.
+Read [Viseme tiers]({{< relref "avatars/visemes-explained.md" >}}) before choosing a speaking avatar.

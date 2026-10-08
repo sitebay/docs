@@ -1,51 +1,30 @@
 ---
 slug: gpl-in-wordpress
-description: "Understanding GPL licensing in WordPress: open source vs closed source."
-keywords: ["open source versus closed source", "open source vs. closed source", "GPL", "wordpress license"]
-tags: ["sitebay"]
+description: WordPress is distributed under the GNU General Public License. Review the license supplied with WordPress
+  and any theme, plugin, dependency, or media asset you distribute.
+keywords:
+- open source versus closed source
+- open source vs. closed source
+- GPL
+- wordpress license
+tags:
+- sitebay
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
 published: 2024-04-21
-modified: 2024-12-04
+modified: 2026-10-07
 modified_by:
   name: SiteBay
-title: "GPL and Open Source in WordPress"
-authors: ["SiteBay"]
-contributors: ["SiteBay"]
+title: Understand WordPress licensing
+authors:
+- SiteBay
+contributors:
+- SiteBay
+doc_sources:
+- open-source
 ---
 
-WordPress is licensed under the GNU General Public License (GPL).
+WordPress is distributed under the GNU General Public License. Review the license supplied with WordPress and any theme, plugin, dependency, or media asset you distribute.
 
-## Open Source vs Closed Source
+Keep license notices and required attribution. A paid download can still have open-source licensing, and a free download is not automatically open source. For a distribution or compliance decision, review the actual materials and applicable license terms.
 
-| Aspect | Open Source | Closed Source |
-|--------|-------------|---------------|
-| Source code | Publicly available | Hidden |
-| Cost | Usually free | Usually paid |
-| Customization | Full control | Limited |
-| Support | Community-driven | Vendor-provided |
-
-## Open Source Pros
-
-- Community contributions improve software
-- More eyes on code = better security
-- Free to use and modify
-- Full customization control
-
-## Open Source Cons
-
-- Support relies on community or paid third parties
-- Can be overwhelming with options
-
-## What GPL Means for WordPress
-
-- Free to run, study, share, and modify
-- Themes and plugins must also be GPL-compatible
-- Enables the vast ecosystem of free plugins/themes
-
-## SiteBay and Open Source
-
-SiteBay uses open source tools:
-- WordPress (GPL)
-- PostHog (MIT)
-- Grafana (AGPL)
-- Kubernetes (Apache 2.0)
+See the [Open Source Definition](https://opensource.org/osd) and [WordPress licensing](https://wordpress.org/about/license/).

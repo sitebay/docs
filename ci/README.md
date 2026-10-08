@@ -1,10 +1,9 @@
-# Documentation publishing checks
+# Documentation checks
 
-## Tested toolchain
+## Build and verify
 
-Use Hugo **0.139.0**, Node **22**, Python **3.12 or newer**, and Go **1.22**.
-The repository's `.nvmrc` pins the Node patch used for local verification.
-Run commands from the repository root unless a command changes directory.
+Use Hugo **0.139.0**, Node **22**, Python **3.12 or later**, Go **1.22**, and
+Vale **3.9.5**. Run commands from the repository root.
 
 ```sh
 npm ci --ignore-scripts --no-audit --no-fund
@@ -14,63 +13,88 @@ node --test ci/tests/*.test.mjs
 (cd scripts && go test ./internal/searchconfig ./update_linode_docs_search_indices ./init_algolia_indices ./clean_linode_sections_index ./download_algolia_settings)
 hugo --destination public
 python ci/check-links.py --public-dir public --report .cache/publishing.json
-python ci/editorial.py --baseline ci/editorial-baseline.json --report .cache/editorial.json
+python ci/content_review.py --report .cache/content-review.json
+python ci/editorial.py --report .cache/editorial.json
+bash ci/install-vale.sh .cache/tools
+python ci/check-spelling.py --vale .cache/tools/vale --report .cache/spelling.json
+python ci/scripts/build-knowledge-index.py --check
 (cd scripts && go run ./update_linode_docs_search_indices --config ../config.toml --sourcedir ../public --dry-run)
 npx playwright install chromium
-node ci/browser-smoke.cjs public .cache/browser
+bash ci/browser-all.sh public .cache/browser
 ```
 
-`HUGO_BIN` or `--hugo` may select an explicit Hugo executable. The browser test
-accepts `PLAYWRIGHT_EXECUTABLE_PATH` for a separately installed Chromium.
-It serves the unchanged production export on loopback and refuses remote side
-effects. Its remote-service fixtures are not live Algolia qualification. The
-build and link check retain the configured production base URL.
+The installer verifies the pinned Linux x86_64 Vale archive. On another platform,
+install the same version and give its executable to `--vale`. The spelling check
+first proves the active rules reject a known misspelling. It then scans every
+article. Editorial validation is strict: **there is no baseline allowance**.
 
-## Source and output are different trees
+`HUGO_BIN`, `PYTHON`, and `PLAYWRIGHT_EXECUTABLE_PATH` select explicit tools for
+local verification. The browser suite serves the production export on loopback,
+loads every authored page route across three fresh browser processes, and checks
+representative narrow and wide layouts. The final coverage report rejects
+missing, duplicate, or failed routes. Remote services are fixtures; this is not a live-service acceptance test.
 
-`articles/` contains authored Markdown. `public/` is the current build output;
-`docs/` contains historical generated output, not additional source pages.
-The public URL prefix remains `/docs/`. Do not put `/articles/` in hyperlinks.
+## Source and output
 
-A directory that contains independently published child articles needs an
-`_index.md` section landing page. `index.md` is for an individual leaf bundle.
-The four product landing pages use a shared static documentation layout, so
-remote search availability cannot hide their introductions or child links.
-`expected-pages.json` protects the restored product sections and integration
-pages against being silently omitted from Hugo's page inventory.
+`articles/` contains authored Markdown. `public/` is build output; historical
+`docs/` files are not an extra content source. Public URLs retain the `/docs/`
+prefix. Use Hugo references rather than `/articles/` links.
 
-Publishing validation scans all source Markdown, then checks the real Hugo
-page inventory, rendered prose links and fragments, and generated search-index
-coverage. It refuses empty discovery and missing output. It does not infer
-public URLs from source filenames, and it has no baseline or ignored failures.
-External destinations and non-documentation site routes are outside its scope.
+A section uses `_index.md`; an individual leaf bundle uses `index.md`. Never put
+both in one directory. The scanner guide's former section entry is retained as
+a headless resource, and its earlier section URL redirects to the real article.
 
-## Existing editorial debt remains visible
+The publishing check validates source discovery, actual Hugo routes, rendered
+prose links and fragments, and search coverage for all authored regular pages.
+Headless resources are not search results. Product introductions, the homepage,
+and section links render without waiting for Algolia.
 
-The old checks inspected generated `docs/` instead of `articles/`. Pointing
-those checks at the real content exposed existing metadata/style findings.
-`editorial.py` retains the existing Blueberry rules and reports every finding.
-Its baseline is recomputed from the immutable, reviewed `f7bc8c1...` commit,
-including the two relocated integration pages; it is not an editable count.
-CI refuses new findings. Run without `--baseline` to get the strict editorial
-result, which remains nonzero until the pre-existing findings are repaired.
-This editorial comparison never excuses a publishing or link-check failure.
+## Article review records
 
-## Search ownership and theme maintenance
+`content-review.json` records each article's reviewed file hash, original body
+hash, source basis, and reason for the change. `source-registry.json` identifies
+source files by path and hash, and links to primary provider documentation.
+Private source bytes and credentials are not copied into this repository.
 
-SiteBay's search application and index identities live in root `config.toml`.
-The two supported search configuration schemas must agree. The Go utilities
-share a loader and refuse mixed identities. `--dry-run` on the index updater
-prints its exact destinations without requiring credentials or making writes.
-An explicit application override remains available for a reviewed staging
-operation; it is not inferred from the upstream theme.
+Hashes detect drift; they do not prove an assertion is true. Review changed prose
+against the named source before updating its record. Add a review record for a
+new article, retain attribution and license information, and explain any rename.
+Do not refresh a hash merely to silence a failed check.
 
-Site-specific templates and CSS live in project `layouts/` and `assets/`, ahead
-of vendored defaults. The pinned website-partials dependency stores its files at
-its root; the theme module mounts must match that actual layout.
+## Generated references
 
-`sync-upstream-theme.sh` copies presentation candidates only. It preserves
-site configuration, dependencies, content, CI, index writers and project
-layout/asset overrides. Use `--dry-run` first. An explicit `--ref` operates on
-an already fetched commit without a network request. A sync is not accepted
-until the complete publishing checks pass again.
+The API catalog is a selected customer-facing subset of the source contract,
+not the complete backend schema. Update it from an authorized OpenAPI snapshot:
+
+```sh
+python ci/scripts/sync-api-catalog.py --source /path/to/sitebay-openapi.json
+python ci/scripts/sync-api-catalog.py --source /path/to/sitebay-openapi.json --check
+SORTI_REPO=/path/to/sorti node ci/scripts/sync-forge-reference.mjs
+SORTI_REPO=/path/to/sorti node ci/scripts/sync-forge-reference.mjs --check
+python ci/scripts/build-knowledge-index.py --write
+```
+
+The Forge reference preserves the canonical skill's technical sections. Its
+metadata is retained, and `--check` never writes. The curated knowledge index
+uses real Hugo URLs and nonempty article bodies. CI verifies that index from the
+available Markdown. The private API/Forge source comparisons are run in the
+source-authorized checkout; GitHub CI does not require those private repositories.
+
+## Search and theme updates
+
+Root `config.toml` owns SiteBay's search identities. Admin utilities share a
+loader and reject conflicting application/index settings. The updater's
+`--dry-run` prints destinations without credentials or writes.
+
+Site-specific templates and assets override vendored defaults. The theme's
+website-partials mounts must match the pinned dependency's actual files.
+`sync-upstream-theme.sh` preserves configuration, dependencies, content, CI,
+index writers, and project overrides. Review its presentation-only diff and run
+all checks before accepting an upstream sync.
+
+## Release boundary
+
+The full article refresh stays on its review branch. The temporary rollback on
+`main` remains in place until the completed work is explicitly accepted.
+A local test pass is not a production deployment, a live API write, or a native
+app-store qualification. `NOT_SURE.md` records the remaining operational scope.

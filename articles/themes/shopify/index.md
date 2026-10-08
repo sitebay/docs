@@ -1,56 +1,46 @@
 ---
-title: "SiteBay Shopify Theme"
-description: "Install and customize the SiteBay Shopify theme."
-tags: ["sitebay", "shopify", "themes"]
+title: Customize the SiteBay Shopify theme
+description: The inspected SiteBay Shopify source is an Online Store 2.0 theme.
+tags:
+- sitebay
+- shopify
+- themes
 published: 2026-04-28
+authors:
+- SiteBay
+contributors:
+- SiteBay
+keywords:
+- sitebay shopify theme
+- sitebay documentation
+slug: shopify
+license: '[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)'
+doc_sources:
+- shopify-theme
+- shopify
+modified: 2026-10-08
 ---
 
-# SiteBay Shopify Theme
+The inspected SiteBay Shopify source is an Online Store 2.0 theme. Its Liquid sections, JSON templates and theme settings are different from WordPress PHP templates and child themes.
 
-The SiteBay Shopify theme gives stores a SiteBay-matched storefront with shared colors, typography, spacing, and editable sections.
+## Work on a preview copy
 
-<!-- screenshot: TODO -->
+Identify the currently published theme and create or select an unpublished duplicate through the supported Shopify flow. Edit the preview copy and keep the previous published version available. Theme publication is an explicit change, not a side effect to assume from connecting the store.
 
-## What Is Included
+## Read the actual settings
 
-- Header and footer sections
-- Hero and promo grid sections
-- Product, cart, and collection templates
-- Theme settings for primary color, accent color, text, background, and borders
-- SiteBay sensor hooks for Canvas-assisted section selection
+The inspected `settings_schema.json` defines `color_primary`, `color_accent`, `color_text`, `color_bg`, `color_bg_alt` and `color_border`. Its primary default is `#1a1a2e` and accent default is `#e94560`; those differ from the WordPress generated token palette. Existing merchant settings can override defaults. Read the installed theme and saved values rather than copying a supposedly universal palette.
 
-## Customize The Theme
+## Sections and zones
 
-Open your Shopify theme customizer and start with these settings:
+Use the theme editor for the current section settings and blocks. Source changes live in `sections/`, template JSON and theme assets. Zone markers connect a section's identity with assisted selection; retain them when changing markup. Changing a schema default does not necessarily replace an already saved merchant setting.
 
-- Primary color: `#4F5BD5`
-- Accent color: `#E85C48`
-- Text color: `#13151C`
-- Background: `#FFFFFF`
-- Alternate background: `#F4F5F9`
+## Provider operations
 
-Section defaults use the same SiteBay token set as the WordPress and static templates.
+Use current authorized Shopify theme operations and the advertised client/tool contract. Use an API version supported by the connected application. A theme write, preview and publication are separate steps. WordPress CLI commands do not manage a Shopify store.
 
-## Sections
+## Verify before publishing
 
-Use the same top-level surface across templates:
+Test product, collection, cart, navigation and responsive views with the intended preview theme. A successful file upload or screenshot is not a checkout qualification. Obtain approval before publishing, then inspect the public storefront and retain the prior theme for recovery.
 
-- Hero
-- Features
-- Pricing
-- Blog
-- Contact
-
-## Voice Setup With Sorti
-
-Prefer to do this with voice? Open [Sorti](/docs/sorti/) and ask it to help pick or customize the Shopify theme.
-
-## FAQs
-
-### Can I change colors?
-
-Yes. Use the theme settings first. Custom CSS should still reference the SiteBay token colors so the storefront stays consistent.
-
-### Does Canvas support Shopify?
-
-Yes. Canvas exposes a Shopify provider contract, and Sorti uses that contract to route theme preview actions.
+For store connection scope, see [Shopify Link]({{< relref "products/shopify-link/get-started/index.md" >}}).

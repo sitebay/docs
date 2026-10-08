@@ -1,28 +1,35 @@
 ---
-title: "WordPress Security Scanning"
+title: WordPress vulnerability scanning
 date: 2026-04-28
-tags: ["sitebay", "wordpress", "security"]
+tags:
+- sitebay
+- wordpress
+- security
+authors:
+- SiteBay
+contributors:
+- SiteBay
+description: SiteBay's WPBastion integration checks an authorized site for vulnerability findings. Starting a scan
+  requires a paid team plan and authenticated site access.
+keywords:
+- wordpress security scanning
+- sitebay documentation
+published: 2026-04-28
+slug: wordpress-security-scanning
+license: '[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)'
+doc_sources:
+- vulnerability-scan
+modified: 2026-10-07
 ---
 
-# WordPress Security Scanning
+SiteBay's WPBastion integration checks an authorized site for vulnerability findings. Starting a scan requires a paid team plan and authenticated site access.
 
-SiteBay security scanning checks WordPress sites for known vulnerable plugins and risky versions.
+## Read a completed result
 
-## What The Scanner Checks
+Starting a scan returns an identifier before results are ready. Read that scan's status until it completes or fails. Empty findings while the status is `queued` or `scanning` mean results are unavailable, not that the site is clean.
 
-- WordPress fingerprint hints
-- Plugin asset paths and versions
-- Known advisory matches
-- Whether a detected plugin version appears affected, patched, or needs review
+## Verify remediation
 
-## Bulk Scans
+Review the affected component and proposed version before approving an update. Run a new scan after remediation and inspect its completed result. An in-flight fixing indicator is not proof that the update succeeded.
 
-Teams can scan multiple WordPress endpoints in one run. Each endpoint receives its own status, so one unavailable site does not block the rest of the scan.
-
-## Results
-
-Scan results include detected plugins, matched advisories, confidence, evidence, and a risk score from 0 to 10.
-
-## Recommended Workflow
-
-Run scans after plugin updates, before large campaigns, and during incident response. Review high-risk findings first, update affected plugins, then rescan to confirm the site is patched.
+This is not a file-by-file malware investigation. Use the [scan procedure]({{< relref "guides/security/vulnerabilities/scanning-your-wordpress-site-for-malware/index.md" >}}) for API steps and [incident recovery]({{< relref "guides/security/recovery/recovering-from-a-wordpress-hack/index.md" >}}) for a suspected compromise.

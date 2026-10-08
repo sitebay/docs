@@ -1,45 +1,44 @@
 ---
 slug: data-management
-description: 'PostHog data management on SiteBay.'
-keywords: ["sitebay", "data management", "posthog", "analytics"]
+description: Use data management to keep event names, properties, and actions understandable across the project.
+keywords:
+- sitebay
+- data management
+- posthog
+- analytics
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
-aliases: ['/quick-answers/sitebay/how-to-use-posthog/', '/quick-answers/how-to-use-posthog/']
-modified: 2025-12-04
+aliases:
+- /quick-answers/sitebay/how-to-use-posthog/
+- /quick-answers/how-to-use-posthog/
+modified: 2026-10-07
 modified_by:
   name: SiteBay
 published: 2024-04-04
-title: Data Management
-tags: ["sitebay", "posthog", "data management"]
-authors: ["SiteBay"]
-contributors: ["SiteBay"]
+title: Manage analytics definitions
+tags:
+- sitebay
+- posthog
+- data management
+authors:
+- SiteBay
+contributors:
+- SiteBay
+doc_sources:
+- analytics-ui
 ---
 
-# Data Management
+Use data management to keep event names, properties, and actions understandable across the project.
 
-Your analytics are only as good as your data. SiteBay's integrated PostHog setup makes it super easy to keep your event data clean, organized, and actually useful.
+## Document the data
 
-## The Basics
+Review event and property definitions. Add a useful description, identify the owner, and clarify what triggers an event. Keep property types consistent across the code that sends them.
 
-Here's the jargon you need to know:
+## Group related events
 
-| Term | What it actually means |
-|------|------------|
-| **Events** | Stuff users do (clicking buttons, viewing pages, custom tracking). |
-| **Actions** | A bunch of events grouped together (like "Watched a video" AND "Clicked subscribe"). |
-| **Properties** | Extra details attached to an event (like the user's plan type or browser). |
-| **Annotations** | Little notes you can leave on your timeline (e.g., "Launched the new homepage today"). |
+Use actions when several events should represent one meaningful behavior. Verify the matching conditions against actual records before using the action in reports.
 
-## Keep It Clean
+## Change definitions carefully
 
-Don't let your dashboard turn into a dumpster fire of useless data:
-1. **Merge duplicates**: If you have three different events that all mean "Sign Up", combine them into one Action.
-2. **Hide the noise**: Filter out internal traffic or events you don't care about anymore.
-3. **Describe things**: Leave notes so the rest of your team knows what `btn_clk_final_3` actually means.
+Renaming a label, changing an action, and deleting stored data have different effects. Inspect the reports that depend on a definition before changing it. Do not assume that editing a definition rewrites historical events.
 
-## AI Cleanup with SiteBay MCP
-
-If you're using our **SiteBay MCP Server**, you can actually have your AI agent help maintain your data dictionary. Just ask Claude to "Review my PostHog events from last week and flag any undocumented custom events." 
-
-## Where to Find It
-
-Go to **Dashboard > Analytics > Data Management** in your SiteBay control panel to start tidying up.
+See [Events]({{< relref "products/posthog/events/index.md" >}}) for validation and [Insights]({{< relref "products/posthog/insights/index.md" >}}) for reporting.

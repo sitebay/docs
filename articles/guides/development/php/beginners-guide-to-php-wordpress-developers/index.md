@@ -3,81 +3,60 @@ slug: beginners-tutorial-to-php-wordpress-developers
 author:
   name: SiteBay
   email: support@sitebay.org
-description: 'PHP basics for WordPress development on SiteBay.'
-keywords: ['php', 'wordpress', 'development', 'SiteBay']
+description: PHP implements much of WordPress's server-side behavior. Start with a small plugin in a development
+  site rather than editing core files.
+keywords:
+- php
+- wordpress
+- development
+- SiteBay
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
 published: 2024-04-04
-modified: 2024-12-04
+modified: 2026-10-07
 modified_by:
   name: SiteBay
 image: get-started-php.png
-title: "PHP for WordPress Developers"
+title: PHP for WordPress
 contributor:
   name: SiteBay
-aliases: ['/development/php/beginners-tutorial-to-php/']
+aliases:
+- /development/php/beginners-tutorial-to-php/
+authors:
+- SiteBay
+contributors:
+- SiteBay
+doc_sources:
+- wp-basics
 ---
 
-PHP powers WordPress. Learn the basics to customize your SiteBay site.
+PHP implements much of WordPress's server-side behavior. Start with a small plugin in a development site rather than editing core files.
 
-## Why Learn PHP
+## Create a test plugin
 
-- Customize beyond themes/plugins
-- Create unique functionality
-- Understand how WordPress works
-
-## PHP Basics
+Create `wp-content/plugins/sitebay-example/sitebay-example.php` in the selected development installation:
 
 ```php
 <?php
-// Variables
-$name = "SiteBay";
-
-// Functions
-function greet($name) {
-    return "Hello, " . $name;
+/**
+ * Plugin Name: SiteBay Example
+ * Description: Adds a test footer message in WordPress administration.
+ */
+if (!defined('ABSPATH')) {
+    exit;
 }
-
-// Conditionals
-if ($condition) {
-    // do something
-}
-
-// Loops
-foreach ($items as $item) {
-    echo $item;
-}
-?>
-```
-
-## Create Your First Plugin
-
-1. Go to `wp-content/plugins/`
-2. Create `my-plugin.php`
-
-```php
-<?php
-/*
-Plugin Name: My Plugin
-Description: My first plugin
-*/
-
-add_filter('admin_footer_text', function() {
-    return 'Custom footer text';
+add_filter('admin_footer_text', function ($text) {
+    return esc_html('Development site');
 });
 ```
 
-3. Activate in WordPress Dashboard → Plugins
+This changes the administration footer after activation. It does not modify posts or create a public page.
 
-## Key Concepts
+## Check it
 
-| Concept | Purpose |
-|---------|---------|
-| Hooks | Inject code at specific points |
-| Filters | Modify data |
-| Actions | Execute code on events |
+Run `php -l` against the file to check syntax, then activate the plugin on the development site. Open administration and verify the footer. Deactivate the plugin to remove the behavior.
 
-## Best Practices
+## Add functionality safely
 
-- Sanitize user inputs
-- Use WordPress functions (not raw PHP)
-- Check WordPress Codex for documentation
+Actions run at defined points; filters return modified values. Validate incoming data, check authorization for privileged operations, and escape output for its context. A nonce does not replace a capability check.
+
+Use the [PHP tutorial](https://www.php.net/manual/en/tutorial.php) for the language and [WordPress plugin security](https://developer.wordpress.org/plugins/security/) for the application boundary.

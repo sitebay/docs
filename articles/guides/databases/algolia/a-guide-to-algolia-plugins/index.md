@@ -1,66 +1,49 @@
 ---
 slug: a-guide-to-algolia-plugins
-description: "Top Algolia plugins for WordPress search."
-keywords: ['algolia', 'plugins', 'wordpress', 'search', 'instant search']
+description: A WordPress search integration should control what is indexed, how records stay current, and what a
+  visitor is allowed to retrieve.
+keywords:
+- algolia
+- plugins
+- wordpress
+- search
+- instant search
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
 published: 2024-05-04
-modified: 2024-12-04
+modified: 2026-10-07
 modified_by:
   name: SiteBay
-title: "Algolia Plugins for WordPress"
-tags: ["wordpress","plugins","search","algolia"]
-aliases: ['/databases/algolia/a-guide-to-algolia-plugins/']
-authors: ["SiteBay"]
-contributors: ["SiteBay"]
+title: Choose a WordPress search integration
+tags:
+- wordpress
+- plugins
+- search
+- algolia
+aliases:
+- /databases/algolia/a-guide-to-algolia-plugins/
+authors:
+- SiteBay
+contributors:
+- SiteBay
+doc_sources:
+- algolia
+- wp-basics
 ---
 
-Replace WordPress default search with Algolia for instant, relevant results.
+A WordPress search integration should control what is indexed, how records stay current, and what a visitor is allowed to retrieve.
 
-## Top Plugins
+## Review the integration
 
-### 1. WP Search with Algolia (Official)
-- Automatic content indexing
-- Instant as-you-type search
-- Customizable UI
-- Search analytics
+Check its maintained WordPress and PHP compatibility, update history, supported content types, indexing behavior, and documented Algolia client version. Do not assume that a similarly named plugin is maintained by Algolia.
 
-**Setup:**
-1. Create Algolia account
-2. Install plugin
-3. Enter API keys
-4. Configure indexing
-5. Add search to site
+## Test private content
 
-### 2. SearchWP + Algolia
-- Custom field indexing
-- ACF support
-- WooCommerce products
-- Custom taxonomies
+Create test drafts and restricted content in staging. Confirm that records not meant for public visitors are excluded from the public index. Hiding a search result in the UI is not access control.
 
-### 3. Algolia for WooCommerce
-- Product attribute filtering
-- Merchandising features
-- Conversion analytics
+## Test changes
 
-### 4. FacetWP + Algolia
-- Visual filter builder
-- Range sliders, checkboxes
-- Directory/listing sites
+Publish, edit, and delete a test page. Verify each change in the index and search interface. Check the failure path when indexing credentials are unavailable.
 
-## Choosing a Plugin
+## Keep keys separate
 
-| Need | Best Plugin |
-|------|-------------|
-| Standard blog/site | Official plugin |
-| Complex content | SearchWP |
-| E-commerce | Algolia for WooCommerce |
-| Filtering/facets | FacetWP |
-| Multilingual | WPML integration |
-
-## Benefits Over Default Search
-
-- Millisecond response times
-- Typo tolerance
-- Relevance tuning
-- Filtering/faceting
-- Search analytics
+Use server-side credentials for indexing and an appropriately restricted search key for browser queries. Follow [the search setup guide]({{< relref "guides/databases/algolia/create-search-with-algolia/index.md" >}}) for the shared workflow.

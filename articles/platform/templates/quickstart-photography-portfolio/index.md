@@ -1,36 +1,44 @@
 ---
 slug: template-quickstart-photography-portfolio
-authors: ["SiteBay"]
-description: 'Start your own photography blog'
-og_description: 'Start your own photography blog from our easy to use template in minutes with SiteBay'
-keywords: ['template', 'photography', 'blog']
-tags: ["templates", "quickstart"]
+authors:
+- SiteBay
+description: Use an available site template as the starting point for a portfolio. The catalog, rather than this
+  guide, determines which templates are currently offered.
+og_description: Use an available site template as the starting point for a portfolio. The catalog, rather than this
+  guide, determines which templates are currently offered.
+keywords:
+- template
+- photography
+- blog
+tags:
+- templates
+- quickstart
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
 published: 2024-04-23
 modified_by:
   name: SiteBay
-title: "How to Get Started with our Photography Portfolio Template"
-h1_title: "Photography Portfolio Quickstart"
-contributors: ["SiteBay"]
+title: Create a photography portfolio
+h1_title: Create a photography portfolio
+contributors:
+- SiteBay
+doc_sources:
+- templates
+- wp-theme
+modified: 2026-10-07
 ---
 
-# Photography Portfolio Quickstart
+Use an available site template as the starting point for a portfolio. The catalog, rather than this guide, determines which templates are currently offered.
 
-Are you a photographer looking to showcase your work without wrestling with server config? We get it. You want to spend time editing photos, not tweaking PHP settings.
+## Prepare the content
 
-With SiteBay's Photography Portfolio template, you can launch a blazingly fast, visually stunning gallery in minutes. Because we run on an AI-native Kubernetes platform, your heavy image loads are handled with scale and speed right out of the box.
+Choose the photographs you have permission to publish. Prepare project titles, captions, alternative text, contact details, and a short biography. Keep original image files outside the website as well.
 
-### Why This Template Rocks
+## Build the pages
 
-- **Image-First Design**: The layout puts your high-res photos front and center.
-- **Kubernetes Speed**: We serve your media fast. Real fast. No sluggish load times that make visitors bounce.
-- **Built-in Security**: SiteClaw is active from day one, keeping your portfolio safe from scrapers and automated attacks.
-- **Analytics Ready**: PostHog is integrated, so you can see exactly which photos people are lingering on.
+Create the site, replace sample galleries and navigation, and add a contact page. Size images for their display area rather than uploading full-resolution originals to every page. Review image cropping at narrow and wide screen sizes.
 
-### Getting Started
+## Test before sharing
 
-1. **Spin It Up**: Log into your SiteBay dashboard, hit "New Site", and select the Photography template.
-2. **Make It Yours**: Swap in your own logo, update the about page, and start uploading your galleries.
-3. **Go Live**: Connect your domain and you're done.
+Open every gallery, check image descriptions, and submit a test contact message. Confirm that contact delivery works before publishing the address publicly.
 
-You don't need to be a DevOps engineer to have enterprise-grade hosting. Grab the template, upload your best shots, and let SiteBay handle the rest.
+See [template setup]({{< relref "products/templates/get-started-with-templates/index.md" >}}) for the site-creation steps.

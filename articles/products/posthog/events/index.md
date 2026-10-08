@@ -1,54 +1,40 @@
 ---
 slug: events
-description: "PostHog event tracking on SiteBay."
-keywords: ['PostHog', 'events', 'tracking', 'sitebay']
+description: An event records an action with a timestamp and properties. Use events to verify tracking and define
+  the actions your reports measure.
+keywords:
+- PostHog
+- events
+- tracking
+- sitebay
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
 published: 2024-04-19
-modified: 2025-12-04
+modified: 2026-10-07
 modified_by:
   name: SiteBay
-title: "Events"
-authors: ["SiteBay"]
-contributors: ["SiteBay"]
+title: Inspect analytics events
+authors:
+- SiteBay
+contributors:
+- SiteBay
+doc_sources:
+- analytics-ui
 ---
 
-# Events Tracking
+An event records an action with a timestamp and properties. Use events to verify tracking and define the actions your reports measure.
 
-Tracking user actions on your WordPress site shouldn't require a Ph.D. in Tag Management. Because SiteBay is deeply integrated with PostHog at the Kubernetes platform level, we automatically track the important stuff from the second your site goes live.
+## Inspect an event
 
-## What We Track Automatically
+Open the event view in the selected analytics project. Filter by event name and time, then open a record. Check the URL, distinct identifier, environment, and properties relevant to the action.
 
-- Page views
-- Clicks (buttons, links, you name it)
-- Form submissions
-- When sessions start and end
+Perform the same action in a test session and compare the resulting record. A page-view event does not prove that a payment, signup, or server-side operation completed.
 
-## Custom Events
+## Name custom events consistently
 
-Want to track something specific, like when someone upgrades their WooCommerce subscription? You can drop a quick custom event:
+Choose a stable name such as `checkout_completed`. Send the event only when that action succeeds. Keep property names and types consistent, and avoid passwords, access tokens, or unnecessary personal information.
 
-```javascript
-posthog.capture('subscription_upgraded', {
-  plan: 'pro_annual',
-  source: 'pricing_table'
-});
-```
+## Build a report
 
-## Making Sense of Events
+Use a verified event in an insight. Compare counts with the underlying business action before relying on the metric.
 
-Once the data is flowing, you can use these tools to figure out what's going on:
-
-| Tool | Why you care |
-|------|-----|
-| **Trends** | See if an event is happening more or less over time. |
-| **Funnels** | Find out where people are dropping off before buying. |
-| **User Paths** | Look at the actual routes people take through your site. |
-| **Retention** | See if people who trigger an event actually come back later. |
-
-## The AI Angle
-
-Don't want to dig through charts? Open up the **SiteClaw** mobile app and ask your AI assistant to summarize your key events for the day. You can also use the **SiteBay MCP Server** to build agents that react to specific user events in real-time.
-
-## Get Started
-
-Jump into **Dashboard > Analytics > Events** in your SiteBay manager to see the live feed.
+See [Data management]({{< relref "products/posthog/data-management/index.md" >}}) for event definitions and properties.

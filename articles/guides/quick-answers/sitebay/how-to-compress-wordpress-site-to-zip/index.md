@@ -3,51 +3,48 @@ slug: how-to-compress-wordpress-site-to-zip
 author:
   name: SiteBay
   email: support@sitebay.org
-description: 'Migrate WordPress to SiteBay.'
-keywords: ["migration", "wordpress"]
-tags: ["migrate"]
+description: A complete WordPress migration usually needs both the relevant files and a database export.
+keywords:
+- migration
+- wordpress
+tags:
+- migrate
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
-modified: 2025-12-04
+modified: 2026-10-07
 modified_by:
   name: SiteBay
 published: 2024-04-20
 image: migrate-wordpress.png
-title: Migrate to SiteBay
-aliases: ['/quick-answers/platform/how-to-compress-wordpress-site-to-zip']
+title: Package a WordPress migration export
+aliases:
+- /quick-answers/platform/how-to-compress-wordpress-site-to-zip/
+authors:
+- SiteBay
+contributors:
+- SiteBay
+doc_sources:
+- shell-reference
+- wp-cli
+- lifecycle
+- git-sync
 ---
 
-# Migrate to SiteBay
+A complete WordPress migration usually needs both the relevant files and a database export. A ZIP of `wp-content` is not, by itself, a full-site backup, and a migration plugin's proprietary archive is not necessarily a ZIP file.
 
-## Option 1: Plugin (Easiest)
+## Prepare the export
 
-1. Install **All-in-One WP Migration** or **Duplicator**
-2. Export site to zip
-3. Upload to SiteBay
+Confirm the source site and choose a quiet or controlled change window. Record its WordPress/PHP compatibility, plugin requirements and custom configuration without placing passwords in the archive notes. Use the source host's export tool or an authorized terminal.
 
-## Option 2: Manual
+## Package the files
 
-### Export Files
+Collect the intended themes, plugins and uploads with the tool appropriate to the destination. Include required dotfiles deliberately. Write the archive to a private directory outside the web-served tree so visitors cannot download it. Check available space before creating another full copy of large uploads.
 
-1. cPanel > File Manager
-2. Navigate to `wp-content/`
-3. Right-click > Compress > Zip
-4. Download zip
+## Export the database separately
 
-### Export Database
+With authorized WP-CLI access, `wp db export /private/path/site.sql` exports the configured database. Replace that illustrative path with a real private destination. The export contains potentially sensitive user and application data; transfer and retain it securely. Verify the export command succeeded and that the destination importer supports the format.
 
-1. cPanel > phpMyAdmin
-2. Select your WordPress database
-3. Export > Quick > SQL format
-4. Download .sql file
+## Validate on the destination
 
-### Import to SiteBay
+Create or select the authorized SiteBay target, import through its supported migration workflow, and test content, media, permalinks, forms and authentication before DNS cutover. Avoid overwriting newer orders or submissions generated during migration. Keep the original site and verified recovery copies until validation is complete.
 
-1. Create site on SiteBay
-2. Use migration tool or contact support@sitebay.org
-
-## After Migration
-
-- Check all pages load
-- Verify images work
-- Test forms and functionality
-- Update DNS to point to SiteBay
+An import limit, plugin license or database incompatibility requires a supported migration path; renaming an archive to `.zip` or forcing a plugin upload does not convert its format.

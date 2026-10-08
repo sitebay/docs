@@ -1,42 +1,42 @@
 ---
 slug: sitebay-code-server
-description: "VS Code in browser for WordPress development."
-keywords: ["Code Server", "VS Code", "development"]
+description: Open the code-server action for the site you are authorized to manage.
+keywords:
+- Code Server
+- VS Code
+- development
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
-modified: 2025-12-04
+modified: 2026-10-07
 modified_by:
   name: SiteBay
 published: 2024-04-04
-title: "Code Server"
-tags: ["SiteBay", "Development"]
-aliases: ['/quick-answers/sitebay/sitebay-code-server/']
-authors: ["SiteBay"]
-contributors: ["SiteBay"]
+title: Code-server quick start
+tags:
+- SiteBay
+- Development
+aliases:
+- /quick-answers/sitebay/sitebay-code-server/
+authors:
+- SiteBay
+contributors:
+- SiteBay
+doc_sources:
+- code-server
+- wp-config
+- shell-reference
+- lifecycle
 ---
 
-# Code Server
+Open the code-server action for the site you are authorized to manage. Check plan availability and runtime readiness; the editor is not an unlimited resource included automatically in every account.
 
-VS Code running in your browser. Edit WordPress files directly on the server.
+## First checks
 
-## Access
+Confirm the selected domain and workspace path, inspect the installed extensions, and open a harmless file before making a change. Check that a browser shortcut has not been intercepted.
 
-**Dashboard > Sites > [Site] > Code Server**
+## Scope
 
-## Features
+The terminal operates within its configured environment. It does not grant access to other tenants or the hosting cluster. File editing and an agent’s advertised tool permissions remain distinct.
 
-- Full VS Code editor
-- Terminal with WP-CLI
-- PHP IntelliSense (pre-installed)
-- WordPress Hooks IntelliSense (pre-installed)
-- Extension marketplace
+## Current procedure
 
-## Use Cases
-
-| Task | How |
-|------|-----|
-| Edit theme files | Navigate to /wp-content/themes/ |
-| Debug plugins | Add console logs, check terminal |
-| Run WP-CLI | Open terminal (Ctrl+`) |
-| Install extensions | Ctrl+Shift+X |
-
-No local setup needed. Works from any device.
+[Open and verify a workspace]({{< relref "products/code-server/get-started/index.md" >}}) covers the launch grant, actual path, extensions and completion checks. For command examples, see [workspace navigation]({{< relref "guides/quick-answers/sitebay/how-to-use-basic-commands-for-wordpress-linux/index.md" >}}) and [WP-CLI checks]({{< relref "guides/quick-answers/sitebay/wordpress-command-line-tips/index.md" >}}).

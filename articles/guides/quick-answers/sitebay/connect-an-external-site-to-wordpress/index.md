@@ -1,43 +1,38 @@
 ---
 slug: connect-an-external-site-to-wordpress
-description: "Host external sites on a subpath of your WordPress domain."
-keywords: ["seo", "subpath", "static site", "WordPress hosting"]
+description: 'Identify what you want to connect: a domain, content from another site, an API, or a storefront. These
+  are different operations.'
+keywords:
+- seo
+- subpath
+- static site
+- WordPress hosting
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
 published: 2024-04-04
-modified: 2024-12-04
+modified: 2026-10-07
 modified_by:
   name: SiteBay
-title: "External Sites on a Subpath"
-tags: ["sitebay", "wordpress hosting", "static-site"]
-aliases: ['/quick-answers/sitebay/connect-an-external-site-to-wordpress']
-authors: ["SiteBay"]
-contributors: ["SiteBay"]
+title: Connect a domain or external service
+tags:
+- sitebay
+- wordpress hosting
+- static-site
+aliases:
+- /quick-answers/sitebay/connect-an-external-site-to-wordpress/
+authors:
+- SiteBay
+contributors:
+- SiteBay
+doc_sources:
+- lifecycle
+- shopify
+- wp-migration
 ---
 
-Host documentation, blogs, or other sites under your main WordPress domain (e.g., `example.com/docs`).
+Identify what you want to connect: a domain, content from another site, an API, or a storefront. These are different operations.
 
-## Benefits
+For a domain, verify ownership and use the DNS values provided for the target site. Pointing a domain does not import its old content.
 
-- Consolidated domain authority for SEO
-- Seamless user navigation
-- Single SSL certificate
+For content, use the [migration workflow]({{< relref "platform/migrate-to-sitebay/best-practices-when-migrating-to-sitebay/index.md" >}}). For an API or plugin, review its authentication and supported WordPress integration before sharing data.
 
-## Setup
-
-1. Go to **SiteBay Dashboard** → **Tools**
-2. Enter **External Name**: URL of your external site
-3. Enter **Path**: e.g., `/docs`
-4. Submit
-
-## Test
-
-Navigate to `yourdomain.com/docs` to verify the external site loads.
-
-## Use Cases
-
-- Documentation sites (Hugo, Docusaurus)
-- Separate blogs
-- Support portals
-- Static marketing pages
-
-SiteBay uses this feature to host docs at sitebay.org/docs.
+For a Shopify storefront, use [Shopify Link]({{< relref "products/shopify-link/get-started/index.md" >}}). Test the resulting link or integration in staging before changing production traffic.

@@ -1,15 +1,26 @@
 ---
-title: Guides
-title_meta: "Guides and Tutorials for Getting Started on the SiteBay Platform"
-description: "A collection of guides to help get you started on the SiteBay Platform"
+title: Platform setup guides
+title_meta: Platform setup guides
+description: Configure the region, developer access, email, and operating responsibilities that the site needs.
 tab_group_main:
-    weight: 20
+  weight: 20
+  title: Guides
 published: 2024-03-14
+authors:
+- SiteBay
+contributors:
+- SiteBay
+keywords:
+- guides
+- sitebay documentation
+slug: guides
+license: '[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)'
+doc_sources:
+- platform-architecture
+modified: 2026-10-07
+layout: documentation-section
 ---
 
-## Basics
+Configure the region, developer access, email, and operating responsibilities that the site needs.
 
-- [Getting Started on the SiteBay Platform](/docs/products/platform/get-started/)
-- [Choose a Data Center](/docs/products/platform/get-started/guides/choose-a-data-center/)
-- [Help & Support](/docs/products/platform/get-started/guides/support/)
-- [Subscribe to SiteBay Status Updates](/docs/products/platform/get-started/guides/status-page/)
+{{< section-links >}}

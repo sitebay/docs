@@ -1,16 +1,34 @@
 ---
-title: "Agent Bridge Commands"
-description: "Command reference for SiteBay Agent Bridge."
-tags: ["sitebay", "vscode"]
+title: Agent Bridge commands
+description: Use these commands from the VS Code Command Palette.
+tags:
+- sitebay
+- vscode
 published: 2026-04-28
+authors:
+- SiteBay
+contributors:
+- SiteBay
+keywords:
+- agent bridge commands
+- sitebay documentation
+slug: commands
+license: '[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)'
+doc_sources:
+- editor-bridge
+modified: 2026-10-07
 ---
 
-# Agent Bridge Commands
+Use these commands from the VS Code Command Palette.
 
-- `SiteBay: Set API Key` stores your SiteBay API key in VS Code SecretStorage.
-- `SiteBay: Connect to Session` connects to a Sorti session with a connection code.
-- `SiteBay: Toggle Connection` connects or disconnects the bridge.
-- `SiteBay: Disconnect` leaves the current room.
-- `SiteBay: Restore Checkpoint` asks the agent to restore a saved checkpoint.
+| Command | Identifier |
+| --- | --- |
+| SiteBay: Set API Key | `sitebay.setApiKey` |
+| SiteBay: Disconnect | `sitebay.disconnect` |
+| SiteBay: Toggle Connection | `sitebay.toggleConnection` |
+| SiteBay: Restore Checkpoint | `sitebay.restoreCheckpoint` |
+| SiteBay: Connect to Session | `sitebay.connectSession` |
 
-Use restore carefully. It can revert files and database state for the active SiteBay session.
+**Restore Checkpoint changes workspace state.** Inspect the checkpoint and current edits before using it. Disconnecting the editor is different from reverting files.
+
+[Set up the connection]({{< relref "vscode/setup.md" >}}) before starting assisted work.

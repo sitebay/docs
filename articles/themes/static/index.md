@@ -1,39 +1,47 @@
 ---
-title: "SiteBay Static Template"
-description: "Deploy and customize the SiteBay static template."
-tags: ["sitebay", "static", "netlify", "themes"]
+title: Prepare a static-site template
+description: A static site publishes generated or hand-authored files. It does not run WordPress PHP or provide
+  a WordPress database merely because its visual style resembles the SiteBay theme.
+tags:
+- sitebay
+- static
+- netlify
+- themes
 published: 2026-04-28
+authors:
+- SiteBay
+contributors:
+- SiteBay
+keywords:
+- sitebay static template
+- sitebay documentation
+slug: static
+license: '[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)'
+doc_sources:
+- templates
+- shopify-theme
+- wp-theme
+modified: 2026-10-07
 ---
 
-# SiteBay Static Template
+A static site publishes generated or hand-authored files. It does not run WordPress PHP or provide a WordPress database merely because its visual style resembles the SiteBay theme.
 
-The SiteBay static template is a lightweight starter for static hosting. It uses the same token names and section surface as the WordPress and Shopify templates.
+## Inspect the selected starter
 
-<!-- screenshot: TODO -->
+Choose a starter that the current host/catalog actually offers. Read its file tree and build configuration to identify the entry page, stylesheets, scripts, output directory and required runtime. The historical `sitebay-static-template` name and a fixed five-section list do not establish the current repository layout or deployment contract.
 
-## Deploy
+## Customize without leaking secrets
 
-1. Create a site from the static template.
-2. Connect the repository to your static host.
-3. Set the production domain.
-4. Publish the generated site.
+Edit the starter's documented content and design settings, preserving its navigation and any selection markers required by Canvas. Use its actual token names rather than assuming WordPress and Shopify expose identical defaults. Check mobile layouts, text contrast, link destinations and image loading.
 
-## Customize
+A variable substituted at build time can become visible in the published HTML or JavaScript. Never embed an administrator API key, private bearer credential or server secret in a static bundle. Private integrations require an appropriately authenticated backend or provider function.
 
-Edit `style.css` for colors, spacing, radii, and typography. The root CSS variables map to the SiteBay token set.
+## Build and inspect
 
-Required sections:
+Run the repository's documented build in a clean checkout and inspect the output directory. Verify the base URL, nested routes, redirects and 404 behavior. A development server succeeding does not prove that the exported directory works on the chosen host.
 
-- Hero
-- Features
-- Pricing
-- Blog
-- Contact
+## Publish deliberately
 
-## Environment Variables
+Connect the intended repository and branch through the host's supported workflow. Verify its deploy result and production domain/HTTPS before accepting it. Keep the previous deploy or version for rollback. A Git push or theme preview alone is not proof of a published website.
 
-Static sites usually do not require runtime environment variables. Add host-specific variables only when a form provider, analytics tool, or API integration needs them.
-
-## Voice Setup With Sorti
-
-Prefer to do this with voice? Open [Sorti](/docs/sorti/) and ask it to help adapt the static template for your site.
+See [choosing a site type]({{< relref "getting-started/choose-a-template.md" >}}) before migrating a dynamic WordPress workflow into a static project.

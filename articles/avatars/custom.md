@@ -1,31 +1,39 @@
 ---
-title: "Bring Your Own Avatar"
-description: "Upload a custom GLB avatar and understand whether it can lip sync."
-tags: ["sitebay", "avatars", "voice"]
+title: Import an avatar
+description: Import a GLB avatar and inspect the resulting manifest before using it in a speaking session.
+tags:
+- sitebay
+- avatars
+- voice
 published: 2026-04-28
+authors:
+- SiteBay
+contributors:
+- SiteBay
+keywords:
+- bring your own avatar
+- sitebay documentation
+slug: custom
+license: '[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)'
+doc_sources:
+- avatar-contract
+modified: 2026-10-07
 ---
 
-# Bring Your Own Avatar
+Import a GLB avatar and inspect the resulting manifest before using it in a speaking session.
 
-Avatar Studio accepts GLB avatars. A good assistant avatar should be lightweight, include stable materials, and include mouth controls for lip sync.
+## Prepare the model
 
-## Import A GLB
+Use an asset you own or have permission to use. Keep its attribution and license with the import. Check the model's geometry, materials, orientation, and size in a preview.
 
-Open Avatar Studio and choose the custom avatar import flow. You can upload a local GLB or import from a supported source such as Sketchfab.
+## Check speech support
 
-After import, Avatar Studio scans the file and adds a viseme badge to the avatar card. The badge explains how well the avatar can match speech.
+The import classifier reports a viseme tier from the actual model bytes: `oculus`, `arkit`, `vrm`, `minimal`, or `none`. These describe the available mouth controls, not a general quality score.
 
-## Lip-Sync Badges
+A model can look correct while lacking usable mouth shapes. A malformed file is an import error, not a valid model with a `none` tier.
 
-- **Excellent** means the avatar includes standard viseme morph targets.
-- **Good** means the avatar includes ARKit-style mouth blend shapes.
-- **Acceptable** means the avatar has a jaw or mouth-open control, but less detailed lip sync.
-- **None** means the avatar has no recognizable mouth controls. Avatar Studio blocks these by default because speech would look poor.
+## Verify the selected avatar
 
-## Tips For Better Results
+Preview a short spoken phrase. Check mouth movement, framing, and the selected appearance. Keep the model and its manifest together; do not infer speech support from a catalog thumbnail.
 
-Use GLB files built for realtime characters rather than high-poly renders. Prefer avatars that mention visemes, ARKit blend shapes, facial blend shapes, or lip sync in the model description.
-
-If an import is blocked, choose a model with a stronger viseme badge or use the Sketchfab browser's filtered results.
-
-See [Sketchfab Avatars](/docs/avatars/sketchfab/) for finding compatible models and [Visemes Explained](/docs/avatars/visemes-explained/) for what the badges mean.
+Read [Viseme tiers]({{< relref "avatars/visemes-explained.md" >}}) for the meaning of each result.

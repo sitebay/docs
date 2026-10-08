@@ -1,60 +1,42 @@
 ---
 slug: list-of-databases
-title: "Database Comparison: MySQL vs MariaDB vs SQLite"
-description: "Compare MySQL, MariaDB, and SQLite for WordPress."
-keywords: ['database comparison', 'mysql vs mariadb', 'sqlite wordpress']
+title: Choose a database for the application
+description: Choose a database that the application supports and that you can operate and recover reliably.
+keywords:
+- database comparison
+- mysql vs mariadb
+- sqlite wordpress
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
 published: 2024-04-25
-modified: 2024-12-04
+modified: 2026-10-07
 modified_by:
   name: SiteBay
-authors: ["SiteBay"]
-contributors: ["SiteBay"]
+authors:
+- SiteBay
+contributors:
+- SiteBay
+doc_sources:
+- database-basics
 ---
 
-Compare the three database options for WordPress.
+Choose a database that the application supports and that you can operate and recover reliably.
 
-## Quick Comparison
+| Engine | Operating model |
+| --- | --- |
+| MySQL | Relational database server accessed by clients |
+| MariaDB | Relational server with substantial, but not universal, MySQL compatibility |
+| SQLite | Embedded database engine working with local database files |
 
-| Feature | MySQL | MariaDB | SQLite |
-|---------|-------|---------|--------|
-| Architecture | Client-server | Client-server | File-based |
-| Setup | Moderate | Moderate | Zero config |
-| Performance | Good | Better | Good for small sites |
-| Concurrency | Hundreds | Thousands | Dozens |
-| Plugin compatibility | Universal | Near-universal | Variable |
-| Scaling | Excellent | Excellent | Limited |
+## Start with application support
 
-## When to Use Each
+For WordPress, check its supported database requirements and the service supplied by the host. Do not substitute an engine solely because a different application uses it.
 
-### MySQL
-- Universal compatibility needed
-- Managed WordPress hosting
-- Risk-averse projects
+## Compare operations
 
-### MariaDB
-- Maximum performance
-- High-traffic sites
-- Open-source commitment
+Review expected concurrency, data size, backup and restore, authentication, monitoring, and version upgrades. Include required application extensions and the cost of maintaining them.
 
-### SQLite
-- Development/testing
-- Personal blogs
-- Simple deployments
-- Portable sites
+## Test a realistic operation
 
-## Performance
+Load representative data into an authorized test environment. Check the important queries and a recovery procedure. A successful empty-database connection does not verify production compatibility.
 
-| Workload | Best Choice |
-|----------|-------------|
-| Read-heavy blog | Any |
-| High-traffic site | MariaDB |
-| Multi-user editing | MySQL/MariaDB |
-| Local development | SQLite |
-| E-commerce | MySQL/MariaDB |
-
-## Migration
-
-- MySQL ↔ MariaDB: Drop-in replacement
-- MySQL/MariaDB → SQLite: Requires adapter plugin
-- SQLite → MySQL/MariaDB: Export/import
+Continue with [MySQL]({{< relref "guides/databases/mysql/what-is-mysql/index.md" >}}), [MariaDB]({{< relref "guides/databases/mysql/what-is-mariadb/index.md" >}}), or [SQLite]({{< relref "guides/databases/mysql/what-is-sqlite/index.md" >}}).

@@ -1,43 +1,44 @@
 ---
 slug: introduction-to-pit-machine
-keywords: ["backups", "restore"]
-description: "Point-in-time backups and restore."
+keywords:
+- backups
+- restore
+description: Start by inspecting the available recovery points for the selected site. Retention and recoverability
+  come from the actual backup state, not a copied frequency table.
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
-modified: 2025-12-04
+modified: 2026-10-07
 modified_by:
   name: SiteBay
 published: 2024-03-13
-title: "Point-in-Time Machine"
+title: Point-in-time recovery overview
 bible: true
-tags: ["sitebay", "backups"]
-aliases: ['/quick-answers/sitebay-essentials/introduction-to-pit-machine/']
-authors: ["SiteBay"]
-contributors: ["SiteBay"]
+tags:
+- sitebay
+- backups
+aliases:
+- /quick-answers/sitebay-essentials/introduction-to-pit-machine/
+authors:
+- SiteBay
+contributors:
+- SiteBay
+doc_sources:
+- site-ui
+- lifecycle
+- git-sync
 ---
 
-# Point-in-Time Machine
+Start by inspecting the available recovery points for the selected site. Retention and recoverability come from the actual backup state, not a copied frequency table.
 
-Automatic backups. Restore to any previous state.
+## Inspect the evidence
 
-## Backup Frequency
+Review the site's date scrubber, Git commits, database activity, checkpoints and upload changes. Internal Git-backed history can exist without an external provider connection. Distinguish “no recorded changes” from “the query failed” or “no backup is available yet.”
 
-| Data | Frequency |
-|------|-----------|
-| Database | Every minute |
-| wp-content | Every hour |
+## Prepare the recovery
 
-## How to Restore
+Choose the supported action with the smallest appropriate scope. Preserve a current checkpoint and verify the live/staging target before approval. A manual Git file rollback does not also restore WordPress database state. A restore after a security incident requires a separately reviewed clean source.
 
-1. **Sites > [Your Site] > PIT Machine**
-2. Select date/time in calendar
-3. **View Files** to verify
-4. **Restore Site** or **Create Staging**
+## Verify completion
 
-## Pro Tip
+Retain the operation ID and recovery handle, wait for the result and test the real application. The higher-level restore intent supplies a protective checkpoint; a low-level restore request should not be assumed to do the same. Do not promise automatic zero-downtime or unlimited rollback.
 
-1. Create staging from backup
-2. Verify it's correct
-3. Sync staging to live
-4. Delete staging
-
-See [PIT Machine Get Started](/products/time-machine/get-started-with-pit-machine/) for full guide.
+Follow [the full Time Machine procedure]({{< relref "products/time-machine/get-started-with-pit-machine/index.md" >}}) for current UI and result checks.

@@ -1,48 +1,41 @@
 ---
-title: User Permissions
-description: "Configure user access levels."
+title: Understand team permissions
+description: SiteBay authorization is enforced by the server for each operation.
 published: 2024-04-21
-modified: 2025-12-04
-authors: ["SiteBay"]
-contributors: ["SiteBay"]
+modified: 2026-10-07
+authors:
+- SiteBay
+contributors:
+- SiteBay
 modified_by:
   name: SiteBay
-tags: ["sitebay platform","users"]
+tags:
+- sitebay platform
+- users
+keywords:
+- user permissions
+- sitebay documentation
+slug: user-permissions
+license: '[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)'
+doc_sources:
+- account-ui
+- teams
+- api-auth
+- pricing
 ---
 
-Control exactly what your team can see and do. Whether you want to restrict access to PostHog analytics, prevent someone from spinning up expensive Kubernetes resources, or just let an external dev manage your WordPress sites via the SiteBay MCP Server—we've got you covered.
+SiteBay authorization is enforced by the server for each operation. An old table of arbitrary per-resource billing, cluster, and object-storage toggles does not describe the current team member contract.
 
-## How to Set Permissions
+## Owner and member
 
-1. Go to **Account** → **Users & Grants**.
-2. Click **User Permissions** next to the user you want to restrict.
-3. Tweak the toggles and hit **Save**.
+The team member model exposes owner level 8 and member level 4. These values describe roles, not a license to bypass a route's authorization checks. A site action also depends on ownership, plan and runtime state. Read the site's available actions before enabling a mutation in a client.
 
-## What the Permissions Mean
+## Invitation and removal boundaries
 
-### Full Account Access
+Roster reads are available to authorized members. Pending invitation reads and invitation creation/revocation are owner-only. The owner can remove another member; a member may leave themselves. The owner cannot be removed through the membership endpoint.
 
-- **ON**: They can do everything. Create clusters, delete sites, view billing. Be careful with this one.
-- **OFF**: They're restricted. You'll need to manually configure what they can touch below.
+## API key permissions
 
-### Global Permissions
+API keys are scoped to a team and use the declared permission values `read`, `readwrite`, or `admin`. Choose the minimum permission needed. A key cannot create other keys, and key creation/revocation uses a signed-in session. Do not assume that a key's permission removes the user's team-membership requirements.
 
-These apply to your entire account:
-- Create new WordPress sites
-- Spin up other services (databases, object storage)
-- *(Watch out: things marked with a $ mean they can spend your money!)*
-
-### Billing Access
-
-| Level | What They Can Do |
-|-------|------------------|
-| **None** | Can't see invoices or payment info. |
-| **Read Only** | Can view invoices and past payments. |
-| **Read-Write** | Full control over the credit card and billing settings. |
-
-### Specific Services
-
-You can also lock things down on a per-resource basis (like specific WordPress sites or clusters):
-- **None**: The resource is completely invisible to them.
-- **Read Only**: They can see it, but can't touch it.
-- **Read-Write**: They have full control and will get notifications if something breaks.
+Test an integration first with a harmless read, then handle authorization failures as an explicit boundary. Never translate a denied operation into an unrelated shell or database action. See [team access and billing]({{< relref "products/platform/teams-and-billing/index.md" >}}).

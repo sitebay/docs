@@ -1,73 +1,60 @@
 ---
 slug: site-lifecycle
-description: "Understanding SiteBay site statuses, the state machine that governs site operations, and what each status means."
-keywords: ['site status', 'lifecycle', 'state machine', 'busy', 'idle', 'sleeping', 'creating']
+description: Understanding SiteBay site statuses, the state machine that governs site operations, and what each
+  status means.
+keywords:
+- site status
+- lifecycle
+- state machine
+- busy
+- idle
+- sleeping
+- creating
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
 published: 2026-03-15
-modified: 2026-03-15
+modified: 2026-10-07
 modified_by:
   name: SiteBay
-title: "Site Lifecycle and Statuses"
+title: Site lifecycle and available actions
 bible: true
-tags: ["sitebay", "sites", "lifecycle", "status"]
-authors: ["SiteBay"]
-contributors: ["SiteBay"]
+tags:
+- sitebay
+- sites
+- lifecycle
+- status
+authors:
+- SiteBay
+contributors:
+- SiteBay
+doc_sources:
+- lifecycle
+- api-contract
 ---
 
-# Site Lifecycle and Statuses
+A site's status records what it is doing, while its current permissions and constraints determine what can happen next. Do not interpret `idle` as “all actions are authorized.”
 
-Every SiteBay WordPress site has a **status** that reflects its current operational state. The status controls what operations are allowed — you cannot start a new operation while the site is busy with another.
+## Inspect before acting
 
-## Site Statuses
+Read the site's state and `GET /f/api/v1/site/{fqdn}/legal_actions`. The latter returns a current situation and the moves available from that state, including their tool names and arguments. A missing move is not available yet. Refresh after an operation; a previous state or action list may no longer apply.
 
-The main statuses are:
+## Status vocabulary
 
-- **idle** — site is running normally, all operations available
-- **sleeping** — scaled to zero, serving a static HTML snapshot. Can only be woken or deleted.
-- **creating** — initial deployment in progress
-- **busy states** — `updating`, `deleting`, `creating_stage`, `committing_stage`, `restoring`, `applying_template`, etc.
+The source model includes `idle`, `sleeping`, `creating`, `updating`, `deleting`, `creating_stage`, `committing_stage`, `merging_stage`, `deleting_stage`, `previewing_restore`, `restoring`, `entering_sleep`, and `applying_template`. Busy transitions have explicit guards. A timeout is an investigation signal, not permission to force an operation or edit its database row.
 
-A site is **busy** when it is in any status other than `idle` or `sleeping`. While busy, no new operations can be started — the API returns an error. Each busy status has a timeout; if exceeded, it can be force-cleared.
+`creating` means provisioning is in progress. Record the returned site identifier and check readiness rather than submitting another create request because the first response was not immediate. `deleting` means destructive removal is underway; deleting the live site also affects its staging environment.
 
-## The Site Lifecycle
+## Staging and canvas are different
 
-### 1. Creation
-A new site starts in `creating` status. The backend provisions a Kubernetes namespace, CephFS volume, MariaDB database, and deploys WordPress via Helm. On success, the site transitions to `idle` with `active=true`.
+Staging is a separate copy for testing changes. Creating, merging, committing, and deleting staging are explicit operations. A canvas preview uses the live site with its preview mode and does not require staging. Recreating staging is not a repair for a canvas or API error.
 
-### 2. Normal Operation
-In `idle` status, the site is fully operational. Users can edit files, run WP-CLI commands, install plugins, create staging environments, configure DNS, and more.
+Before promoting changes, review both the file and database effects and the available rollback/checkpoint path. Verify the actual live site after completion, not only the staging preview.
 
-### 3. Staging
-Creating a staging site transitions the live site to `creating_stage`. The staging site (`SiteStage`) is a separate WordPress deployment in the same Kubernetes namespace, sharing the live site's CephFS volume (under a `/stage/` subdirectory) and using a separate database. When ready, committing staging pushes changes back to live.
+## Sleep has a reason
 
-### 4. Sleep Mode
-Free-tier and inactive sites can be put to sleep. The process:
-1. Site enters `entering_sleep` status.
-2. A static HTML snapshot of the homepage is captured and uploaded to MinIO.
-3. The WordPress deployment is scaled to zero replicas.
-4. Cloudflare is configured to serve the static snapshot.
-5. Site transitions to `sleeping` status.
+A sleeping site's last sleep reason is separate from its current status. The source distinguishes inactivity, a user request, disk pressure, node pressure, overage, storage grace, and other cases. Visitor-triggered waking is allowed for the inactivity reason; it must not bypass an enforcement or unexplained sleep. An old sleep reason is an audit field and can remain after a site wakes.
 
-Waking a site reverses this: the deployment scales back up and DNS is restored to the live pod.
+## Restore with a recovery path
 
-### 5. Point-in-Time Restore
-Restoring a site is a two-phase process:
-1. **Preview** (`previewing_restore`): The system calculates what files and database state would be restored without making changes.
-2. **Restore** (`restoring`): Files are restored from MinIO backups and the database is rolled back using Dolt commits.
+Review the available restore points and the affected environment. The low-level PIT restore API does not create the protective checkpoint itself. The `site_restore_to_point` intent is preferred when its automatic pre-restore checkpoint and rollback handle are needed. A selected timestamp is not a promise that every file and database change is recoverable at arbitrary precision.
 
-The minimum restore point is the later of: the site's creation date or 2 weeks ago. The maximum restore point is the last successful Dolt backup.
-
-### 6. Deletion
-Deleting a site (`deleting` status) removes:
-- The Kubernetes namespace and all deployments
-- The MariaDB database
-- Cloudflare DNS records (if nameserver-controlled)
-- The CephFS persistent volume
-- A `SiteLiveDeleted` record is created for abuse tracking.
-
-## Data Model
-
-- **SiteLive** — the production site. Belongs to a User and a Team.
-- **SiteStage** — an optional staging copy. Always linked to a SiteLive via `site_live_id`. Shares the same namespace and CephFS volume.
-- Each site is identified by its **FQDN** (fully qualified domain name, e.g., `www.example.com`) and a **UUID**.
-- The Kubernetes namespace is `live-{uuid}` for live sites, deployment names follow `live-{uuid}-wordpress`.
+Wait for the restore result, then inspect content and application behavior. Keep the pre-restore recovery reference until validation is complete. Neither a Git checkout alone nor a screenshot proves that the WordPress database was restored.

@@ -1,47 +1,31 @@
 ---
-title: "Session Replay"
+title: Session replay
 date: 2025-12-04
-tags: ["session-replay", "ux", "debugging"]
+tags:
+- session-replay
+- ux
+- debugging
+authors:
+- SiteBay
+contributors:
+- SiteBay
+description: Use a recorded session to investigate a specific interaction. Filter by the relevant time and page,
+  inspect the timeline, and compare it with the expected behavior.
+keywords:
+- session replay
+- sitebay documentation
+published: 2025-12-04
+slug: session-replay
+license: '[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)'
+doc_sources:
+- analytics-ui
+modified: 2026-10-07
 ---
 
-# Session Replay
+Use a recorded session to investigate a specific interaction. Filter by the relevant time and page, inspect the timeline, and compare it with the expected behavior.
 
-Record anonymous videos of visitors using your site. See clicks, scrolls, rage clicks, and where users get stuck.
+## Use it
 
-## Features
+Review collection and masking settings first. A missing replay can reflect sampling, blocking, or disabled recording; it does not prove that nobody visited.
 
-- **Privacy-first**: Auto-blurs passwords, credit cards. GDPR compliant.
-- **Rage click detection**: Finds broken elements (rapid clicking = frustration)
-- **Dead click detection**: Elements that look clickable but aren't
-- **Heatmaps included**: Visual click density maps
-
-## Setup
-
-1. **Dashboard > Session Replay > Enable**
-2. Set recording rate (start with 10%)
-3. Wait 24h for first recordings
-
-## What to Look For
-
-| Signal | Meaning | Fix |
-|--------|---------|-----|
-| Rage clicks | Something's broken | Check element functionality |
-| Hovering without clicking | User uncertain | Improve clarity/CTA |
-| Scroll back/forth | Looking for something | Improve navigation |
-| Form abandonment | Field is problematic | Simplify or make optional |
-
-## Quick Wins
-
-- Make buttons bigger on mobile (min 44x44px)
-- Add click-to-call for phone numbers
-- Use descriptive link text ("Download pricing" not "Click here")
-- Show form requirements upfront
-
-## Workflow
-
-1. Start with high bounce-rate pages
-2. Watch 5-10 sessions for patterns
-3. Fix the most common issue
-4. Re-check after 1 week
-
-**Don't judge individual sessions** — look for patterns across multiple recordings.
+[Read the full guide]({{< relref "products/posthog/session-replay/index.md" >}}).

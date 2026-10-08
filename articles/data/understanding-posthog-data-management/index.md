@@ -1,68 +1,33 @@
 ---
-title: "PostHog Data Management"
-description: "Organize and track data in PostHog."
+title: Organize analytics data
+description: Define the events and properties your team uses, then document their meaning and owner. Use consistent
+  identifiers and types in the code that sends them.
 published: 2024-07-01
-modified: 2024-12-04
-keywords: ["PostHog", "data management", "analytics", "event tracking"]
-tags: ["PostHog", "Analytics", "Data Management", "Events"]
-authors: ["SiteBay"]
-contributors: ["SiteBay"]
+modified: 2026-10-07
+keywords:
+- PostHog
+- data management
+- analytics
+- event tracking
+tags:
+- PostHog
+- Analytics
+- Data Management
+- Events
+authors:
+- SiteBay
+contributors:
+- SiteBay
+slug: understanding-posthog-data-management
+license: '[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)'
+doc_sources:
+- analytics-ui
 ---
 
-Organize your PostHog data for better insights.
+Define the events and properties your team uses, then document their meaning and owner. Use consistent identifiers and types in the code that sends them.
 
-## Main Sections
+## Use it
 
-| Tab | Purpose |
-|-----|---------|
-| Data Management | Events, properties, annotations |
-| People & Groups | User profiles and segments |
+Inspect a known event after changing tracking. A new definition does not automatically repair older records or every report that depends on them.
 
-## Events
-
-Every user action (click, page view, purchase) is an event.
-
-**Events tab shows:**
-- All tracked actions
-- When last seen
-- Event type (custom vs auto)
-- Properties attached
-
-Click any event to see details, add descriptions, and view examples.
-
-## Actions
-
-Group related events into meaningful categories.
-
-**Example "Completed Onboarding" action:**
-- Signed up
-- Verified email
-- Completed profile
-- First action
-
-## Properties
-
-| Type | Examples |
-|------|----------|
-| Event | Button clicked, page viewed, amount spent |
-| Person | Location, subscription, device |
-| Group | Company size, industry, plan |
-
-## Annotations
-
-Add notes to specific dates:
-- Product launches
-- Marketing campaigns
-- Bug fixes
-- Milestones
-
-## History
-
-Audit trail of changes to events, properties, and descriptions.
-
-## Ingestion Warnings
-
-Alerts for data quality issues:
-- Generic IDs
-- Missing properties
-- Format issues
+[Read the full guide]({{< relref "products/posthog/data-management/index.md" >}}).

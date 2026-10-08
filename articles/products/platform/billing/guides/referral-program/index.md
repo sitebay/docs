@@ -1,33 +1,33 @@
 ---
-title: "Referral Program"
-description: "Earn credits by referring users."
+title: SiteBay referrals and recorded rewards
+description: Use the referral information associated with your signed-in account.
 published: 2024-04-17
-modified: 2025-12-04
-authors: ["SiteBay"]
-contributors: ["SiteBay"]
+modified: 2026-10-08
+authors:
+- SiteBay
+contributors:
+- SiteBay
 modified_by:
   name: SiteBay
+keywords:
+- referral program
+- sitebay documentation
+slug: referral-program
+license: '[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)'
+doc_sources:
+- referrals
 ---
 
-Love hosting your WordPress sites on our AI-native Kubernetes platform? Tell your friends and get paid for it. 
+Use the referral information associated with your signed-in account. A referral URL, a recorded signup, a paid plan, and a recorded payout are different stages; do not treat a click or invite email as earned credit.
 
-## The Rewards
+## Find and share your link
 
-| Who | Gets What |
-|-----|-----------|
-| **Your friend** | Gets a $100 credit right away (expires in 60 days). |
-| **You** | Get a $25 credit once they spend $25 and stay active for 90 days. |
+Open the account's referral view and copy the link it provides. Check that it belongs to your account before sharing it with an intended audience. Do not send bulk unsolicited invitations or include private account data in the URL.
 
-## The Rules
+## Verify results
 
-- You need to have already spent at least $25 on SiteBay out of your own pocket (promo credits don't count).
-- Your friend needs to add a valid payment method when they sign up.
+The current account view distinguishes referred users, paid-plan information, and recorded payouts. Review the actual entry, amount and currency rather than adding a fixed hypothetical reward. The backend's referral attribution response can contain a null referrer when no attribution applies.
 
-## Grab Your Link
+## Read current terms
 
-1. Log into [my.sitebay.org](https://my.sitebay.org) and click your username at the top.
-2. Hit **My Profile**.
-3. Go to the **Referrals** tab.
-4. Copy your unique referral URL.
-
-Post it on Twitter, drop it in your team's Slack, or text it to a friend.
+Check the account’s program terms for credits, commissions, minimum spend, and expiry dates. [Contact support]({{< relref "products/platform/get-started/guides/support/index.md" >}}) about a specific missing attribution or payout with its non-secret reference.

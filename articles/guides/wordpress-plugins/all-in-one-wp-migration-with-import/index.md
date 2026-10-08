@@ -1,59 +1,45 @@
 ---
 slug: all-in-one-wp-migration-with-import
-description: 'Backup and restore WordPress sites with All-in-One WP Migration.'
-keywords: ["wordpress migration", "backup", "restore", "wp migration"]
-tags: ["wordpress", "backup", "restore", "migration"]
+description: Use a supported migration package to copy a WordPress site into a prepared destination. Importing can
+  replace destination data.
+keywords:
+- wordpress migration
+- backup
+- restore
+- wp migration
+tags:
+- wordpress
+- backup
+- restore
+- migration
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
-modified: 2024-12-04
+modified: 2026-10-07
 modified_by:
   name: SiteBay
 published: 2024-03-04
-title: "All-in-One WP Migration"
-authors: ["SiteBay"]
-contributors: ["SiteBay"]
+title: Import with All-in-One WP Migration
+authors:
+- SiteBay
+contributors:
+- SiteBay
+doc_sources:
+- wp-migration
 ---
 
-Backup and restore WordPress sites with a single plugin.
+Use a supported migration package to copy a WordPress site into a prepared destination. Importing can replace destination data.
 
-## Install
+## Prepare both sites
 
-1. Plugins → Add New
-2. Search "All-in-One WP Migration"
-3. Install and activate
+Check the plugin's current compatibility, package size limits, and extension requirements. Keep a separate backup of the destination before importing. Do not use a modified or untrusted plugin package to bypass limits.
 
-## Export (Backup)
+## Export and import
 
-1. All-in-One WP Migration → Export
-2. Click **Export To** → **File**
-3. Download `.wpress` file
+Install the trusted plugin on the source and create its export package. Store the package privately. On the destination, open the plugin's import view, select the package, and review the overwrite warning before proceeding.
 
-## Import (Restore)
+Wait for completion and follow the plugin's post-import instructions. Source-site credentials can replace destination WordPress credentials, so preserve an authorized way to sign in.
 
-1. All-in-One WP Migration → Import
-2. Click **Import From** → **File**
-3. Upload `.wpress` backup
-4. Confirm overwrite
+## Verify the copy
 
-## What Gets Transferred
+Check URLs, media, administration, forms, and integrations before changing DNS. Account for new source-site writes after the export.
 
-- Database
-- Media files
-- Plugins
-- Themes
-- Settings
-
-## File Size Limits
-
-| Version | Limit |
-|---------|-------|
-| Free | 512MB |
-| Premium | Unlimited |
-
-Use "File Extension" add-on for larger imports.
-
-## After Restore
-
-- Test all pages
-- Verify functionality
-- Update admin password
-- Check permalinks (Settings → Permalinks → Save)
+Follow the [ServMask user guide](https://help.servmask.com/knowledgebase/all-in-one-wp-migration-user-guide/) for your installed version. Use [the migration checklist]({{< relref "platform/migrate-to-sitebay/best-practices-when-migrating-to-sitebay/index.md" >}}) for cutover planning.

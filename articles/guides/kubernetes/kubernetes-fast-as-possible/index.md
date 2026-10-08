@@ -1,61 +1,40 @@
 ---
 slug: kubernetes-fast-as-possible
-description: 'Quick Kubernetes setup for WordPress on SiteBay.'
-keywords: ["kubernetes", "wordpress", "deployment", "nginx", "SiteBay"]
-tags: ["wordpress", "kubernetes", "nginx", "deployment", "SiteBay"]
+description: Kubernetes runs the workloads behind SiteBay hosting. The SiteBay dashboard and API expose the site
+  actions available to your account.
+keywords:
+- kubernetes
+- wordpress
+- deployment
+- nginx
+- SiteBay
+tags:
+- wordpress
+- kubernetes
+- nginx
+- deployment
+- SiteBay
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
 modified_by:
   name: SiteBay
-modified: 2024-12-04
+modified: 2026-10-07
 published: 2024-04-27
-title: 'Kubernetes Quick Start'
-authors: ["SiteBay"]
-contributors: ["SiteBay"]
+title: Kubernetes in SiteBay
+authors:
+- SiteBay
+contributors:
+- SiteBay
+doc_sources:
+- platform-architecture
+- lifecycle
 ---
 
-Deploy WordPress on Kubernetes with SiteBay.
+Kubernetes runs the workloads behind SiteBay hosting. The SiteBay dashboard and API expose the site actions available to your account.
 
-## Quick Setup
+## What this means for a site owner
 
-1. Sign up for SiteBay
-2. Create Kubernetes cluster (choose region near audience)
-3. Deploy WordPress with NGINX via Helm
-4. Configure domain and SSL
-5. Monitor and scale as needed
+Your site has a lifecycle and status separate from the underlying cluster. Use the site's status and logs to identify whether a problem concerns provisioning, application behavior, or an unavailable dependency.
 
-## Deploy NGINX
+A site workspace does not grant cluster-administration access. Do not use a generic Kubernetes tutorial as permission to restart infrastructure or change shared resources.
 
-```yaml
-# nginx-deployment.yaml
-apiVersion: apps/v1
-kind: Deployment
-metadata:
-  name: nginx
-spec:
-  replicas: 2
-  selector:
-    matchLabels:
-      app: nginx
-  template:
-    metadata:
-      labels:
-        app: nginx
-    spec:
-      containers:
-      - name: nginx
-        image: nginx:latest
-        ports:
-        - containerPort: 80
-```
-
-```bash
-kubectl apply -f nginx-deployment.yaml
-kubectl get deployments
-```
-
-## Why Kubernetes + SiteBay
-
-- **Scalability** - Handle traffic spikes
-- **High availability** - Auto-restart failed containers
-- **Speed** - Fast deployments and updates
-- **Single dashboard** - Manage everything in one place
+For the supported operational view, read [Site lifecycle]({{< relref "products/platform/site-lifecycle/index.md" >}}).

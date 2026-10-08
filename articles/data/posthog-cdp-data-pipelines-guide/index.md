@@ -1,64 +1,32 @@
 ---
-title: "PostHog Data Pipelines"
-description: "Connect, transform, and move customer data with PostHog CDP."
+title: Plan an analytics data pipeline
+description: Map which system sends each event, which properties are needed, and which destination receives them.
 published: 2024-07-01
-modified: 2024-12-04
-keywords: ["PostHog", "CDP", "data pipelines", "customer data platform"]
-tags: ["PostHog", "CDP", "Data Pipelines", "Integration"]
-authors: ["SiteBay"]
-contributors: ["SiteBay"]
+modified: 2026-10-07
+keywords:
+- PostHog
+- CDP
+- data pipelines
+- customer data platform
+tags:
+- PostHog
+- CDP
+- Data Pipelines
+- Integration
+authors:
+- SiteBay
+contributors:
+- SiteBay
+slug: posthog-cdp-data-pipelines-guide
+license: '[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)'
+doc_sources:
+- analytics-ui
 ---
 
-Use PostHog as a Customer Data Platform (CDP) to unify your data.
+Map which system sends each event, which properties are needed, and which destination receives them. Select the corresponding project and review the connection settings available there.
 
-## Three Components
+## Use it
 
-| Component | Purpose |
-|-----------|---------|
-| Sources | Pull data from external systems |
-| Transformations | Clean and modify data |
-| Destinations | Send data to other tools |
+Test a small event sample end to end. Confirm field types, delivery, access, and failure handling before increasing volume. Do not copy customer data into an additional destination without reviewing its purpose and permissions.
 
-## Common Use Cases
-
-### Send to Data Warehouse
-Export PostHog events to Snowflake, BigQuery, or Redshift for company-wide reporting.
-
-### Webhooks
-Trigger actions when events occur:
-- Slack notifications for signups
-- Update CRM on feature usage
-- Create support tickets on errors
-
-### Schema Enforcement
-Reject events that don't match your data standards.
-
-### Auto-Label Events
-Tag events as "onboarding", "core feature", etc.
-
-## Billing
-
-- Basic PostHog: Free
-- Data pipelines: Paid add-on
-
-## Setup Steps
-
-1. **Assess** - List current data sources and pain points
-2. **Start small** - Connect one destination first
-3. **Add transformations** - Clean event names, filter test data
-4. **Scale** - Add sources, advanced transformations
-
-## Troubleshooting
-
-| Problem | Solution |
-|---------|----------|
-| Pipeline failures | Check logs, verify credentials |
-| Duplicate data | Add DISTINCT, check multiple pipelines |
-| Schema mismatches | Verify data format matches destination |
-
-## Tips
-
-- Document your transformations
-- Monitor for failures
-- Start with high-impact use cases
-- Plan for scale
+[Read the full guide]({{< relref "products/posthog/data-management/index.md" >}}).

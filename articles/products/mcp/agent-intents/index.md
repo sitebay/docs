@@ -1,58 +1,62 @@
 ---
 slug: mcp-agent-intents
-description: "Use SiteBay MCP agent intent tools for higher-level WordPress site operations."
-keywords: ["mcp", "sitebay", "wordpress", "agent", "automation"]
-license: "[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)"
+description: Intent operations combine common site-management steps with a defined request and result.
+keywords:
+- mcp
+- sitebay
+- wordpress
+- agent
+- automation
+license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
 published: 2026-04-28
-modified: 2026-04-28
+modified: 2026-10-07
 modified_by:
   name: SiteBay
-title: "SiteBay MCP agent intent tools"
+title: Use guarded SiteBay agent workflows
 bible: true
-tags: ["sitebay", "mcp", "ai"]
-authors: ["SiteBay"]
-contributors: ["SiteBay"]
+tags:
+- sitebay
+- mcp
+- ai
+authors:
+- SiteBay
+contributors:
+- SiteBay
+doc_sources:
+- mcp-platform
+- lifecycle
 ---
 
-# SiteBay MCP agent intent tools
+Intent operations combine common site-management steps with a defined request and result. Their availability is determined by the advertised tool contract, current site state and calling identity—not a model's ability to describe the action.
 
-Agent intent tools are higher-level SiteBay MCP tools for common WordPress operations. They reduce multi-step workflows into safer, structured actions an AI agent can call directly.
+## Inspect and diagnose
 
-## Tools
+The site summary returns identity, status, team, staging, restore-window and execution-readiness information. It is not the heavy live plugin/PHP probe. The diagnosis operation performs read-only health checks and returns findings with recommended actions; a recommendation is not authorization to execute it.
 
-| Tool | Use it for |
-|---|---|
-| `site_summary_full` | Get the site, team, staging, restore window, and execution-readiness snapshot. |
-| `site_diagnose` | Run a read-only health check and get recommended actions. |
-| `site_plugin_ensure` | Install, update, activate, or deactivate a plugin declaratively. |
-| `site_content_apply` | Apply WordPress settings and page updates in one idempotent request. |
-| `site_stage_promote` | Promote staging to live after explicit confirmation. |
-| `site_restore_to_point` | Restore a live site to a timestamp or Dolt restore hash after explicit confirmation. |
+## Plugins and content
 
-## Example prompts
+The plugin-ensure operation can install a missing plugin, update a requested version, and set activation state. A plugin change can break the site, so create an appropriate checkpoint first. Reuse the same documented idempotency key when retrying the same request.
 
-Ask for a diagnosis:
+Content-apply can update settings and pages matched by slug. Matching an existing slug changes that page rather than always creating a new one. Review the intended settings, pages and site before approving it.
 
-```text
-Diagnose example.com and tell me the highest-priority fix.
-```
+## Promotion and restore
 
-Make a plugin state declarative:
+Staging promotion requires its confirmation contract and returns an operation/event reference. Review the file and database consequences, then inspect the completed live state.
+
+The restore-to-point workflow creates a pre-restore checkpoint, validates the target and dispatches the restore. Keep the returned checkpoint and restore ID so you can inspect progress and retain a recovery handle. This is safer than assuming the low-level PIT request protects the current state automatically.
+
+## Useful requests
 
 ```text
-Make sure WooCommerce is installed and active on example.com.
+Diagnose example.com without changing it. Show the findings and proposed next action.
 ```
-
-Promote staging only after approval:
 
 ```text
-Summarize the staging changes for example.com. If I approve, promote staging to live.
+Compare staging with live for example.com. Show the impact and recovery point; do not promote until I approve.
 ```
-
-Restore safely:
 
 ```text
-Find the restore point before my last content change on example.com and prepare a rollback plan.
+Find the restore point before my content change. Prepare the restore plan and wait for approval.
 ```
 
-The destructive tools require confirmation flags so the agent must present the action before promotion or restore.
+Do not assume one tool name remains stable across every MCP client; discover the advertised operation and its schema. An idempotency key prevents a supported duplicate request from being treated as fresh work, but it does not replace completion checks. See [API integration]({{< relref "products/platform/api-reference/index.md" >}}).

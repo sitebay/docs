@@ -1,65 +1,63 @@
 ---
 slug: how-to-use-echo
-description: 'Display text and write to files with the echo command.'
-keywords: ["sitebay", "how to", "echo"]
-aliases: ['quick-answers/how-to-use-echo/']
+description: echo is convenient for simple terminal messages. Use printf for predictable formatting, especially
+  when input might contain backslashes or start with an option-like value.
+keywords:
+- sitebay
+- how to
+- echo
+aliases:
+- quick-answers/how-to-use-echo/
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
-modified: 2024-12-04
+modified: 2026-10-07
 modified_by:
   name: SiteBay
 published: 2024-03-04
 image: UseEchoCommand.png
-title: echo Command
-tags: ["sitebay", "command line", "echo"]
-authors: ["SiteBay"]
-contributors: ["SiteBay"]
+title: Print text with echo and printf
+tags:
+- sitebay
+- command line
+- echo
+authors:
+- SiteBay
+contributors:
+- SiteBay
+doc_sources:
+- shell-reference
+- code-server
 ---
 
-Display text or write to files.
+`echo` is convenient for simple terminal messages. Use `printf` for predictable formatting, especially when input might contain backslashes or start with an option-like value.
 
 ## Basic Usage
 
 ```bash
-echo "Hello World"
+echo 'Hello World'
+printf '%s\n' 'Hello World'
 ```
 
-## Options
+Different shells interpret `echo -e`, `echo -n` and escape sequences differently. Avoid relying on those differences in a portable script.
 
-| Option | Purpose |
-|--------|---------|
-| `-e` | Enable escape sequences |
-| `-n` | No trailing newline |
-
-## Escape Sequences
+## Format without interpreting the data
 
 ```bash
-echo -e "Line1\nLine2"      # New line
-echo -e "Col1\tCol2"        # Tab
-echo -e "\aAlert"           # Beep sound
+message='-n is data, not an option'
+printf '%s\n' "$message"
+printf 'Column 1\tColumn 2\n'
 ```
 
-## Write to Files
+The format string is fixed and the variable is supplied as data. Do not use untrusted input as the `printf` format string.
+
+## Write to a practice file
 
 ```bash
-# Overwrite
-echo "text" > file.txt
-
-# Append
-echo "more text" >> file.txt
-
-# With date
-echo "Backup: $(date)" >> log.txt
+printf '%s\n' 'first line' > practice.txt
+printf '%s\n' 'second line' >> practice.txt
 ```
 
-## List Files
+`>` truncates an existing file; `>>` appends. Inspect your directory and target before redirecting output. A failed command can still leave a redirection-created file.
 
-```bash
-echo *           # All files
-echo *.php       # PHP files only
-```
+## Globs are not a file API
 
-## Add to PATH
-
-```bash
-echo 'export PATH=$PATH:/opt/bin' >> ~/.bashrc
-```
+`echo *` prints shell-expanded names, usually excluding dotfiles. It is not reliable structured input for another command, especially with spaces or newlines in names. Use `find` with NUL-delimited output when processing filenames. Avoid printing API keys, database credentials or recovery codes into terminal logs.

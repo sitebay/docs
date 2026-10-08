@@ -3,63 +3,47 @@ slug: managing-your-staging-site-on-code-server
 author:
   name: SiteBay
   email: support@sitebay.org
-keywords: ["staging", "code server", "wordpress"]
-description: 'Manage your WordPress staging site with Code Server.'
+keywords:
+- staging
+- code server
+- wordpress
+description: A staging environment is a separate test copy, not the live canvas preview. Verify the selected site
+  and staging state before opening a workspace or running WP-CLI.
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
-modified: 2024-12-04
+modified: 2026-10-07
 modified_by:
   name: SiteBay
 published: 2024-04-04
-title: Managing Staging with Code Server
+title: Edit an explicitly selected staging environment
 show_on_frontpage: true
 weight: 10
-icon: "book"
+icon: book
+authors:
+- SiteBay
+contributors:
+- SiteBay
+doc_sources:
+- code-server
+- lifecycle
+- wp-cli
 ---
 
-Edit your staging site directly in the browser with Code Server.
+A staging environment is a separate test copy, not the live canvas preview. Verify the selected site and staging state before opening a workspace or running WP-CLI.
 
 ## Access Staging
 
-1. Log into [SiteBay dashboard](https://my.sitebay.org)
-2. Go to your site → **Staging** tab
-3. Click **Code Server**
+Use the current site's staging controls and wait for staging creation to complete. Open the environment-specific workspace action when offered. Inspect the displayed domain, branch and files. Do not assume that a code-server tab always opens staging or that a guessed `/bitnami/stagewordpress` path identifies the correct database.
 
-## Directory Structure
+## Inspect before a command
 
-| Directory | Purpose |
-|-----------|---------|
-| `/bitnami/stagewordpress` | Staging root |
-| `/bitnami/stagewordpress/wp-content/themes` | Themes |
-| `/bitnami/stagewordpress/wp-content/plugins` | Plugins |
-| `/bitnami/stagewordpress/wp-content/uploads` | Media |
+Check `pwd`, the opened workspace and the WordPress path required by WP-CLI. Run a read-only version or plugin-list check first. Do not respond to a permission error with blanket `chmod` changes or elevated access; the target may simply be wrong or unavailable.
 
-## Common WP-CLI Commands
+## Make a test change
 
-```bash
-# List plugins
-wp plugin list --path=/bitnami/stagewordpress
+Create a suitable recovery point, change one theme/plugin file, inspect the diff and verify the staging page. Database exports belong in a private destination. A URL search-replace needs its own dry-run and review; a broad plugin update is not a harmless connection test.
 
-# Update all plugins
-wp plugin update --all --path=/bitnami/stagewordpress
+## Promote deliberately
 
-# Export database
-wp db export backup.sql --path=/bitnami/stagewordpress
+Review the file and database differences, incoming live content, external integrations and rollback handle. Use the supported promotion operation with explicit authorization and inspect the resulting live site. Saving a staging file or merging a repository branch does not alone prove the promotion occurred.
 
-# Search-replace URLs
-wp search-replace 'old-url.com' 'new-url.com' --path=/bitnami/stagewordpress
-```
-
-## Workflow
-
-1. Edit theme files in `/bitnami/stagewordpress/wp-content/themes/your-theme`
-2. Save (Ctrl+S)
-3. View staging site to verify
-4. Deploy to production when ready
-
-## Troubleshooting
-
-| Issue | Solution |
-|-------|----------|
-| Changes not appearing | Clear browser cache |
-| WP-CLI errors | Verify `--path=/bitnami/stagewordpress` |
-| Permission issues | Use `chmod` in terminal |
+See [site lifecycle]({{< relref "products/platform/site-lifecycle/index.md" >}}) and [the current code-server workspace procedure]({{< relref "products/code-server/get-started/index.md" >}}). Do not recreate staging as a workaround for a live canvas failure.

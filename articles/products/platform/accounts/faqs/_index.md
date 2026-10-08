@@ -1,24 +1,42 @@
 ---
-title: "FAQs"
-title_meta: "FAQs for Creating and Managing SiteBay Accounts"
-description: "Find quick answers to some of the most commonly asked account and login questions."
+title: Account questions
+title_meta: Account questions
+description: They are separate identities. Use the reset flow for the account you need rather than changing an unrelated
+  credential.
 tab_group_main:
-    weight: 60
+  weight: 60
 published: 2024-03-04
-modified: 2024-03-14
+modified: 2026-10-07
+authors:
+- SiteBay
+contributors:
+- SiteBay
+keywords:
+- faqs
+- sitebay documentation
+slug: faqs
+license: '[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)'
+doc_sources:
+- teams
+- api-auth
+- support
+layout: documentation-section
 ---
 
-## I no longer remember my user password. How can I reset it?
+## Is my WordPress login the SiteBay login?
 
-If you forget the password associated with your SiteBay user account, you can reset it using the [forgot password](https://my.sitebay.org/forgot/password) form. Once you enter your username and submit the form, a password reset is emailed to the user's email address. See [Reset Your User Password](/docs/products/platform/accounts/guides/reset-user-password/).
+They are separate identities. Use the reset flow for the account you need rather than changing an unrelated credential.
 
-If you instead need assistance resetting the admin user on a WordPress Site, use the wp-cli in code-server.
+## How do collaborators get access?
 
-## I'm not receiving password reset emails.
+Use individual team memberships and the appropriate role. Review WordPress users and repository permissions separately.
 
-Login-related emails are sent to the email address of your user account (not to the billing contact email) and are sent from *support@sitebay.org*. If you are expecting a password reset email but not seeing one in your inbox, follow the steps below:
+## Does an API key grant every operation?
 
-- Check your spam or junk folder for the email.
-- Search your inbox for the sender email (*support@sitebay.org*).
-- If you are using a Microsoft email service (like Outlook.com, Microsoft 365, or Exchange), verify that *sitebay.org* is on the [safe senders list](https://support.microsoft.com/en-us/office/block-or-allow-junk-email-settings-48c9f6f7-2309-4f95-9a4d-de987e880e46#bkmk_safesenders).
-- For Microsoft 365: review your [quarantined email messages](https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/quarantine-end-user). When viewing the [quarantine portal](https://protection.office.com/quarantine), search for your email address, locate the email you wish to receive, and release/allow that email. and release any emails from *sitebay.org*.
+No. The key's authentication and scope do not replace resource-level authorization. Use the least access needed for the integration.
+
+## What should I include in an access report?
+
+Provide the account or team context, site, time, action, and redacted error. Do not send a password or token.
+
+See [account procedures]({{< relref "products/platform/accounts/guides/_index.md" >}}) and [API setup]({{< relref "platform/api/getting-started-with-the-sitebay-api/index.md" >}}).

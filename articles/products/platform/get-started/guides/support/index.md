@@ -1,48 +1,42 @@
 ---
-title: "Support"
-description: "How to get help."
+title: Contact SiteBay support
+description: Open the Support area in your SiteBay account to review or create a ticket.
 published: 2024-03-14
-modified: 2025-12-04
+modified: 2026-10-07
 modified_by:
   name: SiteBay
-keywords: ["support", "help"]
-tags: ["sitebay platform"]
-aliases: ['/platform/billing-and-support/support/','/support/','/platform/support/','/guides/support/']
-authors: ["SiteBay"]
-contributors: ["SiteBay"]
+keywords:
+- support
+- help
+tags:
+- sitebay platform
+aliases:
+- /platform/billing-and-support/support/
+- /support/
+- /platform/support/
+- /guides/support/
+authors:
+- SiteBay
+contributors:
+- SiteBay
+slug: support
+license: '[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)'
+doc_sources:
+- support
 ---
 
-Running into an issue? We've got 24/7 support available for all SiteBay users, completely free. 
+Open the Support area in your SiteBay account to review or create a ticket.
 
-## How to Reach Us
+## Describe the problem
 
-| Method | What it's for |
-|--------|---------------|
-| **Support ticket** | Best and fastest way. Log into [my.sitebay.org](https://my.sitebay.org), hit **Help & Support**, and open a ticket. |
-| **Email** | support@sitebay.org. Use this for general questions or if you can't access your dashboard. |
-| **Contact Form** | If you're completely locked out, use the [form on our site](https://www.sitebay.org/contact/). |
+Include the site or team, environment, time, expected behavior, actual error, and a short reproduction. Include the operation ID for a failed or uncertain background task. Say whether the public site, administration, or one integration is affected.
 
-*Pro-tip: If you're using the SiteClaw mobile app, you can shoot us a message directly from there, too.*
+## Protect sensitive information
 
-## Do It Yourself
+Share only the relevant log excerpt or screenshot. Remove passwords, API keys, payment details, and unrelated visitor data. Do not make a private backup or database export public to attach it to a ticket.
 
-Before you wait for a reply, you might find the answer here:
-- **[The Docs](/docs/)**: (You are here.) Guides on everything from basic setup to the SiteBay MCP Server.
-- **[Community Site](https://community.sitebay.org/)**: Chat with other devs and WordPress admins.
-- **[Status Page](https://status.sitebay.org/)**: Check if there's a known outage or Kubernetes maintenance happening.
+## Follow the ticket
 
-## What We Can (and Can't) Help With
+Keep related evidence in the same ticket. An automated reply or accepted ticket is not confirmation that a person has investigated the issue or that the operation succeeded.
 
-**We've got your back on:**
-- Issues with the SiteBay platform or dashboard
-- Billing and account access questions
-- Underlying infrastructure or Kubernetes performance issues
-
-**You're on your own for:**
-- Configuring third-party apps
-- Debugging messy WordPress plugins or broken themes
-- Writing or fixing your custom PHP/JS code
-
-## Help Us Help You
-
-When you open a ticket, don't just say "it's broken." Be specific. Give us error logs, tell us exactly what you clicked, and let us know what troubleshooting steps you've already tried. The more details you give us, the faster we can fix it.
+For an application problem, start with [WordPress diagnostics]({{< relref "guides/common-problems/1/index.md" >}}). For a suspected compromise, use [incident recovery]({{< relref "guides/security/recovery/recovering-from-a-wordpress-hack/index.md" >}}).

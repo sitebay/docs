@@ -1,48 +1,35 @@
 ---
 slug: what-is-posthog
-description: 'PostHog analytics on SiteBay.'
-keywords: ["PostHog", "WordPress", "analytics", "sitebay"]
+description: The SiteBay analytics interface uses PostHog features for events, insights, dashboards, session recordings,
+  and related analysis.
+keywords:
+- PostHog
+- WordPress
+- analytics
+- sitebay
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
 published: 2024-04-18
-modified: 2025-12-04
+modified: 2026-10-07
 modified_by:
   name: SiteBay
-title: 'PostHog'
-tags: ["sitebay", "analytics", "PostHog"]
+title: PostHog in SiteBay
+tags:
+- sitebay
+- analytics
+- PostHog
 image: PostHog.png
-authors: ["SiteBay"]
-contributors: ["SiteBay"]
+authors:
+- SiteBay
+contributors:
+- SiteBay
+doc_sources:
+- analytics-ui
 ---
 
-# PostHog
+The SiteBay analytics interface uses PostHog features for events, insights, dashboards, session recordings, and related analysis. Work in the project connected to the intended site.
 
-Open-source analytics platform. Built into SiteBay.
+## Use it
 
-## Features
+Feature availability and captured data depend on that project and its settings. Verify a known test event before building reports.
 
-| Feature | Use |
-|---------|-----|
-| Event tracking | Track clicks, page views, custom actions |
-| Session recordings | Watch user sessions |
-| Heatmaps | See where users click |
-| Feature flags | A/B test new features |
-| Funnels | Track conversion paths |
-| Cohorts | Group users by behavior |
-
-## Setup
-
-Already integrated with SiteBay. Access at **Dashboard > Analytics**.
-
-## Common Uses
-
-1. **Track conversions**: Form submissions, purchases, signups
-2. **Find drop-offs**: See where users leave your funnel
-3. **Test features**: Roll out changes to % of users
-4. **Debug UX issues**: Watch session recordings
-
-## Key Metrics
-
-- Retention rate
-- Conversion rate by funnel step
-- Feature adoption
-- User paths through site
+[Read the full guide]({{< relref "products/posthog/get-started/index.md" >}}).

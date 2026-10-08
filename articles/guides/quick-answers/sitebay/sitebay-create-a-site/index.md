@@ -1,64 +1,49 @@
 ---
 slug: sitebay-create-a-site
-description: "Learn how to instantly deploy a new AI-native WordPress environment on the SiteBay platform."
-keywords: ['create site', 'new wordpress', 'deployment', 'kubernetes', 'sitebay dashboard']
+description: Use the creation workflow for a new site, not as a substitute for staging or repairing an existing
+  site.
+keywords:
+- create site
+- new wordpress
+- deployment
+- kubernetes
+- sitebay dashboard
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
 published: 2024-03-13
-modified: 2026-03-12
+modified: 2026-10-07
 modified_by:
   name: SiteBay
-title: "Creating a Site on SiteBay"
+title: Create one SiteBay site
 bible: true
-tags: ["sitebay", "getting started", "deployment"]
-authors: ["SiteBay"]
-contributors: ["SiteBay"]
+tags:
+- sitebay
+- getting started
+- deployment
+authors:
+- SiteBay
+contributors:
+- SiteBay
+doc_sources:
+- site-ui
+- lifecycle
+- regions
+- pricing
 ---
 
-# Creating a Site on SiteBay
+Use the creation workflow for a new site, not as a substitute for staging or repairing an existing site.
 
-Deploying a new WordPress site on SiteBay provisions a highly optimized, fully isolated container environment on our Kubernetes infrastructure. The process takes less than 60 seconds from click to fully functional site.
+## Before submitting
 
-## Deployment Methods
+Read the selected team's current plan and allowance. Choose a region and ready-made site that the product actually offers. Record the intended domain and review whether this is a new WordPress installation or a migration target. Do not use a guessed “US West” region or a free-site entitlement copied from an old table.
 
-SiteBay's AI-native architecture means you aren't restricted to just pointing and clicking in a web browser. You can create a site using any of the following methods:
+## Create and wait for readiness
 
-### 1. Via the Dashboard (Web UI)
-The traditional approach for humans:
-1.  Log in to [my.sitebay.org](https://my.sitebay.org).
-2.  Click the **Create Site** button in the top right corner.
-3.  Choose a **Starting Point**: Start with a blank WordPress installation, or select from our library of **Templates** (Ready-Made Sites).
-4.  Enter your **Site Name** (this will create a temporary `.sitebay.org` URL).
-5.  Select a **Region** (e.g., US West, EU Central) based on where your audience is located.
-6.  Click **Deploy**. Your site will be ready in under a minute.
+Submit the reviewed request once. Preserve its returned ID and inspect status until provisioning is complete or an actionable error is reported. A timeout may leave the outcome unknown; check for the existing site before making a duplicate request.
 
-### 2. Via the MCP Server (AI Agents)
-If you are using Claude Desktop with the SiteBay MCP, you can simply tell your agent what you want:
-> *"Create a new WordPress site called 'my-new-blog' in the EU Central region, and install the SEO plugin."*
+## Verify the application
 
-The agent will use the `sitebay_create_site` tool to securely provision the infrastructure and configure it to your specifications.
+Open the site and use the authenticated **WP Admin** action to obtain a one-use login grant. Verify the target and basic page behavior. For a migration, test the imported database, media and integrations before DNS cutover. Do not assume a video or screenshot proves current site readiness.
 
-### 3. Via SiteClaw (ChatGPT)
-Using the SiteClaw custom GPT:
-> *"I need a staging environment for testing. Please spin up a new SiteBay site using the E-commerce template in the US West region."*
+## Continue deliberately
 
-### 4. Via SiteClaw Mobile
-Using the SiteClaw app, you can use your voice:
-> *(Tap microphone)* *"Deploy a new blank WordPress site for a client project."*
-
-## What Happens During Deployment?
-
-When you create a site, SiteBay orchestrates several background processes instantly:
-
-1.  **Container Provisioning:** A dedicated, isolated pod is spun up on a Kubernetes node in your chosen region.
-2.  **Database Creation:** A secure MariaDB database is initialized specifically for this site, tied into our continuous Point-in-Time backup system.
-3.  **Core Installation:** The latest stable version of WordPress is installed, alongside the **SiteBay AI-Friendly Theme**.
-4.  **Analytics Injection:** The native PostHog integration is wired up, meaning session replays and analytics start recording the moment the site goes live.
-5.  **Edge Networking:** Cloudflare routes and caching rules are automatically generated for your temporary domain.
-
-## Next Steps
-
-Once your site is live, you can:
-*   Log into the WP Admin panel via Single Sign-On (SSO) from the dashboard.
-*   Attach a custom domain name.
-*   Launch Code Server to start developing.
-*   Link your Git repository via Git Sync.
+[The full getting-started guide]({{< relref "guides/get-started/getting-started-with-site-bay/index.md" >}}) covers account access, domain setup, analytics and development tools. Give an assistant a scoped request and require approval for writes; MCP access does not grant Kubernetes administration.

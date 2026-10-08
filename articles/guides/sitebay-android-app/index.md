@@ -3,68 +3,43 @@ slug: site-bay-android-app-introduction
 author:
   name: SiteBay
   email: support@sitebay.org
-description: 'Introducing the new SiteBay Android app, your mobile solution for managing your WordPress sites on the go.'
-keywords: ['SiteBay app', 'wordpress mobile', 'android app']
-tags: ["SiteBay","mobile app","android"]
+description: Use the Sorti build distributed through the release channel provided to you.
+keywords:
+- SiteBay app
+- wordpress mobile
+- android app
+tags:
+- SiteBay
+- mobile app
+- android
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
 published: 2024-04-04
 modified_by:
   name: SiteBay
-title: "Early Access: SiteBay Android App"
+title: Use Sorti on mobile
+authors:
+- SiteBay
+contributors:
+- SiteBay
+doc_sources:
+- mobile-app
+- sorti-runtime
+- voice-runtime
+modified: 2026-10-07
 ---
-###  Why Write for SiteBay?
 
-- **Get Paid to Share Knowledge:** Transform your tech skills into dollars
-- **Reach a Global Audience:** Impact WordPress users worldwide
-- **Build Your Personal Brand:** Become a recognized expert
+Use the Sorti build distributed through the release channel provided to you. The application source targets Android, iOS, and web, but a source configuration does not establish a currently available store release.
 
-###  The GitHub Connection: Your Technical Playground
+## Connect safely
 
-#### GitHub 101: Your New Best Friend
-- **Not a GitHub Pro?** No worries! Start with [Git basics]({{< relref "guides/quick-answers/sitebay/how-to-use-git/index.md" >}}).
-- **Pull Requests are Your Superpower:** Contribute, improve, evolve
-- **Open Source Spirit:** Collaborate with a community of tech enthusiasts
+Check the app identity and selected environment before signing in. Use the account associated with the intended workspace. Grant microphone access only when using voice features.
 
-###  The SiteBay Writers' Profit Formula
+## Start a task
 
-#### How We Turn Your Wisdom into Wealth
-- **Quality Pays:** Top-tier tutorials = Top-tier compensation
-- **Direct Account Credit:** Get paid straight to your SiteBay account
-- **No Gatekeeping:** If your content rocks, we'll make it rain 
+Select the correct session and site, then make a small request. Verify the returned result and any required approval before allowing a site change. Native and browser renderers can differ, so test the workflow on the device you will use.
 
-###  The SiteBay Content Manifesto
+## Report a problem
 
-#### Writing Rules That Separate Pros from Amateurs
+Record the app version, device, environment, time, and failing action. Do not share tokens or private recordings in a report.
 
-1. **Markdown Magic** 
-   - Clean, simple, powerful documentation format
-   - No fancy tricks, just pure, readable content
-
-2. **Cut the Fluff, Serve the Meat**
-   - Every sentence must deliver value
-   - Readers' time is sacred – respect it
-
-3. **Authentic Voice is King**
-   - Write like you're explaining to a friend
-   - Technical doesn't mean boring
-   - Inject personality into your prose
-
-###  The Perfect Tutorial Blueprint
-
-#### Intro: Hook, Line, and Sinker
-- **Grab Attention:** Why should readers care?
-- **Context is Key:** What problem are you solving?
-- **Link Resources:** Make navigation seamless
-
-#### Style Guidelines
-- **Use Clear Steps**
-- **Leverage Bullet Points**
-- **Break Down Complex Concepts**
-- **Include Code Snippets**
-- **Add Screenshots/Visuals**
-
-###  The Legal Lowdown
-
-- **Copyright Transfer:** Content becomes SiteBay's asset
-- **Transparent Compensation:** Agreed rates, no surprises
-- **Instant Account Credit**
+Read [What is Sorti?]({{< relref "sorti/what-is-sorti.md" >}}) and [Voice troubleshooting]({{< relref "voice/troubleshooting.md" >}}).

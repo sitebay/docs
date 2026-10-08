@@ -1,30 +1,44 @@
 ---
-title: Choose a Data Center
-description: 'Select the right region for your site.'
-keywords: ["data center", "region"]
-tags: ["sitebay platform"]
+title: Choose an available SiteBay region
+description: Select the right region for your site.
+keywords:
+- data center
+- region
+tags:
+- sitebay platform
 published: 2024-04-24
-modified: 2025-12-04
+modified: 2026-10-08
 modified_by:
   name: SiteBay
-aliases: ['/platform/how-to-choose-a-data-center/','/guides/how-to-choose-a-data-center/']
-authors: ["SiteBay"]
-contributors: ["SiteBay"]
+aliases:
+- /platform/how-to-choose-a-data-center/
+- /guides/how-to-choose-a-data-center/
+authors:
+- SiteBay
+contributors:
+- SiteBay
+slug: choose-a-data-center
+license: '[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)'
+doc_sources:
+- regions
+- api-contract
 ---
 
-Whether you're managing things via the dashboard or firing up resources with the SiteBay MCP Server, picking the right data center is step one for a fast WordPress site. Our Kubernetes clusters are distributed to help you get as close to your users as possible.
+Choose from the region catalog returned by SiteBay rather than an old list of global locations. A provider having a data center in a city does not establish that your SiteBay plan can deploy there.
 
-## Our Regions
+## Read the catalog
 
-| Region | Location | Best For |
-|--------|----------|----------|
-| **Washington** | US East | North American visitors |
-| **Frankfurt** | Germany | European visitors (and strict GDPR compliance) |
+```sh
+curl --fail-with-body --silent --show-error \
+  https://my.sitebay.org/f/api/v1/region
+```
 
-## The Rule of Thumb
+The response is an array of region records. Use the returned ID or configured region name where the operation requires it; `GET /f/api/v1/region/{region_id}` reads one region and returns not found for an unknown ID. Omission of a region name during site creation uses the account's default region, not a guessed nearest city.
 
-Keep it simple: pick the region that is geographically closest to where most of your audience lives. The shorter the physical distance, the faster your site loads.
+## Match the region to the workload
 
-## Pricing
+Check deployment availability in the create-site flow. Consider your audience, required data location, and the latency of databases or services the site calls. An edge cache and an origin region serve different roles: a nearby cache does not move a dynamic WordPress database.
 
-We don't play games with regional pricing. Your AI-native WordPress pods cost the exact same no matter which data center you choose. See the [Pricing](https://www.sitebay.org/pricing/) page for the breakdown.
+## Confirm after creation
+
+Inspect the returned site record and readiness. Changing an existing site's region is not equivalent to changing a browser preference or a DNS record; plan a supported migration and verify the destination before cutover. Review the supported migration method and any expected downtime.

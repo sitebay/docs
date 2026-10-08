@@ -1,32 +1,35 @@
 ---
-title: "Voice And Agent Troubleshooting"
-description: "Common fixes for Sorti voice and provider issues."
+title: Troubleshoot voice
+description: Check input, model response, and audio output separately to locate a voice problem.
+authors:
+- SiteBay
+contributors:
+- SiteBay
+keywords:
+- voice and agent troubleshooting
+- sitebay documentation
+published: 2026-10-08
+slug: troubleshooting
+license: '[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)'
+doc_sources:
+- voice-runtime
+modified: 2026-10-07
 ---
 
-## Gemini Token Expired
+Check input, model response, and audio output separately to locate a voice problem.
 
-Reconnect your Google-backed SiteBay account and start a new Sorti session. If
-the same error returns, confirm that the workspace still has access to the
-selected Gemini model.
+## No input
 
-## Codex Rate Limited
+Confirm microphone permission and the selected input device. Check that the session is connected and the microphone is not muted. Test a short phrase in a quiet environment.
 
-Wait a few minutes, then retry the request. If the task is urgent, switch to a
-different available provider from the SiteBay session controls.
+## Text works but audio does not
 
-## Anthropic Context Full
+Check the output device, volume, and browser playback restrictions. Confirm that speech output is enabled. An agent response and a speech-service response are separate steps.
 
-Start a new session or shorten the request. Sorti compacts old context
-automatically, but very large site edits can still exceed the selected model's
-window.
+## The voice changed
 
-## Agent Responds With Nothing
+A selected clone may have failed validation or become unavailable. Check the selected voice and service access; the session may have used its configured fallback.
 
-Retry once. Sorti treats empty or non-actionable model output as a transient
-provider error and should surface a provider-specific message when retrying.
+## Report a failure
 
-## Tool Call Failed
-
-Check whether the failed action needs approval, site credentials, or a connected
-workspace. Sorti keeps provider selection separate from SiteBay permissions; a
-working model cannot bypass missing site access.
+Record the session, time, symptom, and whether text still worked. Share the relevant error without access tokens or private audio. See [provider selection]({{< relref "voice/providers.md" >}}).

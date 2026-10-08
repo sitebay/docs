@@ -1,41 +1,33 @@
 ---
 slug: open-source-software-benefits
-description: 'Benefits of open source software in SiteBay WordPress hosting.'
-keywords: ['benefits of open source','benefits of open source software','advantages of open source software']
-tags: ['sitebay', 'wordpress', 'posthog', 'grafana']
+description: Open-source licensing can let you inspect and adapt software instead of depending on one vendor to
+  make every change.
+keywords:
+- benefits of open source
+- benefits of open source software
+- advantages of open source software
+tags:
+- sitebay
+- wordpress
+- posthog
+- grafana
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
 published: 2024-04-24
-modified: 2024-12-04
+modified: 2026-10-07
 modified_by:
   name: SiteBay
-title: "Open Source Software Benefits"
+title: Evaluate an open-source project
 image: OpenSource.png
-authors: ["SiteBay"]
-contributors: ["SiteBay"]
+authors:
+- SiteBay
+contributors:
+- SiteBay
+doc_sources:
+- open-source
 ---
 
-SiteBay uses open-source tools: WordPress, PostHog analytics, and Grafana dashboards.
+Open-source licensing can let you inspect and adapt software instead of depending on one vendor to make every change. You still need to evaluate its maintenance, security, documentation, compatibility, and operating cost.
 
-## Key Benefits
+Test the required behavior and read the license before adopting a project. Plan updates and a recovery path. Source availability does not guarantee support, safe dependencies, or zero cost.
 
-| Benefit | Description |
-|---------|-------------|
-| Cost | No licensing fees |
-| Security | Public code review finds vulnerabilities faster |
-| Flexibility | Customize tools to your needs |
-| No vendor lock-in | Switch or modify freely |
-| Community support | Extensive docs and forums |
-
-## SiteBay Open Source Stack
-
-- **WordPress** - CMS
-- **PostHog** - Analytics and session replay
-- **Grafana** - Performance dashboards
-- **Kubernetes** - Container orchestration
-
-## Why It Matters
-
-- Transparent code = accountable software
-- Global contributors = faster innovation
-- No license tracking or renewals
-- Lower system requirements than proprietary alternatives
+See the [Open Source Definition](https://opensource.org/osd) and [WordPress licensing](https://wordpress.org/about/license/).

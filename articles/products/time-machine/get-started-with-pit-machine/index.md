@@ -1,56 +1,61 @@
 ---
 slug: get-started-with-pit-machine
-description: "SiteBay's Point-in-Time Machine gives you continuous, minute-by-minute backups for your WordPress sites."
-keywords: ['backups', 'point-in-time', 'restore', 'time machine', 'data recovery', 'sitebay backups']
+description: Time Machine combines activity, file history and recovery actions for the selected WordPress site.
+keywords:
+- backups
+- point-in-time
+- restore
+- time machine
+- data recovery
+- sitebay backups
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
 published: 2024-03-13
-modified: 2026-03-12
+modified: 2026-10-08
 modified_by:
   name: SiteBay
-title: "Point-in-Time Machine"
+title: Use Time Machine to inspect and restore a site
 bible: true
-tags: ["sitebay", "backups", "security"]
-aliases: ['/quick-answers/sitebay-essentials/introduction-to-pit-machine/']
-authors: ["SiteBay"]
-contributors: ["SiteBay"]
+tags:
+- sitebay
+- backups
+- security
+aliases:
+- /quick-answers/sitebay-essentials/introduction-to-pit-machine/
+authors:
+- SiteBay
+contributors:
+- SiteBay
+doc_sources:
+- site-ui
+- lifecycle
+- git-sync
+- mcp-platform
 ---
 
-# Point-in-Time Machine: Continuous Backups
+Time Machine combines activity, file history and recovery actions for the selected WordPress site. Use the actual available restore window and checkpoint references; a calendar view is not a promise of unlimited history or a complete copy at every minute.
 
-Traditional WordPress backups are fundamentally flawed. They run once a day, meaning if your site breaks at 11 PM, you lose an entire day's worth of orders, content, and user data when you restore yesterday's backup. 
+## Inspect recent activity
 
-SiteBay's **Point-in-Time Machine** solves this by shifting from discrete daily snapshots to continuous, minute-by-minute data recording.
+Open the site's **Time Machine** tab. The current UI shows a calendar/date scrubber and separate counts for Git commits, database commits, checkpoints and uploads. It also exposes a database-changes panel. A newly created site may not have its first backup yet.
 
-## How It Works
+The current file browser uses Git-backed history for both internal and externally linked repositories. An external Git provider is not required simply to inspect the internal file history.
 
-Instead of blindly copying files, SiteBay uses advanced filesystem-level snapshots and database binary logging (binlogs) to record every single change as it happens.
+## Select the smallest recovery action
 
-*   **Continuous Database Logging:** Every transaction, user registration, and WooCommerce order is logged the moment it's written to the database.
-*   **Incremental File Storage:** When an image is uploaded or a plugin updated, only the changed bytes are stored securely in distributed Object Storage.
+Identify the incident time, affected file/content and desired state. Inspect the relevant file history or available site restore point. A single-file restore, full-file restore and combined database restoration are different scopes. Verify the operation's target and consequences before authorizing it.
 
-Because of this architecture, backups do not impact your live site's performance. There are no heavy `zip` operations or database dumps dragging down your CPU during peak traffic hours.
+## Protect the current state
 
-## Restoring a Site
+The restore-to-point intent creates a pre-restore checkpoint and returns a rollback handle. The low-level PIT API does not independently add that protection. Keep the returned checkpoint and restore ID; incoming orders, uploads and submissions may need to be preserved before rolling back a whole database.
 
-If a plugin update goes wrong, or an AI agent deletes the wrong file, recovery is instantaneous. 
+Where a supported staging-from-point flow is available, use it to investigate before changing live state. Review its external integrations as carefully as any test clone.
 
-1.  Navigate to your site's dashboard and select **Time Machine**.
-2.  Use the slider or calendar to select the exact date and minute you want to revert to (e.g., *March 12, 2:14 PM*).
-3.  Click **Restore**.
+## Wait for the result
 
-SiteBay provisions a fresh container, mounts the data exactly as it was at that specific minute, and routes traffic to the restored version with zero downtime.
+A request can be accepted before restoration completes. Watch the operation and refresh the site record. Do not repeat a restore after a lost response until you know whether the first request executed. Neither an activity entry nor a local Git commit proves database recovery.
 
-## Staging & Branching
+## Verify the restored site
 
-The Time Machine isn't just for disasters; it's a powerful development tool.
+Test the affected pages, media, login, forms and transactional paths, then inspect errors and Git Sync health. Retain the recovery handle until the result is accepted. A previous backup can also contain a security compromise; restoring it is not by itself incident remediation.
 
-Instead of restoring over your production site, you can **clone** a point-in-time backup directly into a new Staging environment. 
-*   *Want to investigate a bug that occurred yesterday at 4 PM?* Spin up a staging site from yesterday at 4 PM, analyze the PostHog session replays from that time, and fix the issue without touching production.
-
-## MCP & Agent Integration
-
-The Point-in-Time Machine is fully integrated with the **SiteBay MCP Server**. 
-
-If you ask Claude or the SiteClaw mobile assistant to perform a risky operation (like updating all plugins or refactoring a theme), the agent can be instructed to first verify the current backup state, or even automatically trigger a restore if its automated tests fail post-update. 
-
-Agents have access to tools like `sitebay_backup_list_commits` and `sitebay_backup_restore` to manage this autonomously.
+Check the available recovery window and expected impact for the selected site. See [the current lifecycle contract]({{< relref "products/platform/site-lifecycle/index.md" >}}).

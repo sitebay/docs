@@ -1,60 +1,41 @@
 ---
 slug: what-is-sqlite
-description: 'SQLite is a lightweight file-based database for WordPress development.'
-keywords: ['sqlite', 'wordpress sqlite', 'file-based database', 'lightweight database']
-tags: ["sqlite", "wordpress", "database", "performance"]
+description: SQLite is an embedded SQL database engine. It reads and writes a database file without requiring a
+  separate database-server process.
+keywords:
+- sqlite
+- wordpress sqlite
+- file-based database
+- lightweight database
+tags:
+- sqlite
+- wordpress
+- database
+- performance
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
 published: 2024-04-04
-modified: 2024-12-04
+modified: 2026-10-07
 modified_by:
   name: SiteBay
-title: "What is SQLite?"
-authors: ["SiteBay"]
-contributors: ["SiteBay"]
+title: What is SQLite?
+authors:
+- SiteBay
+contributors:
+- SiteBay
+doc_sources:
+- database-basics
 ---
 
-SQLite is a serverless, file-based database. The entire database is a single file.
+SQLite is an embedded SQL database engine. It reads and writes a database file without requiring a separate database-server process.
 
-## SQLite vs MySQL
+## When the distinction matters
 
-| Feature | SQLite | MySQL/MariaDB |
-|---------|--------|---------------|
-| Architecture | Single file | Client-server |
-| Setup | Zero config | Server required |
-| Concurrency | File-level locking | Row-level locking |
-| Best for | Dev, small sites | Production, high traffic |
+A file-backed database can simplify local tools and some embedded applications. Concurrency, filesystem behavior, backup, and application support still need to match the workload.
 
-## Benefits
+SQLite is not a drop-in replacement for a managed WordPress database. Check the application's supported database adapter and test its behavior before changing storage.
 
-- **No server needed** - Just a file
-- **Easy migration** - Copy one file
-- **Fast reads** - No network overhead
-- **Simple backups** - Copy the file
-- **Great for dev** - Clone sites instantly
+## Protect the file
 
-## Limitations
+Keep database files outside publicly served paths. Use the database's supported backup process when it can be written concurrently; copying a live file without considering its journal can miss required state.
 
-- Locks entire database on write
-- Not ideal for high concurrency
-- Some plugins may have compatibility issues
-- Limited scaling options
-
-## When to Use SQLite
-
-**Good for:**
-- Local development
-- Personal blogs
-- Small business sites
-- Testing environments
-
-**Use MySQL/MariaDB for:**
-- High-traffic sites
-- Multi-user content creation
-- E-commerce
-- Complex plugins
-
-## WordPress SQLite Plugins
-
-- SQLite Integration
-- WP SQLite DB
-- Pressable SQLite
+Read [About SQLite](https://www.sqlite.org/about.html) and [WordPress requirements](https://wordpress.org/about/requirements/) before choosing an engine.

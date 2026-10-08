@@ -1,59 +1,54 @@
 ---
 slug: how-to-use-grep
-description: "Search text in files with grep."
-keywords: ["grep", "text search"]
-aliases: ['/quick-answers/sitebay/how-to-use-grep/', '/quick-answers/how-to-use-grep/']
+description: Search the specific files you need rather than dumping private configuration or recursively scanning
+  an entire server.
+keywords:
+- grep
+- text search
+aliases:
+- /quick-answers/sitebay/how-to-use-grep/
+- /quick-answers/how-to-use-grep/
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
-modified: 2025-12-04
+modified: 2026-10-07
 modified_by:
   name: SiteBay
 published: 2024-04-04
-title: "grep"
-tags: ["SiteBay", "Development"]
-authors: ["SiteBay"]
-contributors: ["SiteBay"]
+title: Find text with grep
+tags:
+- SiteBay
+- Development
+authors:
+- SiteBay
+contributors:
+- SiteBay
+doc_sources:
+- shell-reference
+- code-server
 ---
 
-# grep
+Search the specific files you need rather than dumping private configuration or recursively scanning an entire server.
 
-Search for text in files. Use in Code Server terminal.
-
-## Basic Usage
+## Literal text and line numbers
 
 ```bash
-# Search for text in file
-grep 'search-term' file.php
-
-# Case-insensitive
-grep -i 'error' file.php
-
-# Show line numbers
-grep -n 'define(' wp-config.php
-
-# Recursive (all files in directory)
-grep -r 'wp_enqueue_script' wp-content/themes/
+grep -nF -- 'wp_enqueue_script' functions.php
+grep -ni -- 'error' example.log
 ```
 
-## With Pipes
+`-F` treats the pattern as literal text. `-n` prints line numbers and `-i` ignores case. A pattern with regular-expression metacharacters needs either literal mode or intentional escaping.
+
+## Restrict recursive search
 
 ```bash
-# Filter command output
-cat file.php | grep 'specific-text'
-
-# Monitor logs
-tail -f /var/log/access.log | grep '404'
+grep -rnF --include='*.php' -- 'wp_enqueue_script' themes/
 ```
 
-## Regex Search
+Run from the verified `wp-content` directory or adjust the path to your workspace. Limit the file type and scope so the result is useful and does not include binary uploads or credentials.
 
-```bash
-# Find email addresses
-grep -E "[[:alnum:]]+@[[:alnum:]]+\.[[:alpha:]]{2,}" wp-config.php
-```
+## Understand the result code
 
-## Common Uses
+A match normally exits 0; no match exits 1; an error uses a different nonzero status. “No matching lines” is not the same as “the file could not be read.” In a shell script with strict error handling, handle that distinction deliberately.
 
-- Find function definitions
-- Search error logs
-- Audit security issues
-- Check configuration values
+## Logs and private data
+
+Read logs through the site's supported view or an authorized terminal. Do not assume an access-log path exists inside code-server. Redact IP addresses or user information as appropriate before sharing logs, and never print all of `wp-config.php` merely to find a harmless setting. A regular-expression match alone is not a security audit.

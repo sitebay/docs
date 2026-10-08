@@ -1,27 +1,47 @@
 ---
-title: "Docs Style"
-description: "Style rules for SiteBay template and Canvas documentation."
-tags: ["sitebay", "docs"]
+title: Documentation style
+description: Write for someone trying to complete one task. State the outcome first, then the prerequisites, steps,
+  and a check that proves the result.
+tags:
+- sitebay
+- docs
 published: 2026-04-28
+authors:
+- SiteBay
+contributors:
+- SiteBay
+keywords:
+- docs style
+- sitebay documentation
+slug: docs-style
+license: '[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)'
+doc_sources:
+- docs-style
+modified: 2026-10-07
 ---
 
-# Docs Style
+Write for someone trying to complete one task. State the outcome first, then the prerequisites, steps, and a check that proves the result.
 
-Use this convention for SiteBay template and Canvas guides.
+## Use one voice
 
-- Start with what the user can do.
-- Link to the next action, not just related concepts.
-- Use short task headings and concrete button or field names.
-- Use `<!-- screenshot: TODO -->` where a product screenshot is expected but not captured yet.
-- Keep internal implementation notes out of public docs.
+Use direct sentences and short, descriptive headings. Name the real button, field, tool, or command. Remove sales claims, jokes, filler introductions, and promises that the source does not support.
 
-Frontmatter fields:
+A quick answer can link to a detailed procedure instead of repeating it. A technical reference can be longer when its exact vocabulary and constraints are necessary.
 
-```yaml
----
-title: "Page Title"
-description: "One sentence summary."
-tags: ["sitebay"]
-published: 2026-04-28
----
-```
+## Ground instructions
+
+Check product behavior against the owning source. Use current primary documentation for external tools. Record the basis in `doc_sources` and distinguish a source-level contract from a live deployment test.
+
+Keep limits, prices, and availability tied to their authoritative source. Do not update a date to imply that an old screenshot or video was recorded again.
+
+## Make examples safe
+
+Identify the target and permissions before a write. Use obvious placeholder values, quote shell paths, and keep credentials out of examples. Explain what a command changes and how to verify it.
+
+## Preserve navigation
+
+Edit Markdown under `articles/`. Keep established slugs and aliases where possible. Use Hugo references for internal links. A section uses `_index.md`; an individual article bundle uses `index.md`.
+
+## Validate
+
+Build the site, check every published route and internal link, and run the strict editorial checks. Preserve author and license information. Do not publish placeholder screenshots, unsupported payment promises, or a claim that an untested operation succeeded.

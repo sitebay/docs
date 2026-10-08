@@ -1,40 +1,47 @@
 ---
 slug: how-git-sync-works-with-point-in-time-machine
-authors: ["SiteBay"]
-description: 'Learn how SiteBay''s Point-in-Time Machine interacts with Git Sync'
-keywords: ['git-sync', 'pit-machine']
+authors:
+- SiteBay
+description: A Git commit represents tracked files.
+keywords:
+- git-sync
+- pit-machine
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
 published: 2024-03-26
-modified: 2024-03-26
+modified: 2026-10-08
 modified_by:
   name: SiteBay
-title: "How Git Sync Works With PIT Machine"
-h1_title: "Restoring your Git Sync Enabled Site"
-contributors: ["SiteBay"]
-tags: ["sitebay platform","development", "git sync"]
-aliases: ['/platform/git-sync/how-git-sync-works-with-point-in-time-machine/']
+title: Git history and point-in-time recovery
+h1_title: Git history and point-in-time recovery
+contributors:
+- SiteBay
+tags:
+- sitebay platform
+- development
+- git sync
+aliases:
+- /platform/git-sync/how-git-sync-works-with-point-in-time-machine/
+doc_sources:
+- git-sync
+- lifecycle
 ---
 
-![How to Use SiteBay's Git Sync](how-git-sync-works-with-point-in-time-machine.png "How to Use SiteBay's Git Sync")
+A Git commit represents tracked files. WordPress settings, pages and other content can live in the database; uploads may be excluded from the repository. Recovering one layer does not establish that all layers match.
 
-# Restoring your Git Sync Enabled Site
+## Select the supported recovery point
 
-If you're running a modern WordPress stack, you're probably using our Bi-Directional Git Sync. But what happens when you need to roll back? Don't sweat it. Git Sync plays perfectly with our Point-in-Time (PIT) Machine, letting you restore your database and files down to the exact minute without breaking your repo history.
+Use the restore window and identifiers actually reported for the site. Do not infer an exact recoverable minute from a Git timestamp or assume unlimited retention. Preview the affected files and database state and account for content created since that point.
 
-## How We Restore Your WordPress Files
+## Preserve the current state
 
-When you trigger a restore using the PIT Machine from My SiteBay, we leverage the raw power of our Kubernetes infrastructure to seamlessly execute a **git revert** on your connected repository. 
+The higher-level restore-to-point workflow creates a pre-restore checkpoint and returns a recovery handle. The low-level PIT operation does not promise the same protection by itself. Preserve the returned checkpoint and restore ID until the new state is verified.
 
-Here is what's happening under the hood:
-Instead of force-pushing or overwriting history (which is a nightmare for teams), the revert command creates a new commit containing the exact reverse patch of the changes you want to undo. History is preserved. If you realize the restore was a mistake, you can just use the PIT machine again to bounce right back to where you were before the restore. 
+## Review repository effects
 
-When you pick a time in the PIT Machine:
-1. We locate the exact commit hash for that moment.
-2. We revert the `HEAD` commit back to the state of the target commit hash. This walks back every change made since your restore point.
-3. We generate a brand new commit that matches the old state and sync it to your environment. 
+Use the documented SiteBay workflow for a combined site restore. A manual `git revert` changes files, not the WordPress database. Review the restore’s scope and completion status before making further changes.
 
-You get your site back to the way it was, without losing the paper trail.
+## Verify and resume
 
-{{< note >}}
-Always use the Point-in-Time Machine in the SiteBay dashboard for restores. If you try to manually run git reverts locally and push them up, your database won't roll back with your files, leaving you with a mismatched content folder and database. Let our automated systems handle the heavy lifting.
-{{< /note >}}
+Wait for the restore operation to settle. Check the page, media, login, forms and any transactional data, then inspect Git Sync health and the selected branch. An active sync indicator does not prove the database was restored. For a Shopify theme, separately verify the provider's theme state; WordPress recovery is not a Shopify order restore.
+
+See [Git Sync setup]({{< relref "products/git-sync/get-started/index.md" >}}) and [backup and restore checks]({{< relref "guides/quick-answers/sitebay/sitebay-dump-and-restore-commands/index.md" >}}).

@@ -1,61 +1,53 @@
 ---
 slug: use-the-ps-aux-command-in-sitebay
-keywords: ["ps aux command", "process monitoring", "sitebay"]
-description: "Monitor running processes with ps aux."
+keywords:
+- ps aux command
+- process monitoring
+- sitebay
+description: ps reports a process snapshot visible to the current user and PID namespace. In a container, ps aux
+  does not necessarily show the host or other customers' processes.
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
-modified: 2024-12-04
+modified: 2026-10-07
 modified_by:
   name: SiteBay
 published: 2024-04-25
-title: "ps aux Command"
-tags: ["sitebay"]
-authors: ["SiteBay"]
-contributors: ["SiteBay"]
+title: Inspect processes with ps
+tags:
+- sitebay
+authors:
+- SiteBay
+contributors:
+- SiteBay
+doc_sources:
+- shell-reference
+- wp-cli
+- lifecycle
+- git-sync
 ---
 
-View running processes on your system.
+`ps` reports a process snapshot visible to the current user and PID namespace. In a container, `ps aux` does not necessarily show the host or other customers' processes.
 
 ## Basic Usage
 
 ```bash
-ps        # Current terminal processes
-ps aux    # All system processes
+ps aux
+ps -eo pid,ppid,user,stat,etime,comm
 ```
 
-## Output Columns
+The second form selects a predictable set of columns. A process ID is temporary and can be reused after the process exits.
 
-| Column | Meaning |
-|--------|---------|
-| PID | Process ID |
-| USER | Owner |
-| %CPU | CPU usage |
-| %MEM | Memory usage |
-| VSZ | Virtual memory (KB) |
-| RSS | Physical memory (KB) |
-| TTY | Terminal (? = none) |
-| STAT | State (S=sleeping, R=running) |
-| CMD | Command |
+## Read the columns
 
-## Common Variations
+`PID` identifies the process, `PPID` its parent, and `STAT` its state. Common state letters include running/runnable, sleeping, stopped and zombie. `%CPU` and `%MEM` are measurements with implementation-specific scope, not a diagnosis that a process is faulty. `VSZ` and `RSS` differ: virtual address space is not the same as resident physical memory.
+
+## Find the relevant process
 
 ```bash
-ps aux              # All processes, BSD style
-ps -ef              # All processes, UNIX style
-ps -He              # Process hierarchy
-ps aux | grep php   # Filter by name
+ps -eo pid,comm | grep -i -- 'php'
 ```
 
-## Process States
+Match the command and context, not only an old PID copied from a previous run. Command-line arguments in full process listings may contain sensitive data; use a narrower column set before sharing evidence.
 
-| Code | Meaning |
-|------|---------|
-| S | Sleeping |
-| R | Running |
-| Z | Zombie |
-| T | Stopped |
+## Investigate before termination
 
-## Related Commands
-
-- `top` - Real-time process monitor
-- `htop` - Interactive process viewer
-- `kill PID` - Terminate process
+High resource use can be legitimate provisioning, backup or recovery work. Do not terminate an unknown process, customer operation or infrastructure service from a generic troubleshooting guide. Capture the relevant state and use the supported site operation or contact the owner. A zombie is a process waiting to be reaped, not a running program fixed by repeatedly sending kill signals.

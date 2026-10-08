@@ -1,24 +1,40 @@
 ---
-title: "Set Up The Agent Bridge"
-description: "Connect VS Code to a SiteBay Sorti session."
-tags: ["sitebay", "vscode", "sorti"]
+title: Set up the Agent Bridge
+description: Connect the editor to the intended SiteBay session before allowing assisted changes.
+tags:
+- sitebay
+- vscode
+- sorti
 published: 2026-04-28
+authors:
+- SiteBay
+contributors:
+- SiteBay
+keywords:
+- set up the agent bridge
+- sitebay documentation
+slug: setup
+license: '[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)'
+doc_sources:
+- editor-bridge
+- api-auth
+modified: 2026-10-07
 ---
 
-# Set Up The Agent Bridge
+Connect the editor to the intended SiteBay session before allowing assisted changes.
 
-Run `SiteBay: Set API Key` from the command palette. The key is stored in VS Code SecretStorage.
+## Configure the connection
 
-After the key is saved, the bridge can connect in three ways:
+1. Open a trusted workspace with the bridge installed.
+2. Check `sitebay.serverUrl`; the default is `https://my.sitebay.org`.
+3. Run **SiteBay: Set API Key** and supply the appropriate credential.
+4. Run **SiteBay: Connect to Session** for the intended session.
+5. Verify the selected workspace and connection before requesting an edit.
 
-- SiteBay code-server provisioning writes the active room name automatically.
-- You set `sitebay.roomName` in workspace settings.
-- You run `SiteBay: Connect to Session` and paste a Sorti connection code.
+The bridge obtains a LiveKit token through the backend. Leave `sitebay.livekitUrlOverride` empty unless you are configuring a known alternate environment.
 
-When connected, the SiteBay status item appears in the VS Code status bar.
+## Optional local tools
 
-## Auto-Connect
+Local stdio MCP access is disabled by default. Enabling `sitebay.mcpProxy.enabled` also requires workspace trust. Review each configured server command before enabling it.
 
-`sitebay.autoConnect` is enabled by default. If credentials and a room name are available when VS Code starts, the bridge connects automatically.
-
-Turn it off when you want to connect only by command palette.
+See [Settings]({{< relref "vscode/settings.md" >}}) for the exact keys.

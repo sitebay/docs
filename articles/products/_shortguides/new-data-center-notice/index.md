@@ -1,18 +1,26 @@
 ---
-# Shortguide: Note for the new data center launch.
-
 headless: true
 show_on_rss_feed: false
-authors: ["SiteBay"]
-contributors: ["SiteBay"]
+authors:
+- SiteBay
+contributors:
+- SiteBay
 modified_by:
   name: SiteBay
+title: Available regions
+description: Choose from the regions currently offered by the site-creation form or region API. Availability can
+  vary by plan and deployment.
+keywords:
+- new data center notice
+- sitebay documentation
+published: 2025-03-18
+slug: new-data-center-notice
+license: '[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)'
+doc_sources:
+- regions
+modified: 2026-10-07
 ---
 
-{{< note >}}
-**New Data Centers Alert!** 
+Choose from the regions currently offered by the site-creation form or region API. Availability can vary by plan and deployment.
 
-On July 5th, 2024, we fired up three brand new data centers for our Kubernetes clusters: Chicago (USA), Paris (France), and Washington, DC (USA). You can now deploy your AI-native WordPress sites directly to these regions for even lower latency. 
-
-*Heads up: Our Premium plans and beefier Object Storage clusters are currently only available in these new regions.*
-{{< /note >}}
+A region named in an older announcement is not a guarantee that a new site can be created there. Check the selected region before submitting a creation request.

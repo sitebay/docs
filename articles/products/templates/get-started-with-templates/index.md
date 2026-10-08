@@ -1,50 +1,51 @@
 ---
 slug: get-started-with-templates
-description: "Launch beautifully designed, pre-configured WordPress sites instantly using SiteBay Templates."
-keywords: ['templates', 'site creation', 'ready-made sites', 'wordpress themes', 'starter sites']
+description: Start with a template that matches your site's provider and purpose, then customize the resulting site.
+keywords:
+- templates
+- site creation
+- ready-made sites
+- wordpress themes
+- starter sites
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
 published: 2024-03-13
-modified: 2026-03-12
+modified: 2026-10-07
 modified_by:
   name: SiteBay
-title: "SiteBay Templates"
+title: Create a site from a template
 bible: true
-tags: ["sitebay", "templates", "design"]
-authors: ["SiteBay"]
-contributors: ["SiteBay"]
+tags:
+- sitebay
+- templates
+- design
+authors:
+- SiteBay
+contributors:
+- SiteBay
+doc_sources:
+- templates
+- site-ui
+- lifecycle
+- wp-theme
+- shopify-theme
 ---
 
-# SiteBay Templates: Ready-Made Sites
+Start with a template that matches your site's provider and purpose, then customize the resulting site.
 
-Starting a new WordPress site from scratch—installing plugins, configuring basic settings, and setting up a theme—is tedious. SiteBay eliminates this friction with **Templates**.
+## Choose a template
 
-Templates (also known as Ready-Made Sites) are fully functional, beautifully designed WordPress environments that you can deploy with a single click.
+Open the template catalog available to your account. Review the preview, provider, required integrations, and selected team. Confirm that the plan and region support the intended site.
 
-## What's Included in a Template?
+## Create the site
 
-When you create a site from a template, you aren't just getting a ZIP file of a theme. SiteBay provisions a complete containerized environment containing:
+Submit the creation request once and wait for provisioning to finish. Check the site status before opening the editor. If the request times out, look for the created site before retrying.
 
-1.  **The AI-Friendly Theme:** All templates use the core SiteBay theme as their foundation, ensuring they are extremely fast and fully compatible with AI design adjustments.
-2.  **Pre-configured Plugins:** Essential plugins for SEO, security, and performance are pre-installed and optimized for the SiteBay platform.
-3.  **Demo Content:** Beautifully crafted demo pages, placeholder images, and menus, so you can immediately see how the site looks and functions.
-4.  **Custom CSS Tokens:** The template's unique design (colors, typography, spacing) is pre-loaded into the CSS variables.
+## Replace sample content
 
-## Available Categories
+Update the site name, navigation, text, images, contact details, and links. Connect only the services the site actually needs. Test forms and commerce flows without sending real messages or payments during development.
 
-SiteBay offers a constantly growing library of templates, categorized to fit various use cases:
+## Verify the result
 
-*   **E-commerce:** Ready-to-sell stores optimized for WooCommerce or pre-configured for Shopify Link.
-*   **Agencies & Portfolios:** Professional layouts for showcasing work and attracting clients.
-*   **Blogs & Magazines:** High-readability layouts designed for heavy content publishing.
-*   **Landing Pages:** High-conversion, single-page designs for marketing campaigns.
+Open the public site and WordPress administration, where applicable. Check mobile layout, navigation, and the pages you changed. A successful template import does not verify every integration.
 
-## AI Integration
-
-Templates are deeply integrated with SiteBay's AI ecosystem.
-
-*   **SiteClaw / MCP:** You can instruct an agent to spin up a specific template: *"Create a new site on my account using the 'Creative Agency' template."*
-*   **Instant Iteration:** Because all templates use the unified token system, once a template is deployed, you can use SiteClaw or SiteClaw to rapidly iterate on the design: *"I like this agency template, but change the primary brand color to emerald green and switch the body font to Inter."*
-
-## Creating Your Own Templates (Coming Soon)
-
-For agencies and developers, SiteBay will soon allow you to save your own sites as private templates. You can build your perfect "base stack" (your preferred plugins, configurations, and baseline theme) and deploy it infinitely for new clients with one click.
+Read [Choose a template]({{< relref "getting-started/choose-a-template.md" >}}) for provider-specific guidance.

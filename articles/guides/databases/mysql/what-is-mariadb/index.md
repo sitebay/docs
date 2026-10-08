@@ -1,46 +1,42 @@
 ---
 slug: what-is-mariadb
-description: 'MariaDB is an enhanced MySQL fork used by many WordPress hosts.'
-keywords: ['mariadb', 'database', 'mysql', 'wordpress database']
-tags: ["mariadb", "mysql", "database", "wordpress"]
+description: MariaDB Server is an open-source relational database. Many WordPress installations use it through the
+  MySQL-compatible database interface.
+keywords:
+- mariadb
+- database
+- mysql
+- wordpress database
+tags:
+- mariadb
+- mysql
+- database
+- wordpress
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
 published: 2024-04-04
-modified: 2024-12-04
+modified: 2026-10-07
 modified_by:
   name: SiteBay
-title: "What is MariaDB?"
-authors: ["SiteBay"]
-contributors: ["SiteBay"]
+title: What is MariaDB?
+authors:
+- SiteBay
+contributors:
+- SiteBay
+doc_sources:
+- database-basics
+- wp-security
 ---
 
-MariaDB is a MySQL fork created by MySQL's original developers. It's a drop-in replacement with enhancements.
+MariaDB Server is an open-source relational database. Many WordPress installations use it through the MySQL-compatible database interface.
 
-## MariaDB vs MySQL
+## Check compatibility
 
-| Feature | MariaDB | MySQL |
-|---------|---------|-------|
-| Performance | Enhanced optimizer | Standard |
-| Development | Community-driven | Oracle-controlled |
-| Storage engines | More options (Aria, ColumnStore) | Standard (InnoDB, MyISAM) |
-| Replication | Multi-source, parallel | Standard |
-| License | Fully open-source | Mixed |
+MariaDB and MySQL share many interfaces but are not identical products. Review the installed version, SQL features, collations, authentication, and backup tooling before moving between them.
 
-## Why Hosts Use MariaDB
+For WordPress, use a supported database version and test the application's plugins and queries in the target environment. The [WordPress requirements](https://wordpress.org/about/requirements/) describe the upstream baseline; your hosting environment determines the installed service.
 
-- Faster complex queries (up to 40%)
-- Better connection handling
-- Enhanced security features
-- Transparent development
+## Work with site data
 
-## WordPress Compatibility
+Keep database access limited to the application and authorized operators. Take a recoverable copy before imports or schema changes, and verify the application after the operation.
 
-WordPress cannot distinguish between MySQL and MariaDB. No code changes needed.
-
-## Migration
-
-1. Backup MySQL database
-2. Install MariaDB
-3. Import database
-4. No WordPress config changes needed
-
-SiteBay uses optimized MariaDB for all WordPress installations.
+Use [MariaDB documentation](https://mariadb.com/docs/server) for server-specific behavior rather than assuming every MySQL example is interchangeable.

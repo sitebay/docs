@@ -1,40 +1,43 @@
 ---
 slug: sitebay-dashboard-history
-description: "View site history and restore to previous states with PIT machine."
-keywords: ["sitebay", "sitebay dashboard", "site history", "site restoration"]
-aliases: ['/quick-answers/sitebay/site-history-and-restoration/', '/quick-answers/sitebay/using-pit-machine-for-site-restoration/']
+description: The **History** tab reads the activity log scoped to the site's ID.
+keywords:
+- sitebay
+- sitebay dashboard
+- site history
+- site restoration
+aliases:
+- /quick-answers/sitebay/site-history-and-restoration/
+- /quick-answers/sitebay/using-pit-machine-for-site-restoration/
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
-modified: 2024-12-04
+modified: 2026-10-08
 modified_by:
   name: SiteBay
 published: 2024-04-17
-title: "Site History"
-tags: ["sitebay"]
-authors: ["SiteBay"]
-contributors: ["SiteBay"]
+title: Read site history and recovery evidence
+tags:
+- sitebay
+authors:
+- SiteBay
+contributors:
+- SiteBay
+doc_sources:
+- site-ui
+- lifecycle
 ---
 
-Track changes and restore your site to any previous state.
+The **History** tab reads the activity log scoped to the site's ID. Use it to relate a reported incident to recorded actions, not as proof that every file or database edit is recoverable.
 
-## Access History
+## Inspect an incident
 
-1. Log into SiteBay dashboard
-2. Go to **History** tab
-3. View chronological list of events:
-   - Site updates
-   - Plugin installations
-   - Content changes
+Confirm the site and time zone, narrow the period around the problem, and identify the action, actor and available event reference. Compare that entry with the current site state and logs. A request being recorded can precede completion or failure.
 
-## Restore with PIT Machine
+## Investigate the data change
 
-1. Go to **Restoration** or **PIT Machine**
-2. Select date and time
-3. Confirm restoration
+Open **Time Machine** for the separate file history, database activity and checkpoint view. Current internal Git-backed browsing does not require an external Git connection. Identify the smallest affected scope rather than restoring the whole site simply because an activity occurred nearby.
 
-Your site reverts to the selected state.
+## Restore only after review
 
-## Tips
+Use an actually available recovery point, retain a current protective checkpoint and account for incoming live content. After the supported operation settles, test the site and preserve the recovery handle until accepted.
 
-- Test changes on staging first
-- Create staging from any past point-in-time (down to the minute)
-- Review history before major updates
+See [the Time Machine workflow]({{< relref "products/time-machine/get-started-with-pit-machine/index.md" >}}). Choose a recovery point that is available for the site.

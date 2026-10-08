@@ -1,37 +1,47 @@
 ---
-title: "Manage Users"
-description: "Add, edit, remove users on your account."
+title: Manage team members
+description: The team roster shows who can access the team’s sites. Select the team that
+  owns the relevant sites before inviting or removing someone.
 published: 2024-04-21
-modified: 2025-12-04
-authors: ["SiteBay"]
-contributors: ["SiteBay"]
+modified: 2026-10-08
+authors:
+- SiteBay
+contributors:
+- SiteBay
 modified_by:
   name: SiteBay
-aliases: ['/platform/accounts-and-passwords/','/accounts-and-passwords/','/guides/accounts-and-passwords/']
+aliases:
+- /platform/accounts-and-passwords/
+- /accounts-and-passwords/
+- /guides/accounts-and-passwords/
+keywords:
+- manage users
+- sitebay documentation
+slug: manage-users
+license: '[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)'
+doc_sources:
+- account-ui
+- teams
+- api-auth
+- pricing
 ---
 
-Got a team? You can easily add them to your SiteBay account and control exactly what they can touch—whether that's spinning up new WordPress pods, checking PostHog analytics, or messing with the SiteBay MCP Server settings.
+The team roster shows who can access the team’s sites. Select the team that owns the relevant sites before inviting or removing someone.
 
 ## View Your Team
 
-Head to **Account** → **Users & Grants** to see everyone who has access.
+An authorized owner or member can read the roster. Keep the user's ID separate from the membership-row ID. The API's team reference can be a declared PostHog team ID or team UUID; reuse returned identifiers rather than guessing.
 
 ## Add a New User
 
-1. Click **Add a User**.
-2. Drop in their email address.
-3. Decide if they get **Full** access (can do anything) or **Limited** access (you pick their permissions).
-4. Hit **Submit**.
+The owner creates an invitation for the recipient's email and first name, with an optional message. The recipient accepts their own join link. Pending invitations are owner-only because the link grants an opportunity to join. Do not publish join links in tickets, screenshots, or a shared repository.
 
-We'll shoot them an email to set up their password and get logged in. If they want to manage things on the go, remind them to download the SiteClaw mobile app.
+Refresh the roster after acceptance. A sent invitation does not mean that membership is active, and it does not create a WordPress administrator in every site.
 
 ## Remove a User
 
-Someone left the team? Kick them out:
-
-1. Go to **Users & Grants**.
-2. Find the user, hit **Delete**, and confirm. 
+The owner can remove another member. A member can leave their own membership; neither action removes the owner. The removal endpoint takes the member's user ID. Verify the resulting roster and review any separately issued integration credentials. Removing team access is not a subscription cancellation.
 
 ## Change Email
 
-Need to change someone's email? Have them update it in their profile, or reach out to our support team if they're locked out.
+Account identity belongs to the user. Have the person use their own account settings or [contact support]({{< relref "products/platform/get-started/guides/support/index.md" >}}) when access is lost. Do not attempt to solve an invitation mismatch by sharing another member's credentials. See [team access and billing]({{< relref "products/platform/teams-and-billing/index.md" >}}) for the authorization boundaries.

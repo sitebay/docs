@@ -1,60 +1,33 @@
 ---
 slug: http-get-request
-title: "HTTP Requests"
-description: 'HTTP request methods: GET, POST, and request structure.'
-keywords: ['http get request','http request','http post']
+title: Inspect an HTTP GET response
+description: A GET request retrieves a representation of a resource. Check the status, headers, and body rather
+  than assuming a successful connection means the expected content was returned.
+keywords:
+- http get request
+- http request
+- http post
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
-authors: ["SiteBay"]
-contributors: ["SiteBay"]
+authors:
+- SiteBay
+contributors:
+- SiteBay
 published: 2024-04-04
-modified: 2024-12-04
+modified: 2026-10-07
 modified_by:
   name: SiteBay
+doc_sources:
+- web-protocol
 ---
 
-HTTP requests enable data exchange between browsers and servers.
+A GET request retrieves a representation of a resource. Check the status, headers, and body rather than assuming a successful connection means the expected content was returned.
 
-## Request Methods
-
-| Method | Purpose |
-|--------|---------|
-| GET | Retrieve data (view a page) |
-| POST | Submit data (forms, uploads) |
-| PUT | Update existing resource |
-| DELETE | Remove resource |
-
-## GET Request
-
-Requests to view content without modifying it.
-
-```
-GET /page HTTP/1.1
-Host: example.com
+```sh
+curl --silent --show-error --dump-header headers.txt   --output body.html https://example.com/
 ```
 
-## POST Request
+This writes the response headers and body to local files. Use a URL you are permitted to access. Inspect redirects before following them with credentials.
 
-Submits data to the server.
+A `200` response may still contain an error page or unexpected content. A GET request should not be designed as a data-changing action, but an unsafe server implementation can still have side effects.
 
-```
-POST /signup HTTP/1.1
-Host: example.com
-Content-Type: application/x-www-form-urlencoded
-
-username=user&password=pass
-```
-
-## Request Structure
-
-1. **Request line** - Method, path, HTTP version
-2. **Headers** - Metadata (Host, Content-Type, etc.)
-3. **Body** - Data payload (POST/PUT only)
-
-## Response Codes
-
-| Code | Meaning |
-|------|---------|
-| 200 | OK |
-| 301 | Moved permanently |
-| 404 | Not found |
-| 500 | Server error |
+Read [GET semantics](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Methods/GET). Keep secrets out of query strings and shared request logs.

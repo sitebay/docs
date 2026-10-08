@@ -4,42 +4,47 @@ author:
   name: SiteBay
   email: support@sitebay.org
 contributors:
-  - SiteBay
-description: A quick start guide to using SiteBay, the AI-native WordPress platform.
-keywords: ["beginners guide", "getting started", "SiteBay platform", "WordPress AI"]
+- SiteBay
+description: Start with the account, team and domain you intend to own. A site, subscription and external provider
+  connection are separate resources.
+keywords:
+- beginners guide
+- getting started
+- SiteBay platform
+- WordPress AI
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
-modified: 2025-05-15
+modified: 2026-10-07
 modified_by:
   name: SiteBay
 published: 2024-04-01
-title: SiteBay Beginner's Guide
-tags: ["sitebay platform"]
-aliases: ['/platform/sitebay-beginners-guide/']
+title: SiteBay first-site checklist
+tags:
+- sitebay platform
+aliases:
+- /platform/sitebay-beginners-guide/
+authors:
+- SiteBay
+doc_sources:
+- site-ui
+- lifecycle
+- regions
+- pricing
 ---
 
-Welcome to SiteBay, the AI-native WordPress platform running entirely on Kubernetes. If you're used to old-school cPanel shared hosting, forget all that. We built SiteBay from the ground up for the AI era. 
+Start with the account, team and domain you intend to own. A site, subscription and external provider connection are separate resources.
 
-Here is everything you need to know to get up and running, fast.
+## Before submitting
 
-## 1. The Dashboard is PostHog
+Read the selected team's current plan and allowance. Choose a region and ready-made site that the product actually offers. Record the intended domain and review whether this is a new WordPress installation or a migration target. Do not use a guessed “US West” region or a free-site entitlement copied from an old table.
 
-Your SiteBay control panel isn't some generic interface—it’s a customized instance of **PostHog**. That means right next to your server controls, you get enterprise-grade web analytics, native session replays, and built-in feature flags out of the box. No more bloated third-party analytics plugins slowing down your WordPress admin. 
+## Create and wait for readiness
 
-## 2. Automate Everything with SiteBay MCP Server
+Submit the reviewed request once. Preserve its returned ID and inspect status until provisioning is complete or an actionable error is reported. A timeout may leave the outcome unknown; check for the existing site before making a duplicate request.
 
-Developers, this one's for you. SiteBay exposes a native **Model Context Protocol (MCP) Server**. This means you can plug AI agents (like Claude) directly into your SiteBay infrastructure. 
-- Want to install a plugin? Tell Claude. 
-- Need to run a complex WP-CLI command? Let your agent handle it. 
-- Want your AI to write code, edit your theme, and manage your Kubernetes pods? Done. 
+## Verify the application
 
-## 3. Manage on the Go with SiteClaw
+Open the site and use the authenticated **WP Admin** action to obtain a one-use login grant. Verify the target and basic page behavior. For a migration, test the imported database, media and integrations before DNS cutover. Do not assume a video or screenshot proves current site readiness.
 
-Away from your keyboard? Download **SiteClaw**, our mobile app. Not only does it let you monitor your sites, but it features an integrated ChatGPT assistant. You can chat with your site, check server status, or troubleshoot errors directly from your phone.
+## Continue deliberately
 
-## Next Steps
-
-1. **Pick a Plan:** Start with Micro if you're experimenting, or grab Business to migrate your existing agency clients. 
-2. **Choose a Data Center:** Pick the region closest to your main audience for the lowest latency. 
-3. **Spin up a Site:** Deploy your first containerized WordPress site in seconds. 
-
-Explore the docs, connect your AI agents, and start building. If you get stuck, hit up our support team—we've got your back.
+[The full getting-started guide]({{< relref "guides/get-started/getting-started-with-site-bay/index.md" >}}) covers account access, domain setup, analytics and development tools. Give an assistant a scoped request and require approval for writes; MCP access does not grant Kubernetes administration.

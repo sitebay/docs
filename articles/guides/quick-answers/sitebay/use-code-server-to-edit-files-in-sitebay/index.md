@@ -1,53 +1,49 @@
 ---
 slug: use-code-server-to-edit-files-in-sitebay
-description: 'Edit WordPress files in code-server, a browser-based IDE.'
-keywords: ["code-server", "SiteBay", "WordPress", "IDE", "browser-based editor"]
+description: Make the smallest intended change in the correct workspace. Editing a live theme file can immediately
+  affect visitors, so use a test copy and recovery point for risky changes.
+keywords:
+- code-server
+- SiteBay
+- WordPress
+- IDE
+- browser-based editor
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
-aliases: ['/quick-answers/use-code-server-to-edit-files-in-sitebay/','/quick-answers/sitebay/use-code-server-to-edit-files-in-sitebay/']
+aliases:
+- /quick-answers/use-code-server-to-edit-files-in-sitebay/
+- /quick-answers/sitebay/use-code-server-to-edit-files-in-sitebay/
 published: 2024-04-04
-modified: 2024-12-04
+modified: 2026-10-07
 modified_by:
   name: SiteBay
-title: 'Edit Files with code-server'
-tags: ["sitebay", "code-server", "WordPress", "IDE", "development"]
-authors: ["SiteBay"]
-contributors: ["SiteBay"]
+title: Edit a file with code-server
+tags:
+- sitebay
+- code-server
+- WordPress
+- IDE
+- development
+authors:
+- SiteBay
+contributors:
+- SiteBay
+doc_sources:
+- code-server
+- wp-config
+- shell-reference
+- lifecycle
 ---
 
-SiteBay includes code-server, a browser-based VS Code IDE.
+Make the smallest intended change in the correct workspace. Editing a live theme file can immediately affect visitors, so use a test copy and recovery point for risky changes.
 
-## Access
+## Edit and review
 
-1. Open SiteBay dashboard
-2. Select your WordPress site
-3. Click **Code Server** tab
+Open the file, read its current contents, make the scoped edit and inspect the diff. Save it and check the application result. Do not replace an entire file merely because a partial search failed.
 
-## Keyboard Shortcuts
+## Managed configuration
 
-| Shortcut | Action |
-|----------|--------|
-| `Ctrl+P` | Quick open file |
-| `Ctrl+S` | Save |
-| `Ctrl+Z` | Undo |
-| `Ctrl+/` | Toggle comment |
-| `Ctrl+F` | Find |
+The old instructions to open and rewrite `wp-config.php` are not appropriate for platform-managed credentials. Use supported configuration settings or the allowlisted repository overrides instead; rejected values must be reviewed, not bypassed.
 
-## Pre-installed Extensions
+## Current procedure
 
-- **PHP IntelliSense** - Smart code completion
-- **WordPress Hooks IntelliSense** - Hook autocompletion
-- **PHP Debug** - Debugging support
-
-## Edit wp-config.php
-
-1. Open code-server
-2. Click `wp-config.php` in file tree
-3. Edit and save (`Ctrl+S`)
-
-## Features
-
-- Syntax highlighting
-- File search
-- Git integration
-- Terminal access
-- Real-time collaboration
+[Open and verify a workspace]({{< relref "products/code-server/get-started/index.md" >}}) covers the launch grant, actual path, extensions and completion checks. For command examples, see [workspace navigation]({{< relref "guides/quick-answers/sitebay/how-to-use-basic-commands-for-wordpress-linux/index.md" >}}) and [WP-CLI checks]({{< relref "guides/quick-answers/sitebay/wordpress-command-line-tips/index.md" >}}).

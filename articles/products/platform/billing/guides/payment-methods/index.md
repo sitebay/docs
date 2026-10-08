@@ -1,39 +1,44 @@
 ---
-title: "Payment Methods"
-description: "Add, remove, and manage payment methods."
+title: Manage payment methods
+description: Payment-method availability and required confirmation are controlled by the current provider configuration,
+  not an old fixed list of six cards or a guaranteed authorization amount.
 published: 2024-04-17
-modified: 2025-12-04
-authors: ["SiteBay"]
-contributors: ["SiteBay"]
+modified: 2026-10-08
+authors:
+- SiteBay
+contributors:
+- SiteBay
 modified_by:
   name: SiteBay
+keywords:
+- payment methods
+- sitebay documentation
+slug: payment-methods
+license: '[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)'
+doc_sources:
+- pricing
+- stripe-portal
+- teams
 ---
 
-You can store up to 6 payment methods on your account. We currently take standard credit cards and Google Pay.
+Payment-method availability and required confirmation are controlled by the current provider configuration, not an old fixed list of six cards or a guaranteed authorization amount.
+
+## Procedure
 
 ## Add a New Card
 
-1. Go to [my.sitebay.org/account/billing](https://my.sitebay.org/account/billing).
-2. Under **Payment Methods**, hit **Add Payment Method**.
-3. Punch in your card details or select Google Pay.
-4. The new method automatically becomes your default.
-
-{{< note >}}
-You might see a temporary $1 authorization hold show up on your statement. It'll drop off in a few days.
-{{< /note >}}
+Open the payment-method section of the authenticated billing provider. Enter card data only into its payment form and complete any required verification. A stored card is not automatically proof that it became the subscription default.
 
 ## Remove a Card
 
-1. Go to **Billing Info** → **Payment Methods**.
-2. Click the ⋯ menu next to the card.
-3. Hit **Delete**.
-
-*(Note: You can't delete your default payment method. If you want to remove it, you have to make another card the default first.)*
+Review which subscriptions use the method before removing it. Follow the provider restrictions for a required/default method. Removing a method is not subscription cancellation.
 
 ## Change Your Default Card
 
-1. Find the **Payment Methods** section.
-2. Click the ⋯ menu on the card you want to use.
-3. Select **Make Default**.
+Select the intended default where the provider offers that action, then reread the subscription or customer record. Customer defaults and an individual subscription payment method need not be identical.
 
-This is the card we'll automatically charge when your invoices generate.
+## Verify and retain evidence
+
+Check the displayed masked method and the affected subscription. Never send a complete card number or security code in a support ticket. Available payment methods depend on the account’s billing provider.
+
+See [team access and billing]({{< relref "products/platform/teams-and-billing/index.md" >}}) and [the current plan catalog]({{< relref "guides/quick-answers/sitebay-essentials/sitebay-plans/index.md" >}}) for scope and pricing units.

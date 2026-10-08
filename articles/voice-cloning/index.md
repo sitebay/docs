@@ -1,22 +1,34 @@
 ---
-title: "Voice Cloning"
-description: "How cloned voices work in SiteBay voice sessions."
-tags: ["sitebay", "voice", "voice-cloning"]
+title: Use a custom voice
+description: Select a custom voice only when you have permission to use the recording and the speaker's identity.
+tags:
+- sitebay
+- voice
+- voice-cloning
 published: 2026-04-28
+authors:
+- SiteBay
+contributors:
+- SiteBay
+keywords:
+- voice cloning
+- sitebay documentation
+slug: voice-cloning
+license: '[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)'
+doc_sources:
+- voice-runtime
+- avatar-contract
+modified: 2026-10-07
 ---
 
-# Voice Cloning
+Select a custom voice only when you have permission to use the recording and the speaker's identity.
 
-Voice cloning lets a SiteBay assistant use a saved voice profile. A profile is referenced by a voice ID in the form `clone:<voice_profile_id>`.
+## Select and test
 
-## Create A Voice
+Use a voice profile available to your account. Start a session and test a short phrase before relying on it for a longer interaction. The speech service validates the selected voice ID; unavailable or rejected profiles can fall back to the configured default.
 
-Create or upload a voice profile in Voicebox. Once the profile is available, SiteBay can use it for assistant speech.
+## Keep voice and avatar separate
 
-## Use A Voice
+A voice profile determines speech output. An avatar's manifest determines its mouth controls. Selecting a custom voice does not add lip-sync shapes to the model.
 
-When a Sorti session starts, the voice path requests speech with the selected voice profile. If a cloned voice is unavailable, SiteBay falls back to the default voice so the assistant can still answer.
-
-## Privacy
-
-Only upload samples you have the right to use. Do not include passwords, private keys, or confidential customer data in voice sample names or reference text.
+If the result is unexpected, check [Voice troubleshooting]({{< relref "voice/troubleshooting.md" >}}) and [Viseme tiers]({{< relref "avatars/visemes-explained.md" >}}).

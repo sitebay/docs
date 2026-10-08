@@ -1,45 +1,42 @@
 ---
 slug: point-in-time-machine-wordpress
-description: 'Restore your WordPress site to any point in time with SiteBay PITR.'
-keywords: ['SiteBay WordPress recovery', 'point-in-time recovery', 'WordPress backup', 'data restoration']
-tags: ['sitebay']
+description: Identify the last known acceptable state and the content created since it. A restore can replace newer
+  data as well as undo the fault.
+keywords:
+- SiteBay WordPress recovery
+- point-in-time recovery
+- WordPress backup
+- data restoration
+tags:
+- sitebay
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
 published: 2024-04-04
-modified: 2024-12-04
+modified: 2026-10-07
 modified_by:
   name: SiteBay
-title: "Point-in-Time Recovery"
-authors: ["SiteBay"]
-contributors: ["SiteBay"]
+title: Recover WordPress to an available point
+authors:
+- SiteBay
+contributors:
+- SiteBay
+doc_sources:
+- site-ui
+- lifecycle
+- git-sync
 ---
 
-Restore your WordPress site to a specific moment before data loss or corruption.
+Identify the last known acceptable state and the content created since it. A restore can replace newer data as well as undo the fault.
 
-## How It Works
+## Inspect the evidence
 
-1. **Automated backups** - Continuous backup of every change
-2. **Granular control** - Restore to the minute
-3. **One-click restore** - Select point in dashboard, click restore
-4. **Data integrity** - Databases and files stay consistent
+Review the site's date scrubber, Git commits, database activity, checkpoints and upload changes. Internal Git-backed history can exist without an external provider connection. Distinguish “no recorded changes” from “the query failed” or “no backup is available yet.”
 
-## Use Cases
+## Prepare the recovery
 
-| Scenario | Solution |
-|----------|----------|
-| Accidental deletion | Restore posts, pages, media |
-| Bad plugin update | Revert to pre-update state |
-| Security breach | Restore to clean state |
-| Testing gone wrong | Undo experimental changes |
+Choose the supported action with the smallest appropriate scope. Preserve a current checkpoint and verify the live/staging target before approval. A manual Git file rollback does not also restore WordPress database state. A restore after a security incident requires a separately reviewed clean source.
 
-## How to Restore
+## Verify completion
 
-1. Open SiteBay dashboard
-2. Go to **Backups**
-3. Select restore point from timeline
-4. Click **Restore**
+Retain the operation ID and recovery handle, wait for the result and test the real application. The higher-level restore intent supplies a protective checkpoint; a low-level restore request should not be assumed to do the same. Do not promise automatic zero-downtime or unlimited rollback.
 
-## Best Practices
-
-- Check backup points periodically
-- Consider impact on recent content before restoring
-- Use alongside regular security monitoring
+Follow [the full Time Machine procedure]({{< relref "products/time-machine/get-started-with-pit-machine/index.md" >}}) for current UI and result checks.

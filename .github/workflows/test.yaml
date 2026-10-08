@@ -52,30 +52,26 @@ jobs:
           hugo --destination public 2>&1 | tee .cache/hugo-build.log
       - name: Validate published pages and links
         run: python ci/check-links.py --public-dir public --report .cache/publishing.json
-      - name: Reject new editorial debt, reporting existing findings
-        run: python ci/editorial.py --baseline ci/editorial-baseline.json --report .cache/editorial.json
+      - name: Verify every article review record
+        run: python ci/content_review.py --report .cache/content-review.json
+      - name: Validate every article without a baseline
+        run: python ci/editorial.py --report .cache/editorial.json
+      - name: Check curated knowledge against source articles
+        run: python ci/scripts/build-knowledge-index.py --check
+      - name: Install pinned spelling checker
+        run: bash ci/install-vale.sh .cache/tools
+      - name: Check spelling in every article
+        run: python ci/check-spelling.py --vale .cache/tools/vale --report .cache/spelling.json
       - name: Verify index destinations without credentials or writes
         run: |
           (cd scripts && go run ./update_linode_docs_search_indices --config ../config.toml --sourcedir ../public --dry-run) | tee .cache/index-plan.json
       - name: Install Chromium
         run: npx playwright install --with-deps chromium
       - name: Exercise the production export in a browser
-        run: node ci/browser-smoke.cjs public .cache/browser
+        run: bash ci/browser-all.sh public .cache/browser
       - uses: actions/upload-artifact@v4
         if: always()
         with:
           name: publishing-evidence
           path: .cache
           include-hidden-files: true
-
-  vale:
-    name: Vale (changed article spelling)
-    if: github.event_name == 'pull_request'
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: errata-ai/vale-action@reviewdog
-        with:
-          files: articles
-          vale_flags: '--glob=!articles/headless/*'
-          fail_on_error: true

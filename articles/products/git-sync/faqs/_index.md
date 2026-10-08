@@ -1,15 +1,44 @@
 ---
-title: "FAQs"
-title_meta: "FAQs for the PIT Machine"
-description: "Find quick answers to some of the most commonly asked questions for SiteBay's PIT Machine."
+title: Git history and point-in-time recovery
+title_meta: Git history and point-in-time recovery
+description: A Git commit represents tracked files.
 tab_group_main:
-    weight: 60
+  weight: 60
 published: 2024-04-04
+authors:
+- SiteBay
+contributors:
+- SiteBay
+keywords:
+- faqs
+- sitebay documentation
+slug: faqs
+license: '[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)'
+doc_sources:
+- git-sync
+- lifecycle
+modified: 2026-10-08
+layout: documentation-section
 ---
 
+A Git commit represents tracked files. WordPress settings, pages and other content can live in the database; uploads may be excluded from the repository. Recovering one layer does not establish that all layers match.
 
-## Can I use the PIT Machine for Git-Sync WordPress Sites?
+## Select the supported recovery point
 
-Yes, it works for the database tables. Then, you can recover lost files in your GitHub by going through your commit history manually.
+Use the restore window and identifiers actually reported for the site. Do not infer an exact recoverable minute from a Git timestamp or assume unlimited retention. Preview the affected files and database state and account for content created since that point.
 
-![Screenshot of the Clone link for a Block Git-Sync volume](clone-volume.png)
+## Preserve the current state
+
+The higher-level restore-to-point workflow creates a pre-restore checkpoint and returns a recovery handle. The low-level PIT operation does not promise the same protection by itself. Preserve the returned checkpoint and restore ID until the new state is verified.
+
+## Review repository effects
+
+Use the documented SiteBay workflow for a combined site restore. A manual `git revert` changes files, not the WordPress database. Review the restore’s scope and completion status before making further changes.
+
+## Verify and resume
+
+Wait for the restore operation to settle. Check the page, media, login, forms and any transactional data, then inspect Git Sync health and the selected branch. An active sync indicator does not prove the database was restored. For a Shopify theme, separately verify the provider's theme state; WordPress recovery is not a Shopify order restore.
+
+See [Git Sync setup]({{< relref "products/git-sync/get-started/index.md" >}}) and [backup and restore checks]({{< relref "guides/quick-answers/sitebay/sitebay-dump-and-restore-commands/index.md" >}}).
+
+{{< section-links >}}

@@ -1,56 +1,62 @@
 ---
-title: Get Started
-title_meta: "Getting Started with the SiteBay API"
-description: "Get started with the SiteBay api. Learn to get an access token and learn about OpenAPI and swagger."
+title: Make your first SiteBay API request
+title_meta: Make your first SiteBay API request
+description: Begin with a non-mutating request before building an automation that creates, restores or deletes sites.
 tab_group_main:
-    weight: 60
+  weight: 60
 published: 2024-04-23
-modified: 2024-04-23
-aliases: ['/products/tools/sitebay-api/get-started/','/platform/api/getting-started-with-the-sitebay-api-new-manager/','/platform/api/getting-started-with-the-sitebay-api/','/guides/getting-started-with-the-sitebay-api/','/products/tools/sitebay-api/guides/build-final-query/']
-tags: ["managed hosting"]
-authors: ["SiteBay"]
-contributors: ["SiteBay"]
+modified: 2026-10-07
+aliases:
+- /products/tools/sitebay-api/get-started/
+- /platform/api/getting-started-with-the-sitebay-api-new-manager/
+- /platform/api/getting-started-with-the-sitebay-api/
+- /guides/getting-started-with-the-sitebay-api/
+- /products/tools/sitebay-api/guides/build-final-query/
+tags:
+- managed hosting
+authors:
+- SiteBay
+contributors:
+- SiteBay
 modified_by:
   name: SiteBay
+keywords:
+- get started
+- sitebay documentation
+slug: getting-started-with-the-sitebay-api
+license: '[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)'
+doc_sources:
+- api-contract
+- api-auth
+- pricing
 ---
 
-# Getting Started with the SiteBay API
+Begin with a non-mutating request before building an automation that creates, restores or deletes sites. Confirm that the account and team returned are the ones you intend to operate on.
 
-Want to script your way through SiteBay? The SiteBay API gives you complete programmatic control over your AI-native WordPress platform. Since we run on Kubernetes, spinning up and managing sites is lightning fast, and our API lets you wire all that power directly into your own tools.
+## Read a public catalog
 
-Whether you're building custom dashboards, automating agency workflows, or hooking into the SiteBay MCP Server to let AI agents manage your infrastructure, our API is your front door.
-
-### The Basics
-
-The SiteBay API covers everything you need:
-- **Site Management**: Spin up, scale, and delete WordPress sites on our Kubernetes clusters.
-- **Backups & Restores**: Trigger point-in-time restores or grab file backups.
-- **Staging**: Push changes back and forth between staging and production without breaking a sweat.
-- **Team Ops**: Manage access, send invites, and handle support tickets.
-
-You can check out the full Swagger documentation at [my.sitebay.org/docs](https://my.sitebay.org/docs) or grab our SDK over on [GitHub](https://github.com/sitebay/sitebay-sdk).
-
-### Authentication
-
-We use OAuth2 for API access. To get started, you'll need to generate an access token from your SiteBay dashboard. Just grab your token, and you're ready to make requests.
-
-### Quick Example: Spin Up a Site
-
-Ready to launch a new live site? Just hit the `/f/api/v1/site_live` endpoint. 
-
-Here's how you do it with cURL:
-
-```bash
-curl -X POST https://my.sitebay.org/f/api/v1/site_live \
-  -H 'Authorization: Bearer YOUR_ACCESS_TOKEN' \
-  -d 'site_name=my-awesome-site' \
-  -d 'region_id=1'
+```sh
+curl --fail-with-body --silent --show-error \
+  https://my.sitebay.org/f/api/v1/plan/pricing
 ```
 
-Boom. Your new WordPress site is provisioning on Kubernetes.
+This returns suggested currency and the current plan catalog. Prices are minor units, not whole currency amounts. Public catalog access does not imply permission to change a subscription.
 
-### Hooking up AI with SiteBay MCP Server
+## Read an authenticated resource
 
-If you're using Claude or other AI agents, don't miss the SiteBay MCP Server. It bridges the gap between your AI assistant and the SiteBay API, letting you just *tell* the AI to manage your sites, run updates, or check logs. It's the ultimate way to experience an AI-native platform.
+Create a minimally scoped team key through the current signed-in account flow, or use an appropriate session credential. Store it securely in `SITEBAY_TOKEN`, then run:
 
-Dive into the docs, grab your token, and start building!
+```sh
+: "${SITEBAY_TOKEN:?Set a credential securely}"
+curl --fail-with-body --silent --show-error \
+  --header "Authorization: Bearer ${SITEBAY_TOKEN}" \
+  https://my.sitebay.org/f/api/v1/team
+```
+
+Do not paste a token into the URL, a public code snippet, a support ticket, or shell history. Read the response's collection shape and identifiers. Keep only the redacted evidence needed to debug the request.
+
+## Add an operation carefully
+
+Choose the route from [the API reference]({{< relref "api/_index.md" >}}). For a site mutation, first inspect its current state and legal actions. Check required request fields and the distinction between an accepted operation and completed work. Never replace a denied action with an unrelated shell command.
+
+Handle structured validation errors and authorization failures. Use documented idempotency support for retries and inspect state after a timeout. See [the integration guide]({{< relref "products/platform/api-reference/index.md" >}}) for details.

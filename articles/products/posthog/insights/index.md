@@ -1,43 +1,43 @@
 ---
 slug: insights
-description: 'PostHog insights and visualization on SiteBay.'
-keywords: ["posthog", "insights", "analytics", "sitebay"]
+description: An insight answers a specific question about your event data. Define the question before choosing a
+  chart.
+keywords:
+- posthog
+- insights
+- analytics
+- sitebay
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
-modified: 2025-12-04
+modified: 2026-10-07
 modified_by:
   name: SiteBay
 published: 2024-04-04
-title: Insights
-tags: ["sitebay"]
-aliases: ['/quick-answers/sitebay/insights/', '/products/posthog/product-analytics/']
-authors: ["SiteBay"]
-contributors: ["SiteBay"]
+title: Create an analytics insight
+tags:
+- sitebay
+aliases:
+- /quick-answers/sitebay/insights/
+- /products/posthog/product-analytics/
+authors:
+- SiteBay
+contributors:
+- SiteBay
+doc_sources:
+- analytics-ui
 ---
 
-# Insights
+An insight answers a specific question about your event data. Define the question before choosing a chart.
 
-Data is great, but actionable insights are what actually move the needle. SiteBay's PostHog integration gives you powerful ways to query and visualize what's happening on your WordPress site without writing complex SQL.
+## Build the query
 
-## What You Can Build
+Select the analytics project and the event or action you want to measure. Set the date range, aggregation, filters, and breakdown. For a conversion question, define the steps and conversion window rather than comparing unrelated totals.
 
-| Insight Type | Why you need it |
-|------|-----|
-| **Trends** | See if your primary KPIs are moving up or down over time. |
-| **Funnels** | Find out exactly where people abandon their shopping carts. |
-| **Retention** | Stop guessing and see if users are actually coming back. |
-| **Paths** | Map out the crazy, winding journeys users take across your site. |
-| **Stickiness** | See how often people engage with a specific feature. |
-| **Lifecycle** | Break down your traffic into new, returning, and resurrected users. |
+## Check the result
 
-## Creating an Insight
+Inspect a small, known set of events. Confirm that the chart counts the intended action and that filters include the correct site and environment. Empty results can mean missing data or a filter mismatch, not necessarily no activity.
 
-1. Hit **Analytics > Insights > New** in your SiteBay control panel.
-2. Pick the type of insight you want to build.
-3. Choose the events or actions you want to track.
-4. Set your date range.
-5. Slice the data by adding breakdowns (like sorting by device type or country).
-6. Save it to a dashboard so you don't lose it.
+## Save the context
 
-## The SiteClaw Advantage
+Give the insight a descriptive name. Include the event definition, important filters, and interpretation in the description or a notebook. Add the insight to a dashboard when it is useful for repeated review.
 
-Don't want to log in and build charts? We got you. Open the **SiteClaw** mobile app and let the built-in AI assistant generate insights for you on the fly. You can ask questions like *"What's the drop-off rate on my main funnel this week compared to last week?"* and get an instant, easy-to-read summary.
+Continue with [Dashboards]({{< relref "products/posthog/dashboards/index.md" >}}) or [Notebooks]({{< relref "products/posthog/notebooks/index.md" >}}).

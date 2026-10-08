@@ -124,6 +124,8 @@ def source_issues(root: Path) -> tuple[list[Issue], int]:
     for path in files:
         source = path.relative_to(root).as_posix()
         text = path.read_text(encoding="utf-8")
+        if path.name == "_index.md" and path.with_name("index.md").is_file():
+            issues.append(Issue(source, "index.md", "ambiguous section and leaf bundle in the same directory"))
         try:
             metadata, _ = parse_metadata(text)
             headless = metadata.get("headless") is True
@@ -208,7 +210,20 @@ def search_issues(root: Path, public: Path, rows: list[dict[str, str]]) -> list[
     records = json.loads(index.read_text())
     if not isinstance(records, list) or not records:
         return [Issue("index.json", "", "search index must contain page records")]
+    api_index = public / "api/index.json"
+    if api_index.is_file():
+        api_records = json.loads(api_index.read_text())
+        if not isinstance(api_records, list):
+            return [Issue("api/index.json", "", "API search index must be a list")]
+        records += api_records
     hrefs = {record.get("href") for record in records}
+    # All authored regular pages are covered, not just the original repair set.
+    for row in rows:
+        source_file = root / row["path"]
+        if row["path"].startswith("articles/") and row.get("kind") == "page" and source_file.is_file():
+            metadata, _ = parse_metadata(source_file.read_text())
+            if metadata.get("doc_sources") and not metadata.get("headless") and not metadata.get("deprecated"):
+                expected[row["path"]] = urlsplit(row["permalink"]).path
     published = {row["path"]: row for row in rows}
     issues = []
     for source, url in expected.items():

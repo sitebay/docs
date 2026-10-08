@@ -1,22 +1,29 @@
 ---
-title: Accounts
-description: "Learn how to manage your SiteBay user account, including adding multiple users and adjusting their permissions"
+title: Accounts and access
+description: Manage the SiteBay account and team access separately from WordPress users, repository permissions,
+  and external credentials.
 tab_group_main:
-    is_root: true
-    title: Overview
-    weight: 10
+  is_root: true
+  title: Overview
+  weight: 10
 published: 2024-04-21
-modified: 2024-04-23
-aliases: ['/guides/platform/accounts/']
+modified: 2026-10-07
+aliases:
+- /guides/platform/accounts/
+authors:
+- SiteBay
+contributors:
+- SiteBay
+keywords:
+- accounts
+- sitebay documentation
+slug: accounts
+license: '[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)'
+doc_sources:
+- teams
+layout: documentation-section
 ---
 
-A SiteBay account is your gateway to deploying and using SiteBay's products and services. If you're new to SiteBay, see the [Getting Started](/docs/products/platform/get-started/) guide to learn how to sign up for an account and deploy your first service.
+Manage the SiteBay account and team access separately from WordPress users, repository permissions, and external credentials.
 
-## Multiple Users
-
-Every account can have multiple users, each with their own permissions. This enables each person on your team (from account managers to developers) to use SiteBay with their own set of credentials and levels of access. See [Manage Users](/docs/products/platform/accounts/guides/manage-users/) and [Set User Permissions](/docs/products/platform/accounts/guides/user-permissions/).
-
-## Account access
-
-For sign-in and password help, see [Accounts and Passwords]({{< relref "platform/get-started/accounts-and-passwords/index.md" >}}).
-For teammate access, see [User Permissions]({{< relref "products/platform/accounts/guides/user-permissions/index.md" >}}).
+{{< section-links >}}

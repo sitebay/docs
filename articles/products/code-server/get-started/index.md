@@ -1,53 +1,67 @@
 ---
 slug: get-started-code-server
-description: "Develop directly on your WordPress servers with SiteBay's integrated Code Server (VS Code in the browser)."
-keywords: ['code server', 'vs code', 'ide', 'development', 'browser ide', 'sitebay features']
+description: SiteBay's code-server integration provides a browser-based development workspace for an authorized
+  site.
+keywords:
+- code server
+- vs code
+- ide
+- development
+- browser ide
+- sitebay features
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
 published: 2024-03-13
-modified: 2026-03-12
+modified: 2026-10-07
 modified_by:
   name: SiteBay
-title: "Integrated IDE: Code Server"
+title: Open and verify a code-server workspace
 bible: true
-tags: ["sitebay", "development", "ide", "tools"]
-authors: ["SiteBay"]
-contributors: ["SiteBay"]
+tags:
+- sitebay
+- development
+- ide
+- tools
+authors:
+- SiteBay
+contributors:
+- SiteBay
+doc_sources:
+- code-server
+- wp-config
+- lifecycle
 ---
 
-# Integrated IDE: Code Server
+SiteBay's code-server integration provides a browser-based development workspace for an authorized site. It is not a general Kubernetes console or a promise that every plan includes an always-running editor.
 
-Traditional WordPress development often requires a complex local environment (like Docker, XAMPP, or Local by Flywheel), followed by pushing changes over FTP or Git. 
+## Open the intended site
 
-SiteBay streamlines this by providing a fully-featured, cloud-based IDE natively attached to every WordPress site: **Code Server**.
+Sign in, select the owning team and site, and open the code-server action offered by that site. The launch flow uses an authenticated grant. Reuse its returned link instead of constructing a hostname from a UUID or sharing a saved grant URL with another person.
 
-Code Server is essentially Microsoft's Visual Studio Code running securely on your SiteBay Kubernetes infrastructure, accessible directly through your web browser.
+Check the site's readiness, current permission and editor availability. A loading page does not mean the deployment succeeded; the server distinguishes a deployed release from an unverified outcome. For a timeout, inspect status before opening more sessions or restarting infrastructure.
 
-## The Cloud-Native Development Experience
+## Locate the workspace
 
-By moving the IDE to the cloud, you eliminate the "it works on my machine" problem. 
+The managed deployment source configures `/home/coder/wordpress/wp-content`. In the opened terminal, check:
 
-*   **Zero Setup:** Click a button in the SiteBay Dashboard, and within seconds, you have a VS Code instance loaded with your site's exact file system, PHP version, and environment variables.
-*   **Direct Access:** Edit your theme files, tweak custom plugins, or modify `wp-config.php` securely, knowing you are working on the actual environment.
-*   **Integrated Terminal:** Code Server includes a fully functional Linux terminal. You can run WP-CLI commands (`wp plugin install ...`), Composer (`composer require ...`), or npm scripts directly on your server.
+```bash
+pwd
+ls -la
+```
 
-## Features
+Confirm the actual files and whether the session targets live or staging. Do not create an assumed `/bitnami/stagewordpress` path to make an old command work. Changes in a live workspace can affect the site; test risky changes in an explicitly provisioned test environment.
 
-Since it's built on VS Code, you get the features you expect from a modern IDE:
-*   IntelliSense syntax highlighting and auto-completion for PHP, JavaScript, CSS, and HTML.
-*   A robust extension ecosystem (install linters, Git tools, and theme formatters).
-*   Global search and replace across your entire `wp-content` directory.
-*   Built-in Git interface for managing commits and pushes via SiteBay's Git Sync integration.
+## Use the editor and terminal
 
-## Secure by Default
+Open a file through the explorer or quick-open command, inspect the diff, save the intended edit, then verify the actual site. Browser/OS keyboard shortcuts vary; the command palette and menus are alternatives when a shortcut is intercepted.
 
-Security is paramount when exposing a file system to the web. 
-*   **Isolated Environments:** Your Code Server instance runs in its own secure, sandboxed container, attached only to your specific site's volume.
-*   **Ephemeral:** The IDE container spins down when not in use to save resources and reduce the attack surface.
-*   **Authentication:** Access to Code Server is heavily protected behind SiteBay's primary authentication layer and requires explicit launch permissions from the dashboard.
+Read-only WP-CLI commands such as `wp core version` and `wp plugin list` require the intended WordPress path and installed tools. Check `wp --info` and command-specific help. A shell being available does not authorize a database import, a plugin update or a host package upgrade.
 
-## Mobile and Agent Workflows
+## Extensions and configuration
 
-The Code Server isn't just for desktop browsers.
+Code-server uses a compatible extension environment, not an assurance that the complete Microsoft marketplace or every desktop extension is available. Inspect the installed extension list and the configured gallery. Install only a trusted, compatible extension or VSIX that you are entitled to use, then verify its required language server/debugger.
 
-*   **SiteClaw Mobile Integration:** The SiteClaw app includes an embedded Code Server WebView, allowing you to make emergency code edits directly from your phone while on the go.
-*   **Agent Parity:** The same underlying access that powers Code Server is exposed to the **SiteBay MCP Server**. If an AI agent struggles to edit a file via the standard MCP API, a human developer can instantly open Code Server, view the exact file state, and correct the agent's work seamlessly.
+Do not edit or commit platform-managed secrets in `wp-config.php`. For supported repository settings, use the allowlisted `wp-config-overrides.php` mechanism described in [Git Sync setup]({{< relref "products/git-sync/get-started/index.md" >}}).
+
+## Close and verify
+
+Record the changed files and operation result. A saved editor buffer, Git commit and deployed application are different states. Check the target page, logs and any database behavior affected. Editor leases and deployment policy determine session lifetime; do not treat closing the browser as a verified server shutdown or subscription cancellation.

@@ -1,31 +1,27 @@
 ---
 layout: documentation-section
-title: "Avatars"
-description: "Use a SiteBay assistant avatar with speech and lip sync."
-tags: ["sitebay", "avatars", "voice"]
+title: Avatars
+description: Choose a licensed avatar, inspect its manifest, and preview speech. A model preview alone does not
+  verify its mouth controls.
+tags:
+- sitebay
+- avatars
+- voice
 published: 2026-04-28
+authors:
+- SiteBay
+contributors:
+- SiteBay
+keywords:
+- avatars
+- sitebay documentation
+slug: avatars
+license: '[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)'
+doc_sources:
+- avatar-contract
+modified: 2026-10-07
 ---
 
-# Avatars
+Choose a licensed avatar, inspect its manifest, and preview speech. A model preview alone does not verify its mouth controls.
 
-SiteBay avatars use a shared face-control contract so the app, voice agent, and avatar runtime agree on speech timing and facial movement.
-
-## Supported Avatar Sources
-
-You can use the built-in SiteBay avatars or bring a compatible GLB avatar. For best results, use an avatar with facial blend shapes that can map to common lip-sync visemes.
-
-## Lip-Sync Tiers
-
-SiteBay supports three practical tiers:
-
-- Viseme schedules from the voice service for the best speech match.
-- Word timing cues when visemes are not available.
-- Amplitude movement as a fallback when only audio energy is available.
-
-## Bring Your Own GLB
-
-Upload or select a GLB avatar in Avatar Studio, then choose it for your assistant. Keep geometry lightweight enough for mobile, and include stable mouth and eye controls when possible.
-
-See [Bring Your Own Avatar](/docs/avatars/custom/) for import steps, [Sketchfab Avatars](/docs/avatars/sketchfab/) for filtered model search, and [Visemes Explained](/docs/avatars/visemes-explained/) for lip-sync quality.
-
-See [Voice Agent](/docs/voice/) for how voice sessions deliver avatar cues.
+{{< section-links >}}

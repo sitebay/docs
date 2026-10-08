@@ -1,68 +1,49 @@
 ---
 slug: beginners-guide-to-wordpress
-authors: ["SiteBay"]
-contributors: ["SiteBay"]
-description: 'WordPress basics: posts, pages, themes, plugins.'
-keywords: ['wordpress','help','beginner','introduction']
-tags: ["wordpress","quickstart"]
+authors:
+- SiteBay
+contributors:
+- SiteBay
+description: Use WordPress to manage your site's content, appearance, and extensions.
+keywords:
+- wordpress
+- help
+- beginner
+- introduction
+tags:
+- wordpress
+- quickstart
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
 published: 2024-03-29
-modified: 2025-12-04
+modified: 2026-10-07
 modified_by:
   name: SiteBay
-title: "WordPress Basics"
-concentrations: ["WordPress"]
-aliases: ['beginners-guide-to-wordpress-introduction/']
+title: WordPress basics
+concentrations:
+- WordPress
+aliases:
+- beginners-guide-to-wordpress-introduction/
+doc_sources:
+- wp-basics
+- site-ui
 ---
 
-![WordPress Basics](beginners-guide-to-wordpress.png)
+Use WordPress to manage your site's content, appearance, and extensions.
 
-WordPress is an open-source CMS (PHP + MariaDB). Powers 40%+ of top websites.
+## Open administration
 
-**WordPress vs Squarespace/Wix**: WordPress runs server-side apps with database storage. More powerful, steeper learning curve.
+Open the site's WordPress administration from SiteBay or visit its `/wp-admin/` address. Use the credentials or single sign-on method configured for that WordPress site; a hosting account and a WordPress user are separate identities.
 
-## Access Admin
+## Choose the content type
 
-1. Go to `yoursite.com/wp-admin/`
-2. Log in with your WordPress credentials (not your SiteBay password)
+Posts suit dated updates and can use categories and tags. Pages suit content such as an About or Contact page. Themes control presentation; plugins add behavior.
 
-## Core Concepts
+## Create a page
 
-| Component | Purpose |
-|-----------|---------|
-| **Posts** | Date-sorted content (blogs, news). Organized by tags/categories |
-| **Pages** | Static content (About, Contact). Appears in nav menus |
-| **Themes** | Site design/layout. Browse at [wordpress.org/themes](https://wordpress.org/themes/) |
-| **Plugins** | Add features. Keep minimal for security/performance |
+Open **Pages**, add a page, enter its title, and build its content with the available blocks. Save a draft and preview the result. Check the public layout before publishing. Add the page to the site's navigation where needed.
 
-## Add a Post
+## Change the site carefully
 
-1. **Posts > Add New**
-2. Enter title + content
-3. Add tags/categories
-4. **Preview** → **Publish**
+Review themes and plugins before installing them. Test changes in staging and remove unused components. Adding a plugin does not automatically configure its external services.
 
-## Add a Page
-
-1. **Pages > Add New**
-2. Enter title + content
-3. **Preview** → **Publish**
-
-## Add a Plugin
-
-1. **Plugins > Add New**
-2. Search or browse
-3. **Install Now** → **Activate**
-4. Configure at **Plugins > Installed Plugins > Settings**
-
-⚠️ Fewer plugins = better security + speed
-
-## Change Theme
-
-1. **Appearance > Themes > Add New**
-2. Search/filter themes
-3. **Preview** → **Install** → **Activate**
-
-## Next
-
-[Installing Plugins Tutorial](/support/tutorials/getting-started/)
+Follow the [WordPress block-editor guide](https://wordpress.org/documentation/article/first-steps-with-wordpress-block-editor/) and [the pre-publication checklist]({{< relref "guides/common-problems/2/index.md" >}}).

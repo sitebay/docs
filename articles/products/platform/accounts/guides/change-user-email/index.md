@@ -1,47 +1,48 @@
 ---
-description: "Instructions on updating the email address on an account so that you can receive email notifications."
-keywords: ["email address", "email addresses", "address", "addresses"]
-tags: ["sitebay platform","My SiteBay","email"]
+description: Your SiteBay sign-in email and a billing provider's invoice contact are different records. Updating
+  one does not establish that the other changed.
+keywords:
+- email address
+- email addresses
+- address
+- addresses
+tags:
+- sitebay platform
+- My SiteBay
+- email
 published: 2024-04-21
 image: L_ChangeYourEmail.png
-title: Change Your Email Address
-title_meta: Change Your Email Address on a SiteBay Account
-aliases: ['/quick-answers/platform/how-to-change-your-email/','/guides/how-to-change-your-email/']
-authors: ["SiteBay"]
-contributors: ["SiteBay"]
+title: Change account email
+title_meta: Change account email
+aliases:
+- /quick-answers/platform/how-to-change-your-email/
+- /guides/how-to-change-your-email/
+authors:
+- SiteBay
+contributors:
+- SiteBay
 modified_by:
   name: SiteBay
+slug: change-user-email
+license: '[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)'
+doc_sources:
+- account-ui
+- teams
+- api-auth
+- pricing
+modified: 2026-10-08
 ---
 
-We use your email to send you important stuff—like billing receipts, Kubernetes cluster alerts, or heads-ups from the SiteBay MCP Server. Keep it updated so you don't miss anything critical.
+Your SiteBay sign-in email and a billing provider's invoice contact are different records. Updating one does not establish that the other changed.
 
-You can set emails in two spots: **Billing Info** (for invoices) and **Users & Grants** (for account alerts). If it's just you, update both. If you've got a team, make sure the primary account holder's email is right on the billing page.
+## Update the intended record
 
-## Update Billing Email
+Use your own account/profile settings for your sign-in identity and follow any verification shown there. Keep the existing session available until the new address has been confirmed. Changing a teammate’s permissions is separate from changing their sign-in identity.
 
-Check out the [Update Billing Contact Information](/docs/products/platform/billing/guides/update-billing-contact-info/) guide for this one.
+For billing contact changes, use [billing contact information]({{< relref "products/platform/billing/guides/update-billing-contact-info/index.md" >}}). For a team invitation, ask the owner to revoke an incorrect invitation and create one for the intended recipient rather than forwarding its capability link to another person.
 
-## Update User Account Email
+## Verify access
 
-Your user email gets the day-to-day stuff: password resets, support ticket replies, and access alerts.
+Check the account record and successful delivery to the intended address. Keep the account email, WordPress administrator email, and Shopify shop contact separate in your change record. A Shopify linking flow can require matching account/shop email values; read its error before changing either account.
 
-{{< note >}}
-Only users with full account access get the big threshold and billing notification emails.
-{{< /note >}}
-
-To swap out a user's email:
-
-1. Click **Account** in the sidebar.
-2. Hit the **Users & Grants** tab.
-3. Click the **User Profile** link for the user you want to update.
-4. Drop the new email into the **Email** field.
-
-    ![Modify the email address associated with your user account](accounts-my-profile-change-email.png "Modify the email address associated with your user account")
-
-5. Smash **Save**.
-
-You're all set.
-
-{{< note >}}
-If you don't have full admin rights, you can still change your own email. Just click your username at the top of My SiteBay and select **Display** to tweak your profile.
-{{< /note >}}
+When you cannot access the original address or the UI does not offer the change, [contact support]({{< relref "products/platform/get-started/guides/support/index.md" >}}). Never send a password, session cookie, MFA secret, or API key in the request.

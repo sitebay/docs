@@ -1,52 +1,41 @@
 ---
 slug: benefits-of-wordpress-on-kubernetes
-description: 'Benefits of running WordPress on Kubernetes with SiteBay.'
-keywords: ["kubernetes", "wordpress", "container", "deployment"]
-tags: ["wordpress", "kubernetes", "deployment", "container"]
+description: SiteBay uses Kubernetes to run WordPress workloads and manage their lifecycle. Site storage and application
+  state remain important even when a workload is replaced.
+keywords:
+- kubernetes
+- wordpress
+- container
+- deployment
+tags:
+- wordpress
+- kubernetes
+- deployment
+- container
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
 modified_by:
   name: SiteBay
-modified: 2024-12-04
+modified: 2026-10-07
 published: 2024-04-27
 image: DeployNGINX_SiteBay.png
-title: 'WordPress on Kubernetes'
-aliases: ['/kubernetes/wordpress/']
-authors: ["SiteBay"]
-contributors: ["SiteBay"]
+title: WordPress hosting on Kubernetes
+aliases:
+- /kubernetes/wordpress/
+authors:
+- SiteBay
+contributors:
+- SiteBay
+doc_sources:
+- platform-architecture
+- lifecycle
 ---
 
-Kubernetes automates deploying, scaling, and managing containerized applications.
+SiteBay uses Kubernetes to run WordPress workloads and manage their lifecycle. Site storage and application state remain important even when a workload is replaced.
 
-## Benefits
+## Responsibilities
 
-| Feature | Benefit |
-|---------|---------|
-| Scalability | Auto-scale based on traffic |
-| Resilience | Self-healing if components fail |
-| Zero-downtime deploys | Rolling updates |
-| Cost efficiency | Scale resources on demand |
+SiteBay manages the hosting infrastructure. You manage WordPress content, plugins, themes, access, and the site operations permitted by your account.
 
-## Requirements
+Kubernetes is not itself a backup, an application test, or a guarantee of uninterrupted service. Review available recovery points and verify WordPress after deployments or restores.
 
-- SiteBay account
-- Basic container knowledge
-- kubectl CLI (optional)
-
-## Setup on SiteBay
-
-1. **Create cluster** - Via SiteBay dashboard, choose region near your audience
-2. **Deploy WordPress** - Using Helm charts
-3. **Configure Ingress** - NGINX controller for external access
-4. **Add SSL** - Let's Encrypt certificates
-5. **Monitor** - Use SiteBay monitoring tools
-
-## Continuous Deployment
-
-Kubernetes rolling updates deploy new versions without downtime.
-
-## SiteBay Features
-
-- PostHog analytics
-- Grafana dashboards
-- Staging environments
-- Code Server IDE
+See [How SiteBay hosting fits together]({{< relref "products/platform/architecture/index.md" >}}).

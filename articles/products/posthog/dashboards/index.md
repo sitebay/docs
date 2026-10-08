@@ -1,48 +1,44 @@
 ---
 slug: dashboards
-description: 'PostHog dashboards on SiteBay.'
-keywords: ["PostHog", "WordPress", "SiteBay", "analytics", "dashboards"]
+description: Group related insights in a dashboard so a team can review the same question with the same context.
+keywords:
+- PostHog
+- WordPress
+- SiteBay
+- analytics
+- dashboards
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
 published: 2024-04-30
-modified: 2025-12-04
+modified: 2026-10-07
 modified_by:
   name: SiteBay
-title: 'Dashboards'
-tags: ["sitebay", "PostHog", "analytics"]
-aliases: ['/quick-answers/sitebay/dashboards/']
-authors: ["SiteBay"]
-contributors: ["SiteBay"]
+title: Build an analytics dashboard
+tags:
+- sitebay
+- PostHog
+- analytics
+aliases:
+- /quick-answers/sitebay/dashboards/
+authors:
+- SiteBay
+contributors:
+- SiteBay
+doc_sources:
+- analytics-ui
 ---
 
-# PostHog Dashboards
+Group related insights in a dashboard so a team can review the same question with the same context.
 
-Data is useless if you can't make sense of it. That's why SiteBay gives you totally customizable **PostHog Dashboards** to visualize all your WordPress site metrics in one place.
+## Add useful insights
 
-## Building Your View
+Start with a small set of saved insights. Give each chart a clear name and arrange the charts in the order a reader should inspect them. Avoid mixing unrelated projects, environments, or definitions of the same metric.
 
-Want to see your most important numbers right when you log in? Here's how to build a dashboard:
+## Review filters
 
-1. Go to **Analytics > Dashboards > New** in your SiteBay control panel.
-2. Throw in some tiles (charts, tables, big number KPIs).
-3. Drag them around until it looks good.
-4. Save it and share it with your team.
+Check the dashboard's date range and filters before interpreting a change. Open an individual insight to inspect its query and any filters that apply only to that chart.
 
-## Tile Types You Can Use
+## Share deliberately
 
-| Type | What it's good for |
-|------|----------|
-| **Trend** | Seeing if things are going up or down over time. |
-| **Funnel** | Figuring out where people are bailing in your checkout flow. |
-| **Retention** | Checking if users actually come back. |
-| **Table** | Looking at the raw, unfiltered data. |
-| **Number** | That one massive KPI you obsess over. |
+Use the sharing controls available to your project. Verify what the recipient can access; copying a link does not necessarily grant permission. Do not expose private customer data in a public dashboard.
 
-## The AI Edge
-
-Don't want to build a dashboard? No sweat. Use the **SiteBay MCP Server** to have your AI agent pull the data for you, or just open the **SiteClaw** mobile app to get a quick, AI-generated summary of your top metrics while you're grabbing coffee.
-
-## Pro Tips
-
-- Pin the dashboards you care about most to your sidebar.
-- Set up default date ranges so you don't have to keep adjusting them.
-- Share read-only links with your clients or team members so they can see the wins without breaking anything.
+Use a [Notebook]({{< relref "products/posthog/notebooks/index.md" >}}) when the charts need an explanation, a decision, or a record of follow-up work.

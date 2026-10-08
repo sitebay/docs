@@ -3,51 +3,54 @@ slug: wordpress-development-on-remote-devices
 author:
   name: SiteBay
   email: support@sitebay.org
-description: "Remote WordPress development with SiteBay Git Sync."
-keywords: ["docker", "container", "sitebay", "remote", "git sync"]
-tags: ["git", "vscode", "ide"]
+description: Choose either a local development checkout with a reviewed Git workflow or the authenticated browser
+  workspace for the target site.
+keywords:
+- docker
+- container
+- sitebay
+- remote
+- git sync
+tags:
+- git
+- vscode
+- ide
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
 published: 2024-04-14
-modified: 2024-12-04
+modified: 2026-10-07
 modified_by:
   name: SiteBay
-title: 'Remote WordPress Development'
-audiences: ["beginner"]
-aliases: ['/features/tips-and-tricks/wordpress-development-on-remote-devices','/development/wordpress-development-on-remote-devices']
+title: Develop WordPress from another device
+audiences:
+- beginner
+aliases:
+- /features/tips-and-tricks/wordpress-development-on-remote-devices/
+- /development/wordpress-development-on-remote-devices/
+authors:
+- SiteBay
+contributors:
+- SiteBay
+doc_sources:
+- code-server
+- wp-config
+- shell-reference
+- lifecycle
 ---
 
-Configure SiteBay for remote WordPress development.
+Choose either a local development checkout with a reviewed Git workflow or the authenticated browser workspace for the target site. They are separate environments, not automatically identical copies.
 
-## Development Approaches
+## Prepare remote work
 
-| Approach | Pros | Cons |
-|----------|------|------|
-| Local (LAMP/MAMP) | Instant changes, familiar tools | Buggy clients, machine-dependent |
-| WordPress editor | Instant preview | No IDE features, no version history |
-| IDE + FTP | Full IDE features | Slow, risky |
+Use an authorized device, a stable connection and the intended account. Avoid shared-browser sessions for credentials. Confirm the repository branch, file state and live/staging target before editing.
 
-## Recommended: Git Sync + Staging
+## Reconnect deliberately
 
-Best of both worlds:
-- Use your preferred IDE
-- Changes sync every 30 seconds
-- No risk to production site
-- Works on any OS
+After a dropped connection, inspect the saved file, remote commit and site state. An interrupted response does not prove the server made no change. Do not repeat a promotion or restore until its outcome is known.
 
-## Setup Git Sync
+## Test before live use
 
-1. Sign up for SiteBay
-2. Install SiteBay app on GitHub
-3. Go to **My SiteBay** → **Account** → **Git Sync**
-4. Find your wp-content repo
-5. Click **Create new Site from this repo**
+A staging copy reduces some risk but does not guarantee isolation from every external API, email sender or payment integration. Use test credentials and inspect affected integrations before running a workflow.
 
-## Workflow
+## Current procedure
 
-1. Make changes locally in your IDE
-2. Push to GitHub
-3. SiteBay auto-deploys to staging
-4. Test and verify
-5. Sync to production when ready
-
-Changes made in WordPress also sync back to GitHub.
+[Open and verify a workspace]({{< relref "products/code-server/get-started/index.md" >}}) covers the launch grant, actual path, extensions and completion checks. For command examples, see [workspace navigation]({{< relref "guides/quick-answers/sitebay/how-to-use-basic-commands-for-wordpress-linux/index.md" >}}) and [WP-CLI checks]({{< relref "guides/quick-answers/sitebay/wordpress-command-line-tips/index.md" >}}).

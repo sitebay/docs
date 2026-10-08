@@ -1,36 +1,50 @@
 ---
-description: "Learn how to change your user's password on a SiteBay account."
-keywords: ["password", "change password", "update password", "My SiteBay"]
-tags: ["sitebay platform","My SiteBay","security"]
+description: Reset the credential for the system you are signing into. Your SiteBay account, a WordPress administrator,
+  and an external Git provider do not share one password-reset operation.
+keywords:
+- password
+- change password
+- update password
+- My SiteBay
+tags:
+- sitebay platform
+- My SiteBay
+- security
 published: 2024-04-21
-modified: 2024-04-04
+modified: 2026-10-08
 image: L_ChangeYourPassword.png
-title: Reset Your User Password
-title_meta: Reset Your User Password on the SiteBay Platform
-aliases: ['/quick-answers/platform/how-to-change-your-password/', '/guides/how-to-change-your-password/']
-authors: ["SiteBay"]
-contributors: ["SiteBay"]
+title: Reset a SiteBay password
+title_meta: Reset a SiteBay password
+aliases:
+- /quick-answers/platform/how-to-change-your-password/
+- /guides/how-to-change-your-password/
+authors:
+- SiteBay
+contributors:
+- SiteBay
 modified_by:
   name: SiteBay
+slug: reset-user-password
+license: '[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)'
+doc_sources:
+- account-ui
+- teams
+- api-auth
+- pricing
 ---
 
-Keep your stuff locked down. Whether you're logging into the web dashboard, the SiteClaw mobile app, or authenticating via the SiteBay MCP Server, you need a solid password to protect your Kubernetes-powered WordPress sites.
+Reset the credential for the system you are signing into. Your SiteBay account, a WordPress administrator, and an external Git provider do not share one password-reset operation.
 
-If you think someone snagged your password, change it immediately.
+## Change a password while signed in
 
-{{< content "password-requirements-shortguide" >}}
+Use the account password form. The current client submits the new password to the authenticated account update endpoint and surfaces validation errors. Follow the password requirements shown by the server. A returned error means the change was not accepted.
 
-## How to Reset Your Password
+## Recover access
 
-Forgot your password? Or just want to rotate it? Easy.
+Start from the sign-in page's recovery flow for the account email. Follow the most recent message sent by the service. Magic-link sign-in is a separate passwordless flow; receiving or opening a link is not proof that a new password was set. Treat recovery links and verification codes as secrets.
 
-1. Head over to the [Forgot Password](https://my.sitebay.org/forgot/password) page.
-2. Drop in your username.
+If MFA is enabled, follow its challenge rather than attempting to bypass it through a different API key. TOTP setup is not active until the first code is confirmed. Store the authenticator secret in an appropriate secure authenticator and do not paste it into chat or logs.
 
-    {{< note >}}
-    For account-access help, see [Support]({{< relref "products/platform/get-started/guides/support/index.md" >}}).
-    {{< /note >}}
+## Confirm the change
 
-3. Hit **Reset password**.
-4. Check your inbox. We'll send you an email with a secure reset link.
-5. Click the link, type in your new password, and you're back in business.
+Check the success response and sign in using the intended method. Review sessions and separately issued keys after a suspected compromise; changing a password alone does not demonstrate that every integration token was revoked. For a WordPress-only reset, use that site's administrator recovery path with authorization. For help, [contact support]({{< relref "products/platform/get-started/guides/support/index.md" >}}).

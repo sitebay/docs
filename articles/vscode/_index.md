@@ -1,23 +1,27 @@
 ---
 layout: documentation-section
-title: "SiteBay Agent Bridge"
-description: "Use the headless VS Code bridge with Sorti sessions."
-tags: ["sitebay", "vscode", "sorti"]
+title: SiteBay Agent Bridge
+description: Connect a trusted editor workspace to the intended SiteBay session. Start with installation and setup,
+  then use the command and settings references.
+tags:
+- sitebay
+- vscode
+- sorti
 published: 2026-04-28
+authors:
+- SiteBay
+contributors:
+- SiteBay
+keywords:
+- sitebay agent bridge
+- sitebay documentation
+slug: vscode
+license: '[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)'
+doc_sources:
+- editor-bridge
+modified: 2026-10-07
 ---
 
-# SiteBay Agent Bridge
+Connect a trusted editor workspace to the intended SiteBay session. Start with installation and setup, then use the command and settings references.
 
-SiteBay Agent Bridge is a headless VS Code extension. It connects your workspace to the same Sorti session you use in SiteBay, then shares editor context and applies approved agent actions.
-
-The extension does not add chat panels or avatars. Sorti and SiteClaw handle the interface; the bridge runs in VS Code so the agent can read diagnostics, understand the focused file, and apply file edits.
-
-## What It Enables
-
-- Share the focused file and selected code with Sorti.
-- Let Sorti request diagnostics, symbols, file reads, and workspace search.
-- Apply agent edits through VS Code workspace APIs.
-- Restore checkpoints created during an agent session.
-- Connect code-server workspaces to the active SiteBay session.
-
-Next: [Install The Bridge](/docs/vscode/install/) or review [Bridge Commands](/docs/vscode/commands/).
+{{< section-links >}}

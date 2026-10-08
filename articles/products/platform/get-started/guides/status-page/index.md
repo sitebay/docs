@@ -1,41 +1,46 @@
 ---
-description: 'Learn how to subscribe to SiteBay system status and maintenance updates.'
-keywords: ['sitebay','maintenance','incident','system', 'status']
+description: Check the selected site's state before deciding whether a problem affects your application or the hosting
+  service.
+keywords:
+- sitebay
+- maintenance
+- incident
+- system
+- status
 published: 2024-04-20
-modified: 2024-04-23
+modified: 2026-10-08
 modified_by:
   name: SiteBay
-title: "Subscribe to SiteBay Status Updates"
-tags: ["sitebay platform"]
-aliases: ['/platform/sitebay-status-page/','/guides/sitebay-status-page/']
-authors: ["SiteBay"]
-contributors: ["SiteBay"]
+title: Check site and service status
+tags:
+- sitebay platform
+aliases:
+- /platform/sitebay-status-page/
+- /guides/sitebay-status-page/
+authors:
+- SiteBay
+contributors:
+- SiteBay
+slug: status-page
+license: '[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)'
+doc_sources:
+- site-ui
+- lifecycle
+- support
 ---
 
-When things break or we're doing routine maintenance on our Kubernetes clusters, we post updates immediately to the [SiteBay Status Page](https://www.sitebay.org/status/). 
+Check the selected site's state before deciding whether a problem affects your application or the hosting service.
 
-If you're relying on us for your AI-native WordPress hosting, you should definitely subscribe so you're never caught off-guard. You can even filter the updates so you only get pinged about the specific data centers you're actually using.
+## Inspect the site
 
-## Get Updates via Email or SMS
+Review its current status and recent operations. A deployment, migration, or restore can be accepted before it completes. Read that operation's result rather than submitting the same request repeatedly.
 
-1. Go to the [SiteBay Status Page](https://www.sitebay.org/status/).
-2. Hit the **Subscribe to Updates** button at the top.
+## Compare the symptoms
 
-    ![Subscribe to SiteBay status updates.](status-page-subscribe.png)
+Test the affected URL and, where appropriate, administration. Check whether the issue is specific to a page, account, network, or time period. A healthy platform status does not prove every plugin or external service is working.
 
-3. Enter your email or phone number.
-4. Pick which components (data centers or services) you care about, then click **Save**.
-5. Check your inbox or phone for a confirmation message and verify it.
+## Escalate with evidence
 
-*(Note: If you ever want to stop getting text messages, just reply "STOP" to one of the alerts.)*
+Use any service-status link currently provided in the dashboard. Check the incident’s affected services and latest update.
 
-## Just Want the RSS Feed?
-
-If you prefer using an RSS reader, or you want to pipe the updates into a Slack channel, use this URL: `https://www.sitebay.org/status/history.rss`.
-
-## Track a Specific Incident
-
-If there's currently an outage and you just want to know when it's fixed (without subscribing to everything forever):
-1. Go to the status page and click on the specific incident.
-2. Hit **Subscribe to Updates** right on that page.
-3. Drop in your email or phone number.
+Send [Support]({{< relref "products/platform/get-started/guides/support/index.md" >}}) the site, time, failing action, and operation identifier.

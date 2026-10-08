@@ -1,113 +1,56 @@
 ---
-title: "Panels and MCP"
-description: "How Sorti uses MCP App panels, first-party panels, and BYO MCP servers."
-tags: ["sorti", "mcp", "panels"]
+title: Panels and MCP
+description: An MCP server exposes tools and resources. A panel provides a persistent UI for reading state and invoking
+  the tools that own it.
+tags:
+- sorti
+- mcp
+- panels
 published: 2026-06-04
 weight: 50
+authors:
+- SiteBay
+contributors:
+- SiteBay
+keywords:
+- panels and mcp
+- sitebay documentation
+slug: panels-and-mcp
+license: '[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)'
+doc_sources:
+- sorti-panels
+- sorti-byo
+modified: 2026-10-07
 ---
 
-# Panels and MCP
+An MCP server exposes tools and resources. A panel provides a persistent UI for reading state and invoking the tools that own it.
 
-Panels are interactive surfaces that Sorti can render inside the workspace.
-They are backed by MCP App resources and tools.
+## Choose a tool or a panel
 
-The goal is simple: a panel shows state, the user acts, and the action goes
-through a typed tool call.
+Use a tool for an action the assistant needs to perform. Add a panel when a user also needs to inspect state, compare results, or repeat the action through visible controls.
 
-## First-party panels
+Keep mutable data in tool results and view-models, not in descriptions that become stale. The service remains responsible for authentication, authorization, and mutations.
 
-Sorti ships first-party panels for:
+## First-party panel actions
 
-- Git
-- Diff
-- PostHog Analytics
-- Artifacts
-- Ask
-- WP-AI
-- Gutenberg Composer
-- Files
-- Security
+A first-party panel calls its own action through `SortiPanel.rpc('tools/call', ...)`. Use the shared `sorti.ask` tool only when the action should create a visible conversational user turn:
 
-Each first-party panel has a stable server id and resource URI. Each panel
-exposes a `read_state` tool that returns the view-model the panel renders.
-Panel actions use panel tools, and model-facing tools can remain available when
-the assistant should call them directly.
+```js
+window.SortiPanel.rpc('tools/call', {
+  name: 'sorti.ask',
+  arguments: {
+    text: 'Explain the findings shown in this security panel.',
+    summary: 'Explain security findings',
+  },
+});
+```
 
-| Panel kind | Use it for |
-|---|---|
-| Git and Diff | Repository status, file changes, commits, checkpoints, and review. |
-| PostHog Analytics | Product analytics queries and investigation. |
-| Artifacts and Files | Durable generated output and file-oriented workspace state. |
-| Ask | Structured user input when the agent is waiting on a question. |
-| WP-AI and Composer | WordPress and Gutenberg-specific assistant workflows. |
-| Security | WordPress security scanning and remediation workflows. |
+`text` is the request; `summary` is optional display text. A local panel action such as refreshing results should call that panel's tool directly.
 
-## One panel-to-agent channel
+## External applications
 
-Panels reach the agent through `tools/call`. Sorti does not need a separate
-hidden chat channel for panel actions.
+BYO applications declare their modules, tools, specialists, and panels. They do not automatically receive first-party shared tools or unrestricted cross-server access.
 
-When a panel needs the agent to respond in the main conversation, it calls the
-shared `sorti.ask` tool with:
+Run the [BYO conformance checks]({{< relref "mcp/byo-mcp.md" >}}) against a test server. Passing those checks does not grant installation permissions or prove production behavior.
 
-- `text`: the full prompt the agent receives.
-- `summary`: an optional short label shown in the chat transcript.
-
-Panel-local work should call the panel's own tool instead. For example, clearing
-a scratchpad or running a query should be a panel action, not a chat message
-that asks the agent to route it.
-
-## Tool or panel
-
-Add a tool when the assistant needs a new action. Add a panel when the user also
-needs a durable surface to inspect, compare, or operate that action.
-
-Good panel candidates have at least one of these traits:
-
-- The result is visual or stateful.
-- The user may need to rerun or refine the operation.
-- The output is easier to scan as a table, graph, diff, file list, or form.
-- The workflow has panel-local actions that should not become chat messages.
-
-## Bring your own MCP
-
-BYO MCP servers can plug into Sorti when they expose the expected capability and
-server-card endpoints, plus an MCP endpoint. A BYO server can contribute tools,
-specialists, and panels.
-
-Before loading a BYO server, run the conformance checks described in
-[Build your own MCP for Sorti](/docs/mcp/byo-mcp/). The checks protect the
-basics: capability shape, tool-list parity, panel namespacing, and safe
-tool-call behavior.
-
-## Trust and boundaries
-
-Sorti treats first-party panels and BYO panels differently. First-party panels
-can receive shared first-party tools such as `sorti.ask`. BYO panels do not get
-those tools automatically.
-
-Panel calls stay within the owning server unless a trusted or user-granted
-cross-server path exists. This keeps an external panel from silently acting as a
-different integration.
-
-## Panel design rules
-
-A good Sorti panel:
-
-- Renders from a `read_state` view-model.
-- Calls tools directly for panel-local actions.
-- Uses `sorti.ask` only when it should create a visible conversation turn.
-- Keeps tool results small and structured.
-- Avoids embedding changing lists or large dynamic context inside tool
-  descriptions.
-- Provides a useful minimal HTML surface even when the panel is simple.
-
-## Where STS2 fits
-
-The STS2 bridge is a reference example of a domain-specific co-op integration.
-It exposes state, tools, and panels so Sorti can render external surfaces and
-coordinate actions through the same MCP-style model.
-
-The same pattern applies outside games: a domain bridge should expose state and
-actions through portable tools and panels, while Sorti hosts the workspace and
-conversation.
+For implementation details, read [the first-party server contract]({{< relref "sorti/sorti-panel-server-contract.md" >}}).

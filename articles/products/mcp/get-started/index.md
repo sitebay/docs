@@ -1,70 +1,58 @@
 ---
 slug: get-started-mcp
-description: "Give your AI agents the keys to the server. The SiteBay MCP server enables direct infrastructure control for Claude and other LLMs."
-keywords: ['mcp', 'claude', 'anthropic', 'wordpress management', 'ai agent', 'automation']
+description: SiteBay exposes a first-party, in-process MCP service derived from its allowed API routes.
+keywords:
+- mcp
+- claude
+- anthropic
+- wordpress management
+- ai agent
+- automation
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
 published: 2026-03-12
-modified: 2026-03-12
+modified: 2026-10-07
 modified_by:
   name: SiteBay
-title: "SiteBay MCP Server: AI Infrastructure Control"
+title: Connect an assistant to SiteBay MCP
 bible: true
-tags: ["sitebay", "mcp", "ai", "claude"]
-authors: ["SiteBay"]
-contributors: ["SiteBay"]
+tags:
+- sitebay
+- mcp
+- ai
+- claude
+authors:
+- SiteBay
+contributors:
+- SiteBay
+doc_sources:
+- mcp-platform
+- api-auth
 ---
 
-# SiteBay MCP Server: AI Infrastructure Control
+SiteBay exposes a first-party, in-process MCP service derived from its allowed API routes. It uses the calling account's authorization, scope, idempotency and rate-limiting rules. Connecting an assistant does not grant unrestricted shell or infrastructure control.
 
-Clicking through dashboards is legacy behavior. The **Model Context Protocol (MCP)** is an open standard that allows AI agents, like Anthropic's Claude, to interact directly with external APIs and data. 
+## Connection endpoint
 
-We built the **SiteBay MCP Server** to give your AI assistants a deep, programmatic connection directly into your WordPress infrastructure. You don't tell the agent *how* to do something; you tell it *what* you want done, and the agent orchestrates the underlying API calls to make it happen.
+The source-configured API prefix mounts the MCP service at:
 
-## The Power of Intent-Based Management
-
-Instead of opening an SSH terminal, finding the right directory, and looking up a WP-CLI command, you just open Claude Desktop and say:
-
-> *"Check the PostHog logs for mysite.com. If there are any PHP fatal errors from the new plugin we just installed, disable the plugin and restore the database to how it was 10 minutes ago."*
-
-The agent handles the investigation, executes the commands, and reports back.
-
-## Core Capabilities
-
-When you attach the SiteBay MCP Server to your agent, you grant it a massive toolbelt:
-
-*   **Bare-Metal Execution (`sitebay_site_shell_command`):** The agent can drop into an interactive bash shell or execute any `wp-cli` command natively on your container.
-*   **Surgical Code Edits (`sitebay_site_edit_file`):** The agent can read files from your `wp-content` directory, write complex regex search-and-replace blocks, and refactor your theme on the fly.
-*   **Time Travel (`sitebay_backup_restore`):** Agents can autonomously trigger Point-in-Time restores if their automated tests fail.
-*   **Analytics Proxy (`sitebay_posthog_proxy`):** Claude can query your raw PostHog analytics, summarizing session replays or identifying conversion bottlenecks.
-*   **Fleet Management:** Spin up new staging sites, manage DNS records, and configure edge caching—all through conversation.
-
-## Quick Installation
-
-The fastest way to wire up Claude Desktop is using **Smithery**.
-
-1.  Fire up your terminal.
-2.  Run the installer:
-    ```bash
-    npx -y @smithery/cli install @sitebay/sitebay-mcp --client claude
-    ```
-3.  Drop in your SiteBay API key (grab one from your profile dashboard). 
-
-### The Hacker Way (Manual Setup)
-
-If you like to control your own `claude_desktop_config.json`, just point it at the `npx` package:
-
-```json
-{
-  "mcpServers": {
-    "sitebay": {
-      "command": "npx",
-      "args": ["-y", "@sitebay/sitebay-mcp"],
-      "env": {
-        "SITEBAY_API_KEY": "sk_live_your_token_here"
-      }
-    }
-  }
-}
+```text
+https://my.sitebay.org/f/api/v1/mcp
 ```
 
-The MCP Server effectively turns Claude into your personal DevOps engineer, available 24/7, with zero onboarding time required.
+Use an MCP client that supports the transport and authentication advertised by that deployment. Add the endpoint through the client's supported server-connection flow and authenticate for the intended account. Discover the tool list rather than copying a guessed tool name from an old screenshot.
+
+The server supports stateless streamable HTTP and protocol-version-dependent request handling. Let the client's MCP implementation perform negotiation; do not invent a persistent session identifier. Exact remote-client setup screens can change independently of SiteBay.
+
+## First verification
+
+Ask for a read-only description of the selected site and its current state. Verify that the returned account, team and domain are correct. A connected indicator or a tool appearing in the list is not proof that it can execute a particular action.
+
+Read tool annotations and operation descriptions before granting writes. A plugin update, DNS edit, staging promotion or restore changes a real resource. Ask for the proposed target, expected impact and recovery plan before approval.
+
+## Installation and credential cautions
+
+The old `npx @sitebay/sitebay-mcp` and Smithery commands on this page were not established by the current in-process implementation; they have been removed. Do not install an unverified package or use a Stripe-style `sk_live_` example as a SiteBay credential. Keep session and API-key material in the client's secure configuration, not chat messages or Git.
+
+## Diagnosing a failed action
+
+Record the redacted tool name, target, response and operation ID. Refresh state after a timeout before retrying a mutation. Use [guarded intent workflows]({{< relref "products/mcp/agent-intents/index.md" >}}) where advertised. Do not delete/recreate staging to resolve a canvas or unrelated connection error.

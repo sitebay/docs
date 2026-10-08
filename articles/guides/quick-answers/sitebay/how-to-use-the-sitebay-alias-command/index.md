@@ -1,79 +1,51 @@
 ---
 slug: how-to-use-the-sitebay-alias-command
-description: 'Create command shortcuts with the Linux alias command.'
-keywords: ["sitebay alias command"]
-aliases: ['/quick-answers/sitebay/how-to-use-the-sitebay-alias-command/']
+description: alias is a shell feature, not a SiteBay API operation. It affects the terminal in which it is defined;
+  it does not register a remote agent tool or change another user's shell.
+keywords:
+- sitebay alias command
+aliases:
+- /quick-answers/sitebay/how-to-use-the-sitebay-alias-command/
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
-modified: 2024-12-04
+modified: 2026-10-07
 modified_by:
   name: SiteBay
 published: 2024-04-17
-title: Linux alias Command
-tags: ["sitebay"]
-authors: ["SiteBay"]
-contributors: ["SiteBay"]
+title: Use and inspect shell aliases
+tags:
+- sitebay
+authors:
+- SiteBay
+contributors:
+- SiteBay
+doc_sources:
+- shell-reference
+- code-server
 ---
 
-Create shortcuts for frequently used commands.
+`alias` is a shell feature, not a SiteBay API operation. It affects the terminal in which it is defined; it does not register a remote agent tool or change another user's shell.
 
-## View Current Aliases
-
-```bash
-alias
-```
-
-## Create Temporary Alias
+## Define and inspect
 
 ```bash
-alias s='git status'
+alias gst='git status --short'
+alias gst
+type gst
 ```
 
-Lasts until session ends.
+Use single quotes when the alias should keep variable references or command substitutions unevaluated until use. For example, putting a date substitution inside double quotes evaluates it when the alias is defined, which can unexpectedly reuse a backup filename.
 
-## Create Permanent Alias
+## Persist deliberately
 
-Add to `~/.bashrc` (or `~/.zshrc`):
+Edit the startup file appropriate to the shell shown by your terminal. For interactive Bash, `~/.bashrc` is the usual location. Review the diff before sourcing it: sourcing a file executes its contents immediately.
+
+## Bypass or remove
 
 ```bash
-alias update='sudo apt update && sudo apt upgrade'
-alias cls='clear'
+unalias gst
+command ls
 ```
 
-Apply changes:
+A backslash such as `\ls` prevents alias expansion, while `command` also helps bypass a shell function. Neither grants additional filesystem permissions. In a script, prefer explicit commands or defined functions rather than depending on someone's interactive aliases.
 
-```bash
-source ~/.bashrc
-```
-
-## Remove Alias
-
-```bash
-unalias s        # Remove one
-unalias -a       # Remove all
-```
-
-## Bypass Alias
-
-Use backslash to run original command:
-
-```bash
-\ls    # Runs ls without alias
-```
-
-## Useful Examples
-
-```bash
-# Directory shortcuts
-alias docs="cd ~/Documents"
-
-# Git shortcuts
-alias gst="git status"
-alias gdiff="git diff"
-
-# Python venv
-alias venv="python3 -m venv env"
-alias actv="source env/bin/activate"
-
-# Utility
-alias myip="curl ipinfo.io/ip"
-```
+Do not create convenience shortcuts that run package upgrades or overwrite a database without making the action clear.

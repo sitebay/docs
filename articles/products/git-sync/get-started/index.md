@@ -1,65 +1,84 @@
 ---
 slug: get-started-git-sync
-description: "Master Git Sync on SiteBay: Bi-directional code synchronization between your WordPress environments and your Git repositories."
-keywords: ['git sync', 'github', 'gitlab', 'bitbucket', 'version control', 'ci/cd', 'deployments']
+description: Git Sync connects a site's tracked WordPress files with a configured repository.
+keywords:
+- git sync
+- github
+- gitlab
+- bitbucket
+- version control
+- ci/cd
+- deployments
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
 published: 2024-03-13
-modified: 2026-03-12
+modified: 2026-10-08
 modified_by:
   name: SiteBay
-title: "Git Sync: Version Control for WordPress"
+title: Connect and verify Git Sync
 bible: true
-tags: ["sitebay", "git", "deployments", "ci-cd"]
-aliases: ['/quick-answers/sitebay-essentials/introduction-to-git-sync/']
-authors: ["SiteBay"]
-contributors: ["SiteBay"]
+tags:
+- sitebay
+- git
+- deployments
+- ci-cd
+aliases:
+- /quick-answers/sitebay-essentials/introduction-to-git-sync/
+authors:
+- SiteBay
+contributors:
+- SiteBay
+doc_sources:
+- git-sync
+- wp-config
+- lifecycle
 ---
 
-# Git Sync: Version Control for WordPress
+Git Sync connects a site's tracked WordPress files with a configured repository. Repository history, current working files, the WordPress database and deployment health are separate evidence. A successful push does not prove that the site applied the change.
 
-**Git Sync** is a core SiteBay feature that revolutionizes how developers build and maintain WordPress sites. It provides seamless, bi-directional synchronization between your WordPress site's `wp-content` directory and your preferred Git repository (GitHub, GitLab, or Bitbucket).
+## Prepare the repository
 
-With Git Sync, your codebase is always tracked, versioned, and easily deployable across multiple environments.
+The validation contract expects `wp-content/` at the repository root:
 
-## How Git Sync Works
+```text
+project/
+├── wp-content/
+│   ├── themes/
+│   ├── plugins/
+│   └── mu-plugins/
+├── wp-config-overrides.php
+└── .gitignore
+```
 
-SiteBay's Git Sync operates differently from traditional FTP or basic deployment scripts. It runs as a sidecar container alongside your WordPress environment, constantly monitoring for changes.
+The override file and `mu-plugins` are optional. Do not commit WordPress core directories, `wp-config.php`, database credentials, keys, salts or private database exports. Review uploads, cache and generated artifacts individually: excluding a directory from Git does not create a backup of it elsewhere.
 
-### Bi-Directional Synchronization
+## Authorize and attach
 
-1.  **Code to Cloud (Push):** When you commit and push changes to your linked Git branch (e.g., `main`), SiteBay instantly detects the webhook and pulls the latest code into your WordPress site.
-2.  **Cloud to Code (Commit via Dashboard/MCP):** When you make changes directly on the server—such as installing a plugin via the WordPress admin, editing a file in Code Server, or using the SiteBay MCP—you can commit and push those changes back to your Git repository directly from the SiteBay Dashboard or via an AI agent command.
+Use the current provider connection offered by SiteBay and authorize only the repositories needed. A GitHub App installation, another provider's credential and an internal repository use different authentication paths. Confirm that the connection supports your provider before setup.
 
-## Supported Providers
+Select the intended site, repository and branch. Validate the repository layout before allowing the initial sync to change the site. Review the direction of the initial operation and preserve existing uncommitted files; never assume an empty repository or an existing live directory will be handled identically.
 
-SiteBay integrates deeply with the major Git platforms, handling authentication via secure OAuth apps:
+## Make a small test change
 
-*   **GitHub:** Full support for personal repositories and organizations.
-*   **GitLab:** Support for GitLab.com and self-hosted GitLab instances.
-*   **Bitbucket:** Complete integration with Bitbucket workspaces.
+On a test copy or approved branch, change a harmless file, inspect the diff and stage only the intended files. Record the commit, then inspect SiteBay's Git state and the running site. The provider-agnostic status route uses a typed site reference such as `wp:example.com`; a partial result includes a reason that should be shown rather than treated as success.
 
-## Setting Up Git Sync
+A conflict, suspended sync, missing provider permission or incomplete request must be resolved explicitly. A network timeout can leave an operation's outcome unknown. Inspect health before retrying or restarting sync; do not use force-push or reset-hard as a generic repair.
 
-1.  **Link Your Provider:** Navigate to your User Profile > **Linked Accounts** and authorize SiteBay to access your GitHub, GitLab, or Bitbucket account.
-2.  **Attach to a Site:** Go to your site's dashboard, select **Settings > Git Sync**, and choose the repository and branch you want to link.
-3.  **Initial Sync:** SiteBay will perform an initial sync. If your repository is empty, SiteBay will commit your current `wp-content` directory to the repo. If the repo has code, SiteBay will pull it down to your site.
+## Work with staging
 
-## The `.gitignore` Strategy
+Confirm which branch and environment the staging site uses. A pull request merge changes repository history; promotion of staging file/database state is a separate guarded operation. The live canvas preview is not a staging copy. See [site lifecycle]({{< relref "products/platform/site-lifecycle/index.md" >}}) before promoting or restoring.
 
-Git Sync focuses exclusively on the `wp-content` directory (themes, plugins, mu-plugins). Core WordPress files and sensitive environment variables (`wp-config.php`) are managed by the platform and are deliberately excluded from Git tracking to ensure security and stability.
+## Managed configuration
 
-SiteBay automatically provides an optimized `.gitignore` file that excludes things like the `uploads/` directory (which should be handled by our object storage and backup systems, not Git) and caching directories.
+A root `wp-config-overrides.php` can contain supported simple literal `define()` values. For example:
 
-## Advanced Workflows
+```php
+<?php
+define('WP_POST_REVISIONS', 10);
+define('DISALLOW_FILE_EDIT', true);
+```
 
-### Staging Environments
-The most powerful use of Git Sync is combining it with SiteBay's Staging Sites.
-1.  Link your Production site to the `main` branch.
-2.  Link your Staging site to a `staging` or `development` branch.
-3.  Develop locally or on staging, commit to `staging`, test your changes, and then open a Pull Request to `main`. Merging the PR automatically deploys to Production.
+The parser returns accepted constants and structured rejections. Database constants, secrets, WordPress origin/path overrides and table-prefix changes are not accepted. Expressions using variables, concatenation or function calls are not supported. Review rejections; values are not merely “silently dropped.” A memory constant does not increase the team's resource entitlement.
 
-### AI Agent Integration
-Because Git Sync turns your infrastructure into code, AI agents thrive here. Using the **SiteBay MCP Server**, an agent can:
-*   Make targeted file edits to a theme.
-*   Run tests.
-*   Execute `git commit` and `git push` on your behalf, complete with a beautifully formatted commit message summarizing its changes.
+## Recovery
+
+Git can restore tracked files, but it cannot independently restore WordPress database content or ignored uploads. Inspect the actual available restore point, preserve a pre-change recovery reference and verify both files and database after restoration. No fixed sync interval, conflict-free collaboration or unlimited historical recovery is promised by this workflow.

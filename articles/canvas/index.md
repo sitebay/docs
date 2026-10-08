@@ -1,42 +1,33 @@
 ---
-title: "Canvas"
-description: "How SiteBay Canvas picks and edits template surfaces."
-tags: ["sitebay", "canvas", "templates"]
+title: Use the canvas
+description: Select a page or preview in the workspace, point to the part you want to change, and describe the result.
+tags:
+- sitebay
+- canvas
+- templates
 published: 2026-04-28
+authors:
+- SiteBay
+contributors:
+- SiteBay
+keywords:
+- canvas
+- sitebay documentation
+slug: canvas
+license: '[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)'
+doc_sources:
+- sorti-canvas
+modified: 2026-10-07
 ---
 
-# Canvas
+Select a page or preview in the workspace, point to the part you want to change, and describe the result.
 
-Canvas is the SiteBay editing surface used by template previews and assisted editing. It exposes provider contracts for WordPress, Shopify, and static sites so the app can use the correct routes and capabilities.
+## Before editing
 
-<!-- screenshot: TODO -->
+Confirm the selected site, environment, provider, and URL. Use a fresh selection after navigating or after another change modifies the page.
 
-## Template Surface
+## Check the result
 
-Every template should expose the same top-level section names:
+Inspect the edited region and test its interaction. Verify both narrow and wide layouts when the change affects responsive content. Check whether the operation changed a preview, saved provider data, or published the site; these are separate outcomes.
 
-- Hero
-- Features
-- Pricing
-- Blog
-- Contact
-
-This consistency lets SiteBay, Sorti, and docs describe templates the same way.
-
-## Providers
-
-Canvas supports these provider families:
-
-- WordPress
-- Shopify
-- Static sites
-
-Each provider advertises its routes, events, and whether live DOM editing is available.
-
-## Pick A Template
-
-Start with [Choose a template](/docs/getting-started/choose-a-template/) if you are not sure which provider fits your site.
-
-## Use Sorti
-
-Sorti can help pick a template, explain a section, or start a customization flow from voice. See [Sorti](/docs/sorti/).
+The [canvas and workspace guide]({{< relref "sorti/canvas-and-workspace.md" >}}) explains provider boundaries and revision checks.

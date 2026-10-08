@@ -1,32 +1,33 @@
 ---
-title: "Access Billing"
-description: "View billing information."
+title: Access billing
+description: Confirm the selected team and the account that owns the subscription before opening Billing.
 published: 2024-04-17
-modified: 2025-12-04
-authors: ["SiteBay"]
-contributors: ["SiteBay"]
+modified: 2026-10-07
+authors:
+- SiteBay
+contributors:
+- SiteBay
 modified_by:
   name: SiteBay
+keywords:
+- access billing
+- sitebay documentation
+slug: access-billing
+license: '[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)'
+doc_sources:
+- pricing
+- stripe-portal
+- teams
 ---
 
-Need to check your invoices or see what your Kubernetes clusters are costing you this month? Here's where to find all your billing details.
+Confirm the selected team and the account that owns the subscription before opening Billing.
 
-## Where to find it
+## Procedure
 
-Head over to [my.sitebay.org/account/billing](https://my.sitebay.org/account/billing), or just click **Account** → **Billing Info** in the sidebar.
+Use the billing provider shown by SiteBay. A Stripe-backed account opens an authenticated customer portal; the source requires a Stripe customer record and returns a portal URL. A portal link is private and should not be shared as a public invoice.
 
-## Who can see this?
+## Verify and retain evidence
 
-- **Full access users**: You can see everything.
-- **Restricted users**: You need to have either **Read-Write** or **Read Only** Billing Access turned on in your user permissions.
+Review the plan, current status, renewal/cancellation details and available invoices. An authorization error is not evidence that the subscription does not exist. Ask the owner or support rather than changing site ownership.
 
-## What's on the page
-
-| Section | What it shows |
-|---------|---------------|
-| **Account Balance** | What you owe right now, plus any credits you have. |
-| **Promotions** | Any active promo codes you've scored. |
-| **Accrued Charges** | Unbilled charges since your last invoice. |
-| **Billing Contact** | Your name, address, and where we send the receipts. |
-| **Payment Methods** | The credit cards or Google Pay accounts you have on file. |
-| **Billing History** | All your past invoices and payments. |
+See [team access and billing]({{< relref "products/platform/teams-and-billing/index.md" >}}) and [the current plan catalog]({{< relref "guides/quick-answers/sitebay-essentials/sitebay-plans/index.md" >}}) for scope and pricing units.

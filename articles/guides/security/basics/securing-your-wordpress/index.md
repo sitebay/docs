@@ -1,51 +1,53 @@
 ---
 slug: securing-your-wordpress
-description: "How SiteBay secures your WordPress infrastructure at the edge, server, and application layers."
-keywords: ['security', 'firewall', 'waf', 'malware', 'ssl', 'kubernetes security']
+description: Reduce risk through updates, limited access, trustworthy software, and a tested recovery path.
+keywords:
+- security
+- firewall
+- waf
+- malware
+- ssl
+- kubernetes security
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
 published: 2024-03-13
-modified: 2026-03-12
+modified: 2026-10-07
 modified_by:
   name: SiteBay
-title: "Security on SiteBay"
+title: Secure a WordPress site
 bible: true
-tags: ["sitebay", "security", "infrastructure"]
-aliases: ['/guides/security/basics/securing-your-wordpress/']
-authors: ["SiteBay"]
-contributors: ["SiteBay"]
+tags:
+- sitebay
+- security
+- infrastructure
+aliases:
+- /guides/security/basics/securing-your-wordpress/
+authors:
+- SiteBay
+contributors:
+- SiteBay
+doc_sources:
+- wp-security
+- vulnerability-scan
+- api-auth
+- lifecycle
 ---
 
-# Security on SiteBay: Defense in Depth
+Reduce risk through updates, limited access, trustworthy software, and a tested recovery path.
 
-WordPress powers over 40% of the web, making it a primary target for automated botnets and malicious actors. At SiteBay, we believe security should not rely on installing bloatware plugins. Instead, we implement a **defense-in-depth** strategy at the infrastructure level.
+## Review access
 
-## Layer 1: Edge Security (Cloudflare)
+Give each person their own account and the permissions their work requires. Use unique passwords and enable the available additional authentication controls. Remove unused users and integration credentials.
 
-Before traffic even reaches our servers, it must pass through our enterprise-grade edge network, powered by Cloudflare.
+## Maintain the application
 
-*   **DDoS Protection:** Our network automatically detects and mitigates massive Distributed Denial of Service attacks, absorbing the traffic at the edge so your origin server never notices a spike in load.
-*   **Web Application Firewall (WAF):** We deploy custom firewall rules specifically designed to block common WordPress vulnerabilities (like SQL injections, cross-site scripting, and xmlrpc.php abuse) before they touch your application.
-*   **Automated SSL:** All traffic is encrypted in transit. SSL certificates are provisioned automatically via Let's Encrypt and renewed indefinitely.
+Keep WordPress, themes, and plugins supported and updated. Remove components you no longer use. Obtain software from trusted publishers; do not install a modified premium plugin from an unknown download site.
 
-## Layer 2: Kubernetes Isolation
+## Prepare recovery
 
-Traditional shared hosting puts hundreds of websites on a single server, meaning if one site gets hacked, the entire server is compromised. SiteBay eliminates this vector.
+Protect both site files and the database. Check the available recovery points and test a restoration process before an incident. A Git repository is not a full backup of uploaded media or database content.
 
-*   **Container Sandboxing:** Every SiteBay WordPress site runs in its own tightly isolated Kubernetes pod. It has its own dedicated filesystem and processes.
-*   **Read-Only Core:** The core WordPress files and the infrastructure configuration files are marked as read-only. Even if an attacker exploits a vulnerability in a theme, they cannot modify the core system or install persistent backdoors.
-*   **Database Isolation:** Databases are run on separate, dedicated infrastructure and are not accessible from the public internet—only your specific WordPress pod can connect to its corresponding database.
+## Inspect changes
 
-## Layer 3: Application & AI Security
+Use logs and vulnerability findings to investigate specific problems. Neither a successful login nor a scan with no reported findings proves the site cannot be compromised.
 
-We secure the day-to-day operations and application management.
-
-*   **Single Sign-On (SSO):** Access to your WP Admin, phpMyAdmin, and Code Server is protected by SiteBay's primary authentication layer. We recommend enforcing Multi-Factor Authentication (MFA) on your SiteBay account.
-*   **Malware Scanning:** Our systems actively scan `wp-content` for known malware signatures and suspicious file modifications.
-*   **Point-in-Time Recovery:** True security means resilience against failure. If an attack does occur (e.g., via a zero-day exploit in a plugin), our continuous Point-in-Time Machine allows you to instantly revert the site to the minute before the breach occurred.
-
-## Security for AI Agents
-
-With the introduction of the **SiteBay MCP Server** and **SiteClaw**, AI agents can interact directly with your infrastructure.
-
-*   **Scope Limitation:** Agents inherit the strict permissions of the user API key they are authenticated with. They cannot bypass Kubernetes isolation.
-*   **Audit Trails:** Every command executed by an AI agent (whether running WP-CLI commands, editing files via search/replace, or managing backups) is logged and visible within the SiteBay dashboard and the SiteClaw timeline.
+Follow [WordPress hardening guidance](https://developer.wordpress.org/advanced-administration/security/hardening/) and the [SiteBay vulnerability workflow]({{< relref "guides/security/vulnerabilities/scanning-your-wordpress-site-for-malware/index.md" >}}).

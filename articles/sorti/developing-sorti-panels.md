@@ -1,150 +1,48 @@
 ---
-title: "Developing Sorti Panels"
-description: "The end-to-end workflow for adding a first-party panel to Sorti."
-tags: ["sorti", "mcp", "panels", "development"]
+title: Build a first-party panel
+description: Build the server contract first, then render its state through the shared runtime.
+tags:
+- sorti
+- mcp
+- panels
+- development
 published: 2026-06-04
 weight: 60
+authors:
+- SiteBay
+contributors:
+- SiteBay
+keywords:
+- developing sorti panels
+- sitebay documentation
+slug: developing-sorti-panels
+license: '[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)'
+doc_sources:
+- sorti-panels
+- sorti-byo
+modified: 2026-10-07
 ---
 
-# Developing Sorti Panels
+Build the server contract first, then render its state through the shared runtime.
 
-A Sorti panel is an MCP App resource that renders HTML and talks back to its
-server through `tools/call`. The pattern is the same discipline STS2 uses for
-its panel servers: a server owns state and actions, a template renders a
-view-model, and every user action goes through a typed tool.
+## Define state and operations
 
-Use this workflow for first-party Sorti panels. If you want a panel built
-*inside* a session — no code, assembled by the agent from state, reducer
-tools, and a bound scene — that is the forge instead: see
-[Forging Panels](/docs/sorti/forging-panels/) for the concepts and the
-[Forge Reference](/docs/sorti/forge-reference/) for the exact vocabulary.
+Choose one server ID and resource URI. Define the view-model for `read_state` and name the actions the panel needs. Document which operations read data and which mutate it.
 
-## Start from the panel standard
+Use the Git panel and `apps/sorti-agent/lib/mcp/panels/README.md` as source examples. Copy the contract pattern, not another panel's credentials, state, or provider assumptions.
 
-Read the local standard first:
+## Implement the server
 
-- `apps/sorti-agent/lib/mcp/panels/README.md`
-- `apps/sorti-agent/lib/mcp/panels/git/server.ts`
-- `apps/sorti-agent/lib/mcp/panels/git/template.html`
-- `~/sts2-engine/src/mcp/panels/spec/README.md`
+Validate inputs, check permissions, and call the service that owns the data. Distinguish acceptance, completion, and failure in results. Retain operation IDs for asynchronous or uncertain outcomes.
 
-STS2 is useful because it keeps each panel in one predictable shape:
-`server.ts`, `template.html`, `read_state`, action tools, and tests. Sorti uses
-the same idea, with a shared `SortiPanel` runtime injected into each template.
+## Render and register
 
-## Development checklist
+Load the HTML with `readPanelTemplateWithRuntime(__dirname)`. Initialize `SortiPanel`, render returned state, and call your own tools for buttons. Use `sorti.ask` only for a visible request to the conversation.
 
-Before coding, name these pieces:
+Register through `apps/sorti-agent/lib/mcp/panels/bootstrapFirstPartyPanels.ts`. Update `packages/sorti-contract/src/firstPartyPanelManifests.ts` when the panel belongs in first-party UI.
 
-- The panel's canonical `<name>`.
-- The state the panel renders.
-- The tools the panel needs.
-- Which tools are panel-only and which are model-visible.
-- Whether the panel needs drag sources or drop targets.
-- Whether a native renderer is justified, or HTML is enough.
+## Verify
 
-## Create the panel folder
+Test success, denied access, invalid input, disconnected transport, and repeated state delivery. Inspect the real panel at narrow and wide sizes. A mocked result does not prove a live service mutation.
 
-Add a folder under:
-
-```text
-apps/sorti-agent/lib/mcp/panels/<name>/
-```
-
-The minimum files are:
-
-- `server.ts`
-- `template.html`
-- `server.test.ts` when behavior is non-trivial
-
-If the panel only shows a small status surface, still ship HTML. A first-party
-panel without a real resource becomes a special case for the host and for future
-developers.
-
-## Minimal server skeleton
-
-```ts
-export function createExamplePanelServer(deps: ExamplePanelDeps): PanelServer {
-  return {
-    resource,
-    resourceContent,
-    tools,
-    callTool: async (name, args) => {
-      if (name === 'example_panel.read_state') {
-        return createCallToolResult(await readExampleState(deps, args));
-      }
-      throw new Error(`unknown tool: ${name}`);
-    },
-    readResource: async (uri) => {
-      if (uri !== EXAMPLE_PANEL_RESOURCE_URI) {
-        throw new Error(`unknown resource: ${uri}`);
-      }
-      return resourceContent;
-    },
-  };
-}
-```
-
-Keep the real implementation typed. The skeleton is only the shape.
-
-## Name the resource and tools
-
-Use the first-party naming functions in
-`packages/sorti-contract/src/firstPartyPanelManifests.ts`:
-
-- Server id: `sorti.panel.<name>`
-- Resource URI: `ui://sorti.panel.<name>`
-- Open command: `sorti.panel.<name>.open`
-
-Use panel tool names with the panel prefix:
-
-- `<name>_panel.read_state`
-- `<name>_panel.<action>` for panel-facing actions
-
-Do not invent a second resource URI, a second server id, or a separate chat
-topic. One panel should have one canonical identity.
-
-## Return a view-model
-
-The server should return current panel state through `read_state` as
-`structuredContent`. The template renders that object.
-
-Use a small discriminated shape:
-
-```ts
-type ExamplePanelViewModel =
-  | { kind: "example"; ready: false; reason: string }
-  | { kind: "example"; ready: true; rows: ExampleRow[] };
-```
-
-Keep derivation in `server.ts` or a pure helper imported by the server. The
-template should render values and call tools; it should not rediscover business
-rules that already live in the agent, SiteBay API, or engine.
-
-## Register the panel
-
-First-party panels are registered by
-`apps/sorti-agent/lib/mcp/panels/bootstrapFirstPartyPanels.ts`. That bootstrap
-adapts each `PanelServer` into the UI proxy registry and adds model-visible
-panel tools to the agent tool map.
-
-Also update `packages/sorti-contract/src/firstPartyPanelManifests.ts` if the
-panel should appear as a first-party panel in the palette and workspace.
-
-## Keep the trust boundary clear
-
-Panel HTML runs in a sandbox. Secrets stay in the agent. The iframe calls
-`tools/call`; the server performs the privileged work.
-
-That is why the Git panel can query a working tree and call SiteBay while the
-HTML never receives the SiteBay bearer token. Treat this as the default model
-for every panel.
-
-## Avoid these mistakes
-
-- Do not add a new LiveKit topic for a panel button.
-- Do not send hidden natural-language commands for panel-local work.
-- Do not put mutable lists into tool descriptions.
-- Do not expose SiteBay or provider credentials to template HTML.
-- Do not give one panel multiple ids unless you are explicitly migrating old
-  names with tests.
+Continue with [Testing panels]({{< relref "sorti/testing-sorti-panels.md" >}}). External apps use the [BYO contract]({{< relref "mcp/byo-mcp.md" >}}), not first-party registration.

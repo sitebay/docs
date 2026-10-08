@@ -1,60 +1,65 @@
 ---
 slug: getting-started-with-site-bay
-description: "Your first steps on the SiteBay platform: Creating an account, deploying your first site, and exploring the AI-native tools."
-keywords: ['getting started', 'tutorial', 'first steps', 'setup sitebay', 'beginner guide']
+description: Create a site in the correct team, verify that it is ready, and then connect the tools needed for your
+  workflow.
+keywords:
+- getting started
+- tutorial
+- first steps
+- setup sitebay
+- beginner guide
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
 published: 2024-03-13
-modified: 2026-03-12
+modified: 2026-10-07
 modified_by:
   name: SiteBay
-title: "Getting Started with SiteBay"
+title: Get started with SiteBay
 bible: true
-tags: ["sitebay", "getting started", "tutorial"]
-authors: ["SiteBay"]
-contributors: ["SiteBay"]
+tags:
+- sitebay
+- getting started
+- tutorial
+authors:
+- SiteBay
+contributors:
+- SiteBay
+doc_sources:
+- site-ui
+- lifecycle
+- regions
+- pricing
+- api-auth
+- mcp-platform
 ---
 
-# Getting Started with SiteBay
+Create a site in the correct team, verify that it is ready, and then connect the tools needed for your workflow. Keep the new site's test setup separate from an existing production migration.
 
-Welcome to SiteBay, the world's first AI-native WordPress hosting platform. Whether you are migrating a high-traffic WooCommerce store or starting a brand new blog, this guide will walk you through your first steps on the platform.
+## Create Your Account
 
-## Step 1: Create Your Account
+Open the SiteBay sign-in/sign-up flow at `https://my.sitebay.org` and use the authentication method presented for the account. Keep verification links private. Read [accounts, passwords and MFA]({{< relref "platform/get-started/accounts-and-passwords/index.md" >}}) when configuring access.
 
-1.  Navigate to [my.sitebay.org/register](https://my.sitebay.org/register).
-2.  Sign up using your email address, or use Single Sign-On (SSO) via GitHub or Google.
-3.  Once logged in, you will land on the **SiteBay Dashboard**, your central control plane for all infrastructure.
+## Deploy Your First Site
 
-## Step 2: Deploy Your First Site
+Select the owning team and review its current plan and site allowance. Choose an available region from the live catalog rather than a city copied from an old example. Select a blank WordPress starting point or an available ready-made site, enter the domain details requested by the current creation form, and review the proposed target.
 
-SiteBay runs every WordPress installation in its own secure, isolated Kubernetes container.
+Submit creation once and preserve the returned site/operation identifier. Provisioning and DNS/HTTPS readiness can complete at different times. Wait for the site's ready state and inspect an error before retrying; there is no blanket sub-minute completion guarantee.
 
-1.  Click the **Create Site** button in the dashboard.
-2.  **Choose a Starting Point:** If you want a blank canvas, select *New WordPress Install*. If you want a pre-designed foundation, browse our *Templates*.
-3.  **Name Your Site:** Give it a temporary name (e.g., `my-first-site`). This creates a free `my-first-site.sitebay.org` URL for testing.
-4.  **Select a Region:** Choose the data center closest to your target audience (e.g., US West or EU Central).
-5.  Click **Deploy**. Your isolated container, database, and edge network routing will be provisioned in under 60 seconds.
+## Open the site and WP Admin
 
-## Step 3: Explore the Tools
+Check the resulting URL in a browser. The current site view's **WP Admin** action requests a one-use, expiring SSO URL and opens it in a new tab. Use a fresh action if a grant expires or has already been consumed. Do not share the URL or paste its token into support logs.
 
-Once your site is active, explore the integrated toolset that makes SiteBay unique:
+Verify the site's title, content and administrator context. Creating a SiteBay team membership is not the same as adding a WordPress user in every site.
 
-*   **WP Admin SSO:** Click "Log in to WordPress" from the dashboard to securely enter your WP Admin without needing a password.
-*   **Code Server:** Click the "IDE" button to launch VS Code directly in your browser. This is connected directly to your site's `wp-content` directory.
-*   **PostHog Analytics:** Navigate to the Analytics tab to see live Session Replays and traffic data—no plugin installation required.
+## Choose development tools
 
-## Step 4: Connect the AI Ecosystem
+Open [code-server]({{< relref "products/code-server/get-started/index.md" >}}) for the authorized workspace or connect [Git Sync]({{< relref "products/git-sync/get-started/index.md" >}}) for repository-based development. For assistants, use [the current first-party MCP connection]({{< relref "products/mcp/get-started/index.md" >}}) and discover the advertised tools. Do not install a package merely because an old tutorial guessed its name.
 
-SiteBay is built for human and AI collaboration. To get the most out of the platform:
+Create and validate a recovery point before a risky change. A staging environment can help test changes but is distinct from the live canvas preview and can still call external services.
 
-1.  **Generate an API Key:** Go to Profile > API Keys and generate a new token.
-2.  **Install the MCP Server:** If you use Claude Desktop, install the `@sitebay/sitebay-mcp` server. This allows Claude to manage your sites, edit code, and query your database via natural language.
-3.  **Download SiteClaw:** Get the mobile app for iOS or Android to manage your infrastructure and talk to your 3D AI assistant on the go.
+## Connect a custom domain
 
-## Step 5: Go Live
+Use the site's current domain/nameserver setup instructions and preserve the existing DNS zone, including email records. Verify authoritative DNS, the requested hostname, HTTPS and redirects before considering the cutover complete. A saved DNS record does not mean every resolver or certificate endpoint has updated.
 
-When you are ready to launch your site to the public:
+## Check analytics and access
 
-1.  Navigate to the **Domains** tab for your site.
-2.  Add your custom domain (e.g., `www.myawesomesite.com`).
-3.  Update your DNS records at your registrar to point to the provided SiteBay IP address.
-4.  SiteBay will automatically provision a free, auto-renewing Let's Encrypt SSL certificate as soon as the DNS propagates.
+Verify the correct analytics project, event capture and privacy configuration with a test visit. Do not assume that a new site records every visitor or that recordings are complete. Test important forms and any checkout in the appropriate test mode before launch, then record the accepted state and recovery handle.

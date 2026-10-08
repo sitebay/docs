@@ -1,133 +1,51 @@
 ---
-title: "Sorti Panel Server Contract"
-description: "How a Sorti panel server exposes resources, read_state, action tools, and model-visible tools."
-tags: ["sorti", "mcp", "panels", "development"]
+title: First-party panel server contract
+description: A first-party panel has one server identity, a UI resource, and tools operating on the same view-model.
+tags:
+- sorti
+- mcp
+- panels
+- development
 published: 2026-06-04
 weight: 70
+authors:
+- SiteBay
+contributors:
+- SiteBay
+keywords:
+- sorti panel server contract
+- sitebay documentation
+slug: sorti-panel-server-contract
+license: '[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)'
+doc_sources:
+- sorti-panels
+modified: 2026-10-07
 ---
 
-# Sorti Panel Server Contract
+A first-party panel has one server identity, a UI resource, and tools operating on the same view-model.
 
-A first-party Sorti panel server implements `PanelServer` from
-`@sitebay/sorti-contract`. The server is the authority for the resource, tool
-list, tool execution, and resource reads.
+| Part | Convention |
+| --- | --- |
+| Server ID | `sorti.panel.<name>` |
+| Resource URI | `ui://sorti.panel.<name>` |
+| State tool | `<name>_panel.read_state` |
+| Panel action | `<name>_panel.<action>` |
+| State result | `structuredContent` |
 
-## Required pieces
+## State and actions
 
-Every first-party panel server returns:
+Return the fields the UI needs from `read_state`. Validate action arguments and perform privileged work on the server. Keep credentials out of the HTML and client-visible state.
 
-- `resource`: the MCP App resource list entry.
-- `resourceContent`: the HTML content for the resource.
-- `tools`: the panel's tool definitions.
-- `callTool(name, args)`: dispatch for `tools/call`.
-- `readResource(uri)`: dispatch for `resources/read`.
+Use existing model-facing tool names as compatibility aliases only where needed. An alias is not a reason to create another state owner.
 
-The STS2 panel spec uses the same shape for each panel. Its `hand` panel, for
-example, exposes `ui://sts2/hand`, `hand.read_state`, and `hand.play_card`.
-Sorti first-party panels use `ui://sorti.panel.<name>` and
-`<name>_panel.*` tool names.
+## Resource delivery
 
-## Resource shape
+Ship an HTML template and load it with `readPanelTemplateWithRuntime(__dirname)`. Register the server through `bootstrapFirstPartyPanels.ts` and update the first-party manifest when the panel belongs in the palette.
 
-Use the standard first-party resource URI:
+Web and native first-party delivery use the `ui_resource` LiveKit topic. Web can upsert the pushed resource; native reloads the owning surface through resource discovery and reading. Community HTTP MCP delivery is a separate path.
 
-```ts
-const RESOURCE_URI = firstPartyPanelResourceUri("<name>");
-const SERVER_ID = firstPartyPanelServerId("<name>");
-```
+## Optional history
 
-The HTML should be loaded with:
+A server that reconstructs historical state can accept `atSeq` and support `onUndo`. Do not advertise replay merely because the runtime exposes a callback.
 
-```ts
-const TEMPLATE_HTML = readPanelTemplateWithRuntime(__dirname);
-```
-
-That helper inserts the shared `SortiPanel` runtime when the template does not
-already include it.
-
-## Tool visibility
-
-Panel tools can be panel-facing, model-facing, or both. The usual split is:
-
-- `read_state` is panel-facing.
-- Panel UI actions are panel-facing.
-- Existing assistant tools may remain model-facing when the LLM should call
-  them directly.
-
-Keep panel-facing actions named after the panel:
-
-```text
-git_panel.read_state
-git_panel.commit
-git_panel.restore_checkpoint
-```
-
-The bootstrap layer enforces a few contract rules:
-
-- A panel server may advertise at most 12 tools.
-- A panel tool must not declare the reserved visibility value `app`.
-- If a tool declares `outputSchema`, it must be an object.
-
-## Metadata
-
-Use resource metadata to describe host behavior instead of hardcoding host
-exceptions. Common metadata includes:
-
-- CSP domains for resource and network access.
-- Tool visibility.
-- Drag sources and drop targets under the Sorti metadata namespace.
-- Layout hints when a panel belongs in a particular workspace slot.
-
-When metadata is missing, the host should choose the conservative behavior:
-render the resource, but do not grant extra access.
-
-## View-model result
-
-Return the rendered state through `structuredContent`:
-
-```ts
-return createCallToolResult(viewModel, {
-  structuredContent: viewModel,
-});
-```
-
-Use text content for the model-facing summary, not as the only carrier for panel
-state. Tests should assert that `structuredContent` is present and matches the
-view-model the template expects.
-
-## View-model rules
-
-Good view-models are:
-
-- Small enough to inspect in a test.
-- Stable across template rewrites.
-- Explicit about inactive states.
-- Derived from source data in one place.
-- Free of secrets and bearer tokens.
-
-If the template needs a display label, put the label in the view-model. Do not
-make the template infer business meaning from ids when the server already knows
-the answer.
-
-## Action tools
-
-Panel action tools should do the real work and return a small result. Do not
-ask the agent to perform a panel-local mutation in natural language.
-
-Use `sorti.ask` only when the action should create a visible chat turn. For
-example:
-
-- Good panel-local action: `posthog_panel.clear_scratchpad`
-- Good conversational action: `sorti.ask { text, summary }`
-- Bad action: send a hidden chat message that asks the agent to clear state
-
-## Source-grounded examples
-
-Use these as references when building a new server:
-
-- `apps/sorti-agent/lib/mcp/panels/git/server.ts` for a complex panel.
-- `apps/sorti-agent/lib/mcp/panels/ask/server.ts` for a focused panel.
-- `apps/sorti-agent/lib/mcp/panels/_session/sessionCommands.ts` for the shared
-  `sorti.ask` tool.
-- `~/sts2-engine/src/mcp/panels/spec/hand/server.ts` for the STS2 server and
-  view-model pattern.
+Read [the panel runtime]({{< relref "sorti/sorti-panel-runtime.md" >}}) and [testing guidance]({{< relref "sorti/testing-sorti-panels.md" >}}) before registering a panel.

@@ -1,45 +1,42 @@
 ---
 slug: session-replay
-description: 'PostHog session recordings on SiteBay.'
-keywords: ["posthog", "session replay", "recordings", "sitebay"]
+description: Session replay reconstructs a recorded visitor interaction. It helps explain an observed problem, but
+  it does not record every session automatically.
+keywords:
+- posthog
+- session replay
+- recordings
+- sitebay
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
-modified: 2025-12-04
+modified: 2026-10-07
 modified_by:
   name: SiteBay
 published: 2024-04-04
-title: Session Replay
+title: Review a session recording
 bible: true
-tags: ["sitebay", "posthog"]
-authors: ["SiteBay"]
-contributors: ["SiteBay"]
+tags:
+- sitebay
+- posthog
+authors:
+- SiteBay
+contributors:
+- SiteBay
+doc_sources:
+- analytics-ui
 ---
 
-# Session Replay
+Session replay reconstructs a recorded visitor interaction. It helps explain an observed problem, but it does not record every session automatically.
 
-Ever wonder what your users are actually doing on your WordPress site? Stop guessing and start watching. 
+## Check collection settings
 
-With PostHog's Session Replay built right into SiteBay, you can literally watch recordings of your users navigating your site. It's like looking over their shoulder, but way less creepy because it's GDPR compliant and automatically masks sensitive data.
+Select the correct analytics project. Confirm that recordings are enabled where intended and review masking, sampling, and capture settings. Test with non-sensitive data before relying on the configuration.
 
-## What You Get to See
+## Find a recording
 
-- Mouse movements and clicks (even the rage clicks when something's broken)
-- Scrolling behavior
-- How they navigate from page to page
-- Form interactions (don't worry, passwords and credit cards are masked automatically)
+Filter recordings by time and the available event or page criteria. Open a matching session, inspect the timeline, and reproduce the relevant steps in a test environment. A missing recording may reflect collection settings rather than an absence of visitors.
 
-## How to Find It
+## Share the evidence
 
-Jump into your SiteBay dashboard and head to **Analytics > Recordings**. 
+Share only with people who should see the recorded data. Include the relevant time in the recording and the expected behavior. Keep secrets and sensitive content out of screenshots and issue reports.
 
-If you're on the go, our **SiteClaw** mobile app can shoot you a notification if there's an unusual spike in rage clicks, linking you straight to the replay.
-
-## Supercharge with AI
-
-Because SiteBay is an AI-native WordPress platform running on Kubernetes, you can use the **SiteBay MCP Server** to have your AI assistant cross-reference these replays. Just ask Claude, "Hey, check out the latest session replays and tell me why people are dropping off the checkout page."
-
-## Privacy Stuff
-
-We take privacy seriously so you don't have to stress:
-- Passwords and credit cards are auto-masked before the data even leaves the browser.
-- Fully GDPR compliant.
-- You can set up custom masking rules for any other sensitive data specific to your site.
+Use [Events]({{< relref "products/posthog/events/index.md" >}}) to compare the replay with the recorded action.

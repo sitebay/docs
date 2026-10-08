@@ -1,44 +1,28 @@
 ---
 slug: sitebay-team-members
-description: 'Add team members to your SiteBay account.'
-keywords: ['team', 'collaboration']
+description: Use team membership to give each collaborator their own access. Select the correct team before reviewing
+  members, invitations, or permissions.
+keywords:
+- team
+- collaboration
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
 published: 2024-04-28
 image: InviteTeam.png
-modified: 2025-12-04
+modified: 2026-10-07
 modified_by:
   name: SiteBay
-title: "Team Members"
-authors: ["SiteBay"]
-contributors: ["SiteBay"]
+title: Team members
+authors:
+- SiteBay
+contributors:
+- SiteBay
+doc_sources:
+- teams
+- api-auth
 ---
 
-![SiteBay Invite Team](InviteTeam.png)
+Use team membership to give each collaborator their own access. Select the correct team before reviewing members, invitations, or permissions.
 
-{{< note >}}
-All team members have equal privileges. They can create/modify all resources.
-{{< /note >}}
+An invitation grants access only after the recipient accepts it. Share invitation links with the intended recipient, not in a public document.
 
-# Team Members
-
-Invite others to manage your SiteBay sites.
-
-## Add Member
-
-1. **Settings > Team**
-2. Enter email address
-3. Click **Invite**
-
-## Permissions
-
-All members can:
-- Create/delete sites
-- Access all sites
-- View analytics
-- Manage billing
-
-## Remove Member
-
-1. **Settings > Team**
-2. Find member
-3. Click **Remove**
+Review a collaborator's role before they change sites or billing. Remove access when it is no longer needed. See [Manage team members]({{< relref "products/platform/accounts/guides/manage-users/index.md" >}}) for the workflow.

@@ -1,68 +1,57 @@
 ---
 slug: sitebay-plans
-description: "Overview of SiteBay's pricing plans, from the free Developer tier to robust Agency solutions."
-keywords: ['pricing', 'plans', 'free tier', 'agency plan', 'billing']
+description: Read current SiteBay plan prices and limits, interpret minor units, and verify a team billing change.
+keywords:
+- pricing
+- plans
+- free tier
+- agency plan
+- billing
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
 published: 2024-03-13
-modified: 2026-03-12
+modified: 2026-10-08
 modified_by:
   name: SiteBay
-title: "SiteBay Pricing Plans"
+title: SiteBay plans and current prices
 bible: true
-tags: ["sitebay", "pricing", "billing"]
-aliases: ['/quick-answers/sitebay-essentials/sitebay-plans/']
-authors: ["SiteBay"]
-contributors: ["SiteBay"]
+tags:
+- sitebay
+- pricing
+- billing
+aliases:
+- /quick-answers/sitebay-essentials/sitebay-plans/
+authors:
+- SiteBay
+contributors:
+- SiteBay
+doc_sources:
+- pricing
+- teams
 ---
 
-# SiteBay Pricing Plans
+SiteBay groups site ownership and plan limits by team. Select the team that owns the site before comparing a plan or opening checkout; do not assume that a price shown for one team or currency applies to another.
 
-SiteBay's pricing is designed to scale with you—from your first experimental side project to high-traffic enterprise applications. All plans are billed per-site, with discounts available for bulk agency usage.
+## Read the current catalog
 
-Because SiteBay is built on Kubernetes, upgrading a plan is completely seamless. There is no server migration required; your site simply receives a higher resource allocation limit instantly.
+The public pricing endpoint is the source for the available plan names, prices, and allowances:
 
-## 1. The Free Tier (Developer)
+```sh
+curl --fail-with-body --silent --show-error \
+  https://my.sitebay.org/f/api/v1/plan/pricing
+```
 
-SiteBay believes developers should have a playground to experiment with AI-native WordPress hosting at no cost.
+The response has `suggested_currency` and a `plans` object keyed by plan slug. Each plan can include `name`, `description`, `max_visits`, `max_storage`, `max_bandwidth`, `max_sites`, and `code_server`, along with monthly and yearly price fields for USD, CAD, and EUR. **Price fields are minor units (cents), not whole currency units.** Preserve the unit and billing interval when displaying them. Do not silently convert storage or bandwidth values into a different unit without the matching API definition.
 
-*   **Price:** $0 / month
-*   **Ideal For:** Personal blogs, portfolio sites, testing AI integrations (MCP/SiteClaw).
-*   **Resources:** Shared CPU, 1GB RAM.
-*   **Limitations:** Includes a non-intrusive SiteBay branding badge in the footer. Cannot use custom domains (sites remain on `*.sitebay.org`).
+The suggested currency is derived from the request's country headers. It is a presentation suggestion, not proof of a payment method's country or the final tax amount. The catalog intentionally excludes Stripe price IDs.
 
-## 2. Personal Plan
+## Compare the whole plan
 
-The perfect starting point for professional, production-ready websites.
+Check included site capacity, current team usage, code-server eligibility, the selected currency, and the requested billing interval. A free-site entitlement and paid plan site capacity are different fields; neither should be inferred from the label “free.” A running site's resources, backup availability, and current legal actions must also be checked on that site.
 
-*   **Price:** $19 / month (billed annually)
-*   **Ideal For:** Small business sites, standard blogs, headless Shopify frontends.
-*   **Features Unlocked:** Custom domains, automated SSL, removal of SiteBay branding.
-*   **Resources:** Dedicated container limits ensuring consistent performance.
-*   **Support:** Standard ticket-based support.
+Use the catalog for current prices and checkout for the final amount and renewal terms.
 
-## 3. Business Plan
+## Review before paying
 
-Engineered for high-traffic sites and dynamic applications that require more database and PHP processing power.
+Open Billing for the intended team, choose the plan and interval, and review the provider's checkout total before confirming. Record the accepted currency and renewal terms. A generated checkout URL is not a completed payment, and returning from checkout is not proof that the subscription change has been applied: refresh the team's billing state.
 
-*   **Price:** $49 / month (billed annually)
-*   **Ideal For:** Active e-commerce (WooCommerce), membership sites (LMS), and heavy traffic publishers.
-*   **Features Unlocked:** Priority support, increased PHP workers, extended Point-in-Time backup retention (30 days).
-*   **Resources:** 2x CPU allocation, 4GB RAM.
-
-## 4. Agency / Enterprise
-
-For teams managing multiple sites or requiring custom infrastructure configurations.
-
-*   **Price:** Custom (Volume-based pricing)
-*   **Ideal For:** Web design agencies, large enterprises, and SaaS platforms.
-*   **Features Unlocked:** White-label dashboard access, custom unified billing, dedicated account manager, custom API rate limits for heavy MCP usage.
-*   **Team Management:** Advanced RBAC (Role-Based Access Control) for inviting team members and clients to specific sites.
-
-## Billing and Currencies
-
-SiteBay uses Stripe for secure payment processing. We currently accept payments in:
-*   USD (US Dollar)
-*   EUR (Euro)
-*   CAD (Canadian Dollar)
-
-*Note: All paid plans include full access to the SiteBay MCP Server, SiteClaw Mobile app, Code Server, and the native PostHog analytics integration.*
+For invoices, payment methods, and cancellation terms, use the billing provider shown by the account. Stripe-backed accounts use a customer portal; linked Shopify billing has its own flow. Do not cancel or delete sites merely to test a billing change.

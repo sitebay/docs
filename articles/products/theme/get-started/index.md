@@ -1,57 +1,50 @@
 ---
 slug: sitebay-theme
-description: "The SiteBay WordPress Theme is engineered from the ground up for AI agents, utilizing a robust CSS token system and utility classes."
-keywords: ['sitebay theme', 'ai-friendly', 'wordpress theme', 'css tokens', 'utility classes', 'design system']
+description: 'Choose the theme implementation that matches the target: WordPress, Shopify and static hosting have
+  different editing and publishing contracts.'
+keywords:
+- sitebay theme
+- ai-friendly
+- wordpress theme
+- css tokens
+- utility classes
+- design system
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
 published: 2026-03-12
-modified: 2026-03-12
+modified: 2026-10-07
 modified_by:
   name: SiteBay
-title: "The AI-Native WordPress Theme"
+title: Build on the SiteBay theme
 bible: true
-tags: ["sitebay", "theme", "wordpress", "ai"]
-authors: ["SiteBay"]
-contributors: ["SiteBay"]
+tags:
+- sitebay
+- theme
+- wordpress
+- ai
+authors:
+- SiteBay
+contributors:
+- SiteBay
+doc_sources:
+- wp-theme
+- shopify-theme
+- wp-agent-plugin
 ---
 
-# The AI-Native WordPress Theme
+Choose the theme implementation that matches the target: WordPress, Shopify and static hosting have different editing and publishing contracts. A shared brand does not make their token names, field storage or deployment operations identical.
 
-Traditional WordPress themes are a nightmare for AI agents. They're bloated with deeply nested PHP logic, thousands of lines of unstructured CSS, and arbitrary ID selectors. When an AI tries to change a button color, it usually breaks the layout somewhere else.
+## WordPress
 
-We threw that architecture out. Every SiteBay installation ships with the **SiteBay Theme**—a hyper-minimal, lightning-fast foundation engineered specifically to be manipulated by Large Language Models.
+Inspect the installed parent and use a child theme for site-specific changes. The parent folder is `sitebay`, not the repository name `sitebaywp-theme`. Preserve zone/field markers used by the permissioned editing plugin, and keep generated token files under their source workflow.
 
-## How It Works: Tokens and Utilities
+Follow [WordPress customization]({{< relref "themes/wordpress/index.md" >}}) for the child header, actual token vocabulary and validation steps.
 
-We designed the theme to be as predictable and systematic as an API.
+## Shopify
 
-### 1. The Token System (CSS Custom Properties)
-We stripped out hardcoded values. Everything from typography to brand colors is governed by a strict set of CSS variables defined in the `:root`. 
+Use an unpublished theme copy, inspect saved merchant settings, and edit its sections and JSON templates. A schema default is not guaranteed to overwrite a saved setting. Preview and publication require separate checks. See [Shopify customization]({{< relref "themes/shopify/index.md" >}}).
 
-| Token | Default Value | Purpose |
-|-------|---------------|-------------|
-| `--color-primary` | `#1a1a2e` | The core brand identity. |
-| `--color-accent` | `#e94560` | High-contrast call-to-actions. |
-| `--space-4` | `1rem` | Baseline layout spacing. |
+## Assisted design
 
-Because the design system is centralized, an AI agent only needs to edit a handful of tokens at the top of `style.css` to completely overhaul the look and feel of the entire site.
+Give the assistant a specific target and permitted scope, such as changing one hero section on a preview copy. Review the diff and the rendered result at multiple widths before approval. An image can guide visual work but does not establish exact source values or authorize copying assets you cannot use.
 
-### 2. Utility Classes
-Instead of writing custom CSS for every new component, the theme includes a comprehensive library of utility classes (e.g., `.flex`, `.p-4`, `.text-center`). 
-
-This means when Claude (via MCP) or SiteClaw builds a new landing page, it doesn't have to write fragile, custom stylesheets. It just applies the existing utility classes directly to the HTML structure. The result is perfectly consistent styling that never bloats your CSS payload.
-
-## The "Image-to-Theme" Workflow
-
-Because the underlying system is so predictable, the SiteBay Theme unlocks incredible workflows. 
-
-You can drop a screenshot of an incredibly designed modern website into **SiteClaw** and say:
-> *"Extract the design system from this image and apply it to my SiteBay theme."*
-
-The AI will parse the hex codes, identify the typographic hierarchy, map them to your CSS tokens, and deploy the new `style.css` to your container in seconds. 
-
-## Built for Humans, Too
-
-Just because it's built for bots doesn't mean it sucks for humans. 
-*   **Gutenberg Ready:** Full native support for the WordPress Block Editor and modern block patterns.
-*   **Zero Bloat:** It loads instantly. There are no heavy JavaScript frameworks or slider plugins baked in.
-*   **Developer Experience:** If you want to dive in manually, you can open the integrated Code Server IDE and extend the theme cleanly, knowing the foundation is rock solid.
+This workflow does not promise instant deployment, zero framework cost, perfect reconstruction or that an AI change can never break layout. Preserve a recovery point, test interactions as well as appearance, and verify the saved published result.

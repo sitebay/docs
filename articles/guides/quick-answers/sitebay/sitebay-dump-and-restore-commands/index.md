@@ -1,45 +1,45 @@
 ---
 slug: sitebay-dump-and-restore-commands
-title: "Backup and Restore"
-description: 'Backup and restore your WordPress site on SiteBay.'
-keywords: ['SiteBay backup', 'WordPress restore', 'data backup', 'data recovery']
+title: Back up and restore the intended site
+description: A recovery procedure needs a known target, a verified backup and a way back from the restore itself.
+  File archives, Git commits and database dumps cover different kinds of state.
+keywords:
+- SiteBay backup
+- WordPress restore
+- data backup
+- data recovery
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
-authors: ["SiteBay"]
-contributors: ["SiteBay"]
+authors:
+- SiteBay
+contributors:
+- SiteBay
 published: 2024-04-04
-modified: 2024-12-04
+modified: 2026-10-07
 modified_by:
   name: SiteBay
+doc_sources:
+- shell-reference
+- wp-cli
+- lifecycle
+- git-sync
 ---
 
-Protect your site with backups and restore when needed.
+A recovery procedure needs a known target, a verified backup and a way back from the restore itself. File archives, Git commits and database dumps cover different kinds of state.
 
-## Create Manual Backup
+## Create a recovery point
 
-1. Open SiteBay dashboard
-2. Select your site
-3. Go to **Backups**
-4. Click **Create new backup**
-5. Choose scope (database, files, or full site)
+Read the selected site's current state and available checkpoint/backup actions. Confirm whether the requested operation captures files, database state or both. Record the returned recovery identifier and wait for creation to complete; a button click is not proof that a usable copy exists.
 
-## Restore from Backup
+## Prepare a restore
 
-1. Go to **Backups**
-2. Select backup to restore
-3. Click **Restore**
-4. Confirm
+Inspect the available restore window and the specific timestamp or commit. Review whether incoming content, uploads, orders or form submissions would be replaced. Keep a current recovery point before changing live data.
 
-## Best Practices
+The higher-level `site_restore_to_point` workflow creates a pre-restore checkpoint and returns a rollback handle. The low-level PIT request does not independently provide that same protection. Use the supported operation exposed for the site rather than assuming a copied endpoint or generic shell import is equivalent.
 
-| Practice | Recommendation |
-|----------|----------------|
-| Schedule | Daily, weekly, or monthly based on activity |
-| Test restores | Periodically verify backups work |
-| Off-site copy | Keep backup copy in separate location |
+## Verify completion
 
-## When to Backup
+Wait for the restore operation to settle, then test pages, media, login and critical forms or commerce paths. Confirm both filesystem and database expectations. Keep the earlier recovery reference until the restored state has been accepted.
 
-- Before plugin/theme updates
-- Before major content changes
-- Before testing new features
-- On a regular schedule
+## Keep an independent copy
+
+Retain an authorized export outside the account or site being deleted. Check that it can be read and restored in a test environment. A retention period or an arbitrary point in the past is available only when the actual backup system reports it; this guide does not promise unlimited history.

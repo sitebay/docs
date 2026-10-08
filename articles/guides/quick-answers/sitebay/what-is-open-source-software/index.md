@@ -1,62 +1,30 @@
 ---
 slug: what-is-open-source-software
-description: 'What is open source software and how does it benefit WordPress development.'
-keywords: ['what is open source software','open source software','open source software definition']
-tags: ['sitebay']
+description: Open-source software is distributed under a license that grants rights to use, inspect, modify, and
+  redistribute it under the license conditions.
+keywords:
+- what is open source software
+- open source software
+- open source software definition
+tags:
+- sitebay
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
 published: 2024-04-19
-modified: 2024-12-04
+modified: 2026-10-07
 modified_by:
   name: SiteBay
-title: "What is Open Source Software?"
+title: What is open-source software?
 image: OpenSource.png
-authors: ["SiteBay"]
-contributors: ["SiteBay"]
+authors:
+- SiteBay
+contributors:
+- SiteBay
+doc_sources:
+- open-source
 ---
 
-Open source software makes its source code publicly available for viewing, modification, and redistribution.
+Open-source software is distributed under a license that grants rights to use, inspect, modify, and redistribute it under the license conditions. Publicly viewable source alone does not establish those rights.
 
-## Open Source vs Closed Source
+Check the actual license, attribution requirements, dependencies, and maintenance status before using a project. Software rights do not automatically cover its trademarks, bundled media, or hosted services.
 
-| Aspect | Open Source | Closed Source |
-|--------|-------------|---------------|
-| Source code | Public | Hidden |
-| Modification | Allowed | Prohibited |
-| Cost | Usually free | Usually paid |
-| Examples | Firefox, WordPress, Linux | Chrome, Photoshop, Office365 |
-
-## How It Works
-
-1. Code is stored in a public repository (e.g., GitHub)
-2. Anyone can view, download, and modify
-3. Changes can be submitted back to the project
-4. Community reviews and improves code
-
-## Benefits
-
-- **Transparency**: See exactly what the code does
-- **Security**: Many eyes find bugs faster
-- **Flexibility**: Customize to your needs
-- **Cost**: No licensing fees
-- **Community**: Active support forums
-
-## Open Source in WordPress
-
-WordPress itself is open source (GPL license).
-
-### Popular Open Source Plugins
-
-| Plugin | Purpose |
-|--------|---------|
-| WooCommerce | E-commerce |
-| Yoast SEO | Search optimization |
-| Wordfence | Security |
-| WPForms | Form builder |
-
-## SiteBay Open Source Stack
-
-- WordPress (CMS)
-- PHP (Server-side language)
-- PostHog (Analytics)
-- Grafana (Dashboards)
-- Kubernetes (Container orchestration)
+See the [Open Source Definition](https://opensource.org/osd) and [WordPress licensing](https://wordpress.org/about/license/).

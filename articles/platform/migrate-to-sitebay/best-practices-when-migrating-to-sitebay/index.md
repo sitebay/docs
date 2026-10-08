@@ -1,31 +1,44 @@
 ---
 slug: best-practices-when-migrating-to-sitebay
-authors: ["SiteBay"]
-description: 'Best practices when migrating a website to SiteBay.'
-keywords: ["migrate", "wordpress migration"]
+authors:
+- SiteBay
+description: Move a site only after you have identified its data, dependencies, destination, and rollback plan.
+keywords:
+- migrate
+- wordpress migration
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
-modified: 2024-04-03
+modified: 2026-10-07
 modified_by:
   name: SiteBay
 published: 2024-04-24
-title: Best Practices when Migrating to SiteBay
-tags: ["sitebay platform"]
-contributors: ["SiteBay"]
-aliases: ['/platform/migrate-to-sitebay/best-practices-when-migrating-to-sitebay/']
+title: Plan a WordPress migration
+tags:
+- sitebay platform
+contributors:
+- SiteBay
+aliases:
+- /platform/migrate-to-sitebay/best-practices-when-migrating-to-sitebay/
+doc_sources:
+- wp-migration
+- lifecycle
 ---
 
-# Best Practices when Migrating to SiteBay
+Move a site only after you have identified its data, dependencies, destination, and rollback plan.
 
-Migrating your WordPress site to SiteBay’s AI-native Kubernetes platform is the best move you can make for performance and scale. Here is how to make sure the transition is buttery smooth.
+## Inventory the source
 
-## The Checklist
+Record the WordPress version, themes, plugins, database, uploads, domains, email, scheduled work, and external integrations. Confirm who controls the hosting, DNS, and credentials.
 
-1. **Clean Up First**: Don't migrate garbage. Delete old backups, unused themes, and inactive plugins before you start the transfer.
-2. **Use the Staging Environment**: SiteBay makes spinning up staging sites trivial. Migrate your site to a staging URL first. Test everything. 
-3. **DNS TTL**: Lower the Time-to-Live (TTL) on your DNS records a few days before you plan to switch the nameservers. This makes the final cutover almost instant.
-4. **Enable SiteClaw**: Once you're on SiteBay, make sure SiteClaw is active immediately. You want our automated security layer protecting you from day one.
-5. **Check PostHog**: Ensure your PostHog integration is flipped on so you can start gathering user metrics the second traffic hits your new platform.
+## Prepare the destination
 
-## Next Steps
+Create the intended SiteBay site and check compatibility and plan limits. Test a copy without redirecting live visitors. Disable real payment, email, or campaign side effects during testing.
 
-After your data is moved over and your DNS is pointed to us, your site is officially running on Kubernetes. Take a few days to monitor the site on SiteBay before you cancel your old hosting provider. This gives you a safety net just in case you forgot to grab a specific asset or database table.
+## Plan the final sync
+
+Choose a cutover time and account for orders, comments, uploads, and other writes that can arrive after the first copy. Decide how to pause or reconcile those changes.
+
+## Verify and cut over
+
+Check public pages, administration, media, links, forms, scheduled tasks, and required integrations. Update DNS only after the destination is ready. Retain the old environment until the new site and recent data are verified.
+
+Use the [WordPress migration handbook](https://developer.wordpress.org/advanced-administration/upgrade/migrating/) for application-specific steps and [Site lifecycle]({{< relref "products/platform/site-lifecycle/index.md" >}}) for platform operations.

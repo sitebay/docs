@@ -1,59 +1,39 @@
 ---
 slug: what-is-mysql
-description: 'MySQL powers WordPress databases. Learn the basics.'
-keywords: ['mysql', 'database', 'wordpress database', 'sql']
-tags: ["mysql", "database", "wordpress", "sql"]
+description: MySQL is a relational database server. Applications use SQL to store and query data organized in tables.
+keywords:
+- mysql
+- database
+- wordpress database
+- sql
+tags:
+- mysql
+- database
+- wordpress
+- sql
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
 published: 2024-04-04
-modified: 2024-12-04
+modified: 2026-10-07
 modified_by:
   name: SiteBay
-title: "What is MySQL?"
-authors: ["SiteBay"]
-contributors: ["SiteBay"]
+title: What is MySQL?
+authors:
+- SiteBay
+contributors:
+- SiteBay
+doc_sources:
+- database-basics
+- wp-cli
 ---
 
-MySQL is the relational database that powers ~80% of WordPress sites.
+MySQL is a relational database server. Applications use SQL to store and query data organized in tables.
 
-## What MySQL Stores for WordPress
+WordPress uses a database for content, users, settings, and plugin data. Media files and application code also live in the site's filesystem, so a database export alone is not a complete site backup.
 
-| Data Type | Examples |
-|-----------|----------|
-| Content | Posts, pages, revisions |
-| Users | Usernames, passwords, roles |
-| Comments | User discussions |
-| Taxonomies | Categories, tags |
-| Options | Site settings |
-| Plugin data | Plugin configurations |
+## Inspect a WordPress database
 
-## Key Features
+Use the credentials and access method provided for the selected site. Start with a read-only query or the site's WP-CLI tools. Do not copy database credentials into a public document or a browser-side script.
 
-- **ACID compliance** - Data integrity guaranteed
-- **Fast reads** - Optimized for content delivery
-- **Indexing** - Quick data retrieval
-- **Query cache** - Frequent queries stored in memory
-- **Replication** - Scale across servers
+Check the actual server version before following version-specific SQL or upgrade instructions. A managed site's database is not a general-purpose server you can replace independently.
 
-## MySQL vs MariaDB
-
-MariaDB is a MySQL fork with:
-- Enhanced performance
-- Additional storage engines
-- Fully open-source development
-- Drop-in MySQL replacement
-
-WordPress works identically with either.
-
-## Common Issues
-
-| Problem | Solution |
-|---------|----------|
-| Slow queries | Add indexes, optimize plugins |
-| Connection limits | Implement connection pooling |
-| Corruption | Regular backups, use InnoDB |
-
-## SiteBay Optimizations
-
-- Pre-tuned configurations for WordPress
-- Automated maintenance
-- Grafana monitoring dashboards
+See [Database choices]({{< relref "guides/databases/mysql/list-of-databases/index.md" >}}) and [WP-CLI basics]({{< relref "guides/tools-reference/basics/basic-wp-cli-commands/index.md" >}}).

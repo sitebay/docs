@@ -1,76 +1,46 @@
 ---
 slug: how-to-copy-files-and-directories
-description: 'Copy files and folders in linux or code-server'
-keywords: ["linux"]
-tags: ["linux"]
+description: Use cp to copy files in the selected Linux workspace. Confirm the source and destination before copying
+  over an existing file.
+keywords:
+- linux
+tags:
+- linux
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
-modified: 2024-04-04
+modified: 2026-10-07
 modified_by:
   name: SiteBay
 published: 2024-03-04
-title: How to Copy Files and Directories
-authors: ["SiteBay"]
-contributors: ["SiteBay"]
+title: Copy files and directories
+authors:
+- SiteBay
+contributors:
+- SiteBay
+doc_sources:
+- shell-reference
 ---
 
-## Copying Files and Directories in SiteBay
+Use `cp` to copy files in the selected Linux workspace. Confirm the source and destination before copying over an existing file.
 
-Whether you're new to managing a WordPress site on SiteBay or you've been at it for a while, knowing how to handle files is crucial. One basic task you'll find yourself doing often is copying files and directories. This guide will break down how to use the cp command on your SiteBay environment, ensuring you're prepared to copy anything from a single file to an entire directory with ease.
+## Copy one file
 
-## Introduction to the cp Command
+```sh
+cp -i -- "source.txt" "destination.txt"
+```
 
-The cp command stands as the go-to method for copying files and directories within Linux-based systems like those SiteBay runs on. Unlike the mv command, which moves files, cp duplicates them, leaving the original file untouched. You can copy files within the same directory (giving them a new name), to a different location, or even duplicate entire directories recursively.
+The interactive option prompts before overwriting an existing destination. Keep quotes around paths that contain spaces.
 
-Before diving in, here are a few basics:
+## Copy a directory
 
-Regular users can copy most files, but copying protected files may require sudo privileges.
-The -r option allows for recursive copying, which is necessary when duplicating directories.
+```sh
+mkdir -p -- "backup"
+cp -a -- "theme/." "backup/"
+```
 
-## Getting Started
+This copies the directory's contents, including hidden files, into the destination and attempts to preserve attributes. Inspect the result and any errors; ownership preservation depends on your permissions.
 
-First up, you'll need to be logged into your SiteBay account and have access to your WordPress hosting environment.
+## Verify
 
-## Copying Basics
+For a file, `cmp -- "source.txt" "destination.txt"` checks whether its bytes match. For a directory, inspect its important files and permissions before relying on the copy.
 
-The cp command is versatile, supporting multiple operational modes:
-
-Same Directory Copy: Duplicate a file within its current directory.
-Different Directory Copy: Move a copy to a different location.
-Multiple Files: Copy several files at once to another directory.
-Recursive Copy: Duplicate directories, including all subdirectories and files within.
-Key Points to Remember
-Overwrite Warning: By default, cp will overwrite files without asking. Use interactive mode (-i) to get prompted before such actions.
-Combining with ls: Use ls to view files within your current directory, ensuring you know exactly what you're copying.
-Important cp Options:
--i: Interactive mode; prompts before overwriting.
--p: Preserves file attributes like modification dates and permissions.
--R: Enables recursive copying, necessary for directories.
--v: Verbose mode; shows detailed information about the copying process.
-Copying Examples
-
-## Copy within the Same Directory:
-
-To make a backup of example.txt named example_backup.txt:
-
-cp example.txt example_backup.txt
-
-
-## Copy to Another Directory:
-
-To copy example.txt to a different directory:
-
-cp example.txt /path/to/target/directory
-
-
-## Copy Multiple Files:
-
-To copy multiple files to a target directory:
-
-cp example1.txt example2.txt /path/to/target/directory
-
-
-## Recursive Directory Copy:
-
-To copy an entire directory and its contents to another location:
-
-cp -R /path/to/source/directory /path/to/target/directory
+A file copy is not a WordPress database backup. For site recovery, keep both the application files and the database and use the documented recovery workflow.

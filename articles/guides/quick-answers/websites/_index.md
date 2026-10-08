@@ -1,11 +1,27 @@
 ---
-title: Websites
+title: Website quick answers
 show_in_lists: true
-aliases: ['/quick-answers/websites/','/quick-answers/websites/certbot/']
+aliases:
+- /quick-answers/websites/
+- /quick-answers/websites/certbot/
+authors:
+- SiteBay
+contributors:
+- SiteBay
+description: Inspect requests, caches, and migration steps without confusing application state with infrastructure
+  state.
+keywords:
+- websites
+- sitebay documentation
+published: 2025-03-18
+slug: websites
+license: '[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)'
+doc_sources:
+- web-protocol
+modified: 2026-10-07
+layout: documentation-section
 ---
 
-Welcome to the Websites section of our support articles! Here, you'll dive into the world of SiteBay, the ultimate spot for WordPress hosting on Kubernetes, enriched with Posthog for analytics, Grafana for monitoring, and much more. Whether you're kickstarting your first website or you're a seasoned developer looking to elevate your online presence, we've got your back.
+Inspect requests, caches, and migration steps without confusing application state with infrastructure state.
 
-Looking to boost your site's security? Explore our guides on implementing SSL certificates seamlessly. Planning to transition your site to SiteBay? Our detailed migration tutorials ensure a smooth and straightforward switch. Plus, uncover strategies to enhance your site's speed, fortify your WordPress security, and much more.
-
-Embark on a journey to amplify your website with SiteBay. Our mission is to empower you to carve out a standout digital presence. From initiating your very first site to amplifying an established one, you've landed in the perfect
+{{< section-links >}}

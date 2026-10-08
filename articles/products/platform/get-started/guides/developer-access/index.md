@@ -1,44 +1,43 @@
 ---
-title: Developer Access
-description: Create limited access for developers.
-keywords: ["accounts", "security"]
-tags: ["sitebay platform","security"]
+title: Give a developer access
+description: Give each collaborator the access required for the task, without sharing the owner's credentials.
+keywords:
+- accounts
+- security
+tags:
+- sitebay platform
+- security
 published: 2024-04-26
-modified: 2025-12-04
+modified: 2026-10-07
 modified_by:
   name: SiteBay
-aliases: ['/platform/create-limited-developer-account/','/guides/create-limited-developer-account/']
-authors: ["SiteBay"]
-contributors: ["SiteBay"]
+aliases:
+- /platform/create-limited-developer-account/
+- /guides/create-limited-developer-account/
+authors:
+- SiteBay
+contributors:
+- SiteBay
+slug: developer-access
+license: '[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)'
+doc_sources:
+- teams
+- editor-bridge
+- git-sync
 ---
 
-Need a contractor or a teammate to work on your WordPress sites, check PostHog analytics, or connect via the SiteBay MCP Server? Don't hand over your main password. Create a restricted user instead.
+Give each collaborator the access required for the task, without sharing the owner's credentials.
 
-## How to Add a Developer User
+## Choose the access boundary
 
-1. Head to [my.sitebay.org](https://my.sitebay.org), click **Account**, then **Users & Grants**.
-2. Hit **Add a User**.
-3. Drop in their email address.
-4. Under Account Access, make sure you pick **Limited** (not Full!).
-5. Tweak their specific permissions and hit save.
+A SiteBay team role, a WordPress user, a repository permission, and an editor session are separate grants. Identify which resources the work actually requires.
 
-## Common Permission Setups
+## Grant and verify
 
-| What to give them | What it does |
-|-------------------|--------------|
-| **Full access** | *Don't use this for devs!* Lets them do whatever they want, including spending your money. |
-| **Specific sites** | Restricts them to managing only the WordPress pods you select. |
-| **Billing** | Lets them view or edit billing info (usually keep this off for devs). |
-| **Read-only** | Great if they just need to look at configs or stats without breaking anything. |
+Invite the developer through the supported team workflow and review their role. Check repository permissions separately for Git Sync. Connect the editor to the intended site and environment before requesting changes.
 
-## How to Kick Them Out
+## Finish the handoff
 
-Contract over? Revoke their access immediately:
-1. Go to **Account** → **Users & Grants**.
-2. Find the developer's user profile and hit **Delete**.
+Review the change and its tests, rotate any temporary credentials, and remove access that is no longer needed.
 
-## Quick Security Reminders
-
-- Never DM someone your admin password.
-- Always use the restricted roles feature.
-- Remind your devs they can use the SiteClaw mobile app to check server status on the go if you give them the right permissions.
+Use [Team permissions]({{< relref "products/platform/accounts/guides/user-permissions/index.md" >}}) and [the Agent Bridge]({{< relref "vscode/setup.md" >}}).

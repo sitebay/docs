@@ -1,34 +1,31 @@
 ---
 slug: sitebay-template-sites
-description: 'Pre-built WordPress templates.'
-keywords: ["sitebay", "templates"]
+description: A template is a starting point for a new site. Choose from the catalog available to your account and
+  verify the resulting site before adding production content.
+keywords:
+- sitebay
+- templates
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
-modified: 2025-12-04
+modified: 2026-10-07
 modified_by:
   name: SiteBay
 published: 2024-04-04
-title: Templates
-tags: ["sitebay", "wordpress"]
-authors: ["SiteBay"]
-contributors: ["SiteBay"]
+title: Site templates
+tags:
+- sitebay
+- wordpress
+authors:
+- SiteBay
+contributors:
+- SiteBay
+doc_sources:
+- templates
+- wp-theme
+- shopify-theme
 ---
 
-# Templates
+A template is a starting point for a new site. Choose from the catalog available to your account and verify the resulting site before adding production content.
 
-Pre-configured WordPress sites. Clone and customize.
+Preview the layout, check the provider and site type, and replace sample text and media. A template preview is not a running site or a promise that all integrations are configured.
 
-## Use a Template
-
-1. Browse [my.sitebay.org/templates](https://my.sitebay.org/templates)
-2. **Preview** to view
-3. **Create Site** to clone
-4. Enter your domain + credentials
-
-## Included
-
-- Theme pre-installed
-- Demo content
-- Recommended plugins
-- Quickstart guide
-
-See [Templates Get Started](/products/templates/get-started-with-templates/) for full list.
+Continue with [Choose a template]({{< relref "getting-started/choose-a-template.md" >}}).

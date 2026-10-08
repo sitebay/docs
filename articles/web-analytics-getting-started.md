@@ -1,46 +1,30 @@
 ---
-title: "Web Analytics - Getting Started"
+title: Web analytics quick start
 date: 2025-12-04
-tags: ["analytics", "getting-started"]
+tags:
+- analytics
+- getting-started
+authors:
+- SiteBay
+contributors:
+- SiteBay
+description: Open the analytics project for your site, select a date range, and verify that recent visits appear.
+  Check the tracker and consent settings when the expected visit is missing.
+keywords:
+- web analytics - getting started
+- sitebay documentation
+published: 2025-12-04
+slug: web-analytics-getting-started
+license: '[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)'
+doc_sources:
+- analytics-ui
+modified: 2026-10-07
 ---
 
-# Web Analytics
+Open the analytics project for your site, select a date range, and verify that recent visits appear. Check the tracker and consent settings when the expected visit is missing.
 
-Track visitors, traffic sources, and user behavior. No cookies required.
+## Use it
 
-## Setup (5 min)
+Compare equivalent periods and keep test traffic separate. Use a verified conversion event for signups or purchases rather than treating page views as completed actions.
 
-1. Copy tracking code from **Dashboard > Analytics**
-2. Paste in your site's `<head>`
-3. Data appears within 24h
-
-## Key Metrics
-
-| Metric | What It Tells You |
-|--------|-------------------|
-| Visitors | Total unique people |
-| Page views | Content popularity |
-| Bounce rate | % leaving after 1 page |
-| Traffic source | Where visitors come from |
-| Device type | Mobile vs desktop split |
-
-## Weekly Routine
-
-Check every Monday:
-- Visitor trend (up/down?)
-- Top 5 pages
-- Top traffic sources
-- Any anomalies
-
-## Common Mistakes
-
-1. **Obsessing over daily numbers** — Look at weekly trends instead
-2. **Only tracking visitor count** — Engagement matters more
-3. **Not acting on data** — Make 1 improvement/month
-4. **Multiple analytics tools** — Pick one, stick with it
-
-## Privacy
-
-- No cookies = no cookie banners
-- Anonymous tracking
-- GDPR compliant by default
+[Read the full guide]({{< relref "products/posthog/web-analytics/index.md" >}}).

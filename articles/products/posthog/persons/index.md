@@ -1,42 +1,42 @@
 ---
 slug: persons
-description: 'PostHog People/Users tracking on SiteBay.'
-keywords: ["PostHog", "users", "analytics", "sitebay"]
+description: A person profile groups events and properties associated with an analytics identity. It is not automatically
+  the same as a WordPress account or a billing customer.
+keywords:
+- PostHog
+- users
+- analytics
+- sitebay
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
 published: 2024-04-18
-modified: 2025-12-04
+modified: 2026-10-07
 modified_by:
   name: SiteBay
-title: 'People'
-tags: ["sitebay", "analytics", "PostHog"]
-authors: ["SiteBay"]
-contributors: ["SiteBay"]
+title: Inspect people in analytics
+tags:
+- sitebay
+- analytics
+- PostHog
+authors:
+- SiteBay
+contributors:
+- SiteBay
+doc_sources:
+- analytics-ui
 ---
 
-# People Tracking
+A person profile groups events and properties associated with an analytics identity. It is not automatically the same as a WordPress account or a billing customer.
 
-Numbers on a chart are fine, but eventually, you need to know *who* is actually using your site. Because SiteBay runs your WordPress site on our optimized Kubernetes stack, we can track individual user journeys from their first click to their hundredth purchase.
+## Open a profile
 
-## The Anatomy of a User
+Find a person through the people view or an event's identity. Review the identifiers, properties, and event history. Check whether the record belongs to the intended site and environment.
 
-When you look up a person in PostHog, you get the full picture:
-- **Events**: Every single action they've taken on your site.
-- **Properties**: Where they live, what browser they use, or any custom data (like their WooCommerce lifetime value).
-- **Sessions**: A neat history of every time they've visited.
+## Investigate identity problems
 
-## Grouping People (Cohorts)
+Compare the identifier before and after sign-in. Inconsistent identification can split one person's activity across profiles or associate activity incorrectly. Test the application's identification flow before changing or merging records.
 
-Stop treating all traffic the same. You can group users into Cohorts based on exactly what they do:
-- "People who added to cart but didn't buy in the last 7 days"
-- "Power users who log in every day"
-- "Mobile visitors from Canada"
+## Handle data carefully
 
-## How to Find Someone
+Profile data may contain personal information. Limit access and collect only the properties needed for the analysis. Review the consequences before using any deletion or merge action.
 
-1. Open your SiteBay dashboard and go to **Analytics > People**.
-2. Click on any user to open their profile.
-3. Scroll through their timeline to see exactly what they've been up to.
-
-## The AI Shortcut
-
-If you don't have time to dig through user profiles, use the **SiteBay MCP Server** or the **SiteClaw** mobile app. You can just ask your AI agent, "Hey, build a list of all the users who experienced a checkout error yesterday and summarize what browsers they were using." 
+See [Events]({{< relref "products/posthog/events/index.md" >}}) to trace the records behind a profile.

@@ -1,38 +1,35 @@
 ---
 slug: affiliate-program
-description: "Earn credits by referring users to SiteBay."
-keywords: ['affiliate program', 'referral', 'earn credits']
+description: Use the referral information associated with your signed-in account.
+keywords:
+- affiliate program
+- referral
+- earn credits
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
 published: 2024-04-04
-modified: 2026-03-12
+modified: 2026-10-08
 image: IntroAffiliateProgram.png
 modified_by:
   name: SiteBay
-title: "Affiliate & Referral Program"
-authors: ["SiteBay"]
-contributors: ["SiteBay"]
+title: SiteBay referrals and recorded rewards
+authors:
+- SiteBay
+contributors:
+- SiteBay
+doc_sources:
+- referrals
 ---
 
-![SiteBay Affiliate](IntroAffiliateProgram.png)
+Use the referral information associated with your signed-in account. A referral URL, a recorded signup, a paid plan, and a recorded payout are different stages; do not treat a click or invite email as earned credit.
 
-# Affiliate Program
+## Find and share your link
 
-Earn a **$10 flat credit** for every successful referral to SiteBay.
+Open the account's referral view and copy the link it provides. Check that it belongs to your account before sharing it with an intended audience. Do not send bulk unsolicited invitations or include private account data in the URL.
 
-## How It Works
+## Verify results
 
-1. Go to **Settings > Affiliate** in your SiteBay Dashboard to get your unique referral link.
-2. Share the link with your network, clients, or on your website.
-3. When your referral signs up and becomes an active subscribed user, you receive a flat $10 credit to your account.
+The current account view distinguishes referred users, paid-plan information, and recorded payouts. Review the actual entry, amount and currency rather than adding a fixed hypothetical reward. The backend's referral attribution response can contain a null referrer when no attribution applies.
 
-## Use Credits For
+## Read current terms
 
-- Paying for your hosting plans
-- Upgrading server resources
-- Trying out new features like advanced SiteClaw AI integrations
-
-## Tips for Success
-
-- Share your positive experience with the SiteBay platform.
-- Post your link on social media.
-- Create tutorials, reviews, or content about using SiteBay's AI-native WordPress tools.
+Check the account’s program terms for credits, commissions, minimum spend, and expiry dates. [Contact support]({{< relref "products/platform/get-started/guides/support/index.md" >}}) about a specific missing attribution or payout with its non-secret reference.

@@ -1,41 +1,44 @@
 ---
 slug: best-ide-wordpress
-authors: ["SiteBay"]
-contributors: ["SiteBay"]
+authors:
+- SiteBay
+contributors:
+- SiteBay
 modified_by:
   name: SiteBay
-description: 'The Best IDE for WordPress Development'
-og_description: 'Software to create websites such as WordPress'
-keywords: ['development', 'ide', 'git-sync']
-tags: ["git-sync", "wordpress development"]
+description: Choose the development workflow first, then an editor that supports it.
+og_description: Choose the development workflow first, then an editor that supports it.
+keywords:
+- development
+- ide
+- git-sync
+tags:
+- git-sync
+- wordpress development
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
 published: 2024-04-23
-title: "Best IDE Software for WordPress Development"
-h1_title: "Best IDEs for WordPress"
+title: Choose an editor for a supported workflow
+h1_title: Choose an editor for a supported workflow
+doc_sources:
+- code-server
+- git-sync
+modified: 2026-10-08
 ---
 
-Picking the right Integrated Development Environment (IDE) is a game-changer for your WordPress workflow. Whether you're just starting out or you're a seasoned dev pushing complex code to SiteBay's Kubernetes clusters, having the right tool matters. Here's a rundown of some of the best IDEs for WordPress development, especially when you're using features like SiteBay's Git Sync.
+Choose the development workflow first, then an editor that supports it. A local editor, SiteBay's browser code-server and a provider-hosted theme editor operate on different copies of the project.
 
-### Visual Studio Code (VS Code)
+## Requirements to check
 
-VS Code is Microsoft's free, open-source heavyweight. It's insanely customizable, supports pretty much every language you can think of, and has an extension ecosystem that can't be beat. For WordPress, grab extensions like PHP InteleSense and WordPress Snippets. Plus, if you're using our **SiteBay MCP Server** to bring AI into your workflow, VS Code handles it flawlessly. The built-in Git integration makes syncing with SiteBay a breeze.
+Use an actively maintained editor with the language support, formatter, debugger and Git tools needed by the project. Verify extensions and runtime compatibility rather than assuming every desktop extension works in a browser build. Choose an editor with active maintenance and support for your environment.
 
-### PhpStorm
+## Local checkout
 
-PhpStorm is a premium IDE built specifically for PHP. If you do professional WordPress development, this is often the go-to. It understands your code deeply, offers top-tier assistance, and handles WordPress specifics out of the box. Its seamless Git and Docker integrations fit perfectly into a modern, containerized workflow like ours.
+Use an authorized repository connection, inspect the branch and make scoped commits. A pushed commit is not proof of a completed deployment. Keep secret configuration and database exports outside the tracked project.
 
-### Sublime Text
+## Browser workspace
 
-Sublime Text is fast. Like, really fast. It's a sophisticated text editor that's great for quick edits and scripting tasks. While it's not a full-blown IDE out of the box, its vast library of plugins means you can tailor it exactly how you want. The "Goto Anything" and multiple selection features are lifesavers when you need to jump around a massive codebase.
+For code-server, open the site's authenticated workspace and verify its target. Read [the workspace procedure]({{< relref "products/code-server/get-started/index.md" >}}) for paths and extension restrictions. A browser editor does not eliminate PHP/runtime compatibility differences or automatically make an unsafe edit reversible.
 
-### Atom
+## Shopify and WordPress
 
-*(Note: Atom was sunset by GitHub, but it's still loved by many.)* Atom is a free, open-source editor that's highly customizable and beginner-friendly. Its Git and GitHub integrations are solid. While many devs have moved on to VS Code, Atom still holds a place in the hearts of those who love community-driven packages.
-
-### Eclipse
-
-Eclipse is an old-school, open-source IDE. It's robust and offers comprehensive tools for coding, debugging, and testing. If you add the PHP Development Tools (PDT) project, it becomes a solid choice for WordPress development, though it can feel a bit heavy compared to modern editors.
-
-### Wrapping Up
-
-The best IDE is the one that fits your style. If you want lightweight speed, grab Sublime Text. If you want deep PHP understanding, pay for PhpStorm. If you want an incredible ecosystem with great AI integration, go with VS Code. Try them out, hook them up to SiteBay via Git Sync, and see what makes you code faster.
+A Shopify theme checkout is not a WordPress `wp-content` repository and does not include store orders or billing state. Select the environment and preview the relevant application before publishing. Use [Git Sync]({{< relref "products/git-sync/get-started/index.md" >}}) only for the source and target it actually supports.

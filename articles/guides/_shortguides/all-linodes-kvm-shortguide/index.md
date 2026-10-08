@@ -1,18 +1,27 @@
 ---
 slug: all-sitebays-kvm-shortguide
-description: 'Shortguide highlighting that all SiteBay WordPress hosting environments utilize Kubernetes.'
+description: SiteBay runs WordPress workloads in Kubernetes. A site account manages its site through the dashboard
+  and documented API, not through cluster-administration commands.
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
-modified: 2024-04-04
+modified: 2026-10-07
 modified_by:
   name: SiteBay
 published: 2024-04-04
-title: All SiteBay Environments Use Kubernetes
+title: Site isolation
 headless: true
 show_on_rss_feed: false
-authors: ["SiteBay"]
-contributors: ["SiteBay"]
+authors:
+- SiteBay
+contributors:
+- SiteBay
+keywords:
+- all sitebay environments use kubernetes
+- sitebay documentation
+doc_sources:
+- platform-architecture
+- lifecycle
 ---
 
-{{< note>}}
-This guide might reference different hosting architectures or technologies. But, all SiteBay WordPress hosting environments are now powered by Kubernetes technology, offering scalable, robust, and efficient infrastructure for your WordPress sites. This note may be updated as our technology evolves, but it currently serves to clarify our infrastructure's architecture.
-{{< /note >}}
+SiteBay runs WordPress workloads in Kubernetes. A site account manages its site through the dashboard and documented API, not through cluster-administration commands.
+
+Container isolation does not imply dedicated physical hardware. Check your plan's resources and inspect the site's status when diagnosing performance.

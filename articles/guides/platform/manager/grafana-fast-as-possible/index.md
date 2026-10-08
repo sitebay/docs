@@ -1,44 +1,40 @@
 ---
 slug: grafana-analytics-fast-as-possible
-description: "My SiteBay includes Grafana for analytics and dashboards"
-keywords: ['dns','members.sitebay.org','reverse dns']
+description: Use the monitoring entry provided for your account. SiteBay includes a Grafana authorization integration,
+  but access and available dashboards depend on the deployed configuration.
+keywords:
+- dns
+- members.sitebay.org
+- reverse dns
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
 published: 2024-04-13
 modified_by:
   name: SiteBay
-title: "Supercharge Your WordPress Site with Grafana Analytics"
-title_meta: "Seamless Integration with Grafana for Insightful Dashboards and Metrics"
-authors: ["SiteBay"]
-contributors: ["SiteBay"]
+title: Use Grafana with SiteBay
+title_meta: Use Grafana with SiteBay
+authors:
+- SiteBay
+contributors:
+- SiteBay
+doc_sources:
+- grafana
+- site-ui
+- analytics-ui
+modified: 2026-10-07
 ---
 
-SiteBay introduces Grafana, an open-source platform for monitoring and observability, integrated with our powerful WordPress hosting. Grafana lets you visualize, alert on, and understand your metrics no matter where they are stored. Create, explore, and share dashboards with your team to turn data into actionable insights.
+Use the monitoring entry provided for your account. SiteBay includes a Grafana authorization integration, but access and available dashboards depend on the deployed configuration.
 
-Comprehensive Monitoring: Keep track of your WordPress site’s performance, availability, and health.
+## Set the scope
 
+Confirm the organization, site, time range, and dashboard variables. Inspect the panel's query and units before interpreting a spike or an empty chart.
 
-Access Grafana: Find Grafana in your SiteBay dashboard. It's pre-integrated, saving you setup time.
+## Investigate a symptom
 
-Unlocking User Insights with Grafana and PostHog Integration
-Introduction
+Compare the observation with site history and the failing request. A resource graph does not establish whether a visitor completed a business action; use analytics for captured application events.
 
-Data visualization is an indispensable tool for modern web analytics. It transforms raw data into actionable insights. Grafana, a multi-platform open-source analytics and interactive visualization web application, offers a powerful interface for tracking and understanding user behavior on websites. With the integration of PostHog, a product analytics tool, you gain a deeper understanding of user events and activities. Let’s explore a Grafana dashboard and how it can provide a comprehensive view of your site's performance and user engagement.
-Analyzing the Dashboard
+## Report the finding
 
-The Grafana dashboard shown provides a wealth of information at a glance, presenting everything from real-time user data to request statistics over time. One of its most striking features is the "Visitors Map," which shows the geographical distribution of users visiting your site. Each dot on the map represents a cluster of users from a specific location. The dashboard's interactivity allows you to click on these dots to drill down into more detailed data about users from that area.
-Real-time Data Tracking
+Share the relevant time range, metric, and site with support. Do not publish private dashboard links or embedded credentials.
 
-Keeping tabs on your audience in real time can improve response times to potential issues or viral content. The dashboard highlights key metrics such as total requests, current real-time visitors, and request status codes, providing immediate insights into your website's traffic and health.
-
-The real-time visitors counter and the list of recent requests give you a sense of current user activity. With live updates, you’re always in the know about how your site is performing right now.
-Deep Diving with PostHog Events
-
-Grafana’s integration with PostHog takes data analysis a step further. Beyond just viewing where your users are, you can interact with the dashboard to access a detailed log of user events.
-## Click on a dot on the map
-Then click on a row, then click View User Events to see the posthog events
-
-With Grafana on SiteBay, you can:
-
-Monitor site performance and user engagement in real-time.
-Analyze traffic sources, page views, and user interactions to make informed decisions.
-Detect and alert on performance issues before they affect your users.
+See [site status]({{< relref "products/platform/get-started/guides/status-page/index.md" >}}) and [analytics]({{< relref "products/posthog/get-started/index.md" >}}).

@@ -1,57 +1,43 @@
 #!/usr/bin/env node
-/**
- * Regenerate articles/sorti/forge-reference.md from the canonical forge
- * authoring skill in the sorti repo (apps/sorti-agent/skills/forge-authoring/
- * SKILL.md). Single-source rule: the skill is what the forge specialist
- * actually reads in production, so the public reference is a build artifact
- * of it — never hand-edit the output file, edit the skill.
- *
- * Usage: node ci/scripts/sync-forge-reference.mjs
- *   SORTI_REPO=/path/to/sorti overrides the default ~/sorti.
- */
+// Render the public reference from the canonical Forge authoring skill.
+// Existing article metadata is preserved. --check performs no writes.
 import { readFileSync, writeFileSync } from 'node:fs';
 import { homedir } from 'node:os';
-import { join, dirname } from 'node:path';
+import { join, dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
-const docsRoot = join(dirname(fileURLToPath(import.meta.url)), '..', '..');
-const sortiRepo = process.env.SORTI_REPO ?? join(homedir(), 'sorti');
-const skillPath = join(sortiRepo, 'apps/sorti-agent/skills/forge-authoring/SKILL.md');
-const outPath = join(docsRoot, 'articles/sorti/forge-reference.md');
+export function renderReference(raw) {
+  const skill = raw.replace(/^---\r?\n[\s\S]*?\r?\n---\r?\n/, '').replaceAll('\r\n', '\n').trimStart();
+  const firstSection = skill.indexOf('\n## ');
+  if (firstSection < 0) throw new Error('Canonical skill has no level-two section');
+  const reference = skill.slice(firstSection + 1).replace(/[\t ]+$/gm, '').trimEnd();
+  return `This reference is generated from the canonical Forge authoring skill. Use the current session's schemas when making tool calls. Read [Create a panel with Forge](/docs/sorti/forging-panels/) for the workflow.\n\n<!-- GENERATED: sorti/apps/sorti-agent/skills/forge-authoring/SKILL.md -->\n\n${reference}\n`;
+}
 
-const raw = readFileSync(skillPath, 'utf8');
-// Strip the skill's own frontmatter; keep the body from the first heading.
-const body = raw.replace(/^---\n[\s\S]*?\n---\n/, '').trimStart();
-// The skill body opens with "# Forge Authoring Skill" + a mission-voiced
-// intro paragraph; replace both with a docs-voiced heading. Everything after
-// the first section heading is carried verbatim.
-const firstSection = body.indexOf('\n## ');
-if (firstSection === -1) throw new Error('unexpected skill shape: no "## " section found');
-const reference = body.slice(firstSection + 1);
+export function synchronize({ source, destination, check = false }) {
+  const current = readFileSync(destination, 'utf8');
+  const match = current.match(/^---\r?\n[\s\S]*?\r?\n---\r?\n/);
+  if (!match) throw new Error('Reference article must retain its metadata');
+  const rendered = renderReference(readFileSync(source, 'utf8'));
+  const existing = current.slice(match[0].length).trimStart();
+  if (check) {
+    if (existing !== rendered) throw new Error('Forge reference differs from canonical source; regenerate it');
+    return false;
+  }
+  const next = match[0] + '\n' + rendered;
+  if (next !== current) writeFileSync(destination, next);
+  return next !== current;
+}
 
-const today = new Date().toISOString().slice(0, 10);
-const out = `---
-title: "Forge Reference"
-description: "The exact forge vocabulary — primitives, reducer ops, expressions, juice, budgets. Generated from the canonical in-product authoring skill."
-tags: ["sorti", "forge", "mcp", "reference", "reducers"]
-published: 2026-07-07
-lastmod: ${today}
-weight: 46
----
-
-# Forge Reference
-
-<!-- GENERATED FILE — do not edit. Source of truth:
-     sorti/apps/sorti-agent/skills/forge-authoring/SKILL.md
-     Regenerate with: node ci/scripts/sync-forge-reference.mjs -->
-
-This is the exact vocabulary the forge's own authoring specialist works
-from — the same document, republished. Concepts and background live in
-[Forging Panels](/docs/sorti/forging-panels/). Sections addressed to
-the authoring agent (mission tools, checkpoints, verification) describe
-in-product behavior you'll see forge missions follow.
-
-${reference}`;
-
-writeFileSync(outPath, out);
-console.log(`wrote ${outPath} (${out.length} bytes) from ${skillPath}`);
+if (process.argv[1] && resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
+  const args = process.argv.slice(2);
+  if (args.some(arg => arg !== '--check')) throw new Error('Usage: sync-forge-reference.mjs [--check]');
+  const docsRoot = resolve(dirname(fileURLToPath(import.meta.url)), '../..');
+  const sortiRoot = process.env.SORTI_REPO || join(homedir(), 'sorti');
+  const changed = synchronize({
+    source: join(sortiRoot, 'apps/sorti-agent/skills/forge-authoring/SKILL.md'),
+    destination: join(docsRoot, 'articles/sorti/forge-reference.md'),
+    check: args.includes('--check'),
+  });
+  console.log(args.includes('--check') ? 'Forge reference matches canonical source' : changed ? 'Updated Forge reference' : 'Forge reference unchanged');
+}

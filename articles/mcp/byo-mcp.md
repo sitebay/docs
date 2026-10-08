@@ -1,48 +1,51 @@
 ---
-title: Build your own MCP for Sorti
+title: Build an MCP app for Sorti
 published: 2026-10-07
-
+authors:
+- SiteBay
+contributors:
+- SiteBay
+description: A BYO-MCP application declares its capabilities, exposes MCP tools and resources, and runs behind its
+  own authorization boundary.
+keywords:
+- build your own mcp for sorti
+- sitebay documentation
+slug: byo-mcp
+license: '[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)'
+doc_sources:
+- sorti-byo
+- sorti-panels
+modified: 2026-10-07
 ---
 
-# Build your own MCP for Sorti
-
-Sorti can load an external MCP when it exposes the BYO capability contract.
+A BYO-MCP application declares its capabilities, exposes MCP tools and resources, and runs behind its own authorization boundary.
 
 ## Required endpoints
 
-- `GET /.well-known/byo-mcp/capabilities.json`
-- `GET /.well-known/mcp/server-card.json`
-- `POST /mcp`
+| Endpoint | Purpose |
+| --- | --- |
+| `GET /.well-known/byo-mcp/capabilities.json` | Application capabilities |
+| `GET /.well-known/mcp/server-card.json` | Discoverable server and tool definitions |
+| `POST /mcp` | MCP requests |
 
-Capabilities must include `kind: "byo-mcp"` and `kind_version: "1"`.
+The capability document requires `id`, `version`, `kind: "byo-mcp"`, `kind_version: "1"`, `modules`, `specialists`, and `multiplayer`. A module claims its tools; the conformance bundle limits each module to 20 tools. Each specialist can select at most 12 declared tools.
 
-## Specialists
+## Return normal tool results
 
-Declare one or more specialists. Each specialist maps to a Sorti agent and may
-use at most 12 tools.
+Use the MCP `content` array and, when appropriate, `structuredContent`. Do not return the retired top-level `panel` object.
 
-## Panels
+Panels use a `ui://` resource with MIME type `text/html;profile=mcp-app;version=1`. Declared panels must be reachable through their emitting tools or `resources/read`. A `primitive-spec` resource contains a supported primitive tree, including the applicable metadata and origin declarations.
 
-Tool results can include a stable panel envelope:
+## Test safely
 
-```json
-{ "panel": { "uri": "ui://example/main", "name": "Example", "description": "Current view", "html": "<section>...</section>" } }
+Install the conformance bundle with its declared `@sitebay/panel-primitives` dependency and preserve its sibling fixtures. From the bundle directory, run:
+
+```sh
+node run-all.mjs --target=http://localhost:8787
 ```
 
-Panel HTML must be static, script-free, and under 64KB.
+Point it at your fixture-mode server, not a live customer system. Declare safe probe tools and required test data. The checks cover discovery, schemas, round trips, panel resources, and declared multiplayer behavior.
 
-## Multiplayer
+A passing bundle does not install the app, grant permissions, verify every tool's business behavior, or publish it. Check those boundaries separately.
 
-If your MCP supports multiplayer, expose the `coop_*` tools and keep transport
-separate from semantics. Sorti owns LiveKit; your MCP owns the room state or the
-proxy polish layer.
-
-## Conformance
-
-Run the public conformance bundle before wiring the MCP into Sorti:
-
-```bash
-node /home/bitnami/sorti/packages/sorti-contract/byo/conformance/run-all.mjs --target=http://localhost:8787
-```
-
-The STS2 bridge is the reference implementation.
+For host-facing UI, read [Panels and MCP]({{< relref "sorti/panels-and-mcp.md" >}}).

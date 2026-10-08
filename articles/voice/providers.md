@@ -1,39 +1,36 @@
 ---
-title: "Voice And Agent Providers"
-description: "How Sorti chooses AI providers for voice and agent sessions."
+title: Choose an agent and voice provider
+description: The agent model and the speech service perform different jobs. Changing one does not necessarily change
+  the other.
+authors:
+- SiteBay
+contributors:
+- SiteBay
+keywords:
+- voice and agent providers
+- sitebay documentation
+published: 2026-10-08
+slug: providers
+license: '[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)'
+doc_sources:
+- voice-runtime
+modified: 2026-10-07
 ---
 
-Sorti can route agent work through several provider families. SiteBay selects a
-provider based on the session, available credentials, and the model needed for
-the task.
+The agent model and the speech service perform different jobs. Changing one does not necessarily change the other.
 
-## Supported Agent Providers
+## Agent model
 
-- Anthropic for long-context planning and reliable tool use.
-- Gemini CLI for Google-authenticated workspaces and fast multimodal turns.
-- Antigravity for Google-backed coding models.
-- Codex for OpenAI coding workflows.
+Choose from the models available to the current session and credentials. The model catalog records context and output limits, tool-calling and image capabilities, and pricing metadata when available. A missing or zero catalog price is not a promise that a provider is free.
 
-Each provider must pass the same offline contract before it is exposed. That
-contract checks normal chat, multi-turn history, tool calls, tool results, image
-attachments, and invalid output handling.
+Use a model that supports the tools and input types your task needs. Provider authentication failures require valid credentials; changing a prompt does not repair access.
 
-## Switching Providers
+## Speech output
 
-Provider selection is controlled by the SiteBay session and model settings. If
-a provider is unavailable, Sorti falls back only to a model that exists in the
-installed provider catalog.
+Speech uses the configured text-to-speech service and selected voice. A custom voice must be available to that service. If validation fails, the session can use its configured fallback voice.
 
-## If Gemini Fails To Authenticate
+## Verify a change
 
-Reconnect the SiteBay account that grants Google access, then start a fresh
-Sorti session. Expired Gemini credentials are handled as an authentication
-problem, not a generic agent failure.
+Start with a short text request and a short spoken reply. Check model selection, audio output, and the intended tools separately.
 
-## What Changes Between Providers
-
-- Latency varies by provider and model.
-- Multimodal support depends on the provider. Gemini and Anthropic support image
-  input in the active Sorti paths.
-- Cost varies by model. SiteBay tracks usage at the session level.
-- Tool calling should behave the same across supported providers.
+See [Voice troubleshooting]({{< relref "voice/troubleshooting.md" >}}).

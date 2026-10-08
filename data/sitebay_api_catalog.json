@@ -1,0 +1,3669 @@
+{
+  "source_sha256": "8932ab50bf557e1ab84b06f67fede59b9a031f079504b6fa4b8defab6199ea67",
+  "operations": [
+    {
+      "group": "account",
+      "method": "GET",
+      "path": "/f/api/v1/account/me",
+      "summary": "Users:Current User",
+      "parameters": [],
+      "body_schema": "",
+      "required_body_fields": [],
+      "responses": [
+        "200",
+        "401"
+      ]
+    },
+    {
+      "group": "account",
+      "method": "PATCH",
+      "path": "/f/api/v1/account/me",
+      "summary": "Users:Patch Current User",
+      "parameters": [],
+      "body_schema": "UserUpdate",
+      "required_body_fields": [],
+      "responses": [
+        "200",
+        "400",
+        "401",
+        "422"
+      ]
+    },
+    {
+      "group": "account",
+      "method": "GET",
+      "path": "/f/api/v1/account/me/extended",
+      "summary": "Get Current User Extended",
+      "parameters": [],
+      "body_schema": "",
+      "required_body_fields": [],
+      "responses": [
+        "200"
+      ]
+    },
+    {
+      "group": "account",
+      "method": "GET",
+      "path": "/f/api/v1/api-keys",
+      "summary": "List your API keys",
+      "parameters": [
+        {
+          "name": "team_id",
+          "in": "query",
+          "required": false
+        }
+      ],
+      "body_schema": "",
+      "required_body_fields": [],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "account",
+      "method": "POST",
+      "path": "/f/api/v1/api-keys",
+      "summary": "Create a new API key",
+      "parameters": [],
+      "body_schema": "ApiKeyCreate",
+      "required_body_fields": [
+        "name",
+        "team_id",
+        "permission"
+      ],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "account",
+      "method": "GET",
+      "path": "/f/api/v1/api-keys/@current",
+      "summary": "Get the currently authenticated API key",
+      "parameters": [],
+      "body_schema": "",
+      "required_body_fields": [],
+      "responses": [
+        "200"
+      ]
+    },
+    {
+      "group": "account",
+      "method": "DELETE",
+      "path": "/f/api/v1/api-keys/{key_id}",
+      "summary": "Revoke an API key",
+      "parameters": [
+        {
+          "name": "key_id",
+          "in": "path",
+          "required": true
+        }
+      ],
+      "body_schema": "",
+      "required_body_fields": [],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "application_password",
+      "method": "POST",
+      "path": "/f/api/v1/application_password",
+      "summary": "Create Application Password",
+      "parameters": [],
+      "body_schema": "ApplicationPasswordCreate",
+      "required_body_fields": [
+        "fqdn",
+        "username",
+        "password",
+        "team_id"
+      ],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "application_password",
+      "method": "DELETE",
+      "path": "/f/api/v1/application_password/{fqdn}",
+      "summary": "Delete Application Password",
+      "parameters": [
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        }
+      ],
+      "body_schema": "",
+      "required_body_fields": [],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "application_password",
+      "method": "PUT",
+      "path": "/f/api/v1/application_password/{fqdn}",
+      "summary": "Update Application Password",
+      "parameters": [
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        }
+      ],
+      "body_schema": "ApplicationPasswordUpdate",
+      "required_body_fields": [],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "domains",
+      "method": "GET",
+      "path": "/f/api/v1/site/{fqdn}/custom_hostname",
+      "summary": "List custom hostnames",
+      "parameters": [
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        }
+      ],
+      "body_schema": "",
+      "required_body_fields": [],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "domains",
+      "method": "POST",
+      "path": "/f/api/v1/site/{fqdn}/custom_hostname",
+      "summary": "Add custom hostname",
+      "parameters": [
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        }
+      ],
+      "body_schema": "CustomHostnameCreate",
+      "required_body_fields": [
+        "hostname"
+      ],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "domains",
+      "method": "DELETE",
+      "path": "/f/api/v1/site/{fqdn}/custom_hostname/{hostname_id}",
+      "summary": "Remove custom hostname",
+      "parameters": [
+        {
+          "name": "hostname_id",
+          "in": "path",
+          "required": true
+        },
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        }
+      ],
+      "body_schema": "",
+      "required_body_fields": [],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "domains",
+      "method": "GET",
+      "path": "/f/api/v1/site/{fqdn}/dns",
+      "summary": "Get DNS records",
+      "parameters": [
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        }
+      ],
+      "body_schema": "",
+      "required_body_fields": [],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "domains",
+      "method": "POST",
+      "path": "/f/api/v1/site/{fqdn}/dns",
+      "summary": "Create DNS record",
+      "parameters": [
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        }
+      ],
+      "body_schema": "DNSRecordCreateRequest",
+      "required_body_fields": [
+        "name",
+        "type",
+        "content"
+      ],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "domains",
+      "method": "DELETE",
+      "path": "/f/api/v1/site/{fqdn}/dns/{dns_id}",
+      "summary": "Delete DNS record",
+      "parameters": [
+        {
+          "name": "dns_id",
+          "in": "path",
+          "required": true
+        },
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        }
+      ],
+      "body_schema": "",
+      "required_body_fields": [],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "domains",
+      "method": "PATCH",
+      "path": "/f/api/v1/site/{fqdn}/dns/{dns_id}",
+      "summary": "Update DNS record",
+      "parameters": [
+        {
+          "name": "dns_id",
+          "in": "path",
+          "required": true
+        },
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        }
+      ],
+      "body_schema": "DNSRecordUpdateRequest",
+      "required_body_fields": [],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "domains",
+      "method": "PATCH",
+      "path": "/f/api/v1/site/{fqdn}/dns/{dns_id}/proxy",
+      "summary": "Toggle DNS record proxy",
+      "parameters": [
+        {
+          "name": "dns_id",
+          "in": "path",
+          "required": true
+        },
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        }
+      ],
+      "body_schema": "ProxyToggleRequest",
+      "required_body_fields": [
+        "proxied"
+      ],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "domains",
+      "method": "GET",
+      "path": "/f/api/v1/site/{fqdn}/ns_status",
+      "summary": "Check nameserver propagation",
+      "parameters": [
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        }
+      ],
+      "body_schema": "",
+      "required_body_fields": [],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "event",
+      "method": "GET",
+      "path": "/f/api/v1/event",
+      "summary": "Get User Events",
+      "parameters": [
+        {
+          "name": "fqdn",
+          "in": "query",
+          "required": false
+        },
+        {
+          "name": "page",
+          "in": "query",
+          "required": false
+        },
+        {
+          "name": "size",
+          "in": "query",
+          "required": false
+        }
+      ],
+      "body_schema": "",
+      "required_body_fields": [],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "images",
+      "method": "GET",
+      "path": "/f/api/v1/site_live/{fqdn}/images",
+      "summary": "Site image status",
+      "parameters": [
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        }
+      ],
+      "body_schema": "",
+      "required_body_fields": [],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "invite",
+      "method": "GET",
+      "path": "/f/api/v1/invite/{invite_id}",
+      "summary": "Get a team's invite",
+      "parameters": [
+        {
+          "name": "invite_id",
+          "in": "path",
+          "required": true
+        }
+      ],
+      "body_schema": "",
+      "required_body_fields": [],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "invite",
+      "method": "POST",
+      "path": "/f/api/v1/invite/{invite_id}",
+      "summary": "Get a team's invite",
+      "parameters": [
+        {
+          "name": "invite_id",
+          "in": "path",
+          "required": true
+        }
+      ],
+      "body_schema": "",
+      "required_body_fields": [],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "plan",
+      "method": "GET",
+      "path": "/f/api/v1/plan",
+      "summary": "Get Teams",
+      "parameters": [
+        {
+          "name": "page",
+          "in": "query",
+          "required": false
+        },
+        {
+          "name": "size",
+          "in": "query",
+          "required": false
+        }
+      ],
+      "body_schema": "",
+      "required_body_fields": [],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "plan",
+      "method": "GET",
+      "path": "/f/api/v1/plan/pricing",
+      "summary": "Public plan pricing",
+      "parameters": [],
+      "body_schema": "",
+      "required_body_fields": [],
+      "responses": [
+        "200"
+      ]
+    },
+    {
+      "group": "plan",
+      "method": "GET",
+      "path": "/f/api/v1/plan/{team_id}",
+      "summary": "Get Team",
+      "parameters": [
+        {
+          "name": "team_id",
+          "in": "path",
+          "required": true
+        }
+      ],
+      "body_schema": "",
+      "required_body_fields": [],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "region",
+      "method": "GET",
+      "path": "/f/api/v1/region",
+      "summary": "Get Regions",
+      "parameters": [],
+      "body_schema": "",
+      "required_body_fields": [],
+      "responses": [
+        "200"
+      ]
+    },
+    {
+      "group": "region",
+      "method": "GET",
+      "path": "/f/api/v1/region/{region_id}",
+      "summary": "Get a Region",
+      "parameters": [
+        {
+          "name": "region_id",
+          "in": "path",
+          "required": true
+        }
+      ],
+      "body_schema": "",
+      "required_body_fields": [],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "site_live",
+      "method": "GET",
+      "path": "/f/api/v1/site/",
+      "summary": "Get your sites",
+      "parameters": [
+        {
+          "name": "team_id",
+          "in": "query",
+          "required": false
+        },
+        {
+          "name": "page",
+          "in": "query",
+          "required": false
+        },
+        {
+          "name": "size",
+          "in": "query",
+          "required": false
+        }
+      ],
+      "body_schema": "",
+      "required_body_fields": [],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "site_live",
+      "method": "POST",
+      "path": "/f/api/v1/site/",
+      "summary": "Create a site",
+      "parameters": [
+        {
+          "name": "Idempotency-Key",
+          "in": "header",
+          "required": false
+        }
+      ],
+      "body_schema": "SiteLiveCreate",
+      "required_body_fields": [
+        "team_id",
+        "fqdn",
+        "wordpress_blog_name",
+        "wordpress_first_name",
+        "wordpress_last_name",
+        "wordpress_email",
+        "wordpress_username"
+      ],
+      "responses": [
+        "201",
+        "422"
+      ]
+    },
+    {
+      "group": "site_live",
+      "method": "DELETE",
+      "path": "/f/api/v1/site/{fqdn}",
+      "summary": "Delete your live site",
+      "parameters": [
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        }
+      ],
+      "body_schema": "",
+      "required_body_fields": [],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "site_live",
+      "method": "GET",
+      "path": "/f/api/v1/site/{fqdn}",
+      "summary": "Get your live site",
+      "parameters": [
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        }
+      ],
+      "body_schema": "",
+      "required_body_fields": [],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "site_live",
+      "method": "PATCH",
+      "path": "/f/api/v1/site/{fqdn}",
+      "summary": "Update a site",
+      "parameters": [
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        }
+      ],
+      "body_schema": "SiteLiveUpdate",
+      "required_body_fields": [],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "site_live",
+      "method": "GET",
+      "path": "/f/api/v1/site/{fqdn}/backups/environment",
+      "summary": "Selected backup environment",
+      "parameters": [
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        },
+        {
+          "name": "target",
+          "in": "query",
+          "required": false
+        },
+        {
+          "name": "site_stage_id",
+          "in": "query",
+          "required": false
+        }
+      ],
+      "body_schema": "",
+      "required_body_fields": [],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "site_live",
+      "method": "GET",
+      "path": "/f/api/v1/site/{fqdn}/bridge-bind",
+      "summary": "Resolve the local-fs bridge root for a site",
+      "parameters": [
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        }
+      ],
+      "body_schema": "",
+      "required_body_fields": [],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "site_live",
+      "method": "POST",
+      "path": "/f/api/v1/site/{fqdn}/browser/admin-cookie",
+      "summary": "Generate a WordPress admin auth cookie for the site",
+      "parameters": [
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        }
+      ],
+      "body_schema": "",
+      "required_body_fields": [],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "site_live",
+      "method": "POST",
+      "path": "/f/api/v1/site/{fqdn}/browser/click",
+      "summary": "Click an element on the site",
+      "parameters": [
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        }
+      ],
+      "body_schema": "BrowserClickRequest",
+      "required_body_fields": [
+        "selector"
+      ],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "site_live",
+      "method": "POST",
+      "path": "/f/api/v1/site/{fqdn}/browser/close",
+      "summary": "Close the site's browser context",
+      "parameters": [
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        }
+      ],
+      "body_schema": "",
+      "required_body_fields": [],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "site_live",
+      "method": "POST",
+      "path": "/f/api/v1/site/{fqdn}/browser/eval",
+      "summary": "Run JavaScript on the site",
+      "parameters": [
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        }
+      ],
+      "body_schema": "BrowserEvalRequest",
+      "required_body_fields": [
+        "js"
+      ],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "site_live",
+      "method": "POST",
+      "path": "/f/api/v1/site/{fqdn}/browser/fill",
+      "summary": "Fill a form field on the site",
+      "parameters": [
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        }
+      ],
+      "body_schema": "BrowserFillRequest",
+      "required_body_fields": [
+        "selector",
+        "value"
+      ],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "site_live",
+      "method": "POST",
+      "path": "/f/api/v1/site/{fqdn}/browser/goto",
+      "summary": "Navigate browser to a path on the site",
+      "parameters": [
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        }
+      ],
+      "body_schema": "BrowserGotoRequest",
+      "required_body_fields": [],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "site_live",
+      "method": "GET",
+      "path": "/f/api/v1/site/{fqdn}/browser/logs",
+      "summary": "Get buffered browser console logs",
+      "parameters": [
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        },
+        {
+          "name": "level",
+          "in": "query",
+          "required": false
+        },
+        {
+          "name": "limit",
+          "in": "query",
+          "required": false
+        }
+      ],
+      "body_schema": "",
+      "required_body_fields": [],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "site_live",
+      "method": "POST",
+      "path": "/f/api/v1/site/{fqdn}/browser/screenshot",
+      "summary": "Take a screenshot of the site",
+      "parameters": [
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        }
+      ],
+      "body_schema": "BrowserScreenshotRequest",
+      "required_body_fields": [],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "site_live",
+      "method": "POST",
+      "path": "/f/api/v1/site/{fqdn}/browser/text",
+      "summary": "Get text content of an element",
+      "parameters": [
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        }
+      ],
+      "body_schema": "BrowserTextRequest",
+      "required_body_fields": [],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "site_live",
+      "method": "PATCH",
+      "path": "/f/api/v1/site/{fqdn}/cf_settings",
+      "summary": "Update Cloudflare zone settings",
+      "parameters": [
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        }
+      ],
+      "body_schema": "CfSettingsPatch",
+      "required_body_fields": [],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "site_live",
+      "method": "PATCH",
+      "path": "/f/api/v1/site/{fqdn}/change_dev_mode",
+      "summary": "Toggle Cloudflare dev mode",
+      "parameters": [
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        },
+        {
+          "name": "enable",
+          "in": "query",
+          "required": true
+        }
+      ],
+      "body_schema": "",
+      "required_body_fields": [],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "site_live",
+      "method": "GET",
+      "path": "/f/api/v1/site/{fqdn}/checkpoints",
+      "summary": "List checkpoints",
+      "parameters": [
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        },
+        {
+          "name": "target",
+          "in": "query",
+          "required": false
+        },
+        {
+          "name": "site_stage_id",
+          "in": "query",
+          "required": false
+        }
+      ],
+      "body_schema": "",
+      "required_body_fields": [],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "site_live",
+      "method": "POST",
+      "path": "/f/api/v1/site/{fqdn}/checkpoints",
+      "summary": "Create a checkpoint",
+      "parameters": [
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        },
+        {
+          "name": "target",
+          "in": "query",
+          "required": false
+        },
+        {
+          "name": "site_stage_id",
+          "in": "query",
+          "required": false
+        }
+      ],
+      "body_schema": "SiteCheckpointCreate",
+      "required_body_fields": [
+        "name"
+      ],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "site_live",
+      "method": "DELETE",
+      "path": "/f/api/v1/site/{fqdn}/checkpoints/{checkpoint_id}",
+      "summary": "Delete a checkpoint",
+      "parameters": [
+        {
+          "name": "checkpoint_id",
+          "in": "path",
+          "required": true
+        },
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        },
+        {
+          "name": "target",
+          "in": "query",
+          "required": false
+        },
+        {
+          "name": "site_stage_id",
+          "in": "query",
+          "required": false
+        }
+      ],
+      "body_schema": "",
+      "required_body_fields": [],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "site_live",
+      "method": "GET",
+      "path": "/f/api/v1/site/{fqdn}/checkpoints/{checkpoint_id}",
+      "summary": "Get a checkpoint",
+      "parameters": [
+        {
+          "name": "checkpoint_id",
+          "in": "path",
+          "required": true
+        },
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        },
+        {
+          "name": "target",
+          "in": "query",
+          "required": false
+        },
+        {
+          "name": "site_stage_id",
+          "in": "query",
+          "required": false
+        }
+      ],
+      "body_schema": "",
+      "required_body_fields": [],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "site_live",
+      "method": "POST",
+      "path": "/f/api/v1/site/{fqdn}/clear_cache",
+      "summary": "Purge Cloudflare CDN cache",
+      "parameters": [
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        }
+      ],
+      "body_schema": "",
+      "required_body_fields": [],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "site_live",
+      "method": "POST",
+      "path": "/f/api/v1/site/{fqdn}/clone_jobs",
+      "summary": "Create a site clone job",
+      "parameters": [
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        }
+      ],
+      "body_schema": "SiteCloneJobRequest",
+      "required_body_fields": [
+        "url"
+      ],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "site_live",
+      "method": "GET",
+      "path": "/f/api/v1/site/{fqdn}/clone_jobs/{job_id}",
+      "summary": "Get a site clone job",
+      "parameters": [
+        {
+          "name": "job_id",
+          "in": "path",
+          "required": true
+        },
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        }
+      ],
+      "body_schema": "",
+      "required_body_fields": [],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "site_live",
+      "method": "POST",
+      "path": "/f/api/v1/site/{fqdn}/code-server-bridge",
+      "summary": "Write bridge config to code-server",
+      "parameters": [
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        }
+      ],
+      "body_schema": "BridgeConfigRequest",
+      "required_body_fields": [
+        "room_name"
+      ],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "site_live",
+      "method": "GET",
+      "path": "/f/api/v1/site/{fqdn}/code-server-sso",
+      "summary": "Code Server Sso",
+      "parameters": [
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        },
+        {
+          "name": "env",
+          "in": "query",
+          "required": false
+        },
+        {
+          "name": "file",
+          "in": "query",
+          "required": false
+        }
+      ],
+      "body_schema": "",
+      "required_body_fields": [],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "site_live",
+      "method": "GET",
+      "path": "/f/api/v1/site/{fqdn}/custom_hostname",
+      "summary": "List custom hostnames",
+      "parameters": [
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        }
+      ],
+      "body_schema": "",
+      "required_body_fields": [],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "site_live",
+      "method": "POST",
+      "path": "/f/api/v1/site/{fqdn}/custom_hostname",
+      "summary": "Add custom hostname",
+      "parameters": [
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        }
+      ],
+      "body_schema": "CustomHostnameCreate",
+      "required_body_fields": [
+        "hostname"
+      ],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "site_live",
+      "method": "DELETE",
+      "path": "/f/api/v1/site/{fqdn}/custom_hostname/{hostname_id}",
+      "summary": "Remove custom hostname",
+      "parameters": [
+        {
+          "name": "hostname_id",
+          "in": "path",
+          "required": true
+        },
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        }
+      ],
+      "body_schema": "",
+      "required_body_fields": [],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "site_live",
+      "method": "GET",
+      "path": "/f/api/v1/site/{fqdn}/dashboard",
+      "summary": "Get site dashboard",
+      "parameters": [
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        }
+      ],
+      "body_schema": "",
+      "required_body_fields": [],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "site_live",
+      "method": "GET",
+      "path": "/f/api/v1/site/{fqdn}/database_changes/diff",
+      "summary": "Database table diff",
+      "parameters": [
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        },
+        {
+          "name": "from_commit",
+          "in": "query",
+          "required": false
+        },
+        {
+          "name": "to_commit",
+          "in": "query",
+          "required": false
+        },
+        {
+          "name": "table",
+          "in": "query",
+          "required": false
+        }
+      ],
+      "body_schema": "",
+      "required_body_fields": [],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "site_live",
+      "method": "GET",
+      "path": "/f/api/v1/site/{fqdn}/database_changes/diff-summary",
+      "summary": "Human-readable diff summary",
+      "parameters": [
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        },
+        {
+          "name": "from_commit",
+          "in": "query",
+          "required": false
+        },
+        {
+          "name": "to_commit",
+          "in": "query",
+          "required": false
+        }
+      ],
+      "body_schema": "",
+      "required_body_fields": [],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "site_live",
+      "method": "GET",
+      "path": "/f/api/v1/site/{fqdn}/database_changes/log",
+      "summary": "Database commit log",
+      "parameters": [
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        },
+        {
+          "name": "limit",
+          "in": "query",
+          "required": false
+        }
+      ],
+      "body_schema": "",
+      "required_body_fields": [],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "site_live",
+      "method": "GET",
+      "path": "/f/api/v1/site/{fqdn}/dns",
+      "summary": "Get DNS records",
+      "parameters": [
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        }
+      ],
+      "body_schema": "",
+      "required_body_fields": [],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "site_live",
+      "method": "POST",
+      "path": "/f/api/v1/site/{fqdn}/dns",
+      "summary": "Create DNS record",
+      "parameters": [
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        }
+      ],
+      "body_schema": "DNSRecordCreateRequest",
+      "required_body_fields": [
+        "name",
+        "type",
+        "content"
+      ],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "site_live",
+      "method": "DELETE",
+      "path": "/f/api/v1/site/{fqdn}/dns/{dns_id}",
+      "summary": "Delete DNS record",
+      "parameters": [
+        {
+          "name": "dns_id",
+          "in": "path",
+          "required": true
+        },
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        }
+      ],
+      "body_schema": "",
+      "required_body_fields": [],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "site_live",
+      "method": "PATCH",
+      "path": "/f/api/v1/site/{fqdn}/dns/{dns_id}",
+      "summary": "Update DNS record",
+      "parameters": [
+        {
+          "name": "dns_id",
+          "in": "path",
+          "required": true
+        },
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        }
+      ],
+      "body_schema": "DNSRecordUpdateRequest",
+      "required_body_fields": [],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "site_live",
+      "method": "GET",
+      "path": "/f/api/v1/site/{fqdn}/event",
+      "summary": "Get site events",
+      "parameters": [
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        },
+        {
+          "name": "page",
+          "in": "query",
+          "required": false
+        },
+        {
+          "name": "size",
+          "in": "query",
+          "required": false
+        }
+      ],
+      "body_schema": "",
+      "required_body_fields": [],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "site_live",
+      "method": "GET",
+      "path": "/f/api/v1/site/{fqdn}/external_path",
+      "summary": "Get external paths",
+      "parameters": [
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        },
+        {
+          "name": "page",
+          "in": "query",
+          "required": false
+        },
+        {
+          "name": "size",
+          "in": "query",
+          "required": false
+        }
+      ],
+      "body_schema": "",
+      "required_body_fields": [],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "site_live",
+      "method": "POST",
+      "path": "/f/api/v1/site/{fqdn}/external_path",
+      "summary": "Create external path",
+      "parameters": [
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        }
+      ],
+      "body_schema": "ExternalPathCreate",
+      "required_body_fields": [
+        "external_name",
+        "path"
+      ],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "site_live",
+      "method": "DELETE",
+      "path": "/f/api/v1/site/{fqdn}/external_path/{external_path_id}",
+      "summary": "Delete external path",
+      "parameters": [
+        {
+          "name": "external_path_id",
+          "in": "path",
+          "required": true
+        },
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        }
+      ],
+      "body_schema": "",
+      "required_body_fields": [],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "site_live",
+      "method": "GET",
+      "path": "/f/api/v1/site/{fqdn}/external_path/{external_path_id}",
+      "summary": "Get external path",
+      "parameters": [
+        {
+          "name": "external_path_id",
+          "in": "path",
+          "required": true
+        },
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        }
+      ],
+      "body_schema": "",
+      "required_body_fields": [],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "site_live",
+      "method": "PATCH",
+      "path": "/f/api/v1/site/{fqdn}/external_path/{external_path_id}",
+      "summary": "Update external path",
+      "parameters": [
+        {
+          "name": "external_path_id",
+          "in": "path",
+          "required": true
+        },
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        }
+      ],
+      "body_schema": "ExternalPathUpdate",
+      "required_body_fields": [
+        "external_name",
+        "path"
+      ],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "site_live",
+      "method": "POST",
+      "path": "/f/api/v1/site/{fqdn}/get_download_urls",
+      "summary": "Get download URLs",
+      "parameters": [
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        },
+        {
+          "name": "at_date",
+          "in": "query",
+          "required": false
+        },
+        {
+          "name": "target",
+          "in": "query",
+          "required": false
+        },
+        {
+          "name": "site_stage_id",
+          "in": "query",
+          "required": false
+        }
+      ],
+      "body_schema": "Body_get_download_urls_f_api_v1_site__fqdn__get_download_urls_post",
+      "required_body_fields": [
+        "keys"
+      ],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "site_live",
+      "method": "DELETE",
+      "path": "/f/api/v1/site/{fqdn}/git",
+      "summary": "Unlink git repository",
+      "parameters": [
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        }
+      ],
+      "body_schema": "",
+      "required_body_fields": [],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "site_live",
+      "method": "GET",
+      "path": "/f/api/v1/site/{fqdn}/git/logs",
+      "summary": "Get git-sync process logs",
+      "parameters": [
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        }
+      ],
+      "body_schema": "",
+      "required_body_fields": [],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "site_live",
+      "method": "POST",
+      "path": "/f/api/v1/site/{fqdn}/git/resume",
+      "summary": "Resume suspended git-sync",
+      "parameters": [
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        }
+      ],
+      "body_schema": "",
+      "required_body_fields": [],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "site_live",
+      "method": "POST",
+      "path": "/f/api/v1/site/{fqdn}/hosting/domains",
+      "summary": "Hosting Domain Start",
+      "parameters": [
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        }
+      ],
+      "body_schema": "HostingDomainRequest",
+      "required_body_fields": [
+        "hostname"
+      ],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "site_live",
+      "method": "POST",
+      "path": "/f/api/v1/site/{fqdn}/hosting/execute",
+      "summary": "Hosting Execute",
+      "parameters": [
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        }
+      ],
+      "body_schema": "HostingExecuteRequest",
+      "required_body_fields": [
+        "reviewId",
+        "confirmation"
+      ],
+      "responses": [
+        "202",
+        "422"
+      ]
+    },
+    {
+      "group": "site_live",
+      "method": "GET",
+      "path": "/f/api/v1/site/{fqdn}/hosting/recovery-points",
+      "summary": "Hosting Recovery Points",
+      "parameters": [
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        },
+        {
+          "name": "offset",
+          "in": "query",
+          "required": false
+        },
+        {
+          "name": "limit",
+          "in": "query",
+          "required": false
+        }
+      ],
+      "body_schema": "",
+      "required_body_fields": [],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "site_live",
+      "method": "POST",
+      "path": "/f/api/v1/site/{fqdn}/hosting/reviews",
+      "summary": "Hosting Review",
+      "parameters": [
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        }
+      ],
+      "body_schema": "HostingReviewRequest",
+      "required_body_fields": [
+        "kind"
+      ],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "site_live",
+      "method": "GET",
+      "path": "/f/api/v1/site/{fqdn}/ip_access",
+      "summary": "List IP access rules",
+      "parameters": [
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        }
+      ],
+      "body_schema": "",
+      "required_body_fields": [],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "site_live",
+      "method": "POST",
+      "path": "/f/api/v1/site/{fqdn}/ip_access",
+      "summary": "Create IP access rule",
+      "parameters": [
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        }
+      ],
+      "body_schema": "IpAccessRuleCreate",
+      "required_body_fields": [
+        "target",
+        "value"
+      ],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "site_live",
+      "method": "DELETE",
+      "path": "/f/api/v1/site/{fqdn}/ip_access/{rule_id}",
+      "summary": "Delete IP access rule",
+      "parameters": [
+        {
+          "name": "rule_id",
+          "in": "path",
+          "required": true
+        },
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        }
+      ],
+      "body_schema": "",
+      "required_body_fields": [],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "site_live",
+      "method": "GET",
+      "path": "/f/api/v1/site/{fqdn}/legal_actions",
+      "summary": "What you can do to this site right now",
+      "parameters": [
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        }
+      ],
+      "body_schema": "",
+      "required_body_fields": [],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "site_live",
+      "method": "GET",
+      "path": "/f/api/v1/site/{fqdn}/logs",
+      "summary": "Get site logs",
+      "parameters": [
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        },
+        {
+          "name": "log_type",
+          "in": "query",
+          "required": false
+        },
+        {
+          "name": "lines",
+          "in": "query",
+          "required": false
+        },
+        {
+          "name": "level",
+          "in": "query",
+          "required": false
+        }
+      ],
+      "body_schema": "",
+      "required_body_fields": [],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "site_live",
+      "method": "GET",
+      "path": "/f/api/v1/site/{fqdn}/logs/containers",
+      "summary": "List available containers",
+      "parameters": [
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        }
+      ],
+      "body_schema": "",
+      "required_body_fields": [],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "site_live",
+      "method": "GET",
+      "path": "/f/api/v1/site/{fqdn}/logs/stream",
+      "summary": "Stream site logs",
+      "parameters": [
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        },
+        {
+          "name": "container",
+          "in": "query",
+          "required": false
+        },
+        {
+          "name": "follow",
+          "in": "query",
+          "required": false
+        },
+        {
+          "name": "lines",
+          "in": "query",
+          "required": false
+        },
+        {
+          "name": "since_seconds",
+          "in": "query",
+          "required": false
+        }
+      ],
+      "body_schema": "",
+      "required_body_fields": [],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "site_live",
+      "method": "GET",
+      "path": "/f/api/v1/site/{fqdn}/logs/{container_name}",
+      "summary": "Get container logs",
+      "parameters": [
+        {
+          "name": "container_name",
+          "in": "path",
+          "required": true
+        },
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        },
+        {
+          "name": "lines",
+          "in": "query",
+          "required": false
+        },
+        {
+          "name": "since",
+          "in": "query",
+          "required": false
+        }
+      ],
+      "body_schema": "",
+      "required_body_fields": [],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "site_live",
+      "method": "POST",
+      "path": "/f/api/v1/site/{fqdn}/migrate",
+      "summary": "Move an existing WordPress site into SiteBay",
+      "parameters": [
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        }
+      ],
+      "body_schema": "SiteMigrationJobRequest",
+      "required_body_fields": [
+        "source_url"
+      ],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "site_live",
+      "method": "GET",
+      "path": "/f/api/v1/site/{fqdn}/migrate/{job_id}",
+      "summary": "Progress of a WordPress migration",
+      "parameters": [
+        {
+          "name": "job_id",
+          "in": "path",
+          "required": true
+        },
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        }
+      ],
+      "body_schema": "",
+      "required_body_fields": [],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "site_live",
+      "method": "POST",
+      "path": "/f/api/v1/site/{fqdn}/mysql/exec",
+      "summary": "[Retired] Execute an INSERT, UPDATE, or DELETE on the site database",
+      "parameters": [
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        }
+      ],
+      "body_schema": "MySQLExecRequest",
+      "required_body_fields": [
+        "sql"
+      ],
+      "responses": [
+        "410",
+        "422"
+      ]
+    },
+    {
+      "group": "site_live",
+      "method": "POST",
+      "path": "/f/api/v1/site/{fqdn}/mysql/explain",
+      "summary": "[Retired] EXPLAIN a SQL statement on the site database",
+      "parameters": [
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        }
+      ],
+      "body_schema": "MySQLExplainRequest",
+      "required_body_fields": [
+        "sql"
+      ],
+      "responses": [
+        "410",
+        "422"
+      ]
+    },
+    {
+      "group": "site_live",
+      "method": "POST",
+      "path": "/f/api/v1/site/{fqdn}/mysql/query",
+      "summary": "[Retired] Run a SELECT query on the site database",
+      "parameters": [
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        }
+      ],
+      "body_schema": "MySQLQueryRequest",
+      "required_body_fields": [
+        "sql"
+      ],
+      "responses": [
+        "410",
+        "422"
+      ]
+    },
+    {
+      "group": "site_live",
+      "method": "GET",
+      "path": "/f/api/v1/site/{fqdn}/ns_status",
+      "summary": "Check nameserver propagation",
+      "parameters": [
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        }
+      ],
+      "body_schema": "",
+      "required_body_fields": [],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "site_live",
+      "method": "GET",
+      "path": "/f/api/v1/site/{fqdn}/pit_restore",
+      "summary": "Get PIT Restores",
+      "parameters": [
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        },
+        {
+          "name": "page",
+          "in": "query",
+          "required": false
+        },
+        {
+          "name": "size",
+          "in": "query",
+          "required": false
+        },
+        {
+          "name": "target",
+          "in": "query",
+          "required": false
+        },
+        {
+          "name": "site_stage_id",
+          "in": "query",
+          "required": false
+        }
+      ],
+      "body_schema": "",
+      "required_body_fields": [],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "site_live",
+      "method": "POST",
+      "path": "/f/api/v1/site/{fqdn}/pit_restore",
+      "summary": "Create PIT Restore",
+      "parameters": [
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        },
+        {
+          "name": "target",
+          "in": "query",
+          "required": false
+        },
+        {
+          "name": "site_stage_id",
+          "in": "query",
+          "required": false
+        }
+      ],
+      "body_schema": "PITRestoreCreate",
+      "required_body_fields": [],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "site_live",
+      "method": "GET",
+      "path": "/f/api/v1/site/{fqdn}/pit_restore/commits",
+      "summary": "Get backups to create PIT Restore",
+      "parameters": [
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        },
+        {
+          "name": "restore_point",
+          "in": "query",
+          "required": true
+        },
+        {
+          "name": "number_to_fetch",
+          "in": "query",
+          "required": false
+        },
+        {
+          "name": "target",
+          "in": "query",
+          "required": false
+        },
+        {
+          "name": "site_stage_id",
+          "in": "query",
+          "required": false
+        }
+      ],
+      "body_schema": "",
+      "required_body_fields": [],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "site_live",
+      "method": "POST",
+      "path": "/f/api/v1/site/{fqdn}/pit_restore/file",
+      "summary": "Restore a single file from PIT backup",
+      "parameters": [
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        },
+        {
+          "name": "target",
+          "in": "query",
+          "required": false
+        },
+        {
+          "name": "site_stage_id",
+          "in": "query",
+          "required": false
+        }
+      ],
+      "body_schema": "Body_pit_file_restore_f_api_v1_site__fqdn__pit_restore_file_post",
+      "required_body_fields": [
+        "path",
+        "version_id",
+        "restore_point"
+      ],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "site_live",
+      "method": "GET",
+      "path": "/f/api/v1/site/{fqdn}/pit_restore/files",
+      "summary": "PIT Files",
+      "parameters": [
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        },
+        {
+          "name": "restore_point",
+          "in": "query",
+          "required": true
+        },
+        {
+          "name": "target",
+          "in": "query",
+          "required": false
+        },
+        {
+          "name": "site_stage_id",
+          "in": "query",
+          "required": false
+        }
+      ],
+      "body_schema": "",
+      "required_body_fields": [],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "site_live",
+      "method": "POST",
+      "path": "/f/api/v1/site/{fqdn}/pit_restore/preview",
+      "summary": "Preview PIT Restore",
+      "parameters": [
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        },
+        {
+          "name": "target",
+          "in": "query",
+          "required": false
+        },
+        {
+          "name": "site_stage_id",
+          "in": "query",
+          "required": false
+        }
+      ],
+      "body_schema": "PITRestoreCreate",
+      "required_body_fields": [],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "site_live",
+      "method": "GET",
+      "path": "/f/api/v1/site/{fqdn}/pit_restore/{pit_restore_id}",
+      "summary": "Get PIT Restore",
+      "parameters": [
+        {
+          "name": "pit_restore_id",
+          "in": "path",
+          "required": true
+        },
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        },
+        {
+          "name": "format",
+          "in": "query",
+          "required": false
+        },
+        {
+          "name": "target",
+          "in": "query",
+          "required": false
+        },
+        {
+          "name": "site_stage_id",
+          "in": "query",
+          "required": false
+        }
+      ],
+      "body_schema": "",
+      "required_body_fields": [],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "site_live",
+      "method": "GET",
+      "path": "/f/api/v1/site/{fqdn}/read_state",
+      "summary": "The site app's view-model",
+      "parameters": [
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        },
+        {
+          "name": "known_state_rev",
+          "in": "query",
+          "required": false
+        }
+      ],
+      "body_schema": "",
+      "required_body_fields": [],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "site_live",
+      "method": "GET",
+      "path": "/f/api/v1/site/{fqdn}/recovery-jobs",
+      "summary": "Read recovery request history, including retired stage instances",
+      "parameters": [
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        }
+      ],
+      "body_schema": "",
+      "required_body_fields": [],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "site_live",
+      "method": "GET",
+      "path": "/f/api/v1/site/{fqdn}/recovery-jobs/{job_id}",
+      "summary": "Read a recovery operation receipt",
+      "parameters": [
+        {
+          "name": "job_id",
+          "in": "path",
+          "required": true
+        },
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        }
+      ],
+      "body_schema": "",
+      "required_body_fields": [],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "site_live",
+      "method": "GET",
+      "path": "/f/api/v1/site/{fqdn}/redirects",
+      "summary": "List redirect rules",
+      "parameters": [
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        }
+      ],
+      "body_schema": "",
+      "required_body_fields": [],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "site_live",
+      "method": "POST",
+      "path": "/f/api/v1/site/{fqdn}/redirects",
+      "summary": "Create redirect rule",
+      "parameters": [
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        }
+      ],
+      "body_schema": "RedirectCreateRequest",
+      "required_body_fields": [],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "site_live",
+      "method": "DELETE",
+      "path": "/f/api/v1/site/{fqdn}/redirects/{rule_id}",
+      "summary": "Delete redirect rule",
+      "parameters": [
+        {
+          "name": "rule_id",
+          "in": "path",
+          "required": true
+        },
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        }
+      ],
+      "body_schema": "",
+      "required_body_fields": [],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "site_live",
+      "method": "POST",
+      "path": "/f/api/v1/site/{fqdn}/renew_lease_code_server",
+      "summary": "Renew code-server lease",
+      "parameters": [
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        }
+      ],
+      "body_schema": "",
+      "required_body_fields": [],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "site_live",
+      "method": "GET",
+      "path": "/f/api/v1/site/{fqdn}/security",
+      "summary": "Get security settings",
+      "parameters": [
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        }
+      ],
+      "body_schema": "",
+      "required_body_fields": [],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "site_live",
+      "method": "PATCH",
+      "path": "/f/api/v1/site/{fqdn}/security",
+      "summary": "Update security settings",
+      "parameters": [
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        }
+      ],
+      "body_schema": "SecuritySettingsPatch",
+      "required_body_fields": [],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "site_live",
+      "method": "POST",
+      "path": "/f/api/v1/site/{fqdn}/sleep",
+      "summary": "Sleep site",
+      "parameters": [
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        }
+      ],
+      "body_schema": "",
+      "required_body_fields": [],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "site_live",
+      "method": "POST",
+      "path": "/f/api/v1/site/{fqdn}/switch-git-provider",
+      "summary": "Switch site's git source from internal to external (GitHub)",
+      "parameters": [
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        }
+      ],
+      "body_schema": "SwitchGitProviderBody",
+      "required_body_fields": [
+        "provider",
+        "repo_url"
+      ],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "site_live",
+      "method": "GET",
+      "path": "/f/api/v1/site/{fqdn}/thumbnail",
+      "summary": "Return a cached staging thumbnail for the site",
+      "parameters": [
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        },
+        {
+          "name": "w",
+          "in": "query",
+          "required": false
+        }
+      ],
+      "body_schema": "",
+      "required_body_fields": [],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "site_live",
+      "method": "GET",
+      "path": "/f/api/v1/site/{fqdn}/timemachine/heatmap",
+      "summary": "Time Machine activity heatmap",
+      "parameters": [
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        },
+        {
+          "name": "from",
+          "in": "query",
+          "required": true
+        },
+        {
+          "name": "to",
+          "in": "query",
+          "required": true
+        }
+      ],
+      "body_schema": "",
+      "required_body_fields": [],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "site_live",
+      "method": "GET",
+      "path": "/f/api/v1/site/{fqdn}/tools",
+      "summary": "Get Cloudflare tools",
+      "parameters": [
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        }
+      ],
+      "body_schema": "",
+      "required_body_fields": [],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "site_live",
+      "method": "GET",
+      "path": "/f/api/v1/site/{fqdn}/usage",
+      "summary": "Get usage statistics",
+      "parameters": [
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        }
+      ],
+      "body_schema": "",
+      "required_body_fields": [],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "site_live",
+      "method": "GET",
+      "path": "/f/api/v1/site/{fqdn}/visitor-insights/connection",
+      "summary": "Visitor Connection",
+      "parameters": [
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        }
+      ],
+      "body_schema": "",
+      "required_body_fields": [],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "site_live",
+      "method": "POST",
+      "path": "/f/api/v1/site/{fqdn}/visitor-insights/query",
+      "summary": "Visitor Query",
+      "parameters": [
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        }
+      ],
+      "body_schema": "InsightQuery",
+      "required_body_fields": [
+        "connection_id",
+        "lens"
+      ],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "site_live",
+      "method": "GET",
+      "path": "/f/api/v1/site/{fqdn}/visits",
+      "summary": "Site visit analytics",
+      "parameters": [
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        },
+        {
+          "name": "hours",
+          "in": "query",
+          "required": false
+        }
+      ],
+      "body_schema": "",
+      "required_body_fields": [],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "site_live",
+      "method": "POST",
+      "path": "/f/api/v1/site/{fqdn}/waf_login_protection",
+      "summary": "Toggle WAF login protection",
+      "parameters": [
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        }
+      ],
+      "body_schema": "WafToggle",
+      "required_body_fields": [
+        "enabled"
+      ],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "site_live",
+      "method": "POST",
+      "path": "/f/api/v1/site/{fqdn}/wake",
+      "summary": "Wake site",
+      "parameters": [
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        },
+        {
+          "name": "wake_code_server",
+          "in": "query",
+          "required": false
+        }
+      ],
+      "body_schema": "",
+      "required_body_fields": [],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "site_live",
+      "method": "POST",
+      "path": "/f/api/v1/site/{fqdn}/wake-on-traffic",
+      "summary": "Wake a sleeping site because someone visited it",
+      "parameters": [
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        },
+        {
+          "name": "x-sitebay-signature",
+          "in": "header",
+          "required": false
+        }
+      ],
+      "body_schema": "",
+      "required_body_fields": [],
+      "responses": [
+        "202",
+        "422"
+      ]
+    },
+    {
+      "group": "site_live",
+      "method": "POST",
+      "path": "/f/api/v1/site/{fqdn}/wp-admin-sso",
+      "summary": "Create Wp Admin Sso",
+      "parameters": [
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        }
+      ],
+      "body_schema": "WordPressAdminSSORequest",
+      "required_body_fields": [],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "site_live",
+      "method": "POST",
+      "path": "/f/api/v1/site/{fqdn}/wpfile/multi_edit",
+      "summary": "[Retired] Edit multiple files atomically",
+      "parameters": [
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        }
+      ],
+      "body_schema": "MultiEditRequest",
+      "required_body_fields": [
+        "edits"
+      ],
+      "responses": [
+        "410",
+        "422"
+      ]
+    },
+    {
+      "group": "site_live",
+      "method": "POST",
+      "path": "/f/api/v1/site/{fqdn}/wpfile/read",
+      "summary": "[Retired] Read a WordPress file",
+      "parameters": [
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        }
+      ],
+      "body_schema": "FileReadRequest",
+      "required_body_fields": [
+        "file_path"
+      ],
+      "responses": [
+        "410",
+        "422"
+      ]
+    },
+    {
+      "group": "site_live",
+      "method": "POST",
+      "path": "/f/api/v1/site/{fqdn}/wpfile/read_and_edit",
+      "summary": "[Retired] Read then edit a WordPress file",
+      "parameters": [
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        }
+      ],
+      "body_schema": "ReadAndEditRequest",
+      "required_body_fields": [
+        "file_path",
+        "file_edit_using_search_replace_blocks"
+      ],
+      "responses": [
+        "410",
+        "422"
+      ]
+    },
+    {
+      "group": "site_live",
+      "method": "POST",
+      "path": "/f/api/v1/site/{fqdn}/wpfile/tree",
+      "summary": "[Retired] List wp-content file tree",
+      "parameters": [
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        }
+      ],
+      "body_schema": "FileTreeRequest",
+      "required_body_fields": [],
+      "responses": [
+        "410",
+        "422"
+      ]
+    },
+    {
+      "group": "site_live",
+      "method": "POST",
+      "path": "/f/api/v1/site/{fqdn}/wpfile_diff_edit",
+      "summary": "[Retired] Edit a file in your wp-content folder",
+      "parameters": [
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        }
+      ],
+      "body_schema": "FileEdit",
+      "required_body_fields": [
+        "file_path",
+        "file_edit_using_search_replace_blocks"
+      ],
+      "responses": [
+        "410",
+        "422"
+      ]
+    },
+    {
+      "group": "site_stage",
+      "method": "DELETE",
+      "path": "/f/api/v1/site/{fqdn}/stage",
+      "summary": "Delete staging site",
+      "parameters": [
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        }
+      ],
+      "body_schema": "",
+      "required_body_fields": [],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "site_stage",
+      "method": "GET",
+      "path": "/f/api/v1/site/{fqdn}/stage",
+      "summary": "Get staging site",
+      "parameters": [
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        }
+      ],
+      "body_schema": "",
+      "required_body_fields": [],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "site_stage",
+      "method": "POST",
+      "path": "/f/api/v1/site/{fqdn}/stage",
+      "summary": "Create staging site",
+      "parameters": [
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        }
+      ],
+      "body_schema": "SiteStageCreate",
+      "required_body_fields": [],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "site_stage",
+      "method": "GET",
+      "path": "/f/api/v1/site/{fqdn}/stage/archives",
+      "summary": "Retained stages",
+      "parameters": [
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        }
+      ],
+      "body_schema": "",
+      "required_body_fields": [],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "site_stage",
+      "method": "POST",
+      "path": "/f/api/v1/site/{fqdn}/stage/archives/{archive_id}/recover",
+      "summary": "Recover a retained stage into a new unpublished stage",
+      "parameters": [
+        {
+          "name": "archive_id",
+          "in": "path",
+          "required": true
+        },
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        }
+      ],
+      "body_schema": "",
+      "required_body_fields": [],
+      "responses": [
+        "202",
+        "422"
+      ]
+    },
+    {
+      "group": "site_stage",
+      "method": "POST",
+      "path": "/f/api/v1/site/{fqdn}/stage/commit",
+      "summary": "Commit staging changes",
+      "parameters": [
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        }
+      ],
+      "body_schema": "",
+      "required_body_fields": [],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "site_stage",
+      "method": "GET",
+      "path": "/f/api/v1/site/{fqdn}/stage/commit-progress",
+      "summary": "Get progress for a stage commit",
+      "parameters": [
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        }
+      ],
+      "body_schema": "",
+      "required_body_fields": [],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "site_stage",
+      "method": "POST",
+      "path": "/f/api/v1/site/{fqdn}/stage/refresh",
+      "summary": "Replace an exact stage from live after preserving its original checkpoint",
+      "parameters": [
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        }
+      ],
+      "body_schema": "StageRefreshRequest",
+      "required_body_fields": [
+        "site_stage_id"
+      ],
+      "responses": [
+        "202",
+        "422"
+      ]
+    },
+    {
+      "group": "team",
+      "method": "GET",
+      "path": "/f/api/v1/team",
+      "summary": "Get your teams",
+      "parameters": [
+        {
+          "name": "page",
+          "in": "query",
+          "required": false
+        },
+        {
+          "name": "size",
+          "in": "query",
+          "required": false
+        }
+      ],
+      "body_schema": "",
+      "required_body_fields": [],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "team",
+      "method": "GET",
+      "path": "/f/api/v1/team/current",
+      "summary": "Get your default team",
+      "parameters": [],
+      "body_schema": "",
+      "required_body_fields": [],
+      "responses": [
+        "200"
+      ]
+    },
+    {
+      "group": "team",
+      "method": "GET",
+      "path": "/f/api/v1/team/{team_id}",
+      "summary": "Get a team",
+      "parameters": [
+        {
+          "name": "team_id",
+          "in": "path",
+          "required": true
+        }
+      ],
+      "body_schema": "",
+      "required_body_fields": [],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "team",
+      "method": "PATCH",
+      "path": "/f/api/v1/team/{team_id}",
+      "summary": "Update a Team",
+      "parameters": [
+        {
+          "name": "team_id",
+          "in": "path",
+          "required": true
+        }
+      ],
+      "body_schema": "TeamUpdate",
+      "required_body_fields": [],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "team",
+      "method": "GET",
+      "path": "/f/api/v1/team/{team_id}/event",
+      "summary": "Get Team Events",
+      "parameters": [
+        {
+          "name": "team_id",
+          "in": "path",
+          "required": true
+        },
+        {
+          "name": "after_datetime",
+          "in": "query",
+          "required": false
+        },
+        {
+          "name": "page",
+          "in": "query",
+          "required": false
+        },
+        {
+          "name": "size",
+          "in": "query",
+          "required": false
+        }
+      ],
+      "body_schema": "",
+      "required_body_fields": [],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "team",
+      "method": "GET",
+      "path": "/f/api/v1/team/{team_id}/invite",
+      "summary": "Get a team's invites",
+      "parameters": [
+        {
+          "name": "team_id",
+          "in": "path",
+          "required": true
+        },
+        {
+          "name": "page",
+          "in": "query",
+          "required": false
+        },
+        {
+          "name": "size",
+          "in": "query",
+          "required": false
+        }
+      ],
+      "body_schema": "",
+      "required_body_fields": [],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "team",
+      "method": "POST",
+      "path": "/f/api/v1/team/{team_id}/invite",
+      "summary": "Create Team Member Invite",
+      "parameters": [
+        {
+          "name": "team_id",
+          "in": "path",
+          "required": true
+        }
+      ],
+      "body_schema": "",
+      "required_body_fields": [],
+      "responses": [
+        "201",
+        "422"
+      ]
+    },
+    {
+      "group": "team",
+      "method": "DELETE",
+      "path": "/f/api/v1/team/{team_id}/invite/{team_member_invite_id}",
+      "summary": "Revoke a team invite",
+      "parameters": [
+        {
+          "name": "team_id",
+          "in": "path",
+          "required": true
+        },
+        {
+          "name": "team_member_invite_id",
+          "in": "path",
+          "required": true
+        }
+      ],
+      "body_schema": "",
+      "required_body_fields": [],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "team",
+      "method": "GET",
+      "path": "/f/api/v1/team/{team_id}/member",
+      "summary": "Get a team's members",
+      "parameters": [
+        {
+          "name": "team_id",
+          "in": "path",
+          "required": true
+        },
+        {
+          "name": "page",
+          "in": "query",
+          "required": false
+        },
+        {
+          "name": "size",
+          "in": "query",
+          "required": false
+        }
+      ],
+      "body_schema": "",
+      "required_body_fields": [],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "team",
+      "method": "GET",
+      "path": "/f/api/v1/team/{team_id}/member/{team_member_id}",
+      "summary": "Get Team Member",
+      "parameters": [
+        {
+          "name": "team_member_id",
+          "in": "path",
+          "required": true
+        },
+        {
+          "name": "team_id",
+          "in": "path",
+          "required": true
+        }
+      ],
+      "body_schema": "",
+      "required_body_fields": [],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "team",
+      "method": "DELETE",
+      "path": "/f/api/v1/team/{team_id}/member/{team_member_user_id}",
+      "summary": "Remove Team Member",
+      "parameters": [
+        {
+          "name": "team_member_user_id",
+          "in": "path",
+          "required": true
+        },
+        {
+          "name": "team_id",
+          "in": "path",
+          "required": true
+        }
+      ],
+      "body_schema": "",
+      "required_body_fields": [],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "team",
+      "method": "GET",
+      "path": "/f/api/v1/team/{team_id}/sites/paths",
+      "summary": "Get site volume paths for a team",
+      "parameters": [
+        {
+          "name": "team_id",
+          "in": "path",
+          "required": true
+        }
+      ],
+      "body_schema": "",
+      "required_body_fields": [],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "team",
+      "method": "GET",
+      "path": "/f/api/v1/team/{team_id}/ticket",
+      "summary": "Get a team's tickets",
+      "parameters": [
+        {
+          "name": "team_id",
+          "in": "path",
+          "required": true
+        },
+        {
+          "name": "page",
+          "in": "query",
+          "required": false
+        },
+        {
+          "name": "size",
+          "in": "query",
+          "required": false
+        }
+      ],
+      "body_schema": "",
+      "required_body_fields": [],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "team",
+      "method": "GET",
+      "path": "/f/api/v1/team/{team_id}/workspace-binding",
+      "summary": "Resolve the team's existing workspace (cubby) binding",
+      "parameters": [
+        {
+          "name": "team_id",
+          "in": "path",
+          "required": true
+        }
+      ],
+      "body_schema": "",
+      "required_body_fields": [],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "template",
+      "method": "GET",
+      "path": "/f/api/v1/ready_made_site",
+      "summary": "Get Ready-made sites",
+      "parameters": [
+        {
+          "name": "page",
+          "in": "query",
+          "required": false
+        },
+        {
+          "name": "size",
+          "in": "query",
+          "required": false
+        }
+      ],
+      "body_schema": "",
+      "required_body_fields": [],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "template",
+      "method": "GET",
+      "path": "/f/api/v1/ready_made_site/{ready_made_site_name}",
+      "summary": "Get ReadyMadeSite by name",
+      "parameters": [
+        {
+          "name": "ready_made_site_name",
+          "in": "path",
+          "required": true
+        }
+      ],
+      "body_schema": "",
+      "required_body_fields": [],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "ticket",
+      "method": "GET",
+      "path": "/f/api/v1/ticket",
+      "summary": "Get tickets",
+      "parameters": [],
+      "body_schema": "",
+      "required_body_fields": [],
+      "responses": [
+        "200"
+      ]
+    },
+    {
+      "group": "ticket",
+      "method": "POST",
+      "path": "/f/api/v1/ticket",
+      "summary": "Create Ticket",
+      "parameters": [],
+      "body_schema": "TicketCreate",
+      "required_body_fields": [
+        "subject",
+        "description"
+      ],
+      "responses": [
+        "201",
+        "422"
+      ]
+    },
+    {
+      "group": "ticket",
+      "method": "DELETE",
+      "path": "/f/api/v1/ticket/{ticket_id}",
+      "summary": "Delete Ticket",
+      "parameters": [
+        {
+          "name": "ticket_id",
+          "in": "path",
+          "required": true
+        }
+      ],
+      "body_schema": "",
+      "required_body_fields": [],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "ticket",
+      "method": "GET",
+      "path": "/f/api/v1/ticket/{ticket_id}",
+      "summary": "Get Ticket",
+      "parameters": [
+        {
+          "name": "ticket_id",
+          "in": "path",
+          "required": true
+        }
+      ],
+      "body_schema": "",
+      "required_body_fields": [],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "ticket",
+      "method": "PATCH",
+      "path": "/f/api/v1/ticket/{ticket_id}",
+      "summary": "Update Ticket",
+      "parameters": [
+        {
+          "name": "ticket_id",
+          "in": "path",
+          "required": true
+        }
+      ],
+      "body_schema": "TicketUpdate",
+      "required_body_fields": [],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "ticket",
+      "method": "GET",
+      "path": "/f/api/v1/ticket/{ticket_id}/reply",
+      "summary": "Get Ticket replies",
+      "parameters": [
+        {
+          "name": "ticket_id",
+          "in": "path",
+          "required": true
+        },
+        {
+          "name": "page",
+          "in": "query",
+          "required": false
+        },
+        {
+          "name": "size",
+          "in": "query",
+          "required": false
+        }
+      ],
+      "body_schema": "",
+      "required_body_fields": [],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "ticket",
+      "method": "POST",
+      "path": "/f/api/v1/ticket/{ticket_id}/reply",
+      "summary": "Create Ticket Reply",
+      "parameters": [
+        {
+          "name": "ticket_id",
+          "in": "path",
+          "required": true
+        }
+      ],
+      "body_schema": "TicketReplyCreate",
+      "required_body_fields": [],
+      "responses": [
+        "201",
+        "422"
+      ]
+    },
+    {
+      "group": "ticket",
+      "method": "POST",
+      "path": "/f/api/v1/ticket/{ticket_id}/reply/unified",
+      "summary": "Create Ticket Reply (chat)",
+      "parameters": [
+        {
+          "name": "ticket_id",
+          "in": "path",
+          "required": true
+        }
+      ],
+      "body_schema": "TicketReplyCreate",
+      "required_body_fields": [],
+      "responses": [
+        "201",
+        "422"
+      ]
+    },
+    {
+      "group": "utils",
+      "method": "GET",
+      "path": "/f/api/v1/site/{fqdn}/legal_actions",
+      "summary": "What you can do to this site right now",
+      "parameters": [
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        }
+      ],
+      "body_schema": "",
+      "required_body_fields": [],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "utils",
+      "method": "GET",
+      "path": "/f/api/v1/site/{fqdn}/read_state",
+      "summary": "The site app's view-model",
+      "parameters": [
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        },
+        {
+          "name": "known_state_rev",
+          "in": "query",
+          "required": false
+        }
+      ],
+      "body_schema": "",
+      "required_body_fields": [],
+      "responses": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "group": "utils",
+      "method": "GET",
+      "path": "/f/api/v1/site/{fqdn}/tools",
+      "summary": "Get Cloudflare tools",
+      "parameters": [
+        {
+          "name": "fqdn",
+          "in": "path",
+          "required": true
+        }
+      ],
+      "body_schema": "",
+      "required_body_fields": [],
+      "responses": [
+        "200",
+        "422"
+      ]
+    }
+  ]
+}

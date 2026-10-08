@@ -1,69 +1,54 @@
 ---
 slug: delete-file-command-line
-description: "Delete files and directories from the command line on SiteBay."
-keywords: ["remove files", "delete files", "SiteBay rm"]
+description: rm removes filesystem entries; it does not move them to a desktop recycle bin.
+keywords:
+- remove files
+- delete files
+- SiteBay rm
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
 published: 2024-04-03
-modified: 2024-12-04
+modified: 2026-10-07
 modified_by:
   name: SiteBay
-title: "Delete Files from Command Line"
-tags: ["sitebay"]
-authors: ["SiteBay"]
-contributors: ["SiteBay"]
+title: Delete only the intended files
+tags:
+- sitebay
+authors:
+- SiteBay
+contributors:
+- SiteBay
+doc_sources:
+- shell-reference
+- wp-cli
+- lifecycle
+- git-sync
 ---
 
-Use `rm` to delete files and directories.
+`rm` removes filesystem entries; it does not move them to a desktop recycle bin. Recovery requires an available, verified backup and is not guaranteed by the presence of a Time Machine tab.
 
-{{< note respectIndent=false >}}
-Replace `filename.txt` with your actual file names.
-{{< /note >}}
-
-## Basic Usage
+## Inspect first
 
 ```bash
-# Single file
-rm filename.txt
-
-# Multiple files
-rm file1.txt file2.txt
-
-# All .txt files
-rm *.txt
+pwd
+ls -ld -- ./practice/example.txt
 ```
 
-## Common Options
+The path must be the file you intend to remove. A wildcard is expanded by the shell before `rm` runs, and a different working directory changes what it matches.
 
-| Flag | Purpose |
-|------|---------|
-| `-i` | Confirm each deletion |
-| `-f` | Force (no prompts) |
-| `-v` | Verbose output |
-| `-d` | Delete empty directory |
-| `-r` | Recursive (directories + contents) |
-
-## Examples
+## Delete an explicit practice file
 
 ```bash
-# Interactive mode
-rm -i filename.txt
-
-# Verbose
-rm -v *.png
-
-# Delete directory + contents
-rm -r directoryname/
-
-# Force delete directory (use carefully)
-rm -rf directoryname/
+rm -i -- ./practice/example.txt
 ```
 
-## Delete Old Files
+`-i` requests confirmation. `--` stops option parsing, so an option-like filename is not interpreted as a command flag. Use `rmdir` for an empty directory when recursive deletion is not needed. Avoid adding `-f` simply to hide an unexpected error.
 
-Find and delete files older than 28 days:
+## Preview a cleanup selection
 
 ```bash
-find directoryname* -type f -mtime +28 -exec rm '{}' ';' -print
+find ./practice -type f -name '*.tmp' -mtime +28 -print
 ```
 
-Use PIT Machine to restore accidentally deleted files.
+GNU find counts completed 24-hour periods for `-mtime`; check the boundary against your retention requirement. Review the selected list before authorizing deletion, and use a stable directory rather than a wildcard search root. Concurrent file changes can invalidate a previous preview.
+
+Deleting a plugin directory can leave WordPress database state behind. Use the plugin's supported uninstall procedure when that is the actual task, and take a recovery point before a production change.

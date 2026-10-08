@@ -1,11 +1,29 @@
 ---
-title: 'WordPress Security'
-description: "Security tips to keep your site safe"
+title: WordPress security
+description: Review access, updates, logs, vulnerability findings, and recovery. No single tool or successful scan
+  guarantees that a site is secure.
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
 show_on_frontpage: true
-title_short: "Security"
+title_short: WordPress security
 weight: 70
-icon: "lock"
-aliases: ['/security/']
+icon: lock
+aliases:
+- /security/
+authors:
+- SiteBay
+contributors:
+- SiteBay
+keywords:
+- wordpress security
+- sitebay documentation
+published: 2025-03-18
+slug: security
+doc_sources:
+- wp-security
+modified: 2026-10-07
+layout: documentation-section
 ---
-Stay ahead of potential threats and ensure your site's integrity with actionable insights and expert recommendations.
+
+Review access, updates, logs, vulnerability findings, and recovery. No single tool or successful scan guarantees that a site is secure.
+
+{{< section-links >}}

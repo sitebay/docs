@@ -1,44 +1,55 @@
 ---
-title: "SiteBay WordPress Theme And Agent Plugin"
-description: "Install and configure the canonical SiteBay WordPress theme and agent plugin."
-tags: ["sitebay", "wordpress", "themes"]
+title: Customize the SiteBay WordPress theme safely
+description: The source repository is named sitebaywp-theme, while the deployed parent theme's folder is **sitebay**.
+tags:
+- sitebay
+- wordpress
+- themes
 published: 2026-04-28
+authors:
+- SiteBay
+contributors:
+- SiteBay
+keywords:
+- sitebay wordpress theme and agent plugin
+- sitebay documentation
+slug: wordpress
+license: '[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)'
+doc_sources:
+- wp-theme
+- wp-agent-plugin
+- git-sync
+modified: 2026-10-08
 ---
 
-# SiteBay WordPress Theme And Agent Plugin
+The source repository is named `sitebaywp-theme`, while the deployed parent theme's folder is **`sitebay`**. Site-specific work belongs in an active child theme; editing the managed parent can be overwritten by a parent update.
 
-The canonical WordPress setup is the `sitebaywp-theme` parent theme plus the `sitebay-agent-plugin`. The theme provides the visual system and page templates; the plugin exposes editable fields and in-page context for assisted editing.
+## Check the installed components
 
-<!-- screenshot: TODO -->
+In the authorized WordPress environment, inspect the active theme, parent version and installed agent plugin. The current plugin source is named **Sorti Agent Plugin**; older articles called it `sitebay-agent-plugin`. A documentation label does not prove that a particular customer site has the latest component.
 
-## Install
+## Create a child theme
 
-1. Install and activate the SiteBay WordPress theme.
-2. Install and activate the SiteBay agent plugin.
-3. Confirm the home page renders the SiteBay sections.
-4. Open the page editor to review the Template Content Zones panel.
+Place site-specific files under a child theme directory. Its `style.css` header must identify the real parent folder:
 
-## Configure
+```css
+/*
+Theme Name: My SiteBay Child
+Template: sitebay
+Version: 1.0.0
+*/
+```
 
-The theme ships the SiteBay token system through `theme.json`, `style.css`, and `assets/css/sitebay-tokens.css`.
+Enqueue the child's stylesheet after the parent using WordPress's enqueue hooks. Copy only the parent templates you actually need to override; leave the reusable parent scaffold intact. Validate PHP and preview the child before activating it on live.
 
-Use the default section surface when creating or editing pages:
+## Tokens and editable content
 
-- Hero
-- Features
-- Pricing
-- Blog
-- Contact
+The inspected theme includes `theme.json`, `style.css` and generated `assets/css/sitebay-tokens.css`. Actual tokens include `--primary`, `--bg-page`, `--fg-1` and `--accent-warm`. Use the variables defined by the installed CSS. Keep custom overrides in the child rather than hand-editing a generated token file.
 
-## AI Features
+Preserve `data-sitebay-zone` and `data-sitebay-field` markers where assisted editing depends on them. The plugin distinguishes editable, suggestion-only and read-only zones. A selected region is context, not blanket write permission. Variant previews should remain authenticated; ordinary visitors should see published content.
 
-The agent plugin helps SiteBay and Sorti understand what the user is viewing or selecting. It exposes structured zones and field names so edits can target page content instead of brittle visual guesses.
+## Verify a change
 
-## Sorti
+Preview at mobile and desktop sizes, inspect text contrast and keyboard behavior, and test navigation and forms. Confirm the persisted content after reloading outside preview. A screenshot alone does not verify saved state or authorize publication.
 
-Prefer to do this with voice? Open [Sorti](/docs/sorti/) and ask it to change a section, update copy, or review a page.
-
-## Related
-
-- [Choose a template](/docs/getting-started/choose-a-template/)
-- [Canvas](/docs/canvas/)
+See [Canvas]({{< relref "canvas/index.md" >}}) and [Git Sync]({{< relref "products/git-sync/get-started/index.md" >}}) for the editing and recovery boundaries.

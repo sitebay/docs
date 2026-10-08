@@ -1,28 +1,33 @@
 ---
-title: "Stop Billing"
-description: "Remove services to stop charges."
+title: Stop a subscription without accidental deletion
+description: Deleting or sleeping a site is not a reliable way to cancel its team subscription.
 published: 2024-04-17
-modified: 2025-12-04
-authors: ["SiteBay"]
-contributors: ["SiteBay"]
+modified: 2026-10-07
+authors:
+- SiteBay
+contributors:
+- SiteBay
 modified_by:
   name: SiteBay
+keywords:
+- stop billing
+- sitebay documentation
+slug: stop-billing
+license: '[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)'
+doc_sources:
+- pricing
+- stripe-portal
+- teams
 ---
 
-Want to stop the meter from running? Since SiteBay charges for what you use, you just need to delete your active services to stop getting billed. No contracts to worry about.
+Deleting or sleeping a site is not a reliable way to cancel its team subscription.
 
-## Delete a WordPress Site
+## Procedure
 
-1. Head to [my.sitebay.org](https://my.sitebay.org) and click on your site.
-2. Go to the **Tools** tab and look for the Danger Zone.
-3. Hit **Delete** and confirm.
+Open Billing for the correct team and follow the cancellation flow for the displayed provider. Review the effective date and remaining obligations before confirming. Shopify billing and Stripe billing have different provider interfaces; do not cancel the wrong relationship.
 
-{{< note type="alert" >}}
-Deleting a site wipes everything—including PIT Machine backups and the underlying Kubernetes pods. If you want to keep your data, pull an external backup before you pull the plug.
-{{< /note >}}
+## Verify and retain evidence
 
-## Nuke the Whole Account
+Refresh the subscription and verify the cancellation state and effective date. Preserve required backups before separately requesting site removal. There is no need to destroy a production site simply to test that cancellation works.
 
-If you want to completely shut down everything, follow the [Cancel Account](/docs/products/platform/accounts/guides/cancel-account/) guide. 
-
-Just a heads-up: if you accrued any charges this month before deleting your services, you'll still get one final invoice for those.
+See [team access and billing]({{< relref "products/platform/teams-and-billing/index.md" >}}) and [the current plan catalog]({{< relref "guides/quick-answers/sitebay-essentials/sitebay-plans/index.md" >}}) for scope and pricing units.

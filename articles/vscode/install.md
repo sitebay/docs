@@ -1,24 +1,35 @@
 ---
-title: "Install The Agent Bridge"
-description: "Install SiteBay Agent Bridge from a VSIX."
-tags: ["sitebay", "vscode"]
+title: Install the SiteBay Agent Bridge
+description: Install the SiteBay Agent Bridge package supplied for your environment. Its extension identifier is
+  sitebay.sitebay-agent-bridge.
+tags:
+- sitebay
+- vscode
 published: 2026-04-28
+authors:
+- SiteBay
+contributors:
+- SiteBay
+keywords:
+- install the agent bridge
+- sitebay documentation
+slug: install
+license: '[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)'
+doc_sources:
+- editor-bridge
+modified: 2026-10-07
 ---
 
-# Install The Agent Bridge
+Install the SiteBay Agent Bridge package supplied for your environment. Its extension identifier is `sitebay.sitebay-agent-bridge`.
 
-Install the SiteBay Agent Bridge VSIX in VS Code or code-server.
+## Install a package
 
-```bash
-code --install-extension sitebay-agent-bridge-0.3.0.vsix
-```
+For a `.vsix` package, open the Command Palette, run **Extensions: Install from VSIX**, and select the trusted package. Reload the extension host if prompted.
 
-In code-server, use the Extensions view or the matching `code-server --install-extension` command.
+Check the installed extension's publisher, identifier, and version. Desktop VS Code and a hosted code-server environment may use different distribution paths; the source manifest alone does not establish a public marketplace release.
 
-## Before You Start
+## Connect
 
-- Use VS Code 1.85 or newer.
-- Keep the extension installed in the workspace where Sorti should operate.
-- Do not install a stale VSIX if SiteBay provides a newer one.
+Open a workspace you trust and follow [Set up the bridge]({{< relref "vscode/setup.md" >}}). Do not place an API key in a repository or a shared settings file.
 
-After installing, open [Setup](/docs/vscode/setup/) to connect the bridge to SiteBay.
+The [VS Code extension guide](https://code.visualstudio.com/docs/configure/extensions/extension-marketplace) describes package installation and updates.

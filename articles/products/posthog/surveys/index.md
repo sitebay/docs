@@ -1,40 +1,41 @@
 ---
 slug: surveys
-description: "PostHog surveys on SiteBay."
-keywords: ["posthog", "surveys", "feedback", "sitebay"]
+description: Use a survey to collect focused feedback from a defined audience.
+keywords:
+- posthog
+- surveys
+- feedback
+- sitebay
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
-modified: 2025-12-04
+modified: 2026-10-07
 modified_by:
   name: SiteBay
 published: 2024-04-20
-title: "Surveys"
-tags: ["sitebay"]
-aliases: ['/quick-answers/sitebay/integrate-posthog-surveys-on-wordpress/']
-authors: ["SiteBay"]
-contributors: ["SiteBay"]
+title: Create a survey
+tags:
+- sitebay
+aliases:
+- /quick-answers/sitebay/integrate-posthog-surveys-on-wordpress/
+authors:
+- SiteBay
+contributors:
+- SiteBay
+doc_sources:
+- analytics-ui
 ---
 
-# Surveys
+Use a survey to collect focused feedback from a defined audience.
 
-Stop guessing what your users want and just ask them. SiteBay's built-in PostHog integration lets you drop native surveys directly onto your WordPress site without installing clunky third-party plugins that slow down your page loads.
+## Draft the questions
 
-## Launching a Survey
+Choose a template or create the survey questions supported by your project. Ask one clear question at a time. Avoid requesting passwords, payment details, or other information the survey does not need.
 
-1. Jump into **Analytics > Surveys > New** from your SiteBay control panel.
-2. Pick the type of survey you want to run.
-3. Choose who sees it (maybe just mobile users, or people who just bought something).
-4. Decide when it pops up (immediately, after 10 seconds, or right as they try to leave the page).
-5. Hit publish.
+## Set display conditions
 
-## What You Can Ask
+Review the target URL, device conditions, event conditions, or linked feature flag used by the survey. Preview it on the intended page and check that it does not obstruct the task being measured.
 
-| Survey Type | Best for |
-|------|-----|
-| **NPS (Net Promoter Score)** | "On a scale of 0-10, how much do you love us?" |
-| **Rating** | Quick 5-star or emoji ratings on a new feature. |
-| **Open Text** | Letting users rant or rave in their own words. |
-| **Multiple Choice** | "How did you hear about us?" |
+## Publish and review
 
-## AI-Powered Feedback Loop
+Launch the survey only after the preview and targeting are correct. Verify a test response, then review results with the audience and collection period in mind. Stop or archive the survey when the research is complete.
 
-Reading through hundreds of open-text responses is painful. Instead, use the **SiteBay MCP Server** to have Claude analyze your survey results automatically. You can also get a quick sentiment analysis summary pinged directly to your **SiteClaw** mobile app, so you know exactly how your users are feeling while you're on the go.
+Record the findings in a [Notebook]({{< relref "products/posthog/notebooks/index.md" >}}), including any limits in who was able to respond.

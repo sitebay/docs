@@ -4,33 +4,45 @@ author:
   name: SiteBay
   email: support@sitebay.org
 contributors:
-  - SiteBay
-description: 'How to find which SiteBay data center you should choose.'
-keywords: ["data center", "datacenter", "speed", "kubernetes"]
+- SiteBay
+description: How to find which SiteBay data center you should choose.
+keywords:
+- data center
+- datacenter
+- speed
+- kubernetes
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
-modified: 2025-05-15
+modified: 2026-10-08
 modified_by:
   name: SiteBay
 published: 2024-04-24
-title: How to Pick a Data Center
-tags: ["sitebay platform"]
-aliases: ['/platform/how-to-pick-a-data-center/']
+title: Choose an available SiteBay region
+tags:
+- sitebay platform
+aliases:
+- /platform/how-to-pick-a-data-center/
+authors:
+- SiteBay
+doc_sources:
+- regions
+- api-contract
 ---
 
-So you're spinning up a new WordPress site and need to pick a data center. Let's keep it simple: the data center is where your Kubernetes pods actually live. Location matters.
+Choose from the region catalog returned by SiteBay rather than an old list of global locations. A provider having a data center in a city does not establish that your SiteBay plan can deploy there.
 
-## Why Location is Key
+## Read the catalog
 
-The closer your data center is to your visitors, the faster your site loads for them. If your Kubernetes cluster is in London but all your users are in New York, it's going to take longer for your site to render. Physical distance still dictates network latency.
+```sh
+curl --fail-with-body --silent --show-error \
+  https://my.sitebay.org/f/api/v1/region
+```
 
-## What's Up with CDNs?
+The response is an array of region records. Use the returned ID or configured region name where the operation requires it; `GET /f/api/v1/region/{region_id}` reads one region and returns not found for an unknown ID. Omission of a region name during site creation uses the account's default region, not a guessed nearest city.
 
-SiteBay automatically hooks up every site to a global CDN. It caches the static stuff—images, CSS, JS—at edge locations all over the world, so your site loads incredibly fast everywhere. But for dynamic content (like processing checkouts or dropping a new blog post), requests still route back to your main data center.
+## Match the region to the workload
 
-## Making the Right Choice
+Check deployment availability in the create-site flow. Consider your audience, required data location, and the latency of databases or services the site calls. An edge cache and an origin region serve different roles: a nearby cache does not move a dynamic WordPress database.
 
-Pick the region closest to where your core audience lives. If most of your traffic comes from the US East Coast, pick a data center there. SiteBay lets you choose exactly where your AI-native WordPress stack gets deployed, ensuring zippy performance where it counts. 
+## Confirm after creation
 
-Want to check where your users actually are? Just pop into your SiteBay dashboard—since it's a fully customized **PostHog** instance, you've got native web analytics and session replays right there to see exactly where your traffic originates. 
-
-Keep it close, keep it fast, and keep your visitors happy.
+Inspect the returned site record and readiness. Changing an existing site's region is not equivalent to changing a browser preference or a DNS record; plan a supported migration and verify the destination before cutover. Review the supported migration method and any expected downtime.
