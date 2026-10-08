@@ -49,7 +49,10 @@
       "files": [
         {
           "path": "sorti/packages/sitebay-client/generated/sitebay-openapi.json",
-          "sha256": "8932ab50bf557e1ab84b06f67fede59b9a031f079504b6fa4b8defab6199ea67"
+          "sha256": "710c2c8f365b8dcbbb22c2871b867721e0f7c220dc3f56e8ccabeefb07fd127a",
+          "previous_review_sha256": "8932ab50bf557e1ab84b06f67fede59b9a031f079504b6fa4b8defab6199ea67",
+          "working_tree_modified": true,
+          "checkout_head": "1edf6c174711e9aba776c7bf922c3f1d294887e5"
         },
         {
           "path": "sitebay/app/api/__init__.py",
@@ -60,7 +63,8 @@
           "sha256": "ec73bdb4790a3b95a75f7530e9037515bb7a3a8773331dd883ddbb5964d377c6"
         }
       ],
-      "urls": []
+      "urls": [],
+      "deployment_review_note": "The source fingerprint changed during infrastructure verification. All 163 selected public operation records were compared and are unchanged; only the source fingerprint was refreshed. No unselected source bytes were copied."
     },
     "lifecycle": {
       "note": "Read status enums and public operation contracts; no customer state changed.",
